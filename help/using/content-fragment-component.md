@@ -10,7 +10,7 @@ topic-tags: 製作
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 
 ## 技術細節 {#technical-details}
 
-有關內容片段元件 [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)。
+有關內容片段元件 [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
 
