@@ -10,7 +10,7 @@ topic-tags: 簡介
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: c44bb0d-7d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -116,11 +116,3 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 由於Foundation元件是許多版本開發的基礎，因此未來將繼續支援它們。
 
 但是，Adobe的開發重點已移轉至核心元件和新功能，但將只會對Foundation元件進行錯誤修正。
-
-<!-- 
-Comment Type: annotation
-Last Modified By: pid90611
-Last Modified Date: 2018-03-27T09:06:05.428-0400
-
-Same comment as above, need to check with Gabriel if this needs some note about what will happen with the deprecated components after the next cycle.
--->
