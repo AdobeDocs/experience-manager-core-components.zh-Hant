@@ -9,7 +9,7 @@ content-type: 引用
 topic-tags: 核心元件
 discoiquuid: 9a290584-565e-43292-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 

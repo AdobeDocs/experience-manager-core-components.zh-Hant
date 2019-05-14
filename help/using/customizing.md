@@ -10,7 +10,7 @@ topic-tags: 開發
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: 3c9e0d-1ce0-4e34-ae04-8da63 f9 b6 c4 f
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
