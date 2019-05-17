@@ -10,7 +10,7 @@ topic-tags: 製作
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
 
 ---
 
@@ -40,6 +40,18 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 | 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
 |--- |--- |--- |---|
 | v1 | 相容相容性 | 相容相容性 | 相容相容性 |
+
+>[!NOTE]
+>
+>在發行2.4.0之前，內容片段元件位於擴充功能資料夾中。
+>
+> `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
+> 
+>從2.4.0移轉至下列位置。
+>
+>`apps/core/wcm/components/contentfragment/v1/contentfragment`
+>
+>雖然兩者都是v1，但從延伸資料夾使用的任何內容片段元件都需要移轉其相關的Proxy元件，以便在升級至2.4.0版或更新版本的核心元件時使用新的資源類型。
 
 如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
 
