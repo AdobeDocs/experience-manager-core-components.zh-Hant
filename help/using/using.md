@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -132,13 +132,13 @@ Load the Core Client Libraries sounds way better
 
 ## 允許元件 {#allow-the-components}
 
-下列步驟通常是在 [範本編輯器中完成](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)，不過，您可以在「設計」模式中完成這項工作：
+[在範本編輯器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)中執行下列步驟。
 
-1. 在範本編輯器(或設計模式)中，選取版面容器(或parsys)，然後開啓其原則(或設計組態)。
+1. 在範本編輯器中，選取「版面容器」並開啓其原則。
 1. 在允許元件的清單中，選取先前建立的Proxy元件，該元件應該顯示在指派給他們的元件群組底下。完成後，請套用變更。
 1. 或者，對於具有設計對話方塊的元件，可以預先設定。
 
-就是在編輯過的範本中，您現在應該能夠使用新建立的元件。
+就是這麼簡單！在編輯過的範本中建立的頁面中，您現在應該能夠使用新建立的元件。
 
 **下一步閱讀：**
 
