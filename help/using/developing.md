@@ -10,7 +10,7 @@ topic-tags: 開發
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013 eeb218
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -45,9 +45,9 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 >[!CAUTION]
 >
->核心元件需要AEM6.3或更新版本和Java8。
+>核心元件需要AEM6.3或更新版本和Java8，並需要使用 [可編輯範本](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->核心元件無法搭配Classic UI運作。
+>核心元件無法使用Classic UI或靜態範本。
 
 ## Gems作業概觀 {#gems-session-overview}
 
@@ -57,7 +57,7 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 ## WKND開發人員教學課程 {#wknd-developer-tutorial}
 
-[透過步驟教學課程，開始使用核心元件來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+透過 [這個逐步教學課程，開始使用核心元件來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## 透過GitHub傳遞 {#delivered-over-github}
 
@@ -168,7 +168,22 @@ GitHub的核心元件將允許經常更新，並聽取AEM開發人員社群的�
 * **現有的自訂元件**如果您的元件如預期般運作，則保留它們。\
    如果沒有，請參閱上述「新增自訂元件」。
 
-### 核心元件支援 {#core-component-support}
+## 移轉至核心元件
+
+任何新專案都應使用核心元件實施。不過，現有專案通常會大量建置Foundation元件。
+
+對現有專案(例如重新品牌或整體重構)投入較大的心力通常會提供移轉至核心元件的機會。為促進此項移轉，Adobe提供了許多移轉工具，以鼓勵核心元件和最新的AEM技術採用。
+
+[AEM Moderize Tools Suite](https://github.com/adobe/aem-modernize-tools) 可讓您輕鬆轉換：
+
+* 靜態範本至可編輯範本
+* 設計原則的組態
+* Foundation Components to Core Components
+* Classic UI至觸控式UI
+
+有關使用這些工具的詳細資訊，請 [參閱文件](https://www.adobe.com/go/aem_modernize_tools_en)。
+
+## 核心元件支援 {#core-component-support}
 
 核心元件是AEM中不可或缺的一部分，並受支援，如同使用QuickStart傳遞一樣。
 
@@ -178,11 +193,11 @@ GitHub的核心元件將允許經常更新，並聽取AEM開發人員社群的�
 
 如需元件自訂支援的詳細資訊，請參閱 [「自訂核心元件](customizing.md) 」頁面。
 
-### Foundation Component支援 {#foundation-component-support}
+## Foundation Component支援 {#foundation-component-support}
 
-由於基礎元件是許多版本開發的基礎，因此未來將繼續支援它們。
+由於基礎元件在許多AEM版本上都是如此多的專案開發，所以未來將繼續支援它們。
 
-但是，Adobe的開發重點已移轉至核心元件和新功能，而將會對基礎元件進行錯誤修正
+但是，Adobe的開發重點已移轉至核心元件和新功能，而 [幾乎所有的Foundation元件都已停用AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) ，而Foundation元件後續只會修正錯誤。
 
 **下一步閱讀：**
 
