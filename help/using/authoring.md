@@ -8,7 +8,7 @@ content-type: 引用
 topic-tags: 製作
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -19,25 +19,25 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 核心元件提供有彈性且功能豐富的編寫功能。[We. Retail參考網站](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 說明如何使用核心元件。
 
+若要體驗核心元件並查看其組態選項以及HTML和JSON輸出的範例，請造訪 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
+
 >[!NOTE]
 >
->無法立即將核心元件用於作者， [開發團隊必須先將它們整合至您的環境](using.md)。整合後，即可透過 [範本編輯器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 或 [設計模式提供並預先設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)。
+>無法立即將核心元件用於作者， [開發團隊必須先將它們整合至您的環境](using.md)。整合後，即可透過 [範本編輯器提供並預先設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
 
 >[!CAUTION]
 >
->核心元件 [需要AEM6.3或更新版本](versions.md) ，而且無法使用Classic UI。
+>核心元件 [需要AEM6.3或更新版本](versions.md) ，而且需要使用 [可編輯的範本](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。無法使用Classic UI或靜態範本。
 
 ## 使用核心元件編寫 {#authoring-with-core-components}
-
-若要瞭解核心元件，請查看 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library.html)，其中顯示核心元件並提供其用法範例。
 
 身為作者，您會注意到核心元件的幾項優點，包括：
 
 * 簡單易用並與 [頁面編輯器整合](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
-* 適合許多使用案例的功能，如我們零售零售業 [所說明](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
-* [預先設定](#pre-configuring-core-components) ，可定義哪些功能可供頁面作者使用
-   * 透過 [範本編輯器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 編輯 [可編輯範本](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)
-   * 透過 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)[靜態範本的設計模式](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)
+
+* 功能豐富的功能，可容納許多使用案例，如 [我們在零售和](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)[元件庫中所說明](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+
+* [預先設定](#pre-configuring-core-components) ，可定義哪些功能可透過 [範本編輯器提供給頁面作者](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * 圍繞 [協助工具方針建立](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
@@ -55,7 +55,7 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 ## 預先設定核心元件 {#pre-configuring-core-components}
 
-設定Foundation元件是開發人員的工作。不過，有了核心元件，範本作者現在可以透過範本編輯器或設計模式來設定一些功能。
+設定Foundation元件是開發人員的工作。不過，有了核心元件，範本作者現在可以透過範本編輯器來設定一些功能。
 
 例如，如果影像元件不允許從檔案系統上傳影像，或文字元件只允許某些段落格式設定，則只需按一下即可啓用或停用這些功能。
 
