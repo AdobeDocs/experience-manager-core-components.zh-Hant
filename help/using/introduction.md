@@ -10,7 +10,7 @@ topic-tags: 簡介
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: c44bb0d-7d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
 
 ## WKND開發人員教學課程 {#wknd-developer-tutorial}
 
-[透過步驟教學課程，開始使用核心元件來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+透過步驟教學課程， [開始使用核心元件來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## 核心元件支援 {#core-components-support}
 
@@ -115,4 +115,4 @@ source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
 
 由於Foundation元件是許多版本開發的基礎，因此未來將繼續支援它們。
 
-但是，Adobe的開發重點已移轉至核心元件和新功能，但將只會對Foundation元件進行錯誤修正。
+但是，Adobe的開發重點已移轉至核心元件和新功能，而 [幾乎所有的Foundation元件都已停用AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) ，而Foundation元件後續只會修正錯誤。
