@@ -10,20 +10,20 @@ topic-tags: 簡介
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fbc
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
 
 ---
 
 
-# 核心元件版本{#core-components-versions}
+# Core Components Versions{#core-components-versions}
 
 目前的核心元件版本為2.4.0，與AEM6.5相容。它於2019年月發行，以小幅更新2.0.0版。版本2.0.0推出新元件以及現有元件的v更新。
 
-如需詳細資訊，請參閱本文件的章節 [發行歷史和相容性](#versions-and-releases) 。
+See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
-您也可以查看 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library.html)，其中顯示目前版本的核心元件，並提供其使用範例。
+You can also check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
 
-## 版本與版本 {#versions-and-releases}
+## Versions and Releases {#versions-and-releases}
 
 核心元件是透過GitHub分發。這可讓Adobe更快速地新增功能至元件，並允許AEM發行週期以外的社群輸入。
 
@@ -31,15 +31,15 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 
 ### 版本 {#versions}
 
-核心元件的主要反覆出現在 **版本**中。每個元件都有一個版本。版本會加上非零的 **v** 表示，正整數(例如v和v2)。版本僅會增加不相容的變更，通常是用於引入新功能和功能的案例。
+The major iteration of the Core Components are the **versions**. 每個元件都有一個版本。Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. 版本僅會增加不相容的變更，通常是用於引入新功能和功能的案例。
 
-開發人員和管理員可透過其資源類型路徑中的數字，以及其建置的完全合格Java類別名稱，來識別核心元件的版本。此版本號碼代表一個主要版本，由 [語義版本修訂指引定義](https://semver.org/)。
+開發人員和管理員可透過其資源類型路徑中的數字，以及其建置的完全合格Java類別名稱，來識別核心元件的版本。This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
 
-如需核心元件版本的詳細資訊，請參閱核心元件 [的開發人員文件](guidelines.md)。
+For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
 
-### 發行版本 {#releases}
+### Releases {#releases}
 
-核心元件可 **透過發行版本提供** ， [並代表已發佈在GitHub](https://github.com/adobe/aem-core-wcm-components/releases)上的實際發佈項目。版本以X.Y.Z格式表示，並將所有核心元件一起收集為可傳送套件。
+The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). 版本以X.Y.Z格式表示，並將所有核心元件一起收集為可傳送套件。
 
 * **主要版本** 可推出新版本的現有元件以及全新元件以及標準錯誤修正。這是由版本號碼X元件的遞增表示。
 
@@ -53,15 +53,15 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 >
 >同一個元件版本可以出現在多個版本中。
 
-## 發行歷史與相容性 {#release-history-and-compatibility}
+## Release History and Compatibility {#release-history-and-compatibility}
 
 核心元件最初是使用AEM6.3發行，其設計目的在於靈活彈性並與所有支援的AEM版本相容。因此，元件的版本可以包含相同元件的多個版本。
 
 下表說明核心元件版本與元件版本的相容性。
 
-### 發行歷史記錄與支援的AEM版本 {#release-history-supported-aem-versions}
+### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
 
-下表列出GitHub [提供的完整版本詳細資訊](https://github.com/adobe/aem-core-wcm-components/releases)，並概述核心元件版本及其與AEM版本和Java版本的相容性。
+The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
 
 | 版本 | 說明 | AEM6.3 | AEM6.4 | AEM6.5 | Java |
 |---|---|---|---|---|---|
@@ -83,9 +83,9 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 
 >[!NOTE]
 >
->與AEM一樣，Adobe建議開發人員使用可與AEM版本相容的 [最新版本和版本，](https://github.com/adobe/aem-core-wcm-components/releases/latest) 以便從最新的修正和功能中獲益。
+>As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
 
-### 元件版本與發行{component-versions-and-elease}
+### Component Versions &amp; Releases {#component-versions-and-releases}
 
 下表詳細說明核心元件版本包含哪些元件。
 
@@ -102,14 +102,14 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 | **[表單選項](form-options.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
 | **[已隱藏的表單](form-hidden.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
 | **[表單按鈕](form-button.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[內容片段](content-fragment-component.md)** | 沙盤 | v1 | v1 | v1 | v1 |
-| **[導覽](navigation.md)** | v1 | v1 | v1 | v1 |
-| **[語言導覽](language-navigation.md)** | v1 | v1 | v1 | v1 |
-| **[快速搜尋](quick-search.md)** | v1 | v1 | v1 | v1 |
-| **[Teaser](teaser.md)** | v1 | v1 | v1 |
-| **[標籤](tabs.md)** | v1 | v1 |
-| **[轉盤](carousel.md)** | v1 | v1 |
-| **[分隔符號](separator.md)** | v1 |
+| **[內容片段](content-fragment-component.md)** |  | 沙盤 | v1 | v1 | v1 | v1 |
+| **[導覽](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[語言導覽](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[快速搜尋](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 |
+| **[標籤](tabs.md)** |  |  |  |  | v1 | v1 |
+| **[轉盤](carousel.md)** |  |  |  |  | v1 | v1 |
+| **[分隔符號](separator.md)** |  |  |  |  |  | v1 |
 
 ## 文件 {#documentation}
 
