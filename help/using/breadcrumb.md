@@ -11,12 +11,12 @@ products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: dd237df-08b8-4deb-9881-66a1f0d65ef3
 modalsize: 426x240
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
 
 ---
 
 
-# 階層連結元件{#breadcrumb-component}
+# Breadcrumb Component{#breadcrumb-component}
 
 核心元件階層連結元件是一個導覽元件，可根據頁面的內容階層中的位置建立連結的導覽路徑標示。
 
@@ -24,9 +24,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 階層連結元件會顯示網站階層內目前頁面的位置，讓頁面訪客可從其目前位置導覽頁面階層。這通常會與頁首或頁尾整合。
 
-可用選項，例如預設導覽層級，以及顯示目前頁面或隱藏頁面的能力，可由 [設計對話方塊中的範本作者定義](#design-dialog)。然後內容編輯器可選擇是否應顯示隱藏頁面，並在 [編輯對話方塊中顯示元件的實際導覽層級](#edit-dialog)。
+Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](#design-dialog). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](#edit-dialog).
 
-## 版本與相容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Breadcrumb Component is v2，that which was be intenducated with the release2.0.0of the Core Components in18，and is described in this document.
 
@@ -37,94 +37,23 @@ The current version of the Breadcrumb Component is v2，that which was be intend
 | v2 | 相容相容性 | 相容相容性 | 相容相容性 |
 | [v1](breadcrumb-v1.md) | 相容相容性 | 相容相容性 | 相容相容性 |
 
-如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## 元件輸出範例 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)業」的範例。
-
-### 螢幕擷圖 {#screenshot}
-
-![](assets/chlimage_1.png)
-
-### HTML {#html}
-
-```
-<nav class="cmp-breadcrumb">
-    <ol class="cmp-breadcrumb__list">
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us.html" class="cmp-breadcrumb__item-link">
-                United States
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us/en.html" class="cmp-breadcrumb__item-link">
-                English
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active">
-            
-                Experience
-            
-        </li>
-    </ol>
-</nav>
-```
-
-### JSON {#json}
-
-```
-"breadcrumb":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "items":[  
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us",
-                              "pageTitle":null,
-                              "name":"us",
-                              "description":null,
-                              "title":"United States"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en",
-                              "pageTitle":null,
-                              "name":"en",
-                              "description":null,
-                              "title":"English"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en/experience",
-                              "pageTitle":null,
-                              "name":"experience",
-                              "description":null,
-                              "title":"Experience"
-                           },
-                           "active":true
-                        }
-                     ],
-                     ":type":"weretail/components/content/breadcrumb"
-                  }
-```
+To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb.html).
 
 >[!NOTE]
 >
->從核心元件2.1.0版開始，階層連結元件支援 [schema.org微型資料](https://schema.org/BreadcrumbList)。
+>As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
 
-### 技術細節 {#technical-details}
+## Technical Details {#technical-details}
 
-有關階層連結元件的 [最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)。
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-## 編輯對話方塊 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編輯對話方塊可讓內容作者抑制網站導覽路徑標示中隱藏和作用中頁面，以及應顯示階層中的深度。
 
@@ -132,19 +61,19 @@ The current version of the Breadcrumb Component is v2，that which was be intend
 
 * **導覽開始層級** -階層中的階層連結元件應該開始向下移至目前頁面。例如在我們的零售業：
 
-   * 0開始於 `/content`
+   * 0 starts at `/content`
 
-   * 1開始於 `/content/we-retail`
-   * 開始於 `/content/we-retail/<country>`
+   * 1 starts at `/content/we-retail`
+   * 2 starts at `/content/we-retail/<country>`
 
 * **顯示隱藏導覽項目** -顯示標示為隱藏在導覽路徑標示中的頁面(依預設不會顯示)
 * **隱藏目前頁面**-抑制目前頁面中的目前頁面(依預設會顯示)
 
-## 設計對話方塊 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define what the default value are for the options tocre抑制hideo and active page in the breadcrumbs and should should should shown.
 
-### 主標籤 {#main-tab}
+### Main Tab {#main-tab}
 
 ![](assets/screen_shot_2018-01-12at124437.png)
 
@@ -157,6 +86,6 @@ The design dialog allows the template author to define what the default value ar
 
    * 它不會啓用或停用作者的選項。它只會設定預設值。
 
-### 樣式標籤 {#styles-tab}
+### Styles Tab {#styles-tab}
 
-階層連結元件支援AEM [樣式系統](authoring.md#component-styling)。
+The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
