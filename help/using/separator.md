@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: 引用
 topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 分隔符號元件可讓內容作者輕鬆建立水平規則作為內容之間的分支，以更好地組織頁面上的資訊。
 
-## 版本與相容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 目前版本的分隔元件元件是v1，它是在2019年月發行的版本2.3.0推出，並在本文中說明。
 
@@ -30,32 +30,24 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 |---|---|---|---|
 | v1 | 相容相容性 | 相容相容性 | 相容相容性 |
 
-## 元件輸出範例 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)業」的範例。
+To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
-### 螢幕擷圖 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screen_shot_2019-02-07at09.38.58.png)
+The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
-### 元件庫
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-若要體驗分隔符號元件，以及查看其組態選項以及HTML和JSON輸出的範例，請造訪 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)。
-
-### 技術細節 {#technical-details}
-
-有關分隔元件的 [最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)。
-
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
-
-## 設定對話方塊 {#configure-dialog}
+## Configure Dialog {#configure-dialog}
 
 分隔符號元件沒有設定對話方塊。
 
-## 設計對話方塊 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 設計對話方塊可讓範本作者定義套用至分隔符號元件的樣式。
 
-### 樣式標籤 {#styles-tab}
+### Styles Tab {#styles-tab}
 
-分隔符號元件支援AEM [樣式系統](authoring.md#component-styling)。
+The Separator Component supports the AEM [Style System](authoring.md#component-styling).
