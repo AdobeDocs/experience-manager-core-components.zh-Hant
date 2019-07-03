@@ -9,7 +9,7 @@ content-type: 引用
 topic-tags: 核心元件
 discoiquuid: 9a290584-565e-43292-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -22,9 +22,9 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 文字元件提供強穩的豐富文字編輯器，可讓您以簡化的線上編輯器以及全螢幕格式輕鬆編輯文字。
 
-[編輯對話方塊](#edit-dialog) 使用有限選項進行線上編輯，全螢幕編輯對話方塊提供完整功能。使用 [設計對話方塊](#design-dialog)，可以為內容作者的範本設定文字格式選項，例如標題、特殊字元和段落樣式。
+[編輯對話方塊](#edit-dialog) 使用有限選項進行線上編輯，全螢幕編輯對話方塊提供完整功能。Using the [design dialog](#design-dialog), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
 
-## 版本與相容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 目前版本的文字元件是v2，是在2018年月發行的版本2.0.0推出，並在本文中說明。
 
@@ -35,37 +35,29 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 | v2 | 相容相容性 | 相容相容性 | 相容相容性 |
 | [v1](text-v1.md) | 相容相容性 | 相容相容性 | 相容相容性 |
 
-如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## 元件輸出範例 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)業」的範例。
+To experience the Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
 
-### 螢幕擷圖 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-27.png)
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
 
-### 元件庫
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-若要體驗文字元件，以及查看其組態選項以及HTML和JSON輸出的範例，請造訪 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library/text.html)。
+## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-### 技術細節 {#technical-details}
-
-有關文字元件 [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)。
-
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
-
-## 文字元件和Rich Text Editor {#the-text-component-and-the-rich-text-editor}
-
-核心元件文字元件運用AEM Rich Text Editor(RTE)。RTE為內容作者提供多種功能來編輯其文字內容。RTE在其配置中非常有彈性，並提供許多選項。如需如何設定RTE的詳細資訊，請參閱 [「設定Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 」和 [「Configure the Rich Text Editor增效模組](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)」。
+核心元件文字元件運用AEM Rich Text Editor(RTE)。RTE為內容作者提供多種功能來編輯其文字內容。RTE在其配置中非常有彈性，並提供許多選項。Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 本文的其餘部分說明核心元件文字元件的標準配置，以及立即可用的RTE組態。
 
 >[!NOTE]
 >
->只有在文字元件中才能使用 [由RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 設定啓用的選項。
+>Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
 
-## 編輯對話方塊 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編輯對話方塊提供使用者預期要編寫文字的標準豐富文字格式工具。
 
@@ -159,9 +151,9 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 ![](assets/screen_shot_2018-01-11at130107.png)
 
-輸入您要搜尋並點選的文字，或按一下 **「尋找」** 開始搜尋。點選或按一下x以取消。
-如果您想要根據個案做完全符合，請先選取 **「符合大小寫」** ，再開始搜尋。
-如果找到相符項目，則會反白顯示，搜尋對話方塊會暗灰色。點選或按一下灰色對話方塊中 **的「尋找** 」按鈕，即可搜尋下一個出現的事件。
+Enter the text for which you want to search and tap or click **Find** to begin the search. 點選或按一下x以取消。
+If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
+如果找到相符項目，則會反白顯示，搜尋對話方塊會暗灰色。Tap or click the **Find** button again in the dimmed dialog to search for the next occurrence.
 
 ![](assets/screen_shot_2018-01-11at130145.png)
 
@@ -179,13 +171,13 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 輸入您要搜尋的文字，以及應取代的文字。
 
-點選或按一下 **「尋找** 」以開始搜尋。按一下或點選x以取消。
+Tap or click **Find** to begin the search. 按一下或點選x以取消。
 
-如果您想要根據個案做完全符合，請先選取 **「符合大小寫」** ，再開始搜尋。
+If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
 
-如果找到相符項目，則會反白顯示，搜尋對話方塊會暗灰色。在灰色對話方塊中再次按一下 **「尋找** 」按鈕，以搜尋下一個出現的事件，或選取 **「取代」** 按鈕以取代反白顯示的文字。請注意， **「取代」** 按鈕只會在完成相符動作後作用中。
+如果找到相符項目，則會反白顯示，搜尋對話方塊會暗灰色。Click the **Find** button again in the dimmed dialog to search for the next occurrence or select the **Replace** button to replace the highlighted, matched text. Note that the **Replace** button is only active once a match is made.
 
-選取 **「取代全部** 」，一次取代所有文字。
+Select **Replace all** to replace all occurrences of the text at once.
 
 ### 向左對齊文字
 
@@ -211,7 +203,7 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 用於將選取的文字格式化為項目清單，或開始插入游標後的項目清單。
 
-若要結束項目清單，請點選或按一下 **「子彈」** 按鈕，或輸入兩個歸位。
+To end a bulleted list, tap or click the **Bullet** button again or enter two carriage returns.
 
 ### 編號編號
 
@@ -219,7 +211,7 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 用以將選取的文字格式化為編號清單，或開始插入游標後的編號清單。
 
-若要結束編號清單，請點選或按一下 **「編號** 」按鈕，或輸入兩個歸位。
+To end a numbered list, tap or click the **Numbered** button again or enter two carriage returns.
 
 ### 凸排
 
@@ -244,12 +236,12 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 ![](assets/screen_shot_2018-01-11at142405.png)
 
 * **欄**：表格的欄數(必要)
-* **列**表格的列數(必要)
+* **列** 表格的列數(必要)
 * **寬度**：表格寬度
 * **高度**：表格高度
-* **儲存格填補**儲存格內容周圍的空間
-* **儲存格間隔**儲存格之間的間距
-* **邊框**邊框線的粗細
+* **儲存格填補** 儲存格內容周圍的空間
+* **儲存格間隔** 儲存格之間的間距
+* **邊框** 邊框線的粗細
 * 如果表格標題：
    * 應使用第一列
    * 應使用第一欄
@@ -263,7 +255,7 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 用來檢查文字內容的拼字。有破損的紅線會強調顯示可能拼字錯誤。
 
-有關拼字檢查和自訂拼字檢查字典的詳細資訊，請參閱 [「設定Rich Text Editor增效模組」文件](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 ### 特殊字元 {#special-characters}
 
@@ -281,17 +273,17 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 用於檢視和修改文字的HTML來源。
 
-點選或按一下 **「來源編輯** 」圖示，即可變更格式化檢視中文字的內容，以檢視原始HTML。在此模式中，所有其他格式選項都會停用。點選或再次按一下 **「來源編輯** 」圖示，返回格式化檢視。
+Tap or click the **Source Edit** icon to change the content of the text from the formatted view to view the raw HTML. 在此模式中，所有其他格式選項都會停用。Tap or click the **Source Edit** icon again to return to the formatted view.
 
 >[!CAUTION]
 >
->隨時都能存取原始HTML，因此使用 **「來源編輯」** 選項時必須小心！
+>As always the case with access to raw HTML, care must be exercised when using the **Source Edit** option!
 >
->透過 **Source Edit** 輸入的HTML會掃描為XSS風險，而插入的任何指令碼都會被移除，而不會出現在產生的頁面上。但是在「Source Edit」(原始碼編輯 **** )中輸入格式錯誤的HTML可能會中斷頁面的範本，造成意外格式或導致產生的頁面無法使用。
+>HTML entered via **Source Edit** is scanned for XSS risks and any scripts that are inserted are removed and will not appear on the resulting page. However malformed HTML entered in **Source Edit** can break the template for the page resulting in unexpected formatting or rendering the resulting page unusable.
 
 >[!NOTE]
 >
->因為透過 **「Source Edit」(原始碼編輯** )輸入的HTML會掃描為XSS風險和任何指令碼，並自動移除這些檔案，所以實際內容可能會與 **「來源編輯**」中輸入的內容有所不同。因此，若要儲存使用 **「來源編輯**」所做的變更，您必須先退出 **「來源編輯」** ，才能在一般編輯器中檢視文字，然後再儲存。
+>Because HTML entered via **Source Edit** is scanned for XSS risks and any scripts and automatically removes those found, the actual content persisted may vary from what was entered in **Source Edit**. For this reason, in order to save changes made using **Source Edit**, you must first exit **Source Edit** to view the text in the normal editor before saving.
 
 ### 段落格式
 
@@ -305,11 +297,11 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 ![](assets/screen_shot_2018-01-11at142921.png)
 
-## 設計對話方塊 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者可用的文字格式化選項。
 
-### 外掛程式索引標籤 {#plugins-tab}
+### Plugins Tab {#plugins-tab}
 
 「外掛程式」索引標籤可用來啓用和停用內容作者可用的各種文字格式化選項。
 
@@ -344,22 +336,22 @@ Core Component Text Component是一種豐富的文字編輯與構圖元件，可
 
 可為元件啓用或停用段落樣式。啓動後，可定義允許的格式。
 
-* 點選或按一下「 **新增** 」按鈕，插入新樣式。
+* Tap or click the **Add** button to insert a new style.
 * 輸入樣式的程式碼和將顯示在編輯對話方塊中的說明。
-* 若要移除樣式點選，或按一下 **「刪除」** 按鈕。
+* To remove a style tap or click the **Delete** button.
 * 若要重新排列格式的順序，請點選或點選並拖曳控制點。
 
-### 設定特殊字元 {#configuring-special-characters}
+### Configuring Special Characters {#configuring-special-characters}
 
 ![](assets/chlimage_1-31.png)
 
 可為元件啓用或停用插入特殊字元的選項。啓動後，可定義允許的字元。
 
-* 點選或按一下「 **新增** 」按鈕，插入新字元。
+* Tap or click the **Add** button to insert a new character.
 * 輸入字元的HTML程式碼和將顯示在編輯對話方塊中的說明。
-* 若要移除字元，或按一下 **「刪除」** 按鈕。
+* To remove a character tap or click the **Delete** button.
 * 若要重新排列字元順序，請點選或點選並拖曳控制點。
 
-## 樣式標籤 {#styles-tab}
+## Styles Tab {#styles-tab}
 
-文字元件支援AEM [樣式系統](authoring.md#component-styling)。
+The Text Component supports the AEM [style system](authoring.md#component-styling).
