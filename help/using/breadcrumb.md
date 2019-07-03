@@ -11,7 +11,7 @@ products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: dd237df-08b8-4deb-9881-66a1f0d65ef3
 modalsize: 426x240
 translation-type: tm+mt
-source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -41,7 +41,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb.html).
+To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html).
 
 >[!NOTE]
 >
