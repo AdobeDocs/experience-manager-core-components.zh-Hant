@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -54,7 +54,7 @@ To experience the Navigation Component as well as see examples of its configurat
 
 The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md.
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 >[!NOTE]
 >
