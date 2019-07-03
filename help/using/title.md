@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
 
 ## 使用狀況 {#usage}
 
-「標題元件」旨在做為內容區段的標題或標題。可用的標題層級可由 [設計對話方塊中的範本作者定義](#design-dialog)。內容編輯器可從 [編輯對話方塊](#edit-dialog)中選擇可用標題層級。為方便您加入，也提供簡單的標題文字就地編輯功能。
+「標題元件」旨在做為內容區段的標題或標題。The available heading levels can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available headings levels in the [edit dialog](#edit-dialog). 為方便您加入，也提供簡單的標題文字就地編輯功能。
 
-## 版本與相容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 目前版本的Title Component is v2，它是在2018年月發行的版本2.0.0推出，並在本文中說明。
 
@@ -37,27 +37,19 @@ source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
 | v2 | 相容相容性 | 相容相容性 | 相容相容性 |
 | [v1](title-v1.md) | 相容相容性 | 相容相容性 | 相容相容性 |
 
-如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## 元件輸出範例 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)業」的範例。
+To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
 
-### 螢幕擷圖 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-36.png)
+The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
 
-### 元件庫
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-若要體驗「標題元件」，以及查看其組態選項以及HTML和JSON輸出的範例，請造訪 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library/title.html)。
-
-### 技術細節 {#technical-details}
-
-有關Title Component [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)。
-
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
-
-## 編輯對話方塊 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編輯對話方塊可讓內容作者定義標題文字，並選取標題層級。
 
@@ -75,11 +67,11 @@ source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
 
 ![](assets/chlimage_1-37.png)
 
-## 設計對話方塊 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 此設計對話方塊可讓範本作者定義內容作者建立時，標題元件將擁有的預設標題層級。
 
-### 大小標籤 {#sizes-tab}
+### Sizes Tab {#sizes-tab}
 
 ![](assets/screenshot_2018-10-19at110120.png)
 
@@ -91,6 +83,6 @@ source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
 >
 >The ability to define a link for the title is delated with the release2.2.0of the Core Components.
 
-### 樣式標籤 {#styles-tab}
+### Styles Tab {#styles-tab}
 
-「標題元件」支援AEM [樣式系統](authoring.md#component-styling)。
+The Title Component supports the AEM [Style System](authoring.md#component-styling).
