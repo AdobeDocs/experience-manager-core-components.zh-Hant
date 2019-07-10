@@ -10,7 +10,7 @@ topic-tags: 開發
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013 eeb218
 translation-type: tm+mt
-source-git-commit: bea783936100abe899f9b60e4a09522514755db2
+source-git-commit: f30a6a9f4d41c672472beb60767f3766479d9c16
 
 ---
 
@@ -143,12 +143,9 @@ For details about their authoring capabilities and options to pre-configurable t
 | [按鈕](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 在頁面上建立按鈕 | `-` |
 | [下載](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 將可下載的資產新增至頁面 | `-` |
 
-### Upcoming components {#upcoming-components}
+### Upcoming Components {#upcoming-components}
 
-目前正積極開發下列核心元件。They haven&#39;t been released yet, but can be previewed in the [development branch](https://github.com/adobe/aem-core-wcm-components/tree/development):
-
-* 內嵌
-* 模型
+For an overview of the upcoming Core Componente roadmap see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Upgrade of Core Components {#upgrade-of-core-components}
 
