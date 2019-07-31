@@ -1,5 +1,5 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
 translation-type: tm+mt
 
 ---
@@ -31,15 +31,15 @@ AEM文件涵蓋標準使用案例。超出標準安裝與使用產品的使用�
 
 ### 文件稿件不用於回答技術問題。
 
-我們竭誠歡迎您改善AEM說明文件。但是，不能使用貢獻來回答您如何使用AEM或解決技術問題的問題。
+我們竭誠歡迎您改善AEM說明文件。However comments, issues, and pull requests are intended for *contributions* only. 這些問題並非用來回答您如何使用AEM或解決技術問題的問題。
 
-任何關於AEM或技術錯誤使用的問題，必須透過一般支援程序報告，或在AEM使用者論壇中討論。
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***AEM文件稿件不能取代Adobe支援*** ，任何此類捐款將遭到拒絕。
+***AEM文件稿件不能取代Adobe支援*** ，而且任何尋求支援相關問題答案的捐款都將遭到拒絕。
 
 ### 貢獻必須清楚參照受影響的文件頁面。
 
-如果您建立問題以建議文件改進，則必須包含受影響頁面的連結。如果您在文件頁面上使用 **「編輯此頁面** 」連結建立期刊，將會自動使用頁面連結建立期刊。
+如果您建立問題以建議文件改進，則必須包含受影響頁面的連結。If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
 
 這不適用於提取請求，因為提取請求依定義包含受影響的頁面。
 
@@ -83,6 +83,6 @@ AEM文件涵蓋標準使用案例。超出標準安裝與使用產品的使用�
 
 ### 使用日、AEM、CQ、CRX
 
-產品在文章中一律應以其完整名稱 **Adobe Experience Manager** 加以參照，之後即稱為 **AEM**。
+The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **AEM**.
 
 除非不可避免的類別或提及AEM歷史，否則不應使用日、日軟體、CQ和CRX。
