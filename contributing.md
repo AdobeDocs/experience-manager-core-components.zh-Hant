@@ -1,5 +1,5 @@
 ---
-source-git-commit: 396d7c04712f575fd5ce67892448dedaab5dbd45
+source-git-commit: 3113ed985136880c33302d2ab3504be16c5ed963
 translation-type: tm+mt
 
 ---
@@ -11,11 +11,11 @@ translation-type: tm+mt
 
 ## Adobe Open Source Code of Conduct
 
-This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md). 透過對AEM文件的貢獻，您同意遵守本規範。Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+本專案已採用 [Adobe Open Source Code of Conduct](code-of-conduct.md)。透過對AEM文件的貢獻，您同意遵守本規範。Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## AEM文件的貢獻指引
 
-雖然我們歡迎任何貢獻來改善AEM文件，但我們確實要求貢獻遵守某些准則和標準。Please review the [Guidelines for Contributing to AEM Documentation](guidelines.md) for more information.
+雖然我們歡迎任何貢獻來改善AEM文件，但我們確實要求貢獻遵守某些准則和標準。如需詳細資訊，請參閱「提供給AEM文件 [](guidelines.md) 的准則」。
 
 ## 如何使用Contribute
 
@@ -27,19 +27,19 @@ This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct
 
 ### 次要變更
 
-To submit minor updates, click the **Edit** link in an article, which opens the source article in GitHub. 使用GitHub UI進行更新。See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
+若要提交次要更新，請按一下文章中 **的編輯** 連結，以開啓GitHub中的來源文章。使用GitHub UI進行更新。如需詳細資訊，請參閱一般 [Adobe Docs投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 。
 
 Adobe使用條款涵蓋您提交之文件及程式碼範例的次要更正或說明。
 
 ### 社群成員的主要變更或新文章
 
-If you're part of the Adobe community and want to create an article or submit major changes, click the **Issues** tab in the GitHub repository to submit an issue. 此提交會開始與文件團隊對話。您必須與作者(或其他Adobe員工)合作才能發佈新內容。
+如果您隸屬於Adobe社群，並且想要建立文章或提交重大變更，請按一下GitHub存放庫中的「 **期刊** 」索引標籤提交問題。此提交會開始與文件團隊對話。您必須與作者(或其他Adobe員工)合作才能發佈新內容。
 
 如果您提交提取要求給文件和程式碼範例大幅變更，您會在提取要求中看到一則訊息，要求您提交線上貢獻授權合約(CLA)。您必須先完成線上表格，才能檢閱您的提取要求。
 
 ### Adobe員工的主要變更
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution, and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`.
+如果您是Adobe Experience Cloud解決方案的技術撰稿人、方案經理或產品團隊的開發人員，而且您的工作是貢獻或製作技術文章，您應該使用私人存放庫 `https://git.corp.adobe.com/AdobeDocs`。
 
 Adobe其他部分的Adobe員工應使用公開PO進行小幅更新。
 
@@ -51,7 +51,7 @@ Adobe其他部分的Adobe員工應使用公開PO進行小幅更新。
 
 社群參與者可使用GitHub UI進行基本編輯或回推，以做出重大貢獻。
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for an overview of how to use the GitHub authoring platform.
+如需如何使用GitHub製作平台的概述，請參閱 [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 。
 
 ## 如何使用標記來格式化主題
 
