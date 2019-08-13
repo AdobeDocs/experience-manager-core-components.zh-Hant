@@ -1,11 +1,11 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 3113ed985136880c33302d2ab3504be16c5ed963
 translation-type: tm+mt
 
 ---
 # MIT License
 
-©版權所有2018Adobe.版權所有。
+© Copyright2019Adobe.版權所有。
 
 對於取得本軟體及相關文件檔案(「軟體」)之任何使用者，如有任何限制，即有權免費取得本軟體之副本，包括但不限於使用、複製、修改、合併、發佈、分發、轉授權及/或銷售本軟體之副本，以及允許本軟體的使用者遵守下列條件之權利：
 
