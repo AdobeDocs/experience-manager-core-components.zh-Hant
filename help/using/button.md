@@ -10,12 +10,12 @@ topic-tags: 製作
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
 translation-type: tm+mt
-source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
+source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
 
-# Button Component{#button-component}
+# 按鈕元件{#button-component}
 
 核心元件按鈕元件可讓您在頁面上設定和顯示按鈕項目。
 
@@ -23,10 +23,10 @@ source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 
 核心元件按鈕元件可讓您加入頁面上的按鈕。
 
-* The button&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Styles for the Button Component can be defined in the [design dialog](#design-dialog).
+* 您可以在 [設定對話方塊](#configure-dialog)中選取按鈕的屬性。
+* 按鈕元件的樣式可在 [設計對話方塊中定義](#design-dialog)。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前版本的Button元件是v1，是在2019年月發行的版本2.5.0推出的v1，本文中說明。
 
@@ -36,31 +36,41 @@ source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 |--- |--- |--- |---|
 | v1 | 相容相容性 | 相容相容性 | 相容相容性 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 元件輸出範例 {#sample-component-output}
 
-To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+若要體驗Button元件，以及查看其組態選項以及HTML和JSON輸出的範例，請造訪 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)。
 
-## Technical Details {#technical-details}
+## 技術細節 {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+有關按鈕元件 [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 設定對話方塊 {#configure-dialog}
 
 設定對話方塊可讓內容作者定義按鈕，以及該按鈕對頁面的行為和顯示方式。
 
-![](assets/screen-shot-2019-06-17-11.26.13.png)
+### 屬性索引標籤 {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.32.png)
 
 * **文字** -要在按鈕上顯示的文字
 * **連結** -連結至AEM內內容頁面、外部資源或錨點
-   * Use the **Selection Dialog** to choose a path within AEM.
+   * 使用 **「選擇對話方塊** 」，在AEM中選擇路徑。
 * **圖示** -在按鈕中顯示圖示的識別碼
 
-## Design Dialog {#design-dialog}
+### 協助工具標籤 {#accessibility-tab}
 
-### Styles Tab {#styles-tab}
+![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+在 **「協助工具** 」索引標籤上，可為元件設定 [AIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 標籤的值。
+
+* **標籤** -元件的AIA標籤屬性值
+
+## 設計對話方塊 {#design-dialog}
+
+### 樣式標籤 {#styles-tab}
+
+Image Component支援AEM [Style System](authoring.md#component-styling)。
