@@ -10,12 +10,12 @@ topic-tags: 簡介
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: c44bb0d-7d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
 
-# Core Components Introduction{#core-components-introduction}
+# 核心元件簡介{#core-components-introduction}
 
 在Adobe Experience Manager中，元件是構成所編寫頁面內容的結構元素。元件向來是AEM體驗的基本元素，讓頁面建立變得簡單但功能強大，而且開發人員可靈活靈活地開發元件。
 
@@ -23,11 +23,11 @@ source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
 
 ## 試用核心元件
 
-If you want to get started straight away trying out the Core Components, head over to the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html). 元件庫是核心元件最新版本的線上展示，可讓您與元件的變化互動，並檢視範例HTML和JSON輸出。
+如果您想直接開始試用核心元件，請移至 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library.html)。元件庫是核心元件最新版本的線上展示，可讓您與元件的變化互動，並檢視範例HTML和JSON輸出。
 
 [我們零售參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) 也說明如何使用核心元件。
 
-## Core Components - Core Features {#core-components-core-features}
+## 核心元件-核心功能 {#core-components-core-features}
 
 核心元件為：
 
@@ -45,7 +45,7 @@ If you want to get started straight away trying out the Core Components, head ov
 | 開放原始碼 | 如果您不應該做任何事，請促進GitHub(Apache License)的改進。 |
 | 版本化 | 核心元件在改善可能影響您的項目時，不會中斷您的網站。 |
 
-## Available Components {#available-components}
+## 可用元件 {#available-components}
 
 目前版本的核心元件包含下列元件。
 
@@ -57,6 +57,7 @@ If you want to get started straight away trying out the Core Components, head ov
 * [內容片段](content-fragment-component.md)
 * [內容片段清單](content-fragment-list.md)
 * [下載](download.md)
+* [體驗片段](experience-fragment.md)
 * [表單按鈕](form-button.md)
 * [來自容器](form-container.md)
 * [已隱藏的表單](form-hidden.md)
@@ -76,31 +77,31 @@ If you want to get started straight away trying out the Core Components, head ov
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>無法立即將核心元件用於作者， [開發團隊必須先將它們整合至您的環境](using.md)。整合後，即可透過 [範本編輯器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 或 [設計模式提供並預先設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)。
 
 >[!CAUTION]
 >
 >某些版本的個別核心元件僅能與某些版本的AEM相容。
 >
->See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](versions.md) document for more information.
+>如需相容性資訊的詳細資訊，請參閱特定元件的個別說明頁面(連結至上一份清單)，或參考 [核心元件版本](versions.md) 文件。
 
-## When to Use Core Components {#when-to-use-core-components}
+## 使用核心元件的時機 {#when-to-use-core-components}
 
 由於核心元件是全新的並提供多項優點，因此建議新的AEM專案使用它們。對於現有專案，移轉應該是較大型專案的一部分，例如重新品牌或整體重構。
 
-For specific use recommendations, see [When to Use the Core Components?](developing.md) ( [在開發核心元件](developing.md) 文件中)。
+如需特定使用建議，請參閱 [「使用核心元件時使用」。](developing.md) ( [在開發核心元件](developing.md) 文件中)。
 
-## Gems Session Overview {#gems-session-overview}
+## Gems作業概觀 {#gems-session-overview}
 
-For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+如需核心元件的簡介、他們提供的功能以及如何在AEM中運用它們，請參閱AEM Gems工作階段 [AEM核心元件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
 [Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) 是Adobe專家提供的一系列技術深入探討。本系列補充了產品文件和所有其他技術管道，讓開發人員能夠接觸並深入探討特定主題。
 
-## WKND Developer Tutorial {#wknd-developer-tutorial}
+## WKND開發人員教學課程 {#wknd-developer-tutorial}
 
-Get started developing AEM Sites with Core Components by following [this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+透過步驟教學課程， [開始使用核心元件來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-## Core Components Support {#core-components-support}
+## 核心元件支援 {#core-components-support}
 
 核心元件是AEM中不可或缺的一部分，並受支援，如同使用QuickStart傳遞一樣。
 
@@ -113,10 +114,10 @@ Get started developing AEM Sites with Core Components by following [this step by
 
 每個元件的版本清楚表明其支援的AEM版本。當支援適用於AEM版本時，該版本的AEM支援核心元件也一樣。
 
-For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page of the relevant Core Components Version.
+如需元件自訂支援的詳細資訊，請參閱相關核心元件版本 [的「自訂核心元件](customizing.md) 」頁面。
 
-## Foundation Component Support {#foundation-component-support}
+## Foundation Component支援 {#foundation-component-support}
 
 由於Foundation元件是許多版本開發的基礎，因此未來將繼續支援它們。
 
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+但是，Adobe的開發重點已移轉至核心元件和新功能，而 [幾乎所有的Foundation元件都已停用AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) ，而Foundation元件後續只會修正錯誤。
