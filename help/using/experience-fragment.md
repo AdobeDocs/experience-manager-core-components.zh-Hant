@@ -5,12 +5,11 @@ description: 「體驗片段元件」可讓內容作者新增體驗片段變數�
 seo-description: 「體驗片段元件」可讓內容作者新增體驗片段變數至頁面。
 content-type: 引用
 topic-tags: 核心元件
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: c0827595a594779f48ba5e8770b804e574346647
+source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
 
 ---
+
 
 # 體驗片段元件{#experience-fragment-component}
 
