@@ -5,7 +5,7 @@ sub-product: adobe experience manager核心元件
 archetype: 管理員
 user-guide-title: AEM核心元件
 translation-type: tm+mt
-source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
    + [內容片段](content-fragment-component.md)
    + [內容片段清單](content-fragment-list.md)
    + [下載](download.md)
+   + [體驗片段](experience-fragment.md)
    + [影像](image.md)
    + [語言導覽](language-navigation.md)
    + [清單](list.md)
