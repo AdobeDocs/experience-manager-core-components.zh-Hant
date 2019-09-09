@@ -6,7 +6,7 @@ seo-description: 「體驗片段元件」可讓內容作者新增體驗片段變
 content-type: 引用
 topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -90,7 +90,7 @@ Experience片段元件可調整為本地化的網站結構，並根據頁面本�
 
 ## 版本與相容性 {#version-and-compatibility}
 
-目前版本的Experience片段元件是v1，是於2019年月發行的版本2.6.0推出，並於本文中說明。
+目前版本的Experience片段元件是v1，於2019年月發行，發行於核心元件2.6.0版，本文說明。
 
 下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
 
