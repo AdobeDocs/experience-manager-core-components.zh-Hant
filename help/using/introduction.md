@@ -10,7 +10,7 @@ topic-tags: 簡介
 products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
 discoiquuid: c44bb0d-7d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
@@ -44,6 +44,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 | 可擴充性 | 為了涵蓋自訂需求，但不需要從頭開始，一切都可以擴充。 |
 | 開放原始碼 | 如果您不應該做任何事，請促進GitHub(Apache License)的改進。 |
 | 版本化 | 核心元件在改善可能影響您的項目時，不會中斷您的網站。 |
+| [本地化](localization.md) | 智慧參考解決方案可讓特定元件自動尋找和演算對應的本地化內容 |
 
 ## 可用元件 {#available-components}
 
