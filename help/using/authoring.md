@@ -8,18 +8,20 @@ content-type: 引用
 topic-tags: 製作
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
 
 # 使用核心元件製作
 
-在Adobe Experience Manager中，元件是構成所編寫頁面內容的結構元素。本節涵蓋核心元件，其中提供建立頁面的基本內容類型。
+在Adobe Experience Manager中，元件是構成所編寫頁面內容的結構元素。
 
 核心元件提供有彈性且功能豐富的編寫功能。[We. Retail參考網站](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 說明如何使用核心元件。
 
 若要體驗核心元件並查看其組態選項以及HTML和JSON輸出的範例，請造訪 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
+
+如需在AEM專案上實作核心元件的深入、開發人員導向簡介，請參閱WKND [教學課程。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
@@ -42,6 +44,8 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 * 圍繞 [協助工具方針建立](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 * 建立以支援 [互動式版面配置](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+
+* 建立以支援 [輕鬆當地語系化](localization.md)
 
 編輯頁面時，頁面編輯器側面板的 **「元件** 」索引標籤上 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)會提供元件。
 
@@ -89,12 +93,17 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 目前版本的核心元件包含下列元件。
 
+* [折疊面板](accordion.md)
 * [階層連結](breadcrumb.md)
-* [表單按鈕](form-button.md)
+* [按鈕](button.md)
+* [容器](container.md)
 * [傳送](carousel.md)
-* [來自容器](form-container.md)
 * [內容片段](content-fragment-component.md)
 * [內容片段清單](content-fragment-list.md)
+* [下載](download.md)
+* [體驗片段](experience-fragment.md)
+* [表單按鈕](form-button.md)
+* [來自容器](form-container.md)
 * [已隱藏的表單](form-hidden.md)
 * [表單選項](form-options.md)
 * [表單文字](form-text.md)
@@ -106,7 +115,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 * [快速搜尋](quick-search.md)
 * [分隔符號](separator.md)
 * [社交媒體分享](sharing.md)
-* [Teaser](teaser.md)
+* [索引標籤](tabs.md)
 * [文字](text.md)
 * [標題](title.md)
 
