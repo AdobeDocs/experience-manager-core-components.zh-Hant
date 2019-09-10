@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 ## 本地化的網站結構支援 {#localized-site-structure}
 
 網站通常以多種語言提供給不同地區。通常每個本地化頁面都會包含一個包含在頁面範本中的巢狀元素。「Navigation Component」(導覽元件)可讓您將它放置在網站所有頁面的範本上一次，然後根據您的全球化網站結構自動針對個別本地化頁面進行調整。
+
+* 如需導覽元件本地化功能的範例，請參閱 [下](#example-localiatzion)一節。
+* 如需核心元件的本地化功能如何搭配運作的範例，請參閱核心元件頁面 [的本地化功能](localization.md)。
 
 ### 例如 {#example-localization}
 
