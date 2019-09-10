@@ -6,7 +6,7 @@ seo-description: 「體驗片段元件」可讓內容作者新增體驗片段變
 content-type: 引用
 topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -33,6 +33,9 @@ Experience片段元件可調整為本地化的網站結構，並根據頁面本�
 在這種情況下，會將具有相同本地化(語言、藍圖或即時副本)的片段轉換為範本的一部分。
 
 此行為僅限於新增至範本的Experience片段元件。新增至個別內容頁面的體驗片段元件將會呈現在元件內設定的精確體驗片段轉譯。
+
+* 如需體驗片段元件的本地化功能如何運作的範例，請參閱 [下](#example)一節。
+* 如需核心元件的本地化功能如何搭配運作的範例，請參閱核心元件頁面 [的本地化功能](localization.md)。
 
 ### 例如 {#example}
 
