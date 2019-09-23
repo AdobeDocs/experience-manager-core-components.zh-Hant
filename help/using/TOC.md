@@ -16,7 +16,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 + [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library.html)
 + [核心元件版本](versions.md)
 + Get Started {#get-started}
-   + [使用核心元件編寫](authoring.md)
+   + [使用核心元件製作內容](authoring.md)
    + [使用核心元件](using.md)
    + [本地化功能](localization.md)
 + 元件 {#components}
@@ -47,14 +47,14 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
       + [已隱藏的表單](form-hidden.md)
       + [表單選項](form-options.md)
       + [表單文字](form-text.md)
-   + v元件 {#v1-components}
+   + v1元件 {#v1-components}
       + [階層連結 (v1)](breadcrumb-v1.md)
       + [影像 (v1)](image-v1.md)
       + [清單 (v1)](list-v1.md)
       + [頁面 (v1)](page-v1.md)
       + [文字 (v1)](text-v1.md)
       + [標題 (v1)](title-v1.md)
-      + v表單元件 {#v1-forms}
+      + v1表單元件 {#v1-forms}
          + [表單按鈕 (v1)](form-button-v1.md)
          + [表單容器 (v1)](form-container-v1.md)
          + [表單隱藏 (v1)](form-hidden-v1.md)
