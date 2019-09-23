@@ -1,14 +1,14 @@
 ---
 title: 表單選項元件
 seo-title: 表單選項元件
-description: 核心元件表單選項元件可讓您從預先定義的選項中選擇各種格式。
-seo-description: 核心元件表單選項元件可讓您從預先定義的選項中選擇各種格式。
-uuid: 7e8714df-75d1-4bb0-b1 ee-b7 c7450 d806 a
+description: 核心元件表單選項元件允許從各種格式的預定義選項中進行選擇。
+seo-description: 核心元件表單選項元件允許從各種格式的預定義選項中進行選擇。
+uuid: 7e8714df-75d1-4bb0-b1ee-b7c7450d806a
 contentOwner: 使用者
 content-type: 引用
-topic-tags: 製作
-products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
-discoiquuid: 42289c2b-1671-463a-ac1 d-457aa9 aefa2 a
+topic-tags: 編寫
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+discoiquuid: 42289c2b-1671-463a-ac1d-457aa9aefa2a
 translation-type: tm+mt
 source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
@@ -17,30 +17,30 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 # 表單選項元件{#form-options-component}
 
-核心元件表單選項元件可讓您從預先定義的選項中選擇各種格式。
+核心元件表單選項元件允許從各種格式的預定義選項中進行選擇。
 
 ## 使用狀況 {#usage}
 
-核心元件表單選項元件允許提交不同類型的選項，並用於 [與表單容器元件搭配使用](form-container.md)。
+「核心元件表單選項」元件允許以多種不同方式提交不同類型的選項，並與「表單容器」元件一起 [使用](form-container.md)。
 
-選項、標籤和個別選項的呈現方式可由 [設定對話方塊](#configure-dialog)中的內容編輯器定義。
+選項、標籤和個別選項的呈現方式可由內容編輯器在「設定」對話方塊中 [定義](#configure-dialog)。
 
 ## 版本與相容性 {#version-and-compatibility}
 
-目前版本的表單選項元件是v2，是從2018年月發行的版本2.0.0推出，並在本文中說明。
+目前的表單選項元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v2 | 相容相容性 | 相容相容性 | 相容相容性 |
-| [v1](form-options-v1.md) | 相容相容性 | 相容相容性 | 相容相容性 |
+| v2 | 相容 | 相容 | 相容 |
+| [v1](form-options-v1.md) | 相容 | 相容 | 相容 |
 
-如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
+如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
-## 元件輸出範例 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)業」的範例。
+以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -137,41 +137,41 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
                         }
 ```
 
-### 技術細節 {#technical-details}
+### 技術詳細資訊 {#technical-details}
 
-有關表單選項元件的 [最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options)。
+有關表單選項元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options)。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## 設定對話方塊 {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
-設定對話方塊可讓內容作者定義應該顯示的選項類型、標籤以及可用選項。
+「設定」對話方塊可讓內容作者定義應顯示的選項類型、標籤，以及哪些選項可用。
 
 ![](assets/screen_shot_2018-01-12at113153.png)
 
-* **類型** -如何顯示選項
+* **類型** -選項的呈現方式
    * **核取方塊**
    * **選項按鈕**
    * **下拉式清單**
    * **複選下拉式清單**
-* **標題**將顯示為選項標籤的標題
-* **名稱**表單資料提交欄位的名稱
-* **來源**定義選項
-   * **本機**定義的本機定義
-      * 點選或按一下「 **新增** 」按鈕可新增值， **刪除** 以移除值
-      * **值**當表單提交時選取該選項時所儲存的值
-      * **文字**顯示表單上顯示的選項
-      * **活動：**當表單載入時，選項會標示為
-      * **停用**：無法選取選項但仍顯示
-      * **清單：**在AEM其他位置定義的靜態清單用於選項
-         * **列出** AEM中靜態清單的路徑
-            * 使用「瀏覽」按鈕尋找清單資源
-      * **資料來源** A資料來源用於選項
-         * **資料來源的資料來源**資源類型
-* **說明訊息**：使用者在欄位中輸入的提示訊息
+* **Title**&#x200B;將顯示為選項標籤的標題
+* **名稱**&#x200B;隨表單資料提交的欄位名稱
+* **源**&#x200B;定義選項的位置
+   * **Local** Defined within the component
+      * 點選或按一下「 **新增** 」按鈕以新增值， **「刪除** 」以移除值
+      * **值**&#x200B;當提交表單時，選取該選項時保存的值
+      * **Text**&#x200B;表單上顯示的選項標籤
+      * **活動**&#x200B;當表單載入時，選項會標示為已選取
+      * **停用**&#x200B;此選項無法選取，但仍顯示
+      * **清單** AEM中其他地方定義的靜態清單會用於選項
+         * **清單** AEM中靜態清單的路徑
+            * 使用「瀏覽」按鈕查找清單資源
+      * **資料來源**&#x200B;資料來源用於選項
+         * **資料源**&#x200B;資料源的資源類型
+* **說明訊息**：使用者在欄位中可輸入內容的提示
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
 ### 樣式標籤 {#styles-tab}
 
-表單選項元件支援AEM [樣式系統](authoring.md#component-styling)。
+「表單選項」元件支援AEM [Style系統](authoring.md#component-styling)。
