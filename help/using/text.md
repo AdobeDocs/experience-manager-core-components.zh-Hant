@@ -1,13 +1,13 @@
 ---
 title: 文字元件
 seo-title: 文字元件
-description: 文字元件是豐富的文字編輯和構圖元件，可進行就地編輯。
-seo-description: 文字元件是豐富的文字編輯和構圖元件，可進行就地編輯。
-uuid: 5f8eee8f-7317-4712-a77 f-e34 e8 a024187
+description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
+seo-description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
+uuid: 5f8ee8f-7317-4712-a77f-e34e8a024187
 contentOwner: 使用者
 content-type: 引用
 topic-tags: 核心元件
-discoiquuid: 9a290584-565e-43292-999c-999ee4a93da1
+discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
 translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
@@ -16,50 +16,50 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 # 文字元件{#text-component}
 
-Core Component Text Component是一種豐富的文字編輯與構圖元件，可進行就地編輯。
+核心元件文字元件是富格文字編輯與合成元件，具備就地編輯功能。
 
 ## 使用狀況 {#usage}
 
-文字元件提供強穩的豐富文字編輯器，可讓您以簡化的線上編輯器以及全螢幕格式輕鬆編輯文字。
+文字元件提供強穩的豐富式文字編輯器，讓您在簡化的內嵌編輯器中，以及全螢幕格式輕鬆編輯文字。
 
-[編輯對話方塊](#edit-dialog) 使用有限選項進行線上編輯，全螢幕編輯對話方塊提供完整功能。Using the [design dialog](#design-dialog), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
+「編 [輯」對話框](#edit-dialog) ，其特徵是使用有限的選項進行串聯編輯，而全螢幕編輯對話框中提供完整功能。 使用設 [計對話框](#design-dialog)，可以為內容作者的模板配置文本格式選項，如標題、特殊字元和段落樣式。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
-目前版本的文字元件是v2，是在2018年月發行的版本2.0.0推出，並在本文中說明。
+目前的文字元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |---|---|---|---|
-| v2 | 相容相容性 | 相容相容性 | 相容相容性 |
-| [v1](text-v1.md) | 相容相容性 | 相容相容性 | 相容相容性 |
+| v2 | 相容 | 相容 | 相容 |
+| [v1](text-v1.md) | 相容 | 相容 | 相容 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-To experience the Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
+若要體驗「文字元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪「元件 [庫」](http://opensource.adobe.com/aem-core-wcm-components/library/text.html)。
 
-### Technical Details {#technical-details}
+### 技術詳細資訊 {#technical-details}
 
-The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
+有關Text Component的最新技術檔案 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-核心元件文字元件運用AEM Rich Text Editor(RTE)。RTE為內容作者提供多種功能來編輯其文字內容。RTE在其配置中非常有彈性，並提供許多選項。Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作者提供了多種功能，以編輯其文本內容。 RTE的配置非常靈活，並提供了多種選項。 有關如何配置RTE的進一步詳細資訊，請參閱「 [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 」（配置富格文本編輯器）和「 [Configure the Rich Text Editor」（配置富格文本編輯器）插件](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
 
-本文的其餘部分說明核心元件文字元件的標準配置，以及立即可用的RTE組態。
+本文的其餘部分演示了使用現成可用的RTE配置的核心元件文本元件的標準配置。
 
 >[!NOTE]
 >
->Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
+>只有由RTE的 [UI配置啟用的選項](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) ，文本元件中的選項才可用。
 
 ## Edit Dialog {#edit-dialog}
 
-編輯對話方塊提供使用者預期要編寫文字的標準豐富文字格式工具。
+編輯對話方塊提供使用者預期要合成文字的標準豐富文字格式工具。
 
 ![](assets/screen_shot_2018-01-11at143025.png)
 
@@ -67,45 +67,45 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ![](assets/screen_shot_2018-01-11at125602.png)
 
-用於將粗體格式套用至選取文字或游標在游標後面輸入的粗體格式文字。
+用於將粗體格式套用至選取的文字，或大膽格式化游標後輸入的文字。
 
-**Ctrl+ B** 可當做鍵盤快速鍵使用。
+**Ctrl+B** 可用作鍵盤快速鍵。
 
 ### 斜體
 
 ![](assets/screen_shot_2018-01-11at125609.png)
 
-用於將斜體格式套用至選取的文字，或在游標後面輸入斜體文字。
+用於將斜體格式套用至選取的文字或在游標後輸入的斜體文字。
 
-**Ctrl+ I** 可當做鍵盤快速鍵使用。
+**Ctrl+I** 可用作鍵盤快速鍵。
 
 ### 底線
 
 ![](assets/screen_shot_2018-01-11at125615.png)
 
-用於將強調的格式套用至在游標後面輸入的選取文字或底線文字。
+用於將帶下划線的格式應用於在游標後輸入的選定文本或下划線文本。
 
-**Ctrl+ U** 可當做鍵盤快速鍵使用。
+**Ctrl+U** 可用作鍵盤快速鍵。
 
 ### 下標
 
 ![](assets/screen_shot_2018-01-11at125703.png)
 
-用來格式化在游標後輸入的選取文字或文字。
+用於將游標之後輸入的選定文本或文本格式化為下標。
 
 ### 上標
 
 ![](assets/screen_shot_2018-01-11at125708.png)
 
-用來格式化在游標後面輸入的選取文字或文字作為上標。
+用於將游標之後輸入的選定文本或文本格式化為上標。
 
 ### 貼上為文字
 
 ![](assets/screen_shot_2018-01-11at125713.png)
 
-將任何複製的文字貼為純文字，而不需要任何格式設定。
+將任何複製的文字貼上為純文字，不需任何格式。
 
-選取此選項時，會開啓視窗，其中文字可以貼上為不含格式的純文字，並插入文字中。點選或按一下勾號即可接受，只要點選或按一下x即可取消。
+選取此選項時，會開啟一個視窗，在此視窗中，文字可以貼上為純文字，在插入文字之前，不會以預覽格式加入。 點選或按一下核取標籤以接受，點選或按一下x以取消。
 
 ![](assets/screen_shot_2018-01-11at143234.png)
 
@@ -113,7 +113,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ![](assets/screen_shot_2018-01-11at125717.png)
 
-選取此選項時，會開啓視窗，在其中貼上文字，將其格式設為預覽，然後再插入文字中。點選或按一下勾號即可接受，只要點選或按一下x即可取消。
+選取此選項時，會開啟一個視窗，可在其中貼上文字，並保留其格式為預覽，然後再將它插入文字。 點選或按一下核取標籤以接受，點選或按一下x以取消。
 
 ![](assets/screen_shot_2018-01-11at143250.png)
 
@@ -121,43 +121,43 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ![](assets/screen_shot_2018-01-11at125839.png)
 
-使用此選項可將選取的文字轉換為超連結，或修改已定義的連結。只有在已選取文字時才會啓用此選項，並開啓含有其他選項來設定連結的視窗。
+使用此選項可將選取的文字轉換為超連結，或修改已定義的連結。 只有在已選取文字並開啟視窗時，此選項才會生效，視窗中會有其他設定連結的選項。
 
 ![](assets/screen_shot_2018-01-11at130003.png)
 
 * 輸入位置
-   * 使用Open Selection對話方塊在AEM中選擇路徑
-   * 如果連結不在AEM內，請輸入絕對URL(非絕對路徑被解譯為相對於AEM)
-* 輸入連結的替代說明文字
+   * 使用「開啟選取範圍」對話方塊，在AEM中選擇路徑
+   * 如果連結不在AEM中，請輸入絕對URL（非絕對路徑會解譯為相對於AEM）
+* 輸入連結的替代描述性文本
 * 選取連結行為
    * 目標
    * 相同索引標籤
    * 新索引標籤
    * 父框架
    * 上框架
-   點選或按一下勾號以套用連結或x取消。
+   點選或按一下核取標籤，套用連結或x以取消。
 
 ### 取消連結
 
 ![](assets/screen_shot_2018-01-11at125901.png)
 
-使用此選項可移除已套用至選取文字的連結。只有在已選取連結時，才會啓用此選項。
+使用此選項可移除已套用至選取文字的連結。 只有在已選取連結時，此選項才會生效。
 
 ### 尋找
 
 ![](assets/screen_shot_2018-01-11at125906.png)
 
-使用此選項可搜尋指定文字字串的文字。選取此選項會開啓指定搜尋選項的視窗。
+使用此選項可搜索文本以查找指定文本字串的出現情況。 選擇此選項將開啟一個窗口，用於指定搜索選項。
 
 ![](assets/screen_shot_2018-01-11at130107.png)
 
-Enter the text for which you want to search and tap or click **Find** to begin the search. 點選或按一下x以取消。
-If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
-如果找到相符項目，則會反白顯示，搜尋對話方塊會暗灰色。Tap or click the **Find** button again in the dimmed dialog to search for the next occurrence.
+輸入要搜索的文本並點選，或按一下「查 **找** 」開始搜索。 點選或按一下x以取消。
+如果您想根據大小寫進行完全相符，請在開始搜尋前選取「 **符合大小寫** 」選項。
+如果找到相符項目，則會反白顯示，而搜尋對話方塊會暗顯。 在暗灰色對話方 **塊中點選或再按一下** 「尋找」按鈕，以搜尋下一個出現的項目。
 
 ![](assets/screen_shot_2018-01-11at130145.png)
 
-如果找不到其他發生次數，則會顯示訊息，搜尋將從文字開始開始。
+如果找不到其他發生次數，則會顯示訊息，搜尋會從文字的開頭開始。
 
 ![](assets/screen_shot_2018-01-11at130241.png)
 
@@ -165,193 +165,193 @@ If you wish to do an exact match according to the case, select the option **Matc
 
 ![](assets/screen_shot_2018-01-11at125910.png)
 
-使用此選項可搜尋指定文字字串發生的文字，並以其他字串取代相符項目。選取此選項會開啓視窗，以指定搜尋和取代選項。
+使用此選項可搜尋文字中是否出現指定的文字字串，並以其他字串取代相符項目。 選擇此選項將開啟一個窗口，用於指定搜索和替換選項。
 
 ![](assets/screen_shot_2018-01-11at130441.png)
 
-輸入您要搜尋的文字，以及應取代的文字。
+輸入要搜索的文本以及應替換的文本。
 
-Tap or click **Find** to begin the search. 按一下或點選x以取消。
+點選或按一 **下「尋找** 」開始搜尋。 按一下或點選x以取消。
 
-If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
+如果您想根據大小寫進行完全相符，請在開始搜尋前選取「 **符合大小寫** 」選項。
 
-如果找到相符項目，則會反白顯示，搜尋對話方塊會暗灰色。Click the **Find** button again in the dimmed dialog to search for the next occurrence or select the **Replace** button to replace the highlighted, matched text. Note that the **Replace** button is only active once a match is made.
+如果找到相符項目，則會反白顯示，而搜尋對話方塊會暗顯。 再次在灰色 **對話方塊中按一下「尋找****** 」按鈕，以搜尋下一個出現的項目，或選取「取代」按鈕以取代反白顯示的相符文字。 請注意，「取 **代** 」按鈕只有在相符後才會生效。
 
-Select **Replace all** to replace all occurrences of the text at once.
+選 **取「全部取代** 」，一次取代所有出現的文字。
 
 ### 向左對齊文字
 
 ![](assets/screen_shot_2018-01-11at142012.png)
 
-用來將文字對齊左側邊界。
+用來將文字與左邊距對齊。
 
 ### 文字置中
 
 ![](assets/screen_shot_2018-01-11at142017.png)
 
-用來中心文字。
+用來將文字置中。
 
 ### 向右對齊文字
 
 ![](assets/screen_shot_2018-01-11at142021.png)
 
-用來將文字對齊正確邊界。
+用來將文字對齊右邊距。
 
 ### 項目符號
 
 ![](assets/screen_shot_2018-01-11at142025.png)
 
-用於將選取的文字格式化為項目清單，或開始插入游標後的項目清單。
+用於將選定文本格式化為項目符號清單，或在游標後開始插入項目符號清單。
 
-To end a bulleted list, tap or click the **Bullet** button again or enter two carriage returns.
+要結束項目清單，請再次點選或按一下「項目 **符號** 」按鈕，或輸入兩個歸位符。
 
-### 編號編號
+### 編號
 
 ![](assets/screen_shot_2018-01-11at142030.png)
 
-用以將選取的文字格式化為編號清單，或開始插入游標後的編號清單。
+用於將選定文本格式化為編號清單，或在游標後開始插入編號清單。
 
-To end a numbered list, tap or click the **Numbered** button again or enter two carriage returns.
+要結束編號清單，請再次點選或按一下「編 **號** 」按鈕，或輸入兩個歸位。
 
 ### 凸排
 
 ![](assets/screen_shot_2018-01-11at141917.png)
 
-用來降低在游標後面輸入所選文字或文字的縮排層級。
+用於減少在游標後輸入的選定文本或文本的縮進級別。
 
-只有當游標的選取文字或位置已縮排時，才會作用中。
+僅當游標的選定文本或位置已縮進時才處於活動狀態。
 
 ### 縮排
 
 ![](assets/screen_shot_2018-01-11at141922.png)
 
-用來增加所選文字的縮排層級，或游標在游標後面輸入的文字。
+用於增加在游標後輸入的選定文本或文本的縮進級別。
 
 ### 表格
 
 ![](assets/screen_shot_2018-01-11at141928.png)
 
-用來插入表格至文字中。選取此選項會開啓指定表格詳細資訊的視窗。
+用於將表插入文本。 選擇此選項將開啟一個窗口，用於指定表的詳細資訊。
 
 ![](assets/screen_shot_2018-01-11at142405.png)
 
-* **欄**：表格的欄數(必要)
-* **列** 表格的列數(必要)
-* **寬度**：表格寬度
-* **高度**：表格高度
-* **儲存格填補** 儲存格內容周圍的空間
-* **儲存格間隔** 儲存格之間的間距
-* **邊框** 邊框線的粗細
-* 如果表格標題：
-   * 應使用第一列
+* **列**&#x200B;表的列數（必需）
+* **行**&#x200B;表的行數（必需）
+* **Width**&#x200B;表格的寬度
+* **高**&#x200B;度表格高度
+* **儲存格間**&#x200B;距儲存格內容周圍的空格
+* **儲存格間**&#x200B;距儲存格間的空格
+* **邊**&#x200B;框表格邊框線的粗細
+* 如果表的標題：
+   * 應使用第一行
    * 應使用第一欄
-   * 應使用第一列和第一欄
-   * 也不應使用標題。
-* **標題**：表格的標題
+   * 應使用第一列和第一列
+   * 或者不應使用標題。
+* **標題**&#x200B;表格的標題
 
 ### 檢查拼字
 
 ![](assets/screen_shot_2018-01-11at141935.png)
 
-用來檢查文字內容的拼字。有破損的紅線會強調顯示可能拼字錯誤。
+用於檢查文本內容的拼寫。 可能的拼字錯誤會加上破折的紅線。
 
-Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+有關拼字檢查和自訂拼字檢查字典的詳細資訊，請參閱檔案 [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
 
 ### 特殊字元 {#special-characters}
 
 ![](assets/screen_shot_2018-01-11at142600.png)
 
-用來插入特殊字元至文字中。選取此選項會開啓顯示可用字元的視窗。
+用於將特殊字元插入文字。 選取此選項會開啟顯示可用字元的視窗。
 
 ![](assets/screen_shot_2018-01-11at142635.png)
 
-點選或按一下所要的字元，將其插入游標後面的文字中。可插入多個字元。點選或按一下x以關閉選取視窗。
+點選或按一下所要的字元，將它插入游標後面的文字。 可插入多個字元。 點選或按一下x以關閉選取視窗。
 
 ### 來源編輯
 
 ![](assets/screen_shot_2018-01-11at142746.png)
 
-用於檢視和修改文字的HTML來源。
+用於查看和修改文本的HTML源。
 
-Tap or click the **Source Edit** icon to change the content of the text from the formatted view to view the raw HTML. 在此模式中，所有其他格式選項都會停用。Tap or click the **Source Edit** icon again to return to the formatted view.
+點選或按一下「 **來源編輯** 」圖示，以變更格式化檢視中的文字內容，以檢視原始HTML。 在此模式下，所有其它格式設定選項都被禁用。 再次點選或按一 **下「來源編輯** 」圖示，以返回格式化檢視。
 
 >[!CAUTION]
 >
->As always the case with access to raw HTML, care must be exercised when using the **Source Edit** option!
+>與存取原始HTML的情況一樣，使用「來源編輯」選項時 **必須小心** !
 >
->HTML entered via **Source Edit** is scanned for XSS risks and any scripts that are inserted are removed and will not appear on the resulting page. However malformed HTML entered in **Source Edit** can break the template for the page resulting in unexpected formatting or rendering the resulting page unusable.
+>透過「來源編 **輯」輸入的HTML** ，會掃描XSS風險，並移除任何已插入的指令碼，而不會出現在產生的頁面上。 但是，在「來源編輯」中輸 **入的格式錯誤的HTML** ，可能會中斷頁面的範本，導致未預期的格式化或導致產生的頁面無法使用。
 
 >[!NOTE]
 >
->Because HTML entered via **Source Edit** is scanned for XSS risks and any scripts and automatically removes those found, the actual content persisted may vary from what was entered in **Source Edit**. For this reason, in order to save changes made using **Source Edit**, you must first exit **Source Edit** to view the text in the normal editor before saving.
+>由於透過「來源編輯」輸 **入的HTML會掃描XSS風險和任何指令碼，並自動移除找到的指令碼，因此實際保存的內容可能會與「來源編輯」中輸入的內容** 有所不同 ****。 因此，為了保存使用「原始碼編輯」所做的更改 **，您必須先退出「原始碼編輯」，以便在保存前在普通編輯器中查看****** 文本。
 
 ### 段落格式
 
 ![](assets/screen_shot_2018-01-11at142752.png)
 
-用於將段落格式套用至所選文字或游標之後插入的文字。選取此選項會開啓一個下拉式清單，從中選取段落格式。
+用於將段落格式應用於選定文本或游標後插入的文本。 選取此選項會開啟一個下拉式清單，從中選取段落格式。
 
 ![](assets/screen_shot_2018-01-11at142828.png)
 
-文字元件也可以同時進行編輯，但是由於空間restraints，並非所有格式選項都能內嵌使用。若要查看所有選項，請切換至全螢幕模式。
+文字元件也可以內嵌編輯，但由於空間限制，並非所有格式選項都可內嵌。 若要查看所有選項，請切換至全螢幕模式。
 
 ![](assets/screen_shot_2018-01-11at142921.png)
 
-## Design Dialog {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-設計對話方塊可讓範本作者定義內容作者可用的文字格式化選項。
+設計對話方塊可讓範本作者定義哪些文字格式選項可供內容作者使用。
 
-### Plugins Tab {#plugins-tab}
+### 外掛程式標籤 {#plugins-tab}
 
-「外掛程式」索引標籤可用來啓用和停用內容作者可用的各種文字格式化選項。
+「外掛程式」索引標籤可用來啟用和停用內容作者可用的各種文字格式選項。
 
 ### 功能 {#features}
 
 ![](assets/chlimage_1-28.png)
 
-可為元件啓用或停用下列功能。
+可為元件啟用或停用下列功能。
 
 * 貼上純文字
-* 舊字
+* 過去自字詞
 * 尋找和取代
-* Spell檢查程式
+* 拼字檢查程式
 * 來源編輯
 
 ### 正在格式化 {#formatting}
 
 ![](assets/chlimage_1-29.png)
 
-您可以為元件啓用或停用下列格式設定選項。
+可以為元件激活或停用以下格式設定選項。
 
 * 表格
 * 清單
 * 對齊方式
-* 粗體、斜體、底線
+* 粗體、斜體、下划線
 * 連結
-* 子/上標
+* 子／上標
 
 ### 段落樣式 {#paragraph-styles}
 
 ![](assets/chlimage_1-30.png)
 
-可為元件啓用或停用段落樣式。啓動後，可定義允許的格式。
+可為元件啟用或停用段落樣式。 啟動後，可定義允許的格式。
 
-* Tap or click the **Add** button to insert a new style.
-* 輸入樣式的程式碼和將顯示在編輯對話方塊中的說明。
-* To remove a style tap or click the **Delete** button.
-* 若要重新排列格式的順序，請點選或點選並拖曳控制點。
+* 點選或按一下「 **新增** 」按鈕以插入新樣式。
+* 輸入樣式的代碼和將在編輯對話框中顯示的說明。
+* 要刪除樣式點選，或按一下「刪 **除** 」按鈕。
+* 要重新排列格式的順序，請點選或按一下並拖動控點。
 
-### Configuring Special Characters {#configuring-special-characters}
+### 設定特殊字元 {#configuring-special-characters}
 
 ![](assets/chlimage_1-31.png)
 
-可為元件啓用或停用插入特殊字元的選項。啓動後，可定義允許的字元。
+可以為元件激活或停用插入特殊字元的選項。 啟用後，可定義允許的字元。
 
-* Tap or click the **Add** button to insert a new character.
-* 輸入字元的HTML程式碼和將顯示在編輯對話方塊中的說明。
-* To remove a character tap or click the **Delete** button.
-* 若要重新排列字元順序，請點選或點選並拖曳控制點。
+* 點選或按一下「 **新增** 」按鈕以插入新字元。
+* 輸入字元的HTML代碼和將在編輯對話框中顯示的說明。
+* 若要移除字元點選，或按一下「刪 **除** 」按鈕。
+* 若要重新排列字元點選順序，或按一下並拖曳控點。
 
-## Styles Tab {#styles-tab}
+## 樣式標籤 {#styles-tab}
 
-The Text Component supports the AEM [style system](authoring.md#component-styling).
+「文字元件」支援AEM [樣式系統](authoring.md#component-styling)。
