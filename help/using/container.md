@@ -2,102 +2,102 @@
 title: 容器元件
 seo-title: 容器元件
 description: 'null'
-seo-description: 核心元件容器元件可讓您建立頁面上多個其他元件的容器。
-uuid: ec807de9-f76 c-4850-9ee-c3 e439 a1 d626
+seo-description: 「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器。
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: 使用者
 content-type: 引用
-topic-tags: 製作
-products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
+topic-tags: 編寫
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
 source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 ---
 
 
-# Container Component{#container-component}
+# 容器元件{#container-component}
 
-核心元件容器元件可讓您建立頁面上多個其他元件的容器。
+「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器。
 
 ## 使用狀況 {#usage}
 
-核心元件容器元件可讓您針對頁面上的多個額外元件建立容器，並可用來分組其他元件並套用常見樣式或版面。
+「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器，並可用來群組其他元件，以及套用共用樣式或版面。
 
-* The container&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Defaults for the Container Component when adding it to a page can be defined in the [design dialog](#design-dialog).
+* 可在「設定」對話方塊中選取容器 [的屬性](#configure-dialog)。
+* 將容器元件新增至頁面時的預設值，可在設計對話方塊中 [定義](#design-dialog)。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
-目前版本的Container元件是v1，是在2019年月發行的版本2.5.0推出的v1，本文中說明。
+目前的容器元件版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 相容相容性 | 相容相容性 | 相容相容性 |
+| v1 | 相容 | 相容 | 相容 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-To experience the Container Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/container.html).
+若要體驗容器元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/container.html)。
 
-## Technical Details {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-The latest technical documentation about the Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+有關容器元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
-設定對話方塊可讓內容作者定義容器項目，以及該物件對頁面的行為和顯示方式。
+「設定」對話方塊可讓內容作者定義容器項目，以及該項目對頁面訪客的行為和顯示方式。
 
 ![](assets/screen-shot-2019-06-21-13.59.26.png)
 
-* **配置** -此選項定義容器元件的行為或版面行為。
-   * **簡單** -將容器定義為簡單的元件集合
-   * **回應式格線** -定義容器為 [AEM Responsive格線](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
-* **ID** -使用此選項可定義要套用至元件的HTML ID屬性。
-* **背景色彩** -可定義為自由格式RGB值，或使用檢色器( [視組態而定)](#background-tab)
-* **背景影象** -定義容器的背景顏色，視 [組態而定](#background-tab)
+* **配置** -此選項定義容器元件的行為或配置行為。
+   * **Simple** —— 將容器定義為簡單的元件集合
+   * **自適應格線** -將容器定義為 [AEM自適應格線](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* **ID** —— 使用此選項定義要套用至元件的HTML ID屬性。
+* **背景顏色** -可定義為自由格式的RGB值，或使用檢色器(視 [配置而定)](#background-tab)
+* **背景影像** -定義容器的背景顏色，視 [組態而定](#background-tab)
 
-## Design Dialog {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-此設計對話方塊可讓範本作者定義使用Container元件的內容作者可用的選項。
+設計對話方塊可讓範本作者定義使用容器元件的內容作者可用的選項。
 
-### Allowed Components Tab {#allowed-components-tab}
+### 允許的元件頁籤 {#allowed-components-tab}
 
-**「允許的元件** 」索引標籤用於定義內容作者可以將哪些元件新增為容器元件。
+「允 **許的元件** 」標籤可用來定義哪些元件可由內容作者新增為項目至「容器元件」。
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### Default Components Tab {#default-components-tab}
+### 預設元件頁籤 {#default-components-tab}
 
-The Default Components tab is used to define which component is added to the component when a particular asset type is dropped on the container, similar to [how default components are defined on the page template](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors).
+當容器上放置特定資產類型時，「預設元件」索引標籤會用來定義要新增至元件的元件，類似於頁面範本上 [定義預設元件的方式](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors)。
 
-### Responsive Settings Tab {#responsive-settings-tab}
+### 互動式設定標籤 {#responsive-settings-tab}
 
 ![](assets/screen-shot-2019-06-21-09.33.03.png)
 
 * **欄** -定義產生容器格線中的欄數。
 
-### Background Tab {#background-tab}
+### 背景標籤 {#background-tab}
 
 ![](assets/screen-shot-2019-06-21-09.42.42.png)
 
 * **背景影像**
-   * **啓用背景影象** -選取此選項可讓內容作者定義容器的背景影象。
+   * **啟用背景影像** -選取此選項可讓內容作者為容器定義背景影像。
 * **背景色彩**
-   * **啓用背景顏色** -選取此選項可讓內容作者定義容器的背景顏色。
-   * **僅限色票** -選取此選項只允許內容作者從預先定義的色票中選取容器背景顏色。
-      * Only available when **Enable background color** is selected
-* **允許的色票** -定義預先定義的顏色，其中內容作者可選取容器背景顏色
-   * Use the **Add** button to add a pre-defined color swatch. 新增後，清單會新增至清單中，其中包含下列欄：
-   * **值** -透過RGB值手動定義顏色
-      * 點選或按一下檢色器，可以調整個別RGB值或定義十六進位值，以更輕鬆地選取顏色。
+   * **啟用背景顏色** -選取此選項可讓內容作者為容器定義背景顏色。
+   * **僅色票** -選擇此選項僅允許內容作者從預先定義的容器背景顏色色票中選擇。
+      * 僅在選取「啟 **用背景顏色** 」時可用
+* **允許的色票** -定義預先定義的顏色，內容作者可從中選取容器背景顏色
+   * 使用「 **新增** 」按鈕新增預先定義的色票。 新增後，會將一個項目新增至清單，其中包含下列欄：
+   * **值** -通過RGB值手動定義顏色
+      * 點選或按一下檢色器，可調整個別RGB值或定義十六進位值，以更輕鬆地選取顏色。
    * **刪除** -點選或按一下以刪除色票。
    * **重新排列** -點選或按一下並拖曳以重新排列色票順序。
 
-### Styles Tab {#styles-tab}
+### 樣式標籤 {#styles-tab}
 
-The Container Component supports the AEM [Style System](authoring.md#component-styling).
+容器元件支援AEM [樣式系統](authoring.md#component-styling)。
