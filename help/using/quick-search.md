@@ -1,13 +1,13 @@
 ---
-title: 快速搜尋元件
-seo-title: 快速搜尋元件
+title: Quick Search Component
+seo-title: Quick Search Component
 description: 'null'
-seo-description: 「快速搜尋元件」提供搜尋功能至網站並呈現搜尋結果，讓訪客可以搜尋網站並篩選結果。
-uuid: a ba69be3-537e-4f20-9f17-b4 b7174 a8 e88
+seo-description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
+uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
 content-type: 引用
-topic-tags: 製作
-products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
-discoiquuid: 906a684d-5663-4497-bef3-37f13 d5 b46 c
+topic-tags: 編寫
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
 disttype: dist5
 gnavtheme: 淺色
 groupsectionnavitems: 否
@@ -23,31 +23,31 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 ---
 
 
-# 快速搜尋元件{#quick-search-component}
+# Quick Search Component{#quick-search-component}
 
-「快速搜尋元件」提供搜尋功能至網站並呈現搜尋結果，讓訪客輕鬆找到符合的內容並檢視結果。
+The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
 
 ## 使用狀況 {#usage}
 
-「快速搜尋」元件可讓網站訪客搜尋內容、就地檢視結果，並輕鬆導覽至相符頁面。當使用者捲動搜尋結果時，會動態擷取新結果。
+The Quick Search component offers site visitors the ability to search for content, view the results in-place, and easily navigate to the matching pages. 當使用者捲動搜尋結果時，會動態擷取新結果。
 
-[編輯對話方塊](#edit-dialog) 可讓內容作者定義搜尋應該開始的內容樹狀結構中的位置。使用 [設計對話方塊](#design-dialog)，範本作者可以設定搜尋應該開始的內容樹狀結構中的預設值，以及最大結果集大小和最小搜尋詞長度。
+The edit dialog allows the content author to define where in the content tree the search should start. [](#edit-dialog)使用設 [計對話框](#design-dialog)，範本作者可以設定內容樹中應開始搜尋的位置的預設值，以及最大結果集大小和最小搜尋詞長度。
 
 ## 版本與相容性 {#version-and-compatibility}
 
-目前版本的Quick Search Component is v1，它是在2018年月發行的版本2.0.0推出，並在本文中說明。
+目前的快速搜尋元件版本為v1，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v1 | 相容相容性 | 相容相容性 | 相容相容性 |
+| v1 | 相容 | 相容 | 相容 |
 
-如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
+如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
-## 元件輸出範例 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)業」的範例。
+以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -89,44 +89,46 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
                   }
 ```
 
-### 技術細節 {#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 >[!NOTE]
 >
->保護搜尋元件或任何AEM基於DOS攻擊的應用程式應在較高等級實施，例如在 `mod_security` 傳送時使用。
+>保護搜尋元件或任何以AEM為基礎的應用程式不受DOS攻擊的影響，應該在更高的層級實作，例如使用 `mod_security` 在分派器上。
 
-有關Quick Search Component [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)。
+有關快速搜尋元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## 編輯對話方塊 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-編輯對話方塊可讓內容作者定義搜尋應該開始的內容樹狀結構中的位置。
+編輯對話方塊可讓內容作者定義搜尋應在內容樹狀結構中的位置。
 
 ![](assets/screen_shot_2018-04-03at120132.png)
 
-**搜尋根目錄** -從何處開始搜尋的根頁面。搜尋根目錄可以是藍圖主頁、語言主版或一般頁面。
+**搜索根** -從何處開始搜索的根頁。 「搜尋根」可以是Blueprint主版、語言主版或一般頁面。
 
-## 設計對話方塊 {#design-dialog}
+## Design Dialog {#design-dialog}
 
-使用設計對話方塊，範本作者可以設定搜尋應開始的內容樹狀結構中的預設值，以及最大的搜尋字詞集大小和最小搜尋字詞長度。設計對話方塊可讓範本作者定義哪些文字格式化選項可供內容作者使用。
+Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.The design dialog allows the template author to define which text formatting options are available to the content authors.
 
-### 屬性索引標籤 {#properties-tab}
+### Properties Tab {#properties-tab}
 
 ![](assets/screen_shot_2018-04-03at120028.png)
 
-* **搜尋根目錄**當內容作者將「快速搜尋元件」置於內容頁面上時，搜尋根目錄的預設值
-* **結果大小**搜尋請求擷取的結果數目上限
-* **搜尋詞最小長度**長度下限搜尋詞的最小長度
+* **Search Root
+The default value of search root when a content author places the Quick Search Component on a content page**
+* **Results Size
+The maximum number of results fetched by a search request**
+* **搜尋詞最小長**&#x200B;度開始搜尋的搜尋詞最小長度
 
 >[!NOTE]
 >
->**結果大小** 和 **搜尋詞最小長度只** 能在設計模式中設定，因此僅能在範本層級設定，也就是說內容作者無法修改這些值。
+>**結果大小****** 和搜尋詞最小長度只能在設計模式中設定，因此只能在範本層級設定，這表示內容作者無法修改這些值。
 
 >[!CAUTION]
 >
->**「結果大小」** 和 **「搜尋詞最小長度** 」若設定過高或過低，可能會影響效能。
+>**如果結果大小** 和搜 **** 尋詞最小長度分別設定為過高或過低，則可能會對效能產生影響。
 
 ### 樣式標籤 {#styles-tab}
 
-快速搜尋元件支援AEM [樣式系統](authoring.md#component-styling)。
+「快速搜尋」元件支援AEM [Style系統](authoring.md#component-styling)。
