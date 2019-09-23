@@ -1,12 +1,12 @@
 ---
 title: 標題元件(v1)
 seo-title: 標題元件(v1)
-description: 核心元件標題元件是一個區段標題元件，具備就地編輯功能。
-seo-description: 核心元件標題元件是一個區段標題元件，具備就地編輯功能。
-uuid: 5c4d276c-f0 be-4122-a15 e-3f7443 d8 b209
+description: 核心元件標題元件是具有就地編輯功能的區段標題元件。
+seo-description: 核心元件標題元件是具有就地編輯功能的區段標題元件。
+uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
 content-type: 引用
-products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
-discoiquuid: a028eBef-2957-410c-9bab-a7040 c350 f2 f
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -16,34 +16,34 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 # 標題元件(v1){#title-component-v}
 
-核心元件標題元件是一個區段標題元件，具備就地編輯功能。
+核心元件標題元件是具有就地編輯功能的區段標題元件。
 
 ## 使用狀況 {#usage}
 
-「標題元件」旨在做為內容區段的標題或標題。
+「標題元件」可用作內容區段的標題或標題。
 
-可用的標題層級可由 [設計對話方塊中的範本作者定義](title-v1.md#main-pars_title_1995166862)。內容編輯器可從 [編輯對話方塊](title-v1.md#main-pars_title)中選擇可用標題層級。為方便您加入，也提供簡單的標題文字就地編輯功能。
+可用標題層級可由範本作者在設計對話方塊中 [定義](title-v1.md#main-pars_title_1995166862)。 內容編輯器可以在編輯對話框中從可用的標題 [級別中選擇](title-v1.md#main-pars_title)。 為方便起見，您也可以在原地編輯標題文字。
 
 ## 版本與相容性 {#version-and-compatibility}
 
-本文件說明Title Component v1of the Title Component with AEM6.3版的版本1.0.0。
+本檔案說明Title Component的v1，此版本最初是隨AEM 6.3核心元件的1.0.0版一起推出。
 
-下表列出「標題元件」v的相容性。
+下表列出了Title Component的v1相容性。
 
-| AEM版本 | Title Component v1 |
+| AEM版本 | 標題元件v1 |
 |--- |--- |
-| 6.3 | 相容相容性 |
-| 6.4 | 相容相容性 |
+| 6.3 | 相容 |
+| 6.4 | 相容 |
 
 >[!CAUTION]
 >
->本文件說明標題元件的第版。
+>本檔案說明第1版標題元件。
 >
->如需目前版本元件的詳細資訊，請參閱 [「標題元件](title.md) 」文件。
+>如需目前版本「標題元件」的詳細資訊，請參閱「標 [題元件](title.md) 」檔案。
 
-## 元件輸出範例 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)業」的範例。
+以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -70,9 +70,9 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要1.1.0版核心元件。如需詳細資訊，請參閱核心元件v [](versions.md#main-pars_title_236368006) 的相容性資訊。
+>從核心元件匯出JSON需要1.1.0版的核心元件。 如需詳細 [資訊，請參閱核心元件v1的相容性資訊](versions.md#main-pars_title_236368006) 。
 
-## 編輯對話方塊 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 編輯對話方塊可讓內容作者定義標題文字，並選取標題層級。
 
@@ -82,20 +82,20 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ![](assets/chlimage_1-91.png)
 
-原地編輯器也可以用來編輯標題元件的文字。
+就地編輯器也可用於編輯標題元件的文本。
 
 ![](assets/chlimage_1-37.png)
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-此設計對話方塊可讓範本作者定義內容作者建立時，標題元件將擁有的預設標題層級。
+設計對話方塊可讓範本作者定義標題元件在內容作者建立時所具有的預設標題層級。
 
 ![](assets/chlimage_1-92.png)
 
-## 技術細節 {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-有關Title Component [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)。
+有關Title Component的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)。
 
-您可以從GitHub下載整個核心元件專案。
+您可從GitHub下載整個核心元件專案。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
