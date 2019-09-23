@@ -2,109 +2,109 @@
 title: Accordion元件
 seo-title: Accordion元件
 description: 'null'
-seo-description: 核心元件Accordion元件可讓您建立已排列在頁面上accordion中的面板集合。
-uuid: ec807de9-f76 c-4850-9ee-c3 e439 a1 d626
+seo-description: 核心元件Accordion元件允許建立在頁面上以accordion排列的面板集合。
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: 使用者
 content-type: 引用
-topic-tags: 製作
-products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
+topic-tags: 編寫
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
 source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 ---
 
 
-# Accordion Component{#accordion-component}
+# Accordion元件{#accordion-component}
 
-核心元件Accordion元件可讓您建立已排列在頁面上accordion中的面板集合。
+核心元件Accordion元件允許建立在頁面上以accordion排列的面板集合。
 
 ## 使用狀況 {#usage}
 
-The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.
+核心元件Accordion元件可建立元件集合，以面板形式組成，並排列在頁面上的accordion中，類似於 [Tabs元件](tabs.md)，但允許展開和收合面板。
 
-* The accordion&#39;s properties can be defined in the [configure dialog](#configure-dialog).
-* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md).
-* Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
+* accordion的屬性可在「設定」對話 [方塊中定義](#configure-dialog)。
+* accordion面板的順序可在「設定」對話方塊和「選取」面板快 [顯視窗中定義](#select-planel.md)。
+* 將Accordion元件新增至頁面時的預設值，可在設計對話方塊中 [定義](#design-dialog)。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
-目前版本的Accordion Component is v1，它是在2019年月發行的版本2.5.0推出的v1，本文中說明。
+Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 相容相容性 | 相容相容性 | 相容相容性 |
+| v1 | 相容 | 相容 | 相容 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html).
+若要體驗Accordion元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html)。
 
-## Technical Details {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+有關Accordion元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
-設定對話方塊可讓內容作者定義accordion項目、其面板，以及它對頁面訪客的行為和顯示方式。
+設定對話方塊可讓內容作者定義accordion項目、其面板，以及該項目的行為和顯示方式，讓頁面的訪客檢視。
 
-### Items Tab {#items-tab}
+### 項目標籤 {#items-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.38.png)
 
-Use the **Add** button to open the component selector to choose which component to add as a panel. 新增後，清單會新增至清單中，其中包含下列欄：
+使用「 **新增** 」按鈕開啟元件選擇器，以選擇要新增為面板的元件。 新增後，會將一個項目新增至清單，其中包含下列欄：
 
-* **圖示** -面板元件類型的圖示，以方便清單中的識別。將滑鼠移至上方，將完整元件名稱視為工具提示。
-* **描述** -作為面板文字的說明，預設為面板所選元件的名稱。
-* **刪除** -點選或按一下可從accordion元件中刪除面板。
-* **重新排列** -點選或按一下並拖曳以重新排列面板順序。
+* **圖示** -面板的元件類型表徵圖，以便在清單中輕鬆標識。 將滑鼠移至上方，以檢視完整元件名稱做為工具提示。
+* **說明** -用作面板文本的說明，預設為為為面板選擇的元件的名稱。
+* **刪除** -點選或按一下，從accordion元件中刪除面板。
+* **重新排列** -點選或按一下並拖曳以重新排列面板的順序。
 
-### Properties Tab {#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
 
-* **單一項目擴增** -選取此選項時，此選項會強制一次展開單一accordion項目。展開一個項目之後會收合所有其他項目。
-* **擴充項目** -此選項定義載入頁面時預設擴充的項目。
-   * When **Single item expansion** is selected, one panel must be selected. 依預設會選取第一個面板。
-   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
+* **單一項目擴展** -選擇此選項後，將強制一次擴展單個accordion項目。 展開一個項目將會收合所有其他項目。
+* **展開的項目** -此選項定義在載入頁面時依預設展開的項目。
+   * 選取「 **單一項目展開** 」時，必須選取一個面板。 依預設會選取第一個面板。
+   * 如果未 **選取「單一項目展開** 」，此選項為多選項，且為可選項。
 
-## Select Panel Popover {#seelct-panel-popover}
+## 選取面板快顯 {#seelct-panel-popover}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the panels within the accordion.
+內容作者可使用元件工具列上的「選取面板 **** 」選項，變更為不同的面板進行編輯，並輕鬆重新排列accordion中面板的順序。
 
 ![](assets/screen-shot-2019-06-21-08.49.36.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured accordion panels are displayed as a drop-down.
+在元件工 **具列中選取「選取面板** 」選項後，所設定的accordion面板會顯示為下拉式清單。
 
 ![](assets/screen-shot-2019-06-21-08.52.14.png)
 
-* 清單是依面板指定的排列順序排列，並反映在編號中。
-* 面板的元件類型會先顯示，後面接著面板的說明。
-* 點選或按一下下拉式清單中的項目，會將編輯器中的檢視切換為該面板。
-* 您可以使用拖曳控制點，就地重新排列面板。
+* 該清單按所指定的面板排列排序，並反映在編號中。
+* 首先顯示面板的元件類型，然後以更亮的字型說明面板。
+* 點選或按一下下拉式清單中的項目，將編輯器中的檢視切換至該面板。
+* 通過使用拖曳控點，可以就地重新排列面板。
 
-## Design Dialog {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-此設計對話方塊可讓範本作者定義在放置Accordion元件時使用Accordion元件和預設集的內容作者可用選項。
+設計對話框允許模板作者定義內容作者可用的選項，內容作者使用Accordion元件，並在放置Accordion元件時設定預設值。
 
-### Properties Tab {#properties-tab-design}
+### 屬性標籤 {#properties-tab-design}
 
 ![](assets/screen-shot-2019-06-21-08.58.11.png)
 
-* **允許的標題元素** -此多重選單下拉式清單定義允許作者選取的accordion項目標題HTML元素。
+* **允許的標題元素** -此多選下拉式清單定義作者允許選取的accordion項目標題HTML元素。
 * **預設標題元素** -此下拉式清單定義預設的accordion項目標題HTML元素。
 
-### Allowed Components Tab {#allowed-components-tab}
+### 允許的元件頁籤 {#allowed-components-tab}
 
-**「允許的元件** 」索引標籤可用來定義內容作者可以在「Accordion元件」中新增哪些元件做為項目。
+「允 **許的元件** 」索引標籤可用來定義哪些元件可由內容作者新增為Accordion元件的面板項目。
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### Styles Tab {#styles-tab}
+### 樣式標籤 {#styles-tab}
 
-The Accordion Component supports the AEM [Style System](authoring.md#component-styling).
+Accordion元件支援AEM [Style系統](authoring.md#component-styling)。
