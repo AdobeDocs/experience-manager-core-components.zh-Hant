@@ -1,12 +1,12 @@
 ---
 title: 頁面元件(v1)
 seo-title: 頁面元件(v1)
-description: Page Page Component是可擴充的頁面元件，可搭配範本編輯器運作，並允許頁首/頁尾以及結構元件與範本編輯器一起組合。
-seo-description: 頁面元件是可擴充的頁面元件，可用於範本編輯器，並允許頁面頁首/頁尾以及結構元件與範本編輯器一起組合。
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0 de2 c32
+description: 頁面元件是可擴充的頁面元件，可與範本編輯器搭配使用，並可讓頁首／頁尾和結構元件與範本編輯器組合使用。
+seo-description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
+uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
 content-type: 引用
 topic-tags: 核心元件
-discoiquuid: b3f1775d-743d-4f72-a1 e5-198303007a8 e
+discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -16,38 +16,38 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 # 頁面元件(v1){#page-component-v}
 
-頁面元件是可擴充的頁面元件，可用於 [範本編輯器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) ，並允許頁面頁首/頁尾以及結構元件與範本編輯器一起組合。
+「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使 [用](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) ，並可讓頁首／頁尾和結構元件與範本編輯器組合。
 
 ## 使用狀況 {#usage}
 
-頁面元件是使用核心元件以及可編輯範本所設計之所有頁面的基礎。使用頁面元件、頁首、頁尾及頁面結構，可將頁面定義為使用其他核心元件的範本。
+「頁面元件」是所有以核心元件及可編輯範本設計之頁面的基礎。 使用頁面元件，頁首、頁尾和頁面結構就可使用其他核心元件定義為範本。
 
-使用 [設計對話方塊](page-v1.md#main-pars_title_1995166862)，可為頁面定義自訂用戶端程式庫。不同於其他元件可直接從元件存取，因為元件是頁面本身，所以頁面元件 [的編輯對話方塊](page-v1.md#main-pars_title) 是頁面屬性視窗。
+使用設 [計對話方塊](page-v1.md#main-pars_title_1995166862)，可為頁面定義自訂用戶端程式庫。 與具有可直接從元件訪問的編輯對話框的其他元件不同，由於元件是頁面本身，因此頁面元件的 [編輯](page-v1.md#main-pars_title) 對話框是頁面屬性窗口。
 
 ## 版本與相容性 {#version-and-compatibility}
 
-本文件說明頁面元件的v1，原始版本為AEM6.3的1.0.0版核心元件。
+本檔案說明Page Component的v1，最初是隨AEM 6.3核心元件的1.0.0版一起推出。
 
-下表列出頁面元件v的相容性。
+下表列出頁面元件v1的相容性。
 
 | AEM版本 | 頁面元件v1 |
 |--- |--- |
-| 6.3 | 相容相容性 |
-| 6.4 | 相容相容性 |
+| 6.3 | 相容 |
+| 6.4 | 相容 |
 
 >[!CAUTION]
 >
->本文件說明頁面元件的v1。
+>本檔案說明頁面元件的v1。
 >
->如需目前版本頁面元件的詳細資訊，請參閱 [「頁面元件](page.md) 文件」。
+>如需頁面元件目前版本的詳細資訊，請參閱頁 [面元件檔案](page.md) 。
 
 >[!NOTE]
 >
->頁面元件的v不支援頁面重新導向。請使用 [目前版本的頁面元件](page.md) 進行頁面重新導向支援。
+>頁面元件的v1不支援頁面重新導向。 請使用頁 [面元件的目前版本](page.md) ，以取得頁面重新導向支援。
 
-## 元件輸出範例 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-以下是取自 [「我們零售](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)業」的範例。
+以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -681,32 +681,32 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要1.1.0版核心元件。如需詳細資訊，請參閱核心元件v [](versions.md#main-pars_title_236368006) 的相容性資訊。
+>從核心元件匯出JSON需要1.1.0版的核心元件。 如需詳細 [資訊，請參閱核心元件v1的相容性資訊](versions.md#main-pars_title_236368006) 。
 
-## 編輯對話方塊 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-由於元件代表整個頁面，所以通常會在 [「頁面屬性](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) 」視窗中找到通常位於編輯對話方塊中的設定。
+由於元件代表整個頁面，因此「頁面屬性」視窗中會顯示一般會出現在編輯對話 [方塊中的設定](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) 。
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-由於元件代表整個頁面，所以會透過 **「頁面資訊-&gt;頁面設計**」存取設計對話方塊。
+由於元件代表整個頁面，所以可透過「頁面資訊-&gt;頁面設 **計」存取設計對話方塊**。
 
 ![](assets/chlimage_1-94.png)
 
-您可以使用「頁面設計」視窗定義應載入頁面的用戶端程式庫。
+使用「頁面設計」視窗，您可以定義應隨頁面載入的用戶端程式庫。
 
-* 若要新增欄位，或點選欄位下方的 **「新增** 」按鈕。
-* 若要移除欄位，或點選欄位旁的垃圾桶圖示，請加以移除。
-* 若要重新排列載入順序，請按一下或點選並拖曳欄位旁的控點以進行移動。
+* 若要新增欄位，請按一下或點選欄 **位下方** 的「新增」按鈕。
+* 若要移除欄位點按或點選要移除欄位旁的垃圾桶圖示。
+* 若要重新排列載入順序，請按一下或點選並拖曳要移動之欄位旁的控點。
 
-如需使用用戶端程式庫的詳細資訊，請參閱 [「使用用戶端程式庫](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)」。
+如需使用用戶端程式庫的詳細資訊，請參 [閱使用用戶端程式庫](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)。
 
 ![](assets/chlimage_1-95.png)
 
-## 技術細節 {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-有關頁面元件 [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)。
+有關頁面元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)。
 
-您可以從GitHub下載整個核心元件專案。
+您可從GitHub下載整個核心元件專案。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
