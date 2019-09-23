@@ -2,12 +2,12 @@
 title: 導覽元件
 seo-title: 導覽元件
 description: 'null'
-seo-description: 導覽元件可讓使用者輕鬆導覽全球化的網站結構。
-uuid: 616c03fb-39b3-402a-b990-f56 c87 bc6 df
+seo-description: 導覽元件可讓使用者輕鬆導覽全球化網站結構。
+uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
 content-type: 引用
-topic-tags: 製作
-products: SG_ PERIENCENCENAGER/CORECOMPonation@-@new
-discoiquuid: da8d67d7-b65 e-4041-bc0 e-e998 f24 a68 f9
+topic-tags: 編寫
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
 disttype: dist5
 gnavtheme: 淺色
 groupsectionnavitems: 否
@@ -25,22 +25,22 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 # 導覽元件{#navigation-component}
 
-導覽元件可讓使用者輕鬆導覽全球化的網站結構。
+導覽元件可讓使用者輕鬆導覽全球化網站結構。
 
 ## 使用狀況 {#usage}
 
-導覽元件清單列出頁面的樹狀結構，讓網站的使用者輕鬆導覽網站結構。
+導覽元件會列出頁面樹狀結構，讓網站的使用者可輕鬆導覽網站結構。
 
-導覽元件可自動偵測您網站的全球化網站結構， [並自動調整為本地化頁面。](#localized-site-strucutre) 此外，它還可支援 [任何任意的網站結構，以代表其他](#shadow-structure) 結構，而非主要內容結構的其他結構。
+導覽元件可自動偵測您網站的全球化網站結構，並自 [動調整至本地化頁面。](#localized-site-strucutre) 此外，它可支援任何任意的網站結構，方 [法是使用陰影重新導向頁面](#shadow-structure) ，來表示除主要內容結構以外的其他結構。
 
-[編輯對話方塊](#edit-dialog) 可讓內容作者定義導覽根頁面以及導覽深度。[設計對話方塊](#design-dialog) 可讓範本作者定義導覽根目錄和深度的預設值。
+編輯 [對話方塊](#edit-dialog) ，可讓內容作者定義導覽根頁面以及導覽深度。 設 [計對話框](#design-dialog) ，可讓範本作者定義導覽根和深度的預設值。
 
-## 本地化的網站結構支援 {#localized-site-structure}
+## 本地化網站結構支援 {#localized-site-structure}
 
-網站通常以多種語言提供給不同地區。通常每個本地化頁面都會包含一個包含在頁面範本中的巢狀元素。「Navigation Component」(導覽元件)可讓您將它放置在網站所有頁面的範本上一次，然後根據您的全球化網站結構自動針對個別本地化頁面進行調整。
+網站通常針對不同地區提供多種語言版本。 通常，每個本地化頁面都會包含一個納入頁面範本的命名元素。 「導覽元件」可讓您將它放置在網站所有頁面的範本上一次，然後它會根據您的全球化網站結構自動調整個別本地化頁面。
 
-* 如需導覽元件本地化功能的範例，請參閱 [下](#example-localiatzion)一節。
-* 如需核心元件的本地化功能如何搭配運作的範例，請參閱核心元件頁面 [的本地化功能](localization.md)。
+* 如需導覽元件本地化功能的範例，請參 [閱下節](#example-localiatzion)。
+* 如需核心元件的本地化功能如何搭配運作的範例，請參閱核 [心元件的本地化功能頁面](localization.md)。
 
 ### 例如 {#example-localization}
 
@@ -74,93 +74,93 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 \-- wknd-shop
 ```
 
-對於我們的零售網站，您可能想要將導覽元件置於頁首，做為標題的一部分。在範本的一部分中，您可以將元件 **的導覽根目錄** 設定為 `/content/we-retail/language-masters/en` 該元件的導覽根目錄，因為該網站的主內容已開始。您可能也希望設定 **「導覽結構深度」** ， `2` 因為您可能不希望元件顯示整個內容樹狀結構，而是前兩個層級，以便做為概述。
+對於網站We.Retail，您可能會想將導覽元件置於頁面範本上，做為頁首的一部分。 範本一經包含，您就可將元件的 **Navigation Root** （導覽根目錄）設 `/content/we-retail/language-masters/en` 定為，因為此處就是該網站的主版內容的開始位置。 您可能也想要將「導覽結構深度」設 ****`2` 為，因為您可能不希望元件顯示整個內容樹狀結構，而是前兩個層級，以做為總覽。
 
-透過 **導覽根目錄** 值，Navigation `/content/we-retail/language-masters/en` Component會知道導覽開始後，它會循環播放網站的結構兩級(由 **「導覽結構深度** 」值定義)，以產生導覽選項。
+使用導 **覽根** (Navigation Root `/content/we-retail/language-masters/en` )值，導覽元件會知道，在導覽開始後，它可以透過向下遞歸網站結構兩個層級(由導覽結構深度( **Navigation Structure Depth** )值定義)來產生導覽選項。
 
-不論使用者檢視何種本地化頁面，導覽元件都可透過知道目前頁面的位置，以回溯至根目錄，然後轉送至對應的頁面，以找到對應的本地化頁面。
+無論使用者檢視的是哪個本地化頁面，Navigation元件都能透過知道目前頁面的位置、向後工作至根目錄，然後轉送至對應的頁面，來尋找對應的本地化頁面。
 
-因此，如果訪客正在檢視 `/content/ch/de/experience/arctic-surfing-in-lofoten`，則元件會知道以產生導覽結構 `/content/we-retail/language-masters/de`。同樣地，如果訪客正在檢視 `/content/us/en/experience/arctic-surfing-in-lofoten`，則元件會知道以產生導覽結構 `/content/we-retail/language-masters/en`。
+因此，如果訪客正在檢 `/content/ch/de/experience/arctic-surfing-in-lofoten`視，元件會知道根據產生導覽結構 `/content/we-retail/language-masters/de`。 同樣地，如果訪客正在檢 `/content/us/en/experience/arctic-surfing-in-lofoten`視，元件也會根據產生導覽結構 `/content/we-retail/language-masters/en`。
 
 ## 陰影網站結構支援 {#shadow-structure}
 
-有時需要為訪客建立不同於實際網站結構的導覽功能表。促銷活動可能會透過重新排列內容清單，強調功能表中的特定內容。使用可直接重新導向至其他內容頁面的陰影頁面，導覽元件可產生任何必要的導覽結構。
+有時，必須為訪客建立不同於實際網站結構的導覽功能表。 或許促銷活動應重新排列內容清單，以反白顯示功能表中的特定內容。 使用陰影頁面（只會重新導向至其他內容頁面），導覽元件可產生任何必要的任意導覽結構。
 
 若要這麼做，您必須：
 
-1. 將陰影頁面建立為代表您所需網站結構的平滑頁面。這通常稱為陰影網站結構。
-1. 在這些頁面的頁面屬性中設定 **重新導向** 值，指向實際內容頁面。
-1. 在陰影頁面的頁面屬性中設定 **「在導覽** 中隱藏」選項。
-1. 設定導覽元件 **的導覽根** 值，指向新陰影網站結構的根目錄。
+1. 將陰影頁面建立為代表您所需網站結構的空白頁面。 這通常稱為陰影網站結構。
+1. 在這些頁 **面的頁面屬性中** ，設定「重新導向」值，以指向實際的內容頁面。
+1. 在陰影頁 **面的頁面屬性中** ，設定「在導覽中隱藏」選項。
+1. 將導 **** 覽元件的導覽根目錄值設為指向新陰影網站結構的根目錄。
 
-然後，導覽元件就會根據陰影網站結構來演算功能表。由元件轉換的連結是指實際內容頁面，這些頁面會重新導向至陰影頁面，而非陰影頁面本身。此外，元件會顯示實際頁面的名稱，並正確顯示作用中頁面，即使導覽是以陰影頁面為基礎。導覽元件有效地讓訪客對陰影頁面完全透明。
-
->[!NOTE]
->陰影頁面讓您的導覽選項更有彈性，但請記住，此結構的基礎是完全手動。如果您重新排列實際的網站內容或新增/移除內容，您必須視需要手動更新陰影結構。
+然後，「導覽元件」會根據陰影網站結構來轉換功能表。 元件轉譯的連結是實際內容頁面，陰影頁面會重新導向至實際內容頁面，而非陰影頁面本身。 此外，元件會顯示實際頁面的名稱，並正確反白顯示作用中頁面，即使導覽是以陰影頁面為基礎。 導覽元件可讓陰影頁面對訪客完全透明。
 
 >[!NOTE]
->轉換陰影網站結構時，導覽邏輯只會循環使用陰影頁面。邏輯不會重復重新導向目的地的結構。
+>陰影頁面可讓您的導覽選項更有彈性，但請記住，此結構的維護是完全手動的。 如果您重新排列實際的網站內容或新增／移除內容，則需要視需要手動更新陰影結構。
+
+>[!NOTE]
+>在呈現陰影網站結構時，導覽邏輯只會遞回陰影網頁。 該邏輯不會重複重新導向目的地的結構。
 
 ## 版本與相容性 {#version-and-compatibility}
 
-目前版本的Navigation Component is v1，它是從2018年月發行的版本2.0.0推出，並在本文中說明。
+目前的導覽元件版本為v1，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
-| v1 | 相容相容性 | 相容相容性 | 相容相容性 |
+| v1 | 相容 | 相容 | 相容 |
 
-如需核心元件版本和版本的詳細資訊，請參閱文件 [核心元件版本](versions.md)。
+如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
-## 元件輸出範例 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-若要體驗導覽元件，以及檢視其組態選項以及HTML和JSON輸出的範例，請造訪 [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html)。
+若要體驗導覽元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html)。
 
-## 技術細節 {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-有關導覽元件 [的最新技術文件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)。
+有關Navigation Component的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文件](developing.md)。
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
 >[!NOTE]
 >
->從核心元件2.1.0版開始，Navigation Component支援 [schema.org微型資料](https://schema.org)。
+>自2.1.0版核心元件起，導覽元件支援 [schema.org微資料](https://schema.org)。
 
 ## Edit Dialog {#edit-dialog}
 
-在編輯對話方塊中，內容作者可定義導覽的根頁面和導覽結構深度。
+在編輯對話方塊中，內容作者可以定義導覽的根頁面，以及導覽結構的深度。
 
-### 屬性索引標籤 {#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.45.png)
 
-* **導覽根目錄**：將用來產生導覽樹狀結構的根頁面。
-* **排除導覽根目錄**&#x200B;排除產生的樹狀結構中的導覽根目錄，僅包含其子系。
-* **收集所有子頁面**&#x200B;收集所有屬於導覽根目錄子項的頁面。
-* **導覽結構深度**&#x200B;定義元件相對於導覽根目錄應該顯示的導覽樹狀結構層級層級(僅當 **未選取所有子系頁面** 時可用)。
+* **Navigation Root**（導覽根）將用於生成導覽樹的根頁面。
+* **排除導覽根**&#x200B;排除產生的樹中的導覽根，僅包含其子項。
+* **收集所有子頁**&#x200B;面收集所有作為導覽根目錄後代的頁面。
+* **導覽結構深**&#x200B;度定義元件相對於導覽根目錄在導覽樹下應顯示多少層級(僅在未選取「收集所有子頁面 **** 」時可用)。
 
-### 協助工具標籤 {#accessibility-tab}
+### 「輔助工具」頁籤 {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-在 **「協助工具** 」索引標籤上，可為元件設定 [AIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 標籤的值。
+在「協 **助工具** 」標籤上，可為元件的 [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA協助工具標籤設定值。
 
-* **標籤** -元件的AIA標籤屬性值
+* **Label** —— 元件的ARIA label屬性的值
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-此設計對話方塊可讓範本作者為內容作者設定導覽根頁面和導覽深度的預設值。
+設計對話框允許模板作者設定顯示給內容作者的導航根頁面和導航深度的預設值。
 
-### 屬性索引標籤 {#properties-tab-design}
+### 屬性標籤 {#properties-tab-design}
 
 ![](assets/screen_shot_2018-04-03at112357.png)
 
-* **導覽根目錄：**&#x200B;導覽結構的根頁面預設值，此值將用於產生導覽樹狀結構，並在內容作者新增元件至頁面時預設。
-* **排除導覽根目錄**：選項的預設值，可排除產生之樹狀結構中的導覽根目錄。
-* **收集所有子頁面**&#x200B;的選項預設值可收集導覽根目錄中所有屬於子項的頁面。
-* **導覽結構深度**&#x200B;導覽結構深度的預設值。
+* **導覽根**&#x200B;導覽結構的根頁面的預設值，此值將用於產生導覽樹，並在內容作者將元件新增至頁面時預設。
+* **排除導覽根**(Exclude navigation root)在結果樹中排除導覽根的選項的預設值。
+* **收集所有子頁**&#x200B;面：選項的預設值，用於收集所有作為導航根目錄子代的頁面。
+* **導覽結構深**&#x200B;度導覽結構深度的預設值。
 
 ### 樣式標籤 {#styles-tab}
 
-導覽元件支援AEM [樣式系統](authoring.md#component-styling)。
+導覽元件支援AEM [Style系統](authoring.md#component-styling)。
