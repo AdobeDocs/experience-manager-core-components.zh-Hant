@@ -1,9 +1,9 @@
 ---
 title: 分隔符號元件
 seo-title: 分隔符號元件
-description: 分隔符號元件會在頁面上的元件之間建立分支
-seo-description: 分隔符號元件會在頁面上的元件之間建立分支
-contentOwner: bohnert
+description: 分隔符號元件會在頁面上的元件之間建立分隔符號
+seo-description: 分隔符號元件會在頁面上的元件之間建立分隔符號
+contentOwner: 博納特
 content-type: 引用
 topic-tags: 核心元件
 translation-type: tm+mt
@@ -14,40 +14,40 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 # 分隔符號元件{#separator-component}
 
-核心元件分隔元件元件會顯示分離內容的水平規則。
+核心元件分隔符號元件會顯示水準規則來分隔內容。
 
 ## 使用狀況 {#usage}
 
-分隔符號元件可讓內容作者輕鬆建立水平規則作為內容之間的分支，以更好地組織頁面上的資訊。
+「分隔元件」可讓內容作者輕鬆建立水準規則，作為內容之間的分隔，以便更好地組織頁面上的資訊。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
-目前版本的分隔元件元件是v1，它是在2019年月發行的版本2.3.0推出，並在本文中說明。
+目前的Separator元件版本為v1，此版本於2019年2月隨核心元件2.3.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |---|---|---|---|
-| v1 | 相容相容性 | 相容相容性 | 相容相容性 |
+| v1 | 相容 | 相容 | 相容 |
 
-## Sample Component Output {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
+若要體驗「分隔符號元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪「元件 [庫」](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)。
 
-### Technical Details {#technical-details}
+### 技術詳細資訊 {#technical-details}
 
-The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+有關Separator Component的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 分隔符號元件沒有設定對話方塊。
 
-## Design Dialog {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-設計對話方塊可讓範本作者定義套用至分隔符號元件的樣式。
+設計對話框允許模板作者定義應用於分隔符元件的樣式。
 
-### Styles Tab {#styles-tab}
+### 樣式標籤 {#styles-tab}
 
-The Separator Component supports the AEM [Style System](authoring.md#component-styling).
+Separator Component支援AEM [Style System](authoring.md#component-styling)。
