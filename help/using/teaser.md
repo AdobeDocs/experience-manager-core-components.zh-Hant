@@ -1,10 +1,10 @@
 ---
 title: 摘要元件
 seo-title: 摘要元件
-description: 摘要元件可顯示影像、標題、豐富文字，並可選擇性地連結至其他內容。
-seo-description: 摘要元件可顯示影像、標題、豐富文字，並可選擇性地連結至其他內容。
-uuid: 46989314-df37-448b-8562-c707043 f2160
-contentOwner: bohnert
+description: 摘要元件可顯示影像、標題、豐富文字，並可選擇地連結至其他內容。
+seo-description: 摘要元件可顯示影像、標題、豐富文字，並可選擇地連結至其他內容。
+uuid: 46989314-df37-448b-8562-c707043f2160
+contentOwner: 博納特
 content-type: 引用
 topic-tags: 核心元件
 discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
@@ -14,89 +14,94 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 ---
 
 
-# Teaser Component{#teaser-component}
+# 摘要元件{#teaser-component}
 
-核心元件摘要元件可顯示影像、標題、豐富文字，並可選擇性地連結至其他內容。
+核心元件摘要元件可顯示影像、標題、豐富式文字，並可選擇連結至其他內容。
 
 ## 使用狀況 {#usage}
 
-Teaser Component可讓內容作者使用影像、標題或豐富文字，並連結到更進一步的內容或其他動作，輕鬆製作出更進一步的內容。
+The Teaser Component allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions.
 
-The template author can use the [design dialog](#design-dialog) to define if the options to create call-to-actions and add links are available as well as disabling various display options. The content author can use the [configure dialog](#configure-dialog) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser. The [edit dialog](image.md#edit-dialog) of the [Image Component](image.md) can be accessed to modify the teaser image.
+範本作者可使用設 [計對話方塊](#design-dialog) ，定義建立動作呼叫和新增連結的選項是否可用，以及停用各種顯示選項。 內容作者可以使用 [設定對話方塊](#configure-dialog) ，來設定影像、定義CTA、設定標題和說明，以及設定個別摘要的連結。 您可 [以存取影像](image.md#edit-dialog) 元件的編輯對話方塊 [](image.md) ，以修改摘要影像。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
-目前的Teaser元件版本是v1，它是在2018年月發行的版本2.1.0版中推出，並在本文中說明。
+摘要元件的目前版本為v1，此版本於2018年7月隨核心元件2.1.0版推出，並在本檔案中加以說明。
 
-下表列出元件的所有支援版本、元件版本與元件相容的AEM版本，以及舊版文件的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM6.3 | AEM6.4 | AEM6.5 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |---|---|---|---|
-| v1 | 相容相容性 | 相容相容性 | 相容相容性 |
+| v1 | 相容 | 相容 | 相容 |
 
-## Sample Component Output {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
+若要體驗Teaser元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html)。
 
-### Technical Details {#technical-details}
+### 技術詳細資訊 {#technical-details}
 
-The latest technical documentation about the Teaser Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+有關摘要元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
-內容作者可以使用設定對話方塊來定義個別摘要的屬性。There is also an [edit dialog](#edit-dialog) to modify the teaser image if one is selected.
+內容作者可以使用設定對話方塊來定義個別摘要的屬性。 There is also an edit dialog to modify the teaser image if one is selected.[](#edit-dialog)
 
 ### 影像 {#image}
 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **影像資產**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
-   * Tap or click **Clear** to de-select the currently selected image.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * 從資產瀏覽器中 [拖放資產](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ，或點選 **** 瀏覽選項，從本機檔案系統上傳。
+   * 點選或按一 **下「清除** 」以取消選取目前選取的影像。
+   * Tap or click Edit to mange the renditions of the asset in the asset editor.****[](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html)
 
 ### 文字 {#text}
 
 ![](assets/screen_shot_2018-07-03at104138.png)
 
-* **標題** 定義標題，以做為摘要的標題。
-* **從連結頁面** 取得標題時，此標題會填入連結頁面的標題。
-* **說明** 定義要顯示為摘要子標題的說明。
-* **從連結頁面** 取得描述時，此說明會填入連結頁面的說明。
+* **Title**（標題）定義標題，以顯示為摘要標題。
+* **Get title from linked page
+When checked, the title will be populated with the linked page's title.**
+* **Description
+Defines a description to display as the subheading of the teaser.**
+* **Get description from linked page
+When checked, the description will be populated with the linked page's description.**
 
 ### Links &amp; Actions {#links-actions}
 
 ![](assets/screen_shot_2018-07-03at104146.png)
 
-* **套用至摘要的連結** 連結。使用路徑瀏覽器來選取連結目標。
-* **啓用呼叫動作：** 勾選時，啓用「呼叫動作」的定義。清單中的第一個「呼叫對動作」連結會用作其他摘要元素的連結。
+* **Link
+Link applied to the teaser.** Use the path browser to select the link target.
+* **Enable Call-To-Actions
+When checked, enables definition of Call-To-Actions.** The first Call-To-Action link in the list is used as the link for other teaser elements.
 
 ## Edit Dialog {#edit-dialog}
 
-The Teaser Component delegates image rendering to the [Image Component](image.md). Therefore the [edit dialog](image.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.
+The Teaser Component delegates image rendering to the Image Component. [](image.md)Therefore the edit dialog(image.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.[]
 
 ## Design Dialog {#design-dialog}
 
-設計對話方塊可讓範本作者定義使用此元件時，內容作者所擁有的摘要選項。
+設計對話方塊可讓範本作者定義內容作者使用此元件時擁有的摘要選項。
 
-### Teaser Tab {#teaser-tab}
+### 摘要標籤 {#teaser-tab}
 
 ![](assets/screen_shot_2018-07-03at105958.png)
 
 * **呼叫動作**
-   * **停用呼叫動作** 隱藏內容作者 **的呼叫動作動作** 選項
+   * **停用內容作者的**「呼 **叫動作」選項**
 * **元素**
    * **隱藏標題**
-      * Hides the **Title** option for content authors
-      * When selected the **Title Type** is hidden
-   * **隱藏說明** 隱藏內容作者 **的描述** 選項
-* **標題類型** 定義摘要標題要使用的H標記。
+      * Hides the Title option for content authors ****
+      * 選取「標題類 **型」(Title Type** )後，
+   * **隱藏說明**&#x200B;隱藏內容作 **者的「說明** 」選項
+* **標題類**&#x200B;型定義摘要標題要使用的H標籤。
 * **連結**
-   * **未連結影像** 時，選取的摘要影像未連結
-   * **不連結標題** 時，選取的摘要標題不會連結
+   * **不要連結影像選取**&#x200B;時，未連結摘要影像
+   * **不要連結標題選取**&#x200B;時，未連結摘要標題
 
-### Styles Tab {#styles-tab}
+### 樣式標籤 {#styles-tab}
 
-The Teaser Component supports the AEM [Style System](authoring.md#component-styling).
+Teaser元件支援AEM [Style系統](authoring.md#component-styling)。
