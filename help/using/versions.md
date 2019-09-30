@@ -10,14 +10,14 @@ topic-tags: 簡介
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
 
 
 # 核心元件版本{#core-components-versions}
 
-目前的核心元件版本是2.6.0，並與AEM 6.5相容。它已於2019年9月發行，作為2.0.0版的重要更新。2.0.0版推出新元件，並更新現有元件的v2版。
+目前的核心元件版本是2.7.0，並與AEM 6.5相容。它已於2019年9月發行，作為2.0.0版的重要更新。2.0.0版推出新元件，並更新現有元件的v2版。
 
 如需詳細資 [訊，請參閱本檔案的發行記錄](#versions-and-releases) 和相容性一節。
 
@@ -41,7 +41,7 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 核心元件可透過發行 **提供** , [並代表GitHub上的實際已發佈對象](https://github.com/adobe/aem-core-wcm-components/releases)。 版本以X.Y.Z格式的十進位數字表示，並將所有核心元件作為交付件包一起收集。
 
-* **主要版本** ，可推出新版本的現有元件以及全新的元件以及標準錯誤修正。 這由釋放編號的X元件中的增量表示。
+* **主要版本** ，可推出新版本的現有元件以及全新的元件以及標準錯誤修正。 This is represented by an increment in the X component of the release number.
 * **重要版本** ，可在現有元件版本中新增功能，並修正錯誤。 這由釋放編號的Y元件中的增量表示。
 * **次要版本** ，僅包含錯誤修正。 這由釋放號的Z分量中的增量表示。
 
@@ -63,8 +63,9 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 | 發行 | 說明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 本版次推出新的內嵌元件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年9月25日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本推出新的Experience Fragment元件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年9月6日 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 本版次推出新的Accordion、Button、Container和Download元件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年6月25日 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引進了新的Accordion、Button、Container和Download元件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年6月25日 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入內容片段清單元件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年5月7日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本主要針對元件庫的調整，但也包含分隔符號元件的一些功能增強功能 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 2019年3月14日 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本主要針對元件庫以及新的分隔元件，但也包含一些影像元件的增強功能 | 6.3.3.0+ | 6.4.2.0+ | - | 8 | 2019年2月11日 |
@@ -89,27 +90,34 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 下表詳細說明核心元件的發行版本中包含哪些元件版本。
 
-|  | 版本1.0.0 - 1.0.6 | 版本1.1.0 | 版本2.0.0 - 2.0.8 | 版本2.1.0 | 版本2.2.-2.2.0 | 2.3.0 |
-|---|---|---|---|---|---|---|
-| **[頁面](page.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[標題](title.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[影像](image.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[清單](list.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[階層連結](breadcrumb.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[社交媒體分享](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[來自容器](form-container.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[表單文字](form-text.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[表單選項](form-options.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[已隱藏的表單](form-hidden.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[表單按鈕](form-button.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[內容片段](content-fragment-component.md)** |  | 沙盤 | v1 | v1 | v1 | v1 |
-| **[導覽](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[語言導覽](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[快速搜尋](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[摘要](teaser.md)** |  |  |  | v1 | v1 | v1 |
-| **[標籤](tabs.md)** |  |  |  |  | v1 | v1 |
-| **[轉盤](carousel.md)** |  |  |  |  | v1 | v1 |
-| **[分隔符號](separator.md)** |  |  |  |  |  | v1 |
+|  | 版本1.0.0 - 1.0.6 | 版本1.1.0 | 版本2.0.0 - 2.0.8 | 版本2.1.0 | 版本2.2.0-2.2.0 | 版本2.3.0-2.3.2 | 版本2.4.0 | 版本2.5.0 | 版本2.6.0 | 版本2.7.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **[頁面](page.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[標題](title.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[影像](image.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[清單](list.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[階層連結](breadcrumb.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[社交媒體分享](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[來自容器](form-container.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[表單文字](form-text.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[表單選項](form-options.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[已隱藏的表單](form-hidden.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[表單按鈕](form-button.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[內容片段](content-fragment-component.md)** |  | 沙盤 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[導覽](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[語言導覽](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[快速搜尋](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[摘要](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Tabs](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Carousel](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Separator](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[內容片段清單](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Accordion](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Button](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Container](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Download](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[體驗片段](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[內嵌](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 文件 {#documentation}
 
@@ -120,3 +128,5 @@ source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 [開發核心元件](developing.md) (Developing Core Components)說明核心元件的技術功能、如何在專案中使用這些元件、如何自訂以及最佳實務。
 
 [核心元件簡介](introduction.md) (Core Components Introduction)概述各版本、使用案例和支援的核心元件相容性。
+
+[WKND教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) ，是針對AEM進行開發（包括使用核心元件）的絕佳逐步簡介。
