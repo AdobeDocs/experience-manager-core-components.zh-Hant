@@ -10,33 +10,33 @@ topic-tags: 開發
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
 
-# 開發核心元件{#developing-core-components}
+# Developing Core Components{#developing-core-components}
 
 ## 綜覽 {#overview}
 
 核心元件提供強穩且可擴充的基本元件，其亮點為：
 
-* 功能豐富的功能
-   * [靈活的配置選項](authoring.md) ，可容納許多使用案例
-   * [預先設定的功能](authoring.md#pre-configuring-core-components) ，以定義頁面作者可使用的功能
-* 持續傳送
-   * 頻繁的增量功能改進
-   * GitHub上的 [原始碼已推出](https://github.com/adobe/aem-core-wcm-components) ，讓開發人員社群提供意見回饋並貢獻
-   * 透過個別發 [行的內容套件安裝](https://github.com/adobe/aem-core-wcm-components/releases) ，以獨立於AEM升級完成元件升級
-* [元件版本控制](guidelines.md#component-versioning)
-   * [確保版本的相容性](#upgrade-of-core-components)，同時允許元件改進
-   * 允許一個元件的多個版本共存於同一環境中
-* 現代實作
-   * 在 [HTML範本語言](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)中定義的標籤
+* Feature-rich capabilities
+   * [Flexible configuration options to accommodate many use cases](authoring.md)
+   * [Pre-configurable capabilities to define which features are available to page authors](authoring.md#pre-configuring-core-components)
+* Continuous delivery
+   * Frequent incremental functionality improvements
+   * Availability of the source code on GitHub to allow the developer community to give feedback and contribute[](https://github.com/adobe/aem-core-wcm-components)
+   * Installation through a separately released content package for component upgrades to be done independently from AEM upgrades[](https://github.com/adobe/aem-core-wcm-components/releases)
+* [Component versioning](guidelines.md#component-versioning)
+   * [Ensure compatibility within a version, yet allow the components to evolve](#upgrade-of-core-components)
+   * Allow multiple versions of one component to coexist on the same environment
+* Modern implementation
+   * Markup defined in HTML Template Language (HTL)[](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
    * 使用 [Sling Models實作的內容模型邏輯](https://sling.apache.org/documentation/bundles/models.html)
 * 精益標籤
    * 自2. [0.0版起，遵循塊元素修飾詞](https://getbem.com/) (BEM)注釋
-      * 舊版遵循 [Bootstrap](https://getbootstrap.com/css/) 命名慣例
+      * Prior release follow Bootstrap naming conventions[](https://getbootstrap.com/css/)
    * 以協助工具指 [南為基礎](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
    * 可用於互動式和行動網站
 * 可序列化為JSON的無頭CMS使用案例內容模型
@@ -53,11 +53,11 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 如需核心元件、其提供的功能以及如何在AEM中運用這些元件的簡介，請參閱AEM Gems Session [AEM核心元件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ，是Adobe專家提供的一系列技術深入探討。 本系列補充了產品說明檔案和所有其他技術通道，讓開發人員可以深入瞭解特定主題。
+[Gems on Adobe Experience Manager is a series of technical deep dives delivered by Adobe experts. ](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html)本系列補充了產品說明檔案和所有其他技術通道，讓開發人員可以深入瞭解特定主題。
 
 ## WKND開發人員教學課程 {#wknd-developer-tutorial}
 
-依照本逐步教學課程，開始開 [發具核心元件的AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+依照本逐步教學課程，開始使用核心元 [件來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## 透過GitHub提供 {#delivered-over-github}
 
@@ -84,11 +84,11 @@ GITHUB代碼
 
 ### 範例內容執行模式 {#sample-content-run-mode}
 
-當範例內容出現時，Quickstart中會顯示核心元件，因為 [We.Retail參考網站會使用它們](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 。 不過，當在生產環境中執行(在 `nosamplecontent` runmode中，未啟用範例內容)時，核心元件將不再存在，而且必須由開發和／或營運團隊安裝在AEM例項上。
+The Core Components are visible in the Quickstart when the sample content is present, because the We.Retail reference site uses them. [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)However, when running in production (in  runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.`nosamplecontent`
 
 >[!NOTE]
 >
->在生產環境中，請始終以運行模式運行快速 `nosamplecontent` 入門。 若要在執行模式中使 `nosamplecontent` 用核心元件，請依照「使用核 [心元件](using.md) 」檔案頁面的指示進行。
+>在生產環境中，請始終以運行模式運行快速 `nosamplecontent` 入門。 To use the Core Components in  runmode, follow the instructions of the Using Core Components documentation page.`nosamplecontent`[](using.md)
 
 ## 技術功能 {#technical-capabilities}
 
@@ -143,6 +143,7 @@ GITHUB代碼
 | [按鈕](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 在頁面上建立按鈕 | `-` |
 | [下載](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 新增可下載的資產至頁面 | `-` |
 | [體驗片段](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [內嵌](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | 將外部資源內嵌在頁面中 | - |
 
 ### 近期元件 {#upcoming-components}
 
