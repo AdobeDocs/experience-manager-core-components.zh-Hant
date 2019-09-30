@@ -8,12 +8,12 @@ content-type: 引用
 topic-tags: 編寫
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
 
-# 使用核心元件製作
+# Author with Core Components
 
 在Adobe Experience Manager中，元件是構成所撰寫頁面內容的結構元素。
 
@@ -47,27 +47,27 @@ source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 * 專為支援輕鬆本 [地化而設](localization.md)
 
-在編輯頁面時，可 **在頁面編輯器側面板的「元件** 」(Components)選 [項卡上使用元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)。
+Components are available on the Components tab of the side panel of the page editor when editing a page.****[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
-元件會根據稱為元件群組的類別分組，以輕鬆組織和篩選元件。 元件群組名稱會與元件一起顯示在元 [件瀏覽器中](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ，您也可以依群組篩選，輕鬆找到正確的元件。
+Components are grouped according to categories called component groups to easily organize and filter the components. The component group name is displayed with the component in the component browser and it is also possible to filter by group to easily find the right component.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
 >[!NOTE]
 >
->「核心元件」預設為隱藏群組的一部分，在元件瀏覽器中不可見。
+>The Core Components are by default part of a hidden group and are not visible within the component browser.
 >
->將所需元件新增至可見群組，或自訂供作者使用。
+>Add the required components to a visible group or customize them for them to be available for authors.
 
-## 預先設定核心元件 {#pre-configuring-core-components}
+## Pre-Configuring Core Components {#pre-configuring-core-components}
 
-設定基礎元件是開發人員的工作。 不過，有了核心元件，範本作者現在可以透過範本編輯器設定許多功能。
+Configuring Foundation Components was the job of a developer. However with Core Components, a template author can now configure a number of capabilities via the template editor.
 
-例如，如果影像元件不應允許從檔案系統上傳影像，或者文字元件僅允許特定段落格式，只要按一下滑鼠，就可以啟用或停用這些功能。
+For example if an image component should not allow image upload from the file system, or if a text component should only allow certain paragraph formatting, these features can be enabled or disabled with a simple click.
 
-如需詳 [細資訊，請參閱](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 「建立頁面範本」。
+See Creating Page Templates for more information.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### 編輯和設計對話框 {#edit-and-design-dialogs}
+### Edit and Design Dialogs {#edit-and-design-dialogs}
 
-由於範本作者可預先設定核心元件，以定義範本中允許的選項，然後頁面作者進一步設定以定義實際的頁面內容，因此每個元件可以在兩個不同的對話方塊中有選項。
+Because the Core Components can be pre-configured by template authors to define what options are allowed as part of a template, and then further configured by the page author to define actual page content, each component can have options in two different dialogs.
 
 |  | 說明 | 控制項 | 範例 |
 |--- |--- |--- |--- |
@@ -101,6 +101,7 @@ source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 * [內容片段](content-fragment-component.md)
 * [內容片段清單](content-fragment-list.md)
 * [下載](download.md)
+* [內嵌](embed.md)
 * [體驗片段](experience-fragment.md)
 * [表單按鈕](form-button.md)
 * [來自容器](form-container.md)
