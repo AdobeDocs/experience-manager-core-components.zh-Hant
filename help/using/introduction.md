@@ -1,7 +1,7 @@
 ---
 title: 核心元件簡介
 seo-title: 核心元件簡介
-description: '引入核心元件以提供強穩且可擴充的基本元件，並以最新技術和最佳實務為基礎。 '
+description: '引入核心元件，以提供強穩且可擴充的基本元件，並以最新技術和最佳實務為基礎。 '
 seo-description: '引入核心元件，以提供強穩且可擴充的基本元件，並以最新技術和最佳實務為基礎。 '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
 contentOwner: 使用者
@@ -10,7 +10,7 @@ topic-tags: 簡介
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -37,7 +37,7 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 | 多功能 | 作者可以使用它們來建立大多數的內容。 |
 | 簡單易用 | 作者可以有效率地建立和管理內容。 |
 | 生產就緒 | 立即可用！ 它們強穩、經過良好測試，而且表現良好。 |
-| 可存取 | 它們符合WCAG 2.0標準，提供ARIA標籤，並支援鍵盤導覽。 |
+| Accessible | 它們符合WCAG 2.0標準，提供ARIA標籤，並支援鍵盤導覽。 |
 | 易於設計樣式 | 這些元件實現了樣式系統，標籤遵循BEM CSS命名。 |
 | SEO Friendly | HTML輸出是語義的，提供schema.org微資料注釋。 |
 | PWA/SPA/應用程式就緒 | 其簡化的JSON輸出也可用於用戶端轉譯。 |
@@ -58,6 +58,7 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 * [內容片段](content-fragment-component.md)
 * [內容片段清單](content-fragment-list.md)
 * [下載](download.md)
+* [內嵌](embed.md)
 * [體驗片段](experience-fragment.md)
 * [表單按鈕](form-button.md)
 * [來自容器](form-container.md)
@@ -100,7 +101,7 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 
 ## WKND開發人員教學課程 {#wknd-developer-tutorial}
 
-依照此逐步教學課程，開始使用核心元件 [來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following this step by step tutorial.[](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## 核心元件支援 {#core-components-support}
 
