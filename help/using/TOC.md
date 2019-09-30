@@ -5,7 +5,7 @@ sub-product: adobe experience manager核心元件
 archetype: 管理員
 user-guide-title: AEM核心元件
 translation-type: tm+mt
-source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 + [核心元件版本](versions.md)
 + Get Started {#get-started}
    + [使用核心元件製作內容](authoring.md)
-   + [使用核心元件](using.md)
+   + [Using Core Components](using.md)
    + [本地化功能](localization.md)
-+ 元件 {#components}
++ The Components {#components}
    + [折疊面板](accordion.md)
    + [階層連結](breadcrumb.md)
    + [按鈕](button.md)
@@ -28,6 +28,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
    + [內容片段](content-fragment-component.md)
    + [內容片段清單](content-fragment-list.md)
    + [下載](download.md)
+   + [內嵌](embed.md)
    + [體驗片段](experience-fragment.md)
    + [影像](image.md)
    + [語言導覽](language-navigation.md)
@@ -41,7 +42,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
    + [索引標籤](tabs.md)
    + [Teaser](teaser.md)
    + [標題](title.md)
-   + 表單元件 {#forms}
+   + Form Components {#forms}
       + [表單按鈕](form-button.md)
       + [來自容器](form-container.md)
       + [已隱藏的表單](form-hidden.md)
