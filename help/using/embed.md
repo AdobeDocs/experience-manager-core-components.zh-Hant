@@ -2,11 +2,11 @@
 title: 內嵌元件
 seo-title: 內嵌元件
 description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁面。
-seo-description: 內嵌元件可讓您將外部內容內嵌至AEM內容頁面。
+seo-description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁面。
 content-type: 引用
 topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 |
+| v1 | 相容 | Compatible | Compatible |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
@@ -42,41 +42,41 @@ source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 有關內嵌元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)。
 
-有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
+Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
 
-## 配置對話框 {#configure-dialog}
+## Configure Dialog {#configure-dialog}
 
-「配置」對話框允許內容作者定義要嵌入到頁面上的外部資源。 首先選擇應嵌入的資源類型： **URL**、 **可內嵌**&#x200B;或 **HTML**。
+The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: **URL**, **Embeddable**, or **HTML**.
 
 ### URL {#url}
 
-最簡單的內嵌方式是URL。 只需將您要內嵌的資源URL貼入「 **URL** 」欄位。 The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. **** If not, the field will be marked in error.
+The simplest embed is the URL. 只需將您要內嵌的資源URL貼入「 **URL** 」欄位。 元件將嘗試訪問資源，如果某個處理器可以呈現資源，則會在 **URL欄位下顯示確認消息** 。 否則，欄位將會標籤為錯誤。
 
 嵌入元件隨處理器提供以下資源類型：
 
-* Resources that comply with the oEmbed standard including Facebook Post, Instagram, SoundCloud, Twitter, and YouTube[](https://oembed.com/)
+* 符合「嵌入」標 [準的資源](https://oembed.com/) ，包括Facebook貼文、Instagram、SoundCloud、Twitter和YouTube
 * Pinterest
 
-Developers can add additional URL processors by following the developer documentation of the Embed Component.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+開發人員可依照內嵌元件的 [開發人員檔案新增其他URL處理器。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.08.29.png)
 
 ### 內嵌項目 {#embeddable}
 
-Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+嵌入式允許對嵌入式資源進行更多的定製，該嵌入式資源可以參數化並包括附加資訊。 An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
 
-The **Embeddable** field defines the type of processor you want to use. In the case of the YouTube embeddable you can then define:
+Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 In the case of the YouTube embeddable you can then define:
 
-* **Video ID - The unique video ID from YouTube of the resource you want to embed**
+* **視訊ID** —— 您要內嵌之資源的YouTube唯一視訊ID
 * **Width - The width of the embedded video**
 * **Height - The height of the embedded video**
 
-Other embeddables would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Other embeddables would offer similar fields and can be defined by a developer by following the developer documentation of the Embed Component.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Embeddables must be enabled at the template level via the [Design Dialog](#design-dialog) to be available to the page author.
+>Embeddables must be enabled at the template level via the Design Dialog to be available to the page author.[](#design-dialog)
 
 ### HTML {#html}
 
@@ -87,13 +87,13 @@ You can add free-form HTML to your page using the Embed Component.
 >[!NOTE]
 >任何不安全的標籤（例如指令碼）都會從輸入的HTML中篩選，而不會在產生的頁面上呈現。
 
-## Design Dialog {#design-dialog}
+## 設計對話框 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者可用的選項，內容作者使用內嵌元件，並在放置內嵌元件時設定預設值。
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **停用URL** —— 在選取 **內容作者時** ，停用URL選項
+* **Disable URL - Disables the URL option for the content author when selected******
 * **禁用嵌入式** -在選中時禁用內 **容作者的「可嵌入** 」選項，而不管允許哪些可嵌入處理器。
 * **停用HTML** —— 在選取時停 **用內容作者的HTML** 選項。
 * **允許的嵌入** -定義內容作者可以使用哪些可嵌入處理器的多選項，但 **是Embeddable** 選項處於活動狀態。
