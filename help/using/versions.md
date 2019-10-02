@@ -10,7 +10,7 @@ topic-tags: 簡介
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ---
 
@@ -33,27 +33,27 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 核心元件的主要小版本是 **版本**。 每個元件都有一個版本。 版本會以 **v** 附加非零正整數（例如v1和v2）表示。 版本只會針對不向後相容的變更而增加，這通常是新功能的引入。
 
-開發人員和管理員可在其資源類型路徑中，以及其實作的完全限定Java類別名稱中，依數字識別核心元件的版本。 此版本號表示由語義版本修訂指導所定義的 [主要版本](https://semver.org/)。
+Developers and administrators can recognize versions of the core components by a number in their resource type paths, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by semantic versioning guidelines.[](https://semver.org/)
 
-如需核心元件版本的詳細資訊，請參 [閱核心元件的開發人員檔案](guidelines.md)。
+For more details about core component versions, see the developer documentation of the Core Components.[](guidelines.md)
 
-### 發行 {#releases}
+### Releases {#releases}
 
-核心元件可透過發行 **提供** , [並代表GitHub上的實際已發佈對象](https://github.com/adobe/aem-core-wcm-components/releases)。 版本以X.Y.Z格式的十進位數字表示，並將所有核心元件作為交付件包一起收集。
+The core components are made available through releases and represent the actual published artifacts available on GitHub. ****[](https://github.com/adobe/aem-core-wcm-components/releases)Releases are denoted with a decimal number of the format X.Y.Z and collect all core components together as a deliverable package.
 
-* **主要版本** ，可推出新版本的現有元件以及全新的元件以及標準錯誤修正。 This is represented by an increment in the X component of the release number.
-* **重要版本** ，可在現有元件版本中新增功能，並修正錯誤。 這由釋放編號的Y元件中的增量表示。
-* **次要版本** ，僅包含錯誤修正。 這由釋放號的Z分量中的增量表示。
+* **Major releases can introduce new versions of existing components along with entirely new components as well as standard bug fixes.** This is represented by an increment in the X component of the release number.
+* **Important releases can introduce new functionality to existing versions of components along with bug fixes.** This is represented by an increment in the Y component of the release number.
+* **Minor releases contain only bug fixes.** This is represented by an increment in the Z component of the release number.
 
 >[!NOTE]
 >
->版本可包含相同元件的多個版本。
+>Releases can contain multiple versions of the same component.
 >
->同一版本的元件可以出現在多個版本中。
+>The same version of a component can appear in multiple releases.
 
 ## 發行記錄與相容性 {#release-history-and-compatibility}
 
-核心元件最初是隨AEM 6.3發行，其設計是有彈性且與所有支援的AEM版本相容。 因此，某個版本的元件可以包含相同元件的多個版本。
+The Core Components were first released with AEM 6.3 and are designed to be flexible and compatible with all supported AEM versions. 因此，某個版本的元件可以包含相同元件的多個版本。
 
 下表說明了核心元件版本的相容性以及包含哪些版本的元件版本。
 
@@ -63,8 +63,8 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 | 發行 | 說明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 本版次推出新的內嵌元件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年9月25日 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本推出新的Experience Fragment元件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年9月6日 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 本版次推出新的內嵌元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年9月25日 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本推出新的Experience Fragment元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年9月6日 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引進了新的Accordion、Button、Container和Download元件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年6月25日 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入內容片段清單元件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年5月7日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本主要針對元件庫的調整，但也包含分隔符號元件的一些功能增強功能 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 2019年3月14日 |
@@ -74,11 +74,11 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 引入摘要元件、影像元件改良和許多錯誤修正 | 6.3.3.0+ | 6.4.2.0+ | - | 8 | 2018年7月13日 |
 | [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 錯誤修正版本 | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 2018年6月12日 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 其他幕後改良功能、錯誤修正和小幅改良功能，包括支援影像翻轉。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 2018年4月11日 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 主要是內在改良功能、錯誤修正，以及對影像、頁面和內容片段元件進行一些小幅度改良 | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 2018年3月7日 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 引入導覽、語言導覽和快速搜尋元件。 為所有元件實作樣式系統。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 2018年1月16日 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 在所有元件上實作JSON匯出，內容片段元件簡介 | 6.3.1.0 | 6.4.0.0+ | - | 8 | 2017年10月10日 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 影像元件的數項修正 | 6.3.0.0+ | 6.4.0.0+ | - | 8 | 2017年8月4日 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 頁面元件、影像元件、各種全域修正與改良的修正 | 6.3.0.0+ | 6.4.0.0+ | - | 8 | 2017年4月26日 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Mostly under-the-hood improvements, bug fixes, plus some minor improvements to the Image, Page, and Content Fragment Components | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 7 March 2018 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 引入導覽、語言導覽和快速搜尋元件。 Style system implemented for all components. | 6.3.2.0+ | 6.4.0.0+ | - | 8 | 16 January 2018 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementation of JSON export on all components, introduction of the Content Fragment component | 6.3.1.0 | 6.4.0.0+ | - | 8 | 10 October 2017 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Several fixes for the Image component | 6.3.0.0+ | 6.4.0.0+ | - | 8 | 4 August 2017 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Fixes of Page Component, Image Component, various global fixes and improvements | 6.3.0.0+ | 6.4.0.0+ | - | 8 | 2017年4月26日 |
 | [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 影像元件中GIF動畫影像的修正 | 6.3.0.0+ | 6.4.0.0+ | - | 7 | 2017年3月22日 |
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心元件的初次發行 | 6.3.0.0+ | 6.4.0.0+ | - | 7 | 2017年3月20日 |
 
@@ -93,7 +93,7 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 |  | 版本1.0.0 - 1.0.6 | 版本1.1.0 | 版本2.0.0 - 2.0.8 | 版本2.1.0 | 版本2.2.0-2.2.0 | 版本2.3.0-2.3.2 | 版本2.4.0 | 版本2.5.0 | 版本2.6.0 | 版本2.7.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **[頁面](page.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[標題](title.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[標題](title.md)** | v1 | v1 | v1,v2 | v1,v2 | v1, v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
 | **[影像](image.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
 | **[清單](list.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
 | **[階層連結](breadcrumb.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
@@ -108,7 +108,7 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 | **[語言導覽](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[快速搜尋](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[摘要](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Tabs](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[標籤](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Carousel](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Separator](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
 | **[內容片段清單](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
@@ -117,7 +117,7 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 | **[Container](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Download](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[體驗片段](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[內嵌](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
+| **[Embed](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 文件 {#documentation}
 
