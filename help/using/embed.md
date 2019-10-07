@@ -6,7 +6,7 @@ seo-description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁
 content-type: 引用
 topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 若是YouT
 
 作者可輸入的HTML標籤會經過篩選，以利安全，以避免跨網站指令碼攻擊，例如允許作者取得管理權限。
 
-一般而言，所有指令碼 `style` 和元素，以及所有 `on*` 和 `style` 屬性都會從輸出中移除。
+*一般而言* ，所有指令碼和元素 `style` ，以及所有 `on*``style` 和屬性都會從輸出中移除。
 
-但是，規則比這更複雜，因為內嵌元件會遵循AEM的全域HTML AntiSami篩選規則集，可在中找到 `/libs/cq/xssprotection/config.xml`。 如果需要，開發人員可以覆蓋專案特定組態。
+但是，由於內嵌元件遵循AEM的全域HTML AntiSamy環衛架構篩選規則集，因此規則更複雜，請參閱 `/libs/cq/xssprotection/config.xml`。 如果需要，開發人員可以覆蓋專案特定組態。
+
+如需其他安全性資訊，請參閱 [AEM開發人員檔案。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->雖然AntiSamy規則可以透過覆蓋來設定， `/libs/cq/xssprotection/config.xml`但這些變更會影響所有HTL和JSP行為，而不只是內嵌核心元件。
+>雖然AntiSamy環衛架構規則可透過覆蓋來設定，但這些變 `/libs/cq/xssprotection/config.xml`更會影響所有HTL和JSP行為，而不只是內嵌核心元件。
 
 ## 設計對話框 {#design-dialog}
 
