@@ -6,7 +6,7 @@ seo-description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁
 content-type: 引用
 topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
+source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
-| v1 | 相容 | Compatible | Compatible |
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
@@ -42,15 +42,19 @@ source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 有關內嵌元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)。
 
-Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: **URL**, **Embeddable**, or **HTML**.
+「配置」對話框允許內容作者定義要嵌入到頁面上的外部資源。 首先選擇應嵌入的資源類型：
+
+* [URL](#url)
+* [內嵌項目](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
-The simplest embed is the URL. 只需將您要內嵌的資源URL貼入「 **URL** 」欄位。 元件將嘗試訪問資源，如果某個處理器可以呈現資源，則會在 **URL欄位下顯示確認消息** 。 否則，欄位將會標籤為錯誤。
+最簡單的內嵌方式是URL。 只需將您要內嵌的資源URL貼入「 **URL** 」欄位。 元件將嘗試訪問資源，如果某個處理器可以呈現資源，則會在 **URL欄位下顯示確認消息** 。 否則，欄位將會標籤為錯誤。
 
 嵌入元件隨處理器提供以下資源類型：
 
@@ -63,29 +67,40 @@ The simplest embed is the URL. 只需將您要內嵌的資源URL貼入「 **URL*
 
 ### 內嵌項目 {#embeddable}
 
-嵌入式允許對嵌入式資源進行更多的定製，該嵌入式資源可以參數化並包括附加資訊。 An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+嵌入式允許對嵌入式資源進行更多的定製，該嵌入式資源可以參數化並包括附加資訊。 作者可從預先設定的可信內嵌項目中選擇，而元件隨附Youtube可內嵌的現成可用項目。
 
-Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 In the case of the YouTube embeddable you can then define:
+Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 若是YouTube內嵌式，您可以定義：
 
 * **視訊ID** —— 您要內嵌之資源的YouTube唯一視訊ID
-* **Width - The width of the embedded video**
-* **Height - The height of the embedded video**
+* **Width** —— 內嵌視訊的寬度
+* **高度** -內嵌視訊的高度
 
-Other embeddables would offer similar fields and can be defined by a developer by following the developer documentation of the Embed Component.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+其他內嵌項目會提供類似的欄位，並可由開發人員依循內嵌 [元件的開發人員檔案加以定義。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Embeddables must be enabled at the template level via the Design Dialog to be available to the page author.[](#design-dialog)
+>必須透過「設計對話框」在範本層級啟用內嵌項目 [](#design-dialog) ，才能讓頁面作者使用。
 
 ### HTML {#html}
 
-You can add free-form HTML to your page using the Embed Component.
+您可以使用內嵌元件，將自由格式的HTML新增至您的頁面。
 
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
 >任何不安全的標籤（例如指令碼）都會從輸入的HTML中篩選，而不會在產生的頁面上呈現。
+
+#### 安全性 {#security}
+
+作者可輸入的HTML標籤會經過篩選，以利安全，以避免跨網站指令碼攻擊，例如允許作者取得管理權限。
+
+一般而言，所有指令碼 `style` 和元素，以及所有 `on*` 和 `style` 屬性都會從輸出中移除。
+
+但是，規則比這更複雜，因為內嵌元件會遵循AEM的全域HTML AntiSami篩選規則集，可在中找到 `/libs/cq/xssprotection/config.xml`。 如果需要，開發人員可以覆蓋專案特定組態。
+
+>[!NOTE]
+>雖然AntiSamy規則可以透過覆蓋來設定， `/libs/cq/xssprotection/config.xml`但這些變更會影響所有HTL和JSP行為，而不只是內嵌核心元件。
 
 ## 設計對話框 {#design-dialog}
 
@@ -93,7 +108,7 @@ You can add free-form HTML to your page using the Embed Component.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **Disable URL - Disables the URL option for the content author when selected******
+* **停用URL** —— 在選取 **內容作者時** ，停用URL選項
 * **禁用嵌入式** -在選中時禁用內 **容作者的「可嵌入** 」選項，而不管允許哪些可嵌入處理器。
 * **停用HTML** —— 在選取時停 **用內容作者的HTML** 選項。
 * **允許的嵌入** -定義內容作者可以使用哪些可嵌入處理器的多選項，但 **是Embeddable** 選項處於活動狀態。
