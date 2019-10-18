@@ -1,21 +1,21 @@
 ---
-title: 元件准則
-seo-title: 元件准則
+title: 元件指引
+seo-title: 元件指引
 description: 核心元件遵循與基礎元件截然不同的現代實施模式。
 seo-description: 核心元件遵循與基礎元件截然不同的現代實施模式。
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
 contentOwner: 使用者
-content-type: 引用
+content-type: 參考
 topic-tags: 開發
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
 
-# 元件准則 {#component-guidelines}
+# 元件指引 {#component-guidelines}
 
 核 [心元件](developing.md) (Core Components)採用與基礎元件截然不同的現代實作模式。
 
@@ -104,13 +104,17 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 屬 `cq:allowedTemplates` 性會指出哪些範本可用於網站，以及 `cq:template` 每個頁面的相關範本。 每個範本由下列三部分組成：
 
-* **structure**&#x200B;包含將強制存在於每個頁面上的資源，且頁面作者無法刪除，例如頁首和頁尾元件。
+* **structure**&#x200B;包含將強制顯示在每個頁面上的資源，且頁面作者無法刪除，例如頁首和頁尾元件。
 * **initial** Contains the initial content that will be duplicated to the page.
 * **policies**&#x200B;包含每個元件映射到策略的映射，策略是元件的預配置。 此映射允許策略跨模板重複使用，因此可以集中管理。
 
 ![範本與政策概觀](assets/screen_shot_2018-12-07at093102.png)
 
-**閱讀下一頁：**
+## AEM Project Archetype {#aem-project-archetype}
+
+[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作具有建議之proxy模式的核心元件。](archetype.md)
+
+**閱讀下一節內容:**
 
 * [使用核心元件](using.md) -在您自己的專案中使用核心元件進行啟動和執行。
 * [自訂核心元件](customizing.md) -瞭解如何設定核心元件的樣式和自訂核心元件。
