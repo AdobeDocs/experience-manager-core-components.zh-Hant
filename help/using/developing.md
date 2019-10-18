@@ -5,42 +5,42 @@ description: 核心元件提供強穩且可擴充的基本元件，提供豐富�
 seo-description: 核心元件提供強穩且可擴充的基本元件，提供豐富的功能、持續傳送、元件版本修訂、現代化實作、精簡的標籤和JSON內容匯出。
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
 contentOwner: 使用者
-content-type: 引用
+content-type: 參考
 topic-tags: 開發
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
 
-# Developing Core Components{#developing-core-components}
+# 開發核心元件{#developing-core-components}
 
-## 綜覽 {#overview}
+## 概覽 {#overview}
 
 核心元件提供強穩且可擴充的基本元件，其亮點為：
 
-* Feature-rich capabilities
-   * [Flexible configuration options to accommodate many use cases](authoring.md)
-   * [Pre-configurable capabilities to define which features are available to page authors](authoring.md#pre-configuring-core-components)
-* Continuous delivery
-   * Frequent incremental functionality improvements
-   * Availability of the source code on GitHub to allow the developer community to give feedback and contribute[](https://github.com/adobe/aem-core-wcm-components)
-   * Installation through a separately released content package for component upgrades to be done independently from AEM upgrades[](https://github.com/adobe/aem-core-wcm-components/releases)
-* [Component versioning](guidelines.md#component-versioning)
-   * [Ensure compatibility within a version, yet allow the components to evolve](#upgrade-of-core-components)
-   * Allow multiple versions of one component to coexist on the same environment
-* Modern implementation
-   * Markup defined in HTML Template Language (HTL)[](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
+* 功能豐富的功能
+   * [靈活的配置選項](authoring.md) ，可容納許多使用案例
+   * [預先設定的功能](authoring.md#pre-configuring-core-components) ，以定義頁面作者可使用的功能
+* 持續傳送
+   * 頻繁的增量功能改進
+   * GitHub上的 [原始碼已推出](https://github.com/adobe/aem-core-wcm-components) ，讓開發人員社群提供意見回饋並貢獻
+   * 透過個別發 [行的內容套件安裝](https://github.com/adobe/aem-core-wcm-components/releases) ，以獨立於AEM升級完成元件升級
+* [元件版本控制](guidelines.md#component-versioning)
+   * [確保版本的相容性](#upgrade-of-core-components)，同時允許元件改進
+   * 允許一個元件的多個版本共存於同一環境中
+* 現代實作
+   * 在 [HTML範本語言](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)中定義的標籤
    * 使用 [Sling Models實作的內容模型邏輯](https://sling.apache.org/documentation/bundles/models.html)
 * 精益標籤
    * 自2. [0.0版起，遵循塊元素修飾詞](https://getbem.com/) (BEM)注釋
-      * Prior release follow Bootstrap naming conventions[](https://getbootstrap.com/css/)
+      * 舊版遵循 [Bootstrap](https://getbootstrap.com/css/) 命名慣例
    * 以協助工具指 [南為基礎](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
    * 可用於互動式和行動網站
-* 可序列化為JSON的無頭CMS使用案例內容模型
-* 可存取
+* 可序列化為JSON的無頭CMS內容模型使用案例
+* 易於取得
    * 符合 [WCAG 2.0 AA標準](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
@@ -49,15 +49,19 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 >
 >核心元件不適用於Classic UI，也不適用於靜態範本。
 
-## Gems會話概述 {#gems-session-overview}
+## Gem 課程概覽 {#gems-session-overview}
 
-如需核心元件、其提供的功能以及如何在AEM中運用這些元件的簡介，請參閱AEM Gems Session [AEM核心元件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+如需瞭解核心元件的簡介、其所提供的功能、以及在 AEM 中的運用方式，請參閱 AEM Gem 課程 [AEM 核心元件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager is a series of technical deep dives delivered by Adobe experts. ](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html)本系列補充了產品說明檔案和所有其他技術通道，讓開發人員可以深入瞭解特定主題。
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ，是Adobe專家提供的一系列技術深入探討。 這個系列補充了產品說明文件和所有其他的技術管道，讓開發人員可以接觸並深入瞭解特定的主題。
 
-## WKND開發人員教學課程 {#wknd-developer-tutorial}
+## WKND 開發人員教學課程 {#wknd-developer-tutorial}
 
-依照本逐步教學課程，開始使用核心元 [件來開發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+## AEM Project Archetype {#aem-project-archetype}
+
+[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作具有建議之proxy模式的核心元件。](archetype.md)
 
 ## 透過GitHub提供 {#delivered-over-github}
 
@@ -84,11 +88,11 @@ GITHUB代碼
 
 ### 範例內容執行模式 {#sample-content-run-mode}
 
-The Core Components are visible in the Quickstart when the sample content is present, because the We.Retail reference site uses them. [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)However, when running in production (in  runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.`nosamplecontent`
+當範例內容出現時，Quickstart中會顯示核心元件，因為 [We.Retail參考網站會使用它們](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 。 不過，當在生產環境中執行(在 `nosamplecontent` runmode中，未啟用範例內容)時，核心元件將不再存在，而且必須由開發和／或營運團隊安裝在AEM例項上。
 
 >[!NOTE]
 >
->在生產環境中，請始終以運行模式運行快速 `nosamplecontent` 入門。 To use the Core Components in  runmode, follow the instructions of the Using Core Components documentation page.`nosamplecontent`[](using.md)
+>在生產環境中，請始終以運行模式運行快速 `nosamplecontent` 入門。 若要在執行模式中使 `nosamplecontent` 用核心元件，請依照「使用核 [心元件](using.md) 」檔案頁面的指示進行。
 
 ## 技術功能 {#technical-capabilities}
 
@@ -138,7 +142,7 @@ The Core Components are visible in the Quickstart when the sample content is pre
 | [內容片段化](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | 允許顯示內容片段 | `-` |
 | [內容片段清單](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | 允許顯示內容片段的清單 | `-` |
 | [分隔符號](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | 分隔頁面上的內容 | `-` |
-| [折疊面板](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 將內容面板組織成可折疊的收合式收合面板 | `-` |
+| [折疊式面板](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 將內容面板組織成可折疊的收合式收合面板 | `-` |
 | [容器](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | 在容器中組織元件 | `-` |
 | [按鈕](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 在頁面上建立按鈕 | `-` |
 | [下載](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 新增可下載的資產至頁面 | `-` |
@@ -157,9 +161,9 @@ The Core Components are visible in the Quickstart when the sample content is pre
 
 遷移到新版本的核心元件也不會影響元件的工作方式，但頁面作者可能會引入新功能，這可能需要模板編輯器進行一些配置，以防不需要預設行為。 不過，自訂可能需要調整，如需詳細資訊，請參閱自 [訂核心元件頁面](customizing.md#upgrade-compatibility-of-customizations) 。
 
-## 何時使用核心元件？ {#when-to-use-the-core-components}
+## When to Use the Core Components? {#when-to-use-the-core-components}
 
-由於核心元件是全新的，並提供多項優點，因此建議新的AEM專案使用它們。 對於現有專案，移轉應是大型專案工作的一部分，例如品牌再造或整體重構。
+核心元件不僅是全新功能，並且有多項優點，因此建議用於新的 AEM 專案。對於既有專案來說，移轉應該是品牌重塑或整體重構等較大專案工作的一部分。
 
 因此，Adobe提供下列建議：
 
@@ -192,21 +196,21 @@ The Core Components are visible in the Quickstart when the sample content is pre
 
 ## 核心元件支援 {#core-component-support}
 
-核心元件是AEM不可或缺的一部分，並依照與Quickstart一樣的條款與條件提供。
+核心元件是 AEM 不可或缺的一部分，並依照與 Quickstart 所提供相同的條款與條件給予支援。
 
 和其他AEM產品功能一樣，一般規則是：元件會先宣佈不建議使用，並且是下列AEM版本最早移除的元件。 這可讓客戶在放棄支援之前，至少有一個版本週期移至新版本的元件。
 
-每個元件的版本都清楚說明其支援的AEM版本。 當AEM版本的支援停止時，該AEM版本的核心元件支援也停止。
+每個元件的版本都清楚說明其支援的 AEM 版本。當停止支援 AEM 的單一版本時，核心元件對該 AEM 版本的支援也會停止。
 
 有關支援元件定製的詳細資訊，請參閱自 [定義核心元件頁](customizing.md) 。
 
-## Foundation元件支援 {#foundation-component-support}
+## 基礎元件支援 {#foundation-component-support}
 
 由於基礎元件是許多AEM版本專案開發的基礎，因此在可預見的未來，它們仍將受到支援。
 
-不過，Adobe的開發重點已轉移到核心元件，並會新增新功能，而幾乎所有的 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) Foundation元件都已在AEM 6.5中過時，而且未來Foundation元件只會修正錯誤。
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
 
-**閱讀下一頁：**
+**閱讀下一節內容:**
 
 * [使用核心元件](using.md) -在您自己的專案中使用核心元件進行啟動和執行。
 * [元件准則](guidelines.md) -瞭解核心元件的實作模式。
