@@ -1,26 +1,26 @@
 ---
 cloud: experience-cloud
-product: adobe experience manager
-sub-product: adobe experience manager核心元件
+product: Adobe Experience Manager
+sub-product: Adobe Experience Manager 核心元件
 archetype: 管理員
-user-guide-title: AEM核心元件
+user-guide-title: AEM 核心元件
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
 
 ---
 
 
-# AEM核心元件說明 {#using}
+# AEM 核心元件說明 {#using}
 
 + [核心元件簡介](introduction.md)
 + [元件庫](http://opensource.adobe.com/aem-core-wcm-components/library.html)
 + [核心元件版本](versions.md)
-+ Get Started {#get-started}
-   + [使用核心元件製作內容](authoring.md)
-   + [Using Core Components](using.md)
++ 立即開始 {#get-started}
+   + [使用核心元件編寫](authoring.md)
+   + [使用核心元件](using.md)
    + [本地化功能](localization.md)
-+ The Components {#components}
-   + [折疊面板](accordion.md)
++ 元件 {#components}
+   + [折疊式面板](accordion.md)
    + [階層連結](breadcrumb.md)
    + [按鈕](button.md)
    + [傳送](carousel.md)
@@ -42,20 +42,20 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
    + [索引標籤](tabs.md)
    + [Teaser](teaser.md)
    + [標題](title.md)
-   + Form Components {#forms}
+   + 表單元件 {#forms}
       + [表單按鈕](form-button.md)
       + [來自容器](form-container.md)
       + [已隱藏的表單](form-hidden.md)
       + [表單選項](form-options.md)
       + [表單文字](form-text.md)
-   + v1元件 {#v1-components}
+   + v1 元件 {#v1-components}
       + [階層連結 (v1)](breadcrumb-v1.md)
       + [影像 (v1)](image-v1.md)
       + [清單 (v1)](list-v1.md)
       + [頁面 (v1)](page-v1.md)
       + [文字 (v1)](text-v1.md)
       + [標題 (v1)](title-v1.md)
-      + v1表單元件 {#v1-forms}
+      + v1 表單元件 {#v1-forms}
          + [表單按鈕 (v1)](form-button-v1.md)
          + [表單容器 (v1)](form-container-v1.md)
          + [表單隱藏 (v1)](form-hidden-v1.md)
@@ -63,6 +63,12 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
          + [表單文字 (v1)](form-text-v1.md)
 + 開發 {#developing}
    + [開發核心元件](developing.md)
-   + [WKND開發人員教學課程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND 開發人員教學課程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [自訂核心元件](customizing.md)
-   + [元件准則](guidelines.md)
+   + [元件指引](guidelines.md)
+   + [AEM Project Archetype]{#archetype}
+      + [原型概觀](archetype.md)
+      + [核心模組](core.md)
+      + [ui.apps模組](uiapps.md)
+      + [ui.content模組](uicontent.md)
+      + [前端構建過程](front-end-build.md)
