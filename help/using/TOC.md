@@ -5,7 +5,7 @@ sub-product: Adobe Experience Manager 核心元件
 archetype: 管理員
 user-guide-title: AEM 核心元件
 translation-type: tm+mt
-source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 2a1b149226e1025d116cabde8c9d477f8dadca4c
    + [自訂核心元件](customizing.md)
    + [元件指引](guidelines.md)
    + [AEM Project Archetype]{#archetype}
-      + [原型概觀](archetype.md)
+      + [原型概觀](overview.md)
       + [核心模組](core.md)
       + [ui.apps模組](uiapps.md)
       + [ui.content模組](uicontent.md)
