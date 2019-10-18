@@ -10,7 +10,7 @@ topic-tags: 簡介
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -105,7 +105,7 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 
 依照此[逐步教學課程，開始使用核心元件來開發 AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-別忘了開始使用 [AEM Project Archetype](archetype.md) with the latest Core Components builted in!
+別忘了開始使用 [AEM Project Archetype](overview.md) with the latest Core Components builted in!
 
 ## 核心元件支援 {#core-components-support}
 
