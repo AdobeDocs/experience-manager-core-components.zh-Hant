@@ -10,7 +10,7 @@ topic-tags: 開發
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作具有建議之proxy模式的核心元件。](archetype.md)
+[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作具有建議之proxy模式的核心元件。](overview.md)
 
 ## 自訂模式 {#customization-patterns}
 
