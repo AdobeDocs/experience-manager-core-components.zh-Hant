@@ -8,7 +8,7 @@ content-type: 引用
 topic-tags: 核心元件
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -65,6 +65,10 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 * **說明** -用作標籤文本的說明，預設為為為標籤選擇的元件的名稱。
 * **Delete** —— 點選或按一下，從Tab元件中刪除Tab。
 * **重新排列** -點選或按一下並拖曳以重新排列標籤的順序。
+
+>[!TIP]
+>
+>如果頁面的視區被縮小，使編輯對話方塊變成全螢幕，則「新增」 **按鈕** 將會隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器 [的標籤元件，將元件新增至標籤元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ### 屬性標籤 {#properties-tab}
 
