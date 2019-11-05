@@ -5,12 +5,12 @@ description: 'null'
 seo-description: 核心元件Accordion元件允許建立在頁面上以accordion排列的面板集合。
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: 使用者
-content-type: 引用
+content-type: 參考
 topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -72,6 +72,10 @@ Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.
 * **展開的項目** -此選項定義在載入頁面時依預設展開的項目。
    * 選取「 **單一項目展開** 」時，必須選取一個面板。 依預設會選取第一個面板。
    * 如果未 **選取「單一項目展開** 」，此選項為多選項，且為可選項。
+
+>[!TIP]
+>
+>如果頁面的視區被縮小，使編輯對話方塊變成全螢幕，則「新增」 **按鈕** 將會隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器 [中的Accordion元件，將元件新增至Accordion元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ## 選取面板快顯 {#seelct-panel-popover}
 
