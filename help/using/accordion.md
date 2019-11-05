@@ -10,7 +10,7 @@ topic-tags: 編寫
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
 
@@ -64,6 +64,10 @@ Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.
 * **刪除** -點選或按一下，從accordion元件中刪除面板。
 * **重新排列** -點選或按一下並拖曳以重新排列面板的順序。
 
+>[!TIP]
+>
+>如果頁面的視區被縮小，使編輯對話方塊變成全螢幕，則「新增」 **按鈕** 將會隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器 [中的Accordion元件，將元件新增至Accordion元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
+
 ### 屬性標籤 {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
@@ -72,10 +76,6 @@ Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.
 * **展開的項目** -此選項定義在載入頁面時依預設展開的項目。
    * 選取「 **單一項目展開** 」時，必須選取一個面板。 依預設會選取第一個面板。
    * 如果未 **選取「單一項目展開** 」，此選項為多選項，且為可選項。
-
->[!TIP]
->
->如果頁面的視區被縮小，使編輯對話方塊變成全螢幕，則「新增」 **按鈕** 將會隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器 [中的Accordion元件，將元件新增至Accordion元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ## 選取面板快顯 {#seelct-panel-popover}
 
