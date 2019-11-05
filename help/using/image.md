@@ -5,12 +5,12 @@ description: 核心元件影像元件是就地編輯的自適應影像元件功�
 seo-description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
 contentOwner: 使用者
-content-type: 引用
+content-type: 參考
 topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -208,7 +208,7 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 ![](assets/screenshot_2018-10-19at102756.png)
 
 * **啟用延遲載入**：在將影像元件新增至頁面時，定義是否自動啟用延遲載入選項。
-* **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，定義裝飾性影像選項是否已自動啟用。
+* **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，是否自動啟用裝飾性影像選項。
 * **從DAM取得替代文字** Define（定義）在將影像元件新增至頁面時，是否自動啟用從DAM擷取替代文字的選項。
 * **從DAM取得標題**&#x200B;在將影像元件新增至頁面時，是否自動啟用從DAM擷取標題的選項，請定義。
 * **以快顯方式顯示標題**：在將影像元件新增至頁面時，定義是否自動啟用將影像標題顯示為快顯的選項。
@@ -276,3 +276,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### 樣式標籤 {#styles-tab-1}
 
 影像元件支援AEM [Style系統](authoring.md#component-styling)。
+
+## 最適化影像Servlet {#adaptive-image-servlet}
+
+映像元件使用核心元件的自適應映像Servlet。 [Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 負責影像處理和流處理，開發人員可以利用它們對核心組 [件的自定義](customizing.md)。
+
+>[!NOTE]
+>
+>Adaptive Image servlet支 `Last-Modified` 持通過標頭的條件請求，但Dispatcher中需 `Last-Modified` 要 [啟用標頭的快取](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>
+>[AEM Project Archetype的範例Dispatcher組態已包含此組態。](overview.md)
