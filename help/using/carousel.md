@@ -17,7 +17,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -68,6 +68,10 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 * **說明** -用作標籤文本的說明，預設為為為標籤選擇的元件的名稱。
 * **Delete** —— 點選或按一下可從頁籤元件中刪除頁籤。
 * **重新排序** -點選或按一下並拖曳以排序標籤。
+
+>[!TIP]
+>
+>如果頁面的視區被縮小，使編輯對話方塊變成全螢幕，則「新增」 **按鈕** 將會隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器 [中的轉盤元件，將元件新增至轉盤元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ### 屬性標籤 {#properties-tab}
 
