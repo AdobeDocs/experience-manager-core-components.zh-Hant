@@ -3,11 +3,11 @@ title: AEM項目原型的核心模組
 seo-title: AEM項目原型的核心模組
 description: AEM項目原型的核心模組
 seo-description: AEM項目原型的核心模組
-contentOwner: 博納特
-content-type: 引用
-topic-tags: 核心元件
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
 
@@ -24,4 +24,4 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 mvn -PautoInstallBundle clean install
 ```
 
-成功執行後，您應該可以在上查看Bundels Console `http://<host>:<port>/system/console/bundles`。
+成功執行後，您應該可以在上看到Bundles Console `http://<host>:<port>/system/console/bundles`。
