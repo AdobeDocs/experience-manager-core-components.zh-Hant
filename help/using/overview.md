@@ -3,11 +3,11 @@ title: AEM Project Archetype
 seo-title: AEM Project Archetype
 description: AEM型應用程式的專案範本
 seo-description: AEM型應用程式的專案範本
-contentOwner: 博納特
-content-type: 引用
-topic-tags: 核心元件
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
+source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
 
 ---
 
@@ -22,7 +22,7 @@ AEM專案原型會建立以最簡化、最佳實務為基礎的Adobe Experience 
 
 >[!NOTE]
 >
->請參閱AEM [檔案中的「AEM Sites - WKND快速入門教學課程」](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) ，以取得實用範例，逐步帶您使用架構類型來建置簡單專案。
+>請參閱AEM [檔案中的「AEM網站快速入門- WKND教學課程」](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) ，以取得實用範例，逐步帶您使用原型來實作簡單的專案。
 
 ## 功能 {#features}
 
@@ -53,11 +53,11 @@ AEM Archetype由模組組成：
 * **[ui.content](uicontent.md)**:包含使用ui.apps模組中元件的範例內容。
 * **ui.tests**:是一個Java包，包含伺服器端執行的JUnit測試。 此套件不會部署在生產上。
 * **ui.launcher**:包含將ui.tests包（和相依包）部署到伺服器並觸發遠程JUnit執行的粘合代碼。
-* **[ui.frontend](front-end-build.md)**: **（可選）** ，包含使用基於Webpack的前端構建模組所需的對象。
+* **[ui.frontend](uifrontend.md)**: **（可選）** ，包含使用基於Webpack的前端構建模組所需的對象。
 
 ![](assets/project-pom.png)
 
-以Maven表示的AEM Archetpye模組會部署至AEM，做為代表應用程式、內容和必要OSGi組合的內容頁面。
+以Maven表示的AEM Archetype模組會部署至AEM，做為代表應用程式、內容和必要OSGi組合的內容套件。
 
 ## 需求 {#requirements}
 
@@ -117,7 +117,7 @@ mvn archetype:generate \
 | `optionAemVersion` | 6.5.0 | Target AEM版本 |
 | `optionIncludeExamples` | y | 包含元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library.html) 示例站點 |
 | `optionIncludeErrorHandler` | n | 包含自訂404回應頁面 |
-| `optionIncludeFrontendModule` | n | [包括專用的前端模組](front-end-build.md) |
+| `optionIncludeFrontendModule` | n | [包括專用的前端模組](uifrontend.md) |
 
 >[!NOTE]
 > 如果原型是第一次在互動模式中執行，則無法變更具有預設值的屬性(如需詳細資訊，請參閱 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) )。 當結束時的屬性確認被拒絕且調查表被重複時，或通過在命令行中傳遞參數(例如， `-DoptionIncludeExamples=n`)。
@@ -207,7 +207,7 @@ AEM Project Archetype當然會運用核心元件。
 
 >[!NOTE]
 >
->每個核心元件版本之後通常都會有AEM Project Archtype版本，如此最新的架構就會使用最新版本的核心元件。
+>每個核心元件版本之後，通常都會隨附AEM Project Archetype的版本，讓最新的架構使用最新版本的核心元件。
 >
 >但是，新版本的原型可能不會直接跟隨新版本的核心元件，因此您可能希望將對核心元件的依賴性更新為最新版本。
 
@@ -231,9 +231,9 @@ AEM Project Archetype當然會運用核心元件。
 
 ## 後續步驟 {#next-steps}
 
-因此，您已建立並安裝AEM Project Archetype。 現在呢？ 其原型雖小，但包含許多根據建議最佳實務設定之強大AEM功能的範例。 使用這些說明如何在專案中運用這些功能。 對於您可能需要的任何專案：
+所以您已建立並安裝AEM Project Archetype。 現在呢？ 其原型雖小，但包含許多根據建議最佳實務設定之強大AEM功能的範例。 使用這些說明如何在專案中運用這些功能。 對於您可能需要的任何專案：
 
-* [自訂元件以擴充現有的核心元件](customizing.md)
+* [擴充現有核心元件，以自訂元件](customizing.md)
 * [新增其他範本](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [調整本地化結構](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [瞭解前端構建模組](front-end-build.md)
+* [瞭解前端構建模組](uifrontend.md)
