@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
 
 ---
 
@@ -25,13 +25,13 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 由於這兩個開發流程都集中在項目的不同部分，因此後端和前端開發可以並行進行。
 
-![](assets/front-end-flow.png)
+![前端工作流程圖](assets/front-end-flow.png)
 
 但是，任何產生的項目都需要使用這兩種開發努力的產出，即後端和前端。
 
 執 `npm run dev` 行會啟動前端建置程式，收集儲存在ui.frontend模組中的JavaScript和CSS檔案，並產生兩個精簡的用戶端程式庫或clientlib，稱為 `clientlib-site``clientlib-dependencies` ，並將它們儲存在ui.apps模組中。 clientlibs可部署至AEM，並可讓您將用戶端程式碼儲存在儲存庫中。
 
-當使用所有專案工件（包括clientlibs）執 `mvn clean install -pautoinstallPackage` 行整個AEM專案原型時，就會推送至AEM例項。
+當使用所有專案工件（包括clientlibs）執 `mvn clean install -PautoInstallPackage` 行整個AEM專案原型時，就會推送至AEM例項。
 
 >[!TIP]
 >在 [AEM開發檔案中進一步瞭解clientlibs](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) , [以及ui.frontend模組如何使用](#clientlib-generation)。
