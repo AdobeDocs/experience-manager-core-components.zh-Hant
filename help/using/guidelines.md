@@ -4,13 +4,13 @@ seo-title: 元件指引
 description: 核心元件遵循與基礎元件截然不同的現代實施模式。
 seo-description: 核心元件遵循與基礎元件截然不同的現代實施模式。
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: 使用者
-content-type: 參考
-topic-tags: 開發
+contentOwner: User
+content-type: reference
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是個好做法。 有數種方式可達成此目的，但建議使用 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic和 [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)for the markup，就像Core Components也這麼做。
 
-Sling Models是一組Java註解，可輕鬆從POJO存取所需的變數，因此提供簡單、強大且具效能的方式，來建置元件的Java邏輯。
+Sling Models是一組Java註解，可輕鬆從POJO存取所需的變數，因此提供簡單、強大而有效率的方式，來建置元件的Java邏輯。
 
 HTL的設計宗旨是提供安全且簡單的範本語言，專為AEM量身打造。 它可以叫用多種邏輯形式，使它非常靈活。
 
@@ -50,16 +50,6 @@ HTL的設計宗旨是提供安全且簡單的範本語言，專為AEM量身打�
 除了頁面作者使用的編輯對話方塊外，元件也可以有一個設計對話方塊，讓範本作者預先設定這些對話方塊。 模 [板編輯器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) (Template Editor)允許設定所有這些預配置，這些配置稱為「策略」。
 
 若要盡可能讓元件可重複使用，應為元件提供有意義的預先設定選項。 這可讓您啟用或停用元件的功能，以符合不同網站的特定需求。
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
 
 ### 代理元件模式 {#proxy-component-pattern}
 
@@ -104,15 +94,15 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 屬 `cq:allowedTemplates` 性會指出哪些範本可用於網站，以及 `cq:template` 每個頁面的相關範本。 每個範本由下列三部分組成：
 
-* **structure**&#x200B;包含將強制顯示在每個頁面上的資源，且頁面作者無法刪除，例如頁首和頁尾元件。
-* **initial** Contains the initial content that will be duplicated to the page.
-* **policies**&#x200B;包含每個元件映射到策略的映射，策略是元件的預配置。 此映射允許策略跨模板重複使用，因此可以集中管理。
+* **structure** —— 包含將強制存在於每個頁面上的資源，且頁面作者無法刪除，例如頁首和頁尾元件。
+* **initial** —— 包含建立頁面時將複製到頁面的初始內容。
+* **policies** —— 包含每個元件的策略映射，該策略是元件的預配置。 此映射允許策略跨模板重複使用，因此可以集中管理。
 
 ![範本與政策概觀](assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作具有建議之proxy模式的核心元件。](overview.md)
+[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作使用建議的Proxy模式的核心元件。](overview.md)
 
 **閱讀下一節內容:**
 
