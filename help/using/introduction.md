@@ -4,13 +4,13 @@ seo-title: 核心元件簡介
 description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
 seo-description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: 使用者
-content-type: 參考
-topic-tags: 簡介
+contentOwner: User
+content-type: reference
+topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -44,7 +44,7 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 | 可擴充 | 既滿足客製化需求，又不需從頭做起，所有元件皆可擴充。 |
 | 開放原始碼 | 如果發現錯誤，可前往 GitHub 提供改善 (Apache 授權)。 |
 | 建立版本 | 核心元件改善可能影響您的內容時，不會使您的網站故障。 |
-| [本地化](localization.md) | 智慧型參考解決方法可讓特定元件自動尋找、演算為對應的本地化內容 |
+| [本地化](localization.md) | 智慧型參考解析度可讓特定元件自動尋找並轉換對應的本地化內容 |
 
 ## 可用元件 {#available-components}
 
