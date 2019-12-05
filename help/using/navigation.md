@@ -4,21 +4,21 @@ seo-title: 導覽元件
 description: 'null'
 seo-description: 導覽元件可讓使用者輕鬆導覽全球化網站結構。
 uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+content-type: reference
+topic-tags: authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
 disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
+gnavtheme: light
+groupsectionnavitems: false
+hidemerchandisingbar: inherit
+hidepromocomponent: inherit
 modalsize: 426x240
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
 
 ---
 
@@ -31,15 +31,15 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 導覽元件會列出頁面樹狀結構，讓網站的使用者可輕鬆導覽網站結構。
 
-導覽元件可自動偵測您網站的全球化網站結構，並自 [動調整至本地化頁面。](#localized-site-strucutre) 此外，它可支援任何任意的網站結構，方 [法是使用陰影重新導向頁面](#shadow-structure) ，來表示除主要內容結構以外的其他結構。
+導覽元件可自動偵測您網站的全球化網站結構，並自 [動調整至本地化頁面。](#localized-site-structure) 此外，它可支援任何任意的網站結構，方 [法是使用陰影重新導向頁面](#shadow-structure) ，來表示除主要內容結構以外的其他結構。
 
 編輯 [對話方塊](#edit-dialog) ，可讓內容作者定義導覽根頁面以及導覽深度。 設 [計對話框](#design-dialog) ，可讓範本作者定義導覽根和深度的預設值。
 
 ## 本地化網站結構支援 {#localized-site-structure}
 
-網站通常針對不同地區提供多種語言版本。 通常，每個本地化頁面都會包含一個納入頁面範本的命名元素。 「導覽元件」可讓您將它放置在網站所有頁面的範本上一次，然後它會根據您的全球化網站結構自動調整個別本地化頁面。
+網站通常針對不同地區提供多種語言版本。 通常，每個本地化頁面都會包含作為頁面範本一部分的導覽元素。 「導覽元件」可讓您將它放置在網站所有頁面的範本上一次，然後它會根據您的全球化網站結構自動調整個別本地化頁面。
 
-* 如需導覽元件本地化功能的範例，請參 [閱下節](#example-localiatzion)。
+* 如需導覽元件本地化功能的範例，請參 [閱下節](#example-localization)。
 * 如需核心元件的本地化功能如何搭配運作的範例，請參閱核 [心元件的本地化功能頁面](localization.md)。
 
 ### 例如 {#example-localization}
@@ -133,12 +133,16 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ### 屬性標籤 {#properties-tab}
 
-![](assets/screen-shot-2019-08-29-12.23.45.png)
+![](assets/screen-shot-2019-12-04at12.50.51.png)
 
-* **Navigation Root**（導覽根）將用於生成導覽樹的根頁面。
-* **排除導覽根**&#x200B;排除產生的樹中的導覽根，僅包含其子項。
-* **收集所有子頁**&#x200B;面收集所有作為導覽根目錄後代的頁面。
-* **導覽結構深**&#x200B;度定義元件相對於導覽根目錄在導覽樹下應顯示多少層級(僅在未選取「收集所有子頁面 **** 」時可用)。
+* **導覽根** -將用於產生導覽樹的根頁面。
+* **排除根層級** -導覽中通常不應包含根層級。 此選項可讓您指定要從根目錄上排除的層數。 例如：
+   * 0 =顯示根級別
+   * 1 =排除根層級
+   * 2 =排除根目錄和1個以上層級
+   * 等等。
+* **收集所有子頁面** -收集所有作為導覽根目錄子體的頁面。
+* **導覽結構深度** -定義元件在導覽樹狀結構下應相對於導覽根目錄顯示多少層次(僅當未選取「收集所有子頁面 **** 」時可用)。
 
 ### 「輔助工具」頁籤 {#accessibility-tab}
 
@@ -154,12 +158,16 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ### 屬性標籤 {#properties-tab-design}
 
-![](assets/screen_shot_2018-04-03at112357.png)
+![](assets/screen-shot-2019-12-04at12.53.32.png)
 
-* **導覽根**&#x200B;導覽結構的根頁面的預設值，此值將用於產生導覽樹，並在內容作者將元件新增至頁面時預設。
-* **排除導覽根**(Exclude navigation root)在結果樹中排除導覽根的選項的預設值。
-* **收集所有子頁**&#x200B;面：選項的預設值，用於收集所有作為導航根目錄子代的頁面。
-* **導覽結構深**&#x200B;度導覽結構深度的預設值。
+* **導覽根** -導覽結構的根頁面的預設值，此值將用於產生導覽樹，並在內容作者將元件新增至頁面時預設。
+* **排除根層級** -導覽中通常不應包含根層級。 此選項可讓您指定您要排除之根目錄上限的預設值。 例如：
+   * 0 =顯示根級別
+   * 1 =排除根層級
+   * 2 =排除根目錄和1個以上層級
+   * 等等。
+* **收集所有子頁面** -用於收集所有作為導航根目錄後代的頁面的選項的預設值。
+* **導覽結構深度** -導覽結構深度的預設值。
 
 ### 樣式標籤 {#styles-tab}
 
