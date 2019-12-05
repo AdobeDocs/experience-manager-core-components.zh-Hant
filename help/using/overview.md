@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -207,7 +207,7 @@ AEM Project Archetype當然會運用核心元件。
 
 >[!NOTE]
 >
->每個核心元件版本之後，通常都會隨附AEM Project Archetype的版本，讓最新的架構使用最新版本的核心元件。
+>每個核心元件版本之後通常都會有AEM Project Archetype的版本，如此最新的原型就會使用最新版本的核心元件。
 >
 >但是，新版本的原型可能不會直接跟隨新版本的核心元件，因此您可能希望將對核心元件的依賴性更新為最新版本。
 
