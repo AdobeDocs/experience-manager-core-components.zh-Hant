@@ -4,20 +4,20 @@ seo-title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 seo-description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
-contentOwner: 博納特
-content-type: 引用
-topic-tags: 簡介
+contentOwner: bohnert
+content-type: reference
+topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
+source-git-commit: b1b69e9e1ba18dd0f9d8059a79537ad2bf7db066
 
 ---
 
 
-# 核心元件版本{#core-components-versions}
+# 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本是2.7.0，並與AEM 6.5相容。它已於2019年9月發行，作為2.0.0版的重要更新。2.0.0版推出新元件，並更新現有元件的v2版。
+目前的核心元件版本是2.8.0，並與AEM 6.5相容。它已於2019年12月發行，作為2.0.0版的重要更新。2.0.0版推出新元件，並更新現有元件的v2版。
 
 如需詳細資 [訊，請參閱本檔案的發行記錄](#versions-and-releases) 和相容性一節。
 
@@ -63,6 +63,7 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 
 | 發行 | 說明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本的重點是修正Navigation Component的小型增強功能 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 本版次推出新的內嵌元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年9月25日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本推出新的Experience Fragment元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年9月6日 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引進了新的Accordion、Button、Container和Download元件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年6月25日 |
@@ -107,12 +108,12 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 | **[導覽](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[語言導覽](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[快速搜尋](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[摘要](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[標籤](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[轉盤](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[索引標籤](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[傳送](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[分隔符號](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
 | **[內容片段清單](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Accordion](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[折疊式面板](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[按鈕](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[容器](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[下載](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
