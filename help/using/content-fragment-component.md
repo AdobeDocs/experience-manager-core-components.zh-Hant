@@ -1,35 +1,27 @@
 ---
 title: 內容片段元件
-seo-title: 內容片段元件
-description: 'null'
-seo-description: 核心元件內容片段元件允許顯示內容片段。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 核心元件內容片段元件允許顯示內容片段。
 translation-type: tm+mt
-source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
-# Content Fragment Component{#content-fragment-component}
+# 內容片段元件{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a content fragment.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)
+核心元件內容片段元件可顯示內容 [片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
->Prior to release 2.4.0 of the Core Components, the Content Fragment component was available as an extension to the core components and had to be separately downloaded and explicitly enabled.
+>在核心元件2.4.0版之前，內容片段元件是核心元件的擴充功能，必須個別下載並明確啟用。
 
 ## 使用狀況 {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a content fragment on a page.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)
+核心元件內容片段元件允許在頁面 [上包含內容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 。
 
-* The fragment and its properties can be selected in the configure dialog.[](#configure-dialog)
-* Resource types to handle certain images and grids can be defined in the design dialog.[](#design-dialog)
-* 編輯選項將在內容片段編輯器中打 [開所選片段](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)。
+* 可在「配置」對話框中選擇該片段及其 [屬性](#configure-dialog)。
+* 可在設計對話框中定義用於處理特定影像和網格的 [資源類型](#design-dialog)。
+* 編輯選項將在內容片段編輯器中打 [開所選片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)。
 
 ## 版本與相容性 {#version-and-compatibility}
 
@@ -37,9 +29,9 @@ The Core Component Content Fragment Component allows for the inclusion of a cont
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 >[!NOTE]
 >
@@ -57,31 +49,31 @@ The Core Component Content Fragment Component allows for the inclusion of a cont
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗內容片段元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元件 [庫](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
+若要體驗內容片段元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元件 [庫](https://adobe.com/go/aem_cmp_library_cf)。
 
 ## 技術詳細資訊 {#technical-details}
 
-有關內容片段元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)。
+有關內容片段元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_cf_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
 ## 配置對話框 {#configure-dialog}
 
-The configure dialog allows the content author to define the which content fragment and the elements of that fragment to be included.
+設定對話方塊可讓內容作者定義要包含的內容片段和該片段的元素。
 
 ![](assets/chlimage_1-87.png)
 
 * **內容片段**
 
    * 所需內容片段的路徑
-   * The Selection Dialog can be used to locate the fragment ****
+   * 「選 **擇對話框** 」可用於定位片段
 
 * **元素** -要包含的內容片段元素
-* **Variation - Which variation of the content fragment to use (defaults to Master)******
+* **Variation** —— 要使用的內容片段變數(預設為 **Master**)
 
 * **段落**
 
-   * **All - Display all paragraphs**
+   * **全部** -顯示所有段落
    * **範圍**
 
       * 指定應顯示的段落範圍，以分號分隔
@@ -102,3 +94,4 @@ The configure dialog allows the content author to define the which content fragm
 * **內部回應式格線**
 
    * 用於內部回應式格線的Sling資源類型
+
