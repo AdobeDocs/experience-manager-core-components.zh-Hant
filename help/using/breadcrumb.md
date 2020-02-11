@@ -1,17 +1,8 @@
 ---
 title: 階層連結元件
-seo-title: 階層連結元件
-description: 'null'
-seo-description: 核心元件階層連結元件是導覽元件，會根據頁面在內容階層中的位置建立連結的階層連結。
-uuid: 13e858d5-24ad-4144-adc4-0fa1ffd257c1
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
-modalsize: 426x240
+description: 核心元件階層連結元件是導覽元件，會根據頁面在內容階層中的位置建立連結的階層連結。
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,16 +23,16 @@ Breadcrumb元件的目前版本為v2，此版本於2018年1月隨核心元件2.0
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 相容 | 相容 | 相容 |
-| [v1](breadcrumb-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |--- |---|
+| v2 | 相容 | 相容 | 相容 | 相容 |
+| [v1](breadcrumb-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗Breadcrumb元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html)。
+若要體驗Breadcrumb元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_breadcrumb)。
 
 >[!NOTE]
 >
@@ -49,7 +40,7 @@ Breadcrumb元件的目前版本為v2，此版本於2018年1月隨核心元件2.0
 
 ## 技術詳細資訊 {#technical-details}
 
-有關Breadcrumb元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)。
+有關Breadcrumb元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
