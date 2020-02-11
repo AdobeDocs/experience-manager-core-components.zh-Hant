@@ -1,16 +1,8 @@
 ---
 title: 核心元件簡介
-seo-title: 核心元件簡介
 description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
-seo-description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
-uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,9 +15,9 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ## 嘗試使用核心元件
 
-如果您想要立即開始試用核心元件，請前往[元件資料庫](http://opensource.adobe.com/aem-core-wcm-components/library.html)。「元件資料庫」是多數核心元件目前版本的線上展示，可讓您與各種元件互動，並檢視 HTML 和 JSON 的輸出範例。
+如果您想要立即開始試用核心元件，請前往[元件資料庫](https://adobe.com/go/aem_cmp_library)。「元件資料庫」是多數核心元件目前版本的線上展示，可讓您與各種元件互動，並檢視 HTML 和 JSON 的輸出範例。
 
-We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) ，也說明如何使用核心元件。
+WKND教 [學課程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html) ，也說明如何使用核心元件。
 
 ## 核心元件 - 核心功能 {#core-components-core-features}
 
@@ -79,7 +71,7 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 
 >[!NOTE]
 >
->[開發團隊必須先依照作者的環境整合核心元件](using.md)，才能將其提供給您。整合後，就可透過範本編輯器或在設計模式中提供 [並預先](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 設 [定它們](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)。
+>[開發團隊必須先依照作者的環境整合核心元件](using.md)，才能將其提供給您。整合後，可透過範本編輯器提供並預先 [設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!CAUTION]
 >
@@ -103,7 +95,7 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 
 核心元件提供強穩且可擴充的基本元件，可建置數種可輕鬆自訂的模式，從簡單樣式到進階功能可重複使用。 如需詳細 [資訊，請參閱核心元件開發檔案](developing.md) 。
 
-依照此[逐步教學課程，開始使用核心元件來開發 AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+依照WKND教學課程，開始使用核心元件開 [發AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 別忘了開始使用 [AEM Project Archetype](overview.md) with the latest Core Components builted in!
 
@@ -126,4 +118,4 @@ We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-4/sites/de
 
 由於基礎元件是過去許多版本中專案開發的基礎，因此在可預見的未來中，這些元件仍將繼續受到支援。
 
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
