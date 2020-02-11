@@ -1,16 +1,8 @@
 ---
 title: 容器元件
-seo-title: 容器元件
-description: 'null'
-seo-description: 「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器。
 translation-type: tm+mt
-source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗容器元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/container.html)。
+若要體驗容器元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_container)。
 
 ## 技術詳細資訊 {#technical-details}
 
-有關容器元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)。
+有關容器元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_container_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
@@ -56,7 +48,7 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 * **配置** -此選項定義容器元件的行為或配置行為。
    * **Simple** —— 將容器定義為簡單的元件集合
-   * **自適應格線** -將容器定義為 [AEM自適應格線](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **自適應格線** -將容器定義為 [AEM自適應版面](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** —— 使用此選項定義要套用至元件的HTML ID屬性。
 * **背景顏色** -可定義為自由格式的RGB值，或使用檢色器(視 [配置而定)](#background-tab)
 * **背景影像** -定義容器的背景顏色，視 [組態而定](#background-tab)
@@ -69,11 +61,11 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 「允 **許的元件** 」標籤可用來定義哪些元件可由內容作者新增為項目至「容器元件」。
 
-在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 預設元件頁籤 {#default-components-tab}
 
-當容器上放置特定資產類型時，「預設元件」索引標籤會用來定義要新增至元件的元件，類似於頁面範本上 [定義預設元件的方式](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors)。
+當容器上放置特定資產類型時，「預設元件」索引標籤會用來定義要新增至元件的元件，類似於頁面範本上 [定義預設元件的方式](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 ### 互動式設定標籤 {#responsive-settings-tab}
 
