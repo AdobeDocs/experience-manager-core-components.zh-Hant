@@ -1,16 +1,8 @@
 ---
 title: 按鈕元件
-seo-title: 按鈕元件
-description: 'null'
-seo-description: 核心元件按鈕元件可讓您建立和顯示按鈕。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 核心元件按鈕元件可讓您建立和顯示按鈕。
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗「按鈕元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪「元件 [庫」](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)。
+若要體驗「按鈕元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪「元件 [庫」](https://adobe.com/go/aem_cmp_library_button)。
 
 ## 技術詳細資訊 {#technical-details}
 
-有關Button Component的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)。
+有關Button Component的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_button_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
