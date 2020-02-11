@@ -1,16 +1,8 @@
 ---
 title: Accordion元件
-seo-title: Accordion元件
-description: 'null'
-seo-description: 核心元件Accordion元件允許建立在頁面上以accordion排列的面板集合。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 使用者
-content-type: 參考
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 核心元件Accordion元件允許建立頁面上以accordion排列的面板集合。
 translation-type: tm+mt
-source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -24,7 +16,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 核心元件Accordion元件可建立元件集合，以面板形式組成，並排列在頁面上的accordion中，類似於 [Tabs元件](tabs.md)，但允許展開和收合面板。
 
 * accordion的屬性可在「設定」對話 [方塊中定義](#configure-dialog)。
-* accordion面板的順序可在「設定」對話方塊和「選取」面板快 [顯視窗中定義](#select-planel.md)。
+* accordion面板的順序可在「設定」對話方塊和「選取」面板快 [顯視窗中定義](#select-panel.md)。
 * 將Accordion元件新增至頁面時的預設值，可在設計對話方塊中 [定義](#design-dialog)。
 
 ## 版本與相容性 {#version-and-compatibility}
@@ -33,19 +25,19 @@ Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗Accordion元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html)。
+若要體驗Accordion元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_accordion)。
 
 ## 技術詳細資訊 {#technical-details}
 
-有關Accordion元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)。
+有關Accordion元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_accordion_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
