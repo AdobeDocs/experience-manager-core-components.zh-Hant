@@ -1,25 +1,8 @@
 ---
 title: 表單容器元件
-seo-title: 表單容器元件
-description: 'null'
-seo-description: 核心元件表單容器元件可讓您建立簡單的提交表單。
-uuid: 9d556daf-3fe7-4b2a-b5ae-6926acb267a9
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: 3d33fe60-a0ac-4ff2-a865-d600b5448aeb
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: 核心元件表單容器元件可讓您建立簡單的提交表單。
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,11 +15,11 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 「容器元件」表單支援簡單的WCM表單，並使用巢狀結構允許額外的表單元件，以建立簡單資訊提交表單和功能。
 
-使用「設 [定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、提交內容應儲存於何處，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+使用「設 [定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、提交內容應儲存於何處，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!NOTE]
 >
->核心元件表單容器元件僅支援使用核心元件表單元件（按鈕、文字、隱藏等）。 不支 [援在核心元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) （或容器）內使用基礎元件（或反之）表單元件。
+>核心元件表單容器元件僅支援使用核心元件表單元件（按鈕、文字、隱藏等）。 不支 [援在核心元件](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) （或容器）內使用基礎元件（或反之）表單元件。
 
 ## 版本與相容性 {#version-and-compatibility}
 
@@ -44,16 +27,16 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 相容 | 相容 | 相容 |
-| [v1](form-container-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |--- |---|
+| v2 | 相容 | 相容 | 相容 | 相容 |
+| [v1](form-container-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 技術詳細資訊 {#technical-details}
 
-有關表單容器元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)。
+有關表單容器元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_form_container_v2)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
@@ -124,4 +107,4 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ## 設計對話框 {#design-dialog}
 
-設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
