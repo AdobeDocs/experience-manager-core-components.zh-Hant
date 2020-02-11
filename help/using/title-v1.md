@@ -1,15 +1,9 @@
 ---
 title: 標題元件(v1)
-seo-title: 標題元件(v1)
 description: 核心元件標題元件是具有就地編輯功能的區段標題元件。
-seo-description: 核心元件標題元件是具有就地編輯功能的區段標題元件。
-uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
