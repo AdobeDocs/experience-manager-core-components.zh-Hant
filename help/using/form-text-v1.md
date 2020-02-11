@@ -1,15 +1,9 @@
 ---
 title: 表單文字元件(v1)
-seo-title: 表單文字元件(v1)
-description: 'null'
-seo-description: 核心元件表單文字元件允許輸入表單文字以供提交。
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: 核心元件表單文字元件允許輸入表單文字以供提交。
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -97,7 +91,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 配置對話框允許內容作者定義要輸入的文本類型以及預設值和標籤。
 
-### Main {#main}
+### 主要 {#main}
 
 ![](assets/chlimage_1-23.png)
 
