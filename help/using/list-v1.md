@@ -1,24 +1,9 @@
 ---
 title: 清單元件(v1)
-seo-title: 清單元件(v1)
-description: 'null'
-seo-description: 「核心元件清單元件」可讓您輕鬆建立動態和靜態清單。
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
-noindex: 'true'
+description: 「核心元件清單元件」可讓您輕鬆建立動態和靜態清單。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -46,7 +31,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!CAUTION]
 >
->本檔案說明清單元件的v1。
+>本檔案說明「清單元件」的v1。
 >
 >有關清單元件當前版本的詳細資訊，請參閱列 [表元件文檔](list.md) 。
 
