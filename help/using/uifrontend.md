@@ -1,13 +1,8 @@
 ---
 title: AEM Project Archetype Front-End Build
-seo-title: AEM Project Archetype Front-End Build
 description: AEM型應用程式的專案範本
-seo-description: AEM型應用程式的專案範本
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
+source-git-commit: 0e1f26e1032812a36ea6a30532ce40dafa903536
 
 ---
 
@@ -29,12 +24,12 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 但是，任何產生的項目都需要使用這兩種開發努力的產出，即後端和前端。
 
-執 `npm run dev` 行會啟動前端建置程式，收集儲存在ui.frontend模組中的JavaScript和CSS檔案，並產生兩個精簡的用戶端程式庫或clientlib，稱為 `clientlib-site``clientlib-dependencies` ，並將它們儲存在ui.apps模組中。 clientlibs可部署至AEM，並可讓您將用戶端程式碼儲存在儲存庫中。
+執 `npm run dev` 行會啟動前端建置程式，收集儲存在ui.frontend模組中的JavaScript和CSS檔案，並產生兩個稱為 `clientlib-site``clientlib-dependencies` ，並將它們儲存在ui.apps模組中的精簡用戶端程式庫或clientlib。 clientlibs可部署至AEM，並可讓您將用戶端程式碼儲存在儲存庫中。
 
 當使用所有專案工件（包括clientlibs）執 `mvn clean install -PautoInstallPackage` 行整個AEM專案原型時，就會推送至AEM例項。
 
 >[!TIP]
->在 [AEM開發檔案中進一步瞭解clientlibs](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) , [以及ui.frontend模組如何使用](#clientlib-generation)。
+>在 [AEM開發檔案中進一步瞭解clientlibs](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) , [以及ui.frontend模組如何使用](#clientlib-generation)。
 
 ## 可能的前端開發工作流程 {#possible-workflows}
 
@@ -53,7 +48,7 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 >[!TIP]
 >
->您也可以利用 [Component Library](https://opensource.adobe.com/aem-core-wcm-components/library.html) ，擷取每個元件的標籤輸出範例，以便在元件層級而非頁面層級工作。
+>您也可以利用 [Component Library](https://adobe.com/go/aem_cmp_library) ，擷取每個元件的標籤輸出範例，以便在元件層級而非頁面層級工作。
 
 ### 使用Storybook {#using-storybook}
 
@@ -65,7 +60,7 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 ### 確定標籤 {#determining-markup}
 
-不論您決定為您的專案實作的前端開發工作流程為何，後端開發人員和前端開發人員必須先同意標籤。 通常，AEM會定義由核心元件提供的標籤。 [不過，如有必要，可自訂此項](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup)。
+不論您決定為您的專案實作的前端開發工作流程為何，後端開發人員和前端開發人員必須先同意標籤。 通常，AEM會定義由核心元件提供的標籤。 [不過，如有必要，可自訂此項](customizing.md#customizing-the-markup)。
 
 ## ui.frontend模組 {#ui-frontend-module}
 
@@ -91,7 +86,7 @@ AEM Project Archetype包含選用的專屬前端建立機制，以Webpack為基�
 
 >[!NOTE]
 >
->如需ui.frontend模組的詳細技術資訊，請參閱GitHub [上的檔案](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md)。
+>如需ui.frontend模組的詳細技術資訊，請參閱GitHub [上的檔案](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md)。
 
 ## 安裝 {#installation}
 
@@ -149,7 +144,7 @@ ui.frontend模組建立程式利用 [aem-clientlib-generator](https://www.npmjs.
 
 ### 在頁面上包含用戶端程式庫 {#clientlib-inclusion}
 
-`clientlib-site` 而類 `clientlib-dependencies` 別則會透過「頁面原則 [設定](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) 」包含在頁面上，作為預設範本的一部分。 若要檢視原則，請編輯「內 **容頁面範本&gt;頁面資訊&gt;頁面原則」**。
+`clientlib-site` 而類 `clientlib-dependencies` 別則會透過「頁面原則 [設定](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) 」包含在頁面上，作為預設範本的一部分。 若要檢視原則，請編輯「內 **容頁面範本>頁面資訊>頁面原則」**。
 
 在網站頁面上最終加入用戶端程式庫如下：
 
