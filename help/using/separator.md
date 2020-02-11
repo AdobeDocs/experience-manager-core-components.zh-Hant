@@ -1,13 +1,8 @@
 ---
 title: 分隔符號元件
-seo-title: 分隔符號元件
 description: 分隔符號元件會在頁面上的元件之間建立分隔符號
-seo-description: 分隔符號元件會在頁面上的元件之間建立分隔符號
-contentOwner: 博納特
-content-type: 引用
-topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -26,17 +21,17 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|---|---|---|---|---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗「分隔符號元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪「元件 [庫」](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)。
+若要體驗「分隔符號元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪「元件 [庫」](https://adobe.com/go/aem_cmp_library_separator)。
 
 ### 技術詳細資訊 {#technical-details}
 
-有關Separator Component的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)。
+有關Separator Component的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_separator_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
