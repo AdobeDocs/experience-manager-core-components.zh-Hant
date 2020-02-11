@@ -1,16 +1,8 @@
 ---
 title: 開發核心元件
-seo-title: 開發核心元件
 description: 核心元件提供強穩且可擴充的基本元件，提供豐富的功能、持續傳送、元件版本修訂、現代化實作、精簡的標籤和JSON內容匯出。
-seo-description: 核心元件提供強穩且可擴充的基本元件，提供豐富的功能、持續傳送、元件版本修訂、現代化實作、精簡的標籤和JSON內容匯出。
-uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -32,20 +24,20 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
    * [確保版本的相容性](#upgrade-of-core-components)，同時允許元件改進
    * 允許一個元件的多個版本共存於同一環境中
 * 現代實作
-   * 在 [HTML範本語言](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)中定義的標籤
+   * 在 [HTML範本語言](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)中定義的標籤
    * 使用 [Sling Models實作的內容模型邏輯](https://sling.apache.org/documentation/bundles/models.html)
 * 精益標籤
    * 自2. [0.0版起，遵循塊元素修飾詞](https://getbem.com/) (BEM)注釋
       * 舊版遵循 [Bootstrap](https://getbootstrap.com/css/) 命名慣例
-   * 以協助工具指 [南為基礎](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * 以協助工具指 [南為基礎](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
    * 可用於互動式和行動網站
-* 可序列化為JSON的無頭CMS內容模型使用案例
+* 可序列化為JSON的無頭CMS使用案例內容模型
 * 易於取得
-   * 符合 [WCAG 2.0 AA標準](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * 符合 [WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
 >[!CAUTION]
 >
->核心元件需要AEM 6.3或更新版本和Java 8，而且需要使用可編輯 [的範本](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+>核心元件需要AEM 6.3或更新版本和Java 8，而且需要使用可編輯 [的範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 >
 >核心元件不適用於Classic UI，也不適用於靜態範本。
 
@@ -57,11 +49,11 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ## WKND 開發人員教學課程 {#wknd-developer-tutorial}
 
-Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作使用建議的Proxy模式的核心元件。](overview.md)
+[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的範例，用於邏輯和正確實作具有建議代理模式的核心元件。](overview.md)
 
 ## 透過GitHub提供 {#delivered-over-github}
 
@@ -84,15 +76,23 @@ GITHUB代碼
 
 ## 元件庫
 
-查看元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library.html)，其中顯示核心元件的最新版本，並提供其使用範例。
+查看元 [件庫](https://adobe.com/go/aem_cmp_library)，其中顯示核心元件的最新版本，並提供其使用範例。
 
-### 範例內容執行模式 {#sample-content-run-mode}
+### 現成可用的核心元件 {#out-of-the-box}
 
-當範例內容出現時，Quickstart中會顯示核心元件，因為 [We.Retail參考網站會使用它們](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 。 不過，當在生產環境中執行(在 `nosamplecontent` runmode中，未啟用範例內容)時，核心元件將不再存在，而且必須由開發和／或營運團隊安裝在AEM例項上。
+根據您執行AEM的方式，可能會自動安裝或不會自動安裝核心元件。
+
+#### AEM As a Cloud Service {#aem-cloud-service}
+
+雖然核心元件與 [AEM完全相容，但是核心元件必須手動安裝](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，而且無法立即使用。
+
+#### AEM On-Premise {#on-premise}
+
+在內部部署中，當範例內容出現時，Quickstart中會顯示核心元件，因為 [We.Retail參考網站會使用它們](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 。 不過，當在生產環境中執行(在 `nosamplecontent` 執行模式中，未啟用範例內容)時，核心元件將不再存在，且必須安裝在AEM例項上。
 
 >[!NOTE]
 >
->在生產環境中，請始終以運行模式運行快速 `nosamplecontent` 入門。 若要在執行模式中使 `nosamplecontent` 用核心元件，請依照「使用核 [心元件](using.md) 」檔案頁面的指示進行。
+>在現場生產環境中，請始終以運行模式運行快速 `nosamplecontent` 啟動。 若要在執行模式中使 `nosamplecontent` 用核心元件，請依照「使用核 [心元件](using.md) 」檔案頁面的指示進行。
 
 ## 技術功能 {#technical-capabilities}
 
@@ -103,7 +103,7 @@ GITHUB代碼
 | **功能** | **核心元件** | **Foundation Component** |
 |-----|---|---|
 | 邏輯實作 | Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations | JSP程式碼 |
-| 標籤定義 | [HTML範本語言](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL)語法 | JSP程式碼 |
+| 標籤定義 | [HTML範本語言](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)語法 | JSP程式碼 |
 | XSS淨化 | 由HTL自動化 | 主要是手動 |
 | CSS類別命名 | 基於塊元素修 [飾詞](https://getbem.com/) (BEM)符號的標準命名慣例（自2.0.0版起） | 自訂配置 |
 | 對話框定義 | [珊瑚3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Classic UI |
@@ -113,7 +113,7 @@ GITHUB代碼
 | 傳送 | [透過公開GitHub](https://github.com/adobe/aem-core-wcm-components) | 透過快速入門 |
 | 授權 | [Apache授權](https://www.apache.org/licenses/LICENSE-2.0) | Adobe專屬 |
 | 貢獻 | 透過提取請求 | 不可能 |
-| 協助工具 | 完全符合 [WCAG 2.0 AA標準](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | 僅部分符合 [WCAG 2.0 AA標準](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| 協助工具 | 完全符合 [WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html | 僅部分符合 [WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 元件清單 {#component-list}
 
@@ -121,33 +121,33 @@ GITHUB代碼
 
 | 核心元件 | 說明 | 已更換基礎元件 |
 |---|---|---|
-| [頁面](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page) | 使用範本編輯器的互動式頁面 | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [階層連結](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb) | 頁面階層導覽 | `/libs/foundation/components/breadcrumb` |
-| [標題](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title) | H1-H6標題 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
+| [頁面](https://adobe.com/go/aem_cmp_tech_page_v2) | 使用範本編輯器的互動式頁面 | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [階層連結](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | 頁面階層導覽 | `/libs/foundation/components/breadcrumb` |
+| [標題](https://adobe.com/go/aem_cmp_tech_title_v2) | H1-H6標題 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [文字](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | 豐富式文字 | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [影像](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) | 智慧和延遲載入最佳轉譯大小 | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
-| [清單](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list) | 頁面清單 | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [社交媒體分享](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing) | Facebook和Pinterest共用介面工具集 | `-` |
-| [來自容器](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container) | 自適應表單段落系統 | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [表單文字](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text) | 文字輸入欄位 | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [表單選項](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options) | 多選項輸入欄位 | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [已隱藏的表單](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden) | 隱藏輸入欄位 | `/libs/foundation/components/form/hidden` |
-| [表單按鈕](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button) | 提交或自訂按鈕 | `/libs/foundation/components/form/submit` |
-| [導覽](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation) | 列出巢狀頁面階層的網站導覽元件 | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [語言導覽](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation) | 列出全球語言結構的語言和國家切換器 | `-` |
-| [快速搜尋](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search) | 在下拉式選單中將結果顯示為就地建議的搜尋元件 | `/libs/foundation/components/search` |
-| [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | 可讓內容作者使用影像、標題或豐富式文字輕鬆建立摘要，並連結至其他內容或其他動作 | `-` |
-| [索引標籤](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | 允許內容作者在多個標籤中組織頁面內容 | `-` |
-| [傳送](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | 可讓內容作者在旋轉的投影片轉盤中組織內容 | `/libs/foundation/components/carousel` |
-| [內容片段](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | 允許顯示內容片段 | `-` |
-| [內容片段清單](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | 允許顯示內容片段的清單 | `-` |
-| [分隔符號](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | 分隔頁面上的內容 | `-` |
-| [折疊式面板](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 將內容面板組織成可折疊的收合式收合面板 | `-` |
-| [容器](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | 在容器中組織元件 | `-` |
-| [按鈕](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 在頁面上建立按鈕 | `-` |
-| [下載](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 新增可下載的資產至頁面 | `-` |
-| [體驗片段](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [內嵌](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | 將外部資源內嵌在頁面中 | - |
+| [影像](https://adobe.com/go/aem_cmp_tech_image_v2) | 智慧和延遲載入最佳轉譯大小 | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [清單](https://adobe.com/go/aem_cmp_tech_list_v2) | 頁面清單 | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
+| [社交媒體分享](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Facebook和Pinterest共用介面工具集 | `-` |
+| [來自容器](https://adobe.com/go/aem_cmp_tech_form_container_v2) | 自適應表單段落系統 | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [表單文字](https://adobe.com/go/aem_cmp_tech_form_text_v2) | 文字輸入欄位 | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [表單選項](https://adobe.com/go/aem_cmp_tech_form_options_v2) | 多選項輸入欄位 | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [已隱藏的表單](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 隱藏輸入欄位 | `/libs/foundation/components/form/hidden` |
+| [表單按鈕](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 提交或自訂按鈕 | `/libs/foundation/components/form/submit` |
+| [導覽](https://adobe.com/go/aem_cmp_tech_navigation_v1) | 列出巢狀頁面階層的網站導覽元件 | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [語言導覽](https://adobe.com/go/aem_cmp_tech_langnav_v1) | 列出全球語言結構的語言和國家切換器 | `-` |
+| [快速搜尋](https://adobe.com/go/aem_cmp_tech_search_v1) | 在下拉式選單中將結果顯示為就地建議的搜尋元件 | `/libs/foundation/components/search` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 可讓內容作者使用影像、標題或豐富式文字輕鬆建立摘要，並連結至其他內容或其他動作 | `-` |
+| [索引標籤](https://adobe.com/go/aem_cmp_tech_tabs_v1) | 允許內容作者在多個標籤中組織頁面內容 | `-` |
+| [傳送](https://adobe.com/go/aem_cmp_tech_carousel_v1) | 可讓內容作者在旋轉的投影片轉盤中組織內容 | `/libs/foundation/components/carousel` |
+| [內容片段](https://adobe.com/go/aem_cmp_tech_cf_v1) | 允許顯示內容片段 | `-` |
+| [內容片段清單](https://adobe.com/go/aem_cmp_tech_cflist_v1) | 允許顯示內容片段的清單 | `-` |
+| [分隔符號](https://adobe.com/go/aem_cmp_tech_separator_v1) | 分隔頁面上的內容 | `-` |
+| [折疊式面板](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 將內容面板組織成可折疊的收合式收合面板 | `-` |
+| [容器](https://adobe.com/go/aem_cmp_tech_container_v1) | 在容器中組織元件 | `-` |
+| [按鈕](https://adobe.com/go/aem_cmp_tech_button_v1) | 在頁面上建立按鈕 | `-` |
+| [下載](https://adobe.com/go/aem_cmp_tech_download_v1) | 新增可下載的資產至頁面 | `-` |
+| [體驗片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [內嵌](https://adobe.com/go/aem_cmp_tech_embed_v1) | 將外部資源內嵌在頁面中 | - |
 
 ### 近期元件 {#upcoming-components}
 
@@ -157,7 +157,7 @@ GITHUB代碼
 
 版本化元件的一個優點是，它可將移轉至新AEM版本與移轉至新元件版本分開。 此外，如果有新的元件版本，則允許將每個元件個別移轉至新版本。
 
-移轉至新AEM版本不會影響核心元件的運作方式，但是其版本也支援要移轉至的新AEM版本。 對核心元件的自訂也不應受到影響，只要它們不使用已過時或移除 [的API](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)。
+移轉至新AEM版本不會影響核心元件的運作方式，但是其版本也支援要移轉至的新AEM版本。 對核心元件的自訂也不應受到影響，只要它們不使用已過時或移除 [的API](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
 遷移到新版本的核心元件也不會影響元件的工作方式，但頁面作者可能會引入新功能，這可能需要模板編輯器進行一些配置，以防不需要預設行為。 不過，自訂可能需要調整，如需詳細資訊，請參閱自 [訂核心元件頁面](customizing.md#upgrade-compatibility-of-customizations) 。
 
@@ -208,7 +208,7 @@ GITHUB代碼
 
 由於基礎元件是許多AEM版本專案開發的基礎，因此在可預見的未來，它們仍將受到支援。
 
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
 
 **閱讀下一節內容:**
 
