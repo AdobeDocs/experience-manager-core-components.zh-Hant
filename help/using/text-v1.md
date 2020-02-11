@@ -1,24 +1,9 @@
 ---
 title: 文字元件(v1)
-seo-title: 文字元件(v1)
-description: 'null'
-seo-description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
-noindex: 'true'
+description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
