@@ -1,37 +1,21 @@
 ---
-title: Quick Search Component
-seo-title: Quick Search Component
-description: 'null'
-seo-description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
-uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+title: 快速搜尋元件
+description: 「快速搜尋」元件提供網站的搜尋功能，並提供搜尋結果，讓訪客可以搜尋網站並篩選結果。
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
-# Quick Search Component{#quick-search-component}
+# 快速搜尋元件 {#quick-search-component}
 
-The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
+「快速搜尋」元件提供網站的搜尋功能，並提供搜尋結果，讓訪客可以輕鬆找到符合的內容並檢視結果。
 
 ## 使用狀況 {#usage}
 
-The Quick Search component offers site visitors the ability to search for content, view the results in-place, and easily navigate to the matching pages. 當使用者捲動搜尋結果時，會動態擷取新結果。
+「快速搜尋」元件讓網站訪客能夠搜尋內容、就地檢視結果，並輕鬆導覽至相符的頁面。 當使用者捲動搜尋結果時，會動態擷取新結果。
 
-The edit dialog allows the content author to define where in the content tree the search should start. [](#edit-dialog)使用設 [計對話框](#design-dialog)，範本作者可以設定內容樹中應開始搜尋的位置的預設值，以及最大結果集大小和最小搜尋詞長度。
+編輯 [對話方塊](#edit-dialog) ，可讓內容作者定義內容樹中應開始搜尋的位置。 使用設 [計對話框](#design-dialog)，範本作者可以設定內容樹中應開始搜尋的位置的預設值，以及最大結果集大小和最小搜尋詞長度。
 
 ## 版本與相容性 {#version-and-compatibility}
 
@@ -39,15 +23,15 @@ The edit dialog allows the content author to define where in the content tree th
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |--- |---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是 [We.Retail的範例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -95,7 +79,7 @@ The edit dialog allows the content author to define where in the content tree th
 >
 >保護搜尋元件或任何以AEM為基礎的應用程式不受DOS攻擊的影響，應該在更高的層級實作，例如使用 `mod_security` 在分派器上。
 
-有關快速搜尋元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)。
+有關快速搜尋元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_search_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
@@ -107,18 +91,16 @@ The edit dialog allows the content author to define where in the content tree th
 
 **搜索根** -從何處開始搜索的根頁。 「搜尋根」可以是Blueprint主版、語言主版或一般頁面。
 
-## Design Dialog {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.The design dialog allows the template author to define which text formatting options are available to the content authors.
+使用設計對話框，模板作者可以設定內容樹中搜索應開始的位置的預設值以及最大結果集大小和最小搜索詞長度。設計對話框允許模板作者定義哪些文本格式選項可供內容作者使用。
 
-### Properties Tab {#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![](assets/screen_shot_2018-04-03at120028.png)
 
-* **Search Root
-The default value of search root when a content author places the Quick Search Component on a content page**
-* **Results Size
-The maximum number of results fetched by a search request**
+* **搜尋根**&#x200B;內容作者將快速搜尋元件置於內容頁面時的搜尋根的預設值
+* **結果大**&#x200B;小搜尋請求擷取的結果數目上限
 * **搜尋詞最小長**&#x200B;度開始搜尋的搜尋詞最小長度
 
 >[!NOTE]
