@@ -1,12 +1,8 @@
 ---
 title: 體驗片段元件
-seo-title: 體驗片段元件
 description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
-seo-description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
-content-type: 引用
-topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -17,9 +13,9 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ## 使用狀況 {#usage}
 
-核心元件體驗片段元件可讓內容作者從現有體驗片段變數中選取，並將一個片段置於內容頁面上。 「體驗片段」元件也支援本地化的網站結構。
+核心元件體驗片段元件可讓內容作者從現有體驗片段變化中選取，並將一個片段放在內容頁面上。 「體驗片段」元件也支援本地化的網站結構。
 
-* 可在「配置」對話框中定義元件 [的屬性](#configure-dialog)。
+* 可在「配置」對話框中定義元件的 [屬性](#configure-dialog)。
 * 將元件新增至頁面時的預設值，可在設計對話方塊中 [定義](#design-dialog)。
 
 ## 本地化網站結構支援 {#localized-site-structure}
@@ -86,7 +82,7 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 體驗片段元件會嘗試依下列順序尋找對應的本地化元件。
 
-1. 首先，它會嘗試尋找語言根目錄。
+1. 首先，它會嘗試尋找語言根。
 1. 如果找不到，它會嘗試尋找藍圖。
 1. 如果找不到，則會嘗試尋找即時副本。
 1. 如果找不到，則預設為元件中設定的體驗片段。
@@ -97,19 +93,19 @@ Experience Fragment元件的目前版本為v1，此版本於2019年9月隨核心
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗「體驗片段元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/experience-fragment.html)。
+若要體驗「體驗片段元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_xf)。
 
 ## 技術詳細資訊 {#technical-details}
 
-有關Experience Fragment元件的最新技術文 [件，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment)。
+有關Experience Fragment元件的最新技術文 [件，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
