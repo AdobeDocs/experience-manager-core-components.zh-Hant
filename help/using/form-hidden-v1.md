@@ -1,15 +1,9 @@
 ---
 title: 表單隱藏元件(v1)
-seo-title: 表單隱藏元件(v1)
 description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
-seo-description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -103,6 +97,6 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 有關「表單隱藏元件」的最新技 [術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)。
 
-The entire core components project can be downloaded from GitHub.
+您可從GitHub下載整個核心元件專案。
 
-Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
