@@ -1,20 +1,9 @@
 ---
 title: 階層連結元件(v1)
-seo-title: 階層連結元件(v1)
 description: 核心元件階層連結元件是導覽元件，會根據頁面在內容階層中的位置建立連結的階層連結。
-seo-description: AEM核心元件階層連結元件是導覽元件，會根據頁面在內容階層中的位置建立連結的階層連結。
-uuid: c1f20a82-b6ff-4a3c-920a-6710084a69f2
-content-type: 引用
-topic-tags: 核心元件
-discoiquuid: 0b3a7d8f-d110-424f-b531-ff88c9a09128
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
