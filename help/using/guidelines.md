@@ -1,16 +1,8 @@
 ---
 title: 元件指引
-seo-title: 元件指引
 description: 核心元件遵循與基礎元件截然不同的現代實施模式。
-seo-description: 核心元件遵循與基礎元件截然不同的現代實施模式。
-uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -35,7 +27,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ### 關注事項分離 {#separation-of-concerns}
 
-將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是個好做法。 有數種方式可達成此目的，但建議使用 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic和 [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)for the markup，就像Core Components也這麼做。
+將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是個好做法。 有數種方式可達成此目的，但建議使用 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic和 [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)for the markup，就像Core Components也這麼做。
 
 Sling Models是一組Java註解，可輕鬆從POJO存取所需的變數，因此提供簡單、強大而有效率的方式，來建置元件的Java邏輯。
 
@@ -47,7 +39,7 @@ HTL的設計宗旨是提供安全且簡單的範本語言，專為AEM量身打�
 
 ### 預先設定的功能 {#pre-configurable-capabilities}
 
-除了頁面作者使用的編輯對話方塊外，元件也可以有一個設計對話方塊，讓範本作者預先設定這些對話方塊。 模 [板編輯器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) (Template Editor)允許設定所有這些預配置，這些配置稱為「策略」。
+除了頁面作者使用的編輯對話方塊外，元件也可以有範本作者的設計對話方塊，供範本作者預先設定。 模 [板編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) (Template Editor)允許設定所有這些預配置，這些配置稱為「策略」。
 
 若要盡可能讓元件可重複使用，應為元件提供有意義的預先設定選項。 這可讓您啟用或停用元件的功能，以符合不同網站的特定需求。
 
@@ -86,11 +78,11 @@ HTL的設計宗旨是提供安全且簡單的範本語言，專為AEM量身打�
 
 ## 整合在一起 {#putting-it-all-together}
 
-以下是整個資源類型綁定結構的概述，以Title Core Component為例。 它說明了特定站點的代理元件如何解析元件版本，以避免內容資源包含任何版本號。 接著，它會顯示元件的 `title.html` HTL檔案如何用於模型介面，而實作則會透過 [Sling Model](https://helpx.adobe.com/experience-manager/htl/using/overview.html)[](https://sling.apache.org/documentation/bundles/models.html) Annotations系結至元件的特定版本。
+以下是整個資源類型綁定結構的概述，以Title Core Component為例。 它說明了特定站點的代理元件如何解析元件版本，以避免內容資源包含任何版本號。 接著，它會顯示元件的 `title.html` HTL檔案如何用於模型介面，而實作則會透過 [Sling Model](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)[](https://sling.apache.org/documentation/bundles/models.html) Annotations系結至元件的特定版本。
 
 ![資源綁定概述](assets/chlimage_1-32.png)
 
-下面是另一個概述，它不顯示實施POJO的詳細資訊，但顯示關聯的模板和策 [略的參考](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) 。
+下面是另一個概述，它不顯示實施POJO的詳細資訊，但顯示關聯的模板和策 [略的參考](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) 。
 
 屬 `cq:allowedTemplates` 性會指出哪些範本可用於網站，以及 `cq:template` 每個頁面的相關範本。 每個範本由下列三部分組成：
 
@@ -102,7 +94,7 @@ HTL的設計宗旨是提供安全且簡單的範本語言，專為AEM量身打�
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作使用建議的Proxy模式的核心元件。](overview.md)
+[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的範例，用於邏輯和正確實作具有建議代理模式的核心元件。](overview.md)
 
 **閱讀下一節內容:**
 
