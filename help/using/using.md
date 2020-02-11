@@ -1,21 +1,8 @@
 ---
 title: 使用核心元件
-seo-title: 使用核心元件
-description: 'null'
-seo-description: 「若要在您自己的專案中啟動並執行核心元件，需執行三個步驟：下載和安裝、建立Proxy元件、載入核心樣式，以及允許範本上的元件。」
-uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 開發
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
-disttype: dist5
-gnavtheme: 淺色
-index: y
-internal: n
-snippet: y
+description: 「若要在您自己的專案中啟動並執行核心元件，需執行三個步驟：下載和安裝、建立Proxy元件、載入核心樣式，以及允許範本上的元件。」
 translation-type: tm+mt
-source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -40,7 +27,7 @@ source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
 
 因此，在生產模式下（不含示例內容）啟動時，核心元件不是快速啟動的一部分。 因此，您的第一個步驟是 [從GitHub下載最新發行的內容套件](https://github.com/adobe/aem-core-wcm-components/releases/latest) ，並將它安裝在AEM環境中。
 
-有幾種方法可以自動化此程式，但要在實例上快速安裝內容包，最簡單的方法是使用「包管理器」;請參 [閱安裝軟體包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。 此外，一旦您也將執行發佈例項，您就需要將該套件複製至發佈者；請參 [閱複製包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
+有幾種方法可以自動化此程式，但要在實例上快速安裝內容包，最簡單的方法是使用「包管理器」;請參 [閱安裝軟體包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您也將執行發佈例項，您就需要將該套件複製至發佈者；請參 [閱複製包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
 <!-- 
 
@@ -113,7 +100,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. 如果尚未完成，請建立 [用戶端程式庫](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) ，其中包含您網站所需的所有CSS和JS檔案。
+1. 如果尚未完成，請建立 [用戶端程式庫](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) ，其中包含您網站所需的所有CSS和JS檔案。
 1. 在您網站的「用戶端程式庫」中，將相依性新增至可能需要的核心元件。 這是透過新增屬性來 `embed` 完成。
 
    例如，要包含所有v1核心元件的客戶端庫，要添加的屬性為：
@@ -132,7 +119,7 @@ Load the Core Client Libraries sounds way better
 
 ## 允許元件 {#allow-the-components}
 
-在模板編輯器中執行以 [下步驟](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+在模板編輯器中執行以 [下步驟](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 1. 在範本編輯器中，選取「版面容器」，並開啟其原則。
 1. 在「允許的元件」清單中，選取先前建立的代理元件，這些元件應顯示在指派給這些元件的元件群組下。 完成後，請套用變更。
@@ -140,7 +127,7 @@ Load the Core Client Libraries sounds way better
 
 就這樣！ 在從已編輯的範本建立的頁面中，您現在應該可以使用新建立的元件。
 
-**閱讀下一頁：**
+**閱讀下一節內容:**
 
 * [自訂核心元件](customizing.md) -瞭解如何設定核心元件的樣式和自訂核心元件。
 * [元件准則](guidelines.md) -瞭解核心元件的實作模式。
