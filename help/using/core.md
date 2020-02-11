@@ -1,13 +1,8 @@
 ---
 title: AEM項目原型的核心模組
-seo-title: AEM項目原型的核心模組
 description: AEM項目原型的核心模組
-seo-description: AEM項目原型的核心模組
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
