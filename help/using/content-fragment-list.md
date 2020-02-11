@@ -1,25 +1,19 @@
 ---
 title: 內容片段清單元件
-seo-title: 內容片段清單元件
-description: 'null'
-seo-description: 核心元件內容片段清單元件可顯示內容片段的清單。
-contentOwner: 博納特
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
+description: 核心元件內容片段清單元件可顯示內容片段的清單。
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # 內容片段清單元件{#content-fragment-list-component}
 
-核心元件內容片段清單元件可顯示內容片段 [清單](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)。
+核心元件內容片段清單元件可顯示內容片段 [清單](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 ## 使用狀況 {#usage}
 
-核心元件內容片段清單元件允許根據內容片段模型 [在頁面上包含](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) 內容片段的清單。 這對於建立其他應用程式可 [輕鬆使用的無頭內容](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) ，特別有用。
+核心元件內容片段清單元件允許根據內容片段模型 [在頁面上包含](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 內容片段的清單。 這對於建立其他應用程式可 [輕鬆使用的無頭內容](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) ，特別有用。
 
 * 可以在配置對話框中選擇清單及其 [屬性](#configure-dialog)。
 * 樣式可套用至設計對話方 [塊中的元件](#design-dialog)。
@@ -30,35 +24,35 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 相容 | Compatible | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-To experience the Content Fragment List Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html).
+若要體驗「內容片段清單元件」，並檢視其設定選項的範例以及HTML和JSON輸出，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_cflist)。
 
-## Technical Details {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-The latest technical documentation about the Content Fragment List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+有關內容片段清單元件的最新技術文 [件，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1)。
 
-Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
+有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
-The configure dialog allows the content author to define the which content fragments comprise the list and the elements of those fragments to be included.
+設定對話方塊可讓內容作者定義要包含清單的內容片段以及這些片段的元素。
 
-### Properties Tab
+### 屬性標籤
 
-The Properties tab defines which Content Fragments are included in the list. **** This is primarily based on a selected Content Fragment Model, but there are other filter options available.
+「屬 **性** 」標籤定義清單中包含哪些內容片段。 這主要是以選取的內容片段模型為基礎，但有其他可用的篩選選項。
 
 ![](assets/screen-shot-2019-09-25-10.32.10.png)
 
 * **模型** -清單所依據之內容片段模型的路徑。
-   * By default, all content fragments of the model defined as Model Path are included in the list.****
-* **Parent Path - Parent path from which the list should be built.**
+   * 預設情況下，定義為「模型路徑」( **Model Path** )的模型的所有內容片段都包括在清單中。
+* **父路徑** -應從中構建清單的父路徑。
    * 根據所選模型路徑的內 **容片段** ，將篩選為指定父路徑 **上的內容片段**。
       * 按一下或點選 **欄位右側的** 「開啟選取範圍對話方塊」按鈕，以指定路徑。
 * **標籤** -清單中只會包含具有指定標籤的內容片段。
@@ -74,7 +68,7 @@ The Properties tab defines which Content Fragments are included in the list. ***
 >[!NOTE]
 >核心 **元件2.7.0版中**，已引入「排序方式」、「排序順序 ******** 」和「最大項目」選項。
 
-### Elements Tab
+### 元素標籤
 
 依預設，「內容片段模型」的所有元素都會包含在清單中(除非受「最大項目」欄 **位限制** )。 「元 **素** 」(Elements)頁籤允許您僅指定要包括的特定元素。
 
