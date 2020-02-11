@@ -1,24 +1,9 @@
 ---
 title: 表單選項元件(v1)
-seo-title: 表單選項元件(v1)
-description: 'null'
-seo-description: 核心元件表單選項元件允許從各種格式的預定義選項中進行選擇。
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
-noindex: 'true'
+description: 核心元件表單選項元件允許從各種格式的預定義選項中進行選擇。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
