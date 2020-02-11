@@ -1,73 +1,67 @@
 ---
-title: 使用核心元件製作內容
-seo-title: 使用核心元件製作內容
+title: 使用核心元件編寫
 description: 在AEM中，元件是構成所撰寫頁面內容的結構元素——核心元件提供有彈性且功能豐富的製作功能。
-seo-description: 在AEM中，元件是構成所撰寫頁面內容的結構元素——核心元件提供有彈性且功能豐富的製作功能。
-uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
-content-type: 引用
-topic-tags: 編寫
-discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
 
-# Author with Core Components
+# 使用核心元件製作
 
-在Adobe Experience Manager中，元件是構成所撰寫頁面內容的結構元素。
+在 Adobe Experience Manager 中，元件是構成所編寫頁面內容的結構元素。
 
-核心元件提供有彈性且功能豐富的製作功能。 We. [Retail參考網站](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) ，說明如何使用核心元件。
+核心元件提供有彈性且功能豐富的製作功能。 WKND參 [考網站](https://wknd.site) 及其說明如何使用核心元件來建置豐富的網站體驗。
 
-若要體驗核心元件並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
+若要體驗核心元件並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library)。
 
-如需在AEM專案上實作核心元件的深入、以開發人員為導向的簡介，請參閱WKND [教學課程。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+如需在AEM專案上實作核心元件(使用 [AEM Project Archetype)的深入、以開發人員為導向的簡介，請參閱](overview.md) WKND教學課程 [。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
->作者無法立即取得核心元件，開發 [團隊必須先將它們整合至您的環境](using.md)。 整合後，可透過範本編輯器提供並預先 [設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+>[開發團隊必須先依照作者的環境整合核心元件](using.md)，才能將其提供給您。整合後，可透過範本編輯器提供並預先 [設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!CAUTION]
 >
->核心元 [件需要AEM 6.3或更新版本](versions.md) ，而且需要使用可編 [輯的範本](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。 它們不適用於Classic UI，也不適用於靜態範本。
+>核心元 [件需要AEM 6.3或更新版本](versions.md) ，而且需要使用可編 [輯的範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它們不適用於Classic UI，也不適用於靜態範本。
 
-## 使用核心元件製作內容 {#authoring-with-core-components}
+## 使用核心元件編寫 {#authoring-with-core-components}
 
 身為作者，您會注意到核心元件的幾項優點，包括：
 
-* 簡單易用且與頁面編輯器完 [整整合](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* 簡單易用且與頁面編輯器完 [整整合](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* 功能豐富，可容納許多使用案例， [如We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 以及元件 [庫所示](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* 功能豐富，可容納 [WKND參考網站](https://wknd.site) ，以及元件庫中的許 [多使用案例](https://adobe.com/go/aem_cmp_library)
 
-* [預先設定](#pre-configuring-core-components) ，以定義哪些功能可透過範本編輯器提供給頁 [面作者](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [預先設定](#pre-configuring-core-components) ，以定義哪些功能可透過範本編輯器提供給頁 [面作者](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-* 以協助工具指 [南為基礎](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* 以協助工具指 [南為基礎](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
-* 專為支援互動式版 [面設計](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* 專為支援互動式版 [面設計](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
 * 專為支援輕鬆本 [地化而設](localization.md)
 
-Components are available on the Components tab of the side panel of the page editor when editing a page.****[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+在編輯頁面時，可 **在頁面編輯器側面板的「元件** 」(Components)選 [項卡上使用元件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)。
 
-Components are grouped according to categories called component groups to easily organize and filter the components. The component group name is displayed with the component in the component browser and it is also possible to filter by group to easily find the right component.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+元件會根據稱為元件群組的類別分組，以輕鬆組織和篩選元件。 元件群組名稱會與元件一起顯示在元 [件瀏覽器中](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) ，您也可以依群組篩選，輕鬆找到正確的元件。
 
 >[!NOTE]
 >
->The Core Components are by default part of a hidden group and are not visible within the component browser.
+>「核心元件」預設為隱藏群組的一部分，在元件瀏覽器中不可見。
 >
->Add the required components to a visible group or customize them for them to be available for authors.
+>將所需元件新增至可見群組，或自訂供作者使用。
 
-## Pre-Configuring Core Components {#pre-configuring-core-components}
+## 預先設定核心元件 {#pre-configuring-core-components}
 
-Configuring Foundation Components was the job of a developer. However with Core Components, a template author can now configure a number of capabilities via the template editor.
+設定基礎元件是開發人員的工作。 不過，有了核心元件，範本作者現在可以透過範本編輯器來設定許多功能。
 
-For example if an image component should not allow image upload from the file system, or if a text component should only allow certain paragraph formatting, these features can be enabled or disabled with a simple click.
+例如，如果影像元件不應允許從檔案系統上傳影像，或者文字元件僅允許特定段落格式，只要按一下滑鼠，就可以啟用或停用這些功能。
 
-See Creating Page Templates for more information.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+如需詳 [細資訊，請參閱](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 「建立頁面範本」。
 
-### Edit and Design Dialogs {#edit-and-design-dialogs}
+### 編輯和設計對話框 {#edit-and-design-dialogs}
 
-Because the Core Components can be pre-configured by template authors to define what options are allowed as part of a template, and then further configured by the page author to define actual page content, each component can have options in two different dialogs.
+由於範本作者可預先設定核心元件，以定義範本中允許的選項，然後頁面作者進一步設定以定義實際的頁面內容，因此每個元件可以在兩個不同的對話方塊中有選項。
 
 |  | 說明 | 控制項 | 範例 |
 |--- |--- |--- |--- |
@@ -81,7 +75,7 @@ Because the Core Components can be pre-configured by template authors to define 
 * 範本作者可以定義哪些樣式可用於該元件的「設計對話框」中的特定元件。
 * 然後，內容作者可以選擇在新增元件和建立內容時要套用的樣式。
 
-有關詳細資訊，請參 [閱Style System](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) 文檔。
+有關詳細資訊，請參 [閱Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) 文檔。
 
 >[!NOTE]
 >
@@ -91,9 +85,9 @@ Because the Core Components can be pre-configured by template authors to define 
 
 以下是連結至頁面的可用核心元件清單，詳細說明其編輯與設計對話方塊功能。
 
-核心元件的最新版本包含下列元件。
+目前版本的核心元件主打下列元件。
 
-* [折疊面板](accordion.md)
+* [折疊式面板](accordion.md)
 * [階層連結](breadcrumb.md)
 * [按鈕](button.md)
 * [容器](container.md)
@@ -122,9 +116,9 @@ Because the Core Components can be pre-configured by template authors to define 
 
 >[!CAUTION]
 >
->某些版本的個別核心元件可能僅與特定版本的AEM相容。
+>某些版本的個別核心元件可能只相容於特定版本的 AEM。
 >
->如需相容性資訊，請參閱特定元件的個別說明頁面（在上一份清單中連結至），或參考核心元件版本檔案，以取得詳 [細資訊](versions.md) 。
+>如需特定元件的相容性資訊，請參閱說明頁面 (連結至上一份清單)，或參考[核心元件版本](versions.md)文件以取得詳細資訊。
 
 >[!NOTE]
 >
