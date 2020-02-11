@@ -1,24 +1,8 @@
 ---
 title: 表單隱藏元件
-seo-title: 表單隱藏元件
-description: 'null'
-seo-description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
-uuid: 63a1b381-f45c-4241-b743-dea8abd45e11
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 核心元件
-discoiquuid: 36e49035-7641-4bad-8a61-723060032903
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -39,16 +23,16 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 相容 | 相容 | 相容 |
-| [v1](form-hidden-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |--- |---|
+| v2 | 相容 | 相容 | 相容 | 相容 |
+| [v1](form-hidden-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是 [We.Retail的範例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### HTML {#html}
 
@@ -88,7 +72,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技術詳細資訊 {#technical-details}
 
-有關「表單隱藏元件」的最新技 [術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden)。
+有關「表單隱藏元件」的最新技 [術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
