@@ -1,14 +1,8 @@
 ---
 title: 核心元件的本地化功能
-seo-title: 核心元件的本地化功能
 description: 核心元件的本地化功能
-seo-description: 核心元件的本地化功能
-content-type: reference
-topic-tags: core-components
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,7 +17,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 同樣地，導覽元件通常必須顯示在所有頁面上。 不過，它也需要反映本地化頁面的內容。
 
-使用Navigation Core Component和 [Experience Fragment Core Component的本地化功能](navigation.md) ，以及AEM的 [](experience-fragment.md)[](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)可編輯範本，這項工作變得簡單。 此範例可進一步擴充，以便使 [用語言導覽元件](language-navigation.md) 。
+使用Navigation Core Component和 [Experience Fragment Core Component的本地化功能](navigation.md) ，以及AEM的 [](experience-fragment.md)[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)可編輯範本，這項工作變得簡單。 此範例可進一步擴充，以便使 [用語言導覽元件](language-navigation.md) 。
 
 ## 內容結構 {#content-structure}
 
