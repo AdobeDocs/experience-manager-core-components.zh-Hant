@@ -1,15 +1,9 @@
 ---
 title: 頁面元件(v1)
-seo-title: 頁面元件(v1)
 description: 頁面元件是可擴充的頁面元件，可與範本編輯器搭配使用，並可讓頁首／頁尾和結構元件與範本編輯器組合使用。
-seo-description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: 引用
-topic-tags: 核心元件
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -689,7 +683,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 設計對話框 {#design-dialog}
 
-由於元件代表整個頁面，所以可透過「頁面資訊-&gt;頁面設 **計」存取設計對話方塊**。
+由於元件代表整個頁面，所以可透過「頁面資訊->頁面設 **計」存取設計對話方塊**。
 
 ![](assets/chlimage_1-94.png)
 
