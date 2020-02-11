@@ -1,15 +1,9 @@
 ---
 title: 影像元件(v1)
-seo-title: 影像元件(v1)
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
-seo-description: 核心元件影像元件是就地編輯的自適應影像元件功能。
-uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -180,7 +174,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 設計對話方塊可讓範本作者定義內容作者使用此元件時的裁切、上傳和旋轉上傳。
 
-### Main {#main}
+### 主要 {#main}
 
 On the **Main** tab you can define a list of allowed widths in pixels for the image to automatically load the most appropriate width from the list.
 
