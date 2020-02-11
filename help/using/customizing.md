@@ -1,16 +1,8 @@
 ---
 title: 自訂核心元件
-seo-title: 自訂核心元件
 description: 核心元件實作數種模式，可輕鬆自訂，從簡單樣式到進階功能可重複使用。
-seo-description: AEM核心元件會建置數種可輕鬆自訂的模式，從簡單的樣式到進階功能可重複使用。
-uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: 使用者
-content-type: 參考
-topic-tags: 開發
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -36,7 +28,7 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的Helloworld範例，以邏輯和正確實作具有建議之proxy模式的核心元件。](overview.md)
+[AEM Project Archetype會為您自己的專案建立最小的Adobe Experience Manager專案，包括使用SlingModels自訂HTL元件的範例，以瞭解Core Components的邏輯並正確實作與建議的Proxy模式。](overview.md)
 
 ## 自訂模式 {#customization-patterns}
 
@@ -117,7 +109,7 @@ public class PageHeadline implements Title {
 
 第一種自訂形式是套用CSS樣式。
 
-為了輕鬆完成，核心元件會轉換語義標籤，並遵循受 [Bootstrap啟發的標準命名慣例](https://getbootstrap.com/)。 此外，為了輕鬆定位和命名個別元件的樣式，每個核心元件都會封裝在具有" `cmp`"和" `cmp-<name>`"類的DIV元素中。
+為了輕鬆完成，核心元件會轉換語義標籤，並遵循受 [Bootstrap啟發的標準命名慣例](https://getbootstrap.com/)。 此外，為了輕鬆定位和命名個別元件的樣式，每個核心元件都會封裝在具有&quot; `cmp`&quot;和&quot; `cmp-<name>`&quot;類的DIV元素中。
 
 例如，查看v1核心階層連結元件的HTL檔案： [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)，我們看到元素輸出的階層 `ol.breadcrumb > li.breadcrumb-item > a`。 因此，若要確定CSS規則只影響該元件的階層連結類別，所有規則都應以如下所示的名稱命名：
 
@@ -127,7 +119,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每個核心元件都運用AEM [Style System](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) （AEM樣式系統）功能，讓範本作者定義其他CSS類別名稱，頁面作者可套用至元件。 這允許為每個模板定義一個允許的元件樣式清單，以及其中一個樣式是否預設應用於該類型的所有元件。
+此外，每個核心元件都運用AEM [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) （AEM樣式系統）功能，讓範本作者定義其他CSS類別名稱，頁面作者可套用至元件。 這允許為每個模板定義一個允許的元件樣式清單，以及其中一個樣式是否預設應用於該類型的所有元件。
 
 ## 定製的升級相容性 {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +129,7 @@ public class PageHeadline implements Title {
 * 將核心元件升級到新的次要版本
 * 將核心元件升級到主要版本
 
-一般而言，將AEM升級至新版本不會影響核心元件或自訂作業，但元件版本也支援要移轉至的新AEM版本，且自訂作業不會使用已過時或移除 [的API](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)。
+一般而言，將AEM升級至新版本不會影響核心元件或自訂作業，但元件版本也支援要移轉至的新AEM版本，且自訂作業不會使用已過時或移除 [的API](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
 升級核心元件而不切換至較新的主要版本時，只要使用本頁所述的自訂模式，就不會影響自訂。
 
@@ -157,7 +149,7 @@ public class PageHeadline implements Title {
 
 1. **觀看已過時和移除的功能。**
 
-   在將每個新AEM版本升級至時，請留意「已過時和已移除的功能」頁面，以確保所有使用的API仍 [為熱門](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) 。
+   在將每個新AEM版本升級至時，請留意「已過時和已移除的功能」頁面，以確保所有使用的API仍 [為熱門](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) 。
 
 另請參閱核 [心元件支援](developing.md#core-component-support) 。
 
