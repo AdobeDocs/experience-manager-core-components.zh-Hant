@@ -1,15 +1,9 @@
 ---
 title: 表單容器元件(v1)
-seo-title: 表單容器元件(v1)
 description: 核心元件表單容器元件可讓您建立簡單的提交表單。
-seo-description: 核心元件表單容器元件可讓您建立簡單的提交表單。
-uuid: 075d83ed-de40-414e-a18f-46b3a857acba
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: 800c064e-2ad5-41f3-9cef-b025a55efd9
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
