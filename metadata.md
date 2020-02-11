@@ -1,30 +1,52 @@
 ---
-cloud: experience-cloud
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
-solution-image: null
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
+product: Adobe Experience Manager
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
+solution-title: AEM的學習與支援
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+getting-started-title: AEM快速入門開發
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+tutorials-title: AEM 教學課程
+tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
+source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
 
 ---
 
 
-# Metadata for internal use
+# 內部使用的中繼資料
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+GitHub製作系統中的中繼資料是階層式的，並定義了下列不斷提升的先例等級。
 
-| 中繼資料 | what it does |
-|--- |--- |
-| solution-title | 在文章標題中用作連結 |
-| solution-hub-url | 開啟幫助中心頁 |
-| 解決方案圖示 | 在解決方案標題旁顯示解決方案圖示。 尚未實施 |
-| getting-started-url | 幫助快速入門頁面的連結 |
-| 教學課程-url | 連結至教學課程影片——說明教學課程或KT教學課程 |
-| 迷你目錄層級 | 決定出現在右側欄中的標題層數。 預設值為2 |
-| git-repo | 指定主回購協定的內部使用位置 |
+1. metadata.md
+1. ToC
+1. 文章
+
+中繼資料。md檔案中定義的中繼資料會套用至整個回購區，但可在ToC和文章層級覆寫。 任何對中繼資料的覆寫都應盡可能在最低層級進行。
+
+experience-manager-core-components.en repo中的中繼資料是最低要求。
+
+metadata.md
+
+* `product`
+* `git-repo`
+* `index: y`
+* `solution-title`
+* `solution-hub-url`
+* `getting-started-title`
+* `getting-started-url`
+* `tutorials-title`
+* `tutorials-url`
+
+ToCs
+
+* `sub-product`
+* `user-guide-title`
+
+文章
+
+* `title`
+* `description`
+* `index: n` （僅適用於舊版元件）
+
+有關中繼資料的其他資訊，請參閱內 [部製作指南。](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
