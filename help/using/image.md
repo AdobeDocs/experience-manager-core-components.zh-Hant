@@ -1,16 +1,8 @@
 ---
 title: 影像元件
-seo-title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
-seo-description: 核心元件影像元件是就地編輯的自適應影像元件功能。
-uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: 使用者
-content-type: 參考
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -37,10 +29,10 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 相容 | 相容 | 相容 |
-| [v1](image-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |--- |---|
+| v2 | 相容 | 相容 | 相容 | 相容 |
+| [v1](image-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
@@ -58,15 +50,15 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 >[!CAUTION]
 >
->SVG支援需要2.1.0版核心元件或更新版本，以及 [AEM 6.4的](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更新版本的 [service pack 3](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) ，以支援AEM中的新影像編輯器功能。
+>SVG支援需要2.1.0版核心元件或更新版本，以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更新版本的 [service pack 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) ，以支援AEM中的新影像編輯器功能。
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗影像元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/image.html)。
+若要體驗影像元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_image)。
 
 ### 技術詳細資訊 {#technical-details}
 
-有關影像元件的最新技術檔案 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)。
+有關影像元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_image_v2)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
@@ -83,9 +75,9 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **影像資產**
-   * 從資產瀏覽器中 [拖放資產](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ，或點選 **** 瀏覽選項，從本機檔案系統上傳。
+   * 從資產瀏覽器中 [拖放資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ，或點選 **** 瀏覽選項，從本機檔案系統上傳。
    * 點選或按一 **下「清除** 」以取消選取目前選取的影像。
-   * 點選或按一 **下「編輯** 」, [](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 在資產編輯器中管理資產的轉譯。
+   * 點選或按一 **下「編輯** 」, [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 在資產編輯器中管理資產的轉譯。
 
 ### 中繼資料標籤 {#metadata-tab}
 
@@ -144,7 +136,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
    >[!CAUTION]
    >
-   >Launch map功能需要Core Components 2.1.0版或更高版本，以及 [AEM 6.4的](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更高版本的 [Service Pack 3](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) ，以支援AEM中的新影像編輯器功能。
+   >Launch map功能需要Core Components 2.1.0版或更高版本，以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更高版本的 [Service Pack 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) ，以支援AEM中的新影像編輯器功能。
 
    ![](assets/chlimage_1-12.png)
 
@@ -208,7 +200,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 ![](assets/screenshot_2018-10-19at102756.png)
 
 * **啟用延遲載入**：在將影像元件新增至頁面時，定義是否自動啟用延遲載入選項。
-* **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，是否自動啟用裝飾性影像選項。
+* **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，定義裝飾性影像選項是否已自動啟用。
 * **從DAM取得替代文字** Define（定義）在將影像元件新增至頁面時，是否自動啟用從DAM擷取替代文字的選項。
 * **從DAM取得標題**&#x200B;在將影像元件新增至頁面時，是否自動啟用從DAM擷取標題的選項，請定義。
 * **以快顯方式顯示標題**：在將影像元件新增至頁面時，定義是否自動啟用將影像標題顯示為快顯的選項。
@@ -250,14 +242,6 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
    >[!CAUTION]
    >
    >預設情 **況下** ,「反向」(Flip)選項是禁用的。 啟用它會在影像元件的編輯對話方塊中顯示「垂直翻轉 ******** 」和「水準翻轉」按鈕，但AEM目前不支援此功能，而且使用這些選項所做的任何變更都不會持續存在。
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
- -->
 
 * 裁切
 
