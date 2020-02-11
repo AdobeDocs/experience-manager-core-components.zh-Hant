@@ -1,23 +1,15 @@
 ---
 title: 頁面元件
-seo-title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
-seo-description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
-uuid: 7052a5b1-e7f1-4944-a55c-faf739b6e89c
-contentOwner: 使用者
-content-type: 引用
-topic-tags: 編寫
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
 
 # 頁面元件{#page-component}
 
-「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使 [用](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ，並可讓頁首／頁尾和結構元件與範本編輯器組合。
+「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使 [用](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) ，並可讓頁首／頁尾和結構元件與範本編輯器組合。
 
 ## 使用狀況 {#usage}
 
@@ -31,20 +23,20 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| [v2](page-v1.md) | 相容 | 相容 | 相容 |
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|---|---|---|---|---|
+| [v2](page-v1.md) | 相容 | 相容 | 相容 | 相容 |
+| v1 | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 >[!NOTE]
 >
->若要啟用頁 `cq:Page` 面元件第2版和AEM 6.3的重新導向， [需要Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 或更新版本。 舊版中未提供此類重新導向。
+>若要針對頁 `cq:Page` 面元件和AEM 6.3的第2版啟用重新導向， [需要Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 或更新版本。 舊版中未提供此類重新導向。
 
 ## 元件輸出示例 {#sample-component-output}
 
-以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是 [We.Retail的範例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -52,17 +44,17 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技術詳細資訊 {#technical-details}
 
-有關頁面元件的最新技術文 [件可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page)。
+有關頁面元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_page_v2)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
 ## Edit Dialog {#edit-dialog}
 
-由於元件代表整個頁面，因此「頁面屬性」視窗中會顯示一般會出現在編輯對話 [方塊中的設定](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) 。
+由於元件代表整個頁面，因此「頁面屬性」視窗中會顯示一般會出現在編輯對話 [方塊中的設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 。
 
 ## 設計對話框 {#design-dialog}
 
-由於元件代表整個頁面，因此在編輯頁面範本時，可透過「頁面資訊-&gt;頁 **面原則** 」存取設計對話方塊。
+由於元件代表整個頁面，因此在編輯頁面範本時，可透過「頁面資訊->頁 **面原則** 」存取設計對話方塊。
 
 ![](assets/screen_shot_2018-04-03at113410.png)
 
