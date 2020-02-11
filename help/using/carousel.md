@@ -1,23 +1,8 @@
 ---
 title: 轉盤元件
-seo-title: 轉盤元件
-description: 'null'
-seo-description: 「轉盤元件」可讓內容作者在旋轉轉盤中呈現內容。
-uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
-content-type: 引用
-topic-tags: 核心元件
-discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: 「轉盤元件」可讓內容作者在旋轉轉盤中呈現內容。
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -38,19 +23,19 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+|--- |--- |--- |--- |---|
+| v1 | 相容 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](versions.md)。
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗「轉盤元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)。
+若要體驗「轉盤元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_carousel)。
 
 ### 技術詳細資訊 {#technical-details}
 
-有關轉盤元件的最新技術檔案 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)。
+有關轉盤元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_carousel_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](developing.md)。
 
@@ -71,7 +56,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!TIP]
 >
->如果頁面的視區被縮小，使編輯對話方塊變成全螢幕，則「新增」 **按鈕** 將會隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器 [中的轉盤元件，將元件新增至轉盤元件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
+>如果頁面的視區被縮小，使編輯對話方塊變成全螢幕，則「新增」 **按鈕** 將會隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器 [中的轉盤元件，將元件新增至轉盤元件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)。
 
 ### 屬性標籤 {#properties-tab}
 
@@ -85,9 +70,9 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!NOTE]
 >
->在「編輯」模式下，不會啟用投影片 **進階控** 制項。 使用 [**預覽** (Preview)模式](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ，或使用「檢視為已發佈」( **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** )選項，以閱讀已發佈內容的方式與轉盤互動。
+>在「編輯」模式下，不會啟用投影片 **進階控** 制項。 使用 [**預覽&#x200B;**(Preview)模式](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)，或使用「檢視為已發佈」(**[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**)選項，以閱讀已發佈內容的方式與轉盤互動。
 >
->在「編輯」模式下，自動進階功能 **未啟用** 。 使用 **[「檢視為已發佈](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 」選項，將自動進階功能視為已發佈內容的讀者。
+>在「編輯」模式下，自動進階功能 **未啟用** 。 使用 **[「檢視為已發佈](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**」選項，將自動進階功能視為已發佈內容的讀者。
 
 ### 「輔助工具」頁籤 {#accessibility-tab}
 
@@ -131,7 +116,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 「允 **許的元件** 」標籤用於定義哪些元件可由內容作者新增為投影片至「轉盤元件」。
 
-在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 樣式標籤 {#styles-tab}
 
