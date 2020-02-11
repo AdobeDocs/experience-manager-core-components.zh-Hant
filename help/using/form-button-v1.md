@@ -1,21 +1,9 @@
 ---
 title: 表單按鈕元件(v1)
-seo-title: 表單按鈕元件(v1)
-description: 'null'
-seo-description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
-uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新功能
-discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
-disttype: dist5
-gnavtheme: 淺色
-groupsectionnavitems: 否
-hidemerchandisingbar: 繼承
-hidepromocomponent: 繼承
-modalsize: 426x240
+description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -108,7 +96,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 * **Title** —— 按鈕上顯示的文字
    * 如果沒有提供，則預設為按鈕類型
 
-* **Name - The name of the button, which is submitted with the form data**
+* **Name** —— 隨表單資料提交的按鈕名稱
 * **值** -隨表單資料提交的按鈕值
 
 ## 設計對話框 {#design-dialog}
