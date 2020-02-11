@@ -1,13 +1,8 @@
 ---
 title: AEM Project Archetype
-seo-title: AEM Project Archetype
 description: AEM型應用程式的專案範本
-seo-description: AEM型應用程式的專案範本
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -49,11 +44,11 @@ AEM專案原型會建立以最簡化、最佳實務為基礎的Adobe Experience 
 AEM Archetype由模組組成：
 
 * **[核心](core.md)**:是包含所有核心功能（例如OSGi服務、偵聽程式和排程程式），以及元件相關Java程式碼（例如servlet和請求篩選器）的Java套件。
-* **[ui.apps](uiapps.md)**:包含專 `/apps` 案的 `/etc` 和部分，例如JS和CSSclientlibs、元件、範本、執行模式專用的設定，以及Hobbes測試。
+* **[ui.apps](uiapps.md)**:包含專`/apps`案的`/etc`和部分，例如JS和CSSclientlibs、元件、範本、執行模式專用的設定，以及Hobbes測試。
 * **[ui.content](uicontent.md)**:包含使用ui.apps模組中元件的範例內容。
 * **ui.tests**:是一個Java包，包含伺服器端執行的JUnit測試。 此套件不會部署在生產上。
 * **ui.launcher**:包含將ui.tests包（和相依包）部署到伺服器並觸發遠程JUnit執行的粘合代碼。
-* **[ui.frontend](uifrontend.md)**: **（可選）** ，包含使用基於Webpack的前端構建模組所需的對象。
+* **[ui.frontend](uifrontend.md)**:**（可選）**，包含使用基於Webpack的前端構建模組所需的對象。
 
 ![](assets/archetype-structure.png)
 
@@ -77,7 +72,7 @@ AEM Archetype由模組組成：
 
 ### 建立專案 {#create-project}
 
-若要開始使用，您只需使用 [AEM Eclipse擴充功能](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) ，然後依照「新專案」精靈的指示，並選擇 **AEM Sample Multi-Module Project** ，即可使用已發行版本的原型。
+若要開始使用，您只需使用 [AEM Eclipse擴充功能](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) ，然後依照「新專案」精靈的指示，並選擇 **AEM Sample Multi-Module Project** ，即可使用已發行版本的原型。
 
 當然，您也可以直接叫用Maven。
 
@@ -191,7 +186,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-其中一個關鍵依賴項是 [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies)。 這將包含所有AEM API，而且只包含AEM版本的單一相依項目。
+其中一個關鍵依賴項是 [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies)。 這將包含所有AEM API，而且只包含AEM版本的單一相依項目。
 
 >[!NOTE]
 >
@@ -201,7 +196,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 AEM Project Archetype當然會運用核心元件。
 
-核心元件會自動以預設執行模式安裝在AEM中，並由範例We.Retail網站使用。 在生產 [運行模式](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`)中，核心元件不可用。
+核心元件會自動以預設執行模式安裝在AEM中，並由範例We.Retail網站使用。 在生產 [運行模式](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`)中，核心元件不可用。
 
 因此，為了在所有部署中充分利用核心元件，最好將它們作為Maven項目的一部分加入。
 
@@ -225,7 +220,7 @@ AEM Project Archetype當然會運用核心元件。
    * `mvn clean verify -PintegrationTests`
 * 用戶端Hobbes.js測試：這些是以JavaScript為基礎的瀏覽器端測試，可驗證瀏覽器端行為。 要測試：
    1. 將AEM載入您的瀏覽器，就像您要編寫頁面一樣。
-   1. 在「開發人員」模式中 [開啟頁面](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html)
+   1. 在「開發人員」模式中 [開啟頁面](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
    1. 開啟左側面板，並切換至「 **Tests** 」標籤。
    1. 尋找產生的 **MyName測試** ，然後執行測試。
 
@@ -234,6 +229,6 @@ AEM Project Archetype當然會運用核心元件。
 所以您已建立並安裝AEM Project Archetype。 現在呢？ 其原型雖小，但包含許多根據建議最佳實務設定之強大AEM功能的範例。 使用這些說明如何在專案中運用這些功能。 對於您可能需要的任何專案：
 
 * [擴充現有核心元件，以自訂元件](customizing.md)
-* [新增其他範本](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [調整本地化結構](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [新增其他範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [調整本地化結構](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
 * [瞭解前端構建模組](uifrontend.md)
