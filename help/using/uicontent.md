@@ -1,13 +1,8 @@
 ---
 title: AEM Project Archetype的ui.content模組
-seo-title: AEM Project Archetype的ui.content模組
 description: AEM Project Archetype的ui.content模組
-seo-description: AEM Project Archetype的ui.content模組
-contentOwner: 博納特
-content-type: 引用
-topic-tags: 核心元件
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
