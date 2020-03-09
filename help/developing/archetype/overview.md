@@ -2,7 +2,7 @@
 title: AEM Project Archetype
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
