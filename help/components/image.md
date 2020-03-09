@@ -2,7 +2,7 @@
 title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
 | v2 | 相容 | 相容 | 相容 | 相容 |
 | [v1](v1/image-v1.md) | 相容 | 相容 | 相容 | - |
@@ -41,7 +41,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 影像元件支援可縮放向量圖形(SVG)。
 
 * 支援從DAM拖放SVG資產，以及從本機檔案系統上傳SVG檔案。
-* 最適化影像伺服器串流化原始SVG檔案（跳過轉換）。
+* 最適化影像Servlet串流化原始SVG檔案（跳過轉換）。
 * 對於SVG影像，「智慧影像」和「智慧尺寸」設定為影像模型中的空陣列。
 
 ### 安全性 {#security}
@@ -136,7 +136,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
    >[!CAUTION]
    >
-   >Launch map功能需要Core Components 2.1.0版或更高版本，以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更高版本的 [Service Pack 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) ，以支援AEM中的新影像編輯器功能。
+   >Launch Map功能需要Core Components 2.1.0版或更高版本，以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更高版本的 [Service Pack 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) ，以支援AEM中的新影像編輯器功能。
 
    ![](/help/assets/chlimage_1-12.png)
 
@@ -261,12 +261,12 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 影像元件支援AEM [Style系統](/help/get-started/authoring.md#component-styling)。
 
-## 最適化影像伺服器 {#adaptive-image-servelet}
+## 最適化影像Servlet {#adaptive-image-servlet}
 
-影像元件使用核心元件的自適應影像伺服器。 [Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 負責影像處理和流處理，開發人員可以利用它們對核心組 [件的自定義](/help/developing/customizing.md)。
+映像元件使用核心元件的自適應映像Servlet。 [Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 負責影像處理和流處理，開發人員可以利用它們對核心組 [件的自定義](/help/developing/customizing.md)。
 
 >[!NOTE]
 >
->Adaptive Image Servelet支 `Last-Modified` 援透過標題的條件式請求，但必須在Dispatcher中 `Last-Modified` 啟 [用標題的快取](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>Adaptive Image Servlet支 `Last-Modified` 持通過標頭的條件請求，但Dispatcher中需 `Last-Modified` 要 [啟用標頭的快取](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
 >
 >[AEM Project Archetype的範例Dispatcher組態已包含此組態。](/help/developing/archetype/overview.md)
