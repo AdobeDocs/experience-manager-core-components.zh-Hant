@@ -2,7 +2,7 @@
 title: 表單按鈕元件
 description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 使用狀況 {#usage}
 
-核心元件表單按鈕元件允許建立按鈕欄位，通常用來觸發表單的提交，並與表單容器元件一起 [使用](form-container.md)。
+核心元件表單按鈕元件允許建立按鈕欄位，通常用來觸發表單的提交，並與表單容器元件一 [起使用](form-container.md)。
 
 按鈕屬性可由內容編輯器在「設定」對話方塊中 [定義](#configure-dialog)。
 
@@ -23,7 +23,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
 | v2 | 相容 | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-button-v1.md) | 相容 | 相容 | 相容 | - |
@@ -32,39 +32,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 元件輸出示例 {#sample-component-output}
 
-以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
-
-### 螢幕擷圖 {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-12at120021.png)
-
-### HTML {#html}
-
-```
-<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-<form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12">
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-    
-    <div class="button aem-GridColumn aem-GridColumn--default--12">
-<button type="BUTTON" class="cmp-form-button" name="loveToast" value="ILoveToast">Click here if you love toast!</button>
-</div>
-
-</form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"button":{  
-                           "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                           ":type":"core/wcm/sandbox/components/form/button/v2/button",
-                           "name":"loveToast",
-                           "jcr:title":"Click here if you love toast!",
-                           "type":"button",
-                           "value":"ILoveToast"
-                        }
-```
+若要體驗「表單按鈕元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_form_button)。
 
 ### 技術詳細資訊 {#technical-details}
 
