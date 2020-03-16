@@ -2,7 +2,7 @@
 title: 表單文字元件
 description: 核心元件表單文字元件允許輸入表單文字以供提交。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
 | v2 | 相容 | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-text-v1.md) | 相容 | 相容 | 相容 | - |
@@ -30,44 +30,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 元件輸出示例 {#sample-component-output}
 
-以下是 [We.Retail的範例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
-
-### 螢幕擷圖 {#screenshot}
-
-![](/help/assets/chlimage_1-22.png)
-
-### HTML {#html}
-
-```
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-   <div class="cmp-form-text">
-      <label for="form-text-2146967">How many pieces of toast would you like?
-      </label>
-   <input class="cmp-form-text__text" type="number" id="form-text-2146967" name="pieces">
-   </div>
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "id":"form-text-2146967",
-                     "title":"How many pieces of toast would you like?",
-                     "name":"pieces",
-                     "value":"",
-                     "helpMessage":"",
-                     "type":"number",
-                     "readOnly":false,
-                     "required":false,
-                     "requiredMessage":"",
-                     "constraintMessage":"",
-                     "rows":2,
-                     "defaultValue":"",
-                     ":type":"core/wcm/components/form/text/v2/text"
-                  }
-```
+若要體驗「表單文字元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪「元件 [庫」](https://adobe.com/go/aem_cmp_library_form_text)。
 
 ### 技術詳細資訊 {#technical-details}
 
