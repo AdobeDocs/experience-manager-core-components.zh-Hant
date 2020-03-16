@@ -2,7 +2,7 @@
 title: 表單容器元件
 description: 核心元件表單容器元件可讓您建立簡單的提交表單。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 「容器元件」表單支援簡單的WCM表單，並使用巢狀結構允許額外的表單元件，以建立簡單資訊提交表單和功能。
 
-使用「設 [定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、提交內容應儲存於何處，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+使用「設 [定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、應儲存已提交內容的位置，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!NOTE]
 >
@@ -27,12 +27,16 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
 | v2 | 相容 | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
+
+## 元件輸出示例 {#sample-component-output}
+
+若要體驗「表單容器元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_form_container)。
 
 ## 技術詳細資訊 {#technical-details}
 
