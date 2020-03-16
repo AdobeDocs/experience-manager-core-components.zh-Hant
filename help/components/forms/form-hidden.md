@@ -2,7 +2,7 @@
 title: 表單隱藏元件
 description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
 | v2 | 相容 | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-hidden-v1.md) | 相容 | 相容 | 相容 | - |
@@ -32,43 +32,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 元件輸出示例 {#sample-component-output}
 
-以下是 [We.Retail的範例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
-
-### HTML {#html}
-
-```
-<div class="cmp cmp-form aem-GridColumn aem-GridColumn--default--12">
- <form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-  <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-   <div class="visible aem-GridColumn aem-GridColumn--default--12">
-    <input type="hidden" id="ghostToast" name="Invisible Toast" value="ghostToast">
-   </div>
- </form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"container": {
-              "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-              "columnCount": 12,
-              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-              ":items": {
-                "hidden": {
-                  "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-                  ":type": "weretail/components/form/hidden",
-                  "name": "Invisible Toast",
-                  "id": "ghostToast",
-                  "value": "ghostToast"
-                }
-              },
-              ":itemsOrder": [
-                "hidden"
-              ],
-              ":type": "weretail/components/form/container"
-            }
-```
+若要體驗「表單隱藏元件」，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元件 [庫](https://adobe.com/go/aem_cmp_library_form_hidden)。
 
 ### 技術詳細資訊 {#technical-details}
 
