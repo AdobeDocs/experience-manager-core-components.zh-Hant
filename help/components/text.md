@@ -2,7 +2,7 @@
 title: 文字元件
 description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |---|---|---|---|---|
 | v2 | 相容 | 相容 | 相容 | 相容 |
 | [v1](v1/text-v1.md) | 相容 | 相容 | 相容 | - |
@@ -172,6 +172,10 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 選 **取「全部取代** 」，一次取代所有出現的文字。
 
+使用替換功能時，應與查找字串同時輸入要替換的替換字串。 不過，您仍可以按一下「尋找」，在取代字串之前先搜尋字串。 如果在按一下「查找」後輸入了替換字串，則搜索將重置為文本的開頭。
+
+當點按尋找時，尋找和取代對話方塊會變為透明，當點按取代時，對話方塊會變成不透明。 這可讓作者檢閱作者將要取代的文字。
+
 ### 向左對齊文字
 
 ![](/help/assets/screen_shot_2018-01-11at142012.png)
@@ -196,7 +200,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 用於將選定文本格式化為項目符號清單，或在游標後開始插入項目符號清單。
 
-要結束項目清單，請再次點選或按一下「項目 **符號** 」按鈕，或輸入兩個歸位符。
+要結束項目清單，請再次點選或按一下「項目 **符號** 」按鈕，或輸入兩個歸位。
 
 ### 編號
 
