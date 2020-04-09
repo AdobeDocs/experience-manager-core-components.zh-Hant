@@ -2,7 +2,7 @@
 title: 核心元件簡介
 description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
 
 ---
 
@@ -11,111 +11,87 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 在 Adobe Experience Manager 中，元件是構成所編寫頁面內容的結構元素。元件向來是 AEM 體驗的基本元素，讓作者可輕鬆建立頁面、功能又強大，而開發人員在開發元件時，也可保有靈活性與擴充空間。
 
-以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件，並遵循無障礙指南方針，且符合 WCAG 2.0 AA 標準。核心元件讓頁面的編寫方式更加靈活且提供客製化，開發人員可以輕鬆將元件擴展並加上客製化的功能。
+核心元件是一套適用於AEM的標準化網頁內容管理(WCM)元件，可加速開發時間並降低網站的維護成本。
 
-## 嘗試使用核心元件
+## 資源 {#resources}
 
-如果您想要立即開始試用核心元件，請前往[元件資料庫](https://adobe.com/go/aem_cmp_library)。「元件資料庫」是多數核心元件目前版本的線上展示，可讓您與各種元件互動，並檢視 HTML 和 JSON 的輸出範例。
+* **[元件庫：](https://www.adobe.com/go/aem_cmp_library)**一組示例，用於查看其各種配置中的元件。
+* **元件文檔（本文檔）:** 對於開發人員和作者，請提供每個元件的詳細資訊。
+* 立即開始:
+   * **[核心元件的成功：](/help/developing/success.md)**在開始使用核心元件的任何專案之前，先考慮的准則。
+   * **[WKND教學課程：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**建立新網站的兩天教學課程。
+   * **[峰會教學課程：](https://expleague.azureedge.net/labs/L767/index.html)**建立新網站的兩小時教學課程（來自2019年美國峰會的實驗室）。
+   * **[Gems網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**核心元件導覽（2018年12月錄制）。
 
-WKND教 [學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) ，也說明如何使用核心元件。
+## 功能 {#features}
 
-## 核心元件 - 核心功能 {#core-components-core-features}
+||||—|—|Production-Ready|核心元件是27種強穩的元件，經過測試、廣泛使用，而且效能良好。|| Cloud-Ready|無論是在 [AEM做為雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，還是在內部部署，它們都能運作。||多功能|元件代表一般概念，作者可使用這些概念組合幾乎任何版面。|| Configurable|範本層級 [內容原則](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定義頁面作者可使用或不可使用的功能。|
+|Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
+|SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.||WebApp-Ready|簡化的 [JSON輸出可讓用戶端轉譯](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，但仍有可能進行 [內容內容編輯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。||Design Kit|適用於Adobe XD的 [UI套件](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) ，可讓設計人員建立線框，然後視需要 [設定樣式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。|
+|Themeable| The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).||可自訂|數種模式可 [讓您輕鬆自訂](developing/customizing.md)，從調整HTML到重新使用進階功能。||版本控制|版 [本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可確保在改善可能影響您的項目時，核心元件不會中斷您的網站。|
+|Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|開放來源|如果某些項目不如預期，請提供 [您的改進！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
 
-核心元件包括:
-
-|  |  |
-|--- |--- |
-| 可預先設定 | 範本可以定義頁面作者的使用方式。 |
-| 多功能 | 可供作者用來建立大多數的內容。 |
-| 簡單好上手 | 可供作者有效率地建立和管理內容。 |
-| 生產就緒 | 立即可用! 功能強大可靠、經過完善測試，而且效能優異。 |
-| 易於取得 | 元件符合 WCAG 2.0 標準，提供 ARIA 標籤，並支援鍵盤導覽。 |
-| 易於設計樣式 | 作者可使用 Style System 設計元件，標記語言也遵循 BEM CSS 命名規範。 |
-| 搜尋引擎最佳化 (SEO) 友善 | HTML 可輸出語意，並提供 schema.org 結構化資料標記。 |
-| PWA/SPA/應用程式就緒 | 用戶端演算亦可使用精簡的 JSON 輸出。 |
-| 可擴充 | 既滿足客製化需求，又不需從頭做起，所有元件皆可擴充。 |
-| 開放原始碼 | 如果發現錯誤，可前往 GitHub 提供改善 (Apache 授權)。 |
-| 建立版本 | 核心元件改善可能影響您的內容時，不會使您的網站故障。 |
-| [本地化](get-started/localization.md) | 智慧型參考解析度可讓特定元件自動尋找並轉換對應的本地化內容 |
-
-## 可用元件 {#available-components}
+## 元件 {#the-components}
 
 目前版本的核心元件主打下列元件。
 
-* [折疊式面板](components/accordion.md)
+### 範本元件 {#template-components}
+
+* [頁面](components/page.md)
+* [導覽](components/navigation.md)
+* [語言導覽](components/language-navigation.md)
 * [階層連結](components/breadcrumb.md)
+* [快速搜尋](components/quick-search.md)
+
+### 頁面編寫元件 {#page-authoring-components}
+
+* [標題](components/title.md)
+* [文字](components/text.md)
+* [影像](components/image.md)
 * [按鈕](components/button.md)
-* [容器](components/container.md)
-* [傳送](components/carousel.md)
+* [Teaser](components/teaser.md)
+* [下載](components/download.md)
+* [清單](components/list.md)
+* [體驗片段](components/experience-fragment.md)
 * [內容片段](components/content-fragment-component.md)
 * [內容片段清單](components/content-fragment-list.md)
-* [下載](components/download.md)
 * [內嵌](components/embed.md)
-* [體驗片段](components/experience-fragment.md)
-* [表單按鈕](components/forms/form-button.md)
-* [來自容器](components/forms/form-container.md)
-* [已隱藏的表單](components/forms/form-hidden.md)
-* [表單選項](components/forms/form-options.md)
-* [表單文字](components/forms/form-text.md)
-* [影像](components/image.md)
-* [語言導覽](components/language-navigation.md)
-* [清單](components/list.md)
-* [導覽](components/navigation.md)
-* [頁面](components/page.md)
-* [快速搜尋](components/quick-search.md)
-* [分隔符號](components/separator.md)
 * [社交媒體分享](components/sharing.md)
+* [分隔符號](components/separator.md)
+
+### 容器元件 {#container-components}
+
+* [容器](components/container.md)
+* [傳送](components/carousel.md)
 * [索引標籤](components/tabs.md)
-* [文字](components/text.md)
-* [標題](components/title.md)
+* [折疊式面板](components/accordion.md)
+
+### 表單元件 {#form-components}
+
+* [來自容器](components/forms/form-container.md)
+* [表單文字](components/forms/form-text.md)
+* [表單選項](components/forms/form-options.md)
+* [已隱藏的表單](components/forms/form-hidden.md)
+* [表單按鈕](components/forms/form-button.md)
 
 >[!NOTE]
 >
 >[開發團隊必須先依照作者的環境整合核心元件](get-started/using.md)，才能將其提供給您。整合後，可透過範本編輯器提供並預先 [設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
->[!CAUTION]
+>[!NOTE]
 >
 >某些版本的個別核心元件可能只相容於特定版本的 AEM。
 >
 >如需特定元件的相容性資訊，請參閱說明頁面 (連結至上一份清單)，或參考[核心元件版本](versions.md)文件以取得詳細資訊。
 
-## 何時該使用核心元件 {#when-to-use-core-components}
+## 系統需求 {#system-requirements}
 
-核心元件不僅是全新功能，並且有多項優點，因此建議用於新的 AEM 專案。對於既有專案來說，移轉應該是品牌重塑或整體重構等較大專案工作的一部分。
+| 核心元件 | AEM 雲端服務 | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | 馬文 |
+---------|---------|---------|---------|---------|---------|---------
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 持續 | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
 
-如需特定使用建議，請參閱[何時該使用核心元件? ](developing/overview.md#when-to-use-the-core-components)位於[開發核心元件](developing/overview.md)文件中。
+如需舊版核心元件的需求，請參閱核 [心元件版本](versions.md)。
 
-## Gem 課程概覽 {#gems-session-overview}
+核心元件需要使用可編輯的 [範本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) ，不支援Classic UI或靜態範本。 如有需要，請查看 [AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) ，以使用這些現代化AEM功能更新您的專案。
 
-如需瞭解核心元件的簡介、其所提供的功能、以及在 AEM 中的運用方式，請參閱 AEM Gem 課程 [AEM 核心元件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
-
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ，是Adobe專家提供的一系列技術深入探討。 這個系列補充了產品說明文件和所有其他的技術管道，讓開發人員可以接觸並深入瞭解特定的主題。
-
-## 使用核心元件進行開發 {#developing-core-components}
-
-核心元件提供強穩且可擴充的基本元件，可建置數種可輕鬆自訂的模式，從簡單樣式到進階功能可重複使用。 如需詳細 [資訊，請參閱核心元件開發檔案](developing/overview.md) 。
-
-依照WKND教學課程，開始使用核心元件開 [發AEM Sites。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-
-別忘了開始使用 [AEM Project Archetype](developing/archetype/overview.md) with the latest Core Components builted in!
-
-## 核心元件支援 {#core-components-support}
-
-核心元件是 AEM 不可或缺的一部分，並依照與 Quickstart 所提供相同的條款與條件給予支援。
-
-就如同其他產品的功能，其生命週期結束的通則是:
-
-* 移除元件前，將先公告該元件已被取代
-* 最快將於公告後釋出的 AEM 版本中移除這些項目。
-
-這可讓客戶在支援結束前，至少有一個版本的週期可移至新版本的元件。
-
-每個元件的版本都清楚說明其支援的 AEM 版本。當停止支援 AEM 的單一版本時，核心元件對該 AEM 版本的支援也會停止。
-
-如需支援自訂元件的詳細資訊，請參閱[自訂核心元件](developing/customizing.md)頁面瞭解相關的核心元件版本。
-
-## 基礎元件支援 {#foundation-component-support}
-
-由於基礎元件是過去許多版本中專案開發的基礎，因此在可預見的未來中，這些元件仍將繼續受到支援。
-
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+若要設定您的本機開發環境，請 [以Cloud Service SDK的形式查看此AEM概觀](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ，或以舊 [版AEM的檔案形式查看本檔案](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
