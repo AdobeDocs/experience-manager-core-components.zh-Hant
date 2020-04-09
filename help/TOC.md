@@ -1,8 +1,8 @@
 ---
-sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+sub-product: AEM 核心元件
+user-guide-title: AEM 核心元件
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
 
@@ -10,6 +10,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 # AEM 核心元件說明 {#using}
 
 + [核心元件簡介](introduction.md)
++ [成功途徑](developing/success.md)
 + [元件庫](https://adobe.com/go/aem_cmp_library)
 + [核心元件版本](versions.md)
 + 立即開始 {#get-started}
@@ -60,11 +61,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          + [表單文字 (v1)](components/v1/form-text-v1.md)
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
+   + [成功途徑](developing/success.md)
    + [WKND 開發人員教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
    + AEM Project Archetype {#archetype}
       + [原型概觀](developing/archetype/overview.md)
+      + [使用原型](developing/archetype/using.md)
       + [核心模組](developing/archetype/core.md)
       + [ui.apps模組](developing/archetype/uiapps.md)
       + [ui.content模組](developing/archetype/uicontent.md)
