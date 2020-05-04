@@ -2,7 +2,7 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的詳細使用指示
 translation-type: tm+mt
-source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
+source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
 
 ---
 
@@ -29,12 +29,12 @@ AEM專案原型會建立以最簡化、最佳實務為基礎的Adobe Experience 
 
 AEM Archetype由模組組成：
 
-* **[核心](core.md)**:是包含所有核心功能（例如OSGi服務、偵聽程式和排程程式），以及元件相關Java程式碼（例如servlet和請求篩選器）的Java套件。
-* **[ui.apps](uiapps.md)**:包含專`/apps`案的`/etc`和部分，例如JS和CSSclientlibs、元件、範本、執行模式專用的設定，以及Hobbes測試。
-* **[ui.content](uicontent.md)**:包含使用ui.apps模組中元件的範例內容。
-* **[ui.tests](uitests.md)**:是一個Java包，包含伺服器端執行的JUnit測試。 此套件不會部署在生產上。
-* **ui.launcher**:包含將ui.tests包（和相依包）部署到伺服器並觸發遠程JUnit執行的粘合代碼。
-* **[ui.frontend.general](uifrontend.md)**:**（可選）**，包含使用一般Webpack前端構建模組所需的對象。
+* **[核心](core.md)**: 是包含所有核心功能（例如OSGi服務、偵聽程式和排程程式），以及元件相關Java程式碼（例如servlet和請求篩選器）的Java套件。
+* **[ui.apps](uiapps.md)**: 包含專`/apps`案的`/etc`和部分，例如JS和CSSclientlibs、元件、範本、執行模式專用的設定，以及Hobbes測試。
+* **[ui.content](uicontent.md)**: 包含使用ui.apps模組中元件的範例內容。
+* **[ui.tests](uitests.md)**: 是一個Java包，包含伺服器端執行的JUnit測試。 此套件不會部署在生產上。
+* **ui.launcher**: 包含將ui.tests包（和相依包）部署到伺服器並觸發遠程JUnit執行的粘合代碼。
+* **[ui.frontend.general](uifrontend.md)**:**（可選）**，包含使用一般基於Webpack的前端構建模組所需的對象。
 * **[ui.frontend.react](uifrontend-react.md)**:**（可選）**，包含使用原型建立基於React的SPA項目時所需的工件。
 * **[ui.frontend.angular](uifrontend-angular.md)**:**（可選）**，包含使用原型建立基於Angular的SPA項目時所需的工件。
 
@@ -94,10 +94,10 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本Maven群組ID(例如 `"com.mysite"`)。 |
 | `package` | *`${groupId}`* | Java源包(例如 `"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 專案版本(例如 `1.0-SNAPSHOT`)。 |
-| `aemVersion` | `6.5.0` | Target AEM版本(可以 `cloud` 用 [於AEM做為雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);或 `6.5.0`Adobe `6.4.4`Managed Services `6.3.3` 或內部部署 [的Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ，則不適用於此)。 |
+| `aemVersion` | `6.5.0` | Target AEM版本(可以 `cloud` 用 [於AEM做為雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); 或 `6.5.0`Adobe `6.4.4`Managed Services `6.3.3` 或內部部署 [的Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ，則不適用於此)。 |
 | `sdkVersion` | `latest` | 當可 `aemVersion=cloud` 以指 [定SDK版本時](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (例如 `2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 包含針對雲或AMS/on-premise的調度程式配置，具體取決於 `aemVersion` (可以是 `y` 或 `n`)。 |
-| `frontendModule` | `none` | 包含Webpack前端構建模組，用於生成客戶端庫(可以是常規 `general` 站點 `none` 或常規站點；可以是實 `angular` 作 `react` SPA編輯器的單頁應用程 [式](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html))。 |
+| `frontendModule` | `none` | 包含Webpack前端構建模組，用於生成客戶端庫(可以是常規 `general` 站點 `none` 或常規站點； 可以是實 `angular` 作 `react` SPA編輯器的單頁應用程 [式](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html))。 |
 | `languageCountry` | `en_us` | 語言和國家／地區程式碼，以建立內容結構(例如 `en_us`)。 |
 | `singleCountry` | `y` | 包含語言主版內容結構(可 `y`以是 `n`或)。 |
 | `includeExamples` | `y` | 包含元 [件庫](https://www.aemcomponents.dev/) (可以 `y`是或 `n`)示例站點。 |
@@ -166,13 +166,13 @@ mvn clean install -PautoInstallBundle
 
 這些屬性已設定好，以便在部署至較高層級的環境時可覆寫。 這樣，POM檔案不必進行更改，但可以通過命令行參數 `aem.host` 來覆 `sling.password` 蓋諸如和的變數：
 
-````
+```
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
-````
+```
 
 ### 模組結構 {#module-structure}
 
-父 `<modules>` POM的部分定義了項目將構建的模組。 預設情況下，項目會 [生成以前定義的標準模組](#what-you-get):core、ui.apps、ui.content、ui.tests和it.launcher。 隨著專案的發展，您隨時都可新增更多模組。
+父 `<modules>` POM的部分定義了項目將構建的模組。 預設情況下，項目會 [生成以前定義的標準模組](#what-you-get): core、ui.apps、ui.content、ui.tests和it.launcher。 隨著專案的發展，您隨時都可新增更多模組。
 
 ### 相依關係 {#dependencies}
 
@@ -208,11 +208,11 @@ AEM Project Archetype當然會運用核心元件。
 
 專案中包含三個測試層級，由於它們是不同類型的測試，因此會以不同的方式或在不同的位置執行。
 
-* 核心單元測試：此展示套件中程式碼的經典單元測試。 要測試，請執行：
+* 核心單元測試： 此展示套件中程式碼的經典單元測試。 要測試，請執行：
    * `mvn clean test`
-* 伺服器端整合測試：這些測試會在AEM環境（即在AEM伺服器上）中執行類似單位的測試。 要測試，請執行：
+* 伺服器端整合測試： 這些測試會在AEM環境（即在AEM伺服器上）中執行類似單位的測試。 要測試，請執行：
    * `mvn clean verify -PintegrationTests`
-* 用戶端Hobbes.js測試：這些是以JavaScript為基礎的瀏覽器端測試，可驗證瀏覽器端行為。 要測試：
+* 用戶端Hobbes.js測試： 這些是以JavaScript為基礎的瀏覽器端測試，可驗證瀏覽器端行為。 要測試：
    1. 將AEM載入您的瀏覽器，就像您要編寫頁面一樣。
    1. 在「開發人員」模式中 [開啟頁面](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
    1. 開啟左側面板，並切換至「 **Tests** 」標籤。
