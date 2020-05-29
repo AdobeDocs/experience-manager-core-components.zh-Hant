@@ -2,7 +2,10 @@
 title: 標題元件
 description: 核心元件標題元件是具有就地編輯功能的區段標題元件。
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '558'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |---|---|---|---|---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/title-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -45,16 +48,20 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 * **Title** —— 如果空白，將使用頁面標題
 * **類型／大小** -定義標題的標題層級
 * **連結** -定義標題將連結至的內容。 這可以是內容頁面、外部URL或頁面錨點的路徑。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
-![](/help/assets/screenshot_2018-10-19at110055.png)
+![標題元件的編輯對話方塊](/help/assets/title-edit.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >核心元件2.2.0版中已引入定義標題連結的功能。
 
 就地編輯器也可用於編輯標題元件的文本。
 
-![](/help/assets/chlimage_1-37.png)
+![就地編輯標題元件](/help/assets/title-edit-inline.png)
 
 ## 設計對話框 {#design-dialog}
 
@@ -62,13 +69,13 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ### 大小標籤 {#sizes-tab}
 
-![](/help/assets/screenshot_2018-10-19at110120.png)
+![標題元件的設計對話方塊](/help/assets/title-design.png)
 
 * **作者允許的類型／大小** -啟用或停用內容作者使用標題元件時可用的標題類型。
 * **預設類型／大小**-定義內容作者將標題元件新增至頁面時會自動指派的標題類型。
 * **停用連結**-停用標題元件中連結的支援，以禁止內容作者從標題連結。
 
->[!CAUTION]
+>[!NOTE]
 >
 >核心元件2.2.0版中已引入定義標題連結的功能。
 
