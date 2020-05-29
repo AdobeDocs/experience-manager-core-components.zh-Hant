@@ -2,14 +2,17 @@
 title: 分隔符號元件
 description: 分隔符號元件會在頁面上的元件之間建立分隔符號
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 3%
 
 ---
 
 
 # 分隔符號元件 {#separator-component}
 
-核心元件分隔符號元件會顯示水準規則來分隔內容。
+核心元件分隔符號元件會顯示用於分隔內容的水準規則。
 
 ## 使用狀況 {#usage}
 
@@ -21,9 +24,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|---|---|---|---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|---|---|---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -37,7 +40,12 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 配置對話框 {#configure-dialog}
 
-分隔符號元件沒有設定對話方塊。
+![分隔符元件的編輯對話框](/help/assets/separator-edit.png)
+
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ## 設計對話框 {#design-dialog}
 
