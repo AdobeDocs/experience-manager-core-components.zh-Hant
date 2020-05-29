@@ -2,7 +2,10 @@
 title: 表單容器元件
 description: 核心元件表單容器元件可讓您建立簡單的提交表單。
 translation-type: tm+mt
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -48,14 +51,10 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 「設定」對話方塊可讓內容作者定義在提交元件時要執行的動作。
 
-![](/help/assets/screen_shot_2018-01-12at122046.png)
-
 根據選取的「 **動作類型**」，容器中的可用選項將會變更。 可用的操作類型包括：
 
 * [郵件](#mail)
 * [存放區內容](#store-content)
-* [提交訂單](#submit-order)
-* [更新訂單](#update-order)
 
 不論類型為何，都會有一 [般設定](#general-settings) ，適用於每個動作。
 
@@ -63,15 +62,14 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 提交表單時，郵件動作類型會傳送電子郵件給指定的收件者。
 
-![](/help/assets/screen_shot_2018-01-12at122554.png)
+![表單容器元件編輯對話方塊中的郵件選項](/help/assets/form-container-edit-mail.png)
 
-* **主旨**&#x200B;在提交表單時傳送的電子郵件主旨
-* **寄件**&#x200B;者在提交表單時傳送的電子郵件寄件者電子郵件地址
-* **收**&#x200B;件者在提交表單時會收到電子郵件的地址
-
+* **主旨** -提交表單時傳送的電子郵件主旨
+* **寄件者** -在提交表單時傳送的電子郵件寄件者電子郵件地址
+* **收件者** -在提交表單時收到電子郵件的收件者地址
    * 點選或按一下「 **新增** 」按鈕以新增其他位址
    * 點選或按一下「刪 **除** 」按鈕以移除電子郵件地址
-* **CC**&#x200B;將收到表單提交時傳送之電子郵件之碳副本的收件人地址
+* **CC** —— 收件者的地址，這些收件者會收到表單提交時傳送的電子郵件的碳副本
    * 點選或按一下「 **新增** 」按鈕以新增其他位址
    * 點選或按一下「刪 **除** 」按鈕以移除電子郵件地址
 
@@ -79,36 +77,31 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 提交表單時，表單的內容將儲存在指定的儲存庫位置。
 
-![](/help/assets/screen_shot_2018-01-12at122538.png)
+![在表單容器的編輯對話方塊中儲存內容選項](/help/assets/form-container-edit-store.png)
 
-* **內容路徑**&#x200B;內容存放庫路徑，其中已提交內容儲存
-* **檢視資料**&#x200B;點選或按一下，將儲存的已提交資料檢視為JSON
-* **啟動工作**&#x200B;流程設定在表單提交時，將儲存的內容當做裝載來啟動工作流程
-
-### 提交訂單 {#submit-order}
-
-提交表格後，將會提交訂單。
-
-![](/help/assets/chlimage_1-3.png)
-
-### 更新訂單 {#update-order}
-
-提交表單時，訂單將會更新。
-
-![](/help/assets/chlimage_1-4.png)
+* **內容路徑** -內容儲存庫路徑，已提交內容儲存在此路徑
+* **檢視資料** -點選或按一下，將儲存的已提交資料檢視為JSON
+* **開始工作流程** -設定在表單提交時，將儲存的內容當做裝載來啟動工作流程
 
 ### 一般設定 {#general-settings}
 
 無論選取的動作類型為何，都可以定義感謝頁面。
 
-![](/help/assets/chlimage_1-5.png)
+![表單容器元件編輯對話方塊中的一般選項](/help/assets/form-container-edit-general.png)
 
-在表單提交完成後，會將使用者重新導向至指定的頁面。
-
-* 使用「選取對話方塊」，在AEM中選取資源。
-* 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會相對於AEM進行解譯。
-* 留空可在提交後重新顯示表單。
+* **感謝頁面** -在表單提交完成後，使用者將被重新導向至指定的頁面。
+   * 使用「選取對話方塊」，在AEM中選取資源。
+   * 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會相對於AEM進行解譯。
+   * 留空可在提交後重新顯示表單。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ## 設計對話框 {#design-dialog}
 
 設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+
+### 樣式標籤 {#styles-tab}
+
+「表單容器」元件支援AEM [Style系統](/help/get-started/authoring.md#component-styling)。
