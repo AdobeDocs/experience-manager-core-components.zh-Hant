@@ -2,7 +2,10 @@
 title: 內嵌元件
 description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁面。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
@@ -24,9 +27,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -48,6 +51,12 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * [內嵌項目](#embeddable)
 * [HTML](#html)
 
+您可以針對每種可內嵌類型定義廣告 **ID**。 此選項可讓您控制HTML和資料層中元件的唯一識 [別碼](/help/developing/data-layer/overview.md)。
+
+* 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+* 如果指定ID，則作者有責任確保其唯一性。
+* 變更ID可能會影響CSS、JS和資料圖層追蹤。
+
 ### URL {#url}
 
 最簡單的內嵌方式是URL。 只需將您要內嵌的資源URL貼入「 **URL** 」欄位。 元件將嘗試訪問資源，如果某個處理器可以呈現資源，則會在 **URL欄位下顯示確認消息** 。 否則，欄位將會標籤為錯誤。
@@ -57,9 +66,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * 符合「嵌入」標 [準的資源](https://oembed.com/) ，包括Facebook貼文、Instagram、SoundCloud、Twitter和YouTube
 * Pinterest
 
-開發人員可依照內嵌元件的 [開發人員檔案新增其他URL處理器。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+開發人員可依照內嵌元件的 [開發人員檔案新增額外的URL處理器。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.08.29.png)
+![URL的內嵌元件編輯對話方塊](/help/assets/embed-url.png)
 
 ### 內嵌項目 {#embeddable}
 
@@ -73,7 +82,7 @@ Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 若是YouT
 
 其他內嵌項目會提供類似的欄位，並可由開發人員依循內嵌 [元件的開發人員檔案加以定義。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.15.00.png)
+![內嵌元件的編輯對話方塊](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >必須透過「設計對話框」在範本層級啟用內嵌項目 [](#design-dialog) ，才能讓頁面作者使用。
@@ -82,7 +91,7 @@ Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 若是YouT
 
 您可以使用內嵌元件，將自由格式的HTML新增至您的頁面。
 
-![](/help/assets/screen-shot-2019-09-25-10.20.00.png)
+![HTML的內嵌元件編輯對話方塊](/help/assets/embed-html.png)
 
 >[!NOTE]
 >任何不安全的標籤（例如指令碼）都會從輸入的HTML中篩選，而不會在產生的頁面上呈現。
@@ -95,7 +104,7 @@ Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 若是YouT
 
 但是，由於內嵌元件遵循AEM的全域HTML AntiSamy環衛架構篩選規則集，因此規則更複雜，請參閱 `/libs/cq/xssprotection/config.xml`。 如有需要，開發人員可以覆蓋專案特定組態。
 
-如需其他安全性資訊，請參閱 [AEM開發人員檔案，以取得內部部署安裝](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) ，以及 [AEM（如雲端服務）安裝。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
+如需其他安全性資訊，請參閱 [AEM開發人員檔案，以取得內部部署安裝](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) ，以及 [AEM（如雲端服務）安裝。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >雖然AntiSamy環衛架構規則可透過覆蓋來設定，但這些變 `/libs/cq/xssprotection/config.xml`更會影響所有HTL和JSP行為，而不只是內嵌核心元件。
@@ -104,7 +113,7 @@ Embeddable **(可嵌入** )欄位定義要使用的處理器類型。 若是YouT
 
 設計對話方塊可讓範本作者定義內容作者可用的選項，內容作者使用內嵌元件，並在放置內嵌元件時設定預設值。
 
-![](/help/assets/screen-shot-2019-09-25-10.25.28.png)
+![內嵌元件的設計對話方塊](/help/assets/embed-design.png)
 
 * **停用URL** —— 在選取 **內容作者時** ，停用URL選項
 * **禁用嵌入式** -在選中時禁用內 **容作者的「可嵌入** 」選項，而不管允許哪些可嵌入處理器。
