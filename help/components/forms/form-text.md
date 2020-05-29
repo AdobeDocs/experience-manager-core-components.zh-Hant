@@ -2,7 +2,10 @@
 title: 表單文字元件
 description: 核心元件表單文字元件允許輸入表單文字以供提交。
 translation-type: tm+mt
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-text-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -42,11 +45,11 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 配置對話框允許內容作者定義要輸入的文本類型以及預設值和標籤。
 
-### 主頁籤 {#main-tab}
+### 屬性標籤 {#properties-tab}
 
-![](/help/assets/chlimage_1-23.png)
+![「屬性」頁籤](/help/assets/form-text-edit-properties.png)
 
-* **Constraint**&#x200B;要輸入並將驗證的文本類型
+* **約束** -要輸入並將驗證的文本類型
    * **文字**
    * **文字區域**
    * **電子郵件**
@@ -54,29 +57,36 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
    * **日期**
    * **數字**
    * **密碼**
-* **文本行**&#x200B;要在文本區域中顯示的行數(僅當「約束」( **Constraint** )設定為「文本區域」( **Text Area**)時顯示)
-* **Label**&#x200B;為欄位顯示的標籤
-* **如果標籤僅用於輔助功能**，且不提供任何關於該欄位的其他視覺資訊，則隱藏標籤不顯示「需要」
-* **元素名**&#x200B;稱隨表單資料提交的欄位名稱
-* **值**&#x200B;在欄位中預先填入的預設值
+* **文本行** -要在文本區域中顯示的行數(僅當「約束」( **Constraint** )設定為「文本區域」( **Text Area**)時顯示)
+* **Label** —將為欄位顯示的標籤
+* **隱藏標籤不顯示** -如果標籤僅用於協助工具用途且不提供任何其他有關該欄位的視覺資訊，則需要此標籤
+* **元素名稱** -隨表單資料提交的欄位名稱
+* **值** -在欄位中預先填入的預設值
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ### 關於標籤 {#about-tab}
 
-![](/help/assets/chlimage_1-24.png)
+![關於頁籤](/help/assets/form-text-edit-about.png)
 
-* **幫助消**&#x200B;息向用戶提示可在欄位中輸入的內容
-* **將說明訊息顯示為預留位置**：若要在表單輸入內顯示說明訊息，請在其空白且未聚焦時顯示
+* **說明訊息** -提示使用者在欄位中可輸入的內容
+* **將幫助消息顯示為預留位置** -在表單輸入內顯示幫助消息時，其為空白且未聚焦
 
 ### 約束頁籤 {#constraints-tab}
 
-![](/help/assets/chlimage_1-25.png)
+![「約束」頁籤](/help/assets/form-text-edit-constraints.png)
 
 * **限制訊息**
    * 如果值沒有驗證選取的類型，提交表單時訊息會顯示為工具提示
    * 不顯示文本 **和文本** 區 **域約束類型**
-* **必要**：如果選取此選項，使用者必須先填入值，才能提交表格
-* **設為唯讀**：如果選取此選項，使用者無法修改欄位的值
+* **必要** -如果選取此選項，使用者必須先填入值，才能提交表格
+   * **必要訊息** -如果欄位留空，則訊息會顯示為工具提示
+* **只讀** -如果選中此選項，用戶無法修改欄位的值
 
 ## 設計對話框 {#design-dialog}
 
-「表單文字」元件沒有設計對話方塊。
+### 樣式標籤 {#styles-tab}
+
+「表單文字」元件支援AEM [Style系統](/help/get-started/authoring.md#component-styling)。
