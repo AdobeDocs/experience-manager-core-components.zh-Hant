@@ -2,7 +2,10 @@
 title: 社交分享元件
 description: 核心元件社交分享元件是Facebook和Pinterest分享介面工具集。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本，以及與元件版本相容的AEM版本。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -41,7 +44,14 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## Edit Dialog {#edit-dialog}
 
-由於共用需要特殊的頁面標題，所以必須在頁面層級啟用任何共用。 因此，對於內容作者，可通過頁面屬性的共用頁籤使用共用元件的編 [輯選項](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)。
+![共用元件的編輯對話框](/help/assets/sharing-edit.png)
+
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
+
+由於共用需要特殊的頁面標題，所以必須在頁面層級啟用任何共用。 因此，對於內容作者，可通過頁面屬性的共用頁籤使用共用元件的其他編 [輯選項](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)。
 
 ## 設計對話框 {#design-dialog}
 
