@@ -2,7 +2,10 @@
 title: 列出元件
 description: 「核心元件清單元件」可讓您輕鬆建立動態和靜態清單。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/list-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -51,9 +54,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * [搜尋](#search-options)
 * [標記](#tags)
 
-無論清單的建立方式為何，都有 [可隨時設定的排序選項](#sort-options) 。
+不論清單的建立方式為何，都有 [可隨時設定的排序和ID選項](#sort-options) 。
 
-![](/help/assets/chlimage_1-38.png)
+![列出元件的編輯對話框](/help/assets/list-edit.png)
 
 視內容作者選擇如何建立清單而定，其他設定選項將會變更。
 
@@ -61,7 +64,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 清單可由目前頁面或其他頁面的子頁面建立。
 
-![](/help/assets/chlimage_1-39.png)
+![子頁面選項](/help/assets/list-edit-child-pages.png)
 
 * **父頁面**
    * 其子頁面應該列出的頁面
@@ -73,7 +76,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 清單可使用固定的項目清單來建立。
 
-![](/help/assets/chlimage_1-40.png)
+![修正清單選項](/help/assets/list-edit-fixed.png)
 
 點選或按一下「 **新增** 」按鈕，將新項目插入清單。
 
@@ -85,7 +88,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 您可使用搜尋AEM內容的結果來建立清單。
 
-![](/help/assets/chlimage_1-41.png)
+![搜尋清單選項](/help/assets/list-edit-search.png)
 
 * **搜尋查**&#x200B;詢要執行全文搜尋以產生清單元素的字串
 * **搜索**&#x200B;應在何處運行搜索
@@ -96,7 +99,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 清單可使用與特定位置下的特定標籤相符的頁面來建立。
 
-![](/help/assets/chlimage_1-42.png)
+![標籤清單選項](/help/assets/list-edit-tags.png)
 
 * **上層頁**&#x200B;面：標籤符合的起始位置
    * 使用「選 **取對話方** 」來選擇AEM中的位置
@@ -111,7 +114,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 無論您選擇如何建立清單，都有某些排序選項可隨時定義。
 
-![](/help/assets/chlimage_1-43.png)
+![排序選項](/help/assets/list-edit-sort-options.png)
 
 * **排序依**&#x200B;據元素的排序方式
    * **標題**
@@ -121,12 +124,16 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
    * **降序**
 * **最大項目**&#x200B;清單中顯示的項目數上限。
    * 留空以傳回所有項目。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ### 項目設定標籤 {#item-settings-tab}
 
 使用「項目設定」標籤，可以設定清單元素的格式。
 
-![](/help/assets/chlimage_1-44.png)
+![項目設定](/help/assets/list-edit-items.png)
 
 * **連結項目**&#x200B;連結項目至對應頁面
 * **顯示說明**&#x200B;顯示連結項目的說明
@@ -140,23 +147,23 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 在「清 **單設定** 」索引標籤上，可以定義日期格式，以及內容作者應在元件中使用哪些類型的清單。
 
-![](/help/assets/chlimage_1-45.png)
+![列出元件的設計對話框清單設定](/help/assets/list-design-list-settings.png)
 
 * **日期格**&#x200B;式用於顯示上次修改日期的格式
 * **禁用子項**&#x200B;禁用元件中的子項清單類型
 * **禁用靜態**&#x200B;禁用元件中的靜態清單類型
 * **禁用搜索**&#x200B;禁用元件中的搜索清單類型
-* **停用元件中**&#x200B;的標籤停用標籤清單類型
+* **停用標籤**&#x200B;停用元件中的標籤清單類型
 
 ### 項目設定 {#item-settings}
 
 在「項 **目設定** 」標籤上，可定義內容作者的元件中應提供的個別清單元素的格式選項。
 
-![](/help/assets/chlimage_1-46.png)
+![列出元件的設計對話框項設定](/help/assets/list-design-item-settings.png)
 
-* **「連結項目**」「在編輯對話框中啟用鏈 [接項目」選項](#edit-dialog)
+* **連結項目**&#x200B;編輯對話方塊中的「啟用連結 [項目」選項](#edit-dialog)
 * **在編輯對話**&#x200B;框中顯示說明啟用顯示說 [明選項](#edit-dialog)
-* **在編輯對話**&#x200B;框中顯示日期啟用顯 [示日期選項](#edit-dialog)
+* **在編輯對話**&#x200B;框中顯示日期啟用顯示日 [期選項](#edit-dialog)
 
 ### 樣式標籤 {#styles-tab}
 
