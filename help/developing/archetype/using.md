@@ -2,7 +2,10 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的詳細使用指示
 translation-type: tm+mt
-source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '2057'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +16,7 @@ AEM專案原型會建立以最簡化、最佳實務為基礎的Adobe Experience 
 
 ## 為什麼使用原型 {#why-use-the-archetype}
 
-使用AEM Project Archetype，您只需按幾下按鍵，就可建立最佳實務AEM專案。 透過使用原型，所有部分都已就緒，如此雖然產生的專案最少，但它已建置了 [AEM](#features) 的所有主要功能，讓您只需在上面建立並延伸即可。
+使用AEM Project Archetype，您只需按幾下按鍵，就可建立最佳實務AEM專案。 透過使用原型，所有部分都已就緒，如此雖然產生的專案最少，但它已建置了 [AEM](#what-you-get) 的所有主要功能，讓您只需在上面建立並延伸即可。
 
 當然，有許多元素會加入成功的AEM專案，但使用AEM Project Archetype是可靠的基礎，強烈建議用於任何AEM專案。
 
@@ -220,7 +223,7 @@ AEM Project Archetype當然會運用核心元件。
 
 ## 後續步驟 {#next-steps}
 
-所以您已建立並安裝AEM Project Archetype。 現在呢？ 其原型雖小，但包含許多根據建議最佳實務設定之強大AEM功能的範例。 使用這些說明如何在專案中運用這些功能。 對於您可能需要的任何專案：
+所以您已建立並安裝AEM Project Archetype。 現在呢？ 其原型雖小，但包含許多根據建議最佳實務設定之強大AEM功能的範例。 使用這些說明如何在專案中運用這些功能。 對於您可能需要執行的任何專案：
 
 * [擴充現有核心元件，以自訂元件](/help/developing/customizing.md)
 * [新增其他範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
