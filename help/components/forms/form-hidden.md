@@ -2,7 +2,10 @@
 title: 表單隱藏元件
 description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
 translation-type: tm+mt
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-hidden-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -44,16 +47,21 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 配置對話框允許內容作者定義隱藏欄位的參數。
 
-![](/help/assets/chlimage_1-26.png)
+![表單隱藏編輯對話框](/help/assets/form-hidden-edit.png)
 
-* **名稱**&#x200B;隨表單資料提交的欄位名稱
-* **值**&#x200B;與表單資料一起提交的欄位值
-* **識別**&#x200B;碼識別碼在頁面上應是唯一的，可用來將指令碼系結至此表單欄位
+* **Name** —— 隨表單資料提交的欄位名稱
+* **Value** —— 隨表單資料提交的欄位值
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 由於「表單隱藏」元件通常沒有可見屬性，因此如果為幫助作者識別適當的「表單隱藏」元件而分配了「名稱」和「值 ******** 」欄位值，則編輯器中的元件佔位符將顯示這些值。
 
-![](/help/assets/screenshot_2018-10-19at094927.png)
+![表單隱藏元件範例](/help/assets/form-hidden-example.png)
 
 ## 設計對話框 {#design-dialog}
 
-「表單隱藏」元件沒有設計對話框。
+### 樣式標籤 {#styles-tab}
+
+「表單隱藏元件」支援AEM [Style系統](/help/get-started/authoring.md#component-styling)。
