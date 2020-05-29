@@ -2,7 +2,10 @@
 title: 轉盤元件
 description: 「轉盤元件」可讓內容作者在旋轉轉盤中呈現內容。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -45,7 +48,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 項目標籤 {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.39.png)
+![「轉盤元件」的編輯對話方塊的「項目」標籤](/help/assets/carousel-edit-items.png)
 
 使用「 **新增** 」按鈕開啟元件選擇器，以選擇要新增為標籤的元件。 新增後，會將一個項目新增至清單，其中包含下列欄：
 
@@ -60,13 +63,17 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.57.png)
+![「轉盤元件」的編輯對話方塊的屬性標籤](/help/assets/carousel-edit-properties.png)
 
 在「屬 **性** 」標籤上，內容作者可將投影片設定為自動轉場。
 
 * **自動轉換投影片** -在作用中時，元件會在指定延遲後自動前進至下一張投影片。
 * **轉場延遲** -選取「自動轉場」投影片時，此值用於定義轉場之間的延遲（以毫秒為單位）。
 * **停用暫留時的自動暫停** -選取「自動 **轉場」投影片** ，每當游標停留在轉盤上時，轉盤轉場會自動暫停。 選取此選項，讓轉場不會暫停。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 >[!NOTE]
 >
@@ -76,7 +83,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 「輔助工具」頁籤 {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.02.22.png)
+![轉盤元件編輯對話方塊的協助工具標籤](/help/assets/carousel-edit-accessibility.png)
 
 在「協 **助工具** 」標籤上，可為元件的 [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA協助工具標籤設定值。
 
@@ -86,14 +93,14 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 內容作者可使用元件工具列上的「選取面板 **** 」選項，變更為不同的投影片以進行編輯，並輕鬆重新排列投影片順序。
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![選取面板圖示](/help/assets/select-panel-icon.png)
 
 在元件工 **具列中選取「選取面板** 」選項後，所設定的投影片會顯示為下拉式清單。
 
 * 清單按幻燈片的指定排列排序，並反映在編號中。
 * 首先顯示幻燈片的元件類型，然後以更亮的字型說明幻燈片。
 
-![](/help/assets/opera_snapshot_2018-11-28141537localhost.png)
+![選取面板](/help/assets/select-panel-popover.png)
 
 * 點選或按一下下拉式清單中的項目，將編輯器中的檢視切換至該投影片。
 * 使用拖曳控點，即可就地重新排序投影片。
@@ -106,7 +113,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 當內 **容作者將轉盤元件新增至頁面時，「屬性** 」標籤可用來定義投影片轉場的預設設定。
 
-![](/help/assets/screenshot_2018-11-28at141824.png)
+![轉盤元件的設計對話方塊](/help/assets/carousel-design.png)
 
 * **自動轉場投影片** -定義內容作者將轉盤元件新增至頁面時，預設會啟用自動將轉盤移至下一張投影片的選項。
 * **轉場延遲** -定義內容作者將轉盤元件新增至頁面時，投影片之間轉場延遲的預設值（以毫秒為單位）。
