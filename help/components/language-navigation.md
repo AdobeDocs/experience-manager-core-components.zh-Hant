@@ -2,7 +2,10 @@
 title: 語言導覽元件
 description: 語言導覽元件提供網站的語言／國家導覽，讓訪客可以在不同地區設定中導覽至相同頁面。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +29,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -50,7 +53,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at133642.png)
+![語言導覽元件的設計對話方塊](/help/assets/language-navigation-design.png)
 
 * **導覽根目錄**
    * 這是網站的語言導覽應該開始的位置。
@@ -61,13 +64,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
       * `2` 通常意味著您可以選擇語言和國家。
       * `3` 通常表示您有語言、國家和地區的選擇。
 
-#### 例如 {#example}
+#### 範例 {#example}
 
 假設您的內容看起來像這樣：
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -80,9 +83,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 \-- wknd-shop
 ```
 
-對於網站We.Retail，您可能會想將「語言導覽」元件置於頁面範本上，做為頁首的一部分。 範本一經包含，您就可將元件的 **Navigation Root** （導覽根）設 `/content/we-retail` 定為，因為該網站的本地化內容就是從這裡開始。 您也想將「語言結構深 **度」設為** , `2` 因為您的結構是兩個層級（國家／地區接著語言）。
+對於網站WKND，您可能想要將「語言導覽」元件置於頁面範本上，做為頁首的一部分。 範本一經包含，您就可將元件的 **Navigation Root** （導覽根）設 `/content/wknd` 定為，因為該網站的本地化內容就是從這裡開始。 您也想將「語言結構深 **度」設為** , `2` 因為您的結構是兩個層級（國家／地區接著語言）。
 
-使用導 **覽根** (Navigation Root `/content/we-retail` )值，語言元件會知道，在導覽開始後，它就可以產生語言導覽選項，方法是將內容樹中的下兩個層級辨識為網站的語言導覽結構(由「語言結構深度( **Language Structure Depth** )」值定義)。
+使用導 **覽根** (Navigation Root `/content/wknd` )值，語言元件會知道，在導覽開始後，它就可以產生語言導覽選項，方法是將內容樹中的下兩個層級辨識為網站的語言導覽結構(由「語言結構深度( **Language Structure Depth** )」值定義)。
 
 無論使用者檢視的是哪個頁面，「語言導覽」元件都能以其他語言找到對應的頁面，方法是知道目前頁面的位置並向後工作至根目錄，然後轉送至對應的頁面。
 
@@ -94,4 +97,10 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 通常，「語言導覽」元件只需新增至網站的頁面範本並加以設定。 不過，如果「語言導覽」元件需要新增至個別內容頁面，編輯對話方塊可讓內容作者設定與設計對話方塊中所述相 [同的值](#design-dialog)。
 
-![](/help/assets/screen_shot_2018-01-12at133353.png)
+此外，您還可以設 **定ID**。 此選項可讓您控制HTML和資料層中元件的唯一識 [別碼](/help/developing/data-layer/overview.md)。
+
+* 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+* 如果指定ID，則作者有責任確保其唯一性。
+* 變更ID可能會影響CSS、JS和資料圖層追蹤。
+
+![語言導覽元件的編輯對話方塊](/help/assets/language-navigation-edit.png)
