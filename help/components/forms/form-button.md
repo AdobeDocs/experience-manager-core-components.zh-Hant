@@ -2,7 +2,10 @@
 title: 表單按鈕元件
 description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
 translation-type: tm+mt
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/form-button-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -46,7 +49,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ### 屬性標籤 {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at120433.png)
+![表單按鈕元件的編輯對話方塊](/help/assets/form-button-edit.png)
 
 * **類型**
 
@@ -59,6 +62,11 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 * **Name** —— 隨表單資料提交的按鈕名稱
 * **值** -隨表單資料提交的按鈕值
+
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ## 設計對話框 {#design-dialog}
 
