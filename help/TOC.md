@@ -2,7 +2,10 @@
 sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
 translation-type: tm+mt
-source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
+source-git-commit: afd846b1f124ac9b326e59ff71b145f7b9efeb11
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 64%
 
 ---
 
@@ -33,6 +36,7 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
    + [清單](components/list.md)
    + [導覽](components/navigation.md)
    + [頁面](components/page.md)
+   + [進度列](components/progress-bar.md)
    + [快速搜尋](components/quick-search.md)
    + [分隔符號](components/separator.md)
    + [社交媒體分享](components/sharing.md)
@@ -65,6 +69,10 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
    + [WKND 開發人員教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
+   + [使用Adobe用戶端資料層]{#data-layer}
+      + [核心元件與Adobe用戶端資料層](developing/data-layer/overview.md)
+      + [與Adobe Launch整合](developing/data-layer/launch-integration.md)
+      + [與Adobe Analytics整合](developing/data-layer/analytics-integration.md)
    + AEM Project Archetype {#archetype}
       + [原型概觀](developing/archetype/overview.md)
       + [使用原型](developing/archetype/using.md)
