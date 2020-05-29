@@ -2,7 +2,10 @@
 title: 使用核心元件編寫
 description: 在AEM中，元件是構成所撰寫頁面內容的結構元素——核心元件提供有彈性且功能豐富的製作功能。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 6%
 
 ---
 
@@ -53,7 +56,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 預先設定核心元件 {#pre-configuring-core-components}
 
-設定基礎元件是開發人員的工作。 不過，有了核心元件，範本作者現在可以透過範本編輯器設定許多功能。
+設定基礎元件是開發人員的工作。 不過，有了核心元件，範本作者現在可以透過範本編輯器來設定許多功能。
 
 例如，如果影像元件不應允許從檔案系統上傳影像，或者文字元件僅允許特定段落格式，只要按一下滑鼠，就可以啟用或停用這些功能。
 
@@ -61,7 +64,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 編輯和設計對話框 {#edit-and-design-dialogs}
 
-由於範本作者可預先設定核心元件，以定義範本中允許的選項，然後頁面作者進一步設定以定義實際的頁面內容，因此每個元件可以在兩個不同的對話方塊中有選項。
+由於範本作者可預先設定核心元件，以定義範本中允許的選項，然後頁面作者進一步設定以定義實際的頁面內容，因此每個元件可在兩個不同的對話方塊中提供選項。
 
 |  | 說明 | 控制項 | 範例 |
 |--- |--- |--- |--- |
@@ -80,50 +83,6 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 >[!NOTE]
 >
 >在AEM 6.3中，必須有Service Pack 2(6.3.2.0)或更新版本才能啟用樣式系統功能。
-
-## 可用核心元件清單 {#list-of-core-components-available}
-
-以下是連結至頁面的可用核心元件清單，詳細說明其編輯與設計對話方塊功能。
-
-目前版本的核心元件主打下列元件。
-
-* [折疊式面板](/help/components/accordion.md)
-* [階層連結](/help/components/breadcrumb.md)
-* [按鈕](/help/components/button.md)
-* [容器](/help/components/container.md)
-* [傳送](/help/components/carousel.md)
-* [內容片段](/help/components/content-fragment-component.md)
-* [內容片段清單](/help/components/content-fragment-list.md)
-* [下載](/help/components/download.md)
-* [內嵌](/help/components/embed.md)
-* [體驗片段](/help/components/experience-fragment.md)
-* [表單按鈕](/help/components/forms/form-button.md)
-* [來自容器](/help/components/forms/form-container.md)
-* [已隱藏的表單](/help/components/forms/form-hidden.md)
-* [表單選項](/help/components/forms/form-options.md)
-* [表單文字](/help/components/forms/form-text.md)
-* [影像](/help/components/image.md)
-* [語言導覽](/help/components/language-navigation.md)
-* [清單](/help/components/list.md)
-* [導覽](/help/components/navigation.md)
-* [頁面](/help/components/page.md)
-* [快速搜尋](/help/components/quick-search.md)
-* [分隔符號](/help/components/separator.md)
-* [社交媒體分享](/help/components/sharing.md)
-* [索引標籤](/help/components/tabs.md)
-* [文字](/help/components/text.md)
-* [標題](/help/components/title.md)
-
->[!CAUTION]
->
->某些版本的個別核心元件可能只相容於特定版本的 AEM。
->
->如需特定元件的相容性資訊，請參閱說明頁面 (連結至上一份清單)，或參考[核心元件版本](/help/versions.md)文件以取得詳細資訊。
-
->[!NOTE]
->
->視您的例項而定，您可能已針對您的需求明確開發自訂元件。 這些元件甚至可能與此處討論的某些元件名稱相同。
->表單核心元件與AEM Forms無關。
 
 ## 開發人員資源 {#developer-resources}
 
