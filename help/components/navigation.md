@@ -2,7 +2,10 @@
 title: 導覽元件
 description: 導覽元件可讓使用者輕鬆導覽全球化網站結構。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 0%
 
 ---
 
@@ -26,13 +29,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * 如需導覽元件本地化功能的範例，請參 [閱下節](#example-localization)。
 * 如需核心元件的本地化功能如何搭配運作的範例，請參閱核 [心元件的本地化功能頁面](/help/get-started/localization.md)。
 
-### 例如 {#example-localization}
+### 範例 {#example-localization}
 
 假設您的內容看起來像這樣：
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
       +-- de
          \-- experience
@@ -58,13 +61,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 \-- wknd-shop
 ```
 
-對於網站We.Retail，您可能會想將導覽元件置於頁面範本上，做為頁首的一部分。 範本一經包含，您就可將元件的 **Navigation Root** （導覽根目錄）設 `/content/we-retail/language-masters/en` 定為，因為此處就是該網站的主版內容的開始位置。 您可能也想要將「導覽結構深度」設 ****`2` 為，因為您可能不希望元件顯示整個內容樹狀結構，而是前兩個層級，以做為總覽。
+對於網站We.Retail，您可能會想將導覽元件置於頁面範本上，做為頁首的一部分。 範本一經包含，您就可將元件的 **Navigation Root** （導覽根目錄）設 `/content/wknd/language-masters/en` 定為，因為此處就是該網站的主版內容的開始位置。 您可能也想要將「導覽結構深度」設 ****`2` 為，因為您可能不希望元件顯示整個內容樹狀結構，而是前兩個層級，以做為總覽。
 
-使用導 **覽根** (Navigation Root `/content/we-retail/language-masters/en` )值，導覽元件會知道，在導覽開始後，它可以透過向下遞歸網站結構兩個層級(由導覽結構深度( **Navigation Structure Depth** )值定義)來產生導覽選項。
+使用導 **覽根** (Navigation Root `/content/wknd/language-masters/en` )值，導覽元件會知道，在導覽開始後，它可以透過向下遞歸網站結構兩個層級(由導覽結構深度( **Navigation Structure Depth** )值定義)來產生導覽選項。
 
 無論使用者檢視的是哪個本地化頁面，Navigation元件都能透過知道目前頁面的位置、向後工作至根目錄，然後轉送至對應的頁面，來尋找對應的本地化頁面。
 
-因此，如果訪客正在檢 `/content/ch/de/experience/arctic-surfing-in-lofoten`視，元件會知道根據產生導覽結構 `/content/we-retail/language-masters/de`。 同樣地，如果訪客正在檢 `/content/us/en/experience/arctic-surfing-in-lofoten`視，元件也會根據產生導覽結構 `/content/we-retail/language-masters/en`。
+因此，如果訪客正在檢 `/content/ch/de/experience/arctic-surfing-in-lofoten`視，元件會知道根據產生導覽結構 `/content/wknd/language-masters/de`。 同樣地，如果訪客正在檢 `/content/us/en/experience/arctic-surfing-in-lofoten`視，元件也會根據產生導覽結構 `/content/wknd/language-masters/en`。
 
 ## 陰影網站結構支援 {#shadow-structure}
 
@@ -91,9 +94,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -117,7 +120,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab}
 
-![](/help/assets/screen-shot-2019-12-04at12.50.51.png)
+![導航元件的編輯對話框屬性頁籤](/help/assets/navigation-edit-properties.png)
 
 * **導覽根** -將用於產生導覽樹的根頁面。
 * **排除根層級** -導覽中通常不應包含根層級。 此選項可讓您指定要從根目錄上排除的層數。 例如：
@@ -126,11 +129,16 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
    * 2 =排除根目錄和1個以上層級
    * 等等。
 * **收集所有子頁面** -收集所有作為導覽根目錄子體的頁面。
-* **導覽結構深度** -定義元件在導覽樹狀結構下應相對於導覽根目錄顯示多少層次(僅當未選取「收集所有子頁面 **** 」時可用)。
+* **導覽結構深度** -定義元件在導覽樹狀結構下應相對於導覽根目錄顯示多少層次(僅在未選取「收集所有子頁面 **** 」時可用)。
+* **停用遮蔽** -如果階層中的頁面是重新導向，則會顯示重新導向頁面的名稱，而非目標頁面。 如需詳細 [資訊，請參閱陰影網站結構支援](#shadow-structure) 。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ### 「輔助工具」頁籤 {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.23.53.png)
+![導覽元件的編輯對話框輔助功能標籤](/help/assets/navigation-edit-accessibility.png)
 
 在「協 **助工具** 」標籤上，可為元件的 [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA協助工具標籤設定值。
 
@@ -142,7 +150,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-12-04at12.53.32.png)
+![導覽元件的設計對話方塊](/help/assets/navigation-design.png)
 
 * **導覽根** -導覽結構的根頁面的預設值，此值將用於產生導覽樹，並在內容作者將元件新增至頁面時預設。
 * **排除根層級** -導覽中通常不應包含根層級。 此選項可讓您指定您要排除之根目錄上限的預設值。 例如：
@@ -152,6 +160,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
    * 等等。
 * **收集所有子頁面** -用於收集所有作為導航根目錄後代的頁面的選項的預設值。
 * **導覽結構深度** -導覽結構深度的預設值。
+* **停用遮蔽** -新增導覽元件時，是否應停用遮蔽的預設值
 
 ### 樣式標籤 {#styles-tab}
 
