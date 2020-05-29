@@ -2,7 +2,10 @@
 title: 文字元件
 description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
 translation-type: tm+mt
-source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '2202'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |---|---|---|---|---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/text-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -54,11 +57,11 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 編輯對話方塊提供使用者預期要合成文字的標準豐富文字格式工具。
 
-![](/help/assets/screen_shot_2018-01-11at143025.png)
+![文本元件的編輯對話框](/help/assets/text-edit.png)
 
 ### 粗體
 
-![](/help/assets/screen_shot_2018-01-11at125602.png)
+![粗體圖示](/help/assets/text-bold.png)
 
 用於將粗體格式套用至選取的文字，或大膽格式化游標後輸入的文字。
 
@@ -66,7 +69,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 斜體
 
-![](/help/assets/screen_shot_2018-01-11at125609.png)
+![斜體圖示](/help/assets/text-italic.png)
 
 用於將斜體格式套用至選取的文字或在游標後輸入的斜體文字。
 
@@ -74,7 +77,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 底線
 
-![](/help/assets/screen_shot_2018-01-11at125615.png)
+![下划線表徵圖](/help/assets/text-underline.png)
 
 用於將帶下划線的格式應用於在游標後輸入的選定文本或下划線文本。
 
@@ -82,45 +85,46 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 下標
 
-![](/help/assets/screen_shot_2018-01-11at125703.png)
+![訂閱圖示](/help/assets/text-subscript.png)
 
 用於將游標之後輸入的選定文本或文本格式化為下標。
 
 ### 上標
 
-![](/help/assets/screen_shot_2018-01-11at125708.png)
+![上標表徵圖](/help/assets/text-superscript.png)
 
 用於將游標之後輸入的選定文本或文本格式化為上標。
 
 ### 貼上為文字
 
-![](/help/assets/screen_shot_2018-01-11at125713.png)
+![貼上為文字圖示](/help/assets/text-paste-text.png)
 
 將任何複製的文字貼上為純文字，不需任何格式。
 
 選取此選項時，會開啟一個視窗，在此視窗中，文字可以貼上為純文字，在插入文字之前，不會以預覽格式加入。 點選或按一下核取標籤以接受，點選或按一下x以取消。
 
-![](/help/assets/screen_shot_2018-01-11at143234.png)
+![貼上為文字範例](/help/assets/text-paste-text-example.png)
 
 ### 從 Word 貼上
 
-![](/help/assets/screen_shot_2018-01-11at125717.png)
+![「從Word貼上」圖示](/help/assets/text-paste-word.png)
 
 選取此選項時，會開啟一個視窗，可在其中貼上文字，並保留其格式為預覽，然後再將它插入文字。 點選或按一下核取標籤以接受，點選或按一下x以取消。
 
-![](/help/assets/screen_shot_2018-01-11at143250.png)
+![從Word貼上範例](/help/assets/text-paste-word-example.png)
 
 ### 超連結
 
-![](/help/assets/screen_shot_2018-01-11at125839.png)
+![超連結圖示](/help/assets/text-hyperlink.png)
 
 使用此選項可將選取的文字轉換為超連結，或修改已定義的連結。 只有在已選取文字並開啟視窗時，此選項才會生效，視窗中會有其他設定連結的選項。
 
-![](/help/assets/screen_shot_2018-01-11at130003.png)
+![超連結範例](/help/assets/text-hyperlink-example.png)
 
-* 輸入位置
+* 輸入路徑
    * 使用「開啟選取範圍」對話方塊，在AEM中選擇路徑
-   * 如果連結不在AEM中，請輸入絕對URL（非絕對路徑會解譯為相對於AEM）
+   * 如果連結不在AEM中，請輸入絕對URL
+      * 非絕對路徑會解譯為相對於AEM
 * 輸入連結的替代描述性文本
 * 選取連結行為
    * 目標
@@ -132,71 +136,72 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 取消連結
 
-![](/help/assets/screen_shot_2018-01-11at125901.png)
+![「取消連結」表徵圖](/help/assets/text-unlink.png)
 
 使用此選項可移除已套用至選取文字的連結。 只有在已選取連結時，此選項才會生效。
 
 ### 尋找
 
-![](/help/assets/screen_shot_2018-01-11at125906.png)
+![「查找」表徵圖](/help/assets/text-find.png)
 
 使用此選項可搜索文本以查找指定文本字串的出現情況。 選擇此選項將開啟一個窗口，用於指定搜索選項。
 
-![](/help/assets/screen_shot_2018-01-11at130107.png)
+![尋找範例](/help/assets/text-find-example.png)
 
 輸入要搜索的文本並點選，或按一下「查 **找** 」開始搜索。 點選或按一下x以取消。
 如果您想根據大小寫進行完全相符，請在開始搜尋前選取「 **符合大小寫** 」選項。
 如果找到相符項目，則會反白顯示，而搜尋對話方塊會暗顯。 在暗灰色對話方 **塊中點選或再按一下** 「尋找」按鈕，以搜尋下一個出現的項目。
 
-![](/help/assets/screen_shot_2018-01-11at130145.png)
+![找到範例](/help/assets/text-find-example-found.png)
 
 如果找不到其他發生次數，則會顯示訊息，搜尋會從文字的開頭開始。
 
-![](/help/assets/screen_shot_2018-01-11at130241.png)
+![尋找範例，不再發生](/help/assets/text-find-example-found-end.png)
 
 ### 取代
 
-![](/help/assets/screen_shot_2018-01-11at125910.png)
+![取代圖示](/help/assets/text-replace.png)
 
 使用此選項可搜尋文字中是否出現指定的文字字串，並以其他字串取代相符項目。 選擇此選項將開啟一個窗口，用於指定搜索和替換選項。
 
-![](/help/assets/screen_shot_2018-01-11at130441.png)
+![取代範例](/help/assets/text-replace-example.png)
 
 輸入要搜索的文本以及應替換的文本。
 
-點選或按一 **下「尋找** 」開始搜尋。 按一下或點選x以取消。
-
-如果您想根據大小寫進行完全相符，請在開始搜尋前選取「 **符合大小寫** 」選項。
+* 點選或按一 **下「尋找** 」開始搜尋。 按一下或點選x以取消。
+* 如果您想根據大小寫進行完全相符，請在開始搜尋前選取「 **符合大小寫** 」選項。
+* 選 **取「全部取代** 」，一次取代所有出現的文字。
 
 如果找到相符項目，則會反白顯示，而搜尋對話方塊會暗顯。 再次在灰色 **對話方塊中按一下「尋找****** 」按鈕，以搜尋下一個出現的項目，或選取「取代」按鈕以取代反白顯示的相符文字。 請注意，「取 **代** 」按鈕只有在相符後才會生效。
 
-選 **取「全部取代** 」，一次取代所有出現的文字。
-
-使用替換功能時，應與查找字串同時輸入要替換的替換字串。 不過，您仍可以按一下「尋找」，在取代字串之前先搜尋字串。 如果在按一下「查找」後輸入了替換字串，則搜索將重置為文本的開頭。
-
 當點按尋找時，尋找和取代對話方塊會變為透明，當點按取代時，對話方塊會變成不透明。 這可讓作者檢閱作者將要取代的文字。
+
+>[!NOTE]
+>
+>使用替換功能時，應與查找字串同時輸入要替換的替換字串。 不過，您仍可以按一下「尋找」，在取代字串之前先搜尋字串。 如果在按一下「查找」後輸入了替換字串，則搜索將重置為文本的開頭。
+
 
 ### 向左對齊文字
 
-![](/help/assets/screen_shot_2018-01-11at142012.png)
+![左對齊圖示](/help/assets/text-left.png)
 
 用來將文字與左邊距對齊。
 
 ### 文字置中
 
-![](/help/assets/screen_shot_2018-01-11at142017.png)
+![居中文字圖示](/help/assets/text-center.png)
 
 用來將文字置中。
 
 ### 向右對齊文字
 
-![](/help/assets/screen_shot_2018-01-11at142021.png)
+![右對齊圖示](/help/assets/text-right.png)
 
 用來將文字對齊右邊距。
 
 ### 項目符號
 
-![](/help/assets/screen_shot_2018-01-11at142025.png)
+![項目符號圖示](/help/assets/text-bullet.png)
 
 用於將選定文本格式化為項目符號清單，或在游標後開始插入項目符號清單。
 
@@ -204,7 +209,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 編號
 
-![](/help/assets/screen_shot_2018-01-11at142030.png)
+![編號清單圖示](/help/assets/text-numbered.png)
 
 用於將選定文本格式化為編號清單，或在游標後開始插入編號清單。
 
@@ -212,7 +217,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 凸排
 
-![](/help/assets/screen_shot_2018-01-11at141917.png)
+![外凹圖示](/help/assets/text-outdent.png)
 
 用於減少在游標後輸入的選定文本或文本的縮進級別。
 
@@ -220,35 +225,35 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 縮排
 
-![](/help/assets/screen_shot_2018-01-11at141922.png)
+![縮進表徵圖](/help/assets/text-outdent.png)
 
 用於增加在游標後輸入的選定文本或文本的縮進級別。
 
 ### 表格
 
-![](/help/assets/screen_shot_2018-01-11at141928.png)
+![表格圖示](/help/assets/text-table.png)
 
 用於將表插入文本。 選擇此選項將開啟一個窗口，用於指定表的詳細資訊。
 
-![](/help/assets/screen_shot_2018-01-11at142405.png)
+![表示例](/help/assets/text-table-example.png)
 
-* **列**&#x200B;表的列數（必需）
-* **行**&#x200B;表的行數（必需）
-* **Width**&#x200B;表格的寬度
-* **高**&#x200B;度表格高度
-* **儲存格間**&#x200B;距儲存格內容周圍的空格
-* **儲存格間**&#x200B;距儲存格間的空格
-* **邊**&#x200B;框表格邊框線的粗細
-* 如果表的標題：
-   * 應使用第一行
-   * 應使用第一欄
-   * 應使用第一列和第一列
-   * 或者不應使用標題。
-* **標題**&#x200B;表格的標題
+* **列** -表的列數（必需）
+* **行** -表格的行數（必需）
+* **Width** —— 表格的寬度
+* **高度** -表格的高度
+* **儲存格間距** -儲存格內容周圍的空格
+* **單元格間距** -單元格間距
+* **邊框** -表格邊框線的重量
+   * 如果表的標題：
+      * 應使用第一行
+      * 應使用第一欄
+      * 應使用第一列和第一列
+      * 或者不應使用標題。
+* **標題** -表格標題
 
 ### 檢查拼字
 
-![](/help/assets/screen_shot_2018-01-11at141935.png)
+![檢查拼字圖示](/help/assets/text-spellcheck.png)
 
 用於檢查文本內容的拼寫。 可能的拼字錯誤會加上破折的紅線。
 
@@ -256,17 +261,17 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 特殊字元 {#special-characters}
 
-![](/help/assets/screen_shot_2018-01-11at142600.png)
+![特殊字元圖示](/help/assets/text-special-characters.png)
 
 用於將特殊字元插入文字。 選取此選項會開啟顯示可用字元的視窗。
 
-![](/help/assets/screen_shot_2018-01-11at142635.png)
+![特殊字元範例](/help/assets/text-special-characters-example.png)
 
 點選或按一下所要的字元，將它插入游標後面的文字。 可插入多個字元。 點選或按一下x以關閉選取視窗。
 
 ### 來源編輯
 
-![](/help/assets/screen_shot_2018-01-11at142746.png)
+![源編輯表徵圖](/help/assets/text-source.png)
 
 用於查看和修改文本的HTML源。
 
@@ -284,15 +289,25 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 段落格式
 
-![](/help/assets/screen_shot_2018-01-11at142752.png)
+![段落格式圖示](/help/assets/text-paragraph.png)
 
 用於將段落格式應用於選定文本或游標後插入的文本。 選取此選項會開啟一個下拉式清單，從中選取段落格式。
 
-![](/help/assets/screen_shot_2018-01-11at142828.png)
+![段落格式範例](/help/assets/text-paragraph-example.png)
+
+### 內嵌編輯 {#in-line-editing}
 
 文字元件也可以內嵌編輯，但由於空間限制，並非所有格式選項都可內嵌。 若要查看所有選項，請切換至全螢幕模式。
 
-![](/help/assets/screen_shot_2018-01-11at142921.png)
+![內嵌編輯範例](/help/assets/text-edit-inline-example.png)
+
+### 設定和ID {#setting-id}
+
+此選項可讓您控制HTML和資料層中元件的唯一識 [別碼](/help/developing/data-layer/overview.md)。
+
+* 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+* 如果指定ID，則作者有責任確保其唯一性。
+* 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ## 設計對話框 {#design-dialog}
 
@@ -304,7 +319,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ### 功能 {#features}
 
-![](/help/assets/chlimage_1-28.png)
+![設計對話框功能](/help/assets/text-design-features.png)
 
 可為元件啟用或停用下列功能。
 
@@ -312,24 +327,25 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 * 過去自字詞
 * 尋找和取代
 * 拼字檢查程式
-* 來源編輯
+* 插入的影像修改選項
+* HTML來源編輯
 
 ### 正在格式化 {#formatting}
 
-![](/help/assets/chlimage_1-29.png)
+![設計對話框格式](/help/assets/text-design-formatting.png)
 
 可以為元件激活或停用以下格式設定選項。
 
 * 表格
-* 清單
-* 對齊方式
+* 清單（項目符號、編號、縮進、縮進）
+* 對齊（左、右、居中）
 * 粗體、斜體、下划線
-* 連結
+* 連結（和取消連結）
 * 子／上標
 
 ### 段落樣式 {#paragraph-styles}
 
-![](/help/assets/chlimage_1-30.png)
+![設計對話框段落樣式](/help/assets/text-design-paragraph.png)
 
 可為元件啟用或停用段落樣式。 啟動後，可定義允許的格式。
 
@@ -338,9 +354,9 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 * 要刪除樣式點選，或按一下「刪 **除** 」按鈕。
 * 要重新排列格式的順序，請點選或按一下並拖動控點。
 
-### 設定特殊字元 {#configuring-special-characters}
+### 特殊字元 {#configuring-special-characters}
 
-![](/help/assets/chlimage_1-31.png)
+![設計對話方塊特殊字元](/help/assets/text-design-special-characters.png)
 
 可以為元件激活或停用插入特殊字元的選項。 啟用後，可定義允許的字元。
 
