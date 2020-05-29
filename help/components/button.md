@@ -2,7 +2,10 @@
 title: 按鈕元件
 description: 核心元件按鈕元件可讓您建立和顯示按鈕。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 1%
 
 ---
 
@@ -20,13 +23,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 版本與相容性 {#version-and-compatibility}
 
-目前的Button元件版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，並在本檔案中加以說明。
+Button Component的目前版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，並在本檔案中加以說明。
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -46,16 +49,20 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.32.png)
+![按鈕元件編輯對話框的屬性頁籤](/help/assets/button-edit-properties.png)
 
 * **Text** —— 要顯示在按鈕上的文字
 * **連結** -連結至AEM內的內容頁面、外部資源或錨點
    * 使用「選 **取對話方** 」來選擇AEM中的路徑。
 * **Icon** —— 用於在按鈕中顯示表徵圖的標識符
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ### 「輔助工具」頁籤 {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.43.png)
+![「按鈕元件」編輯對話方塊的「協助工具」索引標籤](/help/assets/button-edit-accessibility.png)
 
 在「協 **助工具** 」標籤上，可為元件的 [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA協助工具標籤設定值。
 
