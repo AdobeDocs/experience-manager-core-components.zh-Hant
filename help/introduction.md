@@ -2,10 +2,10 @@
 title: 核心元件簡介
 description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 27%
+source-wordcount: '841'
+ht-degree: 26%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 27%
 
 * **[元件庫：](https://www.adobe.com/go/aem_cmp_library)**一組示例，用於查看其各種配置中的元件。
 * **元件文檔（本文檔）:** 對於開發人員和作者，請提供每個元件的詳細資訊。
+* **[核心元件GitHub儲存庫：](https://github.com/adobe/aem-core-wcm-components)**如需每個元件和專案下載的開發人員詳細資訊。
 * 立即開始:
    * **[核心元件的成功：](/help/developing/success.md)**在開始使用核心元件的任何專案之前，先考慮的准則。
    * **[WKND教學課程：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**建立新網站的兩天教學課程。
@@ -43,6 +44,7 @@ ht-degree: 27%
 | 版本設定 | 版 [本修訂政策](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可確保核心元件在改善可能影響您的項目時不會中斷您的網站。 |
 | 可本地化 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | 開放來源 | 如果事情不如預期，請 [改進！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| 可追蹤 | 主要元件 [與Adobe用戶端資料層整合。](/help/developing/data-layer/overview.md) |
 
 ## 元件 {#the-components}
 
