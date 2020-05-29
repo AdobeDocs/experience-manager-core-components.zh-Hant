@@ -2,7 +2,10 @@
 title: 摘要元件
 description: 摘要元件可顯示影像、標題、豐富文字，並可選擇地連結至其他內容。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|---|---|---|---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|---|---|---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -43,7 +46,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 影像 {#image}
 
-![](/help/assets/screen_shot_2018-07-03at104125.png)
+![摘要元件的編輯對話方塊影像標籤](/help/assets/teaser-edit-image.png)
 
 * **影像資產**
    * 從資產瀏覽器中 [拖放資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ，或點選 **** 瀏覽選項，從本機檔案系統上傳。
@@ -52,19 +55,24 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 文字 {#text}
 
-![](/help/assets/screen_shot_2018-07-03at104138.png)
+![摘要元件的編輯對話方塊文字標籤](/help/assets/teaser-edit-text.png)
 
-* **Title**（標題）定義標題，以顯示為摘要標題。
-* **從連結頁面取得標**&#x200B;題勾選後，標題將填入連結頁面的標題。
-* **說明**&#x200B;定義要顯示為摘要子標題的說明。
-* **從連結頁面取得說**&#x200B;明勾選後，說明將會填入連結頁面的說明。
+* **Pretitle** - Pretitle將顯示在摘要標題之前。
+* **Title** —— 定義標題，以顯示為摘要標題。
+   * **從連結頁面取得標題** -勾選後，標題將會填入連結頁面的標題。
+* **說明** -定義要顯示為摘要子標題的說明。
+   * **從連結頁面取得說明** -勾選後，說明將會填入連結頁面的說明。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ### 連結與動作 {#links-actions}
 
-![](/help/assets/screen_shot_2018-07-03at104146.png)
+![摘要元件的編輯對話方塊連結標籤](/help/assets/teaser-edit-link.png)
 
-* **Link** Link已套用至摘要。 使用路徑瀏覽器來選擇連結目標。
-* **啟用「呼叫至動作」**&#x200B;勾選時，啟用「呼叫至動作」的定義。 清單中的第一個「行動要求」連結會用作其他摘要元素的連結。
+* **連結** -套用至摘要的連結。 使用路徑瀏覽器來選擇連結目標。
+* **啟用呼叫至動作** -勾選後，啟用呼叫至動作的定義。 清單中的第一個「行動要求」連結會用作其他摘要元素的連結。
 
 ## Edit Dialog {#edit-dialog}
 
@@ -76,19 +84,20 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 摘要標籤 {#teaser-tab}
 
-![](/help/assets/screen_shot_2018-07-03at105958.png)
+![摘要元件的設計對話方塊](/help/assets/teaser-design.png)
 
 * **呼叫動作**
-   * **停用內容作者的**「呼 **叫動作」選項**
+   * **停用內容作者的「動作呼叫** 」-隱 **藏內容作者的「動作呼叫** 」選項
 * **元素**
-   * **隱藏標題**
-      * 隱藏內容作 **者的** 「標題」選項
+   * **Hide pretitle** —— 隱藏內容作 **者的** Pretitle選項
+   * **隱藏標題** -隱藏內容作 **者的** 「標題」選項
       * 選取「標題類 **型」(Title Type** )後，
-   * **隱藏說明**&#x200B;隱藏內容作 **者的「說明** 」選項
-* **標題類**&#x200B;型定義摘要標題要使用的H標籤。
+   * **隱藏說明** -隱藏內容作者 **的「說明** 」選項
+* **標題類型** -定義摘要標題要使用的H標籤。
 * **連結**
-   * **不要連結影像選取**&#x200B;時，未連結摘要影像
-   * **不要連結標題選取**&#x200B;時，未連結摘要標題
+   * **不要連結影像** -選取時，未連結摘要影像
+   * **不要連結標題** -選取時，未連結摘要標題
+* **影像委派** -資訊顯示，指出Teaser委派影像處理的元件。
 
 ### 樣式標籤 {#styles-tab}
 
