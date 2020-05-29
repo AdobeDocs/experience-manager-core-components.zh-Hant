@@ -2,7 +2,10 @@
 title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 translation-type: tm+mt
-source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 | 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |--- |--- |--- |--- |---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/image-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -72,7 +75,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ### 資產標籤 {#asset-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114245.png)
+![「映像元件」的「配置」對話框的「資產」頁籤](/help/assets/image-configure-asset.png)
 
 * **影像資產**
    * 從資產瀏覽器中 [拖放資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ，或點選 **** 瀏覽選項，從本機檔案系統上傳。
@@ -81,7 +84,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ### 中繼資料標籤 {#metadata-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114527.png)
+![影像元件設定對話方塊的中繼資料索引標籤](/help/assets/image-configure-metadata.png)
 
 * **影像是裝飾**&#x200B;性檢查影像是否應由輔助技術忽略，因此不需要替代文字。 這僅適用於裝飾性影像。
 * **替代文**&#x200B;字：視障讀者可選擇影像的意義或功能。
@@ -96,15 +99,20 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
    * 使用選取對話方塊連結至其他AEM資源。
    * 如果未連結至AEM資源，請輸入絕對URL。 非溶質URL將會解譯為相對於AEM。
 
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
+
 ## Edit Dialog {#edit-dialog}
 
 編輯對話方塊可讓內容作者裁切、修改啟動地圖，以及縮放影像。
 
-![](/help/assets/chlimage_1-8.png)
+![影像元件的編輯對話方塊](/help/assets/image-edit.png)
 
 * 開始裁切
 
-   ![](/help/assets/chlimage_1-9.png)
+   ![開始裁切圖示](/help/assets/image-start-crop.png)
 
    選取此選項會開啟預先定義的裁切比例的下拉式清單。
 
@@ -112,76 +120,43 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
    * 選擇「移除裁 **切」選項** ，以顯示原始資產。
    選取裁切選項後，使用藍色控點來調整影像上的裁切大小。
 
-   ![](/help/assets/chlimage_1-10.png)
+   ![裁切選項](/help/assets/image-crop-options.png)
 
 * 向右旋轉
 
-   ![](/help/assets/chlimage_1-11.png)
+   ![向右旋轉圖示](/help/assets/image-rotate-right.png)
 
    使用此選項可將影像向右（順時針）旋轉90度。
 
 * 水準翻轉
 
-   ![](/help/assets/screen_shot_2018-04-16at091404.png)
+   ![水準翻轉圖示](/help/assets/image-flip-horizontal.png)
 
    使用此選項可以水準翻轉影像，或沿y軸以180°的方式旋轉影像。
 
 * 垂直翻轉
 
-   ![](/help/assets/screen_shot_2018-04-16at091410.png)
+   ![垂直翻轉圖示](/help/assets/image-flip-vertical.png)
 
    使用此選項可垂直翻轉影像，或沿x軸以180°旋轉影像。
 
-* 啟動地圖
-
-   >[!CAUTION]
-   >
-   >Launch Map功能需要Core Components 2.1.0版或更高版本，以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更高版本的 [Service Pack 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) ，以支援AEM中的新影像編輯器功能。
-
-   ![](/help/assets/chlimage_1-12.png)
-
-   使用此選項可將啟動映射套用至影像。 選取此選項會開啟新視窗，讓使用者可選取地圖的形狀：
-
-   * **新增矩形地圖**
-   * **新增圓形圖**
-   * **新增多邊形地圖**
-      * 依預設會新增三角形地圖。 連按兩下形狀的一行，在新側面加入新的藍色調整大小控制點。
-   一旦選擇了地圖形狀，該形狀被疊加在影像上以允許調整大小。 拖放藍色的調整大小控點，以調整形狀。
-
-   ![](/help/assets/chlimage_1-13.png)
-
-   調整啟動地圖大小後，按一下它以開啟浮動工具列，以定義連結的路徑。
-
-   * **路徑**
-      * 使用「路徑選擇器」選項，在AEM中選取路徑
-      * 如果路徑不在AEM中，請使用絕對URL。 非絕對路徑會相對於AEM進行解譯。
-   * **替代文本**&#x200B;路徑目標的替代說明
-   * **目標**
-      * **相同標籤**
-      * **新標籤**
-      * **父框架**
-      * **上框架**
-   點選或按一下要儲存的藍色核取標籤、要取消的黑色x，以及紅色垃圾桶來刪除地圖。
-
-   ![](/help/assets/chlimage_1-14.png)
-
 * 重設縮放
 
-   ![](/help/assets/chlimage_1-15.png)
+   ![重設縮放圖示](/help/assets/image-reset-zoom.png)
 
    如果影像已經縮放，請使用此選項來重設縮放等級。
 
 * 開啟縮放滑桿
 
-   ![](/help/assets/chlimage_1-16.png)
+   ![開啟縮放滑桿圖示](/help/assets/image-zoom.png)
 
    使用此選項可顯示滑塊以控制影像的縮放級別。
 
-   ![](/help/assets/chlimage_1-17.png)
+   ![縮放滑桿控制](/help/assets/image-zoom-slider.png)
 
 就地編輯器也可用於修改影像。 由於空間限制，只有基本選項串聯可用。 如需完整編輯選項，請使用全螢幕模式。
 
-![](/help/assets/chlimage_1-18.png)
+![影像就地編輯選項](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -197,7 +172,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 此外，您可以定義作者將元件新增至頁面時，會自動或停用的一般元件選項。
 
-![](/help/assets/screenshot_2018-10-19at102756.png)
+![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main.png)
 
 * **啟用延遲載入**：在將影像元件新增至頁面時，定義是否自動啟用延遲載入選項。
 * **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，定義裝飾性影像選項是否已自動啟用。
@@ -214,7 +189,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
       * 選取「停用 **延遲載入** 」選項，以在頁面載入時載入影像。
 * **JPEG品質**&#x200B;轉換（例如縮放或裁切）JPEG影像的品質因數（百分比為0和100）。
 
->[!CAUTION]
+>[!NOTE]
 >
 >自2.2.0版核心元件起，即可使用「JPEG品質」選項。
 
@@ -228,13 +203,13 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 * 來源
 
-   ![](/help/assets/chlimage_1-19.png)
+   ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-source.png)
 
    選取「允許 **從檔案系統上傳資產** 」選項，允許內容作者從其本機電腦上傳影像。 若要強制內容作者僅從AEM選取資產，請取消選取此選項。
 
 * 方向
 
-   ![](/help/assets/chlimage_1-20.png)
+   ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-orientation.png)
 
 * **旋轉**：使用此選項可讓內容作者使用「向右旋轉 **」選項** 。
 * **反向(** Flip)使用此選項可讓內容作者使用「水準翻轉」( **Flip Horizontally** )和「垂直 **翻轉」(Flip Predital** )選項。
@@ -245,7 +220,7 @@ source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 * 裁切
 
-   ![](/help/assets/chlimage_1-21.png)
+   ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-cropping.png)
 
    選取「允 **許裁切** 」選項，可讓內容作者在編輯對話方塊中裁切元件中的影像。
    * 按一 **下「新增** 」以新增預先定義的裁切外觀比例。
