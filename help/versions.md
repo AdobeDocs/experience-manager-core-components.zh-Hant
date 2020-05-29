@@ -2,14 +2,17 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1694'
+ht-degree: 25%
 
 ---
 
 
 # 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本為2.8.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它已於2019年12月發行，作為2.0.0版的重要更新。2.0.0版推出新元件，並更新現有元件的v2版。
+目前的核心元件版本為2.8.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它已於2019年12月發行，作為2.0.0版的重要更新。 2.0.0版推出新元件，並更新現有元件的v2版。
 
 ## 發行記錄與相容性 {#release-history-and-compatibility}
 
@@ -23,6 +26,7 @@ source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 | 發行 | 說明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 | Java | 發行日期 |
 |---|---|---|---|---|---|---|---|
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本可讓您與Adobe用戶端資料層整合，並引入進度列元件。 | - | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本的重點是修正及小型增強功能。 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 本版次推出新的內嵌元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年9月25日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本推出新的Experience Fragment元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年9月6日 |
@@ -51,34 +55,35 @@ source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 下表詳細說明核心元件的發行版本中包含哪些元件版本。
 
-|  | 版本1.0.0 - 1.0.6 | 版本1.1.0 | 版本2.0.0 - 2.0.8 | 版本2.1.0 | 版本2.2.0-2.2.0 | 版本2.3.0-2.3.2 | 版本2.4.0 | 版本2.5.0 | 版本2.6.0 | 版本2.7.0+ |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **[頁面](components/page.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[標題](components/title.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[影像](components/image.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[清單](components/list.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[階層連結](components/breadcrumb.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[社交媒體分享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[來自容器](components/forms/form-container.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[表單文字](components/forms/form-text.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[表單選項](components/forms/form-options.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[已隱藏的表單](components/forms/form-hidden.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[表單按鈕](components/forms/form-button.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[內容片段](components/content-fragment-component.md)** |  | 沙盤 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[導覽](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[語言導覽](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[快速搜尋](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[索引標籤](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[傳送](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[分隔符號](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[內容片段清單](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[折疊式面板](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[按鈕](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[下載](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[體驗片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[內嵌](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 |
+|  | 版本1.0.0 - 1.0.6 | 版本1.1.0 | 版本2.0.0 - 2.0.8 | 版本2.1.0 | 版本2.2.0-2.2.0 | 版本2.3.0-2.3.2 | 版本2.4.0 | 版本2.5.0 | 版本2.6.0 | 版本2.7.0-2.8.0 | 版本2.9.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[頁面](components/page.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[標題](components/title.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[影像](components/image.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[清單](components/list.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[階層連結](components/breadcrumb.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[社交媒體分享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[來自容器](components/forms/form-container.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[表單文字](components/forms/form-text.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[表單選項](components/forms/form-options.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[已隱藏的表單](components/forms/form-hidden.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[表單按鈕](components/forms/form-button.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[內容片段](components/content-fragment-component.md)** |  | 沙盤 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1,v2 | v1,v2 |
+| **[導覽](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[語言導覽](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[快速搜尋](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[索引標籤](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[傳送](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[分隔符號](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[內容片段清單](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[折疊式面板](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[按鈕](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[下載](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[體驗片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[內嵌](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[進度列](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 版本與發行 {#versions-and-releases}
 
