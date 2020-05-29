@@ -2,7 +2,10 @@
 title: 核心元件簡介
 description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
 translation-type: tm+mt
-source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 27%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
 
 |  |  |
 |---|---|
-| 生產就緒 | 核心元件是27種強穩的元件，經過良好測試、廣泛使用，而且效能良好。 |
+| 生產就緒 | 核心元件是28種強穩的元件，經過良好測試、廣泛使用，而且效能良好。 |
 | 雲端就緒 | 不論是 [在AEM做為雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、在 [Adobe Managed Services上](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，還是在內部部署，都只能運作。 |
 | 多功能 | 這些元件代表一般概念，作者可用這些概念組合幾乎任何版面。 |
 | 可配置 | 範本層級 [的內容原則](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定義頁面作者可使用或不可使用的功能。 |
@@ -68,6 +71,7 @@ source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
 * [內嵌](components/embed.md)
 * [社交媒體分享](components/sharing.md)
 * [分隔符號](components/separator.md)
+* [進度列](components/progress-bar.md)
 
 ### 容器元件 {#container-components}
 
@@ -96,9 +100,9 @@ source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
 
 ## 系統需求 {#system-requirements}
 
-| 核心元件 | AEM 雲端服務 | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | 馬文 |
----------|---------|---------|---------|---------|---------|---------
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 持續 | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
+| 核心元件 | AEM 雲端服務 | AEM 6.5 | AEM 6.4 | Java SE | 馬文 |
+---------|---------|---------|---------|---------|---------
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 持續 | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 如需舊版核心元件的需求，請參閱核 [心元件版本](versions.md)。
 
