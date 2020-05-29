@@ -2,26 +2,43 @@
 title: 標籤元件
 description: 「標籤元件」允許建立多個標籤，以在頁面上排列內容。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
 
-# 標籤元件
+# 標籤元件 {#tabs-component}
 
 核心元件標籤元件可讓內容組織到多個標籤上。
 
 ## 使用狀況 {#usage}
 
-「標籤元件」可讓內容作者在多個標籤中組織頁面內容。
+標籤元件可讓內容作者在多個標籤中組織頁面內容。
 
 編輯 [對話方塊](#edit-dialog) ，可讓內容作者定義多個標籤，並設定作用中的標籤。 使用設 [計對話框](#design-dialog)，範本作者可以定義哪些元件可以添加到頁籤並定制樣式。
 
->[!NOTE]
+>[!TIP]
 >
 >支援巢狀標籤元件（標籤內的標籤）。
 >
 >使用內容樹可以定位／選擇簡單（非巢狀）標籤元 [件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)，但巢狀標籤不可以。
+
+## 面板的深層連結 {#deep-linking}
+
+標籤和收合 [](accordion.md) 式元件支援直接連結至元件內的面板。
+
+要執行此操作：
+
+1. 使用頁面編輯器中的「以發佈方式 **[檢視」選項](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**，檢視包含元件的頁面。
+1. 檢查頁面內容並識別面板的ID。
+   * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. ID會成為您可使用雜湊(`#`)附加至URL的錨點。
+   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+
+瀏覽至以面板ID為錨點的URL時，瀏覽器會直接捲動至特定元件並顯示指定的面板。 如果面板配置為預設不展開，則會自動展開。
 
 ## 版本與相容性 {#version-and-compatibility}
 
@@ -29,9 +46,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -51,7 +68,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 項目標籤 {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.16.png)
+![頁籤元件的編輯對話框項頁籤](/help/assets/tabs-edit-items.png)
 
 使用「 **新增** 」按鈕開啟元件選擇器，以選擇要新增為標籤的元件。 新增後，會將一個項目新增至清單，其中包含下列欄：
 
@@ -66,13 +83,18 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.32.png)
+![頁籤元件的編輯對話框屬性頁籤](/help/assets/tabs-edit-properties.png)
 
-在「屬 **性** 」標籤上，內容作者可定義載入頁面時作用中的標籤。 使用「預 **設** 」選項，將選取第一個標籤。
+* **作用中項目** -內容作者可以定義載入頁面時作用中的標籤。
+   * 使用「預 **設** 」選項，將選取第一個標籤。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ### 「輔助工具」頁籤 {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.40.png)
+![頁籤元件的編輯對話框輔助功能頁籤](/help/assets/tabs-edit-accessibility.png)
 
 在「協 **助工具** 」標籤上，可為元件的 [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA協助工具標籤設定值。
 
@@ -82,14 +104,14 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 內容作者可使用元件工具列上的「選取面板 **** 」選項，變更為不同的面板進行編輯，並輕鬆重新排列標籤順序。
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![選取面板圖示](/help/assets/select-panel-icon.png)
 
 在元件工 **具列中選取「選取面板** 」選項後，所設定的標籤會顯示為下拉式清單。
 
 * 清單按指定的制表符排列，並反映在編號中。
 * 頁籤的元件類型將首先顯示，然後以更亮的字型顯示頁籤的說明。
 
-![](/help/assets/screenshot_2018-10-11at165154.png)
+![選取面板快顯視窗](/help/assets/select-panel-popover.png)
 
 * 點選或按一下下拉式清單中的項目，將編輯器中的檢視切換至該標籤。
 * 通過使用拖曳控制點，可以就地重新排列這些標籤。
