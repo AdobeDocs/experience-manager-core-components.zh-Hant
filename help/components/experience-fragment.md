@@ -2,7 +2,10 @@
 title: 體驗片段元件
 description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 0%
 
 ---
 
@@ -33,14 +36,14 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * 如需體驗片段元件的本地化功能如何運作的範例，請參 [閱下節](#example)。
 * 如需核心元件的本地化功能如何搭配運作的範例，請參閱核 [心元件的本地化功能頁面](/help/get-started/localization.md)。
 
-### 例如 {#example}
+### 範例 {#example}
 
 假設您的內容看起來像這樣：
 
 ```
 /content
 +-- experience-fragments
-   \-- we-retail
+   \-- wknd
       +-- language-masters
       +-- us
          +-- en
@@ -59,7 +62,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          \-- it
             +-- footerTextXf
             \-- headerTextXf
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -72,11 +75,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 \-- wknd-shop
 ```
 
-請注意，下面的 `/content/experience-fragments/we-retail` 結構與的結構相 `/content/we-retail`反。
+請注意，下面的 `/content/experience-fragments/wknd` 結構與的結構相 `/content/wknd`反。
 
-在此例中，如果「體驗片段」元 `/content/experience-fragments/we-retail/us/en/footerTextXf` 件放置在範本上，則根據該範本建立的本地化頁面會自動呈現與本地化內容頁面相對應的本地化體驗片段。
+在此例中，如果「體驗片段」元 `/content/experience-fragments/wknd/us/en/footerTextXf` 件放置在範本上，則根據該範本建立的本地化頁面會自動呈現與本地化內容頁面相對應的本地化體驗片段。
 
-因此，如果您導覽至使用相同范 `/content/we-retail/ch/de` 本之下的內容頁面，將 `/content/experience-fragments/we-retail/ch/de/footerTextXf` 會呈現而非呈現 `/content/experience-fragments/we-retail/us/en/footerTextXf`。
+因此，如果您導覽至使用相同范 `/content/wknd/ch/de` 本之下的內容頁面，將 `/content/experience-fragments/wknd/ch/de/footerTextXf` 會呈現而非呈現 `/content/experience-fragments/wknd/us/en/footerTextXf`。
 
 ### 備援 {#fallback}
 
@@ -93,9 +96,9 @@ Experience Fragment元件的目前版本為v1，此版本於2019年9月隨核心
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -113,16 +116,22 @@ Experience Fragment元件的目前版本為v1，此版本於2019年9月隨核心
 
 「設定」對話方塊可讓內容作者選取應在頁面上呈現的體驗片段變數。
 
-![](/help/assets/screen-shot-2019-08-23-10.49.21.png)
+![體驗片段元件的編輯對話方塊](/help/assets/experience-fragment-edit.png)
 
 使用「開 **啟選擇對話方塊** 」按鈕，開啟元件選擇器以選擇要新增至內容頁面的體驗片段元件變數。
 
 如果您將體驗片段元件新增至範本，請注意，如果體驗片段已本地化，則會自動本地化，因此頁面上呈現的內容可能會與您明確選取的元件有所不同。 [如需詳細資訊](#example) ，請參閱上述範例。
 
+您也可以定義 **ID**。 此選項可讓您控制HTML和資料層中元件的唯一識 [別碼](/help/developing/data-layer/overview.md)。
+
+* 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+* 如果指定ID，則作者有責任確保其唯一性。
+* 變更ID可能會影響CSS、JS和資料圖層追蹤。
+
 ## 設計對話框 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者可用的選項，內容作者使用體驗片段元件，以及放置體驗片段元件時設定的預設值。
 
-![](/help/assets/screen-shot-2019-08-23-10.48.36.png)
+### 樣式標籤 {#styles-tab}
 
 「體驗片段」元件支援AEM [Style系統](/help/get-started/authoring.md#component-styling)。
