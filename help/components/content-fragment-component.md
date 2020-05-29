@@ -2,7 +2,10 @@
 title: 內容片段元件
 description: 核心元件內容片段元件允許顯示內容片段。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 2%
 
 ---
 
@@ -29,9 +32,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 >[!NOTE]
 >
@@ -61,14 +64,19 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 設定對話方塊可讓內容作者定義要包含的內容片段和該片段的元素。
 
-![](/help/assets/chlimage_1-87.png)
+### 屬性標籤 {#properties-tab}
+
+![內容片段元件](/help/assets/content-fragment-edit-properties.png)
 
 * **內容片段**
 
    * 所需內容片段的路徑
    * 「選 **擇對話框** 」可用於定位片段
 
-* **元素** -要包含的內容片段元素
+* **顯示模式**
+   * **單一文字元素** -啟用選取一個多行文字元素並啟用段落控制選項
+   * **多元素** -允許選取選取內容片段的一或多個元素
+* **元素** -要包含的內容片段的元素
 * **Variation** —— 要使用的內容片段變數(預設為 **Master**)
 
 * **段落**
@@ -78,18 +86,25 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
       * 指定應顯示的段落範圍，以分號分隔
       * 例 `1;3-5;7;9-*` 如包括1、3至5、7、9至最後段落
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
+### 段落控制標籤 {#paragraph-control-tab}
+
+當選取「多元素」模式 **時，此標籤不** 可用。
+
+![內容片段元件](/help/assets/content-fragment-edit-paragraph.png)
+
+* **段落** -允許選擇所有段落或範圍
 * **將標題當做自己的段落處理**
 
 ## 設計對話框 {#design-dialog}
 
 設計對話框允許模板作者定義用於處理混合媒體影像和自適應網格的資源類型。
 
-![](/help/assets/chlimage_1-88.png)
-
-* **混合媒體影像類型**
-
-   * 用於呈現混合媒體影像的 Sling 資源類型
+![內容片段元件的設計對話方塊](/help/assets/content-fragment-design.png)
 
 * **內部回應式格線**
 
