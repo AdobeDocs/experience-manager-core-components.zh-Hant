@@ -2,7 +2,10 @@
 title: 下載元件
 description: 核心元件下載元件可讓您在頁面上建立下載選項。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +27,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -44,7 +47,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 「設定」對話方塊可讓內容作者定義下載項目，以及該項目的行為和顯示方式，讓頁面的訪客檢視。
 
-![](/help/assets/screen-shot-2019-06-17-09.49.14.png)
+![「下載元件」編輯對話方塊的「資產」標籤](/help/assets/download-edit-asset.png)
 
 ### 資產標籤 {#asset-tab}
 
@@ -57,7 +60,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab}
 
-![](/help/assets/screen-shot-2019-06-17-09.49.51.png)
+![下載元件編輯對話框的屬性頁籤](/help/assets/download-edit-properties.png)
 
 * **Title** —— 顯示為下載項目的標題
    * **從DAM資產取得標題** -選取此選項時，標題會自動填入DAM資產的標題。
@@ -66,6 +69,10 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * **動作文字** -顯示為下載項目的動作文字
    * 從檔案系統上傳資產時，此欄位為必填欄位。
    * **顯示內嵌** -選取時，提供的 **動作文字將會內嵌顯示** 。
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ## 設計對話框 {#design-dialog}
 
@@ -73,9 +80,8 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 屬性標籤 {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-06-17-10.04.31.png)
+![下載元件的設計對話方塊](/help/assets/download-design.png)
 
-* **預設動作文字** -定義作者將「下載元件」新 **** 增至頁面時提供的預設動作文字。
 * **允許從檔案系統上傳** -允許內容作者從其本機檔案系統上傳資產作為下載資產。
    * 未選取預設值。
 * **Title Type** —— 用於下載元件標題的HTML元素。
