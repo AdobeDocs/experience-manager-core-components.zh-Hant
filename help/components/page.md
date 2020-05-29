@@ -2,7 +2,10 @@
 title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
+| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
 |---|---|---|---|---|
-| v2 | 相容 | 相容 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/page-v1.md) | 相容 | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
@@ -33,14 +36,6 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 >[!NOTE]
 >
 >若要針對頁 `cq:Page` 面元件和AEM 6.3的第2版啟用重新導向， [需要Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 或更新版本。 舊版中未提供此類重新導向。
-
-## 元件輸出示例 {#sample-component-output}
-
-以下是 [We.Retail的範例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
-
-### 螢幕擷圖 {#screenshot}
-
-![](/help/assets/chlimage_1.png)
 
 ### 技術詳細資訊 {#technical-details}
 
@@ -56,7 +51,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 由於元件代表整個頁面，因此在編輯頁面範本時，可透過「頁面資訊->頁 **面原則** 」存取設計對話方塊。
 
-![](/help/assets/screen_shot_2018-04-03at113410.png)
+![頁面原則](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -66,14 +61,16 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 使用「頁面設計」視窗，您可以定義要載入的用戶端程式庫以及頁面的網頁資源程式庫。
 
-* **Client Libraries**（用戶端程式庫）這會定義要載入的用戶端程式庫類別。 JavaScript會新增至內文結尾，而CSS則會新增至頁面標題。
-* **用戶端程式庫JavaScript頁面標**&#x200B;頭這會定義要載入頁面標頭中的JavaScript用戶端程式庫類別。
+* **Client Libraries** —— 這定義要載入的用戶端程式庫類別。 JavaScript會新增至內文結尾，而CSS則會新增至頁面標題。
+* **用戶端程式庫JavaScript頁面標題** -這會定義要載入頁面標題中的JavaScript用戶端程式庫類別。
    * 此處定義的類別也存在於「用戶端程式庫」 **欄位中** ，其JavaScript將載入頁面標題中，而非載入內文結尾。
    * 除非「用戶端程式庫」欄位中也有類別，否則不會載入 **任何CSS** 。
 
-* **Web資源客戶端庫**&#x200B;用於提供Web資源（如Favicon）的客戶端庫類別。
+* **Web資源客戶端庫** -用於提供Web資源（如Favicon）的客戶端庫類別。
 
-![](/help/assets/screenshot_2018-10-19at104949.png)
+* **跳至主要內容元素選擇器** -用作協助工具功能，可直接跳至頁面的主要內容
+
+![頁面元件設計對話方塊](/help/assets/page-design.png)
 
 可以為「客戶端庫」和「 **客戶端庫** 」「 **** JavaScript頁首」欄位配置庫，如下所示：
 
