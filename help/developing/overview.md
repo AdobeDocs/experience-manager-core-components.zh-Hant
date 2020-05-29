@@ -2,7 +2,10 @@
 title: 開發核心元件
 description: 核心元件提供強穩且可擴充的基本元件，提供豐富的功能、持續傳送、元件版本修訂、現代化實作、精簡的標籤和JSON內容匯出。
 translation-type: tm+mt
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 11%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 
 因此，Adobe提供下列建議：
 
-* **新專案**&#x200B;新專案應一律嘗試使用核心元件。 如果核心元件無法直接使用或 [擴充](customizing.md) ，以符合專案需求，請依照核心元件中所述的元件架構建立自訂元件。 除非其他情況不可能，否則請避免使 [用基礎元件](#foundation-component-support)。
-* **現有的專案**&#x200B;建議會繼續使用 [基礎元件](#foundation-component-support)，除非計畫進行網站或元件重構。\
-   由於它們在大多數現有項目中都非常廣泛地使用，因此將繼 [續支援基礎元件。](#foundation-component-support)
+* **新專案**&#x200B;新專案應一律嘗試使用核心元件。 如果核心元件無法直接使用或 [擴充](customizing.md) ，以符合專案需求，請依照核心元件中所述的元件架構建立自訂元件。 除非其他情況不可能，否則請避免使 [用基礎元件](/help/versions.md#foundation-component-support)。
+* **現有的專案**&#x200B;建議會繼續使用 [基礎元件](/help/versions.md#foundation-component-support)，除非計畫進行網站或元件重構。\
+   由於它們在大多數現有項目中都非常廣泛地使用，因此將繼 [續支援基礎元件。](/help/versions.md#foundation-component-support)
 * **新自訂元件**&#x200B;評估是否可自 [訂現有的核心元件](customizing.md)。\
    如果不是，建議是依照「元件准則」建立新的自 [訂元件](guidelines.md)。
 * **現有自訂元**&#x200B;件：如果您的元件如預期般運作，請依原樣維持元件。\
@@ -50,7 +53,7 @@ source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 
 核心元件是 AEM 不可或缺的一部分，並依照與 Quickstart 所提供相同的條款與條件給予支援。
 
-和其他AEM產品功能一樣，一般規則是：元件會先宣佈不建議使用，並且是下列AEM版本最早移除的元件。 這可讓客戶在放棄支援之前，至少有一個版本週期移至新版本的元件。
+和其他AEM產品功能一樣，一般規則是： 元件會先宣佈不建議使用，並且是下列AEM版本最早移除的元件。 這可讓客戶在放棄支援之前，至少有一個版本週期移至新版本的元件。
 
 每個元件的版本都清楚說明其支援的 AEM 版本。當停止支援 AEM 的單一版本時，核心元件對該 AEM 版本的支援也會停止。
 
@@ -111,6 +114,7 @@ source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 | [下載](https://adobe.com/go/aem_cmp_tech_download_v1) | 新增可下載的資產至頁面 | `-` |
 | [體驗片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [內嵌](https://adobe.com/go/aem_cmp_tech_embed_v1) | 將外部資源內嵌在頁面中 | - |
+| [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以視覺化方式呈現實現目標的進展 | - |
 
 ### 近期元件 {#upcoming-components}
 
