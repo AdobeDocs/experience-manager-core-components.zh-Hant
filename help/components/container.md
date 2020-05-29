@@ -2,7 +2,10 @@
 title: 容器元件
 description: 「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +27,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM As a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |---|---|
+| v1 | 相容 | 相容 | 相容 |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -44,14 +47,17 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 「設定」對話方塊可讓內容作者定義容器項目，以及該項目對頁面訪客的行為和顯示方式。
 
-![](/help/assets/screen-shot-2019-06-21-13.59.26.png)
+![容器元件的編輯對話方塊](/help/assets/container-edit.png)
 
 * **配置** -此選項定義容器元件的行為或配置行為。
    * **Simple** —— 將容器定義為簡單的元件集合
    * **自適應格線** -將容器定義為 [AEM自適應版面](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
-* **ID** —— 使用此選項定義要套用至元件的HTML ID屬性。
 * **背景顏色** -可定義為自由格式的RGB值，或使用檢色器(視 [配置而定)](#background-tab)
 * **背景影像** -定義容器的背景顏色，視 [組態而定](#background-tab)
+* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+   * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
+   * 如果指定ID，則作者有責任確保其唯一性。
+   * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ## 設計對話框 {#design-dialog}
 
@@ -69,13 +75,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 互動式設定標籤 {#responsive-settings-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.33.03.png)
+![容器元件設計對話方塊的回應式設定標籤](/help/assets/container-design-responsive.png)
 
 * **欄** -定義產生容器格線中的欄數。
 
 ### 背景標籤 {#background-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.42.42.png)
+![「容器元件」設計對話框的背景標籤](/help/assets/container-design-background.png)
 
 * **背景影像**
    * **啟用背景影像** -選取此選項可讓內容作者為容器定義背景影像。
