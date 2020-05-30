@@ -2,9 +2,9 @@
 sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
 translation-type: tm+mt
-source-git-commit: afd846b1f124ac9b326e59ff71b145f7b9efeb11
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 64%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 64%
    + [WKND 開發人員教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
-   + [使用Adobe用戶端資料層]{#data-layer}
+   + Adobe用戶端資料層 {#data-layer}
       + [核心元件與Adobe用戶端資料層](developing/data-layer/overview.md)
       + [與Adobe Launch整合](developing/data-layer/launch-integration.md)
       + [與Adobe Analytics整合](developing/data-layer/analytics-integration.md)
