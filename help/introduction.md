@@ -2,9 +2,9 @@
 title: 核心元件簡介
 description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '846'
 ht-degree: 26%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 26%
 | 雲端就緒 | 不論是 [在AEM做為雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、在 [Adobe Managed Services上](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，還是在內部部署，都只能運作。 |
 | 多功能 | 這些元件代表一般概念，作者可用這些概念組合幾乎任何版面。 |
 | 可配置 | 範本層級 [的內容原則](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定義頁面作者可使用或不可使用的功能。 |
+| 可追蹤 | [Adobe用戶端資料層整合](/help/developing/data-layer/overview.md) ，可讓您追蹤訪客體驗的所有方面。 |
 | 易於取得 | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-Fliendly | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | WebApp-Ready | 簡 [化的JSON輸出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，可讓用戶端轉換，但仍可能 [進行內容編輯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
@@ -44,7 +45,6 @@ ht-degree: 26%
 | 版本設定 | 版 [本修訂政策](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可確保核心元件在改善可能影響您的項目時不會中斷您的網站。 |
 | 可本地化 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | 開放來源 | 如果事情不如預期，請 [改進！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
-| 可追蹤 | 主要元件 [與Adobe用戶端資料層整合。](/help/developing/data-layer/overview.md) |
 
 ## 元件 {#the-components}
 
