@@ -2,7 +2,7 @@
 title: 進度列元件
 description: 進度條元件以視覺化方式表示實現目標的進展
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗進度列元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_progress)。
+若要體驗進度列元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_progressbar)。
 
 ### 技術詳細資訊 {#technical-details}
 
