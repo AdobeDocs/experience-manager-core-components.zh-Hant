@@ -2,7 +2,7 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本為2.8.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它已於2019年12月發行，作為2.0.0版的重要更新。 2.0.0版推出新元件，並更新現有元件的v2版。
+目前的核心元件版本為2.9.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它已於2020年5月發行，作為2.0.0版的重要更新。 2.0.0版推出新元件，並更新現有元件的v2版。
 
 ## 發行記錄與相容性 {#release-history-and-compatibility}
 
