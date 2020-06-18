@@ -2,9 +2,9 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1717'
 ht-degree: 25%
 
 ---
@@ -85,6 +85,7 @@ ht-degree: 25%
 | **[體驗片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[內嵌](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[進度列](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+| **[PDF檢視器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 版本與發行 {#versions-and-releases}
 
