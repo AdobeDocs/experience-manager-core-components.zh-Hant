@@ -2,9 +2,9 @@
 title: 開發核心元件
 description: 核心元件提供強穩且可擴充的基本元件，提供豐富的功能、持續傳送、元件版本修訂、現代化實作、精簡的標籤和JSON內容匯出。
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1443'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,8 @@ ht-degree: 11%
    由於它們在大多數現有項目中都非常廣泛地使用，因此將繼 [續支援基礎元件。](/help/versions.md#foundation-component-support)
 * **新自訂元件**&#x200B;評估是否可自 [訂現有的核心元件](customizing.md)。\
    如果不是，建議是依照「元件准則」建立新的自 [訂元件](guidelines.md)。
-* **現有自訂元**&#x200B;件：如果您的元件如預期般運作，請依原樣維持元件。\
+* **現有自訂元**&#x200B;件：如果您的元件如預期般運作，請依原樣維持元件。
+\
    否則，請參閱上述「新自訂元件」。
 
 ## 如何使用核心元件獲得成功 {#how-to-succeed}
@@ -115,6 +116,7 @@ ht-degree: 11%
 | [體驗片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [內嵌](https://adobe.com/go/aem_cmp_tech_embed_v1) | 將外部資源內嵌在頁面中 | - |
 | [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以視覺化方式呈現實現目標的進展 | - |
+| [PDF檢視器](https://adobe.com/go/aem_cmp_tech_pdf_viewer_v1) | 在頁面上呈現PDF檔案 | - |
 
 ### 近期元件 {#upcoming-components}
 
