@@ -2,10 +2,10 @@
 sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 64%
+source-wordcount: '183'
+ht-degree: 63%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 64%
    + [清單](components/list.md)
    + [導覽](components/navigation.md)
    + [頁面](components/page.md)
+   + [PDF檢視器](components/pdf-viewer.md)
    + [進度列](components/progress-bar.md)
    + [快速搜尋](components/quick-search.md)
    + [分隔符號](components/separator.md)
