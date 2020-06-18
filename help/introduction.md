@@ -2,9 +2,9 @@
 title: 核心元件簡介
 description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
 translation-type: tm+mt
-source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 26%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 26%
 * [社交媒體分享](components/sharing.md)
 * [分隔符號](components/separator.md)
 * [進度列](components/progress-bar.md)
+* [PDF檢視器](components/pdf-viewer.md)
 
 ### 容器元件 {#container-components}
 
@@ -104,7 +105,7 @@ ht-degree: 26%
 
 | 核心元件 | AEM 雲端服務 | AEM 6.5 | AEM 6.4 | Java SE | 馬文 |
 ---------|---------|---------|---------|---------|---------
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 持續 | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 持續 | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 如需舊版核心元件的需求，請參閱核 [心元件版本](versions.md)。
 
