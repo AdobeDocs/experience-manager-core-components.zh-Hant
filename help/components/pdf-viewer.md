@@ -2,9 +2,9 @@
 title: PDF檢視器元件
 description: PDF檢視器元件可讓您顯示PDF檔案。
 translation-type: tm+mt
-source-git-commit: 0df759a020020c21d776eb8f45d40cb7aff45cea
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 1%
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗PDF檢視器元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元件 [庫](https://adobe.com/go/aem_cmp_library_pdf_viewer)。
+若要體驗PDF檢視器元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元件 [庫](https://adobe.com/go/aem_cmp_library_pdfviewer)。
 
 ## 技術詳細資訊 {#technical-details}
 
-有關PDF檢視器元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_pdf-viewer_v1)。
+有關PDF檢視器元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](/help/developing/overview.md)。
 
