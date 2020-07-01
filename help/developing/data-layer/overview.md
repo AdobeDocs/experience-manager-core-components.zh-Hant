@@ -2,9 +2,9 @@
 title: 搭配核心元件使用Adobe用戶端資料層
 description: 搭配核心元件使用Adobe用戶端資料層
 translation-type: tm+mt
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 
 1. 在節點下建立以下結 `/conf` 構：
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * 節點類型： `nt:unstructured`
 1. 新增名為的布林屬 `enabled` 性，並將其設為 `true`。
 1. 將屬 `sling:configRef` 性新增至下 `jcr:content` 方網站的節 `/content` 點(例如 `/content/<mySite>/jcr:content`)，並將其設為 `/conf/<mySite>`。
 
