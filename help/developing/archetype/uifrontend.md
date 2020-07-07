@@ -2,7 +2,10 @@
 title: AEM Project Archetype Front-End Build
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
+source-wordcount: '1613'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +32,7 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 當使用所有專案工件（包括ClientLib）執 `mvn clean install -PautoInstallPackage` 行整個AEM專案原型時，就會推送至AEM例項。
 
 >[!TIP]
+>
 >在 [AEM開發檔案中進一步瞭解ClientLibs](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) , [以及ui.frontend模組如何使用](#clientlib-generation)。
 
 ## ClientLibs概觀 {#clientlibs}
@@ -37,11 +41,11 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 ClientLib將包含下列檔案和目錄：
 
-* `css/`:可在HTML中要求的CSS檔案
-* `css.txt`:告訴AEM檔案的順序和名稱， `css/` 以便合併
-* `js/`:可在HTML中要求的JavaScript檔案
+* `css/`: 可在HTML中要求的CSS檔案
+* `css.txt`: 告訴AEM檔案的順序和名稱， `css/` 以便合併
+* `js/`: 可在HTML中要求的JavaScript檔案
 * `js.txt` 告訴AEM檔案的順序和名稱， `js/` 以便合併
-* `resources/`:原始碼地圖、非登入點程式碼區塊（由程式碼分割產生）、靜態資產（例如圖示）等。
+* `resources/`: 原始碼地圖、非登入點程式碼區塊（由程式碼分割產生）、靜態資產（例如圖示）等。
 
 ## 可能的前端開發工作流程 {#possible-workflows}
 
@@ -145,6 +149,7 @@ ui.frontend模組會編譯資料夾下的程式碼， `ui.frontend/src` 並輸�
 * 源映射——僅構建開發
 
 >[!NOTE]
+>
 >前端構建選項利用共用公共配置檔案的僅開發和僅生產webpack配置檔案。 這樣，可以單獨修改開發和生產設定。
 
 ### 用戶端程式庫開發 {#clientlib-generation}
@@ -193,7 +198,7 @@ ui.frontend模組包含webpack-dev-server，可提供即時重新載入，以便
    * 假設定入此檔案的標籤會準確反映AEM元件產生的標籤。
    * 此檔案中的標籤不會自動與AEM元件標籤同步。
    * 此檔案也包含儲存在AEM中的用戶端程式庫參考，例如核心元件CSS和回應式格線CSS。
-   * Webpack開發伺服器的設定是根據中的設定，從本機執行的AEM例項來代理這些CSS/JS `ui.frontend/webpack.dev.js`。
+   * Webpack開發伺服器已設定為根據中的設定，從本機執行的AEM例項來代理這些CSS/JS `ui.frontend/webpack.dev.js`。
 
 #### 使用 {#using-webpack-server}
 
