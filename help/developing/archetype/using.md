@@ -2,7 +2,7 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的詳細使用指示
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 0%
@@ -107,9 +107,11 @@ mvn -B archetype:generate \
 | `includeErrorHandler` | `n` | 包含自訂的404回應頁面，該頁面將會是整個例項的全域(可以是 `y` 或 `n`)。 |
 
 >[!NOTE]
+>
 > 如果原型是第一次在互動模式中執行，則無法變更具有預設值的屬性(如需詳細資訊，請參閱 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) )。 當結束時的屬性確認被拒絕且調查表被重複時，或通過在命令行中傳遞參數(例如， `-DoptionIncludeExamples=n`)。
 
 >[!NOTE]
+>
 >在Windows上運行並生成調度程式配置時，您應在提升的命令提示符或Windows Subsystem for Linux(請參見 [期329](https://github.com/adobe/aem-project-archetype/issues/329))中運行。
 
 ### 設定檔 {#profiles}
