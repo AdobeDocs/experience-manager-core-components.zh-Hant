@@ -2,9 +2,9 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
+source-git-commit: 3136a82a0b523e13227def893d516017873f4365
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1735'
 ht-degree: 25%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本為2.10.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它於2020年6月發行，是2.0.0版的重要更新。 2.0.0版推出新元件，並更新現有元件的v2版。
+目前的核心元件版本為2.11.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它於2020年7月發行，是2.0.0版的重要更新。 2.0.0版推出新元件，並更新現有元件的v2版。
 
 ## 發行記錄與相容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 25%
 
 | 發行 | 說明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 | Java | 發行日期 |
 |---|---|---|---|---|---|---|---|
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本推出AMP支援。 | - | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年7月20日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 本版次推出PDF檢視器元件。 | - | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年6月17日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本可讓您與Adobe用戶端資料層整合，並引入進度列元件。 | - | 6.4.8.0+ | 6.5.4.0+ | 持續 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本的重點是修正及小型增強功能。 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年12月5日 |
