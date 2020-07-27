@@ -1,8 +1,9 @@
 ---
 sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
+user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
+source-git-commit: dc8d63bca14996f230d4f8e68b7706d315955e06
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 64%
