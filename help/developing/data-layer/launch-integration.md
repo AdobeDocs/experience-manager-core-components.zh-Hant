@@ -2,10 +2,10 @@
 title: 使用Adobe用戶端資料層來整合核心元件和Adobe Launch
 description: 如何設定Adobe Launch，以使用Adobe Launch註冊核心元件事件
 translation-type: tm+mt
-source-git-commit: f930a0d6004a29369b189137dd9c52e637ea3a61
+source-git-commit: 85fb3612aed12b7bfdc05f0a569ae7c7364e6121
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 1. 前往AEM首頁，按一下「 **工具->安全性-> Adobe IMS設定」**。
 1. 按一下&#x200B;**建立**。
 1. 身為 **Cloud Solution**，請選 **取Adobe Launch**。
-1. 勾選 **建立新憑證**。
+1. Check **Create new certificate**.
 1. 輸入憑證的別名， **例如aem-launch-certificate**。
 1. 按一 **下「建立憑證** 」，然後在快顯視窗中按一下「 **確定** 」以建立憑證。
 1. 按一 **下「下載公開金鑰** 」，然後在快顯視窗中按一下「 **下載」**。
@@ -150,7 +150,7 @@ AEM若要使用Launch整合，必須將其指派為雲端設定。
 1. 按一 **下屬性**。
 1. 選擇「高 **級** 」頁籤。
 1. 在「 **雲端設定**」中，選取「核心元 **件範例」** ，然後按一 **下「選取**」。
-1. Click **Save &amp; Close**.
+1. 按一下&#x200B;**「儲存並關閉」**。
 
 ### 步驟10 —— 確認啟動邏輯已套用至頁面 {#verify-launch}
 
