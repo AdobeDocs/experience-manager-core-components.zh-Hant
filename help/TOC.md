@@ -3,10 +3,10 @@ sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: dc8d63bca14996f230d4f8e68b7706d315955e06
+source-git-commit: 77123951c73f41f1673c7ca04f3af87f08e73775
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 64%
+source-wordcount: '191'
+ht-degree: 62%
 
 ---
 
@@ -72,10 +72,12 @@ ht-degree: 64%
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
    + [AMP支援](developing/amp.md)
+   + [上下文感知配置](developing/context-aware-configs.md)
    + Adobe用戶端資料層 {#data-layer}
       + [核心元件與Adobe用戶端資料層](developing/data-layer/overview.md)
       + [與Adobe Launch整合](developing/data-layer/launch-integration.md)
       + [與Adobe Analytics整合](developing/data-layer/analytics-integration.md)
+      + [擴充資料層](developing/data-layer/extending.md)
    + AEM Project Archetype {#archetype}
       + [原型概觀](developing/archetype/overview.md)
       + [使用原型](developing/archetype/using.md)
