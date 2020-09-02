@@ -2,10 +2,10 @@
 title: 搭配核心元件使用Adobe用戶端資料層
 description: 搭配核心元件使用Adobe用戶端資料層
 translation-type: tm+mt
-source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '426'
+ht-degree: 4%
 
 ---
 
@@ -24,12 +24,11 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 >
 >如需Adobe用戶端資料層與核心元件整合的詳細技術資訊，請參閱核心元 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 件儲存庫中的檔案。
 
-
 ## 安裝與啟動 {#installation-activation}
 
 從2.9.0版開始，資料層將作為客戶端庫與核心元件一起分發。 不需要安裝。
 
-不過，資料層依預設不會啟動。 若要啟用資料層
+不過，資料層依預設不會啟動。 若要啟用資料層，您必須為其 [建立內容感知組態](/help/developing/context-aware-configs.md) :
 
 1. 在節點下建立以下結 `/conf` 構：
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
