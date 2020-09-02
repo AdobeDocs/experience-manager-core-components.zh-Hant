@@ -2,16 +2,15 @@
 title: PDF檢視器元件
 description: PDF檢視器元件可讓您顯示PDF檔案。
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
 
 # PDF檢視器元件 {#pdf-viewer-component}
-
 
 核心元件PDF檢視器元件可讓PDF檔案包含在頁面上。
 
@@ -40,6 +39,10 @@ ht-degree: 1%
 有關PDF檢視器元件的最新技術文 [件可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)。
 
 有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](/help/developing/overview.md)。
+
+>[!NOTE]
+>
+>PDF檢視器元件運用 [Adobe的Document Services API](https://www.adobe.io/apis/documentcloud/dcsdk.html) ，並要求您的管理員設定內容 [感知設定](/help/developing/context-aware-configs.md) ，以使用這些服務。 有關此配置的詳細資訊，請查看組 [件的技術文檔。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## 配置對話框 {#configure-dialog}
 
@@ -70,18 +73,18 @@ ht-degree: 1%
 ![PDF檢視器元件編輯對話方塊的自訂標籤完整視窗選項](/help/assets/pdf-viewer-edit-customize-full.png)
 
 * **預設檢視模式** -檢視器在顯示頁面時的大小
-   * 最適頁面
-   * 最適寬度
+   * 符合頁面
+   * 符合寬度
 * **全螢幕** -啟用後，檢視器將佔用檢視區的全高／寬度。
 * **注釋工具** -啟用後，注釋工具可用。
 * **左側面板** -啟用後，會顯示左側面板。
 * **下載PDF** —— 啟用後，會顯示下載按鈕。
 * **列印PDF** —— 啟用時，會顯示列印按鈕。
 * **頁面控制項** -切換頁面控制項的行為。
-   * Dock
-   * 取消停靠
+   * 固定
+   * 取消固定
 
-#### 大小容器 {#sized-container}
+#### 已調整大小的容器 {#sized-container}
 
 檢視區域會在完整瀏覽器中呈現。 這最適合儲存和生產力應用程式。
 
@@ -91,10 +94,10 @@ ht-degree: 1%
 * **下載PDF** —— 啟用後，會顯示下載按鈕。
 * **列印PDF** —— 啟用時，會顯示列印按鈕。
 * **頁面控制項** -切換頁面控制項的行為。
-   * Dock
-   * 取消停靠
+   * 固定
+   * 取消固定
 
-#### In-Line {#in-line}
+#### 內嵌 {#in-line}
 
 在網頁中以行形呈現的所有PDF頁面。 這最適合用來讀取應用程式。
 
