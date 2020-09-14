@@ -2,7 +2,10 @@
 title: AEM Project Archetype
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
+source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 3%
 
 ---
 
@@ -18,18 +21,18 @@ AEM Project Archetype是Maven範本，可建立以最簡化、最佳實務為基
 ## 資源 {#resources}
 
 * **原型檔案（本檔案）:** 總結了原型體系結構及其不同模組。
-   * **[使用原型：](using.md)**有關使用原型和可用模組的詳細資訊
-   * **[ui.frontend:](uifrontend.md)**如何使用前端構建模組
+   * **[使用原型：](using.md)** 有關使用原型和可用模組的詳細資訊
+   * **[ui.frontend:](uifrontend.md)** 如何使用前端構建模組
 * 以下教學課程是以此原型為基礎：
-   * **[WKND網站：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**瞭解如何開始建立全新的網站。
-   * **[WKND單頁應用程式：](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)**瞭解如何建立可在AEM中完全授權的React或Angular網路應用程式。
+   * **[WKND網站：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 瞭解如何開始建立全新的網站。
+   * **[WKND單頁應用程式：](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** 瞭解如何建立可在AEM中完全授權的React或Angular網路應用程式。
 
 ## 功能 {#features}
 
 * **最佳實務：** 使用所有Adobe建議的最新實務引導您的網站。
 * **低程式碼：** 編輯範本、建立內容、部署CSS，讓您的網站可上線使用。
 * **雲端就緒：** 視需要， [將AEM當做雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) ，在數天內上線，並輕鬆擴充和維護。
-* **Dispatcher:** 專案只有使用 [Dispatcher組態才能完成](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html) ，以確保速度和安全性。
+* **Dispatcher:** 專案只有使用 [Dispatcher組態才能完成](https://docs.adobe.com/content/help/zh-Hant/experience-manager-dispatcher/using/dispatcher.html) ，以確保速度和安全性。
 * **多網站：** 如果需要，原型生成多語言和多 [區域設定的內容結構](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/msm.html)。
 * **核心元件：** 作者幾乎可以使用我們的多功能標準元件集 [來建立任何版面](/help/introduction.md)。
 * **可編輯的範本：** 組合幾乎任何 [範本，毋需編寫程式碼](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，並定義作者可編輯的項目。
@@ -60,7 +63,7 @@ mvn -B archetype:generate \
 
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
    為 `aemVersion=6.5.0` Adobe Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，或內部部署設定。
-「核心元件」相依性僅會針對非雲端版本新增，因為「核心元件」是以CloudService形式提供給AEM的OOTB。
+「核心元件」相依性僅會針對非雲端版本新增，因為「核心元件」是以雲端服務形式提供給AEM的OOTB。
 * 調整 `appTitle="My Site"` 以定義網站標題和元件群組。
 * 調整 `appId="mysite"` 以定義Maven artifactId、元件、設定和內容資料夾名稱，以及用戶端程式庫名稱。
 * 調整 `groupId="com.mysite"` 以定義Maven groupId和Java Source Package。
@@ -79,17 +82,21 @@ mvn -B archetype:generate \
 | `aemVersion` | `6.5.0` | Target AEM版本(可以 `cloud` 用 [於AEM做為雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);或 `6.5.0`Adobe `6.4.4`Managed Services `6.3.3` 或內部部署 [的Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) ，則不適用於此)。 |
 | `sdkVersion` | `latest` | 當可 `aemVersion=cloud` 以指 [定SDK版本時](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (例如 `2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 包含針對雲或AMS/on-premise的調度程式配置，具體取決於 `aemVersion` (可以是 `y` 或 `n`)。 |
-| `frontendModule` | `none` | 包含Webpack前端構建模組，用於生成客戶端庫(可以是常規 `general` 站點 `none` 或常規站點；可以是實 `angular` 作 `react` SPA編輯器的單頁應用程 [式](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html))。 |
+| `frontendModule` | `none` | 包含Webpack前端構建模組，用於生成客戶端庫(可以是常規 `general` 站點 `none` 的客戶端庫；可以是實 `angular` 作 `react` SPA編輯器的單頁應用程 [式](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html))。 |
 | `languageCountry` | `en_us` | 語言和國家／地區程式碼，以建立內容結構(例如 `en_us`)。 |
 | `singleCountry` | `y` | 包含語言主版內容結構(可 `y`以是 `n`或)。 |
 | `includeExamples` | `y` | 包含元 [件庫](https://www.aemcomponents.dev/) (可以 `y`是或 `n`)示例站點。 |
 | `includeErrorHandler` | `n` | 包含自訂的404回應頁面，該頁面將會是整個例項的全域(可以是 `y` 或 `n`)。 |
+| `includeCommerce` | `n` | 包括 [CIF核心元件相依性](https://github.com/adobe/aem-core-cif-components) ，並生成相應的對象。 |
+| `commerceEndpoint` |  | 僅CIF必需。 要使用的商務系統GraphQL服務的可選端點(例如 `https://hostname.com/grapql`)。 |
+| `datalayer` | `y` | 啟動與 [Adobe用戶端資料層的整合](/help/developing/data-layer/overview.md)。 |
+| `amp` | `n` | 啟用 [AMP](/help/developing/amp.md) ，支援產生的專案範本。 |
 
 ## 系統需求
 
-| 原型 | AEM 雲端服務 | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | 馬文 |
+| 原型 | AEM 雲端服務 | AEM 6.5 | AEM 6.4 | Java SE | 馬文 |
 ---------|---------|---------|---------|---------|---------|---------
-| [23](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-23) | 持續 | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
+| [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | 持續 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 將您的本機開發環境設 [定為AEM(Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) )或 [舊版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
 
