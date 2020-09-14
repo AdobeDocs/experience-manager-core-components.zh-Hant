@@ -2,7 +2,7 @@
 title: AEM Project Archetype
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 3%
@@ -95,7 +95,7 @@ mvn -B archetype:generate \
 ## 系統需求
 
 | 原型 | AEM 雲端服務 | AEM 6.5 | AEM 6.4 | Java SE | 馬文 |
----------|---------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | 持續 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 將您的本機開發環境設 [定為AEM(Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) )或 [舊版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
