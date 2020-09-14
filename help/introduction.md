@@ -1,11 +1,11 @@
 ---
 title: 核心元件簡介
-description: '以最新技術和最佳實務為基礎，核心元件的引入提供了既強大又可擴充的基本元件。 '
+description: '核心元件提供強穩且可擴充的基本元件，以最新技術和最佳實務為基礎。 '
 translation-type: tm+mt
-source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
+source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 27%
+source-wordcount: '861'
+ht-degree: 25%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 27%
 | 可追蹤 | [Adobe用戶端資料層整合](/help/developing/data-layer/overview.md) ，可讓您追蹤訪客體驗的所有方面。 |
 | 易於取得 | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-Fliendly | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
-| WebApp-Ready | 簡 [化的JSON輸出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，可讓用戶端轉換，但仍有可 [能進行內容編輯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
+| WebApp-Ready | 簡 [化的JSON輸出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，可讓用戶端轉換，但仍可能 [進行內容編輯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP支援 | 這些元件內建了AMP標 [準支援，可加速您的行動](/help/developing/amp.md) 體驗。 |
 | 設計套件 | Adobe XD [的UI套件](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) ，可讓設計人員建立線框，並視需 [要設定樣式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。 |
 | Themeable | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
