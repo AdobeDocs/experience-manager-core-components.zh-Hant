@@ -2,10 +2,10 @@
 title: 搭配核心元件使用Adobe用戶端資料層
 description: 搭配核心元件使用Adobe用戶端資料層
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 
 元件／容器項方案定義如下。
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+下列事 [件與](#events) 「元件／容器項目」結構相關：
+
+* `cmp:click`
 
 ### 頁面結構 {#page}
 
@@ -78,7 +81,7 @@ id: {                   // component ID
 
 頁面結構定義如下。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ Container架構由下列元件使用：
 
 容器結構描述的定義如下。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+下列事 [件](#events) ，與容器架構相關：
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### 影像結構 {#image}
 
 以下元件使用映像模式：
@@ -125,7 +134,7 @@ id: {
 
 映像模式定義如下。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+下列事 [件](#events) ，與影像架構相關：
+
+* `cmp:click`
+
 ### 資產結構 {#asset}
 
 Asset架構用於 [Image元件內。](/help/components/image.md)
 
 資產結構定義如下。
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+以下事 [件與](#events) 「資產」結構相關：
+
+* `cmp:click`
+
+## 事件 {#events}
+
+資料層會觸發許多事件。
+
+* **`cmp:click`** -按一下可點按的元素(具有屬性的元 `data-cmp-clickable` 素)會使資料層觸發事 `cmp:click` 件。
+* **`cmp:show`** 和 **`cmp:hide`** -控制accordion（展開／收合）、轉盤（下一個／上一個按鈕）和標籤（標籤選擇）元件會分別觸發資料層和 `cmp:show` 事件 `cmp:hide` 。
+* **`cmp:loaded`** -當資料層填入頁面上的核心元件時，資料層就會觸發事 `cmp:loaded` 件。
+
+### 元件觸發的事件 {#events-components}
+
+下表列出觸發事件的標準核心元件以及這些事件。
+
+| 元件 | 事件 |
+|---|---|
+| [導覽](/help/components/navigation.md) | `cmp:click` |
+| [語言導覽](/help/components/language-navigation.md) | `cmp:click` |
+| [階層連結](/help/components/breadcrumb.md) | `cmp:click` |
+| [按鈕](/help/components/button.md) | `cmp:click` |
+| [傳送](/help/components/carousel.md) | `cmp:show`與`cmp:hide` |
+| [索引標籤](/help/components/tabs.md) | `cmp:show`與`cmp:hide` |
+| [折疊式面板](/help/components/accordion.md) | `cmp:show`與`cmp:hide` |
