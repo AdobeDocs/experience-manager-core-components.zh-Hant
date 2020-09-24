@@ -2,7 +2,7 @@
 title: AMP對核心元件的支援
 description: 核心元件支援AMP —— 加速行動頁面
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Core Components會使 `amp` 用做Sling選擇器來轉譯AMP頁面。 例如， 
 
 ### CSS需求 {#css-requirements}
 
-當搭配核心元件使用AMP時，主要的不同點是AMP要求所有CSS都內嵌在元素中， `<head>` 而且必須最佳化。
+當搭配核心元件使用AMP時，主要的不同點是AMP要求所有 [CSS都內嵌在元素中](including-clientlibs.md#inlining) , `<head>` 而且必須最佳化。
 
 為支援此功能，會使用自訂的頁面元件，僅載入頁面上所顯示元件的AMP專用CSS。
 
