@@ -2,9 +2,9 @@
 title: AEM Project Archetype Front-End Build
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 >[!TIP]
 >
->在 [AEM開發檔案中進一步瞭解ClientLibs](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) , [以及ui.frontend模組如何使用](#clientlib-generation)。
+>在 [AEM開發檔案中進一步瞭解AEM如何處理ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)、如何加 [入Client](/help/developing/including-clientlibs.md)，或 [在下方查看ui.frontend模組的使用方式。](#clientlib-generation)
 
 ## ClientLibs概觀 {#clientlibs}
 
@@ -41,11 +41,11 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 ClientLib將包含下列檔案和目錄：
 
-* `css/`: 可在HTML中要求的CSS檔案
-* `css.txt`: 告訴AEM檔案的順序和名稱， `css/` 以便合併
-* `js/`: 可在HTML中要求的JavaScript檔案
+* `css/`:可在HTML中要求的CSS檔案
+* `css.txt`:告訴AEM檔案的順序和名稱， `css/` 以便合併
+* `js/`:可在HTML中要求的JavaScript檔案
 * `js.txt` 告訴AEM檔案的順序和名稱， `js/` 以便合併
-* `resources/`: 原始碼地圖、非登入點程式碼區塊（由程式碼分割產生）、靜態資產（例如圖示）等。
+* `resources/`:原始碼地圖、非登入點程式碼區塊（由程式碼分割產生）、靜態資產（例如圖示）等。
 
 ## 可能的前端開發工作流程 {#possible-workflows}
 
@@ -68,7 +68,7 @@ ClientLib將包含下列檔案和目錄：
 
 ### 使用Storybook {#using-storybook}
 
-使用 [Storybook](https://storybook.js.org) ，您就可以執行更多原子前端開發。 雖然Storybook未包含在AEM Project Archetype中，但您可以將它安裝並儲存在ui.frontend模組中的Storybook檔案。 當準備好在AEM中進行測試時，您可以執行這些測試，將其部署為ClientLibs `npm run dev`。
+使用 [Storybook](https://storybook.js.org) ，您就可以執行更多原子前端開發。 雖然Storybook未包含在AEM Project Archetype中，但您可以將它安裝並儲存在ui.frontend模組中的Storybook檔案。 當準備好在AEM中進行測試時，您可以執行這些測試，將它們部署為ClientLibs `npm run dev`。
 
 >[!NOTE]
 >
@@ -198,7 +198,7 @@ ui.frontend模組包含webpack-dev-server，可提供即時重新載入，以便
    * 假設定入此檔案的標籤會準確反映AEM元件產生的標籤。
    * 此檔案中的標籤不會自動與AEM元件標籤同步。
    * 此檔案也包含儲存在AEM中的用戶端程式庫參考，例如核心元件CSS和回應式格線CSS。
-   * Webpack開發伺服器已設定為根據中的設定，從本機執行的AEM例項來代理這些CSS/JS `ui.frontend/webpack.dev.js`。
+   * Webpack開發伺服器的設定是根據中的設定，從本機執行的AEM例項來代理這些CSS/JS `ui.frontend/webpack.dev.js`。
 
 #### 使用 {#using-webpack-server}
 
