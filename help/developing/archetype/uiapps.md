@@ -2,7 +2,7 @@
 title: AEM Project Archetype的ui.apps模組
 description: AEM Project Archetype的ui.apps模組
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # AEM Project Archetype的ui.apps模組 {#uiapps-module}
 
-ui.apps maven模組(`<src-directory>/<project>/ui.apps`)包含網站下方所需的所有轉譯程式碼 `/apps`。 這包括將儲存為AEM格式（稱為clientlibs）的CSS/JS。 這也包含用於轉譯動態HTML的HTL指令碼。 您可以將ui.apps模組視為JCR中結構的映射，但格式可儲存在檔案系統並提交至來源控制項。
+ui.apps maven模組(`<src-directory>/<project>/ui.apps`)包含網站下方所需的所有轉譯程式碼 `/apps`。 這包括將儲存為AEM格式（稱為clientlibs）的CSS/JS [。](uifrontend.md#clientlibs) 這也包含用於轉譯動態HTML的HTL指令碼。 您可以將ui.apps模組視為JCR中結構的映射，但格式可儲存在檔案系統並提交至來源控制項。
 
 Apache Jackrabbit FileVault Package外掛程式可用來將ui.apps模組的內容編譯為可部署至AEM的AEM套件。 外掛程式的全域組態是在pom.xml父項中定義。
 
