@@ -2,21 +2,21 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: 3136a82a0b523e13227def893d516017873f4365
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 25%
+source-wordcount: '1681'
+ht-degree: 23%
 
 ---
 
 
 # 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本為2.11.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它於2020年7月發行，是2.0.0版的重要更新。 2.0.0版推出新元件，並更新現有元件的v2版。
+目前的核心元件版本為2.11.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它於2020年7月發行，是2.0.0版的重要更新。2.0.0版推出新元件，並更新現有元件的v2版。
 
 ## 發行記錄與相容性 {#release-history-and-compatibility}
 
-核心元件最初是隨AEM 6.3發行，其設計是有彈性且與所有支援的AEM版本相容。 因此，某個版本的元件可以包含相同元件的多個版本。
+核心元件設計為彈性且與所有支援的AEM版本相容。 因此，某個版本的元件可以包含相同元件的多個版本。
 
 下表說明了核心元件版本的相容性以及包含哪些版本的元件版本。
 
@@ -24,30 +24,30 @@ ht-degree: 25%
 
 下表提供完整版本詳細資 [訊的GitHub內容](https://github.com/adobe/aem-core-wcm-components/releases)，其中概述核心元件的發行版本及其與AEM版本和Java版本的相容性。
 
-| 發行 | 說明 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 | Java | 發行日期 |
-|---|---|---|---|---|---|---|---|
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本推出AMP支援。 | - | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年7月20日 |
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 本版次推出PDF檢視器元件。 | - | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年6月17日 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本可讓您與Adobe用戶端資料層整合，並引入進度列元件。 | - | 6.4.8.0+ | 6.5.4.0+ | 持續 | 8, 11 | 2020年5月29日 |
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本的重點是修正及小型增強功能。 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年12月5日 |
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 本版次推出新的內嵌元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年9月25日 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本推出新的Experience Fragment元件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年9月6日 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引進了新的Accordion、Button、Container和Download元件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年6月25日 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入內容片段清單元件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年5月7日 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本主要針對元件庫的調整，但也包含分隔符號元件的一些功能增強功能 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 持續 | 8 | 2019年3月14日 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本主要針對元件庫以及新的分隔元件，但也包含一些影像元件的增強功能 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2019年2月11日 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要針對錯誤修正，但也包含Carousel元件的一些功能增強功能 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2018年11月27日 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 引入標籤和轉盤元件、影像、頁面和標題元件的改進，以及增強的追蹤功能 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2018年10月16日 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 引入摘要元件、影像元件改良和許多錯誤修正 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2018年7月13日 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 錯誤修正版本 | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018年6月12日 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 其他幕後改良功能、錯誤修正和小幅改良功能，包括支援影像翻轉。 | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018年4月11日 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 主要是內在改良功能、錯誤修正，以及對影像、頁面和內容片段元件進行一些小幅度改良 | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018年3月7日 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 引入導覽、語言導覽和快速搜尋元件。 為所有元件實作樣式系統。 | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 2018年1月16日 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 在所有元件上實作JSON匯出，內容片段元件簡介 | 6.3.1.0 | 6.4.0.0+ | - | - | 8 | 2017年10月10日 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 影像元件的數項修正 | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 2017年8月4日 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 頁面元件、影像元件、各種全域修正與改良的修正 | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 2017年4月26日 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 影像元件中GIF動畫影像的修正 | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 2017年3月22日 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心元件的初次發行 | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 2017年3月20日 |
+| 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 | Java | 發行日期 |
+|---|---|---|---|---|---|---|
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本推出AMP支援。 | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年7月20日 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 本版次推出PDF檢視器元件。 | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年6月17日 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本可讓您與Adobe用戶端資料層整合，並引入進度列元件。 | 6.4.8.0+ | 6.5.4.0+ | 持續 | 8, 11 | 2020年5月29日 |
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本的重點是修正及小型增強功能。 | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年12月5日 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 本版次推出新的內嵌元件 | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年9月25日 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本推出新的Experience Fragment元件 | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年9月6日 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引進了新的Accordion、Button、Container和Download元件。 | 6.4.2.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年6月25日 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入內容片段清單元件 | 6.4.2.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年5月7日 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本主要針對元件庫的調整，但也包含分隔符號元件的一些功能增強功能 | 6.4.2.0+ | 6.5.0.0+ | 持續 | 8 | 2019年3月14日 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本主要針對元件庫以及新的分隔元件，但也包含一些影像元件的增強功能 | 6.4.2.0+ | - | - | 8 | 2019年2月11日 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要針對錯誤修正，但也包含Carousel元件的一些功能增強功能 | 6.4.2.0+ | - | - | 8 | 2018年11月27日 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 引入標籤和轉盤元件、影像、頁面和標題元件的改進，以及增強的追蹤功能 | 6.4.2.0+ | - | - | 8 | 2018年10月16日 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 引入摘要元件、影像元件改良和許多錯誤修正 | 6.4.2.0+ | - | - | 8 | 2018年7月13日 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 錯誤修正版本 | 6.4.0.0+ | - | - | 8 | 2018年6月12日 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 其他幕後改良功能、錯誤修正和小幅改良功能，包括支援影像翻轉。 | 6.4.0.0+ | - | - | 8 | 2018年4月11日 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 主要是內在改良功能、錯誤修正，以及對影像、頁面和內容片段元件進行一些小幅度改良 | 6.4.0.0+ | - | - | 8 | 2018年3月7日 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 引入導覽、語言導覽和快速搜尋元件。 為所有元件實作樣式系統。 | 6.4.0.0+ | - | - | 8 | 2018年1月16日 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 在所有元件上實作JSON匯出，內容片段元件簡介 | 6.4.0.0+ | - | - | 8 | 2017年10月10日 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 影像元件的數項修正 | 6.4.0.0+ | - | - | 8 | 2017年8月4日 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 頁面元件、影像元件、各種全域修正與改良的修正 | 6.4.0.0+ | - | - | 8 | 2017年4月26日 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 影像元件中GIF動畫影像的修正 | 6.4.0.0+ | - | - | 7 | 2017年3月22日 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心元件的初次發行 | 6.4.0.0+ | - | - | 7 | 2017年3月20日 |
 
 >[!NOTE]
 >
@@ -133,6 +133,6 @@ ht-degree: 25%
 
 ## 基礎元件支援 {#foundation-component-support}
 
-由於基礎元件是過去許多版本中專案開發的基礎，因此在可預見的未來中，這些元件仍將繼續受到支援。
+Adobe的開發重點已轉移到核心元件，並將繼續新增新功能。
 
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+[幾乎所有的Foundation Components都已在AEM 6.5中停用](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) ，而且未來Foundation Components只會考慮主要的錯誤修正。
