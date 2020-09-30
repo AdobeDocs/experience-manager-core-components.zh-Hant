@@ -2,9 +2,9 @@
 title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
@@ -26,16 +26,12 @@ ht-degree: 1%
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
-|---|---|---|---|---|
-| v2 | - | 相容 | 相容 | 相容 |
-| [v1](v1/page-v1.md) | 相容 | 相容 | 相容 | - |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|---|---|---|---|
+| v2 | 相容 | 相容 | 相容 |
+| [v1](v1/page-v1.md) | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
-
->[!NOTE]
->
->若要針對頁 `cq:Page` 面元件和AEM 6.3的第2版啟用重新導向， [需要Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 或更新版本。 舊版中未提供此類重新導向。
 
 ### 技術詳細資訊 {#technical-details}
 
