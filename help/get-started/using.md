@@ -2,7 +2,10 @@
 title: 使用核心元件
 description: 「若要在您自己的專案中啟動並執行核心元件，需執行三個步驟：下載和安裝、建立Proxy元件、載入核心樣式，以及允許範本上的元件。」
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 1%
 
 ---
 
@@ -28,16 +31,6 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 因此，在生產模式下（不含示例內容）啟動時，核心元件不是快速啟動的一部分。 因此，您的第一個步驟是 [從GitHub下載最新發行的內容套件](https://github.com/adobe/aem-core-wcm-components/releases/latest) ，並將它安裝在AEM環境中。
 
 有幾種方法可以自動化此程式，但要在實例上快速安裝內容包，最簡單的方法是使用「包管理器」;請參 [閱安裝軟體包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您也將執行發佈例項，您就需要將該套件複製至發佈者；請參 [閱複製包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T16:42:59.142-0400
-
-Should we be promoting embedding the core-component package as an artifact in a customer application, reasoning as follows: 1) a customer application is required to leverage core components (at a minimum, proxy components must be defined) 2) a customer application must be updated to leverage new versions of core components (since it requires adjusting the sling:resourceSuperType to point at the new version of the component) It seems the only time theres an advantage to installing a release directly is if a bug-fix (non version-changing) release of core-components is cut, and it doesnt coincide with an application deployment. WDYT? For example, recommend doing this for ACS Commons which has a similar use-case (https://adobe-consulting-services.github.io/acs-aem-commons/pages/maven.html) We can of course keep the instructions for manually deploying, since some will want to do this, or the bug-fix use-case will appear.
-
- -->
 
 ## 建立代理元件 {#create-proxy-components}
 
@@ -66,39 +59,9 @@ Should we be promoting embedding the core-component package as an artifact in a 
    jcr:description="Section Heading"
    ```
 
-例如，查看We. [Retail參考網站的標題元件](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml)，這是以此方式建立之代理元件的好範例。
+例如，查看WKND網 [站的標題元件](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml)，這是以此方式建立之proxy元件的好範例。
 
 ## 載入核心樣式 {#load-the-core-styles}
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T16:57:16.414-0400
-
-Styles is odd in that most Core Components do not have CSS; very few even have structural CSS (breadcrumbs, list) It may be more apt to title this section: Load the Core JavaScript and CSS or Load the Core Client Libraries ?
-
- -->
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:41:37.115-0400
-
-This section seems to cover the "sites" clientlibs for core components; Do we need a section for ensuring the editor clientlibs are loaded in the Page Editor? Pending: https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/issues/15
-
- -->
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: cotescu
-Last Modified Date: 2018-03-09T10:45:52.812-0500
-
-Load the Core Client Libraries sounds way better
-
- -->
 
 1. 如果尚未完成，請建立 [用戶端程式庫](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) ，其中包含您網站所需的所有CSS和JS檔案。
 1. 在您網站的「用戶端程式庫」中，將相依性新增至可能需要的核心元件。 這是透過新增屬性來 `embed` 完成。
