@@ -2,9 +2,9 @@
 title: 表單文字元件
 description: 核心元件表單文字元件允許輸入表單文字以供提交。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '577'
 ht-degree: 6%
 
 ---
@@ -24,10 +24,10 @@ ht-degree: 6%
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
-|--- |--- |--- |--- |---|
-| v2 | - | 相容 | 相容 | 相容 |
-| [v1](/help/components/v1/form-text-v1.md) | 相容 | 相容 | 相容 | - |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v2 | 相容 | 相容 | 相容 |
+| [v1](/help/components/v1/form-text-v1.md) | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -55,7 +55,7 @@ ht-degree: 6%
    * **電子郵件**
    * **電話**
    * **日期**
-   * **數字**
+   * **數量**
    * **密碼**
 * **文本行** -要在文本區域中顯示的行數(僅當「約束」( **Constraint** )設定為「文本區域」( **Text Area**)時顯示)
 * **Label** —將為欄位顯示的標籤
