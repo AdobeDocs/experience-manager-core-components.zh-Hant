@@ -2,9 +2,9 @@
 title: 核心元件簡介
 description: '核心元件提供強穩且可擴充的基本元件，以最新技術和最佳實務為基礎。 '
 translation-type: tm+mt
-source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '860'
 ht-degree: 25%
 
 ---
@@ -34,14 +34,14 @@ ht-degree: 25%
 | 生產就緒 | 核心元件是28種強穩的元件，經過良好測試、廣泛使用，而且效能良好。 |
 | 雲端就緒 | 不論是 [在AEM做為雲端服務](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，或是在內部部署，都只能運作。 |
 | 多功能 | 這些元件代表一般概念，作者可用這些概念組合幾乎任何版面。 |
-| 可配置 | 範本層級 [的內容原則](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定義頁面作者可使用或不可使用的功能。 |
+| 可配置 | 範本層級 [的內容原則](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) ，定義頁面作者可使用或不可使用的功能。 |
 | 可追蹤 | [Adobe用戶端資料層整合](/help/developing/data-layer/overview.md) ，可讓您追蹤訪客體驗的所有方面。 |
 | 易於取得 | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-Fliendly | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
-| WebApp-Ready | 簡 [化的JSON輸出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，可讓用戶端轉換，但仍可能 [進行內容編輯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
+| WebApp-Ready | 簡 [化的JSON輸出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，可讓用戶端轉換，但仍有可 [能進行內容編輯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP支援 | 這些元件內建了AMP標 [準支援，可加速您的行動](/help/developing/amp.md) 體驗。 |
 | 設計套件 | Adobe XD [的UI套件](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) ，可讓設計人員建立線框，並視需 [要設定樣式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。 |
-| Themeable | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
+| Themeable | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
 | 可自訂 | 從調整HTML到 [重複使用進階功能](developing/customizing.md)，數種模式都可讓您輕鬆自訂。 |
 | 版本設定 | 版 [本修訂政策](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可確保核心元件在改善可能影響您的項目時不會中斷您的網站。 |
 | 可本地化 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
