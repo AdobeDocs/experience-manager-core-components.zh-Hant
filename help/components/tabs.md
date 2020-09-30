@@ -2,9 +2,9 @@
 title: 標籤元件
 description: 「標籤元件」允許建立多個標籤，以在頁面上排列內容。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 要執行此操作：
 
-1. 使用頁面編輯器中的「以發佈方式 **[檢視」選項](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**，檢視包含元件的頁面。
+1. 使用頁面編輯器中的「以發佈方式 **[檢視」選項](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** ，檢視包含元件的頁面。
 1. 檢查頁面內容並識別面板的ID。
    * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID會成為您可使用雜湊(`#`)附加至URL的錨點。
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->作者在「編輯」模式下無法選取標 **簽** 。 使用 **[「預覽](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**」模式或「檢視為已發佈**[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 」選項，以讀取已發佈內容的方式與標籤互動。
+>作者在「編輯」模式下無法選取標 **簽** 。 使用 **[「預覽](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** 」模式或「檢視為已發佈 **[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 」選項，以讀取已發佈內容的方式與標籤互動。
 
 ## 設計對話框 {#design-dialog}
 
