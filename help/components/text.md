@@ -2,9 +2,9 @@
 title: 文字元件
 description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2200'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 2%
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
-|---|---|---|---|---|
-| v2 | - | 相容 | 相容 | 相容 |
-| [v1](v1/text-v1.md) | 相容 | 相容 | 相容 | - |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|---|---|---|---|
+| v2 | 相容 | 相容 | 相容 |
+| [v1](v1/text-v1.md) | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -45,13 +45,13 @@ ht-degree: 2%
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作者提供了多種功能，以編輯其文本內容。 RTE的配置非常靈活，並提供了多種選項。 有關如何配置RTE的進一步詳細資訊，請參閱「 [Configure the Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) 」（配置富格文本編輯器）和「 [Configure the Rich Text Editor」（配置富格文本編輯器）插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
+Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作者提供了多種功能，以編輯其文本內容。 RTE的配置非常靈活，並提供了多種選項。 有關如何配置RTE的進一步詳細資訊，請參閱「 [Configure the Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 」（配置富格文本編輯器）和「 [Configure the Rich Text Editor」（配置富格文本編輯器）插件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 本文的其餘部分演示了使用現成可用的RTE配置的核心元件文本元件的標準配置。
 
 >[!NOTE]
 >
->只有由RTE的 [UI配置啟用的選項](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) ，文本元件中的選項才可用。
+>只有由RTE的 [UI配置啟用的選項](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) ，文本元件中的選項才可用。
 
 ## Edit Dialog {#edit-dialog}
 
@@ -132,6 +132,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
    * 新索引標籤
    * 父框架
    * 上框架
+
    點選或按一下核取標籤，套用連結或x以取消。
 
 ### 取消連結
@@ -205,7 +206,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 用於將選定文本格式化為項目符號清單，或在游標後開始插入項目符號清單。
 
-要結束項目清單，請再次點選或按一下「項目 **符號** 」按鈕，或輸入兩個歸位。
+要結束項目清單，請再次點選或按一下「項目 **符號** 」按鈕，或輸入兩個歸位符。
 
 ### 編號
 
@@ -257,7 +258,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 用於檢查文本內容的拼寫。 可能的拼字錯誤會加上破折的紅線。
 
-有關拼字檢查和自訂拼字檢查字典的詳細資訊，請參閱檔案 [Configure the Rich Text Editor Plug-Ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
+有關拼字檢查和自訂拼字檢查字典的詳細資訊，請參閱檔案 [Configure the Rich Text Editor Plug-Ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 ### 特殊字元 {#special-characters}
 
