@@ -3,7 +3,10 @@ title: 影像元件(v1)
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 index: n
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 1%
 
 ---
 
@@ -107,6 +110,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
    * 選擇「自由手 **」選項** ，以定義您自己的裁切。
    * 選擇「移除裁 **切」選項** ，以顯示原始資產。
+
    選取裁切選項後，使用藍色控點來調整影像上的裁切大小。
 
    ![](/help/assets/chlimage_1-10.png)
@@ -128,6 +132,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
    * **新增多邊形地圖**
 
       * 依預設會新增三角形地圖。 連按兩下形狀的一行，在新側面加入新的藍色調整大小控制點。
+
    一旦選擇了地圖形狀，該形狀被疊加在影像上以允許調整大小。 拖放藍色的調整大小控點，以調整形狀。
 
    ![](/help/assets/chlimage_1-13.png)
@@ -144,6 +149,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
          * **新標籤**
          * **父框架**
          * **上框架**
+
    點選或按一下要儲存的藍色核取標籤、要取消的黑色x，以及紅色垃圾桶來刪除地圖。
 
    ![](/help/assets/chlimage_1-14.png)
@@ -202,18 +208,11 @@ On the **Main** tab you can define a list of allowed widths in pixels for the im
    ![](/help/assets/chlimage_1-20.png)
 
    * **旋轉** -使用此選項可讓內容作者使用「向右旋轉 **」選項** 。
-   * **反向(** Flip)使用此選項可讓內容作者使用「水準翻轉」( **Flip Horizontally** )和「垂直 **翻轉」(Flip Predital** )選項。
+   * **反向**&#x200B;使用此選項可讓內容作者使用 
+**「水準翻轉」(Flip Horizontally** )和「 **垂直翻轉** 」(Flip Ventitally)選項。
    >[!CAUTION]
    >
    >預設情 **況下** ,「反向」(Flip)選項是禁用的。 啟用它會在影像元件的編輯對話方塊中顯示「垂直翻轉 ******** 」和「水準翻轉」按鈕，但AEM目前不支援此功能，而且使用這些選項所做的任何變更都不會持續存在。
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
--->
 
 * 裁切
 
@@ -225,6 +224,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
    * 輸入長寬的數值比。
    * 使用拖動控制滑塊重新排列長寬比順序
    * 使用垃圾桶圖示來刪除外觀比例。
+
    >[!CAUTION]
    >
    >請注意，在AEM中，裁切外觀比例會定義為 **高度／寬度**。 這與傳統的寬度／高度定義不同，而且是基於舊有相容性的原因。 只要您提供清楚的比率名稱，內容作者就不會察覺到任何差異，因為該名稱會顯示在UI中，而非比率本身。
