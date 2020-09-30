@@ -2,9 +2,9 @@
 title: AEM Project Archetype Front-End Build
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 ## ClientLibs概觀 {#clientlibs}
 
-前端模組是使用 [AEM ClientLib提供](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)。 當執行NPM組建指令碼時，應用程式會建立，而aem-clientlib-generator套件會擷取產生的組建輸出，並將它轉換為此類的ClientLib。
+前端模組是使用 [AEM ClientLib提供](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)。 當執行NPM組建指令碼時，應用程式會建立，而aem-clientlib-generator套件會擷取產生的組建輸出，並將它轉換為此類的ClientLib。
 
 ClientLib將包含下列檔案和目錄：
 
@@ -161,7 +161,7 @@ ui.frontend模組建立程式利用 [aem-clientlib-generator](https://www.npmjs.
 
 ### 在頁面上包含用戶端程式庫 {#clientlib-inclusion}
 
-`clientlib-site` 而類 `clientlib-dependencies` 別則會透過「頁面原則 [設定](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) 」包含在頁面上，作為預設範本的一部分。 若要檢視原則，請編輯「內 **容頁面範本>頁面資訊>頁面原則」**。
+`clientlib-site` 而類 `clientlib-dependencies` 別則會透過「頁面原則 [設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 」包含在頁面上，作為預設範本的一部分。 若要檢視原則，請編輯「內 **容頁面範本>頁面資訊>頁面原則」**。
 
 在網站頁面上最終加入用戶端程式庫如下：
 
