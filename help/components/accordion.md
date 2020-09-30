@@ -2,9 +2,9 @@
 title: Accordion元件
 description: 核心元件Accordion元件允許建立在頁面上以accordion排列的面板集合。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Accordion和Tabs元 [](tabs.md) 件支援直接連結至元件內的面板。
 
 要執行此操作：
 
-1. 使用頁面編輯器中的「以發佈方式 **[檢視」選項](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**，檢視包含元件的頁面。
+1. 使用頁面編輯器中的「以發佈方式 **[檢視」選項](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** ，檢視包含元件的頁面。
 1. 檢查頁面內容並識別面板的ID。
    * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID會成為您可使用雜湊(`#`)附加至URL的錨點。
@@ -82,7 +82,7 @@ Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.
 ![Accordion元件的編輯對話框的屬性頁籤](/help/assets/accordion-edit-properties.png)
 
 * **單一項目擴展** -選擇此選項後，將強制一次擴展單個accordion項目。 展開一個項目將會收合所有其他項目。
-* **展開的項目** -此選項定義在載入頁面時，預設會展開的項目。
+* **展開的項目** -此選項定義在載入頁面時依預設展開的項目。
    * 選取「 **單一項目展開** 」時，必須選取一個面板。 依預設會選取第一個面板。
    * 如果未 **選取「單一項目展開** 」，此選項為多選項，且為可選項。
 * **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
@@ -118,9 +118,9 @@ Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.
 
 ### 允許的元件頁籤 {#allowed-components-tab}
 
-「允 **許的元件** 」索引標籤可用來定義哪些元件可由內容作者新增為「Accordion元件」中的面板項目。
+「允 **許的元件** 」索引標籤可用來定義哪些元件可由內容作者新增為Accordion元件的面板項目。
 
-在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html)
+在範本編輯器中定義配置容器的原則和屬性時，「允許的元件」標 [簽的功能與相同名稱的標籤相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### 樣式標籤 {#styles-tab}
 
