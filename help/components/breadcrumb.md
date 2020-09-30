@@ -2,9 +2,9 @@
 title: 階層連結元件
 description: 核心元件階層連結元件是導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,10 @@ Breadcrumb元件的目前版本為v2，此版本於2018年1月隨核心元件2.0
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
-|--- |--- |--- |--- |---|
-| v2 | - | 相容 | 相容 | 相容 |
-| [v1](v1/breadcrumb-v1.md) | 相容 | 相容 | 相容 | - |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- | --- |--- |---|
+| v2 | 相容 | 相容 | 相容 |
+| [v1](v1/breadcrumb-v1.md) | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -53,7 +53,7 @@ Breadcrumb元件的目前版本為v2，此版本於2018年1月隨核心元件2.0
 
 ![階層連結元件編輯對話方塊](/help/assets/breadcrumb-edit.png)
 
-* **導覽開始層級** -階層中階層中，階層導覽路徑標示元件應開始向下移至目前頁面的位置。 例如，在We.Retail中：
+* **導覽開始層級** -階層中階層中，階層導覽路徑標示元件應開始向下移至目前頁面的位置。 例如：
 
    * 0開始於 `/content`
    * 1開始於 `/content/<yourSite>`
