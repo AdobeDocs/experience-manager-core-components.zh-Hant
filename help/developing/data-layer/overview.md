@@ -2,7 +2,7 @@
 title: 搭配核心元件使用Adobe用戶端資料層
 description: 搭配核心元件使用Adobe用戶端資料層
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
    * 其中每個節點都 `jcr:primaryType` 設定為 `nt:unstructured`。
 1. 新增名為的布林屬 `enabled` 性，並將其設為 `true`。
 
-   ![DataLayerConfig在WKND參考網站中的位置](../../assets/datalayer-contextaware-sling-config.png)
+   ![DataLayerConfig在WKND參考網站中的位置](/help/assets/datalayer-contextaware-sling-config.png)
 
    *DataLayerConfig在WKND參考網站中的位置*
 
@@ -59,7 +59,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 
 1. 您也可以開啟瀏覽器的開發人員工具，並在主控台中 `adobeDataLayer` 提供JavaScript物件。 輸入以下命令以獲取當前頁面的資料層狀態：
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ eventInfo: {
 
 例如：
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
