@@ -2,9 +2,9 @@
 title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1921'
 ht-degree: 1%
 
 ---
@@ -32,10 +32,10 @@ ht-degree: 1%
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
-|--- |--- |--- |--- |---|
-| v2 | - | 相容 | 相容 | 相容 |
-| [v1](v1/image-v1.md) | 相容 | 相容 | 相容 | - |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v2 | 相容 | 相容 | 相容 |
+| [v1](v1/image-v1.md) | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 影像元件支援可縮放向量圖形(SVG)。
 
 * 支援從DAM拖放SVG資產，以及從本機檔案系統上傳SVG檔案。
-* 最適化影像Servlet串流化原始SVG檔案（跳過轉換）。
+* 將原始SVG檔案流化的自適應影像Servlet流（跳過轉換）。
 * 對於SVG影像，「智慧影像」和「智慧尺寸」設定為影像模型中的空陣列。
 
 ### 安全性 {#security}
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->SVG支援需要2.1.0版核心元件或更新版本，以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) AEM 6.3或更新版本的 [service pack 3](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) ，以支援AEM中的新影像編輯器功能。
+>SVG支援需要2.1.0版或更新版本的核心元件以及 [AEM 6.4或更新版本的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，以支援AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 中的影像編輯器功能。
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -91,7 +91,8 @@ ht-degree: 1%
    * 從DAM取得替代文字——勾選影像的替代文字時，會填入DAM中中繼資料 `dc:description` 的值。
 
 * **Caption**（標題）影像的其他資訊，預設會顯示在影像下方。
-   * **從DAM取得標**&#x200B;題勾選影像的標題文字時，會填入DAM中中繼資料 `dc:title` 的值。
+   * **從DAM取得標**&#x200B;題勾選影像的標題文字時，將會填入 
+`dc:title` 中繼資料。
    * **將標題顯示為快顯**：勾選時，標題不會顯示在影像下方，但是當將滑鼠暫留在影像上時，某些瀏覽器會顯示為快顯。
 
 * **連結**
@@ -118,6 +119,7 @@ ht-degree: 1%
 
    * 選擇「自由手 **」選項** ，以定義您自己的裁切。
    * 選擇「移除裁 **切」選項** ，以顯示原始資產。
+
    選取裁切選項後，使用藍色控點來調整影像上的裁切大小。
 
    ![裁切選項](/help/assets/image-crop-options.png)
@@ -175,7 +177,7 @@ ht-degree: 1%
 ![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main.png)
 
 * **啟用延遲載入**：在將影像元件新增至頁面時，定義是否自動啟用延遲載入選項。
-* **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，定義裝飾性影像選項是否已自動啟用。
+* **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，是否自動啟用裝飾性影像選項。
 * **從DAM取得替代文字** Define（定義）在將影像元件新增至頁面時，是否自動啟用從DAM擷取替代文字的選項。
 * **從DAM取得標題**&#x200B;在將影像元件新增至頁面時，是否自動啟用從DAM擷取標題的選項，請定義。
 * **以快顯方式顯示標題**：在將影像元件新增至頁面時，定義是否自動啟用將影像標題顯示為快顯的選項。
@@ -211,8 +213,10 @@ ht-degree: 1%
 
    ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-orientation.png)
 
-* **旋轉**：使用此選項可讓內容作者使用「向右旋轉 **」選項** 。
-* **反向(** Flip)使用此選項可讓內容作者使用「水準翻轉」( **Flip Horizontally** )和「垂直 **翻轉」(Flip Predital** )選項。
+* **旋轉**&#x200B;使用此選項可讓內容作者使用 
+**向右旋轉** 。
+* **反向**&#x200B;使用此選項可讓內容作者使用 
+**「水準翻轉」(Flip Horizontally** )和「 **垂直翻轉** 」(Flip Ventitally)選項。
 
    >[!CAUTION]
    >
@@ -228,6 +232,7 @@ ht-degree: 1%
    * 輸入長寬的數值比。
    * 使用拖動控制滑塊重新排列長寬比順序
    * 使用垃圾桶圖示來刪除外觀比例。
+
    >[!CAUTION]
    >
    >請注意，在AEM中，裁切外觀比例會定義為 **高度／寬度**。 這與傳統的寬度／高度定義不同，而且是基於舊有相容性的原因。 只要您提供清楚的比率名稱，內容作者就不會察覺到任何差異，因為該名稱會顯示在UI中，而非比率本身。
