@@ -2,7 +2,7 @@
 title: 導覽元件
 description: 導覽元件可讓使用者輕鬆導覽全球化網站結構。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 \-- wknd-shop
 ```
 
-對於網站We.Retail，您可能會想將導覽元件置於頁面範本上，做為頁首的一部分。 範本一經包含，您就可將元件的 **Navigation Root** （導覽根目錄）設 `/content/wknd/language-masters/en` 定為，因為此處就是該網站的主版內容的開始位置。 您可能也想要將「導覽結構深度」設 ****`2` 為，因為您可能不希望元件顯示整個內容樹狀結構，而是前兩個層級，以做為總覽。
+對於網站WKND，您可能想要將導覽元件置於頁面範本上，做為頁首的一部分。 範本一經包含，您就可將元件的 **Navigation Root** （導覽根目錄）設 `/content/wknd/language-masters/en` 定為，因為此處就是該網站的主版內容的開始位置。 您可能也想要將「導覽結構深度」設 ****`2` 為，因為您可能不希望元件顯示整個內容樹狀結構，而是前兩個層級，以做為總覽。
 
 使用導 **覽根** (Navigation Root `/content/wknd/language-masters/en` )值，導覽元件會知道，在導覽開始後，它可以透過向下遞歸網站結構兩個層級(由導覽結構深度( **Navigation Structure Depth** )值定義)來產生導覽選項。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ## 元件輸出示例 {#sample-component-output}
 
-若要體驗導覽元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_navigation)。
+若要體驗導覽元件，並檢視其設定選項的範例以及HTML和JSON輸出，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_navigation)。
 
 ## 技術詳細資訊 {#technical-details}
 
@@ -129,7 +129,7 @@ ht-degree: 0%
    * 2 =排除根目錄和1個以上層級
    * 等等。
 * **收集所有子頁面** -收集所有作為導覽根目錄子體的頁面。
-* **導覽結構深度** -定義元件在導覽樹狀結構下應相對於導覽根目錄顯示多少層次(僅在未選取「收集所有子頁面 **** 」時可用)。
+* **導覽結構深度** -定義元件在導覽樹狀結構下應相對於導覽根顯示多少層級(僅在未選取「收集所有子頁面 **** 」時可用)。
 * **停用遮蔽** -如果階層中的頁面是重新導向，則會顯示重新導向頁面的名稱，而非目標頁面。 如需詳細 [資訊，請參閱陰影網站結構支援](#shadow-structure) 。
 * **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
