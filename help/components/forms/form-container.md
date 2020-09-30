@@ -2,10 +2,10 @@
 title: 表單容器元件
 description: 核心元件表單容器元件可讓您建立簡單的提交表單。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 「容器元件」表單支援簡單的WCM表單，並使用巢狀結構允許額外的表單元件，以建立簡單資訊提交表單和功能。
 
-使用「設 [定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、應儲存已提交內容的位置，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+使用「設 [定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、提交內容應儲存於何處，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!NOTE]
 >
@@ -30,10 +30,10 @@ ht-degree: 1%
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
-|--- |--- |--- |--- |---|
-| v2 | - | 相容 | 相容 | 相容 |
-| [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | 相容 | - |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+|--- |--- |--- |---|
+| v2 | 相容 | 相容 | 相容 |
+| [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | - |
 
 如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ![在表單容器的編輯對話方塊中儲存內容選項](/help/assets/form-container-edit-store.png)
 
-* **內容路徑** -內容儲存庫路徑，已提交內容儲存在此路徑
+* **內容路徑** -內容存放庫路徑，已提交內容儲存在此路徑
 * **檢視資料** -點選或按一下，將儲存的已提交資料檢視為JSON
 * **開始工作流程** -設定在表單提交時，將儲存的內容當做裝載來啟動工作流程
 
