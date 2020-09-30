@@ -2,9 +2,9 @@
 title: 使用核心元件編寫
 description: 在AEM中，元件是構成所撰寫頁面內容的結構元素——核心元件提供有彈性且功能豐富的製作功能。
 translation-type: tm+mt
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '764'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->核心元 [件需要AEM 6.3或更新版本](/help/versions.md) ，而且需要使用可編 [輯的範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它們不適用於Classic UI，也不適用於靜態範本。
+>核心元 [件需要AEM 6.4或更新版本](/help/versions.md) ，而且需要使用可編 [輯的範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它們不適用於Classic UI，也不適用於靜態範本。
 
 ## 使用核心元件編寫 {#authoring-with-core-components}
 
@@ -56,7 +56,7 @@ ht-degree: 6%
 
 ## 預先設定核心元件 {#pre-configuring-core-components}
 
-設定基礎元件是開發人員的工作。 不過，有了核心元件，範本作者現在可以透過範本編輯器來設定許多功能。
+設定基礎元件是開發人員的工作。 不過，有了核心元件，範本作者現在可以透過範本編輯器設定許多功能。
 
 例如，如果影像元件不應允許從檔案系統上傳影像，或者文字元件僅允許特定段落格式，只要按一下滑鼠，就可以啟用或停用這些功能。
 
@@ -79,10 +79,6 @@ ht-degree: 6%
 * 然後，內容作者可以選擇在新增元件和建立內容時要套用的樣式。
 
 有關詳細資訊，請參 [閱Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) 文檔。
-
->[!NOTE]
->
->在AEM 6.3中，必須有Service Pack 2(6.3.2.0)或更新版本才能啟用樣式系統功能。
 
 ## 開發人員資源 {#developer-resources}
 
