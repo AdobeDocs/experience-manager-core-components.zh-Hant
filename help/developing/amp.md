@@ -2,9 +2,9 @@
 title: AMP對核心元件的支援
 description: 核心元件支援AMP —— 加速行動頁面
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Core Components會使 `amp` 用做Sling選擇器來轉譯AMP頁面。 例如， 
 
 ### 啟用頁面的AMP {#enabling-amp}
 
-要為頁面啟用AMP，必 **須在頁面策略中選擇**[AMP模式。](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies)
+要為頁面啟用AMP，必 **須在頁面策略中選擇**[AMP模式。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![AMP頁策略選項](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Core Components會使 `amp` 用做Sling選擇器來轉譯AMP頁面。 例如， 
 * **成對AMP** —— 頁面以AMP和HTML格式傳送。
 * **僅AMP** —— 頁面僅以AMP的形式傳送。
 
-頁面的AMP設定也可以在個別頁面的「頁 [面屬性](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html) 」中覆寫。
+頁面的AMP設定也可以在個別頁面的「頁 [面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 」中覆寫。
 
 ![AMP頁面屬性](/help/assets/amp-page-properties.png)
 
