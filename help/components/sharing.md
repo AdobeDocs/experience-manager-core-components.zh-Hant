@@ -2,10 +2,10 @@
 title: 社交分享元件
 description: 核心元件社交分享元件是Facebook和Pinterest分享介面工具集。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 版本與相容性 {#version-and-compatibility}
 
-目前的社交分享元件版本為v1，此版本隨AEM 6.3核心元件的1.0.0版一起推出，並在本檔案中加以說明。
+目前的社交分享元件版本為v1，此版本隨核心元件1.0.0版推出，並在本檔案中加以說明。
 
 下表詳細說明所有支援的元件版本，以及與元件版本相容的AEM版本。
 
