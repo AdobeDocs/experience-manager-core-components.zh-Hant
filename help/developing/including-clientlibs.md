@@ -2,10 +2,10 @@
 title: 包括客戶端庫
 description: 根據您的使用案例，有許多不同的方式可包含用戶端程式庫。
 translation-type: tm+mt
-source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
+source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,8 @@ ht-degree: 3%
 
 ## 僅限CSS或JS {#css-js-only}
 
-通常，您會想要將CSS包含置於HTML元 `head` 素中，而JS則包含在關閉元素之前 `body` 。&#x200B;
+通常，您會想要將CSS包含置於HTML元 `head` 素中，而JS則包含在關閉元素之前 `body` 。
+
 在中， `head`若要僅包含CSS，而非JS，請使用 `cssIncludes`:
 
 ```html
@@ -83,7 +84,9 @@ ht-degree: 3%
 
 可傳 `link` 遞至和的CSS屬 `jsAndCssIncludes` 性 `cssIncludes`:
 
-* `media`:字&#x200B;串JS `script` 屬性，可傳遞至 `jsAndCssIncludes` 和 `jsIncludes`:
+* `media`: 字串
+
+可傳 `script` 遞至和的JS屬 `jsAndCssIncludes` 性 `jsIncludes`:
 
 * `async`: 布林值
 * `defer`: 布林值
@@ -92,7 +95,8 @@ ht-degree: 3%
 
 ## 內襯 {#inlining}
 
-在某些情況下，為了最佳化，或為了電子郵件或 [AMP,](amp.md) 可能需要將CSS或JS內嵌在HTML的輸出中。&#x200B;
+在某些情況下，為了最佳化，或為了電子郵件或 [AMP,](amp.md) 可能需要將CSS或JS內嵌在HTML的輸出中。
+
 若要內嵌CSS, `cssInline` 可使用，在此情況下，您必須編寫周圍的元 `style` 素：
 
 ```html
