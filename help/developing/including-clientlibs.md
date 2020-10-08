@@ -2,10 +2,10 @@
 title: 包括客戶端庫
 description: 根據您的使用案例，有許多不同的方式可包含用戶端程式庫。
 translation-type: tm+mt
-source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -84,10 +84,7 @@ ht-degree: 4%
 
 可傳 `link` 遞至和的CSS屬 `jsAndCssIncludes` 性 `cssIncludes`:
 
-* `media`: 字串
-
-可傳 `script` 遞至和的JS屬 `jsAndCssIncludes` 性 `jsIncludes`:
-
+* `media`:字串JS `script` 屬性，可傳遞至 `jsAndCssIncludes` 和 `jsIncludes`:
 * `async`: 布林值
 * `defer`: 布林值
 * `onload`: 字串
