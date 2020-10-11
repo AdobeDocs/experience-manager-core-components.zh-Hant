@@ -2,9 +2,9 @@
 title: AEM Project Archetype
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
+source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,7 @@ AEM Project Archetype是Maven範本，可建立以最簡化、最佳實務為基
 * **樣式系統：** 允許作者套用不同的樣式，以避免 [建立自訂元件](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) 。
 * **前端構建：** 前端開發人員可 [以使用Webpack](uifrontend.md#webpack-dev-server) 、TypeScript [和SASS來模擬AEM頁面並](uifrontend.md) 建立用戶端程式庫。
 * **WebApp-Ready:** 對於使用 [React](uifrontend-react.md) 或 [Angular](uifrontend-angular.md)的網站，請使用 [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) ，在應用程 [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)式內容製作中保留。
+* **啟用商務：** 針對想要整合 [AEM Commerce](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) 與商務解決方案(例如 [Magento](https://magento.com/) )的專案，請使 [用Commerce Core Components](https://github.com/adobe/aem-core-cif-components)。
 * **范常式式碼：** 結帳HelloWorld元件，以及範例模型、servlet、篩選器和排程器。
 * **未結來源：** 如果事情不如預期，請 [改進](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) !
 
