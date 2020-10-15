@@ -1,13 +1,13 @@
 ---
 sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
-breadcrumb-title: Core Components Guide
-user-guide-description: Use the extensible Core Components to let authors easily create content.
+breadcrumb-title: Core Components 指南
+user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 translation-type: tm+mt
 source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 63%
+source-wordcount: '202'
+ht-degree: 65%
 
 ---
 
