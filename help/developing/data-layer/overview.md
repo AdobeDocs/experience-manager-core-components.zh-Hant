@@ -2,9 +2,9 @@
 title: 搭配核心元件使用Adobe用戶端資料層
 description: 搭配核心元件使用Adobe用戶端資料層
 translation-type: tm+mt
-source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '893'
 ht-degree: 3%
 
 ---
@@ -256,3 +256,7 @@ window.adobeDataLayer.push(function (dl) {
 ## 教學課程
 
 想要更詳細地探索資料層和核心元件嗎？ [查看本實作教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+
+>[!TIP]
+>
+>若要進一步探索資料層的彈性，請檢視整合選項，包括如何為自訂元件啟用資料層。
