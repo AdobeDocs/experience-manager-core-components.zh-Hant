@@ -2,10 +2,10 @@
 title: 表單容器元件
 description: 核心元件表單容器元件可讓您建立簡單的提交表單。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '956'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 「容器元件」表單支援簡單的WCM表單，並使用巢狀結構允許額外的表單元件，以建立簡單資訊提交表單和功能。
 
-使用「設 [定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、提交內容應儲存於何處，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+使用「 [設定」對話方塊](#configure-dialog) ，內容編輯器可定義表單提交所觸發的動作、應處理提交的URl，以及是否應觸發工作流程。 範本作者可使用設計 [對話方塊](#design-dialog) ，定義允許的元件及其對應，類似範本編輯器中標準版面 [容器的設計對話方塊](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ ht-degree: 0%
 
 根據選取的「 **動作類型**」，容器中的可用選項將會變更。 可用的操作類型包括：
 
+* [貼文表單資料](#post-data)
 * [郵件](#mail)
 * [存放區內容](#store-content)
 
 不論類型為何，都會有一 [般設定](#general-settings) ，適用於每個動作。
+
+### 貼文表單資料 {#post-data}
+
+提交表單時，貼文表單資料動作類型會將提交的資料以JSON形式傳遞給第三方以進行處理。
+
+![表單容器元件編輯對話方塊中的表單資料選項](/help/assets/form-container-edit-post.png)
+
+* **端點** -完全限定的HTTPS服務，用於處理資料
+* **錯誤訊息** -如果提交失敗，則顯示訊息
+
+>[!TIP]
+>系統管理員可以調整其他逾時選項，以處理轉送表單資料的處理。 [如需詳細資訊，請參閱GitHub的技術檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### 郵件 {#mail}
 
@@ -82,6 +95,12 @@ ht-degree: 0%
 * **內容路徑** -內容存放庫路徑，已提交內容儲存在此路徑
 * **檢視資料** -點選或按一下，將儲存的已提交資料檢視為JSON
 * **開始工作流程** -設定在表單提交時，將儲存的內容當做裝載來啟動工作流程
+
+>[!NOTE]
+>
+>為了簡化用戶資料的管理並強制分散關注點，通常不建議將用戶生成的內容儲存在儲存庫中。
+>
+>請改用「 [貼文表單資料](#post-data) 」動作類型，將使用者內容傳遞給專屬的服務供應商。
 
 ### 一般設定 {#general-settings}
 
