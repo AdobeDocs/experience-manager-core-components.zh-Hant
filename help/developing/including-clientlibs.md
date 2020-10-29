@@ -2,9 +2,9 @@
 title: 包括客戶端庫
 description: 根據您的使用案例，有許多不同的方式可包含用戶端程式庫。
 translation-type: tm+mt
-source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
+source-git-commit: afce571ada011c38c83830628f09a9e268658965
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -111,3 +111,26 @@ ht-degree: 3%
     ${clientlibs.jsInline @ context="unsafe"}
 </script>
 ```
+
+## 載入內容感應CSS和JavaScript {#context-aware-loading}
+
+頁 [面元件](/help/components/page.md) 也支援載入開發人員定義的內容感應CSS、JavaScript或中繼標籤。
+
+這是通過建立上下文感 [知資源來完成的](context-aware-configs.md) , `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` 以便使用以下結構：
+
+```text
+com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+    - prefixPath="/some/path"
+    + item01
+        - element=["link"|"script"|"meta"]
+        - location=["header"|"footer"]
+        + attributes
+            - attributeName01="attributeValue01"
+            - attributeName02="attributeValue02"
+            ...
+    + item02
+        ...
+    ...
+```
+
+[如需詳細資訊，請參閱頁面元件的技術檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
