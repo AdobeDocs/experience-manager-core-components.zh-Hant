@@ -2,9 +2,9 @@
 title: 擴充Adobe用戶端資料層
 description: Adobe用戶端資料層可依照一些基本模式進行擴充
 translation-type: tm+mt
-source-git-commit: 896ed679ed3351cb309a34b38bf97fe81adc2cfe
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ Core Component（如Title元件） [擴展了Component](https://github.com/adobe
 因此，您的自訂Sling模型可能有 `getData` 一種方法可傳回延伸至傳回 `ComponentData` 更多欄位的物件。
 
 執行此動作時， `data-cmp-data-layer` 會新增屬性至元件的HTML元素，並包含將填入資料層的資料JSON。 此時，您可以實作監聽此資料或相關事件的指令碼。
+
+>[!TIP]
+>
+>若要進一步探索資料層的彈性，請檢視整合選項，包括如何為自訂元件啟用資料層。
