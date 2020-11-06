@@ -2,17 +2,17 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
+source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 22%
+source-wordcount: '1848'
+ht-degree: 21%
 
 ---
 
 
 # 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本為2.12.0，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它於2020年10月發行，是2.0.0版的重要更新。2.0.0版推出新元件，並更新現有元件的v2版。
+目前的核心元件版本是2.12.1，並與 [AEM（雲端服務）和內部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安裝相容 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它於2020年11月發行，作為2.12.0的修補程式版本。2.12.0版針對表單、中繼資料和資料層引入了數種新功能。
 
 ## 發行記錄與相容性 {#release-history-and-compatibility}
 
@@ -24,10 +24,11 @@ ht-degree: 22%
 
 下表提供完整版本詳細資 [訊的GitHub內容](https://github.com/adobe/aem-core-wcm-components/releases)，其中概述核心元件的發行版本及其與AEM版本和Java版本的相容性。
 
-| 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 | Java | 發行日期 |
+| 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 本版次推出 [新的POST表單處理程式；](/help/components/forms/form-container.md#post-data) 透過內容感知組態，包含自訂CSS、Javascript [和中繼資料標籤；](/help/developing/including-clientlibs.md#context-aware-loading) 以及簡化 `DataLayerBuilder` 自訂元 [件中資料層整合的公用程式。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年10月29日 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本推出 [AMP支援。](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年7月20日 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | 這是2.12.0的修補程式版本，已修正影像元件中的重大錯誤。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月5日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 本版次推出 [新的POST表單處理程式；](/help/components/forms/form-container.md#post-data) 透過內容感知組態，包含自訂CSS、Javascript [和中繼資料標籤；](/help/developing/including-clientlibs.md#context-aware-loading) 以及簡化 `DataLayerBuilder` 自訂元 [件中資料層整合的公用程式。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年10月29日 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本推出 [AMP支援。](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年7月20日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 本版次推出 [PDF檢視器元件。](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年6月17日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本可讓您與 [Adobe用戶端資料層整合](/help/developing/data-layer/overview.md) ，並引入 [進度列元件。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 持續 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本的重點是修正及小型增強功能。 | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年12月5日 |
@@ -51,6 +52,10 @@ ht-degree: 22%
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心元件的初次發行。 | 6.4.0.0+ | - | - | 7 | 2017年3月20日 |
 
 >[!NOTE]
+>
+>(*)自2.11.0版起， `org.apache.sling.models.impl` 需要1.4.12版或更新版本(由 [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781))。 這將在未來的Service Pack中針對AEM 6.4和6.5提供。 在此之前，Sling Models套件已包含在套件 `core.wcm.components.all` 中。
+
+>[!TIP]
 >
 >和AEM一樣，Adobe建議開發人員使用最新版本和可用的核心元件版本 [](https://github.com/adobe/aem-core-wcm-components/releases/latest) ，這些版本可與執行中的AEM版本相容，以便從最新的修正和功能中獲益。
 
