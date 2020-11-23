@@ -2,7 +2,7 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: 850fbeec3cb31f4ea6873daa2555953684fd5a8d
+source-git-commit: 2f3d2499e9f6c88453b633c20e49703eac25eff4
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 21%
@@ -26,9 +26,9 @@ ht-degree: 21%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.2) | 這是2.12.0的修補程式版本，包括次要修正。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月11日 |
-| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | 這是2.12.0的修補程式版本，已修正影像元件中的 [主要錯誤。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月5日 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 本版次推出 [新的POST表單處理程式；](/help/components/forms/form-container.md#post-data) 透過內容感知組態，包含自訂CSS、Javascript [和中繼資料標籤；](/help/developing/including-clientlibs.md#context-aware-loading) 以及簡化 `DataLayerBuilder` 自訂元 [件中資料層整合的公用程式。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年10月29日 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 這是2.12.0的修補程式版本，包括次要修正。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月11日 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 這是2.12.0的修補程式版本，已修正影像元件中的 [主要錯誤。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月5日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 本版次推出 [新的POST表單處理程式；](/help/components/forms/form-container.md#post-data) 透過內容感知組態，包含自訂CSS、Javascript [和中繼資料標籤；](/help/developing/including-clientlibs.md#context-aware-loading) 以及簡化 `DataLayerBuilder` 自訂元 [件中資料層整合的公用程式。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年10月29日 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本推出 [AMP支援。](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年7月20日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 本版次推出 [PDF檢視器元件。](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年6月17日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本可讓您與 [Adobe用戶端資料層整合](/help/developing/data-layer/overview.md) ，並引入 [進度列元件。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 持續 | 8, 11 | 2020年5月29日 |
