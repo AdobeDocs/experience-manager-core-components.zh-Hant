@@ -2,9 +2,9 @@
 title: AEM Project Archetype
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: c9ec069a9eb12b8625be09d1c38dcaaf437bd5cb
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -90,21 +90,6 @@ mvn -B archetype:generate \
 | `commerceEndpoint` |  | 僅CIF必需。 要使用的商務系統GraphQL服務的可選端點(例如 `https://hostname.com/grapql`)。 |
 | `datalayer` | `y` | 啟動與 [Adobe用戶端資料層的整合](/help/developing/data-layer/overview.md)。 |
 | `amp` | `n` | 啟用 [AMP](/help/developing/amp.md) ，支援產生的專案範本。 |
-
-## Analyzer模組 {#analyzer-module}
-
-AEM Analyzer Maven增效模組會分析各種內容套件專案的結構。
-
-如需如 [何將AEM Analyzer Maven Plugin專案包含在AEM Maven專案中的詳細資訊](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) ，請參閱AEM Analyzer Maven Plugin檔案。 外掛程式已包含在AEM Maven原型第25版及更新版本中。
-
-下表說明在此步驟中執行的分析器。 請注意，有些會在本機SDK中執行，而有些則只會在Cloud Manager管道部署期間執行。
-
-| 模組 | 函式、範例與疑難排解 | 本機SDK | Cloud Manager |
-|---|---|---|---|
-| `api-regions-exportsimports` | 檢查所有OSGI捆綁包是否都有其Import-Package聲明，該聲明由Maven項目中其它包含的捆綁包的Export-package聲明滿足。 <p> </p> 若要疑難排解，請查看您要匯出的套件資訊清單，以判斷使用的是錯誤名稱或版本。 | 是 | 是 |
-| `requirements-capabilities` | 檢查在OSGI捆綁包中建立的所有要求聲明是否由Maven項目中包含的其他捆綁包的功能聲明滿足。 <p> </p> 若要疑難排解，請查看您預期會宣告功能包的資訊清單，以判斷其遺失的原因。 | 是 | 是 |
-| `bundle-content` | 如果搭售包含以Sling-Initial-Content指定的初始內容，則會發出警告，這在AEM中是Cloud Service叢集環境。 | 是 | 是 |
-| `api-regions-crossfeature-dups` | 驗證客戶OSGI搭售沒有將AEM覆寫為雲端服務之公開API的匯出套件宣告 | 是 | 是 |
 
 ## 系統需求
 
