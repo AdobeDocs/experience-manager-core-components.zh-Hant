@@ -1,13 +1,13 @@
 ---
 sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
-breadcrumb-title: Core Components 指南
+breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 translation-type: tm+mt
-source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 64%
 
 ---
 
@@ -89,3 +89,4 @@ ht-degree: 0%
       + [ui.frontend.react模組](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular模組](developing/archetype/uifrontend-angular.md)
       + [ui.tests模組](developing/archetype/uitests.md)
+      + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
