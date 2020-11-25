@@ -2,9 +2,9 @@
 title: AEM as a Cloud Service SDK Build Analyzer Maven Plugin
 description: 本機Maven組建分析器外掛程式的檔案
 translation-type: tm+mt
-source-git-commit: a58434ebf7ae72472989f2e55d40bfa22fd99208
+source-git-commit: abb43865278f884555d1bb963686ccc561f319b5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 3%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # AEM as a Cloud Service SDK Build Analyzer Maven Plugin {#maven-analyzer-plugin}
 
-AEM Analyzer Maven增效模組會分析各種內容套件專案的結構。
+AEM as a Cloud Service SDK Build Analyzer Maven Plugin會分析各種內容套件專案的結構。
 
 如需如 [何將AEM Analyzer Maven Plugin專案包含在AEM Maven專案中的詳細資訊](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) ，請參閱AEM Analyzer Maven Plugin檔案。
 
-下表說明在此步驟中執行的分析器。 請注意，有些會在本機SDK中執行，而有些則只會在Cloud Manager管道部署期間執行。
+下表說明在此步驟中執行的分析器。 <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | 模組 | 函式、範例與疑難排解 | 本機SDK | Cloud Manager |
 |---|---|---|---|
