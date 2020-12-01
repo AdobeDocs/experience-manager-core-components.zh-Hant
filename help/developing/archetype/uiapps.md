@@ -10,26 +10,26 @@ ht-degree: 0%
 ---
 
 
-# AEM Project Archetype的ui.apps模組 {#uiapps-module}
+# AEM Project Archetype {#uiapps-module}的ui.apps模組
 
-ui.apps maven模組(`<src-directory>/<project>/ui.apps`)包含網站下方所需的所有轉譯程式碼 `/apps`。 這包括將儲存為AEM格式（稱為clientlibs）的CSS/JS [。](uifrontend.md#clientlibs) 這也包含用於轉譯動態HTML的HTL指令碼。 您可以將ui.apps模組視為JCR中結構的映射，但格式可儲存在檔案系統並提交至來源控制項。
+ui.apps maven模組(`<src-directory>/<project>/ui.apps`)包含`/apps`下方網站所需的所有轉換程式碼。 這包括將儲存為名為[clientlibs之AEM格式的CSS/JS。](uifrontend.md#clientlibs) 這也包含用於轉譯動態HTML的HTL指令碼。您可以將ui.apps模組視為JCR中結構的映射，但格式可儲存在檔案系統並提交至來源控制項。
 
 Apache Jackrabbit FileVault Package外掛程式可用來將ui.apps模組的內容編譯為可部署至AEM的AEM套件。 外掛程式的全域組態是在pom.xml父項中定義。
 
 ## 父POM {#parent-pom}
 
-[父POM](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`)包括 `<plugin>` 為項目中使用的插件定義各種配置的部分。 這包括Jackrabbit FileVault Package Plugin `filterSource` 的組態。 指 `filterSource` 向用於定義包 `filter.xml` 括在包中的jcr路徑的檔案的位置。
+[父POM](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`)包 `<plugin>` 括定義項目中使用的插件的各種配置的部分。這包括Jackrabbit FileVault Package Plugin的`filterSource`組態。 `filterSource`指向`filter.xml`檔案的位置，該檔案用於定義包中包含的jcr路徑。
 
-除了Jackrabbit FileVault Package Plugin外，Content Package Plugin也是其定義，用來將套件推送至AEM。 請注意，使 `aem.host`用的變 `aem.port`量、 `vault.user``vault.password` 、和的變數與同一父POM中定義的全局屬性相對應。
+除了Jackrabbit FileVault Package Plugin外，Content Package Plugin也是其定義，用來將套件推送至AEM。 請注意，`aem.host`、`aem.port`、`vault.user`和`vault.password`的變數會與相同父POM中定義的全域屬性相對應。
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
-ui.apps pom(`<src>/<project>/ui.apps/pom.xml`)提供 `embedded` 的標籤 `filevault-package-maven-plugin`。 標 `embedded` 記包含編譯的核心套件，做為ui.apps套件的一部分，以及安裝它的位置。
+ui.apps pom(`<src>/<project>/ui.apps/pom.xml`)提供`filevault-package-maven-plugin`的`embedded`標籤。 `embedded`標籤包含編譯的核心套件，做為ui.apps套件的一部分，並將安裝在其中。
 
 請注意，core.wcm.components.all和core.wcm.components.examples套件都包含為子套件。 每次都會部署核心元件套件和WKND程式碼。
 
-core.wcm.components.all和core.wcm.components.examples作為從屬關係清單中的從屬關係包括在內。 但是，作為最佳做法，此處省略了相關性的版本，並在父pom檔案中 [進行管理](/help/developing/archetype/using.md#core-components)。
+core.wcm.components.all和core.wcm.components.examples作為從屬關係清單中的從屬關係包括在內。 但是，作為最佳做法，此處省略了相關性的版本，並在[父pom檔案](/help/developing/archetype/using.md#core-components)中管理這些版本。
 
 ## filter.xml {#filter}
 
-ui. `filter.xml` apps模組的檔案位於，並 `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml` 包含將隨ui.apps套件一起包含和安裝的路徑。
+ui.apps模組的`filter.xml`檔案位於`<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml`，並包含將隨ui.apps套件一起包含和安裝的路徑。
