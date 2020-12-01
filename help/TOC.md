@@ -75,7 +75,7 @@ ht-degree: 64%
    + [AMP支援](developing/amp.md)
    + [上下文感知配置](developing/context-aware-configs.md)
    + [包括客戶端庫](developing/including-clientlibs.md)
-   + Adobe用戶端資料層 {#data-layer}
+   + Adobe用戶端資料層{#data-layer}
       + [資料層概觀](developing/data-layer/overview.md)
       + [與資料層整合](developing/data-layer/integrations.md)
       + [擴充資料層](developing/data-layer/extending.md)
