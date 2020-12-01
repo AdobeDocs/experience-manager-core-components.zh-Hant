@@ -4,11 +4,14 @@ description: 「核心元件清單元件」可讓您輕鬆建立動態和靜態�
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 4%
 
 ---
 
 
-# 清單元件(v1) {#list-component-v}
+# 清單元件(v1){#list-component-v}
 
 「核心元件清單元件」可讓您輕鬆建立動態和靜態清單。
 
@@ -16,9 +19,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 「清單元件」可用來建立例如子頁面的動態清單或任意定義項目的靜態清單。
 
-可用清單類型和格式選項可由模板作者在設計對話框中定 [義](#design-dialog)。 內容編輯器可以從可用的清單類型中選擇，以及如何在編輯對話框中格式化列 [表元素](#edit-dialog)。
+[設計對話框](#design-dialog)中的模板作者可以定義可用清單類型和格式選項。 內容編輯器可從可用的清單類型中選擇，以及如何在[edit對話框](#edit-dialog)中格式化清單元素。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性{#version-and-compatibility}
 
 本檔案說明清單元件的v1，最初是隨AEM 6.3核心元件的1.0.0版一起推出。
 
@@ -33,11 +36,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 >
 >本檔案說明「清單元件」的v1。
 >
->有關清單元件當前版本的詳細資訊，請參閱列 [表元件文檔](/help/components/list.md) 。
+>有關清單元件當前版本的詳細資訊，請參閱[清單元件](/help/components/list.md)文檔。
 
-## 元件輸出示例 {#sample-component-output}
+## 元件輸出示例{#sample-component-output}
 
-以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -131,9 +134,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要1.1.0版的核心元件。 如需詳細 [資訊，請參閱核心元件v1的相容性資訊](/help/versions.md) 。
+>從核心元件匯出JSON需要1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
-## Edit Dialog {#edit-dialog}
+## 編輯對話框{#edit-dialog}
 
 編輯對話框允許內容作者配置清單和清單元素。
 
@@ -146,7 +149,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * [搜尋](#search-list)
 * [標記](#tags)
 
-無論清單的建立方式為何，都有 [可隨時設定的排序選項](#sort-options) 。
+無論清單的建立方式為何，都有[排序選項](#sort-options)可隨時設定。
 
 ![](/help/assets/chlimage_1-38.png)
 
@@ -163,15 +166,15 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
    * 保留空白以使用目前頁面
 * **子層深度** -應使用階層中向下的層數
 
-#### Fixed List {#fixed-list}
+#### 修正清單{#fixed-list}
 
 清單可使用固定的項目清單來建立。
 
 ![](/help/assets/chlimage_1-40.png)
 
-點選或按一下「 **新增** 」按鈕，將新項目插入清單。
+點選或按一下「新增&#x200B;****」按鈕，將新項目插入清單。
 
-* 在清單中輸入項目的文字，或使用「選 **取對話方** 」從AEM選擇項目。
+* 在清單中輸入項目的文字，或使用「選擇對話方塊」從AEM選擇項目。****
 * 使用拖動控制滑塊重新排列清單中的項目。
 * 使用垃圾桶圖示來刪除清單中的項目。
 
@@ -181,9 +184,9 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ![](/help/assets/chlimage_1-41.png)
 
-* **Search query** —— 將執行全文搜尋以產生清單元素的字串
+* **搜尋查詢** -執行全文搜尋以產生清單元素的字串
 * **搜索範圍** -應在何處運行搜索
-   * 使用「選 **取對話方** 」來選擇AEM中的位置
+   * 使用&#x200B;**選擇對話方塊**&#x200B;選擇AEM中的位置
    * 如果保留空白，請使用目前頁面
 
 #### 標記 {#tags}
@@ -193,24 +196,24 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 ![](/help/assets/chlimage_1-42.png)
 
 * **上層頁面** -標籤符合的起始位置
-   * 使用「選 **取對話方** 」來選擇AEM中的位置
+   * 使用&#x200B;**選擇對話方塊**&#x200B;選擇AEM中的位置
    * 如果保留空白，請使用目前頁面
 * **標籤** -哪些標籤應符合
-   * 使用「瀏 **覽** 」對話框選擇標籤
-* **Match** —— 定義哪些符合類型可限定要納入清單中的頁面
+   * 使用&#x200B;**Browse**&#x200B;對話方塊來選取標籤
+* **Match**  —— 定義哪些符合類型可限定要包含在清單中的頁面
    * **任何標記**
    * **所有標記**
 
-#### 排序選項 {#sort-options}
+#### 排序選項{#sort-options}
 
 無論您選擇如何建立清單，都有某些排序選項可隨時定義。
 
 ![](/help/assets/chlimage_1-43.png)
 
-* **排序依據** -元素的排序方式
+* **排序依據** -如何排序元素
    * **標題**
    * **上次修改日期**
-* **排序順序** -項目的排序順序
+* **排序順序** -對物料排序的順序
    * **升序**
    * **降序**
 * **最大項目** -清單中顯示的項目數上限。
@@ -218,21 +221,24 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ### 項目設定 {#item-settings}
 
-使用「 **項目設定** 」標籤，可設定清單元素的格式。
+使用&#x200B;**項目設定**&#x200B;頁籤，可以配置清單元素的格式。
 
 ![](/help/assets/chlimage_1-44.png)
 
-* **連結項目**&#x200B;連結項目至對應頁面
-* **顯示說明**&#x200B;顯示連結項目的說明
-* **顯示日期**&#x200B;顯示連結項的修改日期
+* **連結**
+項目連結項目至對應頁面
+* **顯示**
+說明顯示連結項目的說明
+* **顯示**
+日期顯示連結項目的修改日期
 
-## 設計對話框 {#design-dialog}
+## 設計對話框{#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者應允許的清單類型以及可用的項目設定。
 
 ### 清單設定 {#list-settings-1}
 
-在「清 **單設定** 」索引標籤上，可以定義日期格式，以及內容作者應在元件中使用哪些類型的清單。
+在&#x200B;**清單設定**&#x200B;標籤上，可以定義日期格式，以及內容作者應在元件中使用哪些類型的清單。
 
 ![](/help/assets/chlimage_1-45.png)
 
@@ -240,11 +246,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * **禁用子項** -禁用元件中的子項清單類型
 * **禁用靜態** -禁用元件中的靜態清單類型
 * **禁用搜索** -禁用元件中的搜索清單類型
-* **Disable Tags** - Disable tags list type in the component
+* **禁用標籤** -禁用元件中的標籤清單類型
 
 ### 項目設定 {#item-settings-1}
 
-在「項 **目設定** 」標籤上，可定義內容作者的元件中應提供的個別清單元素的格式選項。
+在&#x200B;**項目設定**&#x200B;標籤上，可以定義內容作者在元件中應使用的個別清單元素的格式選項。
 
 ![](/help/assets/chlimage_1-46.png)
 
@@ -252,10 +258,10 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 * **顯示說明** -在編輯對話方塊中啟用顯示說 [明選項](#edit-dialog)
 * **顯示日期** -在編輯對話方塊中啟用顯示日 [期選項](#edit-dialog)
 
-## 技術詳細資訊 {#technical-details}
+## 技術詳細資訊{#technical-details}
 
-有關List Component的最新技術檔案 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)。
+有關List Component [的最新技術文檔可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)上找到。
 
 您可從GitHub下載整個核心元件專案。
 
-有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
