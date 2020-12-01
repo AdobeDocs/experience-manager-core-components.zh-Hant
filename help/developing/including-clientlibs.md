@@ -10,13 +10,13 @@ ht-degree: 3%
 ---
 
 
-# 包括客戶端庫 {#including-client-libraries}
+# 包含客戶端庫{#including-client-libraries}
 
-根據您的使用案例，有許多不同 [的方式](/help/developing/archetype/uifrontend.md#clientlibs) ，來包含用戶端程式庫。 本檔案提供各自的範例 [和範例HTL程式碼片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html) 。
+根據您的使用案例，有許多不同的方式可包含[用戶端程式庫](/help/developing/archetype/uifrontend.md#clientlibs)。 本檔案提供範例和每個範例的[HTL程式碼片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html)。
 
-## 建議的預設使用 {#recommended-default-usage}
+## 建議的預設使用{#recommended-default-usage}
 
-如果您沒有時間調查最適合您的情況，請在頁面元素中放置下列HTL行，加入您的用戶端程 `head` 式庫：
+如果您沒有時間調查最適合您的情況，請在頁面`head`元素中放置下列HTL行，加入您的用戶端程式庫：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,11 +25,11 @@ ht-degree: 3%
 </sly>
 ```
 
-這會在您的頁面中同時包含CSS和JS `head`，但是會將屬性新增至JS `defer``script` ，如此瀏覽器就會等到DOM就緒後再執行指令碼，進而最佳化頁面載入速度。
+這會在您的頁面`head`中同時包含CSS和JS，但會將`defer`屬性新增至您的JS `script`包含，如此瀏覽器就會等到DOM就緒後再執行指令碼，進而最佳化頁面載入速度。
 
-## 基本使用 {#basic-usage}
+## 基本用法{#basic-usage}
 
-包含用戶端資料庫類別的JS和CSS（將產生所有對應的CSS元素和／或JS元素）的基本語法如下： `link``script`
+包含用戶端程式庫類別的JS和CSS的基本語法（將產生所有對應的CSS `link`元素和／或JS `script`元素）如下：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -37,7 +37,7 @@ ht-degree: 3%
 </sly>
 ```
 
-若要一次對多個用戶端程式庫類別執行相同動作，可將一組字串傳遞至參數 `categories` :
+若要同時針對多個用戶端程式庫類別執行相同動作，可將字串陣列傳遞至`categories`參數：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -48,9 +48,9 @@ ht-degree: 3%
 
 ## 僅限CSS或JS {#css-js-only}
 
-通常，您會想要將CSS包含置於HTML元 `head` 素中，而JS則包含在關閉元素之前 `body` 。
+通常，您會想要將CSS包含置於HTML `head`元素中，而JS包含在`body`元素關閉之前。
 
-在中， `head`若要僅包含CSS，而非JS，請使用 `cssIncludes`:
+在`head`中，若要僅包含CSS而非JS，請使用`cssIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -58,7 +58,7 @@ ht-degree: 3%
 </sly>
 ```
 
-在關閉 `body` 之前，若要只包含JS，而不包含CSS，請使用 `jsIncludes`:
+在`body`關閉之前，若要僅包含JS，而非CSS，請使用`jsIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 ## 屬性 {#attributes}
 
-若要將屬性套用至產生的CSS `link` 元素和／或JS `script` 元素，可能有許多參數：
+若要將屬性套用至產生的CSS `link`元素和／或JS `script`元素，可能有許多參數：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -82,7 +82,7 @@ ht-degree: 3%
 </sly>
 ```
 
-可傳 `link` 遞至和的CSS屬 `jsAndCssIncludes` 性 `cssIncludes`:
+可傳遞至`jsAndCssIncludes`和`cssIncludes`的CSS `link`屬性：
 
 * `media`:字串JS `script` 屬性，可傳遞至 `jsAndCssIncludes` 和 `jsIncludes`:
 * `async`: 布林值
@@ -90,11 +90,11 @@ ht-degree: 3%
 * `onload`: 字串
 * `crossorigin`: 字串
 
-## 內襯 {#inlining}
+## 內嵌{#inlining}
 
-在某些情況下，為了最佳化，或為了電子郵件或 [AMP,](amp.md) 可能需要將CSS或JS內嵌在HTML的輸出中。
+在某些情況下，若要最佳化，或是透過電子郵件或[AMP,](amp.md)可能需要將CSS或JS內嵌至HTML輸出。
 
-若要內嵌CSS, `cssInline` 可使用，在此情況下，您必須編寫周圍的元 `style` 素：
+若要內嵌CSS，可使用`cssInline`，在此情況下，您必須編寫周圍的`style`元素：
 
 ```html
 <style type="text/css"
@@ -103,7 +103,7 @@ ht-degree: 3%
 </style>
 ```
 
-同樣地，若要內嵌JS, `jsInline` 則可使用，此時您必須編寫周圍的元 `script` 素：
+同樣地，若要內嵌JS，可使用`jsInline`，在此情況下，您必須寫入周圍的`script`元素：
 
 ```html
 <script type="text/javascript"
@@ -114,9 +114,9 @@ ht-degree: 3%
 
 ## 載入內容感應CSS和JavaScript {#context-aware-loading}
 
-頁 [面元件](/help/components/page.md) 也支援載入開發人員定義的內容感應CSS、JavaScript或中繼標籤。
+[頁面元件](/help/components/page.md)也支援載入開發人員定義的內容感應CSS、JavaScript或中繼標籤。
 
-這是通過建立上下文感 [知資源來完成的](context-aware-configs.md) , `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` 以便使用以下結構：
+通過使用以下結構為`com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig`建立[上下文感知資源](context-aware-configs.md)來完成此操作：
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
