@@ -18,28 +18,28 @@ ht-degree: 1%
 
 「影像元件」的功能包括最適化影像選擇和回應式行為，為頁面訪客提供延遲載入，以及為內容作者提供簡易的影像放置和裁切功能。
 
-範本作者可在設計對話方塊中定義影像寬度、裁切和其他 [設定](#design-dialog)。 內容編輯器可以在「設定」對話方塊中上 [傳或選取資產](#configure-dialog) ，並在「編輯」對話方 [塊中裁切影像](#edit-dialog)。 為方便起見，酒店還提供簡單的就地修改影像。
+範本作者可在[設計對話方塊](#design-dialog)中定義影像寬度以及裁切和其他設定。 內容編輯器可以在[configure dialog](#configure-dialog)中上傳或選擇資產，並在[編輯對話框](#edit-dialog)中裁切影像。 為方便起見，酒店還提供簡單的就地修改影像。
 
-## 自適應功能 {#responsive-features}
+## 自適應功能{#responsive-features}
 
-影像元件隨附強穩、立即可用的回應式功能。 在頁面範本層級，可 [以使用設計](#design-dialog) 對話方塊來定義影像資產的預設寬度。 然後影像元件會自動載入正確的寬度以根據瀏覽器視窗的大小顯示。 視窗調整大小時，影像元件會動態載入正確的影像大小。 由於影像元件已最佳化以載入您的內容，所以元件開發人員不需擔心定義自訂媒體查詢。
+影像元件隨附強穩、立即可用的回應式功能。 在頁面範本層級，[設計對話方塊](#design-dialog)可用來定義影像資產的預設寬度。 然後影像元件會自動載入正確的寬度以根據瀏覽器視窗的大小顯示。 視窗調整大小時，影像元件會動態載入正確的影像大小。 由於影像元件已最佳化以載入您的內容，所以元件開發人員不需擔心定義自訂媒體查詢。
 
 此外，影像元件支援延遲載入，將實際影像資產延遲載入，直到在瀏覽器中顯示為止，以提高頁面的回應速度。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性{#version-and-compatibility}
 
 目前的影像元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
 下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 雲端服務 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
 | v2 | 相容 | 相容 | 相容 |
 | [v1](v1/image-v1.md) | 相容 | 相容 | - |
 
-如需核心元件版本與版本的詳細資訊，請參閱檔案核 [心元件版本](/help/versions.md)。
+有關核心元件版本和版本的詳細資訊，請參閱文檔[核心元件版本](/help/versions.md)。
 
-## SVG支援 {#svg-support}
+## SVG支援{#svg-support}
 
 影像元件支援可縮放向量圖形(SVG)。
 
@@ -49,63 +49,68 @@ ht-degree: 1%
 
 ### 安全性 {#security}
 
-出於安全原因，影像編輯器不會直接呼叫原始SVG。 它叫穿了 `<img src=“path-to-component”>`。 這可防止瀏覽器執行嵌入在SVG檔案中的任何指令碼。
+出於安全原因，影像編輯器不會直接呼叫原始SVG。 它通過`<img src=“path-to-component”>`調用。 這可防止瀏覽器執行嵌入在SVG檔案中的任何指令碼。
 
 >[!CAUTION]
 >
->SVG支援需要2.1.0版或更新版本的核心元件以及 [AEM 6.4或更新版本的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，以支援AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 中的影像編輯器功能。
+>SVG支援需要AEM 6.4或更高版本的核心元件版本2.1.0及[service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html)，以支援AEM中的[影像編輯器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
 
-## 元件輸出示例 {#sample-component-output}
+## 元件輸出示例{#sample-component-output}
 
-若要體驗影像元件，並檢視其設定選項以及HTML和JSON輸出的範例，請造訪元 [件庫](https://adobe.com/go/aem_cmp_library_image)。
+若要體驗影像元件，並檢視其設定選項的範例以及HTML和JSON輸出，請造訪[元件庫](https://adobe.com/go/aem_cmp_library_image)。
 
-### 技術詳細資訊 {#technical-details}
+### 技術詳細資訊{#technical-details}
 
-有關影像元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_image_v2)。
+有關映像元件[的最新技術文檔可在GitHub](https://adobe.com/go/aem_cmp_tech_image_v2)上找到。
 
-有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
 >[!NOTE]
 >
->自2.1.0版核心元件起，影像元件支援 [schema.org微資料](https://schema.org)。
+>從核心元件版本2.1.0開始，映像元件支援[schema.org microdata](https://schema.org)。
 
-## 配置對話框 {#configure-dialog}
+## 配置對話框{#configure-dialog}
 
-除了標準的編輯 [對話框](#edit-dialog) 和設 [計對話框外](#design-dialog)，映像元件還提供配置對話框，其中定義了映像本身及其說明和基本屬性。
+除了標準的[編輯對話框](#edit-dialog)和[設計對話框](#design-dialog)外，影像元件還提供了配置對話框，其中定義了影像本身及其說明和基本屬性。
 
-### 資產標籤 {#asset-tab}
+### 資產標籤{#asset-tab}
 
 ![「映像元件」的「配置」對話框的「資產」頁籤](/help/assets/image-configure-asset.png)
 
 * **影像資產**
-   * 從資產瀏覽器中 [拖放資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ，或點選 **** 瀏覽選項，從本機檔案系統上傳。
-   * 點選或按一 **下「清除** 」以取消選取目前選取的影像。
-   * 點選或按一 **下「編輯** 」, [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 在資產編輯器中管理資產的轉譯。
+   * 從[資產瀏覽器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**browse**&#x200B;選項，從本機檔案系統上傳。
+   * 點選或按一下&#x200B;**Clear**&#x200B;以取消選取目前選取的影像。
+   * 點選或按一下「編輯&#x200B;****」，在資產編輯器中管理資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。[
 
-### 中繼資料標籤 {#metadata-tab}
+### 中繼資料標籤{#metadata-tab}
 
 ![影像元件設定對話方塊的中繼資料索引標籤](/help/assets/image-configure-metadata.png)
 
-* **影像是裝飾**&#x200B;性檢查影像是否應由輔助技術忽略，因此不需要替代文字。 這僅適用於裝飾性影像。
-* **替代文**&#x200B;字：視障讀者可選擇影像的意義或功能。
-   * 從DAM取得替代文字——勾選影像的替代文字時，會填入DAM中中繼資料 `dc:description` 的值。
+* **影像是**
+裝飾性檢查影像是否應由輔助技術忽略，因此不需要替代文字。這僅適用於裝飾性影像。
+* **替**
+代文字視障讀者可選擇影像的意義或功能。
+   * 從DAM取得替代文字——勾選影像的替代文字時，會填入DAM中`dc:description`中繼資料的值。
 
-* **Caption**（標題）影像的其他資訊，預設會顯示在影像下方。
-   * **從DAM取得標**&#x200B;題勾選影像的標題文字時，將會填入 
+* **標**
+題影像的其他資訊，預設會顯示在影像下方。
+   * **從**
+DAMW取得標題勾選影像的標題文字時，將會填入 
 `dc:title` 中繼資料。
-   * **將標題顯示為快顯**：勾選時，標題不會顯示在影像下方，但是當將滑鼠暫留在影像上時，某些瀏覽器會顯示為快顯。
+   * **以快顯方式顯**
+示標題勾選時，標題不會顯示在影像下方，但是當將滑鼠暫留在影像上時，某些瀏覽器會顯示為快顯。
 
 * **連結**
    * 將影像連結至其他資源。
    * 使用選取對話方塊連結至其他AEM資源。
    * 如果未連結至AEM資源，請輸入絕對URL。 非溶質URL將會解譯為相對於AEM。
 
-* **ID** —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+* **ID**  —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
    * 如果指定ID，則作者有責任確保其唯一性。
    * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
-## Edit Dialog {#edit-dialog}
+## 編輯對話框{#edit-dialog}
 
 編輯對話方塊可讓內容作者裁切、修改啟動地圖，以及縮放影像。
 
@@ -117,8 +122,8 @@ ht-degree: 1%
 
    選取此選項會開啟預先定義的裁切比例的下拉式清單。
 
-   * 選擇「自由手 **」選項** ，以定義您自己的裁切。
-   * 選擇「移除裁 **切」選項** ，以顯示原始資產。
+   * 選擇「Free Hand」（自由手）選項&#x200B;**以定義您自己的裁切。**
+   * 選擇「移除裁切」選項&#x200B;**以顯示原始資產。**
 
    選取裁切選項後，使用藍色控點來調整影像上的裁切大小。
 
@@ -164,32 +169,40 @@ ht-degree: 1%
 >
 >GIF影像不支援影像編輯作業（裁切、翻轉、旋轉）。 在編輯模式下對GIF所做的任何此類更改都不會持續存在。
 
-## 設計對話框 {#design-dialog}
+## 設計對話框{#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者使用此元件時的裁切、上傳和旋轉及上傳選項。
 
-### 主頁籤 {#main-tab}
+### 主頁籤{#main-tab}
 
-在「主 **要** 」標籤上，您可以定義影像的寬度清單（以像素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。 這是影像元件回應式功 [能的重](#responsive-features) 要部分。
+在&#x200B;**Main**&#x200B;標籤上，您可以定義影像的寬度清單（以像素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。 這是影像元件[回應式功能](#responsive-features)的重要部分。
 
 此外，您可以定義作者將元件新增至頁面時，會自動或停用的一般元件選項。
 
 ![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main.png)
 
-* **啟用延遲載入**：在將影像元件新增至頁面時，定義是否自動啟用延遲載入選項。
-* **影像是裝飾**&#x200B;性：在將影像元件新增至頁面時，是否自動啟用裝飾性影像選項。
-* **從DAM取得替代文字** Define（定義）在將影像元件新增至頁面時，是否自動啟用從DAM擷取替代文字的選項。
-* **從DAM取得標題**&#x200B;在將影像元件新增至頁面時，是否自動啟用從DAM擷取標題的選項，請定義。
-* **以快顯方式顯示標題**：在將影像元件新增至頁面時，定義是否自動啟用將影像標題顯示為快顯的選項。
-* **停用UUID追蹤**&#x200B;檢查以停用影像資產的UUID追蹤。
+* **啟用延遲**
+載入定義將影像元件新增至頁面時，是否會自動啟用延遲載入選項。
+* **影像是裝**
+飾性在將影像元件新增至頁面時，定義裝飾性影像選項是否已自動啟用。
+* **如果從DAMefine中**
+擷取替代文字的選項在將影像元件新增至頁面時自動啟用，請從DAMefine取得替代文字。
+* **從**
+DAMDefine取得標題如果在將影像元件新增至頁面時自動啟用從DAM擷取標題的選項。
+* **以快顯方式顯示標題**
+定義將影像標題新增至頁面時，是否會自動啟用以快顯方式顯示影像標題的選項。
+* **停用UUID**
+TrackingCheck以停用影像資產的UUID追蹤。
 
-* **Widths**&#x200B;定義影像的寬度清單（以像素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。
-   * 點選或按一下「 **新增** 」按鈕以新增其他大小。
+* **寬**
+度定義影像的寬度清單（以像素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。
+   * 點選或按一下「新增&#x200B;****」按鈕以新增其他大小。
       * 使用抓握手柄重新排列尺寸順序。
-      * 使用「刪 **除** 」圖示移除寬度。
+      * 使用&#x200B;**Delete**&#x200B;圖示移除寬度。
    * 依預設，影像載入會延遲至可見為止。
-      * 選取「停用 **延遲載入** 」選項，以在頁面載入時載入影像。
-* **JPEG品質**&#x200B;轉換（例如縮放或裁切）JPEG影像的品質因數（百分比為0和100）。
+      * 選取「停用延遲載入&#x200B;**」選項，以在頁面載入時載入影像。**
+* **JPEG品**
+質轉換（例如縮放或裁切）JPEG影像的品質因數（百分比為0和100）。
 
 >[!NOTE]
 >
@@ -197,56 +210,58 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->自核心元件2.2.0版起，影像元件會將唯一的UUID屬性新增至影像資產，以便追蹤並分析個別資產接收的檢視次數。 `data-asset-id`
+>自核心元件2.2.0版起，影像元件會將唯一的UUID屬性`data-asset-id`新增至影像資產，以便追蹤和分析個別資產接收的檢視次數。
 
-### 功能標籤 {#features-tab}
+### 功能標籤{#features-tab}
 
-在「功 **能** 」(Features)頁籤上，您可以定義使用元件時，內容作者可以使用哪些選項，包括上載選項、方向和裁切選項。
+在&#x200B;**功能**&#x200B;標籤上，您可以定義當使用元件時，內容作者可使用哪些選項，包括上傳選項、方向和裁切選項。
 
 * 來源
 
    ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-source.png)
 
-   選取「允許 **從檔案系統上傳資產** 」選項，允許內容作者從其本機電腦上傳影像。 若要強制內容作者僅從AEM選取資產，請取消選取此選項。
+   選取「允許資產從檔案系統上傳」選項&#x200B;**，允許內容作者從本機電腦上傳影像。**&#x200B;若要強制內容作者僅從AEM選取資產，請取消選取此選項。
 
 * 方向
 
    ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-orientation.png)
 
-* **旋轉**&#x200B;使用此選項可讓內容作者使用 
-**向右旋轉** 。
-* **反向**&#x200B;使用此選項可讓內容作者使用 
-**「水準翻轉」(Flip Horizontally** )和「 **垂直翻轉** 」(Flip Ventitally)選項。
+* **旋**
+轉使用此選項可讓內容作者使用 
+**旋轉** 右鍵。
+* **反向(**
+Flip)使用此選項可讓內容作者使用 
+**「水準** 翻轉」和「垂直 **翻** 轉」選項。
 
    >[!CAUTION]
    >
-   >預設情 **況下** ,「反向」(Flip)選項是禁用的。 啟用它會在影像元件的編輯對話方塊中顯示「垂直翻轉 ******** 」和「水準翻轉」按鈕，但AEM目前不支援此功能，而且使用這些選項所做的任何變更都不會持續存在。
+   >預設情況下，**Flip**&#x200B;選項被禁用。 啟用此功能後，會在影像元件的編輯對話方塊中顯示&#x200B;**垂直翻轉**&#x200B;和&#x200B;**水準翻轉**&#x200B;按鈕，但AEM目前不支援此功能，而且使用這些選項所做的任何變更都不會持續存在。
 
 * 裁切
 
    ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-cropping.png)
 
-   選取「允 **許裁切** 」選項，可讓內容作者在編輯對話方塊中裁切元件中的影像。
-   * 按一 **下「新增** 」以新增預先定義的裁切外觀比例。
-   * 輸入描述性名稱，此名稱將顯示在「開始裁 **切** 」下拉式清單中。
+   選擇「允許裁切」選項&#x200B;**，允許內容作者在編輯對話框的元件中裁切影像。**
+   * 按一下&#x200B;**添加**&#x200B;添加預定義的裁切外觀比例。
+   * 輸入描述性名稱，該名稱將顯示在&#x200B;**開始裁切**&#x200B;下拉式清單中。
    * 輸入長寬的數值比。
    * 使用拖動控制滑塊重新排列長寬比順序
    * 使用垃圾桶圖示來刪除外觀比例。
 
    >[!CAUTION]
    >
-   >請注意，在AEM中，裁切外觀比例會定義為 **高度／寬度**。 這與傳統的寬度／高度定義不同，而且是基於舊有相容性的原因。 只要您提供清楚的比率名稱，內容作者就不會察覺到任何差異，因為該名稱會顯示在UI中，而非比率本身。
+   >請注意，在AEM中，裁切長寬比的定義為&#x200B;**height/width**。 這與傳統的寬度／高度定義不同，而且是基於舊有相容性的原因。 只要您提供清楚的比率名稱，內容作者就不會察覺到任何差異，因為該名稱會顯示在UI中，而非比率本身。
 
-### 樣式標籤 {#styles-tab-1}
+### 樣式標籤{#styles-tab-1}
 
-影像元件支援AEM [Style系統](/help/get-started/authoring.md#component-styling)。
+影像元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
 
 ## 最適化影像Servlet {#adaptive-image-servlet}
 
-映像元件使用核心元件的自適應映像Servlet。 [Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 負責影像處理和流處理，開發人員可以利用它們對核心組 [件的自定義](/help/developing/customizing.md)。
+映像元件使用核心元件的自適應映像Servlet。 [Adaptive Image ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) Servlets負責影像處理和流處理，可供開發人員在其核心元件 [定制中使用](/help/developing/customizing.md)。
 
 >[!NOTE]
 >
->Adaptive Image Servlet支 `Last-Modified` 持通過標頭的條件請求，但Dispatcher中需 `Last-Modified` 要 [啟用標頭的快取](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>通過`Last-Modified`標頭的條件請求受Adaptive Image Servlet支援，但`Last-Modified`標頭[的快取需要在Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)中啟用。
 >
 >[AEM Project Archetype的範例Dispatcher組態已包含此組態。](/help/developing/archetype/overview.md)
