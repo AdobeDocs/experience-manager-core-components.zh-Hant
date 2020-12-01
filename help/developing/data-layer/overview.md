@@ -10,7 +10,7 @@ ht-degree: 3%
 ---
 
 
-# 搭配核心元件使用Adobe用戶端資料層 {#data-layer-core-components}
+# 搭配核心元件{#data-layer-core-components}使用Adobe用戶端資料層
 
 Adobe用戶端資料層的目標，是透過提供標準化方法來公開和存取任何指令碼的任何類型資料，以減少網站的測試工作。
 
@@ -20,28 +20,28 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 
 >[!TIP]
 >
->有關Adobe客戶端資料層的詳細信 [息，請參閱其GitHub儲存庫中的資源。](https://github.com/adobe/adobe-client-data-layer)
+>有關Adobe客戶端資料層的詳細資訊，請[參考其GitHub儲存庫中的資源。](https://github.com/adobe/adobe-client-data-layer)
 >
->如需Adobe用戶端資料層與核心元件整合的詳細技術資訊，請參閱核心元 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 件儲存庫中的檔案。
+>有關Adobe用戶端資料層與核心元件整合的詳細技術資訊，請參閱核心元件儲存庫中的[`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)檔案。
 
-## 安裝與啟動 {#installation-activation}
+## 安裝與啟動{#installation-activation}
 
-自2.9.0版起，資料層會以AEM用戶端程式庫的形式與核心元件一併分發，而不需安裝。 依預設， [AEM Project Archetype v. 24+產生的所有專案都包含已啟動的「資料層](/help/developing/archetype/overview.md) 」。
+自2.9.0版起，資料層會以AEM用戶端程式庫的形式與核心元件一併分發，而不需安裝。 依預設，由[AEM Project Archetype v. 24+](/help/developing/archetype/overview.md)產生的所有專案都包含已啟動的資料層。
 
-若要手動啟動資料層，您必須為其建 [立內容感知組態](/help/developing/context-aware-configs.md) :
+要手動激活資料層，您必須為其建立[上下文感知配置](/help/developing/context-aware-configs.md):
 
-1. 在資料夾下方建 `/conf/<mySite>` 立下列結 `<mySite>` 構，其中是您網站專案的名稱：
+1. 在`/conf/<mySite>`資料夾下建立下列結構，其中`<mySite>`是您網站專案的名稱：
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * 其中每個節點都 `jcr:primaryType` 設定為 `nt:unstructured`。
-1. 新增名為的布林屬 `enabled` 性，並將其設為 `true`。
+   * 其中，每個節點的`jcr:primaryType`設定為`nt:unstructured`。
+1. 添加名為`enabled`的布爾屬性，並將其設定為`true`。
 
    ![DataLayerConfig在WKND參考網站中的位置](/help/assets/datalayer-contextaware-sling-config.png)
 
    *DataLayerConfig在WKND參考網站中的位置*
 
-1. 將屬 `sling:configRef` 性新增至下 `jcr:content` 方網站的節 `/content` 點(例如 `/content/<mySite>/jcr:content`)，並從上一 `/conf/<mySite>` 步設定為。
+1. 將`sling:configRef`屬性新增至`/content`下方網站的`jcr:content`節點(例如`/content/<mySite>/jcr:content`)，並從上一步驟設定為`/conf/<mySite>`。
 
-1. 啟用後，您可以在編輯器外載入網站的頁面來驗證啟動。 檢查頁面來源，標 `<body>` 記應包含屬性 `data-cmp-data-layer-enabled`
+1. 啟用後，您可以在編輯器外載入網站的頁面來驗證啟動。 檢查頁面來源，`<body>`標籤應包含屬性`data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -57,17 +57,17 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
        </script>
    ```
 
-1. 您也可以開啟瀏覽器的開發人員工具，並在主控台中 `adobeDataLayer` 提供JavaScript物件。 輸入以下命令以獲取當前頁面的資料層狀態：
+1. 您也可以開啟瀏覽器的開發人員工具，在主控台中，`adobeDataLayer` JavaScript物件應可供使用。 輸入以下命令以獲取當前頁面的資料層狀態：
 
    ```javascript
    window.adobeDataLayer.getState();
    ```
 
-## 核心元件資料結構 {#data-schemas}
+## 核心元件資料結構{#data-schemas}
 
 以下是核心元件與資料層一起使用的方案清單。
 
-### 元件／容器項目結構 {#item}
+### 元件／容器項方案{#item}
 
 元件／容器項模式用於以下元件：
 
@@ -94,11 +94,11 @@ id: {                   // component ID
 }
 ```
 
-下列事 [件與](#events) 「元件／容器項目」結構相關：
+以下[event](#events)與元件／容器項模式相關：
 
 * `cmp:click`
 
-### 頁面結構 {#page}
+### 頁面結構{#page}
 
 頁面架構由下列元件使用：
 
@@ -122,9 +122,9 @@ id: {
 }
 ```
 
-頁面 `cmp:show` 載入時會觸發事件。 此事件會從緊接在開頭標籤下方的串聯JavaScript中 `<body>` 傳送，成為資料層事件佇列中最早的事件。
+頁面載入時會觸發`cmp:show`事件。 此事件會從緊接在`<body>`開頭標籤下方的內嵌JavaScript中傳送，使它成為資料層事件佇列中最早的事件。
 
-### 容器結構 {#container}
+### 容器結構{#container}
 
 Container架構由下列元件使用：
 
@@ -147,13 +147,13 @@ id: {
 }
 ```
 
-下列事 [件](#events) ，與容器架構相關：
+下列[events](#events)與容器結構描述相關：
 
 * `cmp:click`
 * `cmp:show`
 * `cmp:hide`
 
-### 影像結構 {#image}
+### 映像架構{#image}
 
 以下元件使用映像模式：
 
@@ -174,13 +174,13 @@ id: {
 }
 ```
 
-下列事 [件](#events) ，與影像架構相關：
+以下[event](#events)與映像架構相關：
 
 * `cmp:click`
 
-### 資產結構 {#asset}
+### 資產結構{#asset}
 
-Asset架構用於 [Image元件內。](/help/components/image.md)
+資產架構用於[Image元件內。](/help/components/image.md)
 
 資產結構定義如下。
 
@@ -194,21 +194,21 @@ id: {
 }
 ```
 
-以下事 [件與](#events) 「資產」結構相關：
+以下[event](#events)與資產結構相關：
 
 * `cmp:click`
 
-## 核心元件事件 {#events}
+## 核心元件事件{#events}
 
-核心元件會透過資料層觸發許多事件。 與資料層互動的最佳實務是 [註冊事件接聽器](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) ，然 ** 後根據觸發事件的事件類型和／或元件採取動作。 這將避免使用非同步指令碼的潛在競爭條件。
+核心元件會透過資料層觸發許多事件。 與資料層交互的最佳實踐是：[註冊事件偵聽器](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)和&#x200B;*，然後*&#x200B;根據觸發事件的事件類型和／或元件採取操作。 這將避免使用非同步指令碼的潛在競爭條件。
 
 以下是AEM核心元件提供的現成可用事件：
 
-* **`cmp:click`** -按一下可點按的元素(具有屬性的元 `data-cmp-clickable` 素)會使資料層觸發事 `cmp:click` 件。
-* **`cmp:show`** 和 **`cmp:hide`** -控制accordion（展開／收合）、轉盤（下一個／上一個按鈕）和標籤（標籤選擇）元件會分別觸發資料層和 `cmp:show` 事件 `cmp:hide` 。 事件 `cmp:show` 也會在頁面載入時傳送，並預期會是第一個事件。
-* **`cmp:loaded`** -當資料層填入頁面上的核心元件時，資料層就會觸發事 `cmp:loaded` 件。
+* **`cmp:click`** -按一下可點按的元素(具有屬性的 `data-cmp-clickable` 元素)會使資料層觸發 `cmp:click` 事件。
+* **`cmp:show`** 和 **`cmp:hide`** -控制accordion（展開／收合）、轉盤（下一個／上一個按鈕）和標籤（標籤選擇）元件，會分別觸發資料層 `cmp:show` 和事 `cmp:hide` 件。`cmp:show`事件也會在頁面載入時派發，並預期會是第一個事件。
+* **`cmp:loaded`** -當資料層填入頁面上的核心元件時，資料層就會觸發 `cmp:loaded` 事件。
 
-### 元件觸發的事件 {#events-components}
+### 元件{#events-components}觸發的事件
 
 下表列出觸發事件的標準核心元件以及這些事件。
 
@@ -222,9 +222,9 @@ id: {
 | [導覽](/help/components/navigation.md) | `cmp:click` |
 | [頁面](/help/components/page.md) | `cmp:show` |
 | [索引標籤](/help/components/tabs.md) | `cmp:show`與`cmp:hide` |
-| [Teaser](/help/components/teaser.md) | `cmp:click` |
+| [摘要](/help/components/teaser.md) | `cmp:click` |
 
-### 事件路徑資訊 {#event-path-info}
+### 事件路徑資訊{#event-path-info}
 
 AEM核心元件所觸發的每個資料層事件都會包含包含下列JSON物件的裝載：
 
@@ -234,7 +234,7 @@ eventInfo: {
 }
 ```
 
-其中 `<component-path>` 是觸發事件之資料層中元件的JSON路徑。  值(可透過使 `event.eventInfo.path``adobeDataLayer.getState(<component-path>)` 用)很重要，因為它可當做參數使用，用來擷取觸發事件之元件的目前狀態，讓自訂程式碼存取其他資料並將其新增至資料層。
+其中`<component-path>`是觸發事件之資料層中元件的JSON路徑。  此值可透過`event.eventInfo.path`取用，因為它可用作`adobeDataLayer.getState(<component-path>)`的參數，以擷取觸發事件之元件的目前狀態，讓自訂程式碼可存取其他資料並將其新增至資料層。
 
 例如：
 
