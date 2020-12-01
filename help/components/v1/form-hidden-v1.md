@@ -4,21 +4,24 @@ description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
 index: n
 translation-type: tm+mt
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 1%
 
 ---
 
 
-# Form Hidden Component (v1) {#form-hidden-component-v}
+# 表單隱藏元件(v1){#form-hidden-component-v}
 
 「核心元件表單隱藏」元件可顯示隱藏欄位。
 
 ## 使用狀況 {#usage}
 
-核心元件表單隱藏元件可讓您建立隱藏欄位，將目前頁面的相關資訊傳回AEM，並與表單容器元件一 [起使用](form-container-v1.md)。
+核心元件表單隱藏元件可讓建立隱藏欄位，將目前頁面的相關資訊傳回AEM，並與[表單容器元件](form-container-v1.md)一起使用。
 
-欄位屬性可由內容編輯器在「設定」對話方塊中 [定義](#configure-dialog)。
+欄位屬性可由[configure dialog](#configure-dialog)中的內容編輯器定義。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性{#version-and-compatibility}
 
 本檔案說明Form Hidden Component的v1（最初隨AEM 6.3核心元件的1.0.0版推出）。
 
@@ -33,11 +36,11 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 >
 >本檔案說明表單隱藏元件的v1。
 >
->有關當前版本的「表單隱藏元件」的詳細資訊，請參閱「表 [單隱藏元件](/help/components/forms/form-hidden.md) 」文檔。
+>有關當前版本的表單隱藏元件的詳細資訊，請參閱[表單隱藏元件](/help/components/forms/form-hidden.md)文檔。
 
-## 元件輸出示例 {#sample-component-output}
+## 元件輸出示例{#sample-component-output}
 
-以下是 [We.Retail的範例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### HTML {#html}
 
@@ -77,26 +80,26 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要1.1.0版的核心元件。 如需詳細 [資訊，請參閱核心元件v1的相容性資訊](/help/versions.md#release-history-and-compatibility) 。
+>從核心元件匯出JSON需要1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md#release-history-and-compatibility)的[相容性資訊。
 
-## 配置對話框 {#configure-dialog}
+## 配置對話框{#configure-dialog}
 
 配置對話框允許內容作者定義隱藏欄位的參數。
 
 ![](/help/assets/chlimage_1-26.png)
 
-* **Name** —— 隨表單資料提交的欄位名稱
-* **Value** —— 隨表單資料提交的欄位值
+* **名稱** -隨表單資料提交的欄位名稱
+* **值** -隨表單資料提交的欄位值
 * **識別碼** -識別碼在頁面上應是唯一的，可用來將指令碼系結至此表單欄位
 
-## 設計對話框 {#design-dialog}
+## 設計對話框{#design-dialog}
 
 「表單隱藏」元件沒有設計對話框。
 
-## 技術詳細資訊 {#technical-details}
+## 技術詳細資訊{#technical-details}
 
-有關「表單隱藏元件」的最新技 [術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)。
+有關表單隱藏元件[的最新技術檔案可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)上找到。
 
 您可從GitHub下載整個核心元件專案。
 
-有關開發核心元件的詳細資訊，請參閱核心元 [件開發人員檔案](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
