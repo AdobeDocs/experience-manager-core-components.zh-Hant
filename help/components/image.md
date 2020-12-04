@@ -2,10 +2,10 @@
 title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
 workflow-type: tm+mt
-source-wordcount: '1921'
-ht-degree: 1%
+source-wordcount: '2157'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 1%
 影像元件隨附強穩、立即可用的回應式功能。 在頁面範本層級，[設計對話方塊](#design-dialog)可用來定義影像資產的預設寬度。 然後影像元件會自動載入正確的寬度以根據瀏覽器視窗的大小顯示。 視窗調整大小時，影像元件會動態載入正確的影像大小。 由於影像元件已最佳化以載入您的內容，所以元件開發人員不需擔心定義自訂媒體查詢。
 
 此外，影像元件支援延遲載入，將實際影像資產延遲載入，直到在瀏覽器中顯示為止，以提高頁面的回應速度。
+
+## 動態媒體支援{#dynamic-media}
+
+影像元件（從[版本2.13.0](/help/versions.md)開始）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)資產。 [啟用後，](#design-dialog) 這些功能可讓您以簡單的拖放方式或透過資產瀏覽器，新增動態媒體影像資產，就像新增任何其他影像一樣。此外，還支援影像修飾元、影像預設集和智慧裁切。
+
+您使用核心元件建立的網頁體驗無法提供豐富、Sensei支援、強穩、高效能、跨平台的動態媒體影像功能。
 
 ## 版本和相容性{#version-and-compatibility}
 
@@ -65,9 +71,7 @@ ht-degree: 1%
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
->[!NOTE]
->
->從核心元件版本2.1.0開始，映像元件支援[schema.org microdata](https://schema.org)。
+映像元件支援[schema.org microdata](https://schema.org)。
 
 ## 配置對話框{#configure-dialog}
 
@@ -86,33 +90,35 @@ ht-degree: 1%
 
 ![影像元件設定對話方塊的中繼資料索引標籤](/help/assets/image-configure-metadata.png)
 
-* **影像是**
-裝飾性檢查影像是否應由輔助技術忽略，因此不需要替代文字。這僅適用於裝飾性影像。
-* **替**
-代文字視障讀者可選擇影像的意義或功能。
-   * 從DAM取得替代文字——勾選影像的替代文字時，會填入DAM中`dc:description`中繼資料的值。
-
-* **標**
-題影像的其他資訊，預設會顯示在影像下方。
-   * **從**
-DAMW取得標題勾選影像的標題文字時，將會填入 
-`dc:title` 中繼資料。
-   * **以快顯方式顯**
-示標題勾選時，標題不會顯示在影像下方，但是當將滑鼠暫留在影像上時，某些瀏覽器會顯示為快顯。
-
-* **連結**
-   * 將影像連結至其他資源。
+* **預設類型** -這定義了可用的影像預設類型( **Image** Presetor  **Smart Crop**)，並且僅在啟用動態媒體功能時 [](#dynamic-meida) 才可用。
+   * **影像預設集** -選取「預設 **的** 影像 **預設集」時，下拉式清單會提供「影像預設集」，允許從可用的「動態媒體」預設集**  **** 中進行選取。只有為所選資產定義了預設集時，才可使用此選項。
+   * **智慧型裁切** -選取「 **Preset** Typeof  **Smart**  **** Cropis」時，下拉式清單「重新定義」可供使用，允許從所選資產的可用轉譯中選取。只有在為所選資產定義轉譯時，才可使用此功能。
+   * **影像修飾元** -您可在此處以分隔方式定義其他動態媒體影像伺服指令，不論 `&`選取的是 **哪個** 預設類型。
+* **影像是裝飾性** -檢查協助技術是否應忽略影像，因此不需要替代文字。這僅適用於裝飾性影像。
+* **替代文字** -視障讀者，影像意義或功能的文字替代文字。
+   * **從DAM取得替代文字** -勾選影像的替代文字時，會填入DAM中中繼資 `dc:description` 料的值。
+* **標題** -影像的其他相關資訊，預設顯示在影像下方。
+   * **從DAM取得標題** -勾選影像的標題文字時，將會填入DAM中中繼資 `dc:title` 料的值。
+   * **以快顯方式顯示標題** -勾選後，標題不會顯示在影像下方，但是當將滑鼠暫留在影像上時，某些瀏覽器會顯示為快顯。
+* **連結** -將影像連結至其他資源。
    * 使用選取對話方塊連結至其他AEM資源。
    * 如果未連結至AEM資源，請輸入絕對URL。 非溶質URL將會解譯為相對於AEM。
-
 * **ID**  —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
    * 如果指定ID，則作者有責任確保其唯一性。
    * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
+>[!TIP]
+>
+>**智慧型** Crop和影 **像預** 設集是互斥的選項。如果作者需要使用影像預設集和智慧型裁切轉譯，則作者必須使用&#x200B;**影像修飾元**&#x200B;來手動新增預設集。
+
 ## 編輯對話框{#edit-dialog}
 
 編輯對話方塊可讓內容作者裁切、修改啟動地圖，以及縮放影像。
+
+>[!NOTE]
+>
+>裁切、旋轉和縮放功能不適用於動態媒體資產。 如果[動態媒體功能](#dynamic-media)已啟用，則應透過[設定對話方塊，執行對動態媒體資產的任何此類編輯。](#configure-dialog)
 
 ![影像元件的編輯對話方塊](/help/assets/image-edit.png)
 
@@ -181,36 +187,20 @@ DAMW取得標題勾選影像的標題文字時，將會填入
 
 ![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main.png)
 
-* **啟用延遲**
-載入定義將影像元件新增至頁面時，是否會自動啟用延遲載入選項。
-* **影像是裝**
-飾性在將影像元件新增至頁面時，定義裝飾性影像選項是否已自動啟用。
-* **如果從DAMefine中**
-擷取替代文字的選項在將影像元件新增至頁面時自動啟用，請從DAMefine取得替代文字。
-* **從**
-DAMDefine取得標題如果在將影像元件新增至頁面時自動啟用從DAM擷取標題的選項。
-* **以快顯方式顯示標題**
-定義將影像標題新增至頁面時，是否會自動啟用以快顯方式顯示影像標題的選項。
-* **停用UUID**
-TrackingCheck以停用影像資產的UUID追蹤。
-
-* **寬**
-度定義影像的寬度清單（以像素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。
+* **啟用DM功能** -勾選後，即可使用啟 [用的](#dynamic-media) 動態媒體功能。
+* **啟用延遲載入** -定義將影像元件新增至頁面時，是否自動啟用延遲載入選項。
+* **影像是裝飾** -定義在將影像元件新增至頁面時是否自動啟用裝飾影像選項。
+* **從DAM取得替代文字**-定義在將影像元件新增至頁面時，是否自動啟用從DAM擷取替代文字的選項。
+* **從DAM取得標題** -定義在將影像元件新增至頁面時，是否自動啟用從DAM擷取標題的選項。
+* **將標題顯示為彈出式選項** -定義將影像元件新增至頁面時，是否自動啟用將影像標題顯示為彈出式選項。
+* **停用UUID追蹤** -檢查以停用影像資產的UUID追蹤。
+* **Widths**  —— 定義影像的寬度清單（以像素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。
    * 點選或按一下「新增&#x200B;****」按鈕以新增其他大小。
       * 使用抓握手柄重新排列尺寸順序。
       * 使用&#x200B;**Delete**&#x200B;圖示移除寬度。
    * 依預設，影像載入會延遲至可見為止。
       * 選取「停用延遲載入&#x200B;**」選項，以在頁面載入時載入影像。**
-* **JPEG品**
-質轉換（例如縮放或裁切）JPEG影像的品質因數（百分比為0和100）。
-
->[!NOTE]
->
->自2.2.0版核心元件起，即可使用「JPEG品質」選項。
-
->[!NOTE]
->
->自核心元件2.2.0版起，影像元件會將唯一的UUID屬性`data-asset-id`新增至影像資產，以便追蹤和分析個別資產接收的檢視次數。
+* **JPEG品質** -轉換（例如縮放或裁切）JPEG影像的品質因數（百分比為0和100）。
 
 ### 功能標籤{#features-tab}
 
@@ -262,6 +252,6 @@ Flip)使用此選項可讓內容作者使用
 
 >[!NOTE]
 >
->通過`Last-Modified`標頭的條件請求受Adaptive Image Servlet支援，但`Last-Modified`標頭[的快取需要在Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)中啟用。
+>通過`Last-Modified`標頭的條件請求受Adaptive Image Servlet支援，但`Last-Modified`標頭[的快取需要在Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)中啟用。
 >
 >[AEM Project Archetype的範例Dispatcher組態已包含此組態。](/help/developing/archetype/overview.md)
