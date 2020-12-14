@@ -2,7 +2,7 @@
 title: 按鈕元件
 description: 核心元件按鈕元件可讓您建立和顯示按鈕。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 1%
@@ -72,4 +72,4 @@ Button Component的目前版本為v1，此版本於2019年6月隨核心元件2.5
 
 ### 樣式標籤{#styles-tab}
 
-影像元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+Button Component支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
