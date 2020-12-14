@@ -2,9 +2,9 @@
 title: 摘要元件
 description: 摘要元件可顯示影像、標題、豐富文字，並可選擇地連結至其他內容。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,10 @@ ht-degree: 1%
    * 從[資產瀏覽器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**browse**&#x200B;選項，從本機檔案系統上傳。
    * 點選或按一下&#x200B;**Clear**&#x200B;以取消選取目前選取的影像。
    * 點選或按一下「編輯&#x200B;****」，在資產編輯器中管理資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。[
+
+>[!NOTE]
+>
+>[動態媒](image.md#dynamic-media) 體功能目前無法用於摘要元件。
 
 ### 文字 {#text}
 
