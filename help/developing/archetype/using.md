@@ -2,7 +2,7 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的詳細使用指示
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 0%
@@ -57,9 +57,9 @@ AEM Archetype由模組組成：
 
 當然，您也可以直接叫用Maven。
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -132,31 +132,31 @@ mvn -B archetype:generate \
 
 要構建在項目根目錄中運行的所有模組，請使用以下Maven命令。
 
-```
+```shell
 mvn clean install
 ```
 
 如果您有執行中的AEM例項，則可以使用下列Maven命令建立並封裝整個專案並部署至AEM。
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 若要將它部署至發佈例項，請執行此命令。
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 或者，要部署到發佈實例，請運行此命令。
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 或者，若要只將套件部署至作者，請執行此命令。
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -172,7 +172,7 @@ mvn clean install -PautoInstallBundle
 
 這些屬性已設定好，以便在部署至較高層級的環境時可覆寫。 這樣，POM檔案不必進行更改，但`aem.host`和`sling.password`等變數可以通過命令行參數被覆蓋：
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
