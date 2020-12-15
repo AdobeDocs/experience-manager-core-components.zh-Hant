@@ -2,9 +2,9 @@
 title: AEM Project Archetype Front-End Build
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ AEM專案可簡化為由兩個獨立但相關的部分組成：
 
 >[!TIP]
 >
->進一步瞭解AEM如何在[AEM開發檔案](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)中處理ClientLibs、如何[包含它們](/help/developing/including-clientlibs.md)，或參閱[下方的ui.frontend模組如何使用它們。](#clientlib-generation)
+>進一步瞭解AEM如何在[AEM開發檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)中處理ClientLibs、如何[包含它們](/help/developing/including-clientlibs.md)，或參閱[下方的ui.frontend模組如何使用它們。](#clientlib-generation)
 
 ## ClientLibs概述{#clientlibs}
 
-前端模組是使用[AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)提供。 當執行NPM組建指令碼時，應用程式會建立，而aem-clientlib-generator套件會擷取產生的組建輸出，並將它轉換為此類的ClientLib。
+前端模組是使用[AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)提供。 當執行NPM組建指令碼時，應用程式會建立，而aem-clientlib-generator套件會擷取產生的組建輸出，並將它轉換為此類的ClientLib。
 
 ClientLib將包含下列檔案和目錄：
 
