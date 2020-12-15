@@ -2,9 +2,9 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的詳細使用指示
 translation-type: tm+mt
-source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2055'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ AEM Archetype由模組組成：
 
 ### 建立項目{#create-project}
 
-若要開始使用，您最簡單的方式是使用[AEM Eclipse擴充功能](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html)，然後依「新增專案」精靈並選擇「AEM範例多模組專案」**，以使用已發行版本的原型。**
+若要開始使用，您最簡單的方式是使用[AEM Eclipse擴充功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html)，然後依「新增專案」精靈並選擇「AEM範例多模組專案」**，以使用已發行版本的原型。**
 
 當然，您也可以直接叫用Maven。
 
