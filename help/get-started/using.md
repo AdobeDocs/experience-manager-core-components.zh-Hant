@@ -2,9 +2,9 @@
 title: 使用核心元件
 description: 「若要在您自己的專案中啟動並執行核心元件，需執行三個步驟：下載和安裝、建立Proxy元件、載入核心樣式，以及允許範本上的元件。」
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 載入核心樣式{#load-the-core-styles}
 
-1. 如果尚未完成，請建立[用戶端資料庫](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)，其中包含您網站所需的所有CSS和JS檔案。
+1. 如果尚未完成，請建立[用戶端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)，其中包含您網站所需的所有CSS和JS檔案。
 1. 在您網站的「用戶端程式庫」中，將相依性新增至可能需要的核心元件。 這是透過新增`embed`屬性來完成的。
 
    例如，要包含所有v1核心元件的客戶端庫，要添加的屬性為：
