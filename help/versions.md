@@ -2,17 +2,17 @@
 title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 translation-type: tm+mt
-source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
+source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 22%
+source-wordcount: '1901'
+ht-degree: 21%
 
 ---
 
 
 # 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本為2.13.0，並與[AEM(Cloud Service)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
+目前的核心元件版本為2.13.2，並與[AEM(Cloud Service)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
 
 ## 發行歷史記錄與相容性{#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 22%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 這是修補程式版本，可解決RTE在AEMaaCS上使用時的問題 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年12月16日 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此版本包含[影像元件的新動態媒體功能。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年12月4日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 這是2.12.0的修補程式版本，包括次要修正。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月11日 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 這是2.12.0的修補程式版本，已修正[影像元件中的主要錯誤。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月5日 |
@@ -46,7 +47,7 @@ ht-degree: 22%
 | [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 這是錯誤修正版本。 | 6.4.0.0+ | - | - | 8 | 2018年6月12日 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 此版本新增了外觀改良功能、錯誤修正和小幅改良功能，包括[影像元件中支援影像翻轉。](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 2018年4月11日 |
 | [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 此版本主要著重於機殼下的改良、錯誤修正，以及對[影像元件、](/help/components/image.md)[頁面元件、](/help/components/page.md)和[內容片段元件的一些微幅改良。](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 2018年3月7日 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 本版次推出[導覽元件、](/help/components/navigation.md) [語言導覽元件、](/help/components/language-navigation.md)和[快速搜尋元件](/help/components/quick-search.md)，並針對所有元件實作[樣式系統](/help/get-started/authoring.md#component-styling)。 | 6.4.0.0+ | - | - | 8 | 2018年1月16日 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 本版次推出[導覽元件、](/help/components/navigation.md) [語言導覽元件、](/help/components/language-navigation.md)和[快速搜尋元件，並針對所有元件實作[樣式系統](/help/get-started/authoring.md#component-styling)。](/help/components/quick-search.md) | 6.4.0.0+ | - | - | 8 | 2018年1月16日 |
 | [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 此發行版本會在所有元件上實作JSON匯出，並推出[內容片段元件。](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 2017年10月10日 |
 | [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 此版本新增了[影像元件的數項修正。](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 2017年8月4日 |
 | [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 此版本新增了[頁面元件、](/help/components/page.md)[影像元件、](/help/components/image.md)的修正，以及各種全域修正與改進。 | 6.4.0.0+ | - | - | 8 | 2017年4月26日 |
