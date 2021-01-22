@@ -2,10 +2,10 @@
 title: AMP對核心元件的支援
 description: 核心元件支援AMP —— 加速行動頁面
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Core Components使用`amp`做為Sling選擇器來轉譯AMP頁面。 例如，`ex
 * **配對AMP** -頁面以AMP和HTML格式傳送。
 * **僅AMP** -頁面僅以AMP形式傳送。
 
-頁面的AMP設定也可以在個別頁面的[頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中覆寫。
+頁面的AMP設定也可以在個別頁面的[頁面屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中覆寫。
 
 ![AMP頁面屬性](/help/assets/amp-page-properties.png)
 
@@ -63,5 +63,9 @@ Core Components使用`amp`做為Sling選擇器來轉譯AMP頁面。 例如，`ex
 當將AMP與核心元件搭配使用時，主要差異在於AMP要求所有[CSS都內嵌在`<head>`元素中，並最佳化。](including-clientlibs.md#inlining)
 
 為支援此功能，會使用自訂的頁面元件，僅載入頁面上所顯示元件的AMP專用CSS。
+
+>[!NOTE]
+>
+>由於AMP設計限制，Adobe不支援將Responsive Grid與您頁面的AMP版本搭配使用。
 
 如需詳細需求和技術詳細資訊，請參閱[GitHub開發人員檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
