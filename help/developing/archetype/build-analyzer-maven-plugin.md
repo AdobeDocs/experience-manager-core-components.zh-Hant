@@ -2,9 +2,9 @@
 title: AEM as a Cloud Service SDK Build Analyzer Maven Plugin
 description: 本機Maven組建分析器外掛程式的檔案
 translation-type: tm+mt
-source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
+source-git-commit: 42a9dcd64ed8a9c70ec0f72dac50bf88111b703b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 AEM as a Cloud Service SDK Build Analyzer Maven Plugin會分析各種內容套件專案的結構。
 
 如需如何將Maven Plugin納入AEM Maven專案的詳細資訊，請參閱[ Maven Plugin檔案](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md)。
+
+>[!NOTE]
+>
+>建議您更新Maven專案，以參考Maven中央儲存庫中的最新版本外掛程式，位於以下位置：https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
 下表說明在此步驟中執行的分析器。<!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -27,3 +31,4 @@ AEM as a Cloud Service SDK Build Analyzer Maven Plugin會分析各種內容套�
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | 這些分析器會檢查與[content package to feature model conversion process](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying)相關的一些詳細資訊，以建立符合Sling Feature Model的工件。 任何錯誤都應向Adobe客戶支援報告。 | 是 | 是 |
 | `api-regions-crossfeature-dups` | 驗證客戶OSGI搭售沒有將AEM覆寫為雲端服務之公開API的Export-package宣告<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>若要修正，請停止匯出屬於AEM公用API一部分的套件。 | 是 | 是 |
 | `repoinit` | 檢查所有重新指向節的語法 | 是 | 是 |
+| `bundle-nativecode` | 驗證OSGI搭售未安裝原生程式碼。 | 是 | 是 |
