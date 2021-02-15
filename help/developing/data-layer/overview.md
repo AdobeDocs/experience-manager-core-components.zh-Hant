@@ -2,10 +2,10 @@
 title: 搭配核心元件使用Adobe用戶端資料層
 description: 搭配核心元件使用Adobe用戶端資料層
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 3%
+source-wordcount: '974'
+ht-degree: 5%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 
 1. 將`sling:configRef`屬性新增至`/content`下方網站的`jcr:content`節點(例如`/content/<mySite>/jcr:content`)，並從上一步驟設定為`/conf/<mySite>`。
 
-1. 啟用後，您可以在編輯器外載入網站的頁面來驗證啟動。 檢查頁面來源，`<body>`標籤應包含屬性`data-cmp-data-layer-enabled`
+1. 啟用後，您可以在編輯器外載入網站的頁面來驗證啟動，例如使用編輯器中的「檢視為已發佈」選項。 ****&#x200B;檢查頁面來源，`<body>`標籤應包含屬性`data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -63,6 +63,28 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
    window.adobeDataLayer.getState();
    ```
 
+## 支援的元件{#supported-components}
+
+以下元件支援資料層。
+
+* [折疊式面板](/help/components/accordion.md)
+* [階層連結](/help/components/breadcrumb.md)
+* [按鈕](/help/components/button.md)
+* [傳送](/help/components/carousel.md)
+* [內容片段](/help/components/content-fragment-component.md)
+* [影像](/help/components/image.md)
+* [語言導覽](/help/components/language-navigation.md)
+* [清單](/help/components/list.md)
+* [導覽](/help/components/navigation.md)
+* [頁面](/help/components/page.md)
+* [進度列](/help/components/progress-bar.md)
+* [索引標籤](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [文字](/help/components/text.md)
+* [標題](/help/components/title.md)
+
+另請參閱由元件觸發的[事件。](#events-components)
+
 ## 核心元件資料結構{#data-schemas}
 
 以下是核心元件與資料層一起使用的方案清單。
@@ -76,7 +98,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 * [語言導覽](/help/components/language-navigation.md)
 * [清單](/help/components/list.md)
 * [導覽](/help/components/navigation.md)
-* [Teaser](/help/components/teaser.md)
+* [摘要](/help/components/teaser.md)
 * [文字](/help/components/text.md)
 * [標題](/help/components/title.md)
 
@@ -197,6 +219,34 @@ id: {
 以下[event](#events)與資產結構相關：
 
 * `cmp:click`
+
+### 內容片段結構{#content-fragment}
+
+內容片段架構由[內容片段元件使用。](/help/components/content-fragment-component.md)
+
+內容片段架構的定義如下。
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+用於「內容片段」元素的架構如下。
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## 核心元件事件{#events}
 
