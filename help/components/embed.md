@@ -2,10 +2,10 @@
 title: 內嵌元件
 description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁面。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 2%
+source-wordcount: '1341'
+ht-degree: 1%
 
 ---
 
@@ -72,13 +72,20 @@ ht-degree: 2%
 
 ### 內嵌項目 {#embeddable}
 
-嵌入式允許對嵌入式資源進行更多的定製，該嵌入式資源可以參數化並包括附加資訊。 作者可從預先設定的可信內嵌項目中選擇，而元件隨附Youtube可內嵌的現成可用項目。
+嵌入式允許對嵌入式資源進行更多的定製，該嵌入式資源可以參數化並包括附加資訊。 作者可從預先設定的受信任內嵌項目中選擇，而元件隨附於YouTube可內嵌的現成可用項目。
 
 **Embeddable**&#x200B;欄位定義要使用的處理器類型。 若是YouTube內嵌式，您可以定義：
 
-* **視訊ID**  —— 您要內嵌之資源之YouTube上的唯一視訊ID
+* **視訊ID**  —— 您要內嵌之資源之YouTube的唯一視訊ID
 * **Width**  —— 內嵌視訊的寬度
 * **高度** -內嵌視訊的高度
+* **啟用靜音** -此參數指定視訊是否預設為靜音播放。啟用此功能可增加自動播放在現代瀏覽器中運作的機會。
+* **啟用自動播放** -此參數會指定當播放器載入時，初始視訊是否會自動開始播放。這僅在發佈實例上或在編寫實例上使用&#x200B;**「以發佈方式查看」(View as Published)選項時有效。**
+* **啟用回圈** -若是單一視訊，此參數會指定播放器是否應重複播放初始視訊。在播放清單的情況下，播放器會播放整個播放清單，然後在第一個視訊開始。
+* **啟用內嵌播放(iOS)** -此參數控制iOS上HTML5播放器中的影片是內嵌（開）或全螢幕（關）播放。
+* **不受限制的相關影片** -如果此選項已停用，相關影片將會來自與剛播放的影片相同的頻道，否則會來自任何頻道。
+
+請注意，必須通過[設計對話框](#design-dialog)激活「啟用」選項，並且可以設定為預設值。
 
 其他內嵌項目會提供類似欄位，可由開發人員在內嵌元件的開發人員檔案後，[定義。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
@@ -104,18 +111,35 @@ ht-degree: 2%
 
 但是，由於內嵌元件遵循AEM的全域HTML AntiSamy環衛架構篩選規則集，因此規則更複雜，此規則集位於`/libs/cq/xssprotection/config.xml`。 如有需要，開發人員可以覆蓋專案特定組態。
 
-如需其他安全性資訊，請參閱[AEM開發人員檔案中的內部部署安裝](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)以及[AEM作為雲端服務安裝。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/home.html)
+如需其他安全性資訊，請參閱[AEM開發人員檔案中的內部部署安裝](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)以及[AEM(Cloud Service)安裝。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >雖然AntiSamy環衛架構規則可透過覆蓋`/libs/cq/xssprotection/config.xml`來設定，但這些變更會影響所有HTL和JSP行為，而不只是內嵌核心元件。
 
 ## 設計對話框{#design-dialog}
 
-設計對話方塊可讓範本作者定義內容作者可用的選項，內容作者使用內嵌元件，並在放置內嵌元件時設定預設值。
+設計對話方塊可讓範本作者定義內容作者可用的選項，內容作者使用內嵌元件，以及放置內嵌元件時設定的預設值。
+
+### 可嵌入類型頁籤{#embeddable-types-tab}
 
 ![內嵌元件的設計對話方塊](/help/assets/embed-design.png)
 
 * **停用URL**  —— 在選取 **** 內容作者時停用URL選項
 * **禁用嵌入** -在選擇內 **** 容作者時禁用「嵌入」選項，而不管允許哪些嵌入處理器。
 * **停用HTML**  —— 在選取時停 **** 用內容作者的HTML選項。
-* **允許的嵌入** -定義內容作者可使用哪些可嵌入處理器的多選項，但 **** Embedtables選項處於活動狀態。
+* **允許嵌入** -多選定，定義內容作者可以使用哪些可嵌入的處理器，但 **** Embeddables選項處於活動狀態。
+
+### YouTube標籤{#youtube-tab}
+
+![內嵌元件設計對話方塊的YouTube標籤](/help/assets/embed-design-youtube.png)
+
+* **允許設定靜音行為** -允許內容作者在選取YouTube內嵌類型時，在 **元** 件中設定「啟用Mute」選項
+   * **mute的預設值** -選取YouTube內嵌 **類型** 時，自動設定「啟用Muteoption」
+* **允許設定自動播放行為** -允許內容作者在選取YouTube內嵌類型 **時** ，在元件中設定「啟用自動播放」選項
+   * **autoplay的預設值** -選取YouTube內嵌 **類型** 時，自動設定「啟用自動播放」選項
+* **允許設定循環行為** -允許內容作者在選取YouTube內嵌類型 **時** ，在元件中設定「啟用載入」選項
+   * **loop的預設值** -選取YouTube內嵌 **類型** 時，自動設定「啟用載入」
+* **允許設定內嵌播放(iOS)** -允許內容作者在選取YouTube內嵌類型時，在元件中設定「 **Enable Inline Playback(iOS)** 」選項
+   * **內嵌播放(iOS)的預設值** -選取YouTube內嵌類型 **時，自動設** 定「啟用內嵌播放(iOS)」選項
+* **允許設定內嵌影片** -允許內容作者在選取YouTube內嵌類型時，在元件中設定「不受 **限制** 的相關影片」選項
+   * **非限制相關影片的預設值** -選取YouTube內嵌 **類型時，** 自動設定「不受限制的相關影片」選項
