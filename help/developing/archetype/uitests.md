@@ -1,10 +1,10 @@
 ---
 title: ui.tests AEM Project Archetype模組
-description: 如何使用AEM Project Archetype JUnit測試
+description: 如何使用AEM Project原型UI測試
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -14,24 +14,22 @@ ht-degree: 0%
 
 項目包含三個測試級別：
 
-## 設備測試{#unit-tests}
+* [設備測試](core.md#unit-tests)
+* [整合測試](ittests.md)
+* UI測試
 
-[核心模組](core.md)中的單元測試展示了套件中包含的代碼的經典單元測試。 要測試，請執行：
+本文說明UI測試是ui.tests模組的一部分。
 
-```
-mvn clean test
-```
+## 執行UI測試{#running-tests}
 
-## 整合測試{#integration-tests}
+要測試，請執行：
 
-伺服器端整合測試可讓裝置式測試在AEM環境（即AEM伺服器）中執行。 要測試，請執行：
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## 用戶端測試{#client-side-tests}
+執行後，`target/reports`資料夾中會提供報表和記錄檔。
 
-`client-side Hobbes.js`測試是以JavaScript為基礎的瀏覽器端測試，可驗證瀏覽器端行為。
+## 其他選項{#additional-options}
 
-若要測試，在瀏覽器中檢視您要測試的AEM頁面時，請開啟左側面板並切換至「測試」標籤，以「**開發人員模式」**&#x200B;開啟頁面，並尋找產生的&#x200B;**MyName測試**&#x200B;並執行它們。****
+UI測試可使用許多不同的選項執行，包括針對本機瀏覽器和Docker影像進行無頭測試。 如需詳細資訊，請參閱ui.tests模組](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)的[README.md檔案。
