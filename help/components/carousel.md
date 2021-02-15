@@ -2,9 +2,9 @@
 title: 轉盤元件
 description: 「轉盤元件」可讓內容作者在旋轉轉盤中呈現內容。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果頁面的視區被縮小，使編輯對話框變為全屏，則&#x200B;**添加**&#x200B;按鈕將隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器[中的轉盤元件，將元件新增至轉盤元件。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)
+>如果頁面的視區被縮小，使編輯對話框變為全屏，則&#x200B;**添加**&#x200B;按鈕將隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)中的轉盤元件，將元件新增至轉盤元件。[
 
 ### 屬性頁籤{#properties-tab}
 
@@ -128,3 +128,7 @@ ht-degree: 0%
 ### 樣式標籤{#styles-tab}
 
 轉盤元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+轉盤元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
