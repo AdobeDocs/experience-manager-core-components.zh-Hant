@@ -2,9 +2,9 @@
 title: 標籤元件
 description: 「標籤元件」允許建立多個標籤，以在頁面上排列內容。
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果頁面的視區被縮小，使編輯對話框變為全屏，則&#x200B;**添加**&#x200B;按鈕將隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器[中的標籤元件，將元件新增至標籤元件。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
+>如果頁面的視區被縮小，使編輯對話框變為全屏，則&#x200B;**添加**&#x200B;按鈕將隱藏。 您仍可從元件瀏覽器拖曳至頁面編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)中的標籤元件，將元件新增至標籤元件。[
 
 ### 屬性頁籤{#properties-tab}
 
@@ -133,3 +133,7 @@ ht-degree: 0%
 ### 樣式標籤{#styles-tab}
 
 Tabs Component支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+標籤元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
