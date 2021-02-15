@@ -2,9 +2,9 @@
 title: 標題元件
 description: 核心元件標題元件是具有就地編輯功能的區段標題元件。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 2%
 
 ---
@@ -82,3 +82,7 @@ ht-degree: 2%
 ### 樣式標籤{#styles-tab}
 
 Title Component支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+標題元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
