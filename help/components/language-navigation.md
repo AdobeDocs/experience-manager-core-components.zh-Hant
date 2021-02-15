@@ -2,9 +2,9 @@
 title: 語言導覽元件
 description: 語言導覽元件提供網站的語言／國家導覽，讓訪客可以在不同地區設定中導覽至相同頁面。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -104,3 +104,7 @@ ht-degree: 1%
 * 變更ID可能會影響CSS、JS和資料圖層追蹤。
 
 ![語言導覽元件的編輯對話方塊](/help/assets/language-navigation-edit.png)
+
+## Adobe用戶端資料層{#data-layer}
+
+語言導覽元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
