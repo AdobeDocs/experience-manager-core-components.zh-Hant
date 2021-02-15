@@ -2,17 +2,17 @@
 title: 內容片段元件
 description: 核心元件內容片段元件允許顯示內容片段。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 2%
+source-wordcount: '673'
+ht-degree: 5%
 
 ---
 
 
 # 內容片段元件{#content-fragment-component}
 
-核心元件內容片段元件允許顯示[內容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+核心元件內容片段元件允許顯示[內容片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -110,3 +110,6 @@ ht-degree: 2%
 
    * 用於內部回應式格線的Sling資源類型
 
+## Adobe用戶端資料層{#data-layer}
+
+內容片段元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
