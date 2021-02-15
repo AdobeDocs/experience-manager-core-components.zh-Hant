@@ -2,9 +2,9 @@
 title: 按鈕元件
 description: 核心元件按鈕元件可讓您建立和顯示按鈕。
 translation-type: tm+mt
-source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -73,3 +73,7 @@ Button Component的目前版本為v1，此版本於2019年6月隨核心元件2.5
 ### 樣式標籤{#styles-tab}
 
 Button Component支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+按鈕元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
