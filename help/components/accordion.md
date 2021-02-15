@@ -2,9 +2,9 @@
 title: Accordion元件
 description: 核心元件Accordion元件允許建立在頁面上以accordion排列的面板集合。
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -125,3 +125,7 @@ Accordion元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.
 ### 樣式標籤{#styles-tab}
 
 Accordion元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+Accordion元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
