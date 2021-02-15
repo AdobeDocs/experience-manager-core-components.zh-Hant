@@ -2,10 +2,10 @@
 title: 摘要元件
 description: 摘要元件可顯示影像、標題、豐富文字，並可選擇地連結至其他內容。
 translation-type: tm+mt
-source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: '775'
+ht-degree: 2%
 
 ---
 
@@ -106,3 +106,7 @@ ht-degree: 1%
 ### 樣式標籤{#styles-tab}
 
 摘要元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+摘要元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
