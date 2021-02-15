@@ -2,7 +2,7 @@
 title: AEM Project Archetype Front-End Build
 description: AEM型應用程式的專案範本
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -166,7 +166,7 @@ ui.frontend模組建立程式運用[aem-clientlib-generator](https://www.npmjs.c
 
 在網站頁面上最終加入用戶端程式庫如下：
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
