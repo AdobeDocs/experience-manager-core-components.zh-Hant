@@ -1,15 +1,19 @@
 ---
 product: Adobe Experience Manager
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+description: Adobe Experience Manager核心元件檔案
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.zh-Hant
 index: y
 solution-title: AEM的學習與支援
-solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+solution-hub-url: https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/home.html
 getting-started-title: AEM快速入門開發
-getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+getting-started-url: https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/core-concepts/home.html
 tutorials-title: AEM 教學課程
 tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
+source-git-commit: f109463f1942349c300600acf6b94f268e8aa60e
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 21%
 
 ---
 
@@ -49,4 +53,4 @@ ToCs
 * `description`
 * `index: n` （僅適用於舊版元件）
 
-有關中繼資料的其他資訊，請參閱內 [部製作指南。](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+有關中繼資料的其他資訊，請參閱[內部製作指南。](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
