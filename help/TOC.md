@@ -4,10 +4,10 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 64%
+source-wordcount: '214'
+ht-degree: 63%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 64%
          + [表單文字 (v1)](components/v1/form-text-v1.md)
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
-   + [成功途徑](developing/success.md)
+   + [成功途徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND 開發人員教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
@@ -79,7 +79,7 @@ ht-degree: 64%
       + [資料層概觀](developing/data-layer/overview.md)
       + [與資料層整合](developing/data-layer/integrations.md)
       + [擴充資料層](developing/data-layer/extending.md)
-   + AEM Project Archetype {#archetype}
+   + AEM 專案原型 {#archetype}
       + [原型概觀](developing/archetype/overview.md)
       + [使用原型](developing/archetype/using.md)
       + [核心模組](developing/archetype/core.md)
@@ -89,4 +89,5 @@ ht-degree: 64%
       + [ui.frontend.react模組](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular模組](developing/archetype/uifrontend-angular.md)
       + [ui.tests模組](developing/archetype/uitests.md)
+      + [it.tests模組](developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
