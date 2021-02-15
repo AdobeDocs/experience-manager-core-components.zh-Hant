@@ -2,10 +2,10 @@
 title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 1%
+source-wordcount: '644'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ## 編輯對話框{#edit-dialog}
 
-由於元件代表整個頁面，因此通常在編輯對話框中的設定會出現在[頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中。
+由於元件代表整個頁面，因此通常在編輯對話框中的設定會出現在[頁面屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中。
 
 ## 設計對話框{#design-dialog}
 
@@ -83,3 +83,7 @@ ht-degree: 1%
 ### 樣式標籤{#styles-tab}
 
 頁面元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+頁面元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
