@@ -2,10 +2,10 @@
 title: 文字元件
 description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2200'
-ht-degree: 2%
+source-wordcount: '2213'
+ht-degree: 4%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作者提供了多種功能，以編輯其文本內容。 RTE的配置非常靈活，並提供了多種選項。 有關如何配置RTE的詳細資訊，請參閱[ Configure the Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[ Configure the Rich Text Editor plug-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
+Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作者提供了多種功能，以編輯其文本內容。 RTE的配置非常靈活，並提供了多種選項。 有關如何配置RTE的詳細資訊，請參閱[ Configure the Rich Text Editor](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[ Configure the Rich Text Editor plug-ins](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
 
 本文的其餘部分演示了使用現成可用的RTE配置的核心元件文本元件的標準配置。
 
@@ -369,3 +369,7 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 ## 樣式標籤{#styles-tab}
 
 文字元件支援AEM [style system](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+文字元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
