@@ -2,7 +2,7 @@
 title: Angular SPA的前端構建
 description: Angular-based SPA項目前端構建過程說明
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -45,7 +45,7 @@ npm start
 
 ### npm test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ npm test
 
 ### npm run test:debug {#npm-run-test-debug}
 
-```
+```shell
 npm run test:debug
 ```
 
@@ -61,7 +61,7 @@ npm run test:debug
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
