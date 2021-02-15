@@ -2,10 +2,10 @@
 title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 translation-type: tm+mt
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 0%
+source-wordcount: '2170'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 影像元件隨附強穩、立即可用的回應式功能。 在頁面範本層級，[設計對話方塊](#design-dialog)可用來定義影像資產的預設寬度。 然後影像元件會自動載入正確的寬度以根據瀏覽器視窗的大小顯示。 視窗調整大小時，影像元件會動態載入正確的影像大小。 由於影像元件已最佳化以載入您的內容，所以元件開發人員不需擔心定義自訂媒體查詢。
 
-此外，影像元件支援延遲載入，將實際影像資產延遲載入，直到在瀏覽器中顯示為止，以提高頁面的回應速度。
+此外，影像元件支援延遲載入，以延遲實際影像資產的載入，直到在瀏覽器中顯示為止，提高頁面的回應速度。
 
 ## 動態媒體支援{#dynamic-media}
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->SVG支援需要AEM 6.4或更高版本的核心元件版本2.1.0及[service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html)，以支援AEM中的[影像編輯器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
+>SVG支援需要AEM 6.4或更高版本的核心元件版本2.1.0及[service pack 2](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/sp-release-notes.html)，以支援AEM中的[影像編輯器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
 
 ## 元件輸出示例{#sample-component-output}
 
@@ -255,3 +255,7 @@ Flip)使用此選項可讓內容作者使用
 >通過`Last-Modified`標頭的條件請求受Adaptive Image Servlet支援，但`Last-Modified`標頭[的快取需要在Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)中啟用。
 >
 >[AEM Project Archetype的範例Dispatcher組態已包含此組態。](/help/developing/archetype/overview.md)
+
+## Adobe用戶端資料層{#data-layer}
+
+影像元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
