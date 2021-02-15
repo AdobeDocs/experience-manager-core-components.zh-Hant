@@ -2,9 +2,9 @@
 title: 階層連結元件
 description: 核心元件階層連結元件是導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -89,3 +89,7 @@ Breadcrumb元件的目前版本為v2，此版本於2018年1月隨核心元件2.0
 ### 樣式標籤{#styles-tab}
 
 Breadcrumb元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+Breadcrumb元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
