@@ -2,15 +2,15 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的詳細使用指示
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
 
 
-# AEM Project Archetype {#aem-project-archetype}
+# AEM 專案原型 {#aem-project-archetype}
 
 AEM專案原型會建立以最簡化、最佳實務為基礎的Adobe Experience Manager專案，做為您自己AEM專案的起點。 使用此原型時必須提供的屬性允許您指定此項目所有部分的名稱，並控制某些可選特徵。
 
@@ -33,13 +33,16 @@ AEM專案原型會建立以最簡化、最佳實務為基礎的Adobe Experience 
 AEM Archetype由模組組成：
 
 * **[核心](core.md)**:是包含所有核心功能（例如OSGi服務、偵聽程式和排程程式），以及元件相關Java程式碼（例如servlet和請求篩選器）的Java套件。
-* **[ui.apps](uiapps.md)**:包含 `/apps` 專 `/etc` 案的和部分，例如JS和CSSclientlibs、元件、範本、執行模式專用的設定，以及Hobbes測試。
+* **[it.tests](ittests.md)**:是Java整合測試。
+* **[ui.apps](uiapps.md)**:包含 `/apps` 專 `/etc` 案的和部分，例如JS和CSSclientlibs、元件和範本。
 * **[ui.content](uicontent.md)**:包含使用ui.apps模組中元件的範例內容。
-* **[ui.tests](uitests.md)**:是一個Java包，包含伺服器端執行的JUnit測試。此套件不會部署在生產上。
-* **ui.launcher**:包含將ui.tests包（和相依包）部署到伺服器並觸發遠程JUnit執行的粘合代碼。
+* **ui.config**:包含專用於項目的運行模式特定OSGi配置。
 * **[ui.frontend.general](uifrontend.md)**: **（可選）** 包含使用一般基於Webpack的前端構建模組所需的對象。
 * **[ui.frontend.react](uifrontend-react.md)**: **（可選）** 包含使用原型建立基於React的SPA項目時所需的工件。
 * **[ui.frontend.angular](uifrontend-angular.md)**: **（可選）** 包含使用原型建立基於Angular的SPA項目時所需的工件。
+* **[ui.tests](uitests.md)**:包含Selenium架構的UI測試。
+* **全部**:是內嵌所有已編譯模組（包和內容包）的單一內容包，包括任何供應商相關性。
+* **分析**:對專案執行分析，提供將AEM部署為雲端服務的額外驗證。
 
 ![](/help/assets/archetype-structure.png)
 
