@@ -2,10 +2,10 @@
 title: 列出元件
 description: 「核心元件清單元件」可讓您輕鬆建立動態和靜態清單。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 3%
+source-wordcount: '979'
+ht-degree: 4%
 
 ---
 
@@ -188,3 +188,7 @@ ht-degree: 3%
 ### 樣式標籤{#styles-tab}
 
 影像元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+清單元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
