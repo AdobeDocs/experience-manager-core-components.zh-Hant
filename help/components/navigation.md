@@ -2,10 +2,10 @@
 title: 導覽元件
 description: 導覽元件可讓使用者輕鬆導覽全球化網站結構。
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 0%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -165,3 +165,7 @@ ht-degree: 0%
 ### 樣式標籤{#styles-tab}
 
 導覽元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+
+## Adobe用戶端資料層{#data-layer}
+
+導覽元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
