@@ -2,9 +2,9 @@
 title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '691'
 ht-degree: 3%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 3%
 
 ## 使用狀況 {#usage}
 
-頁面元件構成所有使用核心元件設計的頁面以及可編輯的範本。 使用頁面元件，頁首、頁尾和頁面結構就可使用其他核心元件定義為範本。
+頁面元件是使用核心元件設計的所有頁面以及可編輯範本的基礎。 使用頁面元件，頁首、頁尾和頁面結構就可使用其他核心元件定義為範本。
 
-使用[設計對話方塊](#design-dialog)，可為頁面定義自訂用戶端程式庫。 與具有可直接從元件訪問的編輯對話框的其他元件不同，由於元件是頁面本身，因此頁面元件的[edit dialog](#edit-dialog)是頁面屬性窗口。
+使用[設計對話方塊](#design-dialog)，可為頁面定義自訂用戶端程式庫。 與具有可直接從元件訪問的編輯對話框的其他元件不同，因為頁面元件是頁面本身，所以頁面元件的[edit對話框](#edit-dialog)是頁面屬性窗口。
+
+## 漸進式網頁應用程式支援{#pwa-support}
+
+核心元件2.15.0版已推出支援AEM內建[漸進式網頁應用程式(PWA)功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)的頁面元件。 透過網站層級的簡單設定，將您的AEM體驗轉變為PWA!
 
 ## 版本和相容性{#version-and-compatibility}
 
