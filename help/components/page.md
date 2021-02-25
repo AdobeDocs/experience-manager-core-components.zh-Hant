@@ -2,9 +2,9 @@
 title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，可與範本編輯器搭配使用，並允許與範本編輯器組合頁首／頁尾和結構元件。
 translation-type: tm+mt
-source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
+source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '683'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 漸進式網頁應用程式支援{#pwa-support}
 
-核心元件2.15.0版已推出支援AEM內建[漸進式網頁應用程式(PWA)功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)的頁面元件。 透過網站層級的簡單設定，將您的AEM體驗轉變為PWA!
+核心元件2.15.0版推出支援AEM做為雲端服務的內建漸進式網頁應用程式(PWA)功能。 透過網站層級的簡單設定，將您的AEM體驗轉變為PWA!
 
 ## 版本和相容性{#version-and-compatibility}
 
