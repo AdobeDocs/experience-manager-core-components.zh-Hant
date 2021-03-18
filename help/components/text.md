@@ -1,10 +1,11 @@
 ---
 title: 文字元件
 description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2218'
 ht-degree: 4%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 4%
 
 目前的文字元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|---|
@@ -45,7 +46,7 @@ ht-degree: 4%
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作者提供了多種功能，以編輯其文本內容。 RTE的配置非常靈活，並提供了多種選項。 有關如何配置RTE的詳細資訊，請參閱[ Configure the Rich Text Editor](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[ Configure the Rich Text Editor plug-ins](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
+Core Components Text Component利用Rich AEM Text Editor(RTE)。 RTE為內容作者提供了多種功能，以編輯其文本內容。 RTE的配置非常靈活，並提供了多種選項。 有關如何配置RTE的詳細資訊，請參閱[ Configure the Rich Text Editor](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[ Configure the Rich Text Editor plug-ins](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
 
 本文的其餘部分演示了使用現成可用的RTE配置的核心元件文本元件的標準配置。
 
@@ -122,9 +123,9 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 ![超連結範例](/help/assets/text-hyperlink-example.png)
 
 * 輸入路徑
-   * 使用「開啟選取範圍」對話方塊，在AEM中選擇路徑
-   * 如果連結不在AEM中，請輸入絕對URL
-      * 非絕對路徑會解譯為相對於AEM
+   * 使用「開啟選擇」對話框，在
+   * 如果連結不在AEM其中，請輸入絕對URL
+      * 非絕對路徑被解釋為相對於
 * 輸入連結的替代描述性文本
 * 選取連結行為
    * 目標
@@ -368,8 +369,8 @@ Core Components Text Component運用AEM Rich Text Editor(RTE)。 RTE為內容作
 
 ## 樣式標籤{#styles-tab}
 
-文字元件支援AEM [style system](/help/get-started/authoring.md#component-styling)。
+文本元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-文字元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+文本元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
