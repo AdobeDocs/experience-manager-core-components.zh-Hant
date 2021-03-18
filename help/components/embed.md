@@ -1,10 +1,11 @@
 ---
 title: 內嵌元件
-description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁面。
+description: 內嵌元件可將外部內容內嵌至內AEM容頁面。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1346'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,11 @@ ht-degree: 1%
 
 # 內嵌元件{#embed-component}
 
-核心元件內嵌元件可讓您將外部內容內嵌至AEM內容頁面。
+核心元件內嵌元件可讓您將外部內容內嵌至內AEM容頁面。
 
 ## 使用狀況 {#usage}
 
-「核心元件內嵌元件」可讓內容作者定義要內嵌在AEM內容頁面中的選取外部內容。 此外，還有一個選項可定義要嵌入的自由格式HTML。
+「核心元件內嵌元件」可讓內容作者定義要內嵌在內容頁面中的選AEM定外部內容。 此外，還有一個選項可定義要嵌入的自由格式HTML。
 
 * 在[configure dialog](#configure-dialog)中可定義元件的屬性。
 * 將元件添加到頁面時的預設值可在[設計對話框](#design-dialog)中定義。
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 目前的內嵌元件版本為v1，此版本於2019年9月隨核心元件2.7.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
@@ -109,9 +110,9 @@ ht-degree: 1%
 
 *一般而言，* 所有指令 `style` 碼和元素，以 `on*` 及所 `style` 有和屬性都會從輸出中移除。
 
-但是，由於內嵌元件遵循AEM的全域HTML AntiSamy環衛架構篩選規則集，因此規則更複雜，此規則集位於`/libs/cq/xssprotection/config.xml`。 如有需要，開發人員可以覆蓋專案特定組態。
+但是，由於內嵌元件遵循全AEM域HTML AntiSamy環衛架構篩選規則集，因此規則更複雜，請參閱`/libs/cq/xssprotection/config.xml`。 如有需要，開發人員可以覆蓋專案特定組態。
 
-如需其他安全性資訊，請參閱[AEM開發人員檔案中的內部部署安裝](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)以及[AEM(Cloud Service)安裝。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/home.html)
+有關內部部署安裝的[開發人員文AEM件](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)以及[作為Cloud Service安裝，請參閱其AEM他安全性資訊。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >雖然AntiSamy環衛架構規則可透過覆蓋`/libs/cq/xssprotection/config.xml`來設定，但這些變更會影響所有HTL和JSP行為，而不只是內嵌核心元件。
