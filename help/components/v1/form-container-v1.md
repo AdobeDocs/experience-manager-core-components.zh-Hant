@@ -2,10 +2,11 @@
 title: 表單容器元件(v1)
 description: 核心元件表單容器元件可讓您建立簡單的提交表單。
 index: n
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '643'
 ht-degree: 2%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 2%
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明Form Container元件的v1，最初是隨AEM 6.3核心元件的1.0.0版一起推出。
+本檔案說明Form Container Component的v1，最初是隨6.3版核心元件1.0.0一起推出AEM的。
 
 下表列出表單容器元件v1的相容性。
 
-| AEM版本 | 表單容器元件v1 |
+| 版AEM本 | 表單容器元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
@@ -98,8 +99,8 @@ ht-degree: 2%
 
 在表單提交完成後，會將使用者重新導向至指定的頁面。
 
-* 使用「選取對話方塊」，在AEM中選取資源。
-* 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會相對於AEM進行解譯。
+* 使用「選擇」對話框在中選擇資源AEM。
+* 如果感謝頁面未在AEM中，請指定絕對URL。 非絕對URL會相對於進行解AEM讀。
 * 留空可在提交後重新顯示表單。
 
 ## 設計對話框{#design-dialog}
