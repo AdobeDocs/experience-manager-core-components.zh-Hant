@@ -1,11 +1,12 @@
 ---
 title: 使用核心元件編寫
-description: 在AEM中，元件是構成所撰寫頁面內容的結構元素——核心元件提供有彈性且功能豐富的製作功能。
+description: 在中AEM，元件是構成所製作頁面內容的結構元素——核心元件提供有彈性且功能豐富的製作功能。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 6%
+source-wordcount: '769'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 6%
 
 若要體驗核心元件並檢視其設定選項以及HTML和JSON輸出的範例，請造訪[元件庫](https://adobe.com/go/aem_cmp_library)。
 
-如需在AEM專案上實作核心元件的深入、以開發人員為導向的簡介，請使用[AEM Project Archetype](/help/developing/archetype/overview.md)查看[WKND教學課程。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+如需更深入、以開發人員為導向的簡介，以介紹如何使用[AEM Project Archetype](/help/developing/archetype/overview.md)查看[ WKND教學課程，在專案上實作核心元件。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->核心元件[需要AEM 6.4或更高版本](/help/versions.md)，並需要使用[可編輯的範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它們不適用於Classic UI，也不適用於靜態範本。
+>核心元件[需要AEM6.4或更高版本](/help/versions.md)，並需要使用[可編輯的範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它們不適用於Classic UI，也不適用於靜態範本。
 
 ## 使用核心元件編寫 {#authoring-with-core-components}
 
@@ -73,7 +74,7 @@ ht-degree: 6%
 
 ### 元件樣式{#component-styling}
 
-大部分核心元件的樣式都可使用AEM樣式系統來定義。
+大部分核心元件的樣式都可使用樣式系統來AEM定義。
 
 * 範本作者可以定義哪些樣式可用於該元件的「設計對話框」中的特定元件。
 * 然後，內容作者可以選擇在新增元件和建立內容時要套用的樣式。
