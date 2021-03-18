@@ -1,11 +1,12 @@
 ---
 title: 分隔符號元件
 description: 分隔符號元件會在頁面上的元件之間建立分隔符號
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 3%
+source-wordcount: '309'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 3%
 
 目前的Separator元件版本為v1，此版本於2019年2月隨核心元件2.3.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|---|
@@ -53,4 +54,4 @@ ht-degree: 3%
 
 ### 樣式標籤{#styles-tab}
 
-Separator Component支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+分隔符元件AEM支援[樣式系統](/help/get-started/authoring.md#component-styling)。
