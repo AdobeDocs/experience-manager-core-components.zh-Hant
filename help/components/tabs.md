@@ -1,10 +1,11 @@
 ---
 title: 標籤元件
 description: 「標籤元件」允許建立多個標籤，以在頁面上排列內容。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 0%
 要執行此操作：
 
 1. 使用頁面編輯器中的&#x200B;**[「檢視為已發佈」選項，檢視包含元件的頁面。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**
-1. 檢查頁面內容並識別面板的ID。
+1. Inspect網頁內容，並識別面板的ID。
    * 例如`id="accordion-86196c94d3-item-ca319dbb0b"`
 1. 此ID會成為您可使用雜湊(`#`)附加至URL的錨點。
    * 例如`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 目前的標籤元件版本為v1，此版本於2018年10月隨核心元件2.2.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -132,8 +133,8 @@ ht-degree: 0%
 
 ### 樣式標籤{#styles-tab}
 
-Tabs Component支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+頁籤元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-標籤元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+標籤元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
