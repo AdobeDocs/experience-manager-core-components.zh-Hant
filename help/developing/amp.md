@@ -1,10 +1,11 @@
 ---
 title: AMP對核心元件的支援
 description: 核心元件支援AMP —— 加速行動頁面
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -33,7 +34,7 @@ Core Components使用`amp`做為Sling選擇器來轉譯AMP頁面。 例如，`ex
 雖然AMP支援提供許多彈性，但快速上手只需幾個簡單步驟：
 
 1. 如有需要，請安裝AMP支援擴充功能。
-   * 對於AEM做為Cloud Service專案，核心元件會自動提供擴充功能，而不需安裝。
+   * 對於AEMCloud Service項目，核心元件將自動提供擴展，無需安裝。
    * 對於內部部署和AMS項目，在安裝核心元件時必須明確安裝擴展。
 1. 在安裝AMP擴展後，元件作者只需將元件超級類型指向擴展中的那些類型。
 1. [啟用范](#enabling-amp) 本層級或個別頁面的AMP支援。
