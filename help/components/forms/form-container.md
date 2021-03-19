@@ -1,10 +1,11 @@
 ---
 title: 表單容器元件
 description: 核心元件表單容器元件可讓您建立簡單的提交表單。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 1%
 
 目前的表單容器元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -109,8 +110,8 @@ ht-degree: 1%
 ![表單容器元件編輯對話方塊中的一般選項](/help/assets/form-container-edit-general.png)
 
 * **感謝頁面** -在表單提交完成後，將使用者重新導向至指定頁面。
-   * 使用「選取對話方塊」，在AEM中選取資源。
-   * 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會相對於AEM進行解譯。
+   * 使用「選擇」對話框在中選擇資源AEM。
+   * 如果感謝頁面未在AEM中，請指定絕對URL。 非絕對URL會相對於進行解AEM讀。
    * 留空可在提交後重新顯示表單。
 * **ID**  —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
@@ -123,4 +124,4 @@ ht-degree: 1%
 
 ### 樣式標籤{#styles-tab}
 
-表單容器元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+表單容器元件AEM支援[樣式系統](/help/get-started/authoring.md#component-styling)。
