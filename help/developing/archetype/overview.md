@@ -1,11 +1,13 @@
 ---
 title: AEM 專案原型
 description: 適用於基於應用程AEM式的專案範本
+feature: 核心元件，AEM專案原型
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 4ea3f1da41d9dd63707135c9eb9466c31d3dbe51
+source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 7%
+source-wordcount: '1043'
+ht-degree: 6%
 
 ---
 
@@ -41,7 +43,7 @@ Project AEM Archetype是Maven範本，可建立以最佳實務為基礎的最小
 * **樣式系統：** 允許作者套用不同的樣式，以避免 [建立](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) 自訂元件。
 * **前端建置：前端開** 發人員可以使用Webpack、TypeScript [和SASS來模](uifrontend.md#webpack-dev-server) 擬頁面 [並建](uifrontend.md) 立用戶端資料庫。
 * **WebApp-Ready：對於** 使用 [](uifrontend-react.md) Reactor  [](uifrontend-angular.md) [Angular的網站](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) ，請使用 [SPASDK保留在應](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)用程式內容製作中。
-* **啟用商務：** 針對想要將Commerce與商務解決方 [AEM案(例如](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) Magentousing the  [](https://magento.com/) Commerce Core Components)整合的 [專案](https://github.com/adobe/aem-core-cif-components)。
+* **啟用商務：** 針對想要將Commerce與商務解決方 [AEM案(例如Magentousing the ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) Commerce Core Components)整合的 [](https://magento.com/) 專案 [](https://github.com/adobe/aem-core-cif-components)。
 * **范常式式碼：** 結帳HelloWorld元件，以及範例模型、servlet、篩選器和排程器。
 * **開放來源：** 如果某件事情不如預期，您的改 [](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 進功能就會有！
 
