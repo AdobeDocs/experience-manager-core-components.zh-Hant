@@ -2,10 +2,11 @@
 title: 表單隱藏元件(v1)
 description: 「核心元件表單隱藏」元件可顯示隱藏欄位。
 index: n
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 1%
 
 ## 使用狀況 {#usage}
 
-核心元件表單隱藏元件可讓建立隱藏欄位，將目前頁面的相關資訊傳回AEM，並與[表單容器元件](form-container-v1.md)一起使用。
+核心元件表單隱藏元件允許建立隱藏欄位，將有關當前頁的資訊傳回AEM，並與[表單容器元件](form-container-v1.md)一起使用。
 
 欄位屬性可由[configure dialog](#configure-dialog)中的內容編輯器定義。
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明Form Hidden Component的v1（最初隨AEM 6.3核心元件的1.0.0版推出）。
+本檔案說明第1版的表單隱藏元件(最初是隨6.3版核心元件1.0.0推出AEM)。
 
 下表列出表單隱藏元件v1的相容性。
 
-| AEM版本 | 表單隱藏元件v1 |
+| 版AEM本 | 表單隱藏元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
