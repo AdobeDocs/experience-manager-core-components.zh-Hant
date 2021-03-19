@@ -1,22 +1,23 @@
 ---
 title: 內容片段清單元件
 description: 核心元件內容片段清單元件可顯示內容片段的清單。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 0%
+source-wordcount: '767'
+ht-degree: 5%
 
 ---
 
 
 # 內容片段清單元件{#content-fragment-list-component}
 
-核心元件內容片段清單元件允許顯示[內容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。
+核心元件內容片段清單元件允許顯示[內容片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。
 
 ## 使用狀況 {#usage}
 
-核心元件內容片段清單元件允許基於內容片段模型在頁面上包含[內容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。 這對於建立其他應用程式可輕鬆使用的[無頭內容](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用。
+核心元件內容片段清單元件允許基於內容片段模型在頁面上包含[內容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。 這對於建立可輕鬆被其他應用程式使用的[無頭內容](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用。
 
 * 在[configure dialog](#configure-dialog)中可以選擇清單及其屬性。
 * 樣式可套用至[設計對話方塊](#design-dialog)中的元件。
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 目前的內容片段元件版本為v1，此版本於2019年5月隨核心元件2.4.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
