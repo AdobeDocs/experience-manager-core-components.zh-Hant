@@ -3,11 +3,12 @@ sub-product: AEM 核心元件
 user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
+feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 63%
+ht-degree: 67%
 
 ---
 
@@ -69,7 +70,7 @@ ht-degree: 63%
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
    + [成功途徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 開發人員教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [WKND 開發人員教學課程](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
    + [AMP支援](developing/amp.md)
