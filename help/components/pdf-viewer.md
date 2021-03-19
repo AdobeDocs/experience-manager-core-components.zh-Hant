@@ -1,11 +1,12 @@
 ---
 title: PDF檢視器元件
 description: PDF檢視器元件可讓您顯示PDF檔案。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 2%
+source-wordcount: '710'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 2%
 
 目前的PDF檢視器元件版本為v1，此版本於2020年6月隨核心元件2.10.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
@@ -50,7 +51,7 @@ ht-degree: 2%
 
 ### 配置頁籤{#configuration-tab}
 
-「設定」標籤可讓作者定義應顯示的PDF。 路徑可以定義為AEM中的資產，或是其他資源的絕對路徑。
+「設定」標籤可讓作者定義應顯示的PDF。 路徑可以定義為中的資產或AEM到其他資源的絕對路徑。
 
 ![PDF檢視器元件編輯對話方塊的設定標籤](/help/assets/pdf-viewer-edit-configuration.png)
 
