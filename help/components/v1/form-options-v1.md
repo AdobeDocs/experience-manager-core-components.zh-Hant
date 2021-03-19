@@ -2,10 +2,11 @@
 title: 表單選項元件(v1)
 description: 核心元件表單選項元件允許從各種格式的預定義選項中進行選擇。
 index: n
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 2%
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明Form Options元件的v1，最初是隨AEM 6.3核心元件的1.0.0版一起推出。
+本檔案說明第1版的表單選項元件，最初是隨第1.0.0版的核心元件和第AEM6.3版一起推出。
 
 下表列出表單選項元件v1的相容性。
 
@@ -136,8 +137,8 @@ ht-degree: 2%
       * **Text**  —— 表單上顯示的選項標籤
       * **活動** -當表單載入時，選項會標示為已選取
       * **停用** -選項無法選取，但仍顯示
-      * **List**  —— 選項會使用AEM中其他位置定義的靜態清單
-         * **List**  - AEM中靜態清單的路徑
+      * **List**  —— 選項使用中其他位置AEM定義的靜態清單
+         * **List**  —— 靜態清單的路徑，位於
             * 使用「瀏覽」按鈕查找清單資源
       * **資料來源** -使用資料來源來選擇
          * **資料源** -資料源的資源類型
