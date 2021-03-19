@@ -1,10 +1,11 @@
 ---
 title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2175'
 ht-degree: 1%
 
 ---
@@ -26,17 +27,17 @@ ht-degree: 1%
 
 此外，影像元件支援延遲載入，以延遲實際影像資產的載入，直到在瀏覽器中顯示為止，提高頁面的回應速度。
 
-## 動態媒體支援{#dynamic-media}
+## Dynamic Media支援{#dynamic-media}
 
-影像元件（從[版本2.13.0](/help/versions.md)開始）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)資產。 [啟用後，](#design-dialog) 這些功能可讓您以簡單的拖放方式或透過資產瀏覽器，新增動態媒體影像資產，就像新增任何其他影像一樣。此外，還支援影像修飾元、影像預設集和智慧裁切。
+影像元件（從[版本2.13.0](/help/versions.md)開始）支援[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)資產。 [啟用後，](#design-dialog) 這些功能可讓您以簡單的拖放方式或透過資產瀏覽器，新增Dynamic Media影像資產，就像新增任何其他影像一樣。此外，還支援影像修飾元、影像預設集和智慧裁切。
 
-您使用核心元件建立的網頁體驗無法提供豐富、Sensei支援、強穩、高效能、跨平台的動態媒體影像功能。
+您使用核心元件建立的網頁體驗無法提供豐富、Sensei支援、強穩、高效能、跨平台的Dynamic Media影像功能。
 
 ## 版本和相容性{#version-and-compatibility}
 
 目前的影像元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -59,7 +60,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->SVG支援需要AEM 6.4或更高版本的核心元件版本2.1.0及[service pack 2](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/sp-release-notes.html)，以支援AEM中的[影像編輯器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
+>SVG支援需要2.1.0版或更高版本的核心元件以及6.4版的[服務套件2](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/sp-release-notes.html)，以支援AEM[影像編輯器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)AEM。
 
 ## 元件輸出示例{#sample-component-output}
 
@@ -90,10 +91,10 @@ ht-degree: 1%
 
 ![影像元件設定對話方塊的中繼資料索引標籤](/help/assets/image-configure-metadata.png)
 
-* **預設類型** -這定義了可用的影像預設類型( **Image** Presetor  **Smart Crop**)，並且僅在啟用動態媒體功能時 [](#dynamic-meida) 才可用。
-   * **影像預設集** -選取「預設 **的** 影像 **預設集」時，下拉式清單會提供「影像預設集」，允許從可用的「動態媒體」預設集**  **** 中進行選取。只有為所選資產定義了預設集時，才可使用此選項。
+* **預設類型** -這定義了可用的影像預設類型( **Image** Presetor  **Smart Crop**)，並且僅在啟用了 [Dynamic Media](#dynamic-meida) 功能時可用。
+   * **影像預設集** -選取「預設 **的** 影像預 **設集」時，下拉式清單會提供「影像預設集」，允許從可用的Dynamic Media預設集**  **** 中進行選取。只有為所選資產定義了預設集時，才可使用此選項。
    * **智慧型裁切** -選取「 **Preset** Typeof  **Smart**  **** Cropis」時，下拉式清單「重新定義」可供使用，允許從所選資產的可用轉譯中選取。只有在為所選資產定義轉譯時，才可使用此功能。
-   * **影像修飾元** -您可在此處以分隔方式定義其他動態媒體影像伺服指令，不論 `&`選取的是 **哪個** 預設類型。
+   * **影像修飾元** -您可在此處以分隔方式定義其他Dynamic Media影像伺服指令，而 `&`不論選取的 **預設** 類型為何。
 * **影像是裝飾性** -檢查協助技術是否應忽略影像，因此不需要替代文字。這僅適用於裝飾性影像。
 * **替代文字** -視障讀者，影像意義或功能的文字替代文字。
    * **從DAM取得替代文字** -勾選影像的替代文字時，會填入DAM中中繼資 `dc:description` 料的值。
@@ -101,8 +102,8 @@ ht-degree: 1%
    * **從DAM取得標題** -勾選影像的標題文字時，將會填入DAM中中繼資 `dc:title` 料的值。
    * **以快顯方式顯示標題** -勾選後，標題不會顯示在影像下方，但是當將滑鼠暫留在影像上時，某些瀏覽器會顯示為快顯。
 * **連結** -將影像連結至其他資源。
-   * 使用選取對話方塊連結至其他AEM資源。
-   * 如果未連結至AEM資源，請輸入絕對URL。 非溶質URL將會解譯為相對於AEM。
+   * 使用選擇對話框連結到另一AEM個資源。
+   * 如果未連結至AEM資源，請輸入絕對URL。 非溶質的URL將被解釋為相對AEM。
 * **ID**  —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
    * 如果指定ID，則作者有責任確保其唯一性。
@@ -118,7 +119,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->裁切、旋轉和縮放功能不適用於動態媒體資產。 如果[動態媒體功能](#dynamic-media)已啟用，則應透過[設定對話方塊，執行對動態媒體資產的任何此類編輯。](#configure-dialog)
+>裁切、旋轉和縮放功能不適用於Dynamic Media資產。 如果[Dynamic Media功能](#dynamic-media)已啟用，則對Dynamic Media資產的任何此類編輯都應通過[配置對話框執行。](#configure-dialog)
 
 ![影像元件的編輯對話方塊](/help/assets/image-edit.png)
 
@@ -187,7 +188,7 @@ ht-degree: 1%
 
 ![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main.png)
 
-* **啟用DM功能** -勾選後，即可使用啟 [用的](#dynamic-media) 動態媒體功能。
+* **啟用DM功能** -選中此選項後，可以使用啟 [用](#dynamic-media) 的Dynamic Media功能。
 * **啟用延遲載入** -定義將影像元件新增至頁面時，是否自動啟用延遲載入選項。
 * **影像是裝飾** -定義在將影像元件新增至頁面時是否自動啟用裝飾影像選項。
 * **從DAM取得替代文字**-定義在將影像元件新增至頁面時，是否自動啟用從DAM擷取替代文字的選項。
@@ -210,7 +211,7 @@ ht-degree: 1%
 
    ![「影像元件」的「設計」對話框的「功能」頁籤](/help/assets/image-design-features-source.png)
 
-   選取「允許資產從檔案系統上傳」選項&#x200B;**，允許內容作者從本機電腦上傳影像。**&#x200B;若要強制內容作者僅從AEM選取資產，請取消選取此選項。
+   選取「允許資產從檔案系統上傳」選項&#x200B;**，允許內容作者從本機電腦上傳影像。**&#x200B;若要強制內容作者僅從中選取資產，請AEM取消選取此選項。
 
 * 方向
 
@@ -225,7 +226,7 @@ Flip)使用此選項可讓內容作者使用
 
    >[!CAUTION]
    >
-   >預設情況下，**Flip**&#x200B;選項被禁用。 啟用此功能後，會在影像元件的編輯對話方塊中顯示&#x200B;**垂直翻轉**&#x200B;和&#x200B;**水準翻轉**&#x200B;按鈕，但AEM目前不支援此功能，而且使用這些選項所做的任何變更都不會持續存在。
+   >預設情況下，**Flip**&#x200B;選項被禁用。 啟用它將在影像元件的編輯對話方塊中顯示&#x200B;**垂直翻轉**&#x200B;和&#x200B;**水準翻轉**&#x200B;按鈕，但是目前不支援此功能，而且使用這些選項所做的任何變更都不會持續存在AEM。
 
 * 裁切
 
@@ -240,11 +241,11 @@ Flip)使用此選項可讓內容作者使用
 
    >[!CAUTION]
    >
-   >請注意，在AEM中，裁切長寬比的定義為&#x200B;**height/width**。 這與傳統的寬度／高度定義不同，而且是基於舊有相容性的原因。 只要您提供清楚的比率名稱，內容作者就不會察覺到任何差異，因為該名稱會顯示在UI中，而非比率本身。
+   >請注意，AEM在中，裁切長寬比定義為&#x200B;**height/width**。 這與傳統的寬度／高度定義不同，而且是基於舊有相容性的原因。 只要您提供清楚的比率名稱，內容作者就不會察覺到任何差異，因為該名稱會顯示在UI中，而非比率本身。
 
 ### 樣式標籤{#styles-tab-1}
 
-影像元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+映像元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ## 最適化影像Servlet {#adaptive-image-servlet}
 
@@ -254,8 +255,8 @@ Flip)使用此選項可讓內容作者使用
 >
 >通過`Last-Modified`標頭的條件請求受Adaptive Image Servlet支援，但`Last-Modified`標頭[的快取需要在Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)中啟用。
 >
->[AEM Project Archetype的範例Dispatcher組態已包含此組態。](/help/developing/archetype/overview.md)
+>[Project AEM Archetype的示例Dispatcher配置已包含此配置。](/help/developing/archetype/overview.md)
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-影像元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+映像元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
