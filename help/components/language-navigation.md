@@ -1,10 +1,11 @@
 ---
 title: 語言導覽元件
 description: 語言導覽元件提供網站的語言／國家導覽，讓訪客可以在不同地區設定中導覽至相同頁面。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 目前的語言導覽元件版本為v1，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -91,7 +92,7 @@ ht-degree: 1%
 
 ### 樣式標籤{#styles-tab}
 
-語言導覽元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+語言導航元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ## 編輯對話框{#edit-dialog}
 
@@ -105,6 +106,6 @@ ht-degree: 1%
 
 ![語言導覽元件的編輯對話方塊](/help/assets/language-navigation-edit.png)
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-語言導覽元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+語言導航元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
