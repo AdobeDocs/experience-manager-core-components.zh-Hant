@@ -2,10 +2,11 @@
 title: 表單按鈕元件(v1)
 description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
 index: n
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 2%
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明Form Button元件的v1，最初是隨AEM 6.3核心元件的1.0.0版一起推出。
+本檔案說明Form Button元件的v1，此元件最初是隨6.3版核心元件的1.0.0版一起AEM推出。
 
 下表列出表單按鈕元件v1的相容性。
 
-| AEM版本 | 表單按鈕元件v1 |
+| 版AEM本 | 表單按鈕元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
