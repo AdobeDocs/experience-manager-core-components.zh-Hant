@@ -1,10 +1,11 @@
 ---
 title: 轉盤元件
 description: 「轉盤元件」可讓內容作者在旋轉轉盤中呈現內容。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 目前的轉盤元件版本為v1，此版本於2018年10月隨核心元件2.2.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -127,8 +128,8 @@ ht-degree: 0%
 
 ### 樣式標籤{#styles-tab}
 
-轉盤元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+轉盤元件支援AEM[樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
 轉盤元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
