@@ -1,10 +1,11 @@
 ---
 title: 列出元件
 description: 「核心元件清單元件」可讓您輕鬆建立動態和靜態清單。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '984'
 ht-degree: 4%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 4%
 
 目前的清單元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -81,13 +82,13 @@ ht-degree: 4%
 
 點選或按一下「新增&#x200B;****」按鈕，將新項目插入清單。
 
-* 在清單中輸入項目的文字，或使用「選擇對話方塊」從AEM選擇項目。****
+* 在清單中輸入項的文本，或使用&#x200B;**選擇對話框**&#x200B;從中選擇項AEM。
 * 使用拖動控制滑塊重新排列清單中的項目。
 * 使用垃圾桶圖示來刪除清單中的項目。
 
 #### 搜尋 {#search-options}
 
-您可使用搜尋AEM內容的結果來建立清單。
+您可使用內容搜尋結果來建立清AEM單。
 
 ![搜尋清單選項](/help/assets/list-edit-search.png)
 
@@ -95,7 +96,7 @@ ht-degree: 4%
 尋查詢要執行全文搜尋以產生清單元素的字串
 * **搜**
 尋應在何處執行搜尋
-   * 使用&#x200B;**選擇對話方塊**&#x200B;選擇AEM中的位置
+   * 使用&#x200B;**選擇對話框**&#x200B;選擇位AEM置
    * 如果保留空白，請使用目前頁面
 
 #### 標記 {#tags}
@@ -106,7 +107,7 @@ ht-degree: 4%
 
 * **上層頁**
 面標籤符合的起始位置
-   * 使用&#x200B;**選擇對話方塊**&#x200B;選擇AEM中的位置
+   * 使用&#x200B;**選擇對話框**&#x200B;選擇位AEM置
    * 如果保留空白，請使用目前頁面
 * **標**
 記哪些標籤應符合
@@ -187,8 +188,8 @@ ht-degree: 4%
 
 ### 樣式標籤{#styles-tab}
 
-影像元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+映像元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-清單元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+清單元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
