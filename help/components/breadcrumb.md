@@ -1,10 +1,11 @@
 ---
 title: 階層連結元件
-description: 核心元件階層連結元件是導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
+description: 核心元件階層連結元件是導覽元件，會根據頁面在內容階層中的位置建立連結的階層連結。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 1%
 
 # 階層連結元件{#breadcrumb-component}
 
-核心元件階層連結元件是導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
+核心元件階層連結元件是導覽元件，會根據頁面在內容階層中的位置建立連結的階層連結。
 
 ## 使用狀況 {#usage}
 
@@ -24,7 +25,7 @@ ht-degree: 1%
 
 Breadcrumb元件的目前版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- | --- |--- |---|
@@ -88,8 +89,8 @@ Breadcrumb元件的目前版本為v2，此版本於2018年1月隨核心元件2.0
 
 ### 樣式標籤{#styles-tab}
 
-Breadcrumb元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+Breadcrumb元件支援AEM[Style System](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-Breadcrumb元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+Breadcrumb元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
