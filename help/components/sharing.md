@@ -1,11 +1,12 @@
 ---
 title: 社交分享元件
 description: 核心元件社交分享元件是Facebook和Pinterest分享介面工具集。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 1%
+source-wordcount: '432'
+ht-degree: 6%
 
 ---
 
@@ -18,13 +19,13 @@ ht-degree: 1%
 
 社交分享元件會將Facebook和Pinterest分享連結新增至頁面。 它通常包含在頁首或頁尾中。
 
-與其他元件不同，社交共用元件的設定是由範本作者透過[初始頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)和內容作者透過[頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
+與其他元件不同，社交共用元件的設定是由範本作者透過[初始頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)和內容作者透過[頁面屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
 
 ## 版本和相容性{#version-and-compatibility}
 
 目前的社交分享元件版本為v1，此版本隨核心元件1.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本，以及與元件版本相容的AEM版本。
+下表詳細說明所有支援的元件版本，以AEM及元件版本相容的版本。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
