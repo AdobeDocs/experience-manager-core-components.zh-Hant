@@ -2,10 +2,11 @@
 title: 頁面元件(v1)
 description: 頁面元件是可擴充的頁面元件，可與範本編輯器搭配使用，並可讓頁首／頁尾和結構元件與範本編輯器組合使用。
 index: n
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 1%
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明Page Component的v1，最初是隨AEM 6.3核心元件的1.0.0版一起推出。
+本檔案說明第1版的頁面元件，最初是隨第1.0.0版的核心元件和第AEM6.3版一起推出。
 
 下表列出頁面元件v1的相容性。
 
-| AEM版本 | 頁面元件v1 |
+| 版AEM本 | 頁面元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
