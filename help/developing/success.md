@@ -1,10 +1,11 @@
 ---
 title: 核心元件的成功途徑
 description: 如何使用核心元件實作專案時取得成功
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -38,19 +39,19 @@ ht-degree: 0%
 
 參考已在設計階段的[元件庫](https://adobe.com/go/aem_cmp_library)。 核心元件功能強大且有彈性，可讓您從頭開始。 只有當真正有業務需求且無法透過核心元件合理達成時，才能新增自訂元件。
 
-### 使用Adobe XD的UI套件{#ui-kit}
+### 使用Adobe XD{#ui-kit}的UI套件
 
-一旦對自訂元件有證實可行的需求，就可運用適用於Adobe XD的[UI套件，讓設計人員開始以核心元件做為建置區塊來建立線框和設計。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)
+一旦對自訂元件有證實可行的需求，請運用適用於Adobe XD的[UI套件，讓設計人員可以開始建立線框和以核心元件為建置區塊的設計。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)
 
 ## 不要忽略強大的功能{#powerful-features}
 
-AEM和核心元件的功能可能非常強大，但也非常微妙，而設計人員可能無法立即看出某些功能的可能性。
+核心元AEM件的功能非常強大，但也十分微妙，而設計人員可能無法立即看出某些功能的可能性。
 
 ### 內容片段 {#content-fragments}
 
 [內容](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) 片段可讓您建立中性頻道內容，以及（可能是特定頻道）變化。然後，您可以在製作內容頁面時使用這些片段及其變化。
 
-結合更新的JSON匯出器，結構化內容片段也可用來透過Content Services將AEM內容傳送至AEM頁面以外的通道。
+結合更新的JSON匯出器，結構化內容片段也可用來透過Content Services將內AEM容傳送至頁面以外的通AEM道。
 
 ### 體驗片段範本{#experience-fragment-templates}
 
