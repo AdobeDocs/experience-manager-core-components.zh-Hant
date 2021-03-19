@@ -1,10 +1,11 @@
 ---
 title: 表單文字元件
 description: 核心元件表單文字元件允許輸入表單文字以供提交。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '582'
 ht-degree: 6%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 6%
 
 目前的表單文字元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -89,4 +90,4 @@ ht-degree: 6%
 
 ### 樣式標籤{#styles-tab}
 
-表單文字元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+表單文本元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
