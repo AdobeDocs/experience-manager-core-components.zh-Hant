@@ -2,10 +2,11 @@
 title: 文字元件(v1)
 description: 「文字元件」是富格文字編輯和合成元件，具備就地編輯功能。
 index: n
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 3%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 3%
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明第1版文字元件，最初是隨AEM 6.3版核心元件一起推出。
+本檔案說明第1版的文字元件，最初是隨第1.0.0版的核心元件和第AEM6.3版一起推出。
 
 下表列出文本元件v1的相容性。
 
-| AEM版本 | 文字元件v1 |
+| 版AEM本 | 文字元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
@@ -140,8 +141,8 @@ ht-degree: 3%
 
    * 輸入位置
 
-      * 使用「開啟選取範圍」對話方塊，在AEM中選擇路徑
-      * 如果連結不在AEM中，請輸入絕對URL（非絕對路徑會解譯為相對於AEM）
+      * 使用「開啟選擇」對話框，在
+      * 如果連結不在AEM其中，請輸入絕對URL(非絕對路徑會解譯為相對AEM)
    * 輸入連結的替代描述性文本
    * 選取連結行為
 
