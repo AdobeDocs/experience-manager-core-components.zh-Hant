@@ -1,10 +1,11 @@
 ---
 title: 表單選項元件
 description: 核心元件表單選項元件允許從各種格式的預定義選項中進行選擇。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '550'
 ht-degree: 2%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 目前的表單選項元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -63,8 +64,8 @@ ht-degree: 2%
          * **Text**  —— 表單上顯示的選項標籤
          * **活動** -當表單載入時，選項會標示為已選取
          * **停用** -選項無法選取，但仍顯示
-   * **List**  —— 選項會使用AEM中其他位置定義的靜態清單
-      * **List**  - AEM中靜態清單的路徑
+   * **List**  —— 選項使用中其他位置AEM定義的靜態清單
+      * **List**  —— 靜態清單的路徑，位於
          * 使用「瀏覽」按鈕查找清單資源
    * **資料來源** -使用資料來源來選擇
       * **資料源** -資料源的資源類型
@@ -78,4 +79,4 @@ ht-degree: 2%
 
 ### 樣式標籤{#styles-tab}
 
-表單選項元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+表單選項元件AEM支援[樣式系統](/help/get-started/authoring.md#component-styling)。
