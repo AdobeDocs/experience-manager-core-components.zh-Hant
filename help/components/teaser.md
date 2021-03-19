@@ -1,10 +1,11 @@
 ---
 title: 摘要元件
 description: 摘要元件可顯示影像、標題、豐富文字，並可選擇地連結至其他內容。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 摘要元件的目前版本為v1，此版本於2018年7月隨核心元件2.1.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|---|
@@ -55,7 +56,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->[動態媒](image.md#dynamic-media) 體功能目前無法用於摘要元件。
+>[Dynamic Media](image.md#dynamic-media) 功能目前不適用於摘要元件。
 
 ### 文字 {#text}
 
@@ -105,8 +106,8 @@ ht-degree: 2%
 
 ### 樣式標籤{#styles-tab}
 
-摘要元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+摘要元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-摘要元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+摘要元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
