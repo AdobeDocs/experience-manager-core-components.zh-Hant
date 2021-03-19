@@ -1,10 +1,11 @@
 ---
 title: 自訂核心元件
 description: 核心元件實作數種模式，可輕鬆自訂，從簡單樣式到進階功能可重複使用。
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1109'
 ht-degree: 2%
 
 ---
@@ -23,15 +24,15 @@ ht-degree: 2%
 * [設計對話](/help/get-started/authoring.md#edit-and-design-dialogs) 框定義作者可以在編輯對話框中執行或不能執行的操作。
 * [編輯對](/help/get-started/authoring.md#edit-and-design-dialogs) 話方塊只顯示作者允許使用的選項。
 * [Sling模型](#customizing-the-logic-of-a-core-component) 會驗證並準備檢視的內容（範本）。
-* [Sling模型的結果](#customizing-the-logic-of-a-core-component) 可序列化為JSON for SPA使用案例。
+* [Sling模型的結果](#customizing-the-logic-of-a-core-component) 可序列化為JSONSPA以用於使用案例。
 * [HTL會轉譯](#customizing-the-markup) HTML伺服器端，以進行傳統伺服器端轉譯。
 * [HTML輸出](#customizing-the-markup) 具有語義、可存取、搜尋引擎最佳化，而且樣式簡單。
 
 所有核心元件都實施[Style System](#styling-the-components)。
 
-## AEM Project Archetype {#aem-project-archetype}
+## AEM 專案原型 {#aem-project-archetype}
 
-[AEM Project ](/help/developing/archetype/overview.md) Archetype會將最小的Adobe Experience Manager專案視為您自己專案的起點，包括使用SlingModels自訂HTL元件的範例，以邏輯和正確實作具有建議之proxy模式的核心元件。
+[Project AEM  Archety會將最小的Adobe Experience Manager專案視為您自己專案的起點，包括自訂HTL元件與SlingModels的範例，以邏輯和正確實作核心元件與建議的proxy模式。](/help/developing/archetype/overview.md) 
 
 ## 自訂模式{#customization-patterns}
 
@@ -112,7 +113,7 @@ public class PageHeadline implements Title {
 
 第一種自訂形式是套用CSS樣式。
 
-為了讓這更簡單，核心元件會轉換語義標籤並遵循受[Bootstrap](https://getbootstrap.com/)啟發而制定的標準化命名慣例。 此外，為了輕鬆定位和命名個別元件的樣式，每個核心元件都會封裝在DIV元素中，並包含&quot; `cmp`&quot;和&quot; `cmp-<name>`&quot;類別。
+為了讓這更簡單，核心元件會轉譯語義標籤並遵循受[Bootstrap](https://getbootstrap.com/)啟發的標準命名慣例。 此外，為了輕鬆定位和命名個別元件的樣式，每個核心元件都會包裝在DIV元素中，並包含&quot; `cmp`&quot;和&quot; `cmp-<name>`&quot;類別。
 
 例如，查看v1核心階層連結元件的HTL檔案：[breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)，我們看到元素輸出的階層為`ol.breadcrumb > li.breadcrumb-item > a`。 因此，若要確定CSS規則只影響該元件的階層連結類別，所有規則都應以如下所示的名稱命名：
 
@@ -122,17 +123,17 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每個核心元件都運用AEM [Style System功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)，讓範本作者定義其他CSS類別名稱，頁面作者可套用至元件。 這允許為每個模板定義一個允許的元件樣式清單，以及其中一個樣式是否預設應用於該類型的所有元件。
+此外，每個核心元件都採用AEM[樣式系統功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)，可讓範本作者定義其他CSS類別名稱，頁面作者可套用至元件。 這允許為每個模板定義一個允許的元件樣式清單，以及其中一個樣式是否預設應用於該類型的所有元件。
 
 ## 自定義的升級相容性{#upgrade-compatibility-of-customizations}
 
 有三種不同的升級方式：
 
-* 升級AEM版本
+* 升級版AEM本
 * 將核心元件升級到新的次要版本
 * 將核心元件升級到主要版本
 
-一般而言，將AEM升級至新版本不會影響核心元件或自訂作業，但元件版本也支援要移轉至的新AEM版本，且自訂作業不會使用[已過時或移除的API](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+通常，升AEM級至新版本不會影響核心元件或自訂，但元件版本也支援移轉至新AEM版本，且自訂不使用[已過時或移除](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的API。
 
 升級核心元件而不切換至較新的主要版本時，只要使用本頁所述的自訂模式，就不會影響自訂。
 
@@ -140,7 +141,7 @@ public class PageHeadline implements Title {
 
 ## 支援自定義{#support-of-customizations}
 
-和任何AEM元件一樣，在自訂設定方面有許多需要注意的事項：
+與任何元AEM件一樣，在自訂方面有許多需注意的事項：
 
 1. **切勿直接修改核心元件的程式碼。**
 
@@ -152,7 +153,7 @@ public class PageHeadline implements Title {
 
 1. **觀看已過時和移除的功能。**
 
-   在將每個新AEM版本升級至時，請留意[「已過時和已移除的功能」頁面，以確保所有使用的API仍為主題。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)
+   將每個新AEM版本升級至後，請留意[已過時和已移除的功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)頁面，以確保所有使用的API仍為熱門。
 
 另請參閱[核心元件支援](overview.md#core-component-support)部分。
 
