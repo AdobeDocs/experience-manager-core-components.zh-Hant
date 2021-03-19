@@ -1,24 +1,26 @@
 ---
-title: React SPA的前端構建
-description: 描述基於React的SPA項目的前端構建過程
+title: 前端內建功能，以因應需SPA求
+description: 描述基於React的項目的前端構建過SPA程
+feature: 核心元件，AEM專案原型
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
 
-# React SPA的前端構建{#frontend-react}
+# React SPA {#frontend-react}的前端構建
 
-本檔案說明使用原型建立以React架構為基礎的單頁應用程式(SPA)時所建立專案的詳細資訊。 例如，將`frontendModule`選項設為`react`時。
+本檔案說明使用原型建立以React架構為基礎的單一頁面應用程式(SPA)時所建立專案的詳細資訊。 例如，將`frontendModule`選項設為`react`時。
 
 ## 概覽 {#overview}
 
 此專案是以[create-react-app](https://github.com/facebook/create-react-app)啟動。
 
-此應用程式的建立目的是使用網站的AEM模型。 它會使用[@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components)套件中的輔助元件自動產生版面。
+此應用程式的建立AEM目的是使用網站的模型。 它會使用[@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components)套件中的輔助元件自動產生版面。
 
 ## 指令碼 {#scripts}
 
@@ -30,18 +32,18 @@ ht-degree: 0%
 npm start
 ```
 
-此命令會從執行於http://localhost:4502的本機AEM例項中代理JSON模型，以開發模式執行應用程式。 這假設整個專案已部署至AEM至少一次（在專案根目錄中為`mvn clean install -PautoInstallPackage`）。
+此命令會從執行於http://localhost:4502的本機例項中代理JSON模型，以開發模式AEM執行應用程式。 這假定整個項目已部署至AEM少一次（在項目根目錄中為`mvn clean install -PautoInstallPackage`）。
 
 在[ui.frontend](uifrontend.md)目錄中執行`npm start`後，您的應用程式會自動在您的瀏覽器中開啟（位於路徑`http://localhost:3000/content/<appId>/<country>/<language>/home.html`）。 如果您進行編輯，頁面會重新載入。
 
-如果您收到與CORS相關的錯誤，您可能想要依下列方式設定AEM:
+如果您收到與CORS相關的錯誤，您可能會想要設定AEM如下：
 
 1. 導覽至Configuration Manager(http://localhost:4502/system/console/configMgr)
-1. 開啟「Adobe Granite跨原始資源分享政策」的設定
+1. 開啟「Adobe花崗岩跨原始資源共用政策」的設定
 1. 使用下列附加值建立新設定：
    * 允許的來源：http://localhost:3000
    * 支援的標題：授權
-   * 允許的方法：選項
+   * 允許的方法：OPTIONS
 
 ### npm test {#npm-test}
 
@@ -59,7 +61,7 @@ npm run build
 
 此命令會將生產應用程式建置至組建資料夾。 它以生產模式捆綁了React ，並優化了構建以獲得最佳效能。 如需詳細資訊，請參閱[ React說明檔案](https://facebook.github.io/create-react-app/docs/deployment)。
 
-此外，AEM ClientLib是使用[aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)套件從應用程式產生。
+此外，AEM使用[aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)套件從應用程式產生ClientLib。
 
 ## 瀏覽器支援{#browser-support}
 
@@ -81,6 +83,6 @@ runtime~main.a8a9905a.js.map
 
 只有在需要時載入區塊才能大幅改善應用程式效能。
 
-若要使用此功能，應用程式必須能夠識別需要從AEM產生的HTML請求哪些JS和CSS檔案。 這可使用asset-manifest.json檔案中的「entrypoints」索引鍵來達成。 該檔案在clientlib.config.js中進行解析，並且只將entrypoint檔案捆綁到ClientLib中。 其餘的檔案將放在ClientLib的資源目錄中，並且會動態地請求，因此只有在實際需要時才會載入。
+若要使用此功能AEM，應用程式必須能夠識別哪些JS和CSS檔案需要從產生的HTML中請AEM求。 這可使用asset-manifest.json檔案中的「entrypoints」索引鍵來達成。 該檔案在clientlib.config.js中進行解析，並且只將entrypoint檔案捆綁到ClientLib中。 其餘的檔案將放在ClientLib的資源目錄中，並且會動態地請求，因此只有在實際需要時才會載入。
 
-請參閱一般[ui.frontend模組檔案](uifrontend.md#clientlibs)，以進一步瞭解專案原型如何使用AEM ClientLibs。
+有關項目原型如何使用AEMClientLibs的詳細資訊，請參閱一般[ui.frontend模組檔案](uifrontend.md#clientlibs)。
