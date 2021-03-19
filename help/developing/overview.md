@@ -1,11 +1,12 @@
 ---
 title: 開發核心元件
 description: 核心元件提供強穩且可擴充的基本元件，提供豐富的功能、持續傳送、元件版本修訂、現代化實作、精簡的標籤和JSON內容匯出。
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 13%
+source-wordcount: '1445'
+ht-degree: 15%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 13%
 
 核心元件不僅是全新功能，並且有多項優點，因此建議用於新的 AEM 專案。對於既有專案來說，移轉應該是品牌重塑或整體重構等較大專案工作的一部分。
 
-因此，Adobe提供下列建議：
+因此，Adobe提出以下建議：
 
 * **新專**
 案新專案應一律嘗試使用核心元件。如果核心元件無法直接使用或[extended](customizing.md)以符合專案需求，則請依照核心元件中所述的元件架構建立自訂元件。 除非其他情況不可能，否則請避免使用[foundation元件](/help/versions.md#foundation-component-support)。
@@ -39,9 +40,9 @@ ht-degree: 13%
 
 任何新專案都應與核心元件一起實施。 但是，現有項目通常會廣泛實施Foundation Components。
 
-對現有專案（例如重新品牌化或整體重構）的投入更大，通常會提供移轉至核心元件的機會。 為協助此項移轉，Adobe提供了許多移轉工具，以鼓勵採用核心元件和最新的AEM技術。
+對現有專案（例如重新品牌化或整體重構）的投入更大，通常會提供移轉至核心元件的機會。 為促進此項移轉，Adobe提供了一些移轉工具，以鼓勵採用核心元件和最新AEM技術。
 
-[AEM現代化工](http://opensource.adobe.com/aem-modernize-tools/) 具套件，讓您輕鬆轉換：
+[現代化AEM工](http://opensource.adobe.com/aem-modernize-tools/) 具套件，讓您輕鬆轉換：
 
 * 從靜態範本轉換為可編輯的範本
 * 根據原則設計設定
@@ -52,13 +53,13 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->AEM最新工具是社群的努力，Adobe不支援或授權。
+>最新AEM化工具是社群的努力，不受Adobe支援或保證。
 
 ## 核心元件支援{#core-component-support}
 
 核心元件是 AEM 不可或缺的一部分，並依照與 Quickstart 所提供相同的條款與條件給予支援。
 
-和其他AEM產品功能一樣，一般規則是：元件會先宣佈不建議使用，並且是下列AEM版本最早移除的元件。 這可讓客戶在放棄支援之前，至少有一個版本週期移至新版本的元件。
+與其他AEM產品功能一樣，一般規則是：元件會先宣佈不建議使用，而且最早會在下列版本中移AEM除。 這可讓客戶在放棄支援之前，至少有一個版本週期移至新版本的元件。
 
 每個元件的版本都清楚說明其支援的 AEM 版本。當停止支援 AEM 的單一版本時，核心元件對該 AEM 版本的支援也會停止。
 
@@ -82,9 +83,9 @@ ht-degree: 13%
 | 版本設定 | [針對模型和HTL](guidelines.md) | 無 |
 | 測試 | 單元測試+整合測試 | 整合測試 |
 | 傳送 | [透過公開GitHub](https://github.com/adobe/aem-core-wcm-components) | 透過快速入門 |
-| 授權 | [Apache授權](https://www.apache.org/licenses/LICENSE-2.0) | Adobe專屬 |
+| 授權 | [Apache授權](https://www.apache.org/licenses/LICENSE-2.0) | Adobe專有 |
 | 貢獻 | 透過提取請求 | 不可能 |
-| 協助工具 | 完全符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 僅部分符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| 協助工具 | 完全符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 僅部分符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 元件清單{#component-list}
 
@@ -119,7 +120,7 @@ ht-degree: 13%
 | [下載](https://adobe.com/go/aem_cmp_tech_download_v1) | 新增可下載的資產至頁面 | `-` |
 | [體驗片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [內嵌](https://adobe.com/go/aem_cmp_tech_embed_v1) | 將外部資源內嵌在頁面中 | - |
-| [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以視覺化方式呈現目標的進展 | - |
+| [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以視覺化方式呈現實現目標的進展 | - |
 | [PDF 檢視器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在頁面上呈現PDF檔案 | - |
 
 ### 近期元件{#upcoming-components}
@@ -128,8 +129,8 @@ ht-degree: 13%
 
 ## 升級核心元件{#upgrade-of-core-components}
 
-版本化元件的一個優點是，它可將移轉至新AEM版本與移轉至新元件版本分開。 此外，如果有新的元件版本，則允許將每個元件個別移轉至新版本。
+版本化元件的一個優點是，它允許將遷移區隔為新版本，AEM而將遷移區隔為新元件版本。 此外，如果有新的元件版本，則允許將每個元件個別移轉至新版本。
 
-移轉至新AEM版本不會影響核心元件的運作方式，但是其版本也支援要移轉至的新AEM版本。 對核心元件的自訂也不應受到影響，只要它們不使用[已過時或已移除的API](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+遷移到新AEM版本不會影響核心元件的工作方式，前提是其版本還支援要遷移到AEM的新版本。 對核心元件的自訂也不應受到影響，只要它們不使用[已過時或已移除的API](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
 遷移到新版本的核心元件也不會影響元件的工作方式，但頁面作者可能會引入新功能，這可能需要模板編輯器進行一些配置，以防不需要預設行為。 不過，可能需要調整自定義，有關詳細資訊，請參閱[自定義核心元件](customizing.md#upgrade-compatibility-of-customizations)頁。
