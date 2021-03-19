@@ -1,16 +1,18 @@
 ---
-title: ui.tests AEM Project Archetype模組
-description: 如何使用AEM Project原型UI測試
+title: 項目原型的AEMui.tests模組
+description: 如何使用專AEM案原型UI測試
+feature: 核心元件，AEM專案原型
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 
-# ui.tests AEM Project Archetype {#uitests-module}的模組
+# ui.tests專案原AEM型{#uitests-module}的模組
 
 項目包含三個測試級別：
 
