@@ -1,32 +1,34 @@
 ---
-title: 搭配核心元件使用Adobe用戶端資料層
-description: 搭配核心元件使用Adobe用戶端資料層
+title: 將Adobe客戶端資料層與核心元件一起使用
+description: 將Adobe客戶端資料層與核心元件一起使用
+feature: 核心元件，Adobe客戶端資料層
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '983'
 ht-degree: 5%
 
 ---
 
 
-# 搭配核心元件{#data-layer-core-components}使用Adobe用戶端資料層
+# 將Adobe客戶機資料層與核心元件{#data-layer-core-components}一起使用
 
-Adobe用戶端資料層的目標，是透過提供標準化方法來公開和存取任何指令碼的任何類型資料，以減少網站的測試工作。
+Adobe用戶端資料層的目標，是透過提供標準化方法來公開和存取任何指令碼的任何類型資料，以減少對網站的測量工作。
 
-Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，可與AEM搭配使用。
+Adobe客戶端資料層不受平台限制，但完全整合到核心元件中以便與一起使AEM用。
 
-和核心元件一樣，GitHub也提供Adobe用戶端資料層的程式碼及其開發人員檔案。 本檔案概述核心元件與資料層的互動方式，但GitHub檔案會延遲完整的技術詳細資訊。
+和核心元件一樣，Adobe用戶端資料層的程式碼也可在GitHub及其開發人員檔案上取得。 本檔案概述核心元件與資料層的互動方式，但GitHub檔案會延遲完整的技術詳細資訊。
 
 >[!TIP]
 >
 >有關Adobe客戶端資料層的詳細資訊，請[參考其GitHub儲存庫中的資源。](https://github.com/adobe/adobe-client-data-layer)
 >
->有關Adobe用戶端資料層與核心元件整合的詳細技術資訊，請參閱核心元件儲存庫中的[`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)檔案。
+>有關Adobe客戶端資料層與核心元件整合的詳細技術資訊，請參閱核心元件儲存庫中的[`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)檔案。
 
 ## 安裝與啟動{#installation-activation}
 
-自2.9.0版起，資料層會以AEM用戶端程式庫的形式與核心元件一併分發，而不需安裝。 依預設，由[AEM Project Archetype v. 24+](/help/developing/archetype/overview.md)產生的所有專案都包含已啟動的資料層。
+從2.9.0版開始，資料層與核心元件一起作為客戶端庫AEM分發，無需安裝。 [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md)產生的所有專案預設都包含已啟動的資料層。
 
 要手動激活資料層，您必須為其建立[上下文感知配置](/help/developing/context-aware-configs.md):
 
@@ -41,7 +43,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 
 1. 將`sling:configRef`屬性新增至`/content`下方網站的`jcr:content`節點(例如`/content/<mySite>/jcr:content`)，並從上一步驟設定為`/conf/<mySite>`。
 
-1. 啟用後，您可以在編輯器外載入網站的頁面來驗證啟動，例如使用編輯器中的「檢視為已發佈」選項。 ****&#x200B;檢查頁面來源，`<body>`標籤應包含屬性`data-cmp-data-layer-enabled`
+1. 啟用後，您可以在編輯器外載入網站的頁面來驗證啟動，例如使用編輯器中的「檢視為已發佈」選項。 **** Inspect頁面來源和`<body>`標籤應包含屬性`data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -252,7 +254,7 @@ id: {
 
 核心元件會透過資料層觸發許多事件。 與資料層交互的最佳實踐是：[註冊事件偵聽器](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)和&#x200B;*，然後*&#x200B;根據觸發事件的事件類型和／或元件採取操作。 這將避免使用非同步指令碼的潛在競爭條件。
 
-以下是AEM核心元件提供的現成可用事件：
+以下是核心元件提供的現成可用AEM事件：
 
 * **`cmp:click`** -按一下可點按的元素(具有屬性的 `data-cmp-clickable` 元素)會使資料層觸發 `cmp:click` 事件。
 * **`cmp:show`** 和 **`cmp:hide`** -控制accordion（展開／收合）、轉盤（下一個／上一個按鈕）和標籤（標籤選擇）元件，會分別觸發資料層 `cmp:show` 和事 `cmp:hide` 件。`cmp:show`事件也會在頁面載入時派發，並預期會是第一個事件。
@@ -276,7 +278,7 @@ id: {
 
 ### 事件路徑資訊{#event-path-info}
 
-AEM核心元件所觸發的每個資料層事件都會包含包含下列JSON物件的裝載：
+由核心元件觸發的每個資料層事AEM件都會包含具有下列JSON物件的裝載：
 
 ```json
 eventInfo: {
