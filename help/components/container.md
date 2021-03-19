@@ -1,10 +1,11 @@
 ---
 title: 容器元件
 description: 「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 ## 使用狀況 {#usage}
 
-「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器，並可用來群組其他元件，以及套用共用樣式或版面。
+「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器，並可用來將其他元件群組並套用通用樣式或版面。
 
 * 可在[configure dialog](#configure-dialog)中選擇容器的屬性。
 * 將容器元件新增至頁面時的預設值，可在[設計對話方塊](#design-dialog)中定義。
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 目前的容器元件版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
@@ -50,8 +51,8 @@ ht-degree: 1%
 ![容器元件的編輯對話方塊](/help/assets/container-edit.png)
 
 * **配置** -此選項定義容器元件的行為或配置行為。
-   * **Simple**  —— 將容器定義為元件的簡單集合
-   * **回應式格線** -將容器定義為 [AEM回應式版面](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **Simple**  —— 將容器定義為簡單的元件集合
+   * **自適應格線** -將容器定義為自適應 [AEM版面](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **背景顏色** -可定義為自由格式的RGB值，或使用檢色器(視配 [置而定)](#background-tab)
 * **背景影像** -定義容器的背景顏色，視  [組態而定](#background-tab)
 * **ID**  —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
@@ -98,4 +99,4 @@ ht-degree: 1%
 
 ### 樣式標籤{#styles-tab}
 
-容器元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+容器元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
