@@ -1,10 +1,11 @@
 ---
 title: 包括客戶端庫
 description: 根據您的使用案例，有許多不同的方式可包含用戶端程式庫。
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: afce571ada011c38c83830628f09a9e268658965
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
