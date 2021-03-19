@@ -1,10 +1,11 @@
 ---
 title: 按鈕元件
 description: 核心元件按鈕元件可讓您建立和顯示按鈕。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 Button Component的目前版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
@@ -52,8 +53,8 @@ Button Component的目前版本為v1，此版本於2019年6月隨核心元件2.5
 ![按鈕元件編輯對話框的屬性頁籤](/help/assets/button-edit-properties.png)
 
 * **文字** -要顯示在按鈕上的文字
-* **連結** -連結至AEM內的內容頁面、外部資源或錨點
-   * 使用&#x200B;**選擇對話方塊**&#x200B;來選擇AEM中的路徑。
+* **連結** -連結至內容頁面、AEM外部資源或錨點
+   * 使用&#x200B;**選擇對話框**&#x200B;選擇路徑AEM。
 * **Icon**  —— 用於在按鈕中顯示表徵圖的標識符
 * **ID**  —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
@@ -72,8 +73,8 @@ Button Component的目前版本為v1，此版本於2019年6月隨核心元件2.5
 
 ### 樣式標籤{#styles-tab}
 
-Button Component支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+Button Component支援AEM[Style System](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-按鈕元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+按鈕元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
