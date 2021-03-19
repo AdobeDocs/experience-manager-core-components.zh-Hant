@@ -1,10 +1,11 @@
 ---
 title: 核心元件版本
-description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和AEM的相容性。
+description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和的相容AEM性。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1976'
 ht-degree: 22%
 
 ---
@@ -12,30 +13,30 @@ ht-degree: 22%
 
 # 核心元件版本 {#core-components-versions}
 
-目前的核心元件版本為2.15.0，並與[AEM(Cloud Service)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件的當前版本為2.15.0，與[作AEM為Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
 
 ## 發行歷史記錄與相容性{#release-history-and-compatibility}
 
-核心元件設計為彈性且與所有支援的AEM版本相容。 因此，某個版本的元件可以包含相同元件的多個版本。
+核心元件設計為具有彈性且與所有支援版本相容AEM。 因此，某個版本的元件可以包含相同元件的多個版本。
 
 下表說明了核心元件版本的相容性以及包含哪些版本的元件版本。
 
 ### 發行記錄與要求{#release-history-requirements}
 
-下表提供完整版本詳細資訊](https://github.com/adobe/aem-core-wcm-components/releases)的[在GitHub上提供的內容，其中概述核心元件的版本及其與AEM版本和Java版本的相容性。
+下表提供完整版本詳細資訊](https://github.com/adobe/aem-core-wcm-components/releases)的[在GitHub上提供的內容，概述核心元件的版本及其與版本和Java版本AEM的相容性。
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此版本包含[頁面元件](/help/components/page.md)中漸進式網頁應用程式的支援，並支援[Adobe資料層2.0.0版。](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年2月23日 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此版本包含[內嵌元件](/help/components/embed.md)的新選項，並在[page](/help/components/page.md)層級推出品牌印刷邊界，並解決許多問題。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年2月9日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 這是修補程式版本，可解決RTE在AEMaaCS上使用時的問題 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年12月16日 |
-| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此版本包含[影像元件的新動態媒體功能。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年12月4日 |
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此版本包含[影像元件的Dynamic Media新功能。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年12月4日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 這是2.12.0的修補程式版本，包括次要修正。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月11日 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 這是2.12.0的修補程式版本，已修正[影像元件中的主要錯誤。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年11月5日 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 此版本引入了[新的POST表單處理常式；](/help/components/forms/form-container.md#post-data)透過內容感知組態加入自訂CSS、Javascript和中繼資料[標籤的能力；](/help/developing/including-clientlibs.md#context-aware-loading)和`DataLayerBuilder`公用程式，以簡化自訂元件中的資料層整合。](/help/developing/data-layer/integrations.md#enabling-custom-components)[ | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年10月29日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 此版本引入[新的POST表單處理常式；](/help/components/forms/form-container.md#post-data)透過內容感知組態加入自訂CSS、Javascript和中繼資料[標籤；](/help/developing/including-clientlibs.md#context-aware-loading)和`DataLayerBuilder`公用程式，以簡化自訂元件中的資料層整合。](/help/developing/data-layer/integrations.md#enabling-custom-components)[ | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年10月29日 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了[AMP支援。](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年7月20日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本推出[PDF檢視器元件。](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 持續 | 8, 11 | 2020年6月17日 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本啟用與[Adobe用戶端資料層](/help/developing/data-layer/overview.md)的整合，並引入[進度列元件。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 持續 | 8, 11 | 2020年5月29日 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支援與[Adobe客戶端資料層](/help/developing/data-layer/overview.md)的整合，並引入了[進度欄元件。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 持續 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本的重點是修正及小型增強功能。 | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的[Embed元件。](/help/components/embed.md) | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入新的[體驗片段元件。](/help/components/experience-fragment.md) | 6.4.4.0+ | 6.5.0.0+ | 持續 | 8, 11 | 2019 年 9 月 6 日 |
@@ -58,11 +59,11 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->(*)自2.11.0版起，需要`org.apache.sling.models.impl` 1.4.12版或更新版本（由於[SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)）。 這將在未來的Service Pack中針對AEM 6.4和6.5提供。 在此之前，Sling Models組合包會包含在`core.wcm.components.all`套件中。
+>(*)自2.11.0版起，需要`org.apache.sling.models.impl` 1.4.12版或更新版本（由於[SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)）。 這將在未AEM來的Service Pack中提供6.4和6.5版。 在此之前，Sling Models組合包會包含在`core.wcm.components.all`套件中。
 
 >[!TIP]
 >
->和AEM一樣，Adobe建議開發人員使用與所執行之AEM版本相容的[最新版本和核心元件](https://github.com/adobe/aem-core-wcm-components/releases/latest)版本，以便從最新的修正和功能中獲益。
+>與AEM同時，Adobe建議開發人員使用與所執行版本相容的[最新版核心元件&lt;a1/AEM>版本，以運用最新的修正和功能。](https://github.com/adobe/aem-core-wcm-components/releases/latest)
 
 ### 元件版本和版本{#component-versions-and-releases}
 
@@ -101,9 +102,9 @@ ht-degree: 22%
 
 ## 版本與版本{#versions-and-releases}
 
-核心元件是透過GitHub散發。 這可讓Adobe更快速地將功能新增至元件，也允許在AEM發行週期之外輸入社群。
+核心元件是透過GitHub散發。 這可讓Adobe更快速地將功能新增至元件，並允許在發行週期之外提供社群AEM輸入。
 
-「核心元件」可與已定義的AEM版本搭配使用，這些版本與之相容。 這表示一個AEM版本可能支援多個版本或核心元件版本。 這提供了比先前與特定AEM版本相連結的Foundation Components更大的彈性。
+核心元件可與其相容的AEM已定義版本搭配使用。 這表示一AEM個版本可支援核心元件的多個版本或版本。 這提供了比先前與特定版本的Foundation Components更大的彈性AEM。
 
 ### 版本 {#versions}
 
@@ -144,6 +145,6 @@ ht-degree: 22%
 
 ## 基礎元件支援 {#foundation-component-support}
 
-Adobe的開發重點已轉移到核心元件，並將繼續新增新功能。
+Adobe公司的開發重點已轉向核心元件，並將繼續增加新功能。
 
-[幾乎所有的Foundation Components都已在AEM 6.5中過時](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) ，未來Foundation Components只會考慮主要錯誤修正。
+[幾乎所有的Foundation Components都已在6.5AEM中過時，今後Foundation Components只會考慮](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) 重大的錯誤修正。
