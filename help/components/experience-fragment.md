@@ -1,11 +1,12 @@
 ---
 title: 體驗片段元件
 description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 0%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +95,7 @@ ht-degree: 0%
 
 Experience Fragment元件的目前版本為v1，此版本於2019年9月隨核心元件2.6.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
@@ -134,4 +135,4 @@ Experience Fragment元件的目前版本為v1，此版本於2019年9月隨核心
 
 ### 樣式標籤{#styles-tab}
 
-體驗片段元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+體驗片段元AEM件支援[Style System](/help/get-started/authoring.md#component-styling)。
