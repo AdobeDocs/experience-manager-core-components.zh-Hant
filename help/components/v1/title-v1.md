@@ -2,10 +2,11 @@
 title: 標題元件(v1)
 description: 核心元件標題元件是具有就地編輯功能的區段標題元件。
 index: n
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 1%
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明第1版標題元件，最初是隨AEM 6.3版核心元件1.0.0一起推出。
+本檔案說明第1版標題元件，最初是隨第1.0.0版核心元件及第AEM6.3版一起推出。
 
 下表列出了Title Component的v1相容性。
 
-| AEM版本 | 標題元件v1 |
+| 版AEM本 | 標題元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
