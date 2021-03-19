@@ -1,11 +1,12 @@
 ---
 title: 元件指引
 description: 核心元件遵循與基礎元件截然不同的現代實施模式。
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 1%
+source-wordcount: '1262'
+ht-degree: 2%
 
 ---
 
@@ -30,11 +31,11 @@ ht-degree: 1%
 
 ### 關注事項分離{#separation-of-concerns}
 
-將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是個好做法。 有數種方法可達成此目的，但建議使用[Sling Models](https://sling.apache.org/documentation/bundles/models.html)來處理邏輯，並使用[HTML範本語言](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html)(HTL)來處理標籤，就像核心元件也會做的。
+將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是個好做法。 有數種方法可達成此目的，但建議使用[Sling Models](https://sling.apache.org/documentation/bundles/models.html)來處理邏輯，並使用[HTML範本語言](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html)(HTL)來處理標籤，就像核心元件一樣。
 
 Sling Models是一組Java註解，可輕鬆從POJO存取所需的變數，因此提供簡單、強大而有效率的方式，來建置元件的Java邏輯。
 
-HTL的設計宗旨是提供安全且簡單的範本語言，專為AEM量身打造。 它可以叫用多種邏輯形式，使它非常靈活。
+HTL已設計為安全且簡單的範本語言，專為此量身打造AEM。 它可以叫用多種邏輯形式，使它非常靈活。
 
 ## 可重複使用的元件模式{#reusable-component-patterns}
 
@@ -95,9 +96,9 @@ HTL的設計宗旨是提供安全且簡單的範本語言，專為AEM量身打�
 
 ![範本與政策概觀](/help/assets/screen_shot_2018-12-07at093102.png)
 
-## AEM Project Archetype {#aem-project-archetype}
+## AEM 專案原型 {#aem-project-archetype}
 
-[AEM Project ](/help/developing/archetype/overview.md) Archetype會將最小的Adobe Experience Manager專案視為您自己專案的起點，包括使用SlingModels自訂HTL元件的範例，以邏輯和正確實作具有建議之proxy模式的核心元件。
+[Project AEM  Archety會將最小的Adobe Experience Manager專案視為您自己專案的起點，包括使用SlingModels自訂HTL元件的範例，以邏輯和正確實作具有建議proxy模式的核心元件。](/help/developing/archetype/overview.md) 
 
 **閱讀下一節內容:**
 
