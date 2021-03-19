@@ -1,10 +1,11 @@
 ---
 title: 內容片段元件
 description: 核心元件內容片段元件允許顯示內容片段。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 5%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 5%
 
 目前的內容片段元件版本為v1，此版本於2017年10月隨核心元件1.1.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
@@ -110,6 +111,6 @@ ht-degree: 5%
 
    * 用於內部回應式格線的Sling資源類型
 
-## Adobe用戶端資料層{#data-layer}
+## Adobe客戶端資料層{#data-layer}
 
-內容片段元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+內容片段元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
