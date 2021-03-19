@@ -1,10 +1,11 @@
 ---
 title: 快速搜尋元件
 description: 「快速搜尋」元件提供網站的搜尋功能，並提供搜尋結果，讓訪客可以搜尋網站並篩選結果。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '597'
 ht-degree: 1%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 1%
 
 目前的快速搜尋元件版本為v1，此版本於2018年1月隨核心元件2.0.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
@@ -36,7 +37,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->保護搜尋元件或任何以AEM為基礎的應用程式不受DOS攻擊的影響，應在更高的層級實作，例如在分派器上使用`mod_security`。
+>保護搜索元件或任何基AEM於DOS的應用程式免受DOS攻擊的保護應該在更高級別上實施，例如在調度器上使用`mod_security`。
 
 有關快速搜索元件[的最新技術文檔可在GitHub](https://adobe.com/go/aem_cmp_tech_search_v1)上找到。
 
@@ -79,4 +80,4 @@ ht-degree: 1%
 
 ### 樣式標籤{#styles-tab}
 
-快速搜尋元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+快速搜索元件AEM支援[樣式系統](/help/get-started/authoring.md#component-styling)。
