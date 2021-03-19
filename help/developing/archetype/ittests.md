@@ -1,16 +1,18 @@
 ---
-title: it.tests AEM Project Archetype模組
-description: 如何使用AEM Project原型整合測試
+title: it.tests項目原型AEM模組
+description: 項目原型集AEM成測試的使用
+feature: 核心元件，AEM專案原型
+role: 架構師、開發人員、管理員
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 
-# it.tests AEM Project Archetype {#ittests-module}的模組
+# it.tests Project Archetype AEM {#ittests-module}的模組
 
 項目包含三個測試級別：
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 ## 執行整合測試{#running-tests}
 
-伺服器端整合測試可讓裝置式測試在AEM環境（即AEM伺服器）中執行。 要測試，請執行：
+伺服器端整合測試可讓類似裝置的測試在AEM環境（即伺服器）中執AEM行。 要測試，請執行：
 
 ```
 mvn clean verify -PintegrationTests
