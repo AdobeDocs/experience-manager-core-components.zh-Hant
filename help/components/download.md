@@ -1,10 +1,11 @@
 ---
 title: 下載元件
 description: 核心元件下載元件可讓您在頁面上建立下載選項。
+role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '692'
 ht-degree: 1%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 目前的下載元件版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，並在本檔案中加以說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明所有支援的元件版本、元AEM件版本相容的版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
@@ -51,7 +52,7 @@ ht-degree: 1%
 
 ### 資產標籤{#asset-tab}
 
-選擇下載資產與[影像元件](image.md)的功能非常類似，同樣也運用AEM的DAM。
+選擇下載資產與[影像元件](image.md)的功能非常相似，同樣也利用AEMDAM。
 
 * **下載資產**
    * 從[資產瀏覽器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**browse**&#x200B;選項，從本機檔案系統上傳。
@@ -95,4 +96,4 @@ ht-degree: 1%
 
 ### 樣式標籤{#styles-tab}
 
-影像元件支援AEM [Style System](/help/get-started/authoring.md#component-styling)。
+映像元件支AEM持[樣式系統](/help/get-started/authoring.md#component-styling)。
