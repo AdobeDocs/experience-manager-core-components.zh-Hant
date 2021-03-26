@@ -3,17 +3,17 @@ title: 核心元件版本
 description: 核心元件會發佈為可能包含相同核心元件之多個版本的發行版本。 本檔案說明哪些版本和版本，以及如何瞭解與核心元件和的相容AEM性。
 role: 架構師、開發人員、管理員、商業從業人員
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 22%
+source-wordcount: '2009'
+ht-degree: 21%
 
 ---
 
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的當前版本為2.15.0，與[作AEM為Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件的當前版本為2.15.2，與[作AEM為Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
 
 ## 發行歷史記錄與相容性{#release-history-and-compatibility}
 
@@ -27,6 +27,7 @@ ht-degree: 22%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 此修補程式版本主要修正[資料層](/help/developing/data-layer/overview.md)向後相容性和IT測試在某些情況下失敗的問題。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年3月16日 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此版本包含[頁面元件](/help/components/page.md)中漸進式網頁應用程式的支援，並支援[Adobe資料層2.0.0版。](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年2月23日 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此版本包含[內嵌元件](/help/components/embed.md)的新選項，並在[page](/help/components/page.md)層級推出品牌印刷邊界，並解決許多問題。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年2月9日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 這是修補程式版本，可解決RTE在AEMaaCS上使用時的問題 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2020年12月16日 |
