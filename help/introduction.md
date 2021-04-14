@@ -1,15 +1,15 @@
 ---
 title: 核心元件簡介
 description: '核心元件提供強穩且可擴充的基本元件，以最新技術和最佳實務為基礎。 '
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 26%
+source-wordcount: '936'
+ht-degree: 25%
 
 ---
-
 
 # 核心元件簡介{#core-components-introduction}
 
@@ -118,3 +118,9 @@ ht-degree: 26%
 核心元件需要使用[可編輯的範本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，且不支援Classic UI或靜態範本。 如有需要，請查看[現代化工AEM具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)，以使用這些現代化功能更新您的AEM專案。
 
 若要設定您的本機開發環境，請參閱本概觀，以AEM取得Cloud ServiceSDK](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)，或以本檔案[取得舊版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。[
+
+>[!TIP]
+>
+>核心元件會自動做為AEMCloud Service的一部分，而且您隨時都能取得最新版核心元件。
+>
+>如需如何在AEMaCS和內部使用核心元件的詳細資訊，請參閱[使用核心元件](/help/get-started/using.md)檔案。
