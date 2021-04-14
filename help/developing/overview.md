@@ -1,15 +1,15 @@
 ---
 title: 開發核心元件
 description: 核心元件提供強穩且可擴充的基本元件，提供豐富的功能、持續傳送、元件版本修訂、現代化實作、精簡的標籤和JSON內容匯出。
-role: 架構師、開發人員、管理員
+role: Architect, Developer, Administrator
+exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 15%
+source-wordcount: '1591'
+ht-degree: 14%
 
 ---
-
 
 # 開發核心元件 {#developing-core-components}
 
@@ -40,6 +40,8 @@ ht-degree: 15%
 
 任何新專案都應與核心元件一起實施。 但是，現有項目通常會廣泛實施Foundation Components。
 
+### 從Foundation元件{#from-foundation}遷移
+
 對現有專案（例如重新品牌化或整體重構）的投入更大，通常會提供移轉至核心元件的機會。 為促進此項移轉，Adobe提供了一些移轉工具，以鼓勵採用核心元件和最新AEM技術。
 
 [現代化AEM工](http://opensource.adobe.com/aem-modernize-tools/) 具套件，讓您輕鬆轉換：
@@ -54,6 +56,23 @@ ht-degree: 15%
 >[!NOTE]
 >
 >最新AEM化工具是社群的努力，不受Adobe支援或保證。
+
+## 通過移至作AEM為Cloud Service{#via-aemaacs}的遷移
+
+由AEM於Cloud Service自動附帶最新版核心元件，因此當您從內部安裝移AEM動時，將需要刪除對項目`pom.xml`檔案中核心元件的任何依賴。
+
+您的Proxy元件仍能像以前一樣運作，因為   proxy會指向必要的超類型，而超類型路徑中包含版本。 如此，只要移除相依性，「核心元件」就可像在內部執行一樣，在AEMaCS中運作。
+
+就像其他AEMaCS專案一樣，您也需要將相依性新增至AEMSDK jar。 這並非核心元件的特定功能，而是必要功能。
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+如需AEMaCS專案的詳細資訊，請參AEM閱檔案[專案結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)。
 
 ## 核心元件支援{#core-component-support}
 
