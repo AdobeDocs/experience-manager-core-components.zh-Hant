@@ -1,15 +1,15 @@
 ---
 title: 使用核心元件
 description: 「若要在您自己的專案中啟動並執行核心元件，需執行三個步驟：下載和安裝、建立Proxy元件、載入核心樣式，以及允許範本上的元件。」
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 3%
+source-wordcount: '977'
+ht-degree: 2%
 
 ---
-
 
 # 使用核心元件{#using-core-components}
 
@@ -20,16 +20,36 @@ ht-degree: 3%
 1. [載入核心樣式](#load-the-core-styles)
 1. [啟用元件](#allow-the-components)
 
->[!NOTE]
+>[!TIP]
 >
->或者，如需如何從頭開始使用專案設定、核心元件、可編輯範本、用戶端程式庫和元件開發的更多指示，請參閱下列多部份教學課程：\
+>有關如何從頭開始使用專案設定（核心元件、可編輯範本、用戶端程式庫和元件開發）的更多指示，請參閱下列多部份教學課程：\
 >[AEM Sites - WKND 教學課程快速入門](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+
+>[!TIP]
+>
+>如果您使用[AEM Project Archetype，則](/help/developing/archetype/overview.md)核心元件會根據Adobe的最佳實踐建議自動包含在您的專案中。
 
 ## 下載並安裝{#download-and-install}
 
-核心元件背後的驅動力之一是靈活性。 更頻繁地推出新版核心元件，讓Adobe在提供新功能時更有彈性。 開發人員也可以靈活選擇將哪些元件整合至其專案，以及想要更新的頻率。
+核心元件背後的驅動力之一是靈活性。 更頻繁地推出新版核心元件，讓Adobe在提供新功能時更有彈性。 開發人員也可以靈活選擇將哪些元件整合至其專案，以及想要更新的頻率。 這會導致核心元件和核心元AEM件的個別發行程式。
 
-因此，在生產模式下（不含示例內容）啟動時，核心元件不是快速啟動的一部分。 因此，您的第一步是從GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下載最新發行的內容套件，並將它安裝在您的環AEM境中。[
+因此，無論您是以雲AEM端服務或內部部署的方式運行，都會決定安裝步驟。
+
+### AEM as a Cloud Service {#aemaacs}
+
+沒有步驟！ 因AEM為Cloud Service會自動隨附最新版核心元件。 就像AEMaCS提供您最新的AEM功能一樣，AEMaCS會自動提供最新版的核心元件。
+
+在AEMaCS上使用核心元件時，請謹記以下幾點：
+
+* 核心元件包含在`/libs`中。
+* 如果項目構建管線再次作為`/apps`的一部分包含核心元件，則該管線將在日誌中生成警告，並忽略作為項目一部分嵌入的版本。
+   * 在即將推出的版本中，包括核心元件將再次失敗管道建置。
+* 如果您的專案之前在`/apps`、[中包含核心元件，則您可能需要調整專案。](/help/developing/overview.md#via-aemaacs)
+* 即使核心元件現在位於`/libs`中，也不建議在`/apps`中建立相同路徑的覆蓋。 [如果需要自](/help/developing/guidelines.md#proxy-component-pattern) 訂元件的任何方面，則應改用proxy元件模式。
+
+### AEM 6.5和{#aem-65}之前版本
+
+在生產模式下（不含範例內容）啟動時，核心元件不是快速啟動的一部分。 因此，您的第一步是從GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下載最新發行的內容套件，並將它安裝在您的環AEM境中。[
 
 有幾種方法可以自動化此程式，但要在實例上快速安裝內容包，最簡單的方法是使用「包管理器」;請參閱[安裝軟體包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您也將執行發佈例項，您就需要將該套件複製至發佈者；請參閱[複製軟體包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
