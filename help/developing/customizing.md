@@ -1,15 +1,15 @@
 ---
 title: 自訂核心元件
 description: 核心元件實作數種模式，可輕鬆自訂，從簡單樣式到進階功能可重複使用。
-role: 架構師、開發人員、管理員
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 2%
 
 ---
-
 
 # 自訂核心元件{#customizing-core-components}
 
@@ -105,7 +105,7 @@ public class PageHeadline implements Title {
 
 有時，進階樣式需要元件的不同標籤結構。
 
-您可輕鬆將需要從核心元件修改的HTL檔案複製至proxy元件。
+您可輕鬆將需要修改的HTL檔案從核心元件複製至[proxy元件。](guidelines.md#proxy-component-pattern)
 
 再舉核心階層連結元件的範例，若要自訂其標籤輸出，必須將`breadcrumb.html`檔案複製至具有指向核心階層連結元件之`sling:resourceSuperTypes`的網站特定元件。
 
@@ -133,7 +133,7 @@ public class PageHeadline implements Title {
 * 將核心元件升級到新的次要版本
 * 將核心元件升級到主要版本
 
-通常，升AEM級至新版本不會影響核心元件或自訂，但元件版本也支援移轉至新AEM版本，且自訂不使用[已過時或移除](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的API。
+通常，升AEM級至新版本不會影響核心元件或自訂，但元件版本也支援移轉至的新AEM版本，且自訂不會使用[已過時或移除](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的API。
 
 升級核心元件而不切換至較新的主要版本時，只要使用本頁所述的自訂模式，就不會影響自訂。
 
