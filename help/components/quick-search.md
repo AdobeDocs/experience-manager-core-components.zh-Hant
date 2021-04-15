@@ -4,7 +4,7 @@ description: 「快速搜尋」元件提供網站的搜尋功能，並提供搜�
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
@@ -50,7 +50,7 @@ ht-degree: 1%
 ![快速搜尋元件的編輯對話方塊](/help/assets/quick-search-edit.png)
 
 **搜索根** -從何處開始搜索的根頁。「搜尋根」可以是Blueprint主版、語言主版或一般頁面。
-* **ID**  —— 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
+* **ID**  —— 此選項可讓您控制HTML和資料層中元件的唯 [一識別碼。](/help/developing/data-layer/overview.md)
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
    * 如果指定ID，則作者有責任確保其唯一性。
    * 變更ID可能會影響CSS、JS和資料圖層追蹤。
