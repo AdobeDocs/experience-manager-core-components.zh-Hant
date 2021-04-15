@@ -1,15 +1,15 @@
 ---
 title: 快速搜尋元件
 description: 「快速搜尋」元件提供網站的搜尋功能，並提供搜尋結果，讓訪客可以搜尋網站並篩選結果。
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '614'
 ht-degree: 1%
 
 ---
-
 
 # 快速搜尋元件{#quick-search-component}
 
@@ -54,6 +54,10 @@ ht-degree: 1%
    * 如果保留空白，則會自動為您產生唯一ID，並透過檢查產生的頁面找到。
    * 如果指定ID，則作者有責任確保其唯一性。
    * 變更ID可能會影響CSS、JS和資料圖層追蹤。
+
+>[!NOTE]
+>
+>如果&#x200B;**Search Root**&#x200B;未配置或無法解析，則「快速搜索」預設為在當前頁面下進行搜索。
 
 ## 設計對話框{#design-dialog}
 
