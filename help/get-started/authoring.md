@@ -1,7 +1,7 @@
 ---
 title: 使用核心元件編寫
 description: 在中AEM，元件是構成所製作頁面內容的結構元素——核心元件提供有彈性且功能豐富的製作功能。
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

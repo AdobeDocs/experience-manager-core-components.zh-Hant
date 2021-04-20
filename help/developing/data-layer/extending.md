@@ -1,8 +1,8 @@
 ---
 title: 擴展Adobe客戶端資料層
 description: Adobe客戶端資料層可以按照一些基本模式進行擴展
-feature: 核心元件，Adobe客戶端資料層
-role: 架構師、開發人員、管理員
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

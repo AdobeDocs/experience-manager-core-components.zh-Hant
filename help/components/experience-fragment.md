@@ -1,7 +1,7 @@
 ---
 title: 體驗片段元件
 description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 product: adobe experience manager
 solution: Experience Manager Sites
-type: 文件
+type: Documentation
 description: Adobe Experience Manager核心元件文檔
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.zh-Hant
 index: y

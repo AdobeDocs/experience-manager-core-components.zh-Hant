@@ -1,8 +1,8 @@
 ---
 title: 使用專AEM案原型
 description: 專案原型的詳細使AEM用指示
-feature: 核心元件，AEM專案原型
-role: 架構師、開發人員、管理員
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

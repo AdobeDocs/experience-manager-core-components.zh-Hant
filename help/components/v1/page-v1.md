@@ -2,7 +2,7 @@
 title: 頁面元件(v1)
 description: 頁面元件是可擴充的頁面元件，可與範本編輯器搭配使用，並可讓頁首／頁尾和結構元件與範本編輯器組合使用。
 index: n
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

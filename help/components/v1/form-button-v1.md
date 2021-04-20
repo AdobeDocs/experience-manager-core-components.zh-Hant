@@ -2,7 +2,7 @@
 title: 表單按鈕元件(v1)
 description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
 index: n
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

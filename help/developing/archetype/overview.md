@@ -1,8 +1,8 @@
 ---
 title: AEM 專案原型
 description: 適用於基於應用程AEM式的專案範本
-feature: 核心元件，AEM專案原型
-role: 架構師、開發人員、管理員
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: tm+mt

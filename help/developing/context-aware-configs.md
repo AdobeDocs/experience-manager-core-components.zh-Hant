@@ -1,7 +1,7 @@
 ---
 title: Sling Context-Aware Configurations and Core Components
 description: The Core Components運用Sling內容感應組態來處理特定功能
-role: 架構師、開發人員、管理員
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 title: 整合與Adobe用戶端資料層
 description: 瞭解Adobe客戶資料層如何與您的自訂元件整合，以及與Adobe Analytics和Adobe Target的整合如何協助您獲得網站的深入資訊
-feature: 核心元件，Adobe客戶端資料層
-role: 架構師、開發人員、管理員
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

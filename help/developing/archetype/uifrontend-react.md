@@ -1,8 +1,8 @@
 ---
 title: 前端內建功能，以因應需SPA求
 description: 描述基於React的項目的前端構建過SPA程
-feature: 核心元件，AEM專案原型
-role: 架構師、開發人員、管理員
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

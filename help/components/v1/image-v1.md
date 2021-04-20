@@ -2,7 +2,7 @@
 title: 影像元件(v1)
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 index: n
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 title: 容器元件
 description: 「核心元件容器」元件可讓您在頁面上建立多個其他元件的容器。
-role: 架構師、開發人員、管理員、商業從業人員
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
