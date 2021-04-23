@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 74cbb94c35e7b62332f88245ed48c72d1ac07796
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 67%
+source-wordcount: '216'
+ht-degree: 66%
 
 ---
 
@@ -92,3 +92,4 @@ ht-degree: 67%
       + [ui.tests模組](developing/archetype/uitests.md)
       + [it.tests模組](developing/archetype/ittests.md)
       + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
++ [隱藏頁面](hidden.md)
