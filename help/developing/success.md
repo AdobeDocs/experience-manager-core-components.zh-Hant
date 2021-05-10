@@ -2,14 +2,14 @@
 title: 核心元件的成功途徑
 description: 如何使用核心元件實作專案時取得成功
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
-
 
 # 核心元件{#paths-to-success}的成功路徑
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ### 使用Adobe XD{#ui-kit}的UI套件
 
-一旦對自訂元件有證實可行的需求，請運用適用於Adobe XD的[UI套件，讓設計人員可以開始建立線框和以核心元件為建置區塊的設計。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)
+一旦對自訂元件有證實可行的需求，請運用適用於Adobe XD的[UI套件，讓設計人員可以開始建立線框和以核心元件為建置區塊的設計。](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)
 
 ## 不要忽略強大的功能{#powerful-features}
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ### 內嵌元件{#embed-component}
 
-[內嵌元](/help/components/embed.md) 件不僅可簡單包含外部資源，例如YouTube視訊內容，而且可擴充，以容納專案特定的內容。
+[內嵌元](/help/components/embed.md) 件不僅可簡化外部資源(例如YouTube視訊內容)的納入，而且可擴充，以配合專案的特定內容。
