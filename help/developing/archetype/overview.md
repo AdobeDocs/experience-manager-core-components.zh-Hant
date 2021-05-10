@@ -1,16 +1,16 @@
 ---
 title: AEM 專案原型
 description: 適用於基於應用程AEM式的專案範本
-feature: Core Components, AEM Project Archetype
+feature: 核心元件，AEM專案原型
 role: Architect, Developer, Administrator
+exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 translation-type: tm+mt
-source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
+source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 6%
+source-wordcount: '1040'
+ht-degree: 7%
 
 ---
-
 
 # AEM 專案原型 {#aem-project-archetype}
 
@@ -55,7 +55,7 @@ Project AEM Archetype是Maven範本，可建立以最佳實務為基礎的最小
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=26 \
+ -D archetypeVersion=27 \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
@@ -97,7 +97,7 @@ mvn -B archetype:generate \
 
 | 原型 | AEM as a Cloud Service  | AEM 6.5 | AEM 6.4 | Java SE | 馬文 |
 |---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-26) | 持續 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | 持續 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 將[的本機開發環境設AEM定為](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)Cloud ServiceSDK，或[舊版AEM](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
 
