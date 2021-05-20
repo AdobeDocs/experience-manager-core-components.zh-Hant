@@ -1,28 +1,27 @@
 ---
-title: 項目原型的AEMui.tests模組
-description: 如何使用專AEM案原型UI測試
-feature: Core Components, AEM Project Archetype
+title: ui.tests模組的AEM專案原型
+description: 如何使用AEM專案原型UI測試
+feature: 核心元件、AEM專案原型
 role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
+# ui.testsAEM專案原型{#uitests-module}的模組
 
-# ui.tests專案原AEM型{#uitests-module}的模組
+項目中包含三個級別的測試：
 
-項目包含三個測試級別：
-
-* [設備測試](core.md#unit-tests)
+* [單元測試](core.md#unit-tests)
 * [整合測試](ittests.md)
 * UI測試
 
-本文說明UI測試是ui.tests模組的一部分。
+本文說明ui.tests模組中可用的UI測試。
 
-## 執行UI測試{#running-tests}
+## 運行UI測試{#running-tests}
 
 要測試，請執行：
 
@@ -30,8 +29,8 @@ ht-degree: 0%
 mvn verify -Pui-tests-local-execution
 ```
 
-執行後，`target/reports`資料夾中會提供報表和記錄檔。
+執行後，報告和日誌可在`target/reports`資料夾中使用。
 
 ## 其他選項{#additional-options}
 
-UI測試可使用許多不同的選項執行，包括針對本機瀏覽器和Docker影像進行無頭測試。 如需詳細資訊，請參閱ui.tests模組](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)的[README.md檔案。
+UI測試可以使用許多不同的選項來執行，包括針對本機瀏覽器和作為Docker影像進行無頭式測試。 如需詳細資訊，請參閱ui.tests模組](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)的[README.md檔案。
