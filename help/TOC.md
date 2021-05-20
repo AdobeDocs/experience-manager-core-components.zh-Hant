@@ -4,7 +4,6 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-translation-type: tm+mt
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
 source-wordcount: '214'
@@ -16,7 +15,7 @@ ht-degree: 67%
 # AEM 核心元件說明 {#using}
 
 + [核心元件簡介](introduction.md)
-+ [成功途徑](developing/success.md)
++ [成功路徑](developing/success.md)
 + [元件庫](https://adobe.com/go/aem_cmp_library)
 + [核心元件版本](versions.md)
 + 立即開始 {#get-started}
@@ -69,19 +68,19 @@ ht-degree: 67%
          + [表單文字 (v1)](components/v1/form-text-v1.md)
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
-   + [成功途徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND 開發人員教學課程](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
    + [AMP支援](developing/amp.md)
-   + [上下文感知配置](developing/context-aware-configs.md)
+   + [內容感知配置](developing/context-aware-configs.md)
    + [包括客戶端庫](developing/including-clientlibs.md)
    + Adobe客戶端資料層{#data-layer}
       + [資料層概觀](developing/data-layer/overview.md)
       + [與資料層整合](developing/data-layer/integrations.md)
       + [擴充資料層](developing/data-layer/extending.md)
    + AEM 專案原型 {#archetype}
-      + [原型概觀](developing/archetype/overview.md)
+      + [原型概述](developing/archetype/overview.md)
       + [使用原型](developing/archetype/using.md)
       + [核心模組](developing/archetype/core.md)
       + [ui.apps模組](developing/archetype/uiapps.md)
@@ -91,4 +90,4 @@ ht-degree: 67%
       + [ui.frontend.angular模組](developing/archetype/uifrontend-angular.md)
       + [ui.tests模組](developing/archetype/uitests.md)
       + [it.tests模組](developing/archetype/ittests.md)
-      + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
+      + [建置Analyzer Maven外掛程式](developing/archetype/build-analyzer-maven-plugin.md)
