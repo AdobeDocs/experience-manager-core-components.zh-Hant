@@ -3,32 +3,31 @@ title: 表單按鈕元件(v1)
 description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
 
-
 # 表單按鈕元件(v1){#form-button-component-v}
 
-核心元件表單按鈕元件允許在表單中包含按鈕欄位以觸發操作。
+核心元件表單按鈕元件可在表單中納入按鈕欄位，以觸發動作。
 
 ## 使用狀況 {#usage}
 
-核心元件表單按鈕元件允許建立按鈕欄位，通常用於觸發表單的提交，並與[表單容器元件](form-container-v1.md)一起使用。
+核心元件表單按鈕元件允許建立按鈕欄位，通常用於觸發表單提交，並與[表單容器元件](form-container-v1.md)一起使用。
 
 按鈕屬性可由[configure dialog](#configure-dialog)中的內容編輯器定義。
 
 ## 版本和相容性{#version-and-compatibility}
 
-本檔案說明Form Button元件的v1，此元件最初是隨6.3版核心元件的1.0.0版一起AEM推出。
+本檔案說明表單按鈕元件v1，此元件最初於AEM 6.3的核心元件1.0.0版中推出。
 
-下表列出表單按鈕元件v1的相容性。
+下表列出「表單按鈕元件」v1的相容性。
 
-| 版AEM本 | 表單按鈕元件v1 |
+| AEM版本 | 表單按鈕元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
@@ -85,11 +84,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
+>從核心元件匯出JSON需使用1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
 ## 配置對話框{#configure-dialog}
 
-配置對話框允許內容作者定義按鈕的參數。
+設定對話方塊可讓內容作者定義按鈕的參數。
 
 ![](/help/assets/chlimage_1-49.png)
 
@@ -97,19 +96,19 @@ ht-degree: 2%
    * **按鈕**
    * **提交**
 
-* **Title**  —— 按鈕上顯示的文字
-   * 如果沒有提供，則預設為按鈕類型
+* **標題**  — 按鈕上顯示的文字
+   * 如果未提供，則預設為按鈕類型
 
-* **名稱** -按鈕的名稱，隨表單資料提交
-* **Value**  —— 隨表單資料提交的按鈕值
+* **名稱**  — 隨表單資料提交的按鈕名稱
+* **值**  — 隨表單資料提交的按鈕值
 
 ## 設計對話框{#design-dialog}
 
-「表單按鈕」元件沒有設計對話方塊。
+「表單按鈕」元件沒有設計對話框。
 
 ## 技術詳細資訊{#technical-details}
 
-有關表單按鈕元件[的最新技術檔案可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)上找到。
+如需表單按鈕元件[的最新技術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)。
 
 您可從GitHub下載整個核心元件專案。
 
