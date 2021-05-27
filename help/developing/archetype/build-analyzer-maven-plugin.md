@@ -4,10 +4,10 @@ description: 本機Maven建置分析器外掛程式的檔案
 feature: 核心元件、AEM專案原型
 role: Architect, Developer, Administrator
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 3%
+source-wordcount: '510'
+ht-degree: 4%
 
 ---
 
@@ -21,6 +21,8 @@ AEM as a Cloud ServiceSDK建置分析器Maven外掛程式會分析各種內容�
 >
 >建議您更新Maven專案，以參考Maven中央存放庫中此位置的最新外掛程式版本：https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
+外掛程式會使用最新可用的SDK，而非專案中設定的SDK。
+
 下表說明在此步驟中執行的分析器。<!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | 模組 | 函式、範例和疑難排解 | 本機SDK | Cloud Manager |
@@ -33,3 +35,6 @@ AEM as a Cloud ServiceSDK建置分析器Maven外掛程式會分析各種內容�
 | `api-regions-crossfeature-dups` | 驗證客戶OSGI套件組合沒有可覆寫AEM作為Cloud Service公用API的匯出套件宣告<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>若要修正，請停止匯出屬於AEM公用API一部分的套件。 | 是 | 是 |
 | `repoinit` | 檢查所有重新指向節的語法 | 是 | 是 |
 | `bundle-nativecode` | 驗證OSGI套件組合不安裝原生程式碼。 | 是 | 是 |
+| `configuration-api` | 驗證重要的OSGi設定。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
+| `region-deprecated-api` | 檢查是否使用[已棄用的api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
+
