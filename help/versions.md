@@ -3,16 +3,16 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 9f7ecb12c7135033a87508901a5c8bd006f72a0e
+source-git-commit: e62bb19a487e337c1ea5994d9fbfc845145ae19d
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2147'
 ht-degree: 21%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的目前版本為2.16.4，且與[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件的目前版本為2.17.0，且與[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
 
 ## 版本歷史記錄和相容性{#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 21%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此版本包含許多支援連結處理常式功能的新元件版本的技術預覽，以及[頁面元件之精選影像功能的技術預覽。](/help/components/page.md) 也包含數項錯誤修正。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年6月16日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此為修正新連結處理常式問題的修補程式版本。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年5月19日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此修補程式版本主要解決新連結處理常式的問題，並新增了支援多頁應用程式[PWA的增強功能。](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年5月15日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此版本著重於協助工具的改善，以及將新的連結處理常式引入現有元件。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年4月22日 |
