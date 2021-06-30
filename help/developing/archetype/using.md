@@ -4,9 +4,9 @@ description: AEM專案原型的詳細使用指示
 feature: 核心元件、AEM專案原型
 role: Architect, Developer, Administrator
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 17081a073998512a52aebfc662f2bc125ca2a2c4
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2147'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 AEM專案原型會建立基於最佳實務的簡化Adobe Experience Manager專案，作為您專屬AEM專案的起點。 使用此原型時必須提供的屬性可讓您指定此專案所有部分的名稱，並控制某些選用功能。
 
-## 為何使用原型{#why-use-the-archetype}
+## 為何使用原型 {#why-use-the-archetype}
 
 使用AEM專案原型，只需按幾下鍵，即可建立以最佳實務為基礎的AEM專案。 透過使用原型，所有片段都已就緒，這樣雖然產生的專案最小，但已實作AEM的所有[主要功能](#what-you-get)，讓您只需在上面建置並延伸即可。
 
@@ -29,7 +29,7 @@ AEM專案原型會建立基於最佳實務的簡化Adobe Experience Manager專�
 * WKND事件教學課程 — 如果您對AEM上的單頁應用程式(SPA)開發特別感興趣，請務必查看專屬的[ WKND事件教學課程](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)。
 * 自行下載並開始！  — 您可以輕鬆下載GitHub上可用的目前專案原型，並依照[下方的簡單步驟，建立您的第一個專案。](#how-to-use-the-archetype)
 
-## 使用原型取得的內容{#what-you-get}
+## 原型的使用 {#what-you-get}
 
 AEM原型由模組組成：
 
@@ -49,13 +49,13 @@ AEM原型由模組組成：
 
 Maven中呈現的AEM原型模組會部署至AEM，作為代表應用程式、內容和必要OSGi套件組合的內容套件。
 
-## 如何使用原型{#how-to-use-the-archetype}
+## 如何使用原型 {#how-to-use-the-archetype}
 
 若要使用原型，您必須先建立專案，專案會以[先前說明的](#what-you-get)形式，產生本機檔案結構中的模組。 在產生專案時，可以定義專案的許多屬性，例如專案名稱、版本等。
 
 使用Maven建立專案會建立可部署至AEM的成品（套件和OSGi套件組合）。 其他Maven命令和設定檔可用來將專案成品部署至AEM執行個體。
 
-### 建立項目{#create-project}
+### 建立專案 {#create-project}
 
 若要開始使用，您最簡單的方式是使用[AEM Eclipse擴充功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html)，然後依照「新增專案」精靈，選擇&#x200B;**AEM Sample Multi-Module Project**&#x200B;來使用已發行版本的原型。
 
@@ -95,21 +95,28 @@ mvn -B archetype:generate \
 使用原型建立專案時，可使用下列屬性。
 
 | 名稱 | 預設 | 說明 |
---------------------------|----------------|--------------------
+|---------------------------|----------------|--------------------|
 | `appTitle` |  | 應用程式標題將用於網站標題和元件群組(例如`"My Site"`)。 |
 | `appId` |  | 技術名稱將用於元件、設定和內容資料夾名稱，以及用戶端程式庫名稱(例如`"mysite"`)。 |
 | `artifactId` | *`${appId}`* | 基Maven工件ID(例如`"mysite"`)。 |
 | `groupId` |  | 基本Maven群組ID(例如`"com.mysite"`)。 |
 | `package` | *`${groupId}`* | Java源包(例如`"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 專案版本(例如`1.0-SNAPSHOT`)。 |
-| `aemVersion` | `6.5.0` | Target AEM版本(對於[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，可以是`cloud`;或`6.5.0`，或`6.4.4`（適用於[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署）。 |
+| `aemVersion` | `cloud` | Target AEM版本(對於[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，可以是`cloud`;或`6.5.0`，或`6.4.4`（適用於[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署）。 |
 | `sdkVersion` | `latest` | 當`aemVersion=cloud`可指定[ SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)版本時(例如`2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 包含雲端或AMS/內部部署的Dispatcher設定，視`aemVersion`值而定（可以是`y`或`n`）。 |
-| `frontendModule` | `none` | 包括Webpack前端構建模組，用於生成常規站點的客戶端庫(可以是`general`或`none`;可為`angular`或`react`，適用於實作[SPA編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)的單頁應用程式。 |
-| `languageCountry` | `en_us` | 語言和國家/地區代碼，以建立內容結構(例如`en_us`)。 |
+| `frontendModule` | `general` | 包括Webpack前端構建模組，用於生成常規站點的客戶端庫(可以是`general`或`none`;可為`angular`或`react`，適用於實作[SPA編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)的單頁應用程式。 |
+| `language` | `en` | 語言代碼(ISO 639-1)，以從(例如`en`, `deu`)。 |
+| `country` | `us` | 國家/地區代碼(ISO 3166-1)，以從(例如`US`)。 |
 | `singleCountry` | `y` | 包含語言主版內容結構（可以是`y`或`n`）。 |
-| `includeExamples` | `y` | 包含[元件庫](https://www.aemcomponents.dev/)示例站點（可以是`y`或`n`）。 |
+| `includeExamples` | `n` | 包含[元件庫](https://www.aemcomponents.dev/)示例站點（可以是`y`或`n`）。 |
 | `includeErrorHandler` | `n` | 包含對整個執行個體具有全域性的自訂404回應頁面（可以是`y`或`n`）。 |
+| `includeCommerce` | `n` | 包含[CIF核心元件](https://github.com/adobe/aem-core-cif-components)相依性並產生對應的成品。 |
+| `commerceEndpoint` |  | 僅CIF為必要。 要使用的商務系統GraphQL服務的可選端點(例如`https://hostname.com/grapql`)。 |
+| `datalayer` | `y` | 啟動與[Adobe客戶端資料層](/help/developing/data-layer/overview.md)的整合。 |
+| `amp` | `n` | 對生成的項目模板啟用[AMP](/help/developing/amp.md)支援。 |
+| `enableDynamicMedia` | `n` | 在專案原則設定中啟用基礎DynamicMedia元件，並在核心影像元件的原則中啟用Dynamic Media功能。 |
+| `enableSSR` | `n` | 為前端項目啟用SSR的選項 |
 
 >[!NOTE]
 >
@@ -124,7 +131,7 @@ mvn -B archetype:generate \
 運行`mvn install`時，生成的Maven項目支援不同的部署配置檔案。
 
 | 設定檔ID | 說明 |
---------------------------|------------------------------
+| --------------------------|------------------------------|
 | `autoInstallBundle` | 將核心套件搭配maven-sling-plugin安裝至felix主控台 |
 | `autoInstallPackage` | 將ui.content和ui.apps內容套件與content-package-maven-plugin安裝至套件管理器，以在localhost，連接埠4502上安裝預設的製作例項。 可使用`aem.host`和`aem.port`用戶定義的屬性更改主機名和埠。 |
 | `autoInstallPackagePublish` | 將ui.content和ui.apps內容套件（內容套件 — maven-plugin）安裝至套件管理器，以在localhost，連接埠4503上預設發佈執行個體。 可使用`aem.host`和`aem.port`用戶定義的屬性更改主機名和埠。 |
@@ -132,7 +139,7 @@ mvn -B archetype:generate \
 | `autoInstallSinglePackagePublish` | 將`all`內容套件與content-package-maven-plugin安裝至套件管理器，以在localhost，連接埠4503上預設發佈執行個體。 可使用`aem.host`和`aem.port`用戶定義的屬性更改主機名和埠。 |
 | `integrationTests` | 在AEM例項上執行提供的整合測試（僅針對`verify`階段） |
 
-### 建立和安裝{#building-and-installing}
+### 建置和安裝 {#building-and-installing}
 
 要生成在項目根目錄中運行的所有模組，請使用以下Maven命令。
 
@@ -168,7 +175,7 @@ mvn clean install -PautoInstallBundle
 
 位於項目根目錄(`<src-directory>/<project>/pom.xml`)的`pom.xml`稱為父POM，驅動項目結構並管理項目的依賴項和某些全局屬性。
 
-### 全局項目屬性{#global-properties}
+### 全局項目屬性 {#global-properties}
 
 父POM的`<properties>`部分定義了對於在AEM實例上部署項目很重要的幾個全局屬性，如用戶名/密碼、主機名/埠等。
 
@@ -180,7 +187,7 @@ mvn clean install -PautoInstallBundle
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
-### 模組結構{#module-structure}
+### 模組結構 {#module-structure}
 
 父POM的`<modules>`區段定義專案將建置的模組。 預設情況下，項目生成[以前定義的標準模組](#what-you-get):核心、ui.apps、ui.content、ui.tests和it.launcher。 隨著專案的發展，您隨時都可以新增更多模組。
 
@@ -228,7 +235,7 @@ AEM專案原型當然會運用核心元件。
    1. 開啟左側面板，然後切換到&#x200B;**Tests**&#x200B;頁簽。
    1. 找到生成的&#x200B;**MyName測試**&#x200B;並運行它們。
 
-## 後續步驟{#next-steps}
+## 後續步驟 {#next-steps}
 
 因此，您已建立並安裝AEM專案原型。 現在呢？ 原型很小，但包含許多根據建議最佳實務設定的強大AEM功能範例。 使用這些說明如何在專案中運用這些功能。 針對您可能需要的任何專案：
 
