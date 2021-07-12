@@ -1,9 +1,9 @@
 ---
 title: 轉盤元件
 description: 轉盤元件可讓內容作者以旋轉轉盤呈現內容。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [edit dialog](#edit-dialog)允許內容作者建立、命名和排序多張投影片，並啟用延遲的自動轉換。 範本作者可使用[設計對話方塊](#design-dialog)定義哪些元件可新增至輪播、啟用或停用自動轉變，以及自訂樣式。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 轉盤元件的目前版本為v1，已於2018年10月隨核心元件2.2.0版推出，本檔案將加以說明。
 
@@ -32,21 +32,21 @@ ht-degree: 0%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗轉盤元件並查看其設定選項的範例以及HTML和JSON輸出，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_carousel)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 如需輪播元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者新增、重新命名和重新排列投影片，以及定義自動轉變設定。
 
-### 項目標籤{#items-tab}
+### 項目標籤 {#items-tab}
 
 ![轉盤元件編輯對話方塊的「項目」索引標籤](/help/assets/carousel-edit-items.png)
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 >
 >如果頁面的檢視區縮小，使編輯對話方塊變成全螢幕，則會隱藏&#x200B;**Add**&#x200B;按鈕。 從元件瀏覽器拖曳並拖曳至頁面編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)中的轉盤元件，仍可將元件新增至轉盤元件。[
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![輪播元件的編輯對話方塊的屬性標籤](/help/assets/carousel-edit-properties.png)
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 >
 >在&#x200B;**Edit**&#x200B;模式下，不會啟用自動提前功能。 使用&#x200B;**[以已發佈的形式查看](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，將自動提前功能視為已發佈內容的讀者。
 
-### 輔助功能頁簽{#accessibility-tab}
+### 協助工具標籤 {#accessibility-tab}
 
 ![轉盤元件編輯對話方塊的協助工具標籤](/help/assets/carousel-edit-accessibility.png)
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 * **標籤**  — 元件的ARIA標籤屬性值
 
-## 選擇面板{#select-panel}
+## 選擇面板 {#select-panel}
 
 內容作者可以使用元件工具欄上的&#x200B;**選擇面板**&#x200B;選項來更改為不同的幻燈片進行編輯，並輕鬆重新排列幻燈片的順序。
 
@@ -105,11 +105,11 @@ ht-degree: 0%
 * 點選或按一下下拉式清單中的項目，將編輯器中的檢視切換至該投影片。
 * 可使用拖動控制滑塊就地重新排序幻燈片。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義哪些元件可新增為轉盤元件的投影片，以及定義自動轉換預設值和哪些自訂樣式可供內容作者使用。
 
-### 屬性頁簽{#properties-tab-1}
+### 屬性標籤 {#properties-tab-1}
 
 **屬性**&#x200B;標籤用於定義內容作者將轉盤元件新增至頁面時投影片轉變的預設設定。
 
@@ -119,16 +119,16 @@ ht-degree: 0%
 * **轉變延遲**  — 定義內容作者將輪播元件新增至頁面時，投影片之間轉變延遲的預設值（以毫秒為單位）。
 * **停用暫留時的自動暫停**  — 定義當內容作者選取的「自動轉移投影片」時，是否 **啟用** 停用自動投影片暫停的選項。
 
-### 允許的元件頁簽{#allowed-components-tab}
+### 「允許的元件」頁簽 {#allowed-components-tab}
 
 **允許的元件**&#x200B;標籤用於定義哪些元件可由內容作者以投影片形式新增至轉盤元件。
 
 [在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 轉盤元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 轉盤元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
