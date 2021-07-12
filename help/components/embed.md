@@ -1,9 +1,9 @@
 ---
 title: 內嵌元件
 description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁面。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 * 可在[configure dialog](#configure-dialog)中定義元件的屬性。
 * 將元件新增至頁面時的預設值，可在[設計對話方塊](#design-dialog)中定義。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的內嵌元件版本為v1，已於2019年9月隨核心元件2.7.0版推出，本檔案將加以說明。
 
@@ -33,17 +33,17 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗內嵌元件以及查看其設定選項的範例以及HTML和JSON輸出，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_embed)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需內嵌元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 設定對話方塊可讓內容作者定義要內嵌在頁面上的外部資源。 首先，選擇應嵌入的資源類型：
 
@@ -116,11 +116,11 @@ ht-degree: 1%
 >[!NOTE]
 >雖然AntiSamy衛生框架規則可以通過覆蓋`/libs/cq/xssprotection/config.xml`來配置，但這些更改會影響所有HTL和JSP行為，而不僅影響內嵌核心元件。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者可使用的選項，內容作者使用內嵌元件，並在放置內嵌元件時設定預設值。
 
-### 可嵌入類型頁簽{#embeddable-types-tab}
+### 可嵌入類型頁簽 {#embeddable-types-tab}
 
 ![內嵌元件的設計對話方塊](/help/assets/embed-design.png)
 
@@ -129,7 +129,7 @@ ht-degree: 1%
 * **停用HTML**  — 選取時停 **** 用內容作者的HTML選項。
 * **允許的Embeddables**  — 多選，定義內容作者可使用哪些可嵌入的處理器，前提是Embeddable **** 選項處於活動狀態。
 
-### YouTube標籤{#youtube-tab}
+### YouTube標籤 {#youtube-tab}
 
 ![內嵌元件設計對話方塊的YouTube標籤](/help/assets/embed-design-youtube.png)
 
