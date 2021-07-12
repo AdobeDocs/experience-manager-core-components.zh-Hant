@@ -2,20 +2,20 @@
 title: AEM專案原型前端組建
 description: AEM型應用程式的專案範本
 feature: 核心元件、AEM專案原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 0%
 
 ---
 
-# AEM專案原型的ui.frontend模組{#uifrontend-module}
+# AEM專案原型的ui.frontend模組 {#uifrontend-module}
 
 AEM專案原型包含以Webpack為基礎的選用專屬前端建置機制。 因此， ui.frontend模組將成為專案所有前端資源（包括JavaScript和CSS檔案）的中央位置。 若要充分運用這項有用且有彈性的功能，請務必了解前端開發如何整合至AEM專案。
 
-## AEM專案和前端開發{#aem-and-front-end-development}
+## AEM專案和前端開發 {#aem-and-front-end-development}
 
 以簡化的術語來說，AEM專案可視為由兩個個別但相關的部分組成：
 
@@ -48,11 +48,11 @@ ClientLib將包含下列檔案和目錄：
 * `js.txt` 告訴AEM中檔案的順序和名 `js/` 稱，以便合併
 * `resources/`:原始碼映射、非入口點代碼塊（由程式碼分割產生）、靜態資產（例如圖示）等。
 
-## 可能的前端開發工作流{#possible-workflows}
+## 可能的前端開發工作流程 {#possible-workflows}
 
 前端構建模組是一種有用且非常靈活的工具，但對如何使用它沒有特定意見。 以下是&#x200B;*可能的*&#x200B;使用的兩個範例，但您的個別專案需求可能會決定其他使用模型。
 
-### 使用Webpack靜態開發伺服器{#using-webpack}
+### 使用Webpack靜態開發伺服器 {#using-webpack}
 
 使用Webpack，您可以根據ui.frontend模組內AEM網頁的靜態輸出來設定樣式和開發。
 
@@ -67,7 +67,7 @@ ClientLib將包含下列檔案和目錄：
 >
 >您也可以利用[元件庫](https://adobe.com/go/aem_cmp_library)來捕獲每個元件的標籤輸出樣本，以便在元件級別而不是頁面級別工作。
 
-### 使用故事書{#using-storybook}
+### 使用Storybook {#using-storybook}
 
 使用[Storybook](https://storybook.js.org)可執行更多原子前端開發。 雖然AEM專案原型中未包含Storybook，但您可以安裝它，並將您的Storybook成品儲存在ui.frontend模組中。 準備好在AEM內進行測試時，可執行`npm run dev`，以部署為ClientLib。
 
@@ -75,11 +75,11 @@ ClientLib將包含下列檔案和目錄：
 >
 >[](https://storybook.js.org) AEM專案原型中不包含Storybook。如果您選擇使用它，則必須單獨安裝它。
 
-### 確定標籤{#determining-markup}
+### 確定標籤 {#determining-markup}
 
 無論您決定為您的專案實作哪個前端開發工作流程，後端開發人員和前端開發人員必須先同意標籤。 通常AEM會定義由核心元件提供的標籤。 [不過，如有需要，您可以自訂此項目](/help/developing/customizing.md#customizing-the-markup)。
 
-## ui.frontend模組{#ui-frontend-module}
+## ui.frontend模組 {#ui-frontend-module}
 
 AEM專案原型包含選用的專用前端建置機制，以Webpack為基礎，並具備下列功能。
 
@@ -154,14 +154,14 @@ ui.frontend模組會編譯`ui.frontend/src`資料夾下的程式碼，並輸出�
 >
 >前端構建選項利用共用通用配置檔案的僅開發和僅生產的Webpack配置檔案。 這樣可獨立修改開發和生產設定。
 
-### 客戶端庫生成{#clientlib-generation}
+### 客戶端庫生成 {#clientlib-generation}
 
 ui.frontend模組建置程式會利用[aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator)外掛程式，將已編譯的CSS、JS和任何資源移入ui.apps模組。 aem-clientlib-generator設定定義於`clientlib.config.js`中。 將生成以下客戶端庫：
 
 * **clientlib-site**  -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
 * **clientlib-dependencies**  -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
 
-### 在頁面{#clientlib-inclusion}上包含用戶端程式庫
+### 在頁面上包含用戶端程式庫 {#clientlib-inclusion}
 
 `clientlib-site` 和類 `clientlib-dependencies` 別是透過頁面原則設定在 [頁](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 面上納入為預設範本的一部分。要查看策略，請編輯&#x200B;**內容頁面模板>頁面資訊>頁面策略**。
 
@@ -185,11 +185,11 @@ ui.frontend模組建置程式會利用[aem-clientlib-generator](https://www.npmj
 
 當然，可以更新頁面原則及/或修改個別用戶端程式庫的類別和內嵌屬性來修改上述包含。
 
-### 靜態Webpack開發伺服器{#webpack-dev-server}
+### 靜態Webpack開發伺服器 {#webpack-dev-server}
 
 ui.frontend模組中包含的是Webpack-dev-server，可提供即時重新載入，以便在AEM外部進行快速前端開發。 安裝程式會利用html-webpack-plugin自動將從ui.frontend模組編譯的CSS和JS插入靜態HTML範本中。
 
-#### 重要檔案{#important-files}
+#### 重要檔案 {#important-files}
 
 * `ui.frontend/webpack.dev.js`
    * 這包含webpack-dev-serve的設定，並指向要使用的html範本。
