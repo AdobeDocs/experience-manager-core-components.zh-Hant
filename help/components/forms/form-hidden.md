@@ -1,9 +1,9 @@
 ---
 title: 表單隱藏元件
 description: 核心元件表單隱藏元件允許顯示隱藏欄位。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 欄位屬性可由[configure dialog](form-hidden.md)中的內容編輯器定義。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的表單隱藏元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，本檔案已詳述。
 
@@ -33,17 +33,17 @@ ht-degree: 2%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗表單隱藏元件以及查看其設定選項的範例以及HTML和JSON輸出，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_form_hidden)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 如需表單隱藏元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 設定對話方塊可讓內容作者定義隱藏欄位的參數。
 
@@ -60,8 +60,8 @@ ht-degree: 2%
 
 ![表單隱藏元件範例](/help/assets/form-hidden-example.png)
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 表單隱藏元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
