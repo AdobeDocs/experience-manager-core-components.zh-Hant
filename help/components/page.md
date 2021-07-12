@@ -1,9 +1,9 @@
 ---
 title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，專門用於與範本編輯器搭配使用，並可讓頁首/頁尾和結構元件與範本編輯器組合。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 3%
@@ -20,11 +20,11 @@ ht-degree: 3%
 
 使用[設計對話方塊](#design-dialog)，可為頁面定義自訂用戶端程式庫。 與具有可直接從元件訪問的編輯對話框的其他元件不同，由於頁面元件是頁面本身，因此頁面元件的[edit dialog](#edit-dialog)是頁面屬性窗口。
 
-## 漸進式網頁應用程式支援{#pwa-support}
+## 漸進式網頁應用程式支援 {#pwa-support}
 
 核心元件2.15.0版推出支援AEM as aCloud Service的內建[漸進式網頁應用程式(PWA)功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) 只要在網站層級進行簡單的設定，就能將AEM體驗轉換為PWA!
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的頁面元件版本為v2，已於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -37,17 +37,17 @@ ht-degree: 3%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 如需頁面元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_page_v2)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 由於元件代表整個頁面，因此通常會在編輯對話方塊中的設定，會顯示在[頁面屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 由於元件代表整個頁面，因此在編輯頁面範本時，可透過&#x200B;**頁面資訊 — >頁面原則**&#x200B;存取設計對話方塊。
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 >
 >在舊版AEM中，**頁面原則**&#x200B;稱為&#x200B;**頁面設計**。
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 使用「頁面設計」窗口，您可以定義要載入的客戶端庫以及該頁的Web資源庫。
 
@@ -84,10 +84,10 @@ ht-degree: 3%
 >
 >核心元件2.2.0版已導入為頁面標題分別定義用戶端程式庫的功能。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 頁面元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 頁面元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
