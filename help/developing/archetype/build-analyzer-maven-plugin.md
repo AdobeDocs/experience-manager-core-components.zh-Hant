@@ -2,16 +2,16 @@
 title: AEM as a Cloud ServiceSDK組建Analyzer Maven外掛程式
 description: 本機Maven建置分析器外掛程式的檔案
 feature: 核心元件、AEM專案原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 4%
 
 ---
 
-# AEM as a Cloud ServiceSDK建置Analyzer Maven外掛程式{#maven-analyzer-plugin}
+# AEM as a Cloud ServiceSDK組建Analyzer Maven外掛程式 {#maven-analyzer-plugin}
 
 AEM as a Cloud ServiceSDK建置分析器Maven外掛程式會分析各種內容套件專案的結構。
 
