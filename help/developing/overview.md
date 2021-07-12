@@ -1,9 +1,9 @@
 ---
 title: 開發核心元件
 description: 核心元件提供強大且可擴充的基本元件，提供豐富的功能、持續傳遞、元件版本設定、現代化實作、精益標籤，以及內容的JSON匯出。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 14%
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # 開發核心元件 {#developing-core-components}
 
-## 何時該使用核心元件？{#when-to-use-the-core-components}
+## 何時該使用核心元件？ {#when-to-use-the-core-components}
 
 核心元件不僅是全新功能，並且有多項優點，因此建議用於新的 AEM 專案。對於既有專案來說，移轉應該是品牌重塑或整體重構等較大專案工作的一部分。
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 \
    如果沒有，請參閱上述「新自訂元件」。
 
-## 如何成功使用核心元件{#how-to-succeed}
+## 如何使用核心元件成功 {#how-to-succeed}
 
 核心元件功能強大、靈活，易於使用和定制。 [遵循幾項重](success.md) 要指南，即可確保您使用核心元件的專案成功。
 
@@ -39,7 +39,7 @@ ht-degree: 14%
 
 任何新專案都應使用核心元件來實作。 但現有專案通常會大量實施基礎元件。
 
-### 從Foundation元件遷移{#from-foundation}
+### 從Foundation元件遷移 {#from-foundation}
 
 對現有專案付出更大努力（例如品牌重塑或整體重構）通常可讓您移轉至核心元件。 為方便移轉，Adobe提供了許多移轉工具，以鼓勵採用核心元件和最新的AEM技術。
 
@@ -56,7 +56,7 @@ ht-degree: 14%
 >
 >AEM現代化工具是社群的努力成果，Adobe不支援或保固。
 
-## 透過移動至AEM作為Cloud Service{#via-aemaacs}進行移轉
+## 透過移轉至AEM作為Cloud Service {#via-aemaacs}
 
 由於AEM as aCloud Service會自動隨附最新版核心元件，當您從內部部署AEM安裝移轉時，將需要移除專案`pom.xml`檔案中對核心元件的任何相依性。
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 
 如需AEMaaCS專案的詳細資訊，請參閱檔案[AEM專案結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)。
 
-## 核心元件支援{#core-component-support}
+## 核心元件支援 {#core-component-support}
 
 核心元件是 AEM 不可或缺的一部分，並依照與 Quickstart 所提供相同的條款與條件給予支援。
 
@@ -84,7 +84,7 @@ ht-degree: 14%
 如需支援自訂元件的詳細資訊，請參閱[自訂核心元件](customizing.md)頁面。
 
 
-## 技術功能{#technical-capabilities}
+## 技術功能 {#technical-capabilities}
 
 下表概述核心元件與基礎元件之間的差異。
 
@@ -105,7 +105,7 @@ ht-degree: 14%
 | 貢獻 | 透過提取請求 | 不可能 |
 | 協助工具 | 完全符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 僅部分符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
-## 元件清單{#component-list}
+## 元件清單 {#component-list}
 
 下表列出可用的核心元件（連結至其API），並指出其所取代的基礎元件。
 
@@ -141,11 +141,11 @@ ht-degree: 14%
 | [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 提供目標進展的直觀表示 | - |
 | [PDF 檢視器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在頁面上顯示PDF文檔 | - |
 
-### 即將推出的元件{#upcoming-components}
+### 近期元件 {#upcoming-components}
 
 如需近期核心元件路線圖的概觀，請參閱GitHub上的[專案Wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
 
-## 升級核心元件{#upgrade-of-core-components}
+## 升級核心元件 {#upgrade-of-core-components}
 
 版本控制元件的其中一項優點，是可將移轉至新AEM版本與移轉至新元件版本分開。 此外，如果有新元件版本可用，則可將每個元件個別移轉至新版本。
 
