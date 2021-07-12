@@ -1,9 +1,9 @@
 ---
 title: 內容片段元件
 description: 核心元件內容片段元件可顯示內容片段。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 * 可在[設計對話框](#design-dialog)中定義用於處理某些影像和網格的資源類型。
 * 編輯選項將在[內容片段編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中開啟所選片段。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的內容片段元件版本為v1，已於2017年10月隨核心元件1.1.0版推出，本檔案將加以說明。
 
@@ -50,21 +50,21 @@ ht-degree: 5%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗內容片段元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_cf)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需內容片段元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 設定對話方塊可讓內容作者定義要包含的內容片段及該片段的元素。
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![內容片段元件](/help/assets/content-fragment-edit-properties.png)
 
@@ -91,7 +91,7 @@ ht-degree: 5%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-### 段落控制頁簽{#paragraph-control-tab}
+### 段落控制標籤 {#paragraph-control-tab}
 
 選取&#x200B;**多個元素**&#x200B;模式時，此標籤不可用。
 
@@ -100,7 +100,7 @@ ht-degree: 5%
 * **段落**  — 允許選擇所有段落或範圍
 * **將標題當作自己的段落處理**
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義用於處理混合媒體影像和回應式格線的資源類型。
 
@@ -110,6 +110,6 @@ ht-degree: 5%
 
    * 用於內部回應式格線的Sling資源類型
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 內容片段元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
