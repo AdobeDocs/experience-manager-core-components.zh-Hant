@@ -3,7 +3,7 @@ title: 核心元件簡介
 description: '核心元件提供強大且可擴充的基本元件，以最新技術和最佳實務為基礎。 '
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc1fc14e1ca9125a24c13ac68716951ef790afea
+source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 25%
@@ -51,7 +51,7 @@ ht-degree: 25%
 
 目前版本的核心元件主打下列元件。
 
-### 模板元件{#template-components}
+### 範本元件 {#template-components}
 
 * [頁面](components/page.md)
 * [導覽](components/navigation.md)
@@ -59,7 +59,7 @@ ht-degree: 25%
 * [階層連結](components/breadcrumb.md)
 * [快速搜尋](components/quick-search.md)
 
-### 頁面編寫元件{#page-authoring-components}
+### 頁面製作元件 {#page-authoring-components}
 
 * [標題](components/title.md)
 * [文字](components/text.md)
@@ -77,7 +77,7 @@ ht-degree: 25%
 * [進度列](components/progress-bar.md)
 * [PDF 檢視器](components/pdf-viewer.md)
 
-### 容器元件{#container-components}
+### 容器元件 {#container-components}
 
 * [容器](components/container.md)
 * [傳送](components/carousel.md)
@@ -102,11 +102,11 @@ ht-degree: 25%
 >
 >如需特定元件的相容性資訊，請參閱說明頁面 (連結至上一份清單)，或參考[核心元件版本](versions.md)文件以取得詳細資訊。
 
-## 系統要求{#system-requirements}
+## 系統需求 {#system-requirements}
 
 | 核心元件 | AEM as a Cloud Service  | AEM 6.5 | AEM 6.4 | Java SE | 馬文 |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 持續 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 持續 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
