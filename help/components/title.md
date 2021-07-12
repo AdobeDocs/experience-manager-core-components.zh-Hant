@@ -1,9 +1,9 @@
 ---
 title: 標題元件
 description: 核心元件標題元件是區段標題元件，可就地編輯。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 標題元件可用作內容區段的標題或標題。 可用的標題層級可由範本作者在[design對話方塊](#design-dialog)中定義。 內容編輯器可從[edit dialog](#edit-dialog)中的可用標題層級進行選擇。 為方便起見，您也可以輕鬆就地編輯標題文字。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的標題元件版本為v2，已於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -31,17 +31,17 @@ ht-degree: 2%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗標題元件並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_title)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 如需Title元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_title_v2)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者定義標題文字並選取標題層級。
 
@@ -63,11 +63,11 @@ ht-degree: 2%
 
 ![就地編輯標題元件](/help/assets/title-edit-inline.png)
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者建立時標題元件將具備的預設標題層級。
 
-### 大小頁簽{#sizes-tab}
+### 「大小」頁簽 {#sizes-tab}
 
 ![標題元件的設計對話框](/help/assets/title-design.png)
 
@@ -79,10 +79,10 @@ ht-degree: 2%
 >
 >核心元件2.2.0版已導入定義標題連結的功能。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 標題元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 標題元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
