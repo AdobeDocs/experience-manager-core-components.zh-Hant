@@ -1,16 +1,16 @@
 ---
 title: 表單文字元件
 description: 核心元件表單文字元件可輸入表單文字以供提交。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 6%
 
 ---
 
-# 表單文本元件{#form-text-component}
+# 表單文字元件{#form-text-component}
 
 核心元件表單文字元件可輸入表單文字以供提交。
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 「表單文字」元件允許提交不同類型的文字，並打算與[表單容器元件](form-container.md)一起使用。 文本驗證、標籤和幫助消息的類型可由[配置對話框](#configure-dialog)中的內容編輯器定義。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的表單文字元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，本檔案已詳細說明。
 
@@ -31,21 +31,21 @@ ht-degree: 6%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗表單文字元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_form_text)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 如需表單文字元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 設定對話方塊可讓內容作者定義要輸入的文字類型以及預設值和標籤。
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![「屬性」頁簽](/help/assets/form-text-edit-properties.png)
 
@@ -67,14 +67,14 @@ ht-degree: 6%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-### 關於標籤{#about-tab}
+### 關於標籤 {#about-tab}
 
 ![關於標籤](/help/assets/form-text-edit-about.png)
 
 * **說明訊息**  — 提示使用者可在欄位中輸入的內容
 * **將說明訊息顯示為預留位置**  — 在表單輸入為空且未聚焦時，在其內顯示說明訊息
 
-### 約束頁簽{#constraints-tab}
+### 限制標籤 {#constraints-tab}
 
 ![限制索引標籤](/help/assets/form-text-edit-constraints.png)
 
@@ -85,8 +85,8 @@ ht-degree: 6%
    * **必填訊息**  — 如果欄位留空，則訊息會顯示為工具提示
 * **設為唯讀**  — 如果選取，使用者無法修改欄位的值
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 表單文本元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
