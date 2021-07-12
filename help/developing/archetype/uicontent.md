@@ -2,16 +2,16 @@
 title: AEM專案原型的ui.content模組
 description: AEM專案原型的ui.content模組
 feature: 核心元件、AEM專案原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: af019cd8-c733-4b53-bb57-321dd9451178
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
-# AEM專案原型的ui.content模組{#uicontent-module}
+# AEM專案原型的ui.content模組 {#uicontent-module}
 
 ui.content maven模組(`<src-directory>/<project>/ui.content`)包含基線內容和`/content`和`/conf`下的設定。 ui.content會編譯至AEM套件，就像ui.apps一樣。 主要差異在於，儲存在ui.content中的節點可以直接在AEM例項上修改。 包括頁面、DAM資產和可編輯的範本。 ui.content模組可用來儲存乾淨執行個體的範例內容，和/或建立要在原始碼控制項中管理的一些基線設定。
 
