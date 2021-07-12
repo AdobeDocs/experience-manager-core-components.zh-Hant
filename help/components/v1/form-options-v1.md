@@ -2,16 +2,16 @@
 title: 表單選項元件(v1)
 description: 核心元件表單選項元件允許以各種格式從預先定義的選項中進行選擇。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
 
 ---
 
-# 表單選項元件(v1){#form-options-component-v}
+# 表單選項元件(v1) {#form-options-component-v}
 
 核心元件表單選項元件允許以各種格式從預先定義的選項中進行選擇。
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 選項、標籤和單個選項的顯示可由[配置對話框](#configure-dialog)中的內容編輯器定義。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 本檔案說明表單選項元件v1，最初是透過AEM 6.3推出的核心元件1.0.0版。
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >有關當前版本的「表單選項」元件的詳細資訊，請參閱[「表單選項」元件](/help/components/forms/form-options.md)文檔。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 >
 >從核心元件匯出JSON需使用1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 「設定」對話方塊可讓內容作者定義應呈現的選項類型、標籤，以及可用的選項。
 
@@ -143,11 +143,11 @@ ht-degree: 2%
          * **資料來源**  — 資料來源的資源類型
 * **說明訊息**  — 可在欄位中輸入內容的使用者提示
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 「表單選項」元件沒有設計對話框。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需表單選項元件[的最新技術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options)。
 
