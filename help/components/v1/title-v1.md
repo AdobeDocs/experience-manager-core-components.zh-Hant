@@ -2,16 +2,16 @@
 title: 標題元件(v1)
 description: 核心元件標題元件是區段標題元件，可就地編輯。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 1%
 
 ---
 
-# 標題元件(v1){#title-component-v}
+# 標題元件(v1) {#title-component-v}
 
 核心元件標題元件是區段標題元件，可就地編輯。
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 可用的標題層級可由範本作者在[design對話方塊](#design-dialog)中定義。 內容編輯器可從[edit dialog](#edit-dialog)中的可用標題層級進行選擇。 為方便起見，您也可以輕鬆就地編輯標題文字。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 本檔案說明標題元件v1，此元件最初於AEM 6.3的核心元件1.0.0版中推出。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 >
 >有關當前版本的「標題元件」的詳細資訊，請參閱[標題元件](/help/components/title.md)文檔。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 >
 >從核心元件匯出JSON需使用1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者定義標題文字並選取標題層級。
 
@@ -83,13 +83,13 @@ ht-degree: 1%
 
 ![](/help/assets/chlimage_1-37.png)
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者建立時標題元件將具備的預設標題層級。
 
 ![](/help/assets/chlimage_1-92.png)
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需Title元件[的最新技術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)。
 
