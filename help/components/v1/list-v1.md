@@ -2,16 +2,16 @@
 title: 清單元件(v1)
 description: 核心元件清單元件可輕鬆建立動態及靜態清單。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 4%
 
 ---
 
-# 清單元件(v1){#list-component-v}
+# 清單元件(v1) {#list-component-v}
 
 核心元件清單元件可輕鬆建立動態及靜態清單。
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 可用清單類型和格式選項可由範本作者在[設計對話方塊](#design-dialog)中定義。 內容編輯器可以從可用的清單類型中選擇，以及如何在[edit對話框](#edit-dialog)中格式化清單元素。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 本檔案說明清單元件的v1，此元件最初於AEM 6.3的核心元件1.0.0版中推出。
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 >
 >有關清單元件當前版本的詳細資訊，請參閱[清單元件](/help/components/list.md)文檔。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
@@ -136,7 +136,7 @@ ht-degree: 4%
 >
 >從核心元件匯出JSON需使用1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者設定清單和清單元素。
 
@@ -166,7 +166,7 @@ ht-degree: 4%
    * 留空即可使用目前頁面
 * **子深度**  — 應使用階層中向下多少個層級
 
-#### 固定清單{#fixed-list}
+#### 固定清單 {#fixed-list}
 
 可使用固定的項目清單來建立清單。
 
@@ -204,7 +204,7 @@ ht-degree: 4%
    * **任何標記**
    * **所有標記**
 
-#### 排序選項{#sort-options}
+#### 排序選項 {#sort-options}
 
 無論您選擇以何種方式建立清單，都有可一律定義的特定排序選項。
 
@@ -232,7 +232,7 @@ ht-degree: 4%
 * **顯示**
 連結項目的DateShow修改日期
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者應允許的清單類型以及可用的項目設定。
 
@@ -258,7 +258,7 @@ ht-degree: 4%
 * **顯示說明**  — 在編輯對話方塊中啟用顯示說 [明選項](#edit-dialog)
 * **顯示日期**  — 在編輯對話方塊中啟用顯示 [日期選項](#edit-dialog)
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需清單元件[的最新技術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)。
 
