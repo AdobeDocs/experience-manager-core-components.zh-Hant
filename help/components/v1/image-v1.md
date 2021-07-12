@@ -2,16 +2,16 @@
 title: 影像元件(v1)
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 1%
 
 ---
 
-# 影像元件(v1){#image-component-v}
+# 影像元件(v1) {#image-component-v}
 
 核心元件影像元件是就地編輯的自適應影像元件功能。
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 範本作者可在[design對話方塊](#design-dialog)中定義允許的影像寬度以及裁切和其他設定。 內容編輯器可以上傳或選取[設定對話方塊](#configure-dialog)中的資產，並在[編輯對話方塊](#edit-dialog)中裁切影像。 為了更方便，還可以簡單地就地修改影像。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 本檔案說明影像元件v1，最初是透過AEM 6.3推出核心元件1.0.0版。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 >
 >有關當前版本的影像元件的詳細資訊，請參閱[影像元件](/help/components/image.md)文檔。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 >
 >從核心元件匯出JSON需使用1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 除了標準[edit dialog](#edit-dialog)和[design dialog](#design-dialog)之外，影像元件還提供配置對話框，在其中定義影像本身及其說明和基本屬性。
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 * **註解**  — 預設會顯示影像下方的影像其他資訊。
 * **將字幕顯示為快顯視窗**  — 若勾選此選項，字幕不會顯示在影像下方，但會顯示為將游標暫留在影像上時，由某些瀏覽器顯示的快顯視窗。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者裁切、修改啟動對映，以及縮放影像。
 
@@ -177,7 +177,7 @@ ht-degree: 1%
 >
 >GIF影像不支援影像編輯操作（裁切、翻轉、旋轉）。 在編輯模式中對GIF所做的任何此類變更都不會持續存在。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義使用此元件時，內容作者所具有的裁切、上傳和旋轉上傳。
 
@@ -231,7 +231,7 @@ ht-degree: 1%
    >
    >請注意，在AEM中，裁切長寬比定義為&#x200B;**height/width**。 這與傳統的寬度/高度定義不同，因為舊版相容性原因而完成。 只要您提供比例的明確名稱，內容作者就不會察覺任何差異，因為該名稱會顯示在UI中，而非比例本身。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 您可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)上找到影像元件[的最新技術檔案。
 
