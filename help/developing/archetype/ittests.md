@@ -2,16 +2,16 @@
 title: it.tests模組的AEM項目原型
 description: 如何使用AEM專案原型整合測試
 feature: 核心元件、AEM專案原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0abc0265-3a3f-4323-97e6-3af0c62299ef
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
-# it.tests AEM專案原型{#ittests-module}的模組
+# it.tests模組的AEM專案原型 {#ittests-module}
 
 項目中包含三個級別的測試：
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本文說明it.tests模組中可用的整合測試。
 
-## 運行整合測試{#running-tests}
+## 執行整合測試 {#running-tests}
 
 伺服器端整合測試可讓類似單元的測試在AEM環境(即AEM伺服器)中執行。 要測試，請執行：
 
