@@ -1,16 +1,16 @@
 ---
 title: 語言導覽元件
 description: 語言導覽元件提供網站的語言/國家導覽，讓訪客可以在不同地區中導覽至相同頁面。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
 
 ---
 
-# 語言導航元件{#language-navigation-component}
+# 語言導覽元件{#language-navigation-component}
 
 「語言導覽元件」提供網站的語言/國家導覽，讓訪客可以在不同地區中導覽至相同頁面。
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 [edit對話框](#edit-dialog)允許定義全局站點導航根目錄以及導航應深入到結構中的深度。 範本作者可使用[設計對話方塊](#design-dialog)設定相同選項的預設值。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 語言導覽元件的目前版本為v1，此版本於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -35,23 +35,23 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗語言導覽元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_langnav)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 有關語言導覽元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 編輯對話方塊可讓您定義全域網站導覽根目錄，以及導覽應深入到結構中的程度。
 
 這些設定通常只需在頁面範本層級完成。 不過，您可透過[edit dialog](#edit-dialog)在頁面層級變更這些量度。
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![語言導航元件的設計對話框](/help/assets/language-navigation-design.png)
 
@@ -89,11 +89,11 @@ ht-degree: 1%
 
 無論使用者正在檢視哪個頁面，語言導覽元件都能透過知道目前頁面的位置，並回溯至根目錄，然後轉送至對應的頁面，以其他語言找到對應的頁面。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 語言導航元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 通常，語言導覽元件只需在網站的頁面範本中新增及設定。 不過，如果「語言導覽」元件需要新增至個別內容頁面，編輯對話方塊可讓內容作者設定與[設計對話方塊](#design-dialog)中所述相同的值。
 
@@ -105,6 +105,6 @@ ht-degree: 1%
 
 ![語言導航元件的編輯對話框](/help/assets/language-navigation-edit.png)
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 語言導航元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
