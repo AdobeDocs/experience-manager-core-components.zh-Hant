@@ -1,9 +1,9 @@
 ---
 title: 影像元件
 description: 核心元件影像元件是就地編輯的自適應影像元件功能。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2170'
 ht-degree: 1%
@@ -20,19 +20,19 @@ ht-degree: 1%
 
 範本作者可在[設計對話方塊](#design-dialog)中定義影像寬度以及裁切和其他設定。 內容編輯器可以上傳或選取[設定對話方塊](#configure-dialog)中的資產，並在[編輯對話方塊](#edit-dialog)中裁切影像。 為了更方便，還可以簡單地就地修改影像。
 
-## 回應式功能{#responsive-features}
+## 回應式功能 {#responsive-features}
 
 影像元件隨附立即可用的強大回應式功能。 在頁面範本層級，可使用[設計對話方塊](#design-dialog)定義影像資產的預設寬度。 影像元件會根據瀏覽器視窗的大小自動載入顯示的正確寬度。 視窗調整大小時，影像元件會動態載入正確的影像大小。 元件開發人員無需擔心定義自訂媒體查詢，因為影像元件已最佳化以載入您的內容。
 
 此外，影像元件支援延遲載入，將實際影像資產的載入延遲到在瀏覽器中顯示為止，以提高頁面的回應速度。
 
-## Dynamic Media支援{#dynamic-media}
+## Dynamic Media支援 {#dynamic-media}
 
 影像元件(自[發行版本2.13.0](/help/versions.md)起)支援[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)資產。 [啟用後，](#design-dialog) 這些功能可讓您透過簡單的拖放功能，或透過資產瀏覽器，新增Dynamic Media影像資產，就像新增任何其他影像一樣。此外，還支援影像修飾元、影像預設集和智慧型裁切。
 
 以核心元件建置的網路體驗無法提供豐富、由Sensei提供支援、強大、高效能、跨平台的Dynamic Media影像功能。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的影像元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## SVG支援{#svg-support}
+## SVG支援 {#svg-support}
 
 影像元件支援可縮放向量圖形(SVG)。
 
@@ -61,11 +61,11 @@ ht-degree: 1%
 >
 >SVG支援需要2.1.0版或更新版本的核心元件，以及適用於AEM 6.4或更高版本的[service pack 2](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/sp-release-notes.html)，以支援AEM內的[影像編輯器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗影像元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_image)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 您可在GitHub](https://adobe.com/go/aem_cmp_tech_image_v2)上找到影像元件[的最新技術檔案。
 
@@ -73,11 +73,11 @@ ht-degree: 1%
 
 影像元件支援[schema.org microdata](https://schema.org)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 除了標準[edit dialog](#edit-dialog)和[design dialog](#design-dialog)之外，影像元件還提供配置對話框，在其中定義影像本身及其說明和基本屬性。
 
-### 資產標籤{#asset-tab}
+### 資產標籤 {#asset-tab}
 
 ![影像元件設定對話方塊的資產標籤](/help/assets/image-configure-asset.png)
 
@@ -86,7 +86,7 @@ ht-degree: 1%
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
    * 點選或按一下「**編輯** 」，在資產編輯器中[管理資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 
-### 元資料頁簽{#metadata-tab}
+### 中繼資料索引標籤 {#metadata-tab}
 
 ![影像元件的配置對話框的元資料頁簽](/help/assets/image-configure-metadata.png)
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 >
 >**智** 慧交叉 **和影** 像預設是互斥選項。如果作者需要使用影像預設集與智慧型裁切轉譯，則作者必須使用&#x200B;**影像修飾元**&#x200B;以手動新增預設集。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者裁切、修改啟動對映，以及縮放影像。
 
@@ -175,11 +175,11 @@ ht-degree: 1%
 >
 >GIF影像不支援影像編輯操作（裁切、翻轉、旋轉）。 在編輯模式中對GIF所做的任何此類變更都不會持續存在。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者使用此元件時擁有的裁切、上傳、旋轉和上傳選項。
 
-### 首頁簽{#main-tab}
+### 主要標籤 {#main-tab}
 
 在&#x200B;**Main**&#x200B;標籤上，您可以定義影像的寬度清單（像素），元件將根據瀏覽器大小自動載入最合適的寬度。 這是影像元件[回應式功能](#responsive-features)的重要部分。
 
@@ -202,7 +202,7 @@ ht-degree: 1%
       * 選取選項&#x200B;**停用延遲載入**&#x200B;以在頁面載入時載入影像。
 * **JPEG品質**  — 用於轉換（例如縮放或裁切）JPEG影像的品質因數（以百分比表示，從0到100）。
 
-### 功能頁簽{#features-tab}
+### 功能標籤 {#features-tab}
 
 在&#x200B;**Features**&#x200B;標籤上，您可以定義使用元件時，內容作者可使用的選項，包括上傳選項、方向和裁切選項。
 
@@ -242,7 +242,7 @@ ht-degree: 1%
    >
    >請注意，在AEM中，裁切長寬比定義為&#x200B;**height/width**。 這與傳統的寬度/高度定義不同，因為舊版相容性原因而完成。 只要您提供比例的明確名稱，內容作者就不會察覺任何差異，因為該名稱會顯示在UI中，而非比例本身。
 
-### 樣式標籤{#styles-tab-1}
+### 樣式標籤 {#styles-tab-1}
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
@@ -256,6 +256,6 @@ ht-degree: 1%
 >
 >[AEM專案原型的](/help/developing/archetype/overview.md)範例Dispatcher設定已包含此設定。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 影像元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
