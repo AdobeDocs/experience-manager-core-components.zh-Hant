@@ -3,29 +3,30 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: e62bb19a487e337c1ea5994d9fbfc845145ae19d
+source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2174'
 ht-degree: 21%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的目前版本為2.17.0，且與[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件的目前版本為2.17.2，且與[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
 
-## 版本歷史記錄和相容性{#release-history-and-compatibility}
+## 版本記錄和相容性 {#release-history-and-compatibility}
 
 核心元件的設計靈活且與所有支援的AEM版本相容。 因此，元件的版本可包含相同元件的多個版本。
 
 下表說明核心元件版本的相容性，以及包含哪些版本的元件版本。
 
-### 版本歷史記錄和要求{#release-history-requirements}
+### 發行記錄和需求 {#release-history-requirements}
 
 下表提供完整發行詳細資料](https://github.com/adobe/aem-core-wcm-components/releases)的GitHub上可用的[內容，概述核心元件的發行版本及其與AEM發行版本和Java版本的相容性。
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此修補程式版本包含對[資料層](/help/developing/data-layer/overview.md)無法與AEMaaCS搭配使用的修正。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年7月2日 |
 | [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此版本包含許多支援連結處理常式功能的新元件版本的技術預覽，以及[頁面元件之精選影像功能的技術預覽。](/help/components/page.md) 也包含數項錯誤修正。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年6月16日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此為修正新連結處理常式問題的修補程式版本。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年5月19日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此修補程式版本主要解決新連結處理常式的問題，並新增了支援多頁應用程式[PWA的增強功能。](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年5月15日 |
@@ -69,7 +70,7 @@ ht-degree: 21%
 >
 >和AEM一樣，Adobe建議開發人員使用與所執行之AEM版本相容的[最新版本和核心元件](https://github.com/adobe/aem-core-wcm-components/releases/latest)，以受益於最新的修正和功能。
 
-### 元件版本和版本{#component-versions-and-releases}
+### 元件版本與發行 {#component-versions-and-releases}
 
 下表詳細說明核心元件發行包含哪些元件版本。
 
@@ -104,7 +105,7 @@ ht-degree: 21%
 | **[進度列](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 | **[PDF 檢視器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
-## 版本和版本{#versions-and-releases}
+## 版本和版本 {#versions-and-releases}
 
 核心元件可透過GitHub發佈。 這可讓Adobe更快速地將功能新增至元件，也允許在AEM發行週期之外輸入社群。
 
