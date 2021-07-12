@@ -1,9 +1,9 @@
 ---
 title: 使用核心元件
 description: 「若要在您自己的專案中開始使用核心元件，請依照下列三個步驟執行：下載並安裝、建立Proxy元件、載入核心樣式，以及允許範本上的元件。」
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 >
 >如果您使用[AEM專案原型，系統會根據Adobe的最佳實務建議，自動將核心元件納入您的專案中。](/help/developing/archetype/overview.md)
 
-## 下載並安裝{#download-and-install}
+## 下載和安裝 {#download-and-install}
 
 核心元件背後的驅動思想之一是靈活性。 更常推出新版核心元件，讓Adobe在提供新功能時更具彈性。 開發人員則可選擇將哪些元件整合至其專案中，以及想更新的頻率，因而可有彈性。 如此一來，AEM和核心元件就能分開發行程式。
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 * 如果您的專案先前在`/apps`中包含核心元件，則[您可能需要調整專案。](/help/developing/overview.md#via-aemaacs)
 * 即使核心元件現在位於`/libs`中，也不建議在`/apps`中建立相同路徑的任何覆蓋。 [如果需要](/help/developing/guidelines.md#proxy-component-pattern) 自訂元件的任何方面，則應使用代理元件模式。
 
-### AEM 6.5和之前的{#aem-65}
+### AEM 6.5和之前版本 {#aem-65}
 
 在生產模式中開始時（沒有範例內容），核心元件不是快速入門的一部分。 因此，您的第一步是從GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下載最新發行的內容套件，並安裝在您的AEM環境中。[
 
 有幾種方法可以自動執行此操作，但在實例上快速安裝內容包的最簡單方法是使用包管理器；請參閱[安裝軟體包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您也有發佈執行個體在執行，就需要將該套件復寫至發佈者；請參閱[複製包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
-## 建立代理元件{#create-proxy-components}
+## 建立代理元件 {#create-proxy-components}
 
 基於[代理元件模式](/help/developing/guidelines.md#proxy-component-pattern)區段中說明的原因，不得直接從內容參考核心元件。 為避免此情況，這些變數都屬於隱藏的元件群組（`.core-wcm`或`.core-wcm-form`），因此無法直接在編輯器中顯示。
 
@@ -84,7 +84,7 @@ ExampleAdd下列屬性：\
 
 例如，查看WKND站點](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml)的[標題元件，這是以這種方式構建的代理元件的好示例。
 
-## 載入核心樣式{#load-the-core-styles}
+## 載入核心樣式 {#load-the-core-styles}
 
 1. 若尚未完成，請建立[用戶端程式庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)，其中包含您網站所需的所有CSS和JS檔案。
 1. 在網站的用戶端程式庫上，將相依性新增至可能需要的核心元件。 這可透過新增`embed`屬性來完成。
@@ -103,7 +103,7 @@ ExampleAdd下列屬性：\
 
 前往下一節，請確定您的Proxy元件和用戶端程式庫已部署至AEM環境。
 
-## 允許元件{#allow-the-components}
+## 允許元件 {#allow-the-components}
 
 在[範本編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中執行下列步驟。
 
