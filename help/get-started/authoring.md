@@ -1,9 +1,9 @@
 ---
 title: 使用核心元件編寫
 description: 在AEM中，元件是構成所編寫頁面內容的結構元素 — 核心元件提供彈性且功能豐富的製作功能。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 8%
@@ -54,7 +54,7 @@ ht-degree: 8%
 >
 >將所需元件新增至可見群組，或自訂供作者使用。
 
-## 預先配置核心元件{#pre-configuring-core-components}
+## 預先設定核心元件 {#pre-configuring-core-components}
 
 配置基礎元件是開發人員的工作。 不過，使用核心元件時，範本作者現在可以透過範本編輯器設定許多功能。
 
@@ -62,7 +62,7 @@ ht-degree: 8%
 
 如需詳細資訊，請參閱[建立頁面範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 。
 
-### 編輯和設計對話框{#edit-and-design-dialogs}
+### 編輯和設計對話框 {#edit-and-design-dialogs}
 
 由於範本作者可預先設定核心元件，以定義範本中允許的選項，然後頁面作者進一步設定以定義實際頁面內容，因此每個元件在兩個不同的對話方塊中都可有選項。
 
@@ -71,7 +71,7 @@ ht-degree: 8%
 | **編輯對話方塊** | 在對放置的元件進行一般頁面編輯期間，**頁面作者**&#x200B;可修改的選項 | 元件顯示的內容，以及它最終如何出現在頁面上。 | 設定內容文字的格式，在頁面上旋轉影像 |
 | **設計對話方塊** | 設定頁面範本時，**範本作者**&#x200B;可修改的選項。 | 編輯元件時頁面作者有哪些可用選項 | 哪些文本格式選項可用，哪些影像就地選項可用 |
 
-### 元件樣式{#component-styling}
+### 元件樣式 {#component-styling}
 
 大部分核心元件的樣式可使用AEM樣式系統來定義。
 
