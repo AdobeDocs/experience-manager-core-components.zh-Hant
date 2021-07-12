@@ -2,16 +2,16 @@
 title: AEM專案原型的ui.apps模組
 description: AEM專案原型的ui.apps模組
 feature: 核心元件、AEM專案原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
-# AEM專案原型的ui.apps模組{#uiapps-module}
+# AEM專案原型的ui.apps模組 {#uiapps-module}
 
 ui.apps maven模組(`<src-directory>/<project>/ui.apps`)包含`/apps`下方網站所需的所有轉譯程式碼。 這包括將以名為[clientlibs的AEM格式儲存的CSS/JS。](uifrontend.md#clientlibs) 這也包含轉譯動態HTML的HTL指令碼。您可以將ui.apps模組視為JCR中結構的對應，但格式可儲存在檔案系統上並提交至原始碼控制項。
 
