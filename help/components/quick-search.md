@@ -1,16 +1,16 @@
 ---
 title: 快速搜尋元件
 description: 「快速搜尋元件」提供網站的搜尋功能，並顯示搜尋結果，讓訪客可以搜尋網站並篩選結果。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
 
 ---
 
-# 快速搜索元件{#quick-search-component}
+# 快速搜尋元件 {#quick-search-component}
 
 「快速搜尋元件」可為網站提供搜尋功能，並顯示搜尋結果，讓訪客可輕鬆找到相符的內容和檢視結果。
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 [edit dialog](#edit-dialog)可讓內容作者定義內容樹狀結構中應開始搜尋的位置。 使用[design對話框](#design-dialog)，模板作者可以為內容樹中應該開始搜索的位置設定預設值，以及最大結果集大小和最小搜索詞長度。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 快速搜尋元件的目前版本為v1，此版本於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者定義內容樹狀結構中應開始搜尋的位置。
 
@@ -58,11 +58,11 @@ ht-degree: 1%
 >
 >如果未配置或無法解析&#x200B;**搜索根**，則「快速搜索」預設為當前頁下的搜索。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 使用設計對話框，模板作者可以為內容樹中應開始搜索的位置設定預設值，以及最大結果集大小和最小搜索詞長度。設計對話框允許模板作者定義哪些文本格式選項可供內容作者使用。
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![快速搜索元件的設計對話框](/help/assets/quick-search-design.png)
 
@@ -81,6 +81,6 @@ ht-degree: 1%
 >
 >**結果** 大小和 **搜索詞最小** 長度如果分別設定為過高或過低，則可能會產生效能影響。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 快速搜索元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
