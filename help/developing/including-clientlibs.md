@@ -1,20 +1,20 @@
 ---
 title: 包括客戶端庫
 description: 根據您的使用案例，有許多不同的方法可包含用戶端程式庫。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 3%
 
 ---
 
-# 包括客戶端庫{#including-client-libraries}
+# 包括客戶端庫 {#including-client-libraries}
 
 根據您的使用案例，有許多不同的方法可包含[用戶端程式庫](/help/developing/archetype/uifrontend.md#clientlibs)。 本檔案提供各自的範例和範例[ HTL片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html)。
 
-## 建議的預設用法{#recommended-default-usage}
+## 建議的預設用法 {#recommended-default-usage}
 
 如果您沒有時間調查最適合您的情況，請在頁面`head`元素內放置下列HTL行，加入用戶端程式庫：
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 這會同時在您的頁面`head`中包含CSS和JS，但會將`defer`屬性新增至您的JS `script`包含，讓瀏覽器在執行指令碼之前等待DOM就緒，進而最佳化頁面載入速度。
 
-## 基本用法{#basic-usage}
+## 基本用法 {#basic-usage}
 
 包含用戶端程式庫類別的JS和CSS的基本語法（將產生所有對應的CSS `link`元素及/或JS `script`元素）如下：
 
