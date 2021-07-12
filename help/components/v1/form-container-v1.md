@@ -2,16 +2,16 @@
 title: 表單容器元件(v1)
 description: 核心元件表單容器元件可建立簡單的提交表單。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
-# 表單容器元件(v1){#form-container-component-v1}
+# 表單容器元件(v1) {#form-container-component-v1}
 
 核心元件表單容器元件可建立簡單的提交表單。
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 透過使用[設定對話方塊](#settings-dialog)，內容編輯器可定義觸發表單提交的動作類型、應儲存提交的內容，以及應觸發工作流程時。 範本作者可使用[設計對話方塊](#design-dialog)來定義允許元件及其對應，類似於範本編輯器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)中[標準版面容器的設計對話方塊。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 本檔案說明表單容器元件v1，最初是透過AEM 6.3推出核心元件1.0.0版。
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >有關表單容器元件當前版本的詳細資訊，請參閱[表單容器元件](/help/components/forms/form-container.md)文檔。
 
-## 設定對話框{#settings-dialog}
+## 設定對話方塊 {#settings-dialog}
 
 設定對話方塊可讓內容作者定義提交元件時要採取的動作。
 
@@ -102,11 +102,11 @@ ht-degree: 2%
 * 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL會相對於AEM來解譯。
 * 留空可在提交後重新顯示表單。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似於範本編輯器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)中[標準版面容器的設計對話方塊。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需表單容器元件[的最新技術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container)。
 
