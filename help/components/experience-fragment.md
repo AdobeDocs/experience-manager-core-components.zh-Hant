@@ -1,9 +1,9 @@
 ---
 title: 體驗片段元件
 description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 * 可在[configure dialog](#configure-dialog)中定義元件的屬性。
 * 將元件新增至頁面時的預設值，可在[設計對話方塊](#design-dialog)中定義。
 
-## 本地化網站結構支援{#localized-site-structure}
+## 本地化網站結構支援 {#localized-site-structure}
 
 體驗片段元件可適用於本地化的網站結構，並根據頁面的本地化來轉譯適當的體驗片段。 若要這麼做，體驗片段必須符合下列條件。
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 1. 如果找不到，則會嘗試尋找即時副本。
 1. 如果找不到，則預設為元件中設定的體驗片段。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的體驗片段元件版本為v1，已於2019年9月隨核心元件2.6.0版推出，本檔案將加以說明。
 
@@ -102,17 +102,17 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗體驗片段元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_xf)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需體驗片段元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 設定對話方塊可讓內容作者選取應在頁面上呈現的體驗片段變化。
 
@@ -128,10 +128,10 @@ ht-degree: 1%
 * 若已指定ID，則作者應負責確認其唯一。
 * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者可用的選項，這些內容作者使用體驗片段元件，以及放置體驗片段元件時設定的預設值。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 體驗片段元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
