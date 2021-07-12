@@ -2,16 +2,16 @@
 title: 擴充Adobe用戶端資料層
 description: Adobe用戶端資料層可依照一些基本模式進行擴充
 feature: 核心元件，Adobe用戶端資料層
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-# 擴展Adobe客戶端資料層{#extending-acdl}
+# 擴充Adobe用戶端資料層 {#extending-acdl}
 
 您可以使用自訂對話方塊選項擴充核心元件，讓內容作者輸入與資料層相關的其他資訊。
 
