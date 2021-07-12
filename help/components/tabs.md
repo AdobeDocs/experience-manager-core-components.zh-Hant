@@ -1,16 +1,16 @@
 ---
 title: 制表符元件
 description: 「頁簽元件」允許建立多個頁簽，以在頁面上排列內容。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 0%
 
 ---
 
-# 制表符元件{#tabs-component}
+# 制表符元件 {#tabs-component}
 
 核心元件索引標籤元件可讓內容組織至多個索引標籤。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >使用[內容樹](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)可以定位/選擇簡單（非嵌套）頁簽元件，但嵌套頁簽不能。
 
-## 深層連結至面板{#deep-linking}
+## 面板的深層連結 {#deep-linking}
 
 標籤和[折疊式功能表元件](accordion.md)支援直接連結至元件內的面板。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 導覽至面板ID為錨點的URL，瀏覽器將直接捲動至特定元件並顯示指定的面板。 如果面板預設設定為不展開，則會自動展開。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 標籤元件的目前版本為v1，已於2018年10月隨核心元件2.2.0版推出，本檔案將加以說明。
 
@@ -52,21 +52,21 @@ ht-degree: 0%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗標籤元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_tabs)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 如需Tabs元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者建立、重新命名和重新排列索引標籤，以及定義使用中索引標籤。
 
-### 項目標籤{#items-tab}
+### 項目標籤 {#items-tab}
 
 ![制表符元件的編輯對話框項頁簽](/help/assets/tabs-edit-items.png)
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 >
 >如果頁面的檢視區縮小，使編輯對話方塊變成全螢幕，則會隱藏&#x200B;**Add**&#x200B;按鈕。 從元件瀏覽器拖曳並拖曳至頁面編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)中的標籤元件，仍可將元件新增至標籤元件。[
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![頁簽元件的編輯對話框屬性頁簽](/help/assets/tabs-edit-properties.png)
 
@@ -92,7 +92,7 @@ ht-degree: 0%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-### 輔助功能頁簽{#accessibility-tab}
+### 協助工具標籤 {#accessibility-tab}
 
 ![頁簽元件的編輯對話框輔助工具頁簽](/help/assets/tabs-edit-accessibility.png)
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 * **標籤**  — 元件的ARIA標籤屬性值
 
-## 選擇面板{#select-panel}
+## 選擇面板 {#select-panel}
 
 內容作者可使用元件工具列上的&#x200B;**選取面板**&#x200B;選項，以變更為不同面板進行編輯，並輕鬆重新排列索引標籤的順序。
 
@@ -120,20 +120,20 @@ ht-degree: 0%
 >
 >在&#x200B;**Edit**&#x200B;模式下，作者無法選取索引標籤。 使用&#x200B;**[預覽](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[以已發佈形式查看](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，與標籤互動，如同已發佈內容的閱讀者一樣。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義哪些元件可新增為索引標籤元件的項目，以及定義哪些自訂樣式可供內容作者使用。
 
-### 允許的元件頁簽{#allowed-components-tab}
+### 「允許的元件」頁簽 {#allowed-components-tab}
 
 **允許的元件**&#x200B;標籤用於定義哪些元件可以作為項目由內容作者添加到頁簽元件中。
 
 [在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 頁簽元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 標籤元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
