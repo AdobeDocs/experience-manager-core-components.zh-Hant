@@ -1,9 +1,9 @@
 ---
 title: 文字元件
 description: 文本元件是富文本編輯和合成元件，具有就地編輯功能。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 [edit dialog](#edit-dialog)使用全螢幕編輯對話框中提供的有限功能選項進行串聯編輯。 使用[設計對話框](#design-dialog)，可為內容作者的模板配置標題、特殊字元和段落樣式等文本格式選項。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的文字元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -33,17 +33,17 @@ ht-degree: 4%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗文字元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_text)。
 
-### 技術詳細資訊{#technical-details}
+### 技術詳細資訊 {#technical-details}
 
 有關文字元件[的最新技術檔案可在GitHub](https://adobe.com/go/aem_cmp_tech_text_v2)上找到。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 文本元件和RTF編輯器{#the-text-component-and-the-rich-text-editor}
+## 文字元件和RTF編輯器 {#the-text-component-and-the-rich-text-editor}
 
 核心元件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供多種功能，可編輯其文字內容。 RTE的設定非常有彈性，並提供許多選項。 有關如何設定RTE的進一步詳細資訊，請參閱[設定RTF編輯器](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[設定RTF編輯器外掛程式](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
 
@@ -53,7 +53,7 @@ ht-degree: 4%
 >
 >只有由RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的[ UI配置啟用的選項可由「文本元件」使用。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊提供使用者預期要撰寫文字的標準RTF格式工具。
 
@@ -296,7 +296,7 @@ ht-degree: 4%
 
 ![段落格式示例](/help/assets/text-paragraph-example.png)
 
-### 行內編輯{#in-line-editing}
+### 線上編輯 {#in-line-editing}
 
 文本元件也可以聯機編輯，但由於空間限制，並非所有格式選項都可以聯機編輯。 若要查看所有選項，請切換至全螢幕模式。
 
@@ -310,11 +310,11 @@ ht-degree: 4%
 * 若已指定ID，則作者應負責確認其唯一。
 * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義內容作者可使用的文字格式選項。
 
-### 插件頁簽{#plugins-tab}
+### 外掛程式標籤 {#plugins-tab}
 
 外掛程式索引標籤可用來啟用和停用內容作者可用的各種文字格式選項。
 
@@ -366,10 +366,10 @@ ht-degree: 4%
 * 若要移除字元點選，或按一下「**刪除**」按鈕。
 * 要重新排列字元點選的順序，或按一下並拖動控點。
 
-## 樣式標籤{#styles-tab}
+## 樣式標籤 {#styles-tab}
 
 文本元件支援AEM [style system](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 文本元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
