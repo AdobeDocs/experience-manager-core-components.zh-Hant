@@ -2,16 +2,16 @@
 title: 表單文字元件(v1)
 description: 核心元件表單文字元件可輸入表單文字以供提交。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 7%
 
 ---
 
-# 表單文字元件(v1){#form-text-component-v}
+# 表單文字元件(v1) {#form-text-component-v}
 
 核心元件表單文字元件可輸入表單文字以供提交。
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 文本驗證、標籤和幫助消息的類型可由[配置對話框](#configure-dialog)中的內容編輯器定義。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 本檔案說明表單文字元件v1，此元件最初於AEM 6.3的核心元件1.0.0版中推出。
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 >
 >有關當前版本的表單文本元件的詳細資訊，請參閱[表單文本元件](/help/components/forms/form-text.md)文檔。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
@@ -90,7 +90,7 @@ ht-degree: 7%
 >
 >從核心元件匯出JSON需使用1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 設定對話方塊可讓內容作者定義要輸入的文字類型以及預設值和標籤。
 
@@ -134,11 +134,11 @@ ht-degree: 7%
 * **必要**  — 如果選取此選項，則使用者必須先填入值，才能提交表單
 * **設為唯讀**  — 如果選取，使用者無法修改欄位的值
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 「表單文本」元件沒有設計對話框。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需表單文字元件[的最新技術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)。
 
