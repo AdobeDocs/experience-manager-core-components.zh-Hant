@@ -1,16 +1,16 @@
 ---
 title: PDF Viewer元件
 description: PDF Viewer元件允許顯示PDF文檔。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 3%
 
 ---
 
-# PDF Viewer元件{#pdf-viewer-component}
+# PDF Viewer元件 {#pdf-viewer-component}
 
 核心元件PDF Viewer元件允許在頁面上包含PDF檔案。
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 核心元件PDF檢視器元件內嵌檢視器，可顯示儲存為頁面上資產的PDF檔案。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的PDF檢視器元件版本為v1，此版本於2020年6月2.10.0版核心元件時推出，本檔案將詳細說明。
 
@@ -30,11 +30,11 @@ ht-degree: 3%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗PDF檢視器元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_pdfviewer)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 有關PDF檢視器元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)。
 
@@ -44,17 +44,17 @@ ht-degree: 3%
 >
 >PDF Viewer元件利用[Adobe的Document Services API](https://www.adobe.io/apis/documentcloud/dcsdk.html)，並要求管理員配置[上下文感知配置](/help/developing/context-aware-configs.md)以便使用這些服務。 有關此配置的詳細資訊，請查看元件的技術文檔。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)[
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 「設定」對話方塊可讓內容作者定義檢視器，以及檢視器的行為和顯示方式，供造訪頁面的訪客使用。
 
-### 配置頁簽{#configuration-tab}
+### 配置頁簽 {#configuration-tab}
 
 「設定」索引標籤可讓作者定義應顯示的PDF。 路徑可定義為AEM中的資產，或其他資源的絕對路徑。
 
 ![PDF查看器元件的編輯對話框的配置頁簽](/help/assets/pdf-viewer-edit-configuration.png)
 
-### 自定義頁簽{#customize-tab}
+### 自訂標籤 {#customize-tab}
 
 「自訂」索引標籤可讓作者定義檢視器中可供讀者使用的選項，以及檢視器的呈現方式。
 
@@ -106,6 +106,6 @@ ht-degree: 3%
 * **下載PDF**  — 啟用後，會顯示下載按鈕。
 * **打印PDF**  — 啟用後，將顯示打印按鈕。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 PDF Viewer元件沒有「設計」對話框。
