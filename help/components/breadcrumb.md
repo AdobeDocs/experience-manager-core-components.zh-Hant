@@ -1,9 +1,9 @@
 ---
 title: 階層連結元件
 description: 核心元件階層連結元件是導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 可用選項（例如預設導航級別和顯示當前頁面或隱藏頁面的功能）可由模板作者在[設計對話框](#design-dialog)中定義。 然後，內容編輯器可以在[edit對話框](#edit-dialog)中選擇是否顯示隱藏頁面以及元件的實際導航級別。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的階層連結元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，本檔案已詳細說明。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗階層連結元件並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_breadcrumb)。
 
@@ -41,13 +41,13 @@ ht-degree: 1%
 >
 >自核心元件2.1.0版起，階層連結元件支援[schema.org微資料](https://schema.org/BreadcrumbList)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需有關階層連結元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 編輯對話方塊可讓內容作者隱藏階層連結中的隱藏和作用中頁面，以及階層中應顯示的深度。
 
@@ -67,11 +67,11 @@ ht-degree: 1%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義預設值，供選項在階層連結中隱藏隱藏和作用中的頁面，以及應顯示的階層深度。
 
-### 首頁簽{#main-tab}
+### 主要標籤 {#main-tab}
 
 ![](/help/assets/breadcrumb-design.png)
 
@@ -86,10 +86,10 @@ ht-degree: 1%
 
 * **停用陰影**  — 定義將階層連結元 **件新** 增至頁面時，停用陰影選項的預設值。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 階層連結元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 階層連結元件支援[Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
