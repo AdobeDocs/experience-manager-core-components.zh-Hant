@@ -1,16 +1,16 @@
 ---
 title: 表單容器元件
 description: 核心元件表單容器元件可建立簡單的提交表單。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
-# 表單容器元件{#form-container-component}
+# 表單容器元件 {#form-container-component}
 
 核心元件表單容器元件可建立簡單的提交表單。
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 >
 >核心元件表單容器元件僅支援使用核心元件表單元件（按鈕、文字、隱藏等）。 不支援在核心元件表單容器內使用[foundation元件](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表單元件（反之亦然）。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 表單容器元件的目前版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -37,17 +37,17 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗表單容器元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_form_container)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需表單容器元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 「設定」對話方塊可讓內容作者定義提交元件時要採取的動作。
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 無論類型為何，都有[一般設定](#general-settings)套用至每個動作。
 
-### 貼文表單資料{#post-data}
+### 貼文表單資料 {#post-data}
 
 提交表單時，貼文表單資料動作類型會將提交的資料以JSON形式傳遞至協力廠商以進行處理。
 
@@ -117,10 +117,10 @@ ht-degree: 1%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似於範本編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中[標準版面容器的設計對話方塊。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 表單容器元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
