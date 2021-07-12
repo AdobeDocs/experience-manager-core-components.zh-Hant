@@ -2,16 +2,16 @@
 title: 頁面元件(v1)
 description: 頁面元件是可擴充的頁面元件，專門用於與範本編輯器搭配使用，並可讓頁面頁首/頁尾和結構元件與範本編輯器組合。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 1%
 
 ---
 
-# 頁面元件(v1){#page-component-v}
+# 頁面元件(v1) {#page-component-v}
 
 頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)搭配使用，並允許頁首/頁尾和結構元件與範本編輯器組合。
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 使用[設計對話方塊](#design-dialog)，可為頁面定義自訂用戶端程式庫。 與具有可直接從元件訪問的編輯對話框的其他元件不同，由於元件是頁面本身，因此頁面元件的[edit dialog](#edit-dialog)是頁面屬性窗口。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 本檔案說明頁面元件v1，此元件最初於AEM 6.3的核心元件1.0.0版中推出。
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 >
 >頁面元件的v1不支援頁面重新導向。 請使用[頁面元件的當前版本](/help/components/page.md)以獲得頁面重定向支援。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 以下範例取自[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
@@ -680,11 +680,11 @@ ht-degree: 1%
 >
 >從核心元件匯出JSON需使用1.1.0版的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 由於元件代表整個頁面，因此通常會在編輯對話方塊中的設定，會顯示在[頁面屬性](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)視窗中。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 由於元件代表整個頁面，因此可透過&#x200B;**頁面資訊 — >頁面設計**&#x200B;存取設計對話方塊。
 
@@ -700,7 +700,7 @@ ht-degree: 1%
 
 ![](/help/assets/chlimage_1-95.png)
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需頁面元件[的最新技術檔案，請參閱GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)。
 
