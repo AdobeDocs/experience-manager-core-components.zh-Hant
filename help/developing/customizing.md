@@ -1,9 +1,9 @@
 ---
 title: 自訂核心元件
 description: 核心元件實作多種模式，可輕鬆自訂，從簡單的樣式到進階功能可重複使用。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 [核心元件](overview.md)實作了數種允許輕鬆自訂的模式，從簡單的樣式到進階功能重複使用。
 
-## 靈活的體系結構{#flexible-architecture}
+## 靈活的體系結構 {#flexible-architecture}
 
 核心元件從一開始就設計為靈活且可擴充。 檢視其架構的概觀，便可顯示可在何處進行自訂。
 
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 [AEM專案原](/help/developing/archetype/overview.md) 型會將最簡化的Adobe Experience Manager專案視為您專案的起點，包括以SlingModels建立的自訂HTL元件範例，以邏輯和正確實作核心元件並搭配建議的Proxy模式。
 
-## 自訂模式{#customization-patterns}
+## 自訂模式 {#customization-patterns}
 
-### 自定義對話框{#customizing-dialogs}
+### 自訂對話方塊 {#customizing-dialogs}
 
 可能需要自定義核心元件對話框中可用的配置選項，無論是[設計對話框或編輯對話框](/help/get-started/authoring.md)。
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 </jcr:root>
 ```
 
-### 自訂核心元件{#customizing-the-logic-of-a-core-component}的邏輯
+### 自訂核心元件的邏輯 {#customizing-the-logic-of-a-core-component}
 
 核心元件的商業邏輯是在Sling模型中實作。 此邏輯可使用Sling委派模式來擴充。
 
@@ -100,7 +100,7 @@ public class PageHeadline implements Title {
 
 如需委派模式的詳細資訊，請參閱核心元件GitHub Wiki文章[Sling模型的委派模式](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)。
 
-### 自定義標籤{#customizing-the-markup}
+### 自定義標籤 {#customizing-the-markup}
 
 有時，進階樣式需要元件的不同標籤結構。
 
@@ -108,7 +108,7 @@ public class PageHeadline implements Title {
 
 再以核心階層連結元件的範例為例，若要自訂其標籤輸出，必須將`breadcrumb.html`檔案複製至具有指向核心階層連結元件之`sling:resourceSuperTypes`的網站特定元件。
 
-### 設定元件的樣式{#styling-the-components}
+### 元件的樣式 {#styling-the-components}
 
 第一種自訂形式是套用CSS樣式。
 
@@ -124,7 +124,7 @@ public class PageHeadline implements Title {
 
 此外，每個核心元件都利用AEM [樣式系統功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)，該功能允許範本作者定義可由頁面作者套用至元件的其他CSS類別名稱。 這可為每個範本定義允許的元件樣式清單，以及其中一個預設應套用至該類型的所有元件。
 
-## 自定義項的升級相容性{#upgrade-compatibility-of-customizations}
+## 自定義項的升級相容性 {#upgrade-compatibility-of-customizations}
 
 有三種不同的升級方式：
 
@@ -138,7 +138,7 @@ public class PageHeadline implements Title {
 
 切換至較新的主要核心元件版本僅與內容結構相容，但可能需要重構自訂內容。 系統會針對每個元件版本發佈清除變更記錄，以反白標示會影響本頁面所述自訂類型的變更。
 
-## 支援自定義{#support-of-customizations}
+## 支援自訂 {#support-of-customizations}
 
 與任何AEM元件一樣，有許多關於自訂的事項需要注意：
 
