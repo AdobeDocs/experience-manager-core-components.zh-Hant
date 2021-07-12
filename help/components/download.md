@@ -1,9 +1,9 @@
 ---
 title: 下載元件
 description: 核心元件下載元件可在頁面上建立下載選項。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 * 可在[配置對話框](#configure-dialog)中選擇下載選項的屬性。
 * 可在[design對話方塊](#design-dialog)中定義下載元件的預設值。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的下載元件版本為v1，已於2019年6月隨核心元件2.5.0版推出，本檔案將加以說明。
 
@@ -33,23 +33,23 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗下載元件以及查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_download)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 若需下載元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_download_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 「設定」對話方塊可讓內容作者定義下載項目，以及該項目的行為和顯示方式，供造訪頁面的訪客使用。
 
 ![下載元件編輯對話方塊的資產標籤](/help/assets/download-edit-asset.png)
 
-### 資產標籤{#asset-tab}
+### 資產標籤 {#asset-tab}
 
 選擇下載資產與[影像元件](image.md)的功能非常類似，同樣地會運用AEM DAM。
 
@@ -58,7 +58,7 @@ ht-degree: 1%
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
    * 點選或按一下「**編輯** 」，在資產編輯器中[管理資產](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![下載元件編輯對話框的屬性頁簽](/help/assets/download-edit-properties.png)
 
@@ -74,11 +74,11 @@ ht-degree: 1%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義使用下載元件的內容作者可用的選項。
 
-### 屬性頁簽{#properties-tab-design}
+### 屬性標籤 {#properties-tab-design}
 
 ![下載元件的設計對話框](/help/assets/download-design.png)
 
@@ -93,6 +93,6 @@ ht-degree: 1%
 * **顯示檔案名稱**  — 選取時，下載元件中會顯示資產的檔案名稱。
    * 已選取預設值。
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
