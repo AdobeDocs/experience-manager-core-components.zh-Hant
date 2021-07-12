@@ -2,16 +2,16 @@
 title: 搭配核心元件使用Adobe用戶端資料層
 description: 搭配核心元件使用Adobe用戶端資料層
 feature: 核心元件，Adobe用戶端資料層
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 5%
 
 ---
 
-# 將Adobe用戶端資料層與核心元件{#data-layer-core-components}搭配使用
+# 搭配核心元件使用Adobe用戶端資料層 {#data-layer-core-components}
 
 Adobe用戶端資料層的目標是透過提供標準化方法來公開和存取任何指令碼的任何類型資料，以減少對網站進行檢測的工作量。
 
@@ -25,7 +25,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 >
 >如需整合Adobe用戶端資料層與核心元件的詳細技術資訊，請參閱核心元件存放庫中的[`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)檔案。
 
-## 安裝和激活{#installation-activation}
+## 安裝與啟用 {#installation-activation}
 
 自核心元件2.9.0版起，資料層以AEM用戶端程式庫的形式與核心元件一併分佈，不需安裝。 依預設，由[AEM專案原型v. 24+](/help/developing/archetype/overview.md)產生的所有專案都包含已啟用的資料層。
 
@@ -64,7 +64,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
    window.adobeDataLayer.getState();
    ```
 
-## 支援的元件{#supported-components}
+## 支援的元件 {#supported-components}
 
 下列元件支援資料層。
 
@@ -86,7 +86,7 @@ Adobe用戶端資料層不受平台限制，但已完全整合至核心元件，
 
 另請參閱元件觸發的[事件。](#events-components)
 
-## 核心元件資料結構{#data-schemas}
+## 核心元件資料結構 {#data-schemas}
 
 以下是核心元件與資料層搭配使用的結構清單。
 
@@ -221,7 +221,7 @@ id: {
 
 * `cmp:click`
 
-### 內容片段結構{#content-fragment}
+### 內容片段結構 {#content-fragment}
 
 內容片段架構由[內容片段元件使用。](/help/components/content-fragment-component.md)
 
@@ -259,7 +259,7 @@ id: {
 * **`cmp:show`** 和 —  **`cmp:hide`** 控制折疊式功能表（展開/折疊）、輪播（下一個/上一個按鈕）和標籤（索引標籤選取）元件，會分別導致資料層 `cmp:show` 觸發和 `cmp:hide` 事件。`cmp:show`事件也會在頁面載入時發送，且應為第一個事件。
 * **`cmp:loaded`**  — 當資料層填入頁面上的核心元件時，資料層就會觸發 `cmp:loaded` 事件。
 
-### 元件{#events-components}觸發的事件
+### 元件觸發的事件 {#events-components}
 
 下表列出觸發事件的標準核心元件以及這些事件。
 
@@ -275,7 +275,7 @@ id: {
 | [索引標籤](/help/components/tabs.md) | `cmp:show`與`cmp:hide` |
 | [Teaser](/help/components/teaser.md) | `cmp:click` |
 
-### 事件路徑資訊{#event-path-info}
+### 事件路徑資訊 {#event-path-info}
 
 AEM核心元件所觸發的每個資料層事件都會包含具有下列JSON物件的裝載：
 
