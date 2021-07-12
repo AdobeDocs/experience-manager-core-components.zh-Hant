@@ -1,9 +1,9 @@
 ---
 title: 內容片段清單元件
 description: 核心元件內容片段清單元件可顯示內容片段清單。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 * 可在[配置對話框](#configure-dialog)中選擇清單及其屬性。
 * 樣式可套用至[design對話方塊](#design-dialog)中的元件。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 目前的內容片段元件版本為v1，已於2019年5月隨核心元件2.4.0版推出，本檔案將加以說明。
 
@@ -33,17 +33,17 @@ ht-degree: 5%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗內容片段清單元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_cflist)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需內容片段清單元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1)。
 
 有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
-## 配置對話框{#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
 設定對話方塊可讓內容作者定義要包含清單的內容片段以及這些片段的元素。
 
@@ -86,6 +86,6 @@ ht-degree: 5%
    * 按一下或點選&#x200B;**Delete**&#x200B;按鈕以移除選取的元素。
    * 拖動&#x200B;**Order**&#x200B;控制代碼以重新排列元素的順序。
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者定義套用至內容片段清單元件的樣式。
