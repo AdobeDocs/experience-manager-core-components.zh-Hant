@@ -4,9 +4,9 @@ description: AEM型應用程式的專案範本
 feature: 核心元件、AEM專案原型
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
+source-git-commit: b5ad1c874d5f6d6781c2d0b0cc992b278c91211b
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1118'
 ht-degree: 6%
 
 ---
@@ -54,12 +54,13 @@ AEM專案原型是Maven範本，可建立以最佳實務為基礎的簡化Adobe 
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
+ -D archetypeVersion=XX \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
 ```
 
+* 以最新的[原型版本號碼取代`XX`。](#requirements)
 * 為[AEM設定`aemVersion=cloud`作為Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
    為[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署設定`aemVersion=6.5.0`。
 僅會針對非雲端aem版本新增核心元件相依性，因為AEM會以Cloud Service的形式提供核心元件。
