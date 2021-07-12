@@ -1,16 +1,16 @@
 ---
 title: 導覽元件
 description: 導覽元件可讓使用者輕鬆導覽全球化網站結構。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
 
 ---
 
-# 導航元件{#navigation-component}
+# 導覽元件{#navigation-component}
 
 導覽元件可讓使用者輕鬆導覽全球化網站結構。
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 [edit對話方塊](#edit-dialog)可讓內容作者定義導覽根頁面和導覽深度。 [設計對話方塊](#design-dialog)允許範本作者定義導覽根和深度的預設值。
 
-## 本地化網站結構支援{#localized-site-structure}
+## 本地化網站結構支援 {#localized-site-structure}
 
 網站通常針對不同地區提供多種語言版本。 通常每個本地化頁面都會包含一個包含在頁面範本中的導覽元素。 導覽元件可讓您將其放置在網站所有頁面的範本上一次，然後會根據您的全球化網站結構，自動適應個別本地化頁面。
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 因此，如果訪客正在檢視`/content/ch/de/experience/arctic-surfing-in-lofoten`，元件會知道根據`/content/wknd/language-masters/de`產生導覽結構。 同樣地，如果訪客檢視`/content/us/en/experience/arctic-surfing-in-lofoten`，元件會根據`/content/wknd/language-masters/en`產生導覽結構。
 
-## 卷影站點結構支援{#shadow-structure}
+## 陰影站點結構支援 {#shadow-structure}
 
 有時候，您必須為與實際網站結構不同的訪客建立導覽功能表。 或許促銷活動應透過重新排列內容清單來反白標示功能表中的特定內容。 使用卷影頁面（它只是重定向到其他內容頁面），導航元件可以生成任何必要的任意導航結構。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 >[!NOTE]
 >呈現陰影站點結構時，導航邏輯只遞歸陰影頁。 此邏輯不會遞回重新導向目的地的結構。
 
-## 版本和相容性{#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
 導覽元件的目前版本為v1，此版本於2018年1月隨核心元件2.0.0版推出，本檔案將加以說明。
 
@@ -100,11 +100,11 @@ ht-degree: 1%
 
 如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
-## 元件輸出示例{#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
 若要體驗導覽元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_navigation)。
 
-## 技術詳細資訊{#technical-details}
+## 技術詳細資訊 {#technical-details}
 
 如需導覽元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1)。
 
@@ -114,11 +114,11 @@ ht-degree: 1%
 >
 >自核心元件2.1.0版起，導覽元件支援[schema.org microdata](https://schema.org)。
 
-## 編輯對話框{#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
 在編輯對話方塊中，內容作者可定義導覽的根頁面和導覽結構的深度。
 
-### 屬性頁簽{#properties-tab}
+### 屬性標籤 {#properties-tab}
 
 ![導航元件的編輯對話框屬性頁簽](/help/assets/navigation-edit-properties.png)
 
@@ -136,7 +136,7 @@ ht-degree: 1%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-### 輔助功能頁簽{#accessibility-tab}
+### 協助工具標籤 {#accessibility-tab}
 
 ![導航元件的編輯對話框輔助工具頁簽](/help/assets/navigation-edit-accessibility.png)
 
@@ -144,11 +144,11 @@ ht-degree: 1%
 
 * **標籤**  — 元件的ARIA標籤屬性值
 
-## 設計對話框{#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
 設計對話方塊可讓範本作者為內容作者呈現的導覽根頁面和導覽深度設定預設值。
 
-### 屬性頁簽{#properties-tab-design}
+### 屬性標籤 {#properties-tab-design}
 
 ![導航元件的設計對話框](/help/assets/navigation-design.png)
 
@@ -162,10 +162,10 @@ ht-degree: 1%
 * **導航結構深度**  — 導航結構深度的預設值。
 * **停用陰影**  — 新增導覽元件時，如果應停用陰影的預設值
 
-### 樣式標籤{#styles-tab}
+### 樣式標籤 {#styles-tab}
 
 導航元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客戶端資料層{#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
 導航元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
