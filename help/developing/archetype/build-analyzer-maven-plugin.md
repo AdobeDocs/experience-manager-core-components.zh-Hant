@@ -4,9 +4,9 @@ description: 本機Maven建置分析器外掛程式的檔案
 feature: 核心元件、AEM專案原型
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '595'
 ht-degree: 4%
 
 ---
@@ -38,3 +38,25 @@ AEM as a Cloud ServiceSDK建置分析器Maven外掛程式會分析各種內容�
 | `configuration-api` | 驗證重要的OSGi設定。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `region-deprecated-api` | 檢查是否使用[已棄用的api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
 
+## 已知問題
+
+以下是使用Build Analyzer Maven外掛程式時的已知問題清單。
+
+### 無法在本機SDK中執行Build Analyzer Maven外掛程式
+
+將本機SDK與Build Analyzer Maven外掛程式版本比`1.1.2`還低時，執行外掛程式可能會導致下列錯誤。 在此情況下，請將您的專案更新為最新版外掛程式。
+
+```txt
+[ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
+```
+
+如果您使用AEM專案原型來設定專案，請務必依照下方的方式調整根Maven `pom.xml`中的屬性。
+
+```xml
+   ...
+   <properties>
+      ...
+      <aemanalyser.version>1.1.2</aemanalyser.version> <!-- Make sure to use the latest release -->
+      ...
+   </properties>
+```
