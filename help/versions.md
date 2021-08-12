@@ -3,16 +3,16 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: cc8c3275bf251b4c390ee66588f34bac7c0ec218
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 21%
+source-wordcount: '2233'
+ht-degree: 20%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的目前版本為2.17.2，且與[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件的目前版本為2.17.8，且與[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
 
 ## 版本記錄和相容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,8 @@ ht-degree: 21%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 此修補程式版本此為修補程式版本，用於修正先前引入的不相容反向變更。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年8月2日 |
+| [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此修補程式版本新增了對頁面網站地圖的支援，並包含各種協助工具改善。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年7月29日 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此修補程式版本包含對[資料層](/help/developing/data-layer/overview.md)無法與AEMaaCS搭配使用的修正。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年7月8日 |
 | [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此版本包含許多支援連結處理常式功能的新元件版本的技術預覽，以及[頁面元件之精選影像功能的技術預覽。](/help/components/page.md) 也包含數項錯誤修正。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年6月16日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此為修正新連結處理常式問題的修補程式版本。 | 6.4.8.1+ * | 6.5.5.0+ * | 持續 | 8, 11 | 2021年5月19日 |
