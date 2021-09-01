@@ -3,9 +3,9 @@ title: 導覽元件
 description: 導覽元件可讓使用者輕鬆導覽全球化網站結構。
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1469'
 ht-degree: 1%
 
 ---
@@ -87,6 +87,18 @@ ht-degree: 1%
 
 >[!NOTE]
 >呈現陰影站點結構時，導航邏輯只遞歸陰影頁。 此邏輯不會遞回重新導向目的地的結構。
+
+## 導覽中的重新導向 {#redirects}
+
+當頁面具有重定向目標時(無論它指向的是外部URL還是指向另一個AEM頁面)，則導航元件將包含指向該指向重定向目標的URL的直接連結。
+
+### 範例 {#redirect-example}
+
+* 建立重新導向至頁面B的頁面A。
+* 建立重新導向至`https://aemcomponents.dev`的頁面C
+* 在頁面D上，插入或導覽元件，此元件包含頁面A和C
+* 接著，產生的個別連結會直接指向頁面B和`https://aemcomponents.dev`
+
 
 ## 版本與相容性 {#version-and-compatibility}
 

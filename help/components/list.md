@@ -3,10 +3,10 @@ title: 列出元件
 description: 核心元件清單元件可輕鬆建立動態及靜態清單。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 4%
+source-wordcount: '1064'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 4%
 ## 使用狀況 {#usage}
 
 清單元件可用於建立子頁的動態清單或任意定義項的靜態清單。 可用清單類型和格式選項可由範本作者在[設計對話方塊](#design-dialog)中定義。 內容編輯器可以從可用的清單類型中選擇，以及如何在[edit對話框](#edit-dialog)中格式化清單元素。
+
+## 清單中的重新導向 {#redirects}
+
+當頁面具有重定向目標時(無論它指向的是外部URL還是指向另一個AEM頁面)，則包含指向該指向重定向目標的URL的連結的清單。
+
+### 範例 {#redirect-example}
+
+* 建立重新導向至頁面B的頁面A。
+* 建立重新導向至`https://aemcomponents.dev`的頁面C
+* 在頁面D上，插入包含頁面A和C的清單元件
+* 接著，產生的個別連結會直接指向頁面B和`https://aemcomponents.dev`
 
 ## 版本與相容性 {#version-and-compatibility}
 
