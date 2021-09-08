@@ -1,12 +1,12 @@
 ---
 title: AEM as a Cloud ServiceSDK組建Analyzer Maven外掛程式
 description: 本機Maven建置分析器外掛程式的檔案
-feature: 核心元件、AEM專案原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
+source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,7 @@ AEM as a Cloud ServiceSDK建置分析器Maven外掛程式會分析各種內容�
 | `bundle-nativecode` | 驗證OSGI套件組合不安裝原生程式碼。 | 是 | 是 |
 | `configuration-api` | 驗證重要的OSGi設定。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `region-deprecated-api` | 檢查是否使用[已棄用的api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
+| `artifact-rules` | 驗證相依性（例如套件組合和內容套件），以防止成品中的已知問題。<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
 
 ## 已知問題
 
