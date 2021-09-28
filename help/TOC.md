@@ -1,13 +1,13 @@
 ---
-sub-product: AEM 核心元件
+sub-product: AEM Core Components
 user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
+source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -84,6 +84,7 @@ ht-degree: 67%
       + [使用原型](developing/archetype/using.md)
       + [核心模組](developing/archetype/core.md)
       + [ui.apps模組](developing/archetype/uiapps.md)
+      + [預編譯的套件指令碼](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content模組](developing/archetype/uicontent.md)
       + [ui.frontend.general模組](developing/archetype/uifrontend.md)
       + [ui.frontend.react模組](developing/archetype/uifrontend-react.md)

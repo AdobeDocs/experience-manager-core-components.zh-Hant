@@ -1,12 +1,12 @@
 ---
 title: 使用AEM專案原型
 description: AEM專案原型的詳細使用指示
-feature: 核心元件、AEM專案原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2209'
 ht-degree: 1%
 
 ---
@@ -117,6 +117,7 @@ mvn -B archetype:generate \
 | `amp` | `n` | 對生成的項目模板啟用[AMP](/help/developing/amp.md)支援。 |
 | `enableDynamicMedia` | `n` | 在專案原則設定中啟用基礎DynamicMedia元件，並在核心影像元件的原則中啟用Dynamic Media功能。 |
 | `enableSSR` | `n` | 為前端項目啟用SSR的選項 |
+| `precompiledScripts` | `n` | [預編譯](/help/developing/archetype/precompiled-bundled-scripts.md)來自`ui.apps`的伺服器端指令碼，並將它們作為`ui.apps`專案中的次要套件組合項目附加到組建中的選項。 `aemVersion` 應設為 `cloud`。 |
 
 >[!NOTE]
 >
@@ -138,6 +139,7 @@ mvn -B archetype:generate \
 | `autoInstallSinglePackage` | 將`all`內容套件與content-package-maven-plugin一起安裝至套件管理器，以在localhost，連接埠4502上預設製作例項。 可使用`aem.host`和`aem.port`用戶定義的屬性更改主機名和埠。 |
 | `autoInstallSinglePackagePublish` | 將`all`內容套件與content-package-maven-plugin安裝至套件管理器，以在localhost，連接埠4503上預設發佈執行個體。 可使用`aem.host`和`aem.port`用戶定義的屬性更改主機名和埠。 |
 | `integrationTests` | 在AEM例項上執行提供的整合測試（僅針對`verify`階段） |
+| `precompiledScripts` | 在項目生成時自動定義，`precompiledScripts`屬性設定為`y`。 預設情況下，配置檔案處於活動狀態，並在`ui.apps`內生成具有預編譯指令碼的OSGi捆綁，該捆綁將包含在`all`內容包中。 可以使用`-DskipScriptPrecompilation=true`禁用配置檔案。 |
 
 ### 建置和安裝 {#building-and-installing}
 

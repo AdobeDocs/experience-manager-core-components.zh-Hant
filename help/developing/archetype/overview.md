@@ -4,9 +4,9 @@ description: AEM型應用程式的專案範本
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1138'
 ht-degree: 6%
 
 ---
@@ -94,6 +94,7 @@ mvn -B archetype:generate \
 | `amp` | `n` | 對生成的項目模板啟用[AMP](/help/developing/amp.md)支援。 |
 | `enableDynamicMedia` | `n` | 在專案原則設定中啟用基礎DynamicMedia元件，並在核心影像元件的原則中啟用Dynamic Media功能。 |
 | `enableSSR` | `n` | 為前端項目啟用SSR的選項 |
+| `precompiledScripts` | `n` | [預編譯](/help/developing/archetype/precompiled-bundled-scripts.md)來自`ui.apps`的伺服器端指令碼，並將它們作為`ui.apps`專案中的次要套件組合項目附加到組建中的選項。 `aemVersion` 應設為 `cloud`。 |
 
 ## 系統需求 {#requirements}
 
