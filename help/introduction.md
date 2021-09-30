@@ -3,9 +3,9 @@ title: 核心元件簡介
 description: '核心元件提供強大且可擴充的基本元件，以最新技術和最佳實務為基礎。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 19a7057d0a37d8222dcb2441bba1e479d786fb10
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '937'
 ht-degree: 25%
 
 ---
