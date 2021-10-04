@@ -3,16 +3,16 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
 workflow-type: tm+mt
-source-wordcount: '2273'
+source-wordcount: '2300'
 ht-degree: 20%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的目前版本為2.17.10，且與[AEM as aCloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件的目前版本為2.17.12，且與[AEM as aCloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html)安裝相容。
 
 ## 版本記錄和相容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 20%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 此修補程式版本修正了先前版本引入的回歸。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年10月1日 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此修補程式增強了[List](/help/components/list.md)和[Navigation](/help/components/navigation.md)元件，可顯示重新導向目標的外部URL，可為即將推出的[Teaser](/help/components/teaser.md)元件v2啟用頁面影像繼承，並包含其他錯誤修正。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年8月31日 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 此修補程式版本此為修補程式版本，用於修正先前引入的不相容反向變更。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年8月2日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此修補程式版本新增了對頁面網站地圖的支援，並包含各種協助工具改善。 | 6.4.8.4+ * | 6.5.6.0+ * | 持續 | 8, 11 | 2021年7月29日 |
