@@ -3,9 +3,9 @@ title: 使用核心元件
 description: 「若要在您自己的專案中開始使用核心元件，請依照下列三個步驟執行：下載並安裝、建立Proxy元件、載入核心樣式，以及允許範本上的元件。」
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '969'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!TIP]
 >
 >如需從頭開始使用專案設定、核心元件、可編輯範本、用戶端程式庫和元件開發的更多指示，下列多部分教學課程可能會受到關注：\
->[AEM Sites - WKND 教學課程快速入門](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[AEM Sites - WKND 教學課程快速入門](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 在生產模式中開始時（沒有範例內容），核心元件不是快速入門的一部分。 因此，您的第一步是從GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下載最新發行的內容套件，並安裝在您的AEM環境中。[
 
-有幾種方法可以自動執行此操作，但在實例上快速安裝內容包的最簡單方法是使用包管理器；請參閱[安裝軟體包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您也有發佈執行個體在執行，就需要將該套件復寫至發佈者；請參閱[複製包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
+有幾種方法可以自動執行此操作，但在實例上快速安裝內容包的最簡單方法是使用包管理器；請參閱[安裝軟體包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您也有發佈執行個體在執行，就需要將該套件復寫至發佈者；請參閱[複製包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
 ## 建立代理元件 {#create-proxy-components}
 
@@ -105,7 +105,7 @@ ExampleAdd下列屬性：\
 
 ## 允許元件 {#allow-the-components}
 
-在[範本編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中執行下列步驟。
+在[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)中執行下列步驟。
 
 1. 在模板編輯器中，選擇佈局容器並開啟其策略。
 1. 在「允許的元件」清單中，選擇以前建立的代理元件，該代理元件應顯示在分配給它們的元件組下。 完成後，套用變更。

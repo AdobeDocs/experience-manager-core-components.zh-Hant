@@ -4,10 +4,10 @@ description: AEM專案原型的詳細使用指示
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
 workflow-type: tm+mt
-source-wordcount: '2209'
-ht-degree: 1%
+source-wordcount: '2193'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ AEM專案原型會建立基於最佳實務的簡化Adobe Experience Manager專�
 
 專案原型可讓您輕鬆開始在AEM上開發。 您可以透過多種方式執行您的第一步。
 
-* WKND教學課程 — 如需AEM開發的絕佳簡介，包括如何運用原型，請參閱[AEM Sites快速入門 — WKND教學課程](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)，以取得實用範例，逐步引導您使用原型來實作簡單的專案。
+* WKND教學課程 — 如需AEM開發的絕佳簡介，包括如何運用原型，請參閱[AEM Sites快速入門 — WKND教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)，以取得實用範例，逐步引導您使用原型來實作簡單的專案。
 * WKND事件教學課程 — 如果您對AEM上的單頁應用程式(SPA)開發特別感興趣，請務必查看專屬的[ WKND事件教學課程](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)。
 * 自行下載並開始！  — 您可以輕鬆下載GitHub上可用的目前專案原型，並依照[下方的簡單步驟，建立您的第一個專案。](#how-to-use-the-archetype)
 
@@ -75,7 +75,7 @@ mvn -B archetype:generate \
 ```
 
 * 將`XX`設為最新AEM專案原型的[版本號碼](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)。
-* 為[AEM設定`aemVersion=cloud`作為Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
+* 為[AEM設定`aemVersion=cloud`作為Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);\
    為[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署設定`aemVersion=6.5.0`。
 僅會針對非雲端aem版本新增核心元件相依性，因為AEM as a Cloud的OOTB提供核心元件
 服務。
@@ -102,10 +102,10 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本Maven群組ID(例如`"com.mysite"`)。 |
 | `package` | *`${groupId}`* | Java源包(例如`"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 專案版本(例如`1.0-SNAPSHOT`)。 |
-| `aemVersion` | `cloud` | Target AEM版本(對於[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，可以是`cloud`;或`6.5.0`，或`6.4.4`（適用於[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署）。 |
-| `sdkVersion` | `latest` | 當`aemVersion=cloud`可指定[ SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)版本時(例如`2020.02.2265.20200217T222518Z-200130`)。 |
+| `aemVersion` | `cloud` | Target AEM版本(對於[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)，可以是`cloud`;或`6.5.0`，或`6.4.4`（適用於[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署）。 |
+| `sdkVersion` | `latest` | 當`aemVersion=cloud`可指定[ SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)版本時(例如`2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 包含雲端或AMS/內部部署的Dispatcher設定，視`aemVersion`值而定（可以是`y`或`n`）。 |
-| `frontendModule` | `general` | 包括Webpack前端構建模組，用於生成常規站點的客戶端庫(可以是`general`或`none`;可為`angular`或`react`，適用於實作[SPA編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)的單頁應用程式。 |
+| `frontendModule` | `general` | 包括Webpack前端構建模組，用於生成常規站點的客戶端庫(可以是`general`或`none`;可為`angular`或`react`，適用於實作[SPA編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)的單頁應用程式。 |
 | `language` | `en` | 語言代碼(ISO 639-1)，以從(例如`en`, `deu`)。 |
 | `country` | `us` | 國家/地區代碼(ISO 3166-1)，以從(例如`US`)。 |
 | `singleCountry` | `y` | 包含語言主版內容結構（可以是`y`或`n`）。 |
@@ -191,7 +191,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### 模組結構 {#module-structure}
 
-父POM的`<modules>`區段定義專案將建置的模組。 預設情況下，項目生成[以前定義的標準模組](#what-you-get):核心、ui.apps、ui.content、ui.tests和it.launcher。 隨著專案的發展，您隨時都可以新增更多模組。
+父POM的`<modules>`區段定義專案將建置的模組。 預設情況下，項目生成[以前定義的標準模組](#what-you-get):核心、ui.apps、ui.content、ui.tests和it.launcher。 隨著專案的演變，您一律可以新增更多模組。
 
 ### 相依關係 {#dependencies}
 
@@ -199,7 +199,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-其中一個關鍵依賴項是[AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies)。 這會包含所有AEM API，其中只包含AEM版本的單一相依性項目。
+其中一個關鍵相依性是[AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)。 這會包含所有AEM API，其中只包含AEM版本的單一相依性項目。
 
 >[!NOTE]
 >
@@ -209,7 +209,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 AEM專案原型當然會運用核心元件。
 
-核心元件會以預設執行模式自動安裝於AEM中，並供範例WKND網站使用。 在[生產執行模式](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html)(`nosamplecontent`)中，核心元件不可用。
+核心元件會以預設執行模式自動安裝於AEM中，並供範例WKND網站使用。 在[生產執行模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes)(`nosamplecontent`)中，核心元件不可用。
 
 因此，若要在所有部署中運用核心元件，最好將其納入Maven專案。
 
@@ -233,7 +233,7 @@ AEM專案原型當然會運用核心元件。
    * `mvn clean verify -PintegrationTests`
 * 用戶端Hobbes.js測試：這些是以JavaScript為基礎的瀏覽器端測試，可驗證瀏覽器端行為。 要測試：
    1. 在瀏覽器中載入AEM，如同您要編寫頁面一樣。
-   1. 在[開發人員模式](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)中開啟頁面
+   1. 在[開發人員模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)中開啟頁面
    1. 開啟左側面板，然後切換到&#x200B;**Tests**&#x200B;頁簽。
    1. 找到生成的&#x200B;**MyName測試**&#x200B;並運行它們。
 
@@ -242,6 +242,6 @@ AEM專案原型當然會運用核心元件。
 因此，您已建立並安裝AEM專案原型。 現在呢？ 原型很小，但包含許多根據建議最佳實務設定的強大AEM功能範例。 使用這些說明如何在專案中運用這些功能。 針對您可能需要的任何專案：
 
 * [透過擴充現有核心元件來自訂元件](/help/developing/customizing.md)
-* [新增其他範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [調整本地化結構](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
+* [新增其他範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [調整本地化結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
 * [了解前端組建模組](uifrontend.md)

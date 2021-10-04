@@ -3,16 +3,16 @@ title: 包括客戶端庫
 description: 根據您的使用案例，有許多不同的方法可包含用戶端程式庫。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '392'
+ht-degree: 2%
 
 ---
 
 # 包括客戶端庫 {#including-client-libraries}
 
-根據您的使用案例，有許多不同的方法可包含[用戶端程式庫](/help/developing/archetype/uifrontend.md#clientlibs)。 本檔案提供各自的範例和範例[ HTL片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html)。
+根據您的使用案例，有許多不同的方法可包含[用戶端程式庫](/help/developing/archetype/uifrontend.md#clientlibs)。 本檔案提供各自的範例和範例[ HTL片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant)。
 
 ## 建議的預設用法 {#recommended-default-usage}
 

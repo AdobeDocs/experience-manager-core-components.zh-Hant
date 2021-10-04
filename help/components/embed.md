@@ -3,9 +3,9 @@ title: 內嵌元件
 description: 「內嵌元件」可讓您將外部內容內嵌至AEM內容頁面。
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1337'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 但是，這些規則更複雜，因為「內嵌元件」遵循AEM全域HTML AntiSamy衛生框架篩選規則集，可在`/libs/cq/xssprotection/config.xml`找到。 如有需要，開發人員可重疊以進行專案專屬設定。
 
-如需內部部署安裝](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)以及[AEM as a Cloud Service安裝，請參閱[AEM開發人員檔案，了解其他安全資訊。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/home.html)
+如需內部部署安裝](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)以及[AEM as a Cloud Service安裝，請參閱[AEM開發人員檔案，了解其他安全資訊。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >雖然AntiSamy衛生框架規則可以通過覆蓋`/libs/cq/xssprotection/config.xml`來配置，但這些更改會影響所有HTL和JSP行為，而不僅影響內嵌核心元件。

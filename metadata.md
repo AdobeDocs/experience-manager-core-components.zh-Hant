@@ -5,10 +5,10 @@ type: Documentation
 description: Adobe Experience Manager核心元件檔案
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.zh-Hant
 index: y
-source-git-commit: 3897e37ed1e24c4a045b7f6cc716b5cabdd7cf9f
+source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,4 +48,4 @@ ToCs
 * `description`
 * `index: n` （僅限舊版元件）
 
-有關元資料的其他資訊，請參見[內部創作指南。](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+有關元資料的其他資訊，請參見[內部創作指南。](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)

@@ -3,16 +3,16 @@ title: 頁面元件
 description: 「頁面元件」是可擴充的頁面元件，專門用於與範本編輯器搭配使用，並可讓頁首/頁尾和結構元件與範本編輯器組合。
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 頁面元件{#page-component}
 
-頁面元件是可擴充的頁面元件，設計用於與[範本編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)搭配使用，並可讓頁首/頁尾和結構元件與範本編輯器組裝。
+頁面元件是可擴充的頁面元件，設計用於與[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)搭配使用，並可讓頁首/頁尾和結構元件與範本編輯器組裝。
 
 ## 使用狀況 {#usage}
 
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 ## 編輯對話方塊 {#edit-dialog}
 
-由於元件代表整個頁面，因此通常會在編輯對話方塊中的設定，會顯示在[頁面屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中。
+由於元件代表整個頁面，因此通常會在編輯對話方塊中的設定，會顯示在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中。
 
 ## 設計對話方塊 {#design-dialog}
 

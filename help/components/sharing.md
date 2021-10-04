@@ -3,10 +3,10 @@ title: 社交分享元件
 description: 核心元件社交分享元件是Facebook和Pinterest共用介面工具集。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 6%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 社交分享元件會將Facebook和Pinterest分享連結新增至頁面。 它通常包含在頁首或頁尾中。
 
-與其他元件不同，社交分享元件的設定是由範本作者透過[初始頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)和內容作者透過[頁面屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
+與其他元件不同，社交分享元件的設定是由範本作者透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)和內容作者透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
 
 ## 版本與相容性 {#version-and-compatibility}
 
@@ -51,8 +51,8 @@ ht-degree: 6%
    * 若已指定ID，則作者應負責確認其唯一。
    * 變更ID可能會影響CSS、JS和資料層追蹤。
 
-因為共用需要特殊的頁面標題，所以必須在頁面層級啟用任何共用。 因此，對於內容作者，可透過共用標籤[頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)提供共用元件的其他編輯選項。
+因為共用需要特殊的頁面標題，所以必須在頁面層級啟用任何共用。 因此，對於內容作者，可透過共用標籤[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)提供共用元件的其他編輯選項。
 
 ## 設計對話方塊 {#design-dialog}
 
-因為共用需要特殊的頁面標題，所以必須在頁面層級啟用任何共用。 因此，範本作者可透過[初始頁面屬性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)取得共用元件的設計選項。
+因為共用需要特殊的頁面標題，所以必須在頁面層級啟用任何共用。 因此，範本作者可透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)取得共用元件的設計選項。

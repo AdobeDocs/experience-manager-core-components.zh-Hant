@@ -3,9 +3,9 @@ title: Sling內容感知組態與核心元件
 description: 核心元件針對特定功能運用Sling內容感知設定
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 您的網站可能需要針對不同網站區域進行不同設定，例如某些參數可能會共用，而巢狀內容和全域後援值需要繼承。 AEM採用Sling內容感知設定，因此可能。
 
-有關AEM中配置的詳細資訊，請[參閱配置和配置瀏覽器文檔。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
+有關AEM中配置的詳細資訊，請[參閱配置和配置瀏覽器文檔。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)
 
 ## 用於核心元件 {#core-components}
 

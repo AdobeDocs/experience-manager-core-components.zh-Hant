@@ -3,10 +3,10 @@ title: 表單容器元件
 description: 核心元件表單容器元件可建立簡單的提交表單。
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 表單容器元件支援簡單的WCM表單，並使用巢狀結構允許其他表單元件，以建立簡單的資訊提交表單和功能。
 
-透過使用[設定對話方塊](#configure-dialog)，內容編輯器可定義表單提交所觸發的動作、應處理提交的URl，以及是否應觸發工作流程。 範本作者可使用[設計對話方塊](#design-dialog)來定義允許的元件及其對應，類似於範本編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中[標準版面容器的設計對話方塊。
+透過使用[設定對話方塊](#configure-dialog)，內容編輯器可定義表單提交所觸發的動作、應處理提交的URl，以及是否應觸發工作流程。 範本作者可使用[設計對話方塊](#design-dialog)來定義允許的元件及其對應，類似於範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)中[標準版面容器的設計對話方塊。
 
 >[!NOTE]
 >
->核心元件表單容器元件僅支援使用核心元件表單元件（按鈕、文字、隱藏等）。 不支援在核心元件表單容器內使用[foundation元件](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表單元件（反之亦然）。
+>核心元件表單容器元件僅支援使用核心元件表單元件（按鈕、文字、隱藏等）。 不支援在核心元件表單容器內使用[foundation元件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表單元件（反之亦然）。
 
 ## 版本與相容性 {#version-and-compatibility}
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 ## 設計對話方塊 {#design-dialog}
 
-設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似於範本編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中[標準版面容器的設計對話方塊。
+設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似於範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)中[標準版面容器的設計對話方塊。
 
 ### 樣式標籤 {#styles-tab}
 

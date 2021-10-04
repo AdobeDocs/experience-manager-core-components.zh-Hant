@@ -3,10 +3,10 @@ title: 容器元件
 description: 核心元件容器元件可為頁面上的多個其他元件建立容器。
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 * **配置**  — 此選項定義容器元件的行為或配置行為。
    * **簡單**  — 將容器定義為元件的簡單集合
-   * **回應式格線**  — 將容器定義為 [AEM回應式版面](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **回應式格線**  — 將容器定義為 [AEM回應式版面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **背景顏色**  — 可定義為自由格式RGB值，或使用檢色器，視 [配置而定](#background-tab)
 * **背景影像**  — 根據設定定義容器的  [背景顏色](#background-tab)
 * **ID**  — 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
@@ -67,11 +67,11 @@ ht-degree: 1%
 
 **允許的元件**&#x200B;標籤用於定義哪些元件可由內容作者新增為容器元件的項目。
 
-[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 預設元件頁簽 {#default-components-tab}
 
-「預設元件」索引標籤用於定義將特定資產類型拖放到容器上時，要將哪個元件新增至元件，類似於[在頁面範本](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)上定義預設元件的方式。
+「預設元件」索引標籤用於定義將特定資產類型拖放到容器上時，要將哪個元件新增至元件，類似於[在頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)上定義預設元件的方式。
 
 ### 回應式設定標籤 {#responsive-settings-tab}
 

@@ -3,9 +3,9 @@ title: 折疊式面板元件
 description: 核心元件折疊式功能表元件可建立以頁面上折疊式功能表排列的面板集合。
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 要執行此操作：
 
-1. 使用頁面編輯器中的&#x200B;**[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視包含元件的頁面。
+1. 使用頁面編輯器中的&#x200B;**[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視包含元件的頁面。
 1. Inspect頁面內容並識別面板ID。
    * 例如`id="accordion-86196c94d3-item-ca319dbb0b"`
 1. 此ID會成為您可以使用雜湊(`#`)附加至URL的錨點。
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 **允許的元件**&#x200B;標籤用來定義哪些元件可由內容作者新增為折疊式功能表元件中的面板的項目。
 
-[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### 樣式標籤 {#styles-tab}
 

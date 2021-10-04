@@ -3,9 +3,9 @@ title: 制表符元件
 description: 「頁簽元件」允許建立多個頁簽，以在頁面上排列內容。
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >支援巢狀定位元件（定位點內的定位點）。
 >
->使用[內容樹](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)可以定位/選擇簡單（非嵌套）頁簽元件，但嵌套頁簽不能。
+>使用[內容樹](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)可以定位/選擇簡單（非嵌套）頁簽元件，但嵌套頁簽不能。
 
 ## 面板的深層連結 {#deep-linking}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 要執行此操作：
 
-1. 使用頁面編輯器中的&#x200B;**[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視包含元件的頁面。
+1. 使用頁面編輯器中的&#x200B;**[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視包含元件的頁面。
 1. Inspect頁面內容並識別面板ID。
    * 例如`id="accordion-86196c94d3-item-ca319dbb0b"`
 1. 此ID會成為您可以使用雜湊(`#`)附加至URL的錨點。
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果頁面的檢視區縮小，使編輯對話方塊變成全螢幕，則會隱藏&#x200B;**Add**&#x200B;按鈕。 從元件瀏覽器拖曳並拖曳至頁面編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)中的標籤元件，仍可將元件新增至標籤元件。[
+>如果頁面的檢視區縮小，使編輯對話方塊變成全螢幕，則會隱藏&#x200B;**Add**&#x200B;按鈕。 從元件瀏覽器拖曳並拖曳至頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)中的標籤元件，仍可將元件新增至標籤元件。[
 
 ### 屬性標籤 {#properties-tab}
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在&#x200B;**Edit**&#x200B;模式下，作者無法選取索引標籤。 使用&#x200B;**[預覽](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[以已發佈形式查看](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，與標籤互動，如同已發佈內容的閱讀者一樣。
+>在&#x200B;**Edit**&#x200B;模式下，作者無法選取索引標籤。 使用&#x200B;**[預覽](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[以已發佈形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，與標籤互動，如同已發佈內容的閱讀者一樣。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 **允許的元件**&#x200B;標籤用於定義哪些元件可以作為項目由內容作者添加到頁簽元件中。
 
-[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 樣式標籤 {#styles-tab}
 

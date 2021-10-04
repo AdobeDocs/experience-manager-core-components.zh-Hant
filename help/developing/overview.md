@@ -3,10 +3,10 @@ title: 開發核心元件
 description: 核心元件提供強大且可擴充的基本元件，提供豐富的功能、持續傳遞、元件版本設定、現代化實作、精益標籤，以及內容的JSON匯出。
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 14%
+source-wordcount: '1583'
+ht-degree: 12%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 14%
 | **功能** | **核心元件** | **基礎元件** |
 |-----|---|---|
 | 邏輯實作 | 具有[Sling模型](https://sling.apache.org/documentation/bundles/models.html)注釋的Java POJO | JSP代碼 |
-| 標籤定義 | [HTML範本語言](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html) (HTL)語法 | JSP代碼 |
+| 標籤定義 | [HTML範本語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) (HTL)語法 | JSP代碼 |
 | XSS淨化 | 由HTL自動化 | 多為手動 |
 | CSS類命名 | 基於[區塊元素修飾詞](https://getbem.com/)(BEM)標籤法的標準化命名慣例（自2.0.0版起） | 自訂配置 |
 | 對話框定義 | [珊瑚3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 +傳統UI |
@@ -103,7 +103,7 @@ ht-degree: 14%
 | 傳送 | [透過公開GitHub](https://github.com/adobe/aem-core-wcm-components) | 通過快速入門 |
 | 授權 | [Apache授權](https://www.apache.org/licenses/LICENSE-2.0) | Adobe專有 |
 | 貢獻 | 透過提取請求 | 不可能 |
-| 協助工具 | 完全符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 僅部分符合[WCAG 2.0 AA標準](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| 協助工具 | 完全符合[WCAG 2.0 AA標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 僅部分符合[WCAG 2.0 AA標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 元件清單 {#component-list}
 
@@ -149,6 +149,6 @@ ht-degree: 14%
 
 版本控制元件的其中一項優點，是可將移轉至新AEM版本與移轉至新元件版本分開。 此外，如果有新元件版本可用，則可將每個元件個別移轉至新版本。
 
-移轉至新AEM版本不會影響核心元件的運作方式，但條件是其版本也支援要移轉至的新AEM版本。 只要核心元件的自訂內容未使用[已遭取代或已移除的API](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)，則兩者皆不受影響。
+移轉至新AEM版本不會影響核心元件的運作方式，但條件是其版本也支援要移轉至的新AEM版本。 只要核心元件的自訂內容未使用[已遭取代或已移除的API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)，則兩者皆不受影響。
 
 移轉至新版本的核心元件也不會影響元件的運作方式，但頁面作者可能會受到新功能的影響，這可能需要透過範本編輯器進行一些設定，以防不需要預設行為。 不過，您可能需要調整自訂項目，如需詳細資訊，請參閱[自訂核心元件](customizing.md#upgrade-compatibility-of-customizations)頁面。

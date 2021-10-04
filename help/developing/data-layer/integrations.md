@@ -1,12 +1,12 @@
 ---
 title: 整合與Adobe用戶端資料層
 description: 了解Adobe用戶端資料層如何與您的自訂元件整合，以及與Adobe Analytics和Adobe Target的整合如何協助您深入分析您的網站
-feature: 核心元件，Adobe用戶端資料層
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,10 @@ Adobe用戶端資料層可與您的自訂元件整合，而Adobe Analytics和Ado
 
 了解如何搭配使用Adobe用戶端資料層的內建功能與AEM核心元件，以收集Adobe Experience Manager Sites中某頁面的相關資料。 Experience Platform Launch和Adobe Analytics擴充功能將用來建立規則，以將頁面資料傳送至Adobe Analytics。
 
-[請在這裡檢視教學課程。](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[請在這裡檢視教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
 ### 使用Adobe Analytics追蹤已點按的元件 {#track-clicked-components}
 
 使用事件導向的Adobe用戶端資料層搭配AEM核心元件，追蹤Adobe Experience Manager網站上特定元件的點按次數。 了解如何使用Experience Platform Launch中的規則來監聽點按事件、依元件篩選資料，以及透過追蹤連結信標將資料傳送至Adobe Analytics。
 
-[請在這裡檢視教學課程。](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[請在這裡檢視教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)

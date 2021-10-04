@@ -3,16 +3,16 @@ title: 內容片段元件
 description: 核心元件內容片段元件可顯示內容片段。
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 5%
+source-wordcount: '667'
+ht-degree: 2%
 
 ---
 
 # 內容片段元件{#content-fragment-component}
 
-核心元件內容片段元件允許顯示[內容片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+核心元件內容片段元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 ## 使用狀況 {#usage}
 
-核心元件內容片段元件允許在頁面上包含[內容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+核心元件內容片段元件允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 * 可在[配置對話框](#configure-dialog)中選擇片段及其屬性。
 * 可在[設計對話框](#design-dialog)中定義用於處理某些影像和網格的資源類型。
-* 編輯選項將在[內容片段編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中開啟所選片段。
+* 編輯選項將在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中開啟所選片段。
 
 ## 版本與相容性 {#version-and-compatibility}
 

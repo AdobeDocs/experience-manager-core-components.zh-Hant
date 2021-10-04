@@ -3,10 +3,10 @@ title: 文字元件
 description: 文本元件是富文本編輯和合成元件，具有就地編輯功能。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 4%
+source-wordcount: '2205'
+ht-degree: 2%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 4%
 
 ## 文字元件和RTF編輯器 {#the-text-component-and-the-rich-text-editor}
 
-核心元件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供多種功能，可編輯其文字內容。 RTE的設定非常有彈性，並提供許多選項。 有關如何設定RTE的進一步詳細資訊，請參閱[設定RTF編輯器](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[設定RTF編輯器外掛程式](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
+核心元件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供多種功能，可編輯其文字內容。 RTE的設定非常有彈性，並提供許多選項。 有關如何設定RTE的進一步詳細資訊，請參閱[設定RTF編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
 
 本文的其餘部分示範核心元件文字元件的標準設定及現成可用的RTE設定。
 
 >[!NOTE]
 >
->只有由RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的[ UI配置啟用的選項可由「文本元件」使用。
+>只有由RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的[ UI配置啟用的選項可由「文本元件」使用。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -258,7 +258,7 @@ ht-degree: 4%
 
 用於檢查文本內容的拼寫。 可能拼錯的字，加上破折的紅線。
 
-有關拼字檢查和自定義拼字檢查字典的詳細資訊，請參見文檔[配置RTF編輯器插件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
+有關拼字檢查和自定義拼字檢查字典的詳細資訊，請參見文檔[配置RTF編輯器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 ### 特殊字元 {#special-characters}
 

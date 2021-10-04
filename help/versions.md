@@ -3,16 +3,16 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2273'
 ht-degree: 20%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的目前版本為2.17.8，且與[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件的目前版本為2.17.10，且與[AEM as aCloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html)安裝相容。
 
 ## 版本記錄和相容性 {#release-history-and-compatibility}
 
@@ -155,4 +155,4 @@ ht-degree: 20%
 
 Adobe的開發重點已轉向核心元件，而新功能將繼續增加。
 
-[幾乎所有基礎元件在AEM 6.5中都已遭取代](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) ，且未來基礎元件僅會考慮重大錯誤修正。
+[幾乎所有基礎元件在AEM 6.5中都已遭取代](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) ，且未來基礎元件僅會考慮重大錯誤修正。

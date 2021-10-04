@@ -3,9 +3,9 @@ title: 使用核心元件的成功路徑
 description: 使用核心元件實作專案時如何成功
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ AEM和核心元件的功能可能非常強大，但也非常微妙，設計人�
 
 ### 內容片段 {#content-fragments}
 
-[內](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) 容片段可讓您建立管道中性內容，以及（可能是管道特定的）變化。然後，您可以在編寫內容頁面時使用這些片段及其變體。
+[內](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) 容片段可讓您建立管道中性內容，以及（可能是管道特定的）變化。然後，您可以在編寫內容頁面時使用這些片段及其變體。
 
 結構化內容片段與更新的JSON匯出工具一起，也可用來透過內容服務將AEM內容傳送至AEM頁面以外的管道。
 
 ### 體驗片段範本 {#experience-fragment-templates}
 
-如果作者想要重複使用頁面的部分（體驗的片段）。 若沒有[體驗片段，](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html)作者將需要複製並貼上該片段。 建立和維護這些複製/貼上體驗非常耗時，且容易發生使用者錯誤。 體驗片段不需要複製/貼上。
+如果作者想要重複使用頁面的部分（體驗的片段）。 若沒有[體驗片段，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html)作者將需要複製並貼上該片段。 建立和維護這些複製/貼上體驗非常耗時，且容易發生使用者錯誤。 體驗片段不需要複製/貼上。
 
 ### 內嵌元件 {#embed-component}
 

@@ -3,10 +3,10 @@ title: 核心元件的AMP支援
 description: 核心元件支援AMP - Accelerated Mobile Pages
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 1%
+source-wordcount: '554'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Accelerated Mobile Pages或AMP是開放原始碼架構，原本由Google設計�
 
 ### 啟用頁面的AMP {#enabling-amp}
 
-若要為頁面啟用AMP，必須在[頁面政策中選取&#x200B;**AMP模式**。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
+若要為頁面啟用AMP，必須在[頁面政策中選取&#x200B;**AMP模式**。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![AMP頁策略選項](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Accelerated Mobile Pages或AMP是開放原始碼架構，原本由Google設計�
 * **配對AMP**  — 頁面會以AMP及HTML傳送。
 * **僅限AMP**  — 頁面僅以AMP傳送。
 
-頁面的AMP設定也可以在個別頁面的[頁面屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中覆寫。
+頁面的AMP設定也可以在個別頁面的[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中覆寫。
 
 ![AMP頁面屬性](/help/assets/amp-page-properties.png)
 

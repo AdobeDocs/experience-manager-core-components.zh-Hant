@@ -1,12 +1,12 @@
 ---
 title: AEM專案原型前端組建
 description: AEM型應用程式的專案範本
-feature: 核心元件、AEM專案原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ ui.frontend模組建置程式會利用[aem-clientlib-generator](https://www.npmj
 
 ### 在頁面上包含用戶端程式庫 {#clientlib-inclusion}
 
-`clientlib-site` 和類 `clientlib-dependencies` 別是透過頁面原則設定在 [頁](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 面上納入為預設範本的一部分。要查看策略，請編輯&#x200B;**內容頁面模板>頁面資訊>頁面策略**。
+`clientlib-site` 和類 `clientlib-dependencies` 別是透過頁面原則設定在 [頁](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 面上納入為預設範本的一部分。要查看策略，請編輯&#x200B;**內容頁面模板>頁面資訊>頁面策略**。
 
 網站頁面上最終包含用戶端程式庫如下：
 

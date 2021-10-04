@@ -3,9 +3,9 @@ title: 轉盤元件
 description: 轉盤元件可讓內容作者以旋轉轉盤呈現內容。
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果頁面的檢視區縮小，使編輯對話方塊變成全螢幕，則會隱藏&#x200B;**Add**&#x200B;按鈕。 從元件瀏覽器拖曳並拖曳至頁面編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)中的轉盤元件，仍可將元件新增至轉盤元件。[
+>如果頁面的檢視區縮小，使編輯對話方塊變成全螢幕，則會隱藏&#x200B;**Add**&#x200B;按鈕。 從元件瀏覽器拖曳並拖曳至頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)中的轉盤元件，仍可將元件新增至轉盤元件。[
 
 ### 屬性標籤 {#properties-tab}
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在&#x200B;**Edit**&#x200B;模式下，不會啟用幻燈片預設控制項。 使用&#x200B;[**預覽**&#x200B;模式](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)或&#x200B;**[檢視為已發佈](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，在已發佈內容讀者身分時與輪播互動。
+>在&#x200B;**Edit**&#x200B;模式下，不會啟用幻燈片預設控制項。 使用&#x200B;[**預覽**&#x200B;模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)或&#x200B;**[檢視為已發佈](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，在已發佈內容讀者身分時與輪播互動。
 >
->在&#x200B;**Edit**&#x200B;模式下，不會啟用自動提前功能。 使用&#x200B;**[以已發佈的形式查看](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，將自動提前功能視為已發佈內容的讀者。
+>在&#x200B;**Edit**&#x200B;模式下，不會啟用自動提前功能。 使用&#x200B;**[以已發佈的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，將自動提前功能視為已發佈內容的讀者。
 
 ### 協助工具標籤 {#accessibility-tab}
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **允許的元件**&#x200B;標籤用於定義哪些元件可由內容作者以投影片形式新增至轉盤元件。
 
-[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 樣式標籤 {#styles-tab}
 

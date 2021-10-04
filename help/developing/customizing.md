@@ -3,10 +3,10 @@ title: 自訂核心元件
 description: 核心元件實作多種模式，可輕鬆自訂，從簡單的樣式到進階功能可重複使用。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 2%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
@@ -122,7 +122,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每個核心元件都利用AEM [樣式系統功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)，該功能允許範本作者定義可由頁面作者套用至元件的其他CSS類別名稱。 這可為每個範本定義允許的元件樣式清單，以及其中一個預設應套用至該類型的所有元件。
+此外，每個核心元件都利用AEM [樣式系統功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html)，該功能允許範本作者定義可由頁面作者套用至元件的其他CSS類別名稱。 這可為每個範本定義允許的元件樣式清單，以及其中一個預設應套用至該類型的所有元件。
 
 ## 自定義項的升級相容性 {#upgrade-compatibility-of-customizations}
 
@@ -132,7 +132,7 @@ public class PageHeadline implements Title {
 * 將核心元件升級至新的次要版本
 * 將核心元件升級至主要版本
 
-一般而言，將AEM升級至新版本不會影響核心元件或完成的自訂，前提是元件的版本也支援要移轉至的新AEM版本，且自訂不使用已[遭取代或移除的API](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+一般而言，將AEM升級至新版本不會影響核心元件或完成的自訂，前提是元件的版本也支援要移轉至的新AEM版本，且自訂不使用已[遭取代或移除的API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
 升級核心元件而不切換至較新的主要版本，只要使用本頁所述的自訂模式，就不應影響自訂。
 
@@ -152,7 +152,7 @@ public class PageHeadline implements Title {
 
 1. **觀看過時和移除的功能。**
 
-   將每個新AEM版本升級至後，請留意[已過時和已移除的功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)頁面，以確保所有使用的API仍為熱門版。
+   將每個新AEM版本升級至後，請留意[已過時和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)頁面，以確保所有使用的API仍為熱門版。
 
 另請參閱[核心元件支援](overview.md#core-component-support)一節。
 

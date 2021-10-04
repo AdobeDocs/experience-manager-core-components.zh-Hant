@@ -3,10 +3,10 @@ title: 元件指引
 description: 核心元件遵循與基礎元件截然不同的現代實作模式。
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ### 關注分離 {#separation-of-concerns}
 
-將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是個好做法。 有數種方式可達成此目的，但建議使用[Sling Models](https://sling.apache.org/documentation/bundles/models.html)來執行邏輯，並使用[HTML範本語言](https://docs.adobe.com/content/help/zh-Hant/experience-manager-htl/using/overview.html)(HTL)來執行標籤，例如核心元件。
+將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是個好做法。 有數種方式可達成此目的，但建議使用[Sling Models](https://sling.apache.org/documentation/bundles/models.html)來執行邏輯，並使用[HTML範本語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant)(HTL)來執行標籤，例如核心元件。
 
 Sling模型是一組Java註解，可輕鬆從POJO存取所需的變數，因此可提供簡單、強大且有效的方式，為元件實作Java邏輯。
 
@@ -42,7 +42,7 @@ HTL的設計目的，是為了提供專為AEM量身打造的安全且簡單的�
 
 ### 可預先設定的功能 {#pre-configurable-capabilities}
 
-除了頁面作者使用的編輯對話方塊外，元件也可以有範本作者預先設定的設計對話方塊。 [範本編輯器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)允許設定所有這些預配置，稱為「Policys」。
+除了頁面作者使用的編輯對話方塊外，元件也可以有範本作者預先設定的設計對話方塊。 [範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)允許設定所有這些預配置，稱為「Policys」。
 
 為了盡可能使元件可重複使用，應為元件提供有意義的選項以進行預先配置。 這可讓您啟用或停用元件功能，以符合不同網站的特定需求。
 
@@ -85,11 +85,11 @@ HTL的設計目的，是為了提供專為AEM量身打造的安全且簡單的�
 
 ## 把它們放在一起 {#putting-it-all-together}
 
-以標題核心元件為例，概述整個資源類型捆綁結構。 它說明了特定站點的代理元件如何解析元件版本設定，以避免內容資源包含任何版本號。 接著會顯示元件的`title.html` [ HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)檔案如何用於模型介面，而實作會透過[Sling Model](https://sling.apache.org/documentation/bundles/models.html)註解系結至元件的特定版本。
+以標題核心元件為例，概述整個資源類型捆綁結構。 它說明了特定站點的代理元件如何解析元件版本設定，以避免內容資源包含任何版本號。 接著會顯示元件的`title.html` [ HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)檔案如何用於模型介面，而實作會透過[Sling Model](https://sling.apache.org/documentation/bundles/models.html)註解系結至元件的特定版本。
 
 ![資源綁定概述](/help/assets/chlimage_1-32.png)
 
-以下是另一個概覽，不顯示實作POJO的詳細資訊，但顯示關聯的[範本和原則](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html)如何被參考。
+以下是另一個概覽，不顯示實作POJO的詳細資訊，但顯示關聯的[範本和原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html)如何被參考。
 
 `cq:allowedTemplates`屬性會告訴哪些範本可用於網站，而`cq:template`則會告訴每個頁面的相關範本是什麼。 每個範本皆由下列三個部分組成：
 

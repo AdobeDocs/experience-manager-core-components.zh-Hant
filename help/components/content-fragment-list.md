@@ -3,20 +3,20 @@ title: 內容片段清單元件
 description: 核心元件內容片段清單元件可顯示內容片段清單。
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 5%
+source-wordcount: '758'
+ht-degree: 2%
 
 ---
 
 # 內容片段清單元件{#content-fragment-list-component}
 
-核心元件內容片段清單元件允許顯示[內容片段](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。
+核心元件內容片段清單元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。
 
 ## 使用狀況 {#usage}
 
-核心元件內容片段清單元件允許在基於內容片段模型的頁面上包含[內容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。 這對於建立[無頭內容](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用，這些內容可以被其他應用程式輕鬆使用。
+核心元件內容片段清單元件允許在基於內容片段模型的頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。 這對於建立[無頭內容](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用，這些內容可以被其他應用程式輕鬆使用。
 
 * 可在[配置對話框](#configure-dialog)中選擇清單及其屬性。
 * 樣式可套用至[design對話方塊](#design-dialog)中的元件。
