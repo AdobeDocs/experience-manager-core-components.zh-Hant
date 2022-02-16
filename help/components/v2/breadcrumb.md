@@ -1,16 +1,16 @@
 ---
-title: Breadcrumb元件
+title: Breadcrumb元件(v2)
 description: 核心元件Breadcrumb元件是一個導航元件，它根據頁面在內容層次結構中的位置建立連結的Breadcrumb。
 role: Architect, Developer, Admin, User
-exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 1%
+source-wordcount: '680'
+ht-degree: 0%
 
 ---
 
-# Breadcrumb元件{#breadcrumb-component}
+
+# Breadcrumb元件(v2) {#breadcrumb-component}
 
 核心元件Breadcrumb元件是一個導航元件，它根據頁面在內容層次結構中的位置建立連結的Breadcrumb。
 
@@ -22,17 +22,13 @@ Breadcrumb元件顯示當前頁面在站點層次結構中的位置，使頁面�
 
 ## 版本和相容性 {#version-and-compatibility}
 
-Breadcrumb元件的當前版本為v3，該版本於2022年2月隨核心元件2.18.0版一同推出，本文檔對此進行了說明。
+本文檔介紹了Breadcrumb元件的v2，該元件於2018年1月隨核心元件2.0.0版推出。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- | --- |--- |---|
-| v3 | - | 相容 | 相容 |
-| [v2](v2/breadcrumb.md) | 相容 | 相容 | 相容 |
-| [v1](v1/breadcrumb-v1.md) | 相容 | 相容 | - |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹Breadcrumb元件的v2。
+>
+>有關Breadcrumb元件當前版本的詳細資訊，請參見 [Breadcrumb元件](/help/components/breadcrumb.md) 的子菜單。
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -52,8 +48,6 @@ Breadcrumb元件的當前版本為v3，該版本於2022年2月隨核心元件2.1
 
 編輯對話框允許內容作者隱藏麵包屑中的隱藏頁面和活動頁面，以及該頁面應顯示的層次結構中的深度。
 
-## 屬性頁籤 {#properties-tab}
-
 ![Breadcrumb元件編輯對話框](/help/assets/breadcrumb-edit.png)
 
 * **導航起始級別**  — 在層次結構中，breadcrumb元件應開始向下走到當前頁。 例如：
@@ -64,21 +58,11 @@ Breadcrumb元件的當前版本為v3，該版本於2022年2月隨核心元件2.1
 
 * **顯示隱藏的導航項**  — 在breadcrumb中顯示標籤為隱藏的頁面（預設情況下，不會顯示這些頁面）
 * **隱藏當前頁**  — 在breadcrumb中隱藏當前頁（預設情況下將顯示）
-* **禁用跟蹤**  — 如果層次結構中的頁面是重定向，則將顯示重定向頁面的名稱，而不是目標頁面。 查看 [卷影站點結構支援](navigation.md#shadow-structure) 的子菜單。
+* **禁用跟蹤**  — 如果層次結構中的頁面是重定向，則將顯示重定向頁面的名稱，而不是目標頁面。 查看 [卷影站點結構支援](../v1/navigation.md#shadow-structure) 的子菜單。
 * **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
    * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
    * 如果指定了ID，則作者有責任確保其唯一。
    * 更改ID可能會影響CSS、JS和資料層跟蹤。
-
-### 樣式頁籤 {#styles-tab-edit}
-
-![Breadcrumb清單元件的編輯對話框的「樣式」頁籤](/help/assets/breadcrumb-edit-styles.png)
-
-Breadcrumb元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
-
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
-
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
 
 ## 設計對話框 {#design-dialog}
 

@@ -1,16 +1,16 @@
 ---
-title: 內容片段清單元件
+title: 內容片段清單元件(v1)
 description: 核心元件內容片段清單元件允許顯示內容片段清單。
 role: Architect, Developer, Admin, User
-exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 2%
+source-wordcount: '725'
+ht-degree: 1%
 
 ---
 
-# 內容片段清單元件{#content-fragment-list-component}
+
+# 內容片段清單元件(v1) {#content-fragment-list-component}
 
 核心元件內容片段清單元件允許顯示 [內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
@@ -23,16 +23,13 @@ ht-degree: 2%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-內容片段元件的當前版本是v2，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+該文檔描述了2019年5月隨核心元件2.4.0版推出的內容片段元件v1。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|---|----|---|---|
-| v2 | - | 相容 | 相容 |
-| [v1](v1/content-fragment-list.md) | 相容 | 相容 | 相容 |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹內容片段清單元件的v1。
+>
+>有關內容片段清單元件的當前版本的詳細資訊，請參見 [內容片段清單元件](/help/components/content-fragment-list.md) 的子菜單。
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -87,18 +84,6 @@ ht-degree: 2%
    * 按一下或點擊 **刪除** 按鈕
    * 拖動 **訂單** 控制滑塊以重新排列元素的順序。
 
-### 樣式頁籤 {#styles-tab-edit}
-
-![內容片段清單元件的編輯對話框的「樣式」頁籤](/help/assets/content-fragment-list-styles.png)
-
-內容片段清單元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
-
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
-
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
-
 ## 設計對話框 {#design-dialog}
 
-### 樣式頁籤 {#styles-tab}
-
-內容片段清單元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
+設計對話框允許模板作者定義應用於內容片段清單元件的樣式。

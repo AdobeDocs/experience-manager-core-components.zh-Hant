@@ -1,16 +1,16 @@
 ---
-title: 頁面元件
+title: 頁面元件(v2)
 description: 「頁面元件」是可擴展的頁面元件，旨在與模板編輯器一起使用，並允許與模板編輯器一起裝配頁眉/頁腳和結構元件。
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 1%
+source-wordcount: '645'
+ht-degree: 0%
 
 ---
 
-# 頁面元件{#page-component}
+
+# 頁面元件(v2) {#page-component}
 
 「頁面元件」是可擴展的頁面元件，用於 [模板編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 並允許將頁眉/頁腳和結構元件與模板編輯器一起裝配。
 
@@ -22,17 +22,13 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-頁面元件的當前版本為v3，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+本文檔介紹了2018年1月隨核心元件2.0.0版推出的頁面元件v2。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|---|
-| v3 | - | 相容 | 相容 |
-| [v2](v2/page.md) | 相容 | 相容 | 相容 |
-| [v1](v1/page-v1.md) | 相容 | 相容 | - |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹頁面元件的v2。
+>
+>有關頁面元件當前版本的詳細資訊，請參閱 [頁面元件](/help/components/page.md) 的子菜單。
 
 ## 漸進式Web應用支援 {#pwa-support}
 
@@ -70,8 +66,6 @@ ht-degree: 1%
 * **Web資源客戶端庫**  — 用於為Web資源（如favicon）提供服務的客戶端庫類別。
 
 * **跳至主內容元素選擇器**  — 用作輔助功能，可直接跳至頁面的主要內容
-
-* **呈現替代語言連結**  — 如果啟用，則指向同一站點中頁面的替代語言版本的連結將添加到頁面的頭部。
 
 ![「頁面元件設計」對話框](/help/assets/page-design.png)
 

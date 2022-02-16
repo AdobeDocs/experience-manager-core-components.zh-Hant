@@ -1,16 +1,16 @@
 ---
-title: 語言導航元件
+title: 語言導航元件(v1)
 description: 語言導航元件為站點提供語言/國家/地區導航，以便訪問者可以在不同的區域環境中導航到同一頁面。
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
-# 語言導航元件{#language-navigation-component}
+
+# 語言導航元件(v1) {#language-navigation-component}
 
 語言導航元件為站點提供語言/國家/地區導航，以便訪問者可以在不同區域設定中導航到同一頁。
 
@@ -25,16 +25,13 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-語言導航元件的當前版本是v2，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+本文檔介紹了2018年1月核心元件2.0.0版中引入的語言導航元件v1。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
-| v2 | - | 相容 | 相容 |
-| [v1](v1/language-navigation.md) | 相容 | 相容 | 相容 |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹語言導航元件的v1。
+>
+>有關語言導航元件當前版本的詳細資訊，請參閱 [語言導航元件](/help/components/language-navigation.md) 的子菜單。
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -48,7 +45,7 @@ ht-degree: 1%
 
 ## 設計對話框 {#design-dialog}
 
-設計對話框允許定義全局站點導航根以及導航應深入到結構中的程度。
+編輯對話框允許定義全局站點導航根以及導航應深入到結構中的程度。
 
 通常，這些配置只需在頁面模板級別完成。 但是，可以通過 [編輯對話框](#edit-dialog)。
 
@@ -96,9 +93,7 @@ ht-degree: 1%
 
 ## 編輯對話框 {#edit-dialog}
 
-### 屬性頁籤 {#properties-tab-edit}
-
-通常，只需在站點的頁面模板中添加和配置語言導航元件。 但是，如果需要將語言導航元件添加到單個內容頁面，則編輯對話框允許內容作者配置與中所述相同的值 [設計對話框](#design-dialog)
+通常，只需在站點的頁面模板中添加和配置語言導航元件。 但是，如果需要將語言導航元件添加到單個內容頁面，則編輯對話框允許內容作者配置與中所述相同的值 [設計對話框](#design-dialog)。
 
 另外，您可以 **ID**。 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
 
@@ -107,22 +102,6 @@ ht-degree: 1%
 * 更改ID可能會影響CSS、JS和資料層跟蹤。
 
 ![語言導航元件的編輯對話框](/help/assets/language-navigation-edit.png)
-
-### 輔助功能頁籤 {#accessibility-tab}
-
-* **標籤**  — 如果頁面上有多種語言導航，以設定元件的詠嘆調標籤屬性，則應定義此選項。
-
-![「語言導航輔助功能」頁籤](/help/assets/language-navigation-edit-accessibility.png)
-
-### 樣式頁籤 {#styles-tab-edit}
-
-語言導航元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
-
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
-
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
-
-![語言導航元件的「編輯」對話框的「樣式」頁籤](/help/assets/language-navigation-edit-styles.png)
 
 ## Adobe客戶端資料層 {#data-layer}
 

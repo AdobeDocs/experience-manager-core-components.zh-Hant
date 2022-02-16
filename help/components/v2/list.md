@@ -1,16 +1,16 @@
 ---
-title: 列出元件
+title: 清單元件(v2)
 description: 核心元件清單元件允許輕鬆建立動態清單和靜態清單。
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 3%
+source-wordcount: '1022'
+ht-degree: 2%
 
 ---
 
-# 列出元件{#list-component}
+
+# 清單元件(v2) {#list-component}
 
 核心元件清單元件允許輕鬆建立動態清單和靜態清單。
 
@@ -20,17 +20,13 @@ ht-degree: 3%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-清單元件的當前版本為v3，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+本文檔介紹了2018年1月隨核心元件2.0.0版而推出的清單元件v1。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
-| v3 | - | 相容 | 相容 |
-| [v2](v2/list.md) | 相容 | 相容 | 相容 |
-| [v1](v1/list-v1.md) | 相容 | 相容 | - |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹了清單元件的v2。
+>
+>有關清單元件當前版本的詳細資訊，請參閱 [清單元件](/help/components/list.md) 的子菜單。
 
 ## 清單重定向 {#redirects}
 
@@ -156,20 +152,12 @@ ht-degree: 3%
 
 ![項設定](/help/assets/list-edit-items.png)
 
-* **連結項**  — 將項連結到相應頁
-* **顯示說明**  — 顯示連結項的說明
-* **顯示日期**  — 顯示連結項的修改日期
-* **作為預告器顯示**  — 選中後，項目將顯示為預告
-
-### 樣式頁籤 {#styles-tab-edit}
-
-清單元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
-
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
-
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
-
-![「清單元件」的「編輯」對話框的「樣式」頁籤](/help/assets/list-edit-styles.png)
+* **連結項**
+將項連結到相應頁
+* **顯示說明**
+顯示連結項的說明
+* **顯示日期**
+顯示連結項的修改日期
 
 ## 設計對話框 {#design-dialog}
 

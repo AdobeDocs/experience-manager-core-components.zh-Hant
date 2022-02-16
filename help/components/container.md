@@ -1,101 +1,101 @@
 ---
 title: 容器元件
-description: 核心元件容器元件可為頁面上的多個其他元件建立容器。
+description: 「核心元件容器」元件允許在頁面上為多個附加元件建立容器。
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 1%
 
 ---
 
 # 容器元件{#container-component}
 
-核心元件容器元件可為頁面上的多個其他元件建立容器。
+「核心元件容器」元件允許在頁面上為多個附加元件建立容器。
 
 ## 使用狀況 {#usage}
 
-核心元件容器元件允許為頁面上的多個其他元件建立容器，並可用於將其他元件分組和應用通用樣式或佈局。
+「核心元件容器」元件允許為頁面上的多個附加元件建立容器，並可用於對其他元件進行分組並應用公共樣式或佈局。
 
-* 可在[配置對話框](#configure-dialog)中選擇容器的屬性。
-* 將容器元件新增至頁面時的預設值，可在[設計對話方塊](#design-dialog)中定義。
+* 可在 [配置對話框](#configure-dialog)。
+* 在將容器元件添加到頁面時，可以在 [設計對話框](#design-dialog)。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性 {#version-and-compatibility}
 
-容器元件的目前版本為v1，此版本於2019年6月隨核心元件2.5.0版推出，本檔案將加以說明。
+容器元件的當前版本為v1，該版本於2019年6月隨核心元件2.5.0版一同推出，本文檔對此進行了說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 |
+| v1 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
 
-如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
+有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 
-## 範例元件輸出 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-若要體驗容器元件並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_container)。
+要體驗容器元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_container)。
 
 ## 技術詳細資訊 {#technical-details}
 
-若需容器元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_container_v1)。
+有關容器元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_container_v1)。
 
-有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 
 ## 配置對話框 {#configure-dialog}
 
-「設定」對話方塊可讓內容作者定義容器項目，以及容器項目的行為和顯示方式，供造訪頁面的訪客使用。
+配置對話框允許內容作者定義容器項目及其行為和對頁面訪問者的顯示方式。
 
-![容器元件的編輯對話方塊](/help/assets/container-edit.png)
+![容器元件的編輯對話框](/help/assets/container-edit.png)
 
-* **配置**  — 此選項定義容器元件的行為或配置行為。
+* **佈局**  — 此選項定義容器元件的行為或佈局行為。
    * **簡單**  — 將容器定義為元件的簡單集合
-   * **回應式格線**  — 將容器定義為 [AEM回應式版面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
-* **背景顏色**  — 可定義為自由格式RGB值，或使用檢色器，視 [配置而定](#background-tab)
-* **背景影像**  — 根據設定定義容器的  [背景顏色](#background-tab)
-* **ID**  — 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
-   * 若保留為空白，系統會自動為您產生唯一ID，並且可透過檢查產生的頁面來找到。
-   * 若已指定ID，則作者應負責確認其唯一。
-   * 變更ID可能會影響CSS、JS和資料層追蹤。
+   * **響應網格**  — 將容器定義為 [響AEM應佈局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* **背景顏色**  — 可定義為自由格式RGB值或使用拾色器 [取決於配置](#background-tab)
+* **背景影像**  — 為容器定義背景顏色，  [取決於配置](#background-tab)
+* **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
+   * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
+   * 如果指定了ID，則作者有責任確保其唯一。
+   * 更改ID可能會影響CSS、JS和資料層跟蹤。
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-設計對話方塊可讓範本作者定義使用容器元件的內容作者可用的選項。
+設計對話框允許模板作者定義使用「容器元件」的內容作者可用的選項。
 
-### 「允許的元件」頁簽 {#allowed-components-tab}
+### 允許的元件頁籤 {#allowed-components-tab}
 
-**允許的元件**&#x200B;標籤用於定義哪些元件可由內容作者新增為容器元件的項目。
+的 **允許的元件** 頁籤用於定義哪些元件可以由內容作者作為項目添加到容器元件中。
 
-[在模板編輯器中定義佈局容器的策略和屬性時，「允許的元件」頁簽的功能與同名頁簽的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+「允許的元件」頁籤的功能與同名的頁籤在 [在模板編輯器中定義佈局容器的策略和屬性。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 預設元件頁簽 {#default-components-tab}
+### 預設元件頁籤 {#default-components-tab}
 
-「預設元件」索引標籤用於定義將特定資產類型拖放到容器上時，要將哪個元件新增至元件，類似於[在頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)上定義預設元件的方式。
+「預設元件」頁籤用於定義在容器上放置特定資產類型時將哪個元件添加到元件中，類似於 [如何在頁面模板上定義預設元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
-### 回應式設定標籤 {#responsive-settings-tab}
+### 響應設定頁籤 {#responsive-settings-tab}
 
-![容器元件設計對話方塊的回應式設定標籤](/help/assets/container-design-responsive.png)
+![「容器元件」設計對話框的響應設定頁籤](/help/assets/container-design-responsive.png)
 
-* **欄**  — 在產生的容器的格線中定義欄數。
+* **列**  — 定義生成容器網格中的列數。
 
-### 背景標籤 {#background-tab}
+### 背景頁籤 {#background-tab}
 
-![「容器元件」設計對話框的背景頁簽](/help/assets/container-design-background.png)
+![「容器元件」設計對話框的背景頁籤](/help/assets/container-design-background.png)
 
 * **背景影像**
-   * **啟用背景影像**  — 選取此選項，讓內容作者可定義容器的背景影像。
+   * **啟用背景影像**  — 選擇此選項可使內容作者為容器定義背景影像。
 * **背景色彩**
-   * **啟用背景顏色**  — 選取此選項，讓內容作者可定義容器的背景顏色。
-   * **僅限色票**  — 選取此選項，僅允許內容作者從預先定義的容器背景顏色色票中選取。
-      * 僅當選擇&#x200B;**啟用背景顏色**&#x200B;時可用
-* **允許的色票**  — 定義預先定義的顏色，內容作者可從中選取容器背景顏色
-   * 使用&#x200B;**Add**&#x200B;按鈕添加預定義的色板。 新增後，會將項目新增至清單，其中包含下列欄：
-   * **值**  — 透過RGB值手動定義顏色
-      * 點選或按一下檢色器，借由調整個別RGB值或定義十六進位值，更輕鬆地選取顏色。
-   * **刪除**  — 點選或按一下以刪除色票。
-   * **重新排列**  — 點選或按一下並拖曳以重新排列色票的順序。
+   * **啟用背景顏色**  — 選擇此選項可使內容作者為容器定義背景顏色。
+   * **僅色板**  — 選擇此選項僅允許內容作者從容器背景顏色的預定義顏色色板中進行選擇。
+      * 僅在 **啟用背景顏色** 已選中
+* **允許的色板**  — 定義內容作者可以從中選擇容器背景顏色的預定義顏色
+   * 使用 **添加** 按鈕。 添加後，將向清單中添加一個條目，該清單包含以下列：
+   * **值**  — 通過RGB值手動定義顏色
+      * 點擊或按一下顏色選取器，通過調整單個RGB值或定義十六進位值，更輕鬆地選擇顏色。
+   * **刪除**  — 點擊或按一下以刪除色板。
+   * **重新排列**  — 點擊或按一下並拖動以重新排列色板的順序。
 
-### 樣式標籤 {#styles-tab}
+### 樣式頁籤 {#styles-tab}
 
-容器元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
+容器元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。

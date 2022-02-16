@@ -1,16 +1,16 @@
 ---
-title: 導航元件
+title: 導航元件(v1)
 description: 導航元件允許用戶輕鬆導航全球化的站點結構。
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 1%
+source-wordcount: '1430'
+ht-degree: 0%
 
 ---
 
-# 導航元件{#navigation-component}
+
+# 導航元件(v1) {#navigation-component}
 
 導航元件允許用戶輕鬆導航全球化的站點結構。
 
@@ -24,16 +24,13 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-導航元件的當前版本是v2，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+本文檔介紹導航元件的v1，該版本於2018年1月隨核心元件2.0.0版而推出。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
-| v2 | - | 相容 | 相容 |
-| [v1](v1/navigation.md) | 相容 | 相容 | 相容 |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹導航元件的v1。
+>
+>有關導航元件當前版本的詳細資訊，請參閱 [導航元件](/help/components/navigation.md) 的子菜單。
 
 ## 本地化站點結構支援 {#localized-site-structure}
 
@@ -155,16 +152,6 @@ ht-degree: 1%
 在 **輔助功能** 頁籤，可為 [ARIA輔助功能](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。
 
 * **標籤**  — 元件的ARIA標籤屬性的值
-
-### 樣式頁籤 {#styles-tab-edit}
-
-導航元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
-
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
-
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
-
-![導航元件的編輯對話框的「樣式」頁籤](/help/assets/navigation-edit-styles.png)
 
 ## 設計對話框 {#design-dialog}
 

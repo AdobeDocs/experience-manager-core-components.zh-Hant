@@ -1,115 +1,115 @@
 ---
 title: 內容片段元件
-description: 核心元件內容片段元件可顯示內容片段。
+description: 核心元件內容片段元件允許顯示內容片段。
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
 
 # 內容片段元件{#content-fragment-component}
 
-核心元件內容片段元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+核心元件內容片段元件允許顯示 [內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
->核心元件2.4.0版之前，內容片段元件是核心元件的擴充功能，必須個別下載並明確啟用。
+>在核心元件2.4.0版之前，內容片段元件可作為核心元件的擴展，必須單獨下載並明確啟用。
 
 ## 使用狀況 {#usage}
 
-核心元件內容片段元件允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+核心元件內容片段元件允許包含 [內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 在頁面上。
 
-* 可在[配置對話框](#configure-dialog)中選擇片段及其屬性。
-* 可在[設計對話框](#design-dialog)中定義用於處理某些影像和網格的資源類型。
-* 編輯選項將在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中開啟所選片段。
+* 可在 [配置對話框](#configure-dialog)。
+* 可以在中定義處理某些影像和網格的資源類型 [設計對話框](#design-dialog)。
+* 編輯選項將在 [內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性 {#version-and-compatibility}
 
-目前的內容片段元件版本為v1，已於2017年10月隨核心元件1.1.0版推出，本檔案將加以說明。
+內容片段元件的當前版本為v1，該版本於2017年10月隨核心元件1.1.0版一同推出，本文檔對此進行了說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
-| v1 | 相容 | 相容 | 相容 |
+| v1 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
 
 >[!NOTE]
 >
->在2.4.0版之前，內容片段元件位於擴充功能資料夾中。
+>在2.4.0版之前，內容片段元件位於擴展資料夾中。
 >
 > `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
 > 
->從2.4.0開始，已移至下列位置。
+>已從2.4.0移動到以下位置。
 >
 >`apps/core/wcm/components/contentfragment/v1/contentfragment`
 >
->雖然兩者皆為v1，但從擴充功能資料夾使用的任何內容片段元件在升級至核心元件2.4.0版或更新版本時，都需要移轉其相關的代理元件，才能使用新的資源類型。
+>雖然兩者都是v1 ，但從擴展資料夾中使用的任何內容片段元件在升級到2.4.0版或更高版本的核心元件時都需要遷移其相關代理元件以使用新的資源類型。
 
-如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
+有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 
-## 範例元件輸出 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-若要體驗內容片段元件，並查看其設定選項以及HTML和JSON輸出的範例，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_cf)。
+要體驗內容片段元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_cf)。
 
 ## 技術詳細資訊 {#technical-details}
 
-如需內容片段元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1)。
+有關內容片段元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_cf_v1)。
 
-有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 
 ## 配置對話框 {#configure-dialog}
 
-設定對話方塊可讓內容作者定義要包含的內容片段及該片段的元素。
+配置對話框允許內容作者定義要包括的內容片段和該片段的元素。
 
-### 屬性標籤 {#properties-tab}
+### 屬性頁籤 {#properties-tab}
 
 ![內容片段元件](/help/assets/content-fragment-edit-properties.png)
 
 * **內容片段**
 
    * 所需內容片段的路徑
-   * **選擇對話框**&#x200B;可用於查找片段
+   * 的 **選擇對話框** 可以用來定位碎片
 
 * **顯示模式**
-   * **單行文本元素**  — 啟用一個多行文本元素的選擇並啟用段落控制選項
-   * **多個元素**  — 允許選取所選內容片段的一或多個元素
-* **元素**  — 要包括的內容片段的元素或元素
-* **變化**  — 要使用的內容片段變化(預設為 **主版**)
+   * **單文本元素**  — 啟用選擇一個多行文本元素並啟用段落控制選項
+   * **多元素**  — 允許選擇所選內容片段的一個或多個元素
+* **元素**  — 要包括的內容片段的元素
+* **變異**  — 要使用的內容片段的哪個變體(預設為 **母版**)
 
 * **段落**
 
    * **全部**  — 顯示所有段落
    * **範圍**
 
-      * 指定應顯示的段落範圍，以分號分隔
-      * 例如`1;3-5;7;9-*`，包括第1、第3至第5、第7和第9至最後段落
-* **ID**  — 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
-   * 若保留為空白，系統會自動為您產生唯一ID，並且可透過檢查產生的頁面來找到。
-   * 若已指定ID，則作者應負責確認其唯一。
-   * 變更ID可能會影響CSS、JS和資料層追蹤。
+      * 指定應顯示的段落範圍，用分號分隔
+      * 例如 `1;3-5;7;9-*` 包括第1、3至5、7、9至最後段
+* **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
+   * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
+   * 如果指定了ID，則作者有責任確保其唯一。
+   * 更改ID可能會影響CSS、JS和資料層跟蹤。
 
-### 段落控制標籤 {#paragraph-control-tab}
+### 段落控制項頁籤 {#paragraph-control-tab}
 
-選取&#x200B;**多個元素**&#x200B;模式時，此標籤不可用。
+當 **多元素** 的下界。
 
 ![內容片段元件](/help/assets/content-fragment-edit-paragraph.png)
 
 * **段落**  — 允許選擇所有段落或範圍
-* **將標題當作自己的段落處理**
+* **將標題作為自己的段落處理**
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-設計對話方塊可讓範本作者定義用於處理混合媒體影像和回應式格線的資源類型。
+設計對話框允許模板作者定義用於處理混合媒體影像和響應網格的資源類型。
 
-![內容片段元件的設計對話方塊](/help/assets/content-fragment-design.png)
+![內容片段元件的「設計」對話框](/help/assets/content-fragment-design.png)
 
 * **內部回應式格線**
 
-   * 用於內部回應式格線的Sling資源類型
+   * 用於內部響應網格的Sling資源類型
 
-## Adobe用戶端資料層 {#data-layer}
+## Adobe客戶端資料層 {#data-layer}
 
-內容片段元件支援[Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
+內容片段元件支援 [Adobe客戶端資料層。](/help/developing/data-layer/overview.md)

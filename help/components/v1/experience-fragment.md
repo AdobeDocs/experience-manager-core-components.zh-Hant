@@ -1,16 +1,16 @@
 ---
-title: 體驗片段元件
+title: 體驗片段元件(v1)
 description: 體驗片段元件允許內容作者將體驗片段變體添加到頁面。
 role: Architect, Developer, Admin, User
-exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 1%
+source-wordcount: '780'
+ht-degree: 0%
 
 ---
 
-# 體驗片段元件{#experience-fragment-component}
+
+# 體驗片段元件(v1) {#experience-fragment-component}
 
 核心元件體驗片段元件允許內容作者在支援本地化站點結構的同時將體驗片段變體放置在頁面上。
 
@@ -23,16 +23,13 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-經驗片段元件的當前版本是v2，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+本文檔介紹了2019年9月在核心元件2.6.0版中引入的經驗片段元件v1。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |---|---|
-| v2 | - | 相容 | 相容 |
-| [v1](v1/experience-fragment.md) | 相容 | 相容 | 相容 |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹「體驗片段」元件的v1。
+>
+>有關體驗片段元件當前版本的詳細資訊，請參閱 [體驗片段元件](/help/components/experience-fragment.md) 的子菜單。
 
 ## 本地化站點結構支援 {#localized-site-structure}
 
@@ -128,16 +125,6 @@ ht-degree: 1%
 * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
 * 如果指定了ID，則作者有責任確保其唯一。
 * 更改ID可能會影響CSS、JS和資料層跟蹤。
-
-### 樣式頁籤 {#styles-tab-edit}
-
-![「體驗片段」元件的「編輯」對話框的「樣式」頁籤](/help/assets/experience-fragment-edit-styles.png)
-
-體驗片段元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
-
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
-
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
 
 ## 設計對話框 {#design-dialog}
 

@@ -1,16 +1,16 @@
 ---
-title: 下載元件
+title: 下載元件(v1)
 description: 核心元件下載元件允許在頁面上建立下載選項。
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
-# 下載元件{#download-component}
+
+# 下載元件(v1) {#download-component}
 
 核心元件下載元件允許在頁面上建立下載選項。
 
@@ -23,16 +23,13 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-下載元件的當前版本為v2，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+本文檔介紹了2019年6月隨核心元件2.5.0版一起推出的下載元件v1。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
-
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |---|---|
-| v2 | - | 相容 | 相容 |
-| [v1](v1/download.md) | 相容 | 相容 | 相容 |
-
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文檔介紹下載元件的v1。
+>
+>For details of the current version of the Download Component, see the [Download Component](/help/components/download.md) document.
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -52,7 +49,7 @@ ht-degree: 1%
 
 ### 資產標籤 {#asset-tab}
 
-選擇下載資產與 [影像元件](image.md) 同樣利AEM用DAM
+選擇下載資產與 [影像元件](image-v1.md) 同樣利AEM用DAM
 
 * **下載資產**
    * 從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或點擊 **瀏覽** 從本地檔案系統上載。
@@ -74,16 +71,6 @@ ht-degree: 1%
    * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
    * 如果指定了ID，則作者有責任確保其唯一。
    * 更改ID可能會影響CSS、JS和資料層跟蹤。
-
-### 樣式頁籤 {#styles-tab-edit}
-
-![「下載元件」的「編輯」對話框的「樣式」頁籤](/help/assets/download-edit-styles.png)
-
-下載元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
-
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
-
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
 
 ## 設計對話框 {#design-dialog}
 

@@ -1,81 +1,81 @@
 ---
 title: 表單選項元件
-description: 核心元件表單選項元件允許以各種格式從預先定義的選項中進行選擇。
+description: 「核心元件表單」選項元件允許以各種格式從預定義選項中進行選擇。
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '549'
 ht-degree: 2%
 
 ---
 
 # 表單選項元件 {#form-options-component}
 
-核心元件表單選項元件允許以各種格式從預先定義的選項中進行選擇。
+「核心元件表單選項」元件允許以各種格式從預定義選項中進行選擇。
 
 ## 使用狀況 {#usage}
 
-核心元件表單選項元件允許以多種不同方式呈現的不同類型選項的提交，並打算與[表單容器元件](form-container.md)一起使用。
+「核心元件表單選項」元件允許以多種不同方式提交不同類型的選項，並與 [窗體容器元件](form-container.md)。
 
-選項、標籤和單個選項的顯示可由[配置對話框](#configure-dialog)中的內容編輯器定義。
+選項、標籤和單個選項的演示可由中的內容編輯器定義 [配置對話框](#configure-dialog)。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性 {#version-and-compatibility}
 
-目前的表單選項元件版本為v2，此版本於2018年1月隨核心元件2.0.0版推出，本檔案已詳述。
+表單選項元件的當前版本為v2，該版本於2018年1月隨核心元件2.0.0版一同推出，本文檔對此進行了說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
-| v2 | 相容 | 相容 | 相容 |
+| v2 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
 | [v1](/help/components/v1/form-options-v1.md) | 相容 | 相容 | - |
 
-如需核心元件版本和版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
+有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 
-## 範例元件輸出 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-若要體驗表單選項元件，並查看其設定選項的範例以及HTML和JSON輸出，請造訪[元件程式庫](https://adobe.com/go/aem_cmp_library_form_options)。
+要體驗「表單選項」元件，並查看其配置選項示例以及HTML和JSON輸出，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_form_options)。
 
 ### 技術詳細資訊 {#technical-details}
 
-如需表單選項元件[的最新技術檔案，請參閱GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2)。
+有關表單選項元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_form_options_v2)。
 
-有關開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 
 ## 配置對話框 {#configure-dialog}
 
-「設定」對話方塊可讓內容作者定義應呈現的選項類型、標籤，以及可用的選項。
+「配置」對話框允許內容作者定義應顯示的選項類型、標籤以及哪些選項可用。
 
 ![表單選項元件的編輯對話框](/help/assets/form-options-edit.png)
 
-* **類型**  — 如何呈現選項
+* **類型**  — 購股權之呈列方式
    * **核取方塊**
    * **選項按鈕**
    * **下拉式清單**
    * **複選下拉式清單**
-* **Title**  — 將顯示為選項標籤的標題
-* **名稱**  — 使用表單資料提交的欄位名稱
-* **來源**  — 定義選項的位置
-   * **本機**  — 在元件中定義
-      * 點選或按一下&#x200B;**Add**&#x200B;按鈕以新增值，**Delete**&#x200B;以移除值
-         * **值**  — 提交表單時選取該選項時儲存的值
-         * **文字**  — 表單上顯示之選項的標籤
-         * **作用中**  — 當表單載入時，選項會標示為已選取
-         * **已停用**  — 無法選取選項，但仍顯示
-   * **清單**  — 選項會使用AEM中其他位置定義的靜態清單
-      * **清單**  - AEM中靜態清單的路徑
-         * 使用Browse按鈕查找清單資源
-   * **資料來源**  — 使用資料來源作為選項
-      * **資料來源**  — 資料來源的資源類型
-* **說明訊息**  — 可在欄位中輸入內容的使用者提示
-* **ID**  — 此選項可控制HTML和資料層中元件的唯一 [識別碼](/help/developing/data-layer/overview.md)。
-   * 若保留為空白，系統會自動為您產生唯一ID，並且可透過檢查產生的頁面來找到。
-   * 若已指定ID，則作者應負責確認其唯一。
-   * 變更ID可能會影響CSS、JS和資料層追蹤。
+* **標題**  — 將顯示為選項標籤的標題
+* **名稱**  — 使用表單資料提交的欄位的名稱
+* **源**  — 定義選項的位置
+   * **本地**  — 在元件內定義
+      * 點擊或按一下 **添加** 按鈕以添加值， **刪除** 刪除值
+         * **值**  — 提交表單時選擇該選項時保存的值
+         * **文本**  — 窗體上顯示的選項的標籤
+         * **活動**  — 在載入表單時，選項被標籤為已選
+         * **已禁用**  — 該選項不可選，但仍顯示
+   * **清單**  — 在中其他位置定義的靜態AEM清單用於選項
+      * **清單**  — 中靜態清單的路AEM徑
+         * 使用「瀏覽」按鈕查找清單資源
+   * **資料源**  — 資料源用於選項
+      * **資料源**  — 資料源的資源類型
+* **幫助消息**  — 提示用戶可在欄位中輸入的內容
+* **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
+   * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
+   * 如果指定了ID，則作者有責任確保其唯一。
+   * 更改ID可能會影響CSS、JS和資料層跟蹤。
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-### 樣式標籤 {#styles-tab}
+### 樣式頁籤 {#styles-tab}
 
-表單選項元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
+表單選項元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
