@@ -3,7 +3,7 @@ title: 核心元件版本
 description: 核心元件作為可能包含多個相同核心元件版本的版本發佈。 本文檔介紹哪些版本和版本以及如何瞭解與核心元件和的相容AEM性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 19%
@@ -26,7 +26,7 @@ ht-degree: 19%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 此主要版本的核心元件將在多個元件的新版本中引入新的連結處理程式，並提供許多輔助功能改進和錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年2月24日 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 此主要版本的核心元件將在多個元件的新版本中引入新的連結處理程式，並提供許多輔助功能改進和錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年2月16日 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 這是修補程式版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 連續 | 8、11 | 2021 年 12 月 13 日 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 這是修補程式版本，它修復了上一版本引入的回歸。 | 6.4.8.4+ * | 6.5.6.0+ * | 連續 | 8、11 | 2021年10月1日 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此修補程式可增強 [清單](/help/components/list.md) 和 [導航](/help/components/navigation.md) 顯示重定向目標的外部URL的元件，為即將到來的v2啟用頁面影像繼承 [預告](/help/components/teaser.md) 元件，並包含其他錯誤修復。 | 6.4.8.4+ * | 6.5.6.0+ * | 連續 | 8、11 | 2021年8月31日 |

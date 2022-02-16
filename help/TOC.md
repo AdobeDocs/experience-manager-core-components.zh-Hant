@@ -4,9 +4,9 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 67%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 67%
 + [核心元件簡介](introduction.md)
 + [成功之路](developing/success.md)
 + [元件庫](https://adobe.com/go/aem_cmp_library)
-+ [核心元件版本](versions.md)
++ [版本](versions.md)
 + 立即開始 {#get-started}
    + [使用核心元件編寫](get-started/authoring.md)
    + [使用核心元件](get-started/using.md)
