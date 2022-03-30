@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自適應影像元件特徵就地編輯。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1799'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->SVG支援要求2.1.0版或更高版本的核心元件以及 [服務包2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=zh-Hant) 支援AEM6.4或更高版本 [影像編輯器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 內AEM。
+>SVG支援要求2.1.0版或更高版本的核心元件以及 [服務包2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=zh-Hant) 支援AEM6.4或更高版本 [影像編輯器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) 內AEM。
 
 ## 元件輸出示例 {#sample-component-output}
 

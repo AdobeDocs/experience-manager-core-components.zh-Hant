@@ -4,9 +4,9 @@ description: 基於應用程式AEM的項目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
+source-git-commit: a4ed30ad613efab89f10788a41a5dee8d663bf6c
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1150'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 * **頁眉和頁腳：** 使用 [元件的本地化特徵](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)。
 * **樣式系統：** 通過允許作者建立自定義元件 [應用不同樣式](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html) 敬他們。
 * **前端構建：** 前端開發人員可以 [模AEM擬頁](uifrontend.md#webpack-dev-server) 和 [構建客戶端庫](uifrontend.md) 和SASS。
-* **WebApp就緒：** 對於使用 [反應](uifrontend-react.md) 或 [Angular](uifrontend-angular.md)，使用 [SDKSPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/developing.html) 保留 [應用的上下文創作](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。
+* **WebApp就緒：** 對於使用 [反應](uifrontend-react.md) 或 [Angular](uifrontend-angular.md)，使用 [SDKSPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) 保留 [應用的上下文創作](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。
 * **已啟用商業：** 對於要整合的項目 [商AEM業](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) 用商業解決方案 [Magento](https://magento.com/) 使用 [商業核心元件](https://github.com/adobe/aem-core-cif-components)。
 * **示例代碼：** 簽出HelloWorld元件以及示例模型、Servlet、篩選器和調度程式。
 * **開源：** 如果事情不如預期， [貢獻](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 你的改進！
@@ -82,7 +82,7 @@ mvn -B archetype:generate \
 | `aemVersion` | `cloud` | 目AEM標版本(可以 `cloud` 為 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);或 `6.5.0`或 `6.4.4` 為 [Adobe托管服務](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或內部)。 |
 | `sdkVersion` | `latest` | 當 `aemVersion=cloud` 一個 [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 可以指定版本(例如 `2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 包括針對雲或AMS/本地的調度程式配置，具體取決於 `aemVersion` (可以 `y` 或 `n`)。 |
-| `frontendModule` | `general` | 包括生成客戶端庫的Webpack前端生成模組(可以 `general` 或 `none` 對於常規場所；可以 `angular` 或 `react` 用於實現 [編SPA輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))。 |
+| `frontendModule` | `general` | 包括生成客戶端庫的Webpack前端生成模組(可以 `general` 或 `none` 對於常規場所；可以 `angular` 或 `react` 用於實現 [編SPA輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html))。 |
 | `language` | `en` | 語言代碼(ISO 639-1)，用於從(例如 `en`。 `deu`)。 |
 | `country` | `us` | 國家（地區）代碼(ISO 3166-1)，用於建立內容結構，例如 `US`)。 |
 | `singleCountry` | `y` | 包括語言主體內容結構(可以 `y`或 `n`)。 |

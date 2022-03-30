@@ -3,9 +3,9 @@ title: 核心元件簡介
 description: '核心元件提供基於最新技術和最佳實踐的強健且可擴展的基礎元件。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
+source-git-commit: e92a4b594ed7528d7383afd68853df982bd991ec
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '925'
 ht-degree: 22%
 
 ---
@@ -34,14 +34,14 @@ ht-degree: 22%
 | 生產就緒 | 核心元件是28個強健的元件，經過良好測試、廣泛使用，效能良好。 |
 | 雲就緒 | 是否開啟 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)。 [Adobe托管服務](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或者在內部，它們只是起作用。 |
 | 多功能 | 這些元件代表一般概念，作者可以用這些概念裝配幾乎任何佈局。 |
-| 可配置 | 模板級 [內容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) 定義允許頁作者使用或不使用的功能。 |
+| 可配置 | 模板級 [內容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義允許頁作者使用或不使用的功能。 |
 | 可跟蹤 | 的 [Adobe客戶端資料層整合](/help/developing/data-layer/overview.md) 允許跟蹤訪問者體驗的所有方面。 |
 | 易於取得 | 他們遵守 [WCAG 2.1標準](https://www.w3.org/TR/WCAG21/)，提供ARIA標籤和支援鍵盤導航([已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+輔助功能+in%3Atitle))。 |
 | SEO友好 | HTML輸出是語義的，並提供 [架構.org](https://schema.org) 微資料注釋。 |
 | WebApp就緒 | 的 [精簡的JSON輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) 允許客戶端呈現，但仍有可能 [上下文編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP支援 | 這些元件內置了 [支援AMP標準，](/help/developing/amp.md) 加速移動體驗。 |
 | 設計套件 | A [用於Adobe XD的UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) 允許設計人員建立線框，然後 [根據需要的樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
-| 泰默 | 元件實現 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/style-system.html)的 [BEM CSS約定](http://getbem.com/)。 |
+| 泰默 | 元件實現 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)的 [BEM CSS約定](http://getbem.com/)。 |
 | 可定製 | 幾種模式允許 [輕鬆定制](developing/customizing.md)，從調整HTML到高級功能重用。 |
 | 版本設定 | 的 [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 確保核心元件在改進可能影響您的內容時不會中斷您的站點。 |
 | 可本地化 | 智慧參考解析度允許某些元件查找和 [自動呈現相應的本地化內容](get-started/localization.md)。 |
