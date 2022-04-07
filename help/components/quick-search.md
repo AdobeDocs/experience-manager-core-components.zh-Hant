@@ -3,9 +3,9 @@ title: 快速搜索元件
 description: 快速搜索元件為網站提供搜索功能並顯示搜索結果，以便訪問者可以搜索網站並過濾結果。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,8 @@ ht-degree: 1%
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
-| v1 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
+| v2 | - | 相容 | 相容 |
+| [v1](/help/components/v1/quick-search.md) | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | - |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 
