@@ -4,9 +4,9 @@ description: 本地Maven生成分析器插件的文檔
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 79eb9cc18a66c09deeef1477c4d26d8616ba55de
+source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '646'
 ht-degree: 4%
 
 ---
@@ -39,6 +39,8 @@ as a Cloud ServiceAEM的SDK生成分析器Maven插件分析各種內容包項目
 | `region-deprecated-api` | 檢查 [棄用的api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) 已使用 <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `artifact-rules` | 驗證依賴項（如捆綁包和內容包），以防止對象中的已知問題。<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `content-package-validation` | 執行檔案驗證器。 預設情況下，啟用jackrabbit-docviewparser，它檢查在部署期間將安裝的包內xml的格式良好的內容語法。<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>要修復，請檢查分析器命名的檔案以瞭解xml問題。 | 是 | 是 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 已知問題
 
