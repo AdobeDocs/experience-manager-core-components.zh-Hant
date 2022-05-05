@@ -2,13 +2,13 @@
 title: 預告元件(v1)
 description: 該預告元件可以顯示影像、標題、富格文本以及可選地連結到其它內容。
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
+exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
+source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '745'
 ht-degree: 1%
 
 ---
-
 
 # 預告元件(v1) {#teaser-component}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 ## 編輯對話框 {#edit-dialog}
 
-「預測元件」將影像渲染委託到 [影像元件](image-v1.md)。 因此 [編輯對話框](影像元件的image-v1.md#edit-dialog可用於內容作者操作預告影像。
+「預測元件」將影像渲染委託到 [影像元件](image-v1.md)。 因此 [編輯對話框](image-v1.md#edit-dialog) 內容作者可以使用「影像元件」來操作預告影像。
 
 ## 設計對話框 {#design-dialog}
 
