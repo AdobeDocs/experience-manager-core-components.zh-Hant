@@ -3,7 +3,7 @@ title: 文字元件
 description: 「文本元件」是一個富格文本編輯和合成元件，可進行就地編輯。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 2%
@@ -69,11 +69,11 @@ ht-degree: 2%
 
 ### 斜體
 
-![Italic icon](/help/assets/text-italic.png)
+![斜體表徵圖](/help/assets/text-italic.png)
 
 用於將斜體格式應用於游標後輸入的選定文本或斜體文本。
 
-**Ctrl+I** can be used as a keyboard shortcut.
+**Ctrl+I** 可用作鍵盤快捷鍵。
 
 ### 底線
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 用於將下划線格式應用於游標後輸入的選定文本或下划線文本。
 
-**Ctrl+U** can be used as a keyboard shortcut.
+**Ctrl+U鍵** 可用作鍵盤快捷鍵。
 
 ### 下標
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 ### 上標
 
-![Superscript icon](/help/assets/text-superscript.png)
+![上標表徵圖](/help/assets/text-superscript.png)
 
 用於將游標後輸入的選定文本或文本格式化為上標。
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 ### 取代
 
-![Replace icon](/help/assets/text-replace.png)
+![「替換」表徵圖](/help/assets/text-replace.png)
 
 使用此選項可搜索文本以查找指定文本字串的具體值，並將匹配項替換為另一個字串。 選擇此選項將開啟一個窗口，用於指定搜索和替換選項。
 
@@ -175,7 +175,7 @@ ht-degree: 2%
 
 如果找到匹配項，則會加亮該匹配項，並且搜索對話框會變暗。 按一下 **查找** 按鈕，以搜索下一個出現項或選擇 **替換** 按鈕，將選定控制項在Tab鍵次序中下移一個位置。 請注意 **替換** 只有匹配後，按鈕才處於活動狀態。
 
-The find and replace dialog becomes transparent when find is clicked and becomes opaque when replace is clicked. 這允許作者審閱作者將替換的文本。
+按一下「查找」(find)和「替換」(replace)對話框時，該對話框將變為透明，按一下「替換」(replace)時，該對話框將變為不透明。 這允許作者審閱作者將替換的文本。
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ The find and replace dialog becomes transparent when find is clicked and becomes
 
 ### 縮排
 
-![縮進表徵圖](/help/assets/text-outdent.png)
+![縮進表徵圖](/help/assets/text-indent.png)
 
 用於增加游標後輸入的選定文本或文本的縮進級別。
 
@@ -248,7 +248,7 @@ The find and replace dialog becomes transparent when find is clicked and becomes
    * 如果表的標題：
       * 應使用第一行
       * 應使用第一列
-      * The first row and first column should be used
+      * 應使用第一行和第一列
       * 或者不應使用標題。
 * **標題**  — 表的標題
 
@@ -256,7 +256,7 @@ The find and replace dialog becomes transparent when find is clicked and becomes
 
 ![檢查拼寫表徵圖](/help/assets/text-spellcheck.png)
 
-Used to check the spelling of the text content. 可能的拼寫錯誤用破折的紅線加下划線。
+用於檢查文本內容的拼寫。 可能的拼寫錯誤用破折的紅線加下划線。
 
 有關拼寫檢查和自定義拼寫檢查詞典的詳細資訊，請參閱文檔 [配置RTF編輯器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
@@ -282,17 +282,17 @@ Used to check the spelling of the text content. 可能的拼寫錯誤用破折�
 >
 >與訪問原始HTML的情況一樣，在使用 **源編輯** 選項！
 >
->HTML entered via **Source Edit** is scanned for XSS risks and any scripts that are inserted are removed and will not appear on the resulting page. 但是，在中輸入的HTML格式錯誤 **源編輯** 可能會中斷頁面的模板，導致意外的格式設定或導致生成的頁面無法使用。
+>HTML輸入方式 **源編輯** 將掃描XSS風險，並刪除插入的任何指令碼，且不會顯示在生成的頁面上。 但是，在中輸入的HTML格式錯誤 **源編輯** 可能會中斷頁面的模板，導致意外的格式設定或導致生成的頁面無法使用。
 
 >[!NOTE]
 >
->Because HTML entered via **Source Edit** is scanned for XSS risks and any scripts and automatically removes those found, the actual content persisted may vary from what was entered in **Source Edit**. 因此，為了保存使用 **源編輯**，必須先退出 **源編輯** 在普通編輯器中查看文本，然後再保存。
+>因為HTML通過 **源編輯** 掃描XSS風險和任何指令碼並自動刪除那些發現的指令碼，保留的實際內容可能與在中輸入的內容不同 **源編輯**。 因此，為了保存使用 **源編輯**，必須先退出 **源編輯** 在普通編輯器中查看文本，然後再保存。
 
 ### 段落格式
 
-![Paragraph format icon](/help/assets/text-paragraph.png)
+![段落格式表徵圖](/help/assets/text-paragraph.png)
 
-用於將段落格式應用於選定文本或插入游標後的文本。 Selecting this options opens a dropdown from which the paragraph format is selected.
+用於將段落格式應用於選定文本或插入游標後的文本。 選擇此選項將開啟一個下拉清單，從中選擇段落格式。
 
 ![段落格式示例](/help/assets/text-paragraph-example.png)
 
@@ -328,14 +328,14 @@ Used to check the spelling of the text content. 可能的拼寫錯誤用破折�
 * 過去自單詞
 * 查找和替換
 * 拼寫檢查
-* Inserted image modification options
+* 插入的影像修改選項
 * HTML源編輯
 
 ### 正在格式化 {#formatting}
 
-![Design dialog formatting](/help/assets/text-design-formatting.png)
+![設計對話框格式](/help/assets/text-design-formatting.png)
 
-The following formatting options can be activated or deactivated for the component.
+可以為元件激活或停用以下格式設定選項。
 
 * 表格
 * 清單（項目符號、數字、縮進、縮進）
@@ -348,7 +348,7 @@ The following formatting options can be activated or deactivated for the compone
 
 ![設計對話框段落樣式](/help/assets/text-design-paragraph.png)
 
-Paragraph styles can be activated or deactivated for the component. 激活後，可以定義允許的格式。
+可以為元件激活或停用段落樣式。 激活後，可以定義允許的格式。
 
 * 點擊或按一下 **添加** 按鈕。
 * 輸入樣式的代碼和將在編輯對話框中顯示的說明。
@@ -359,7 +359,7 @@ Paragraph styles can be activated or deactivated for the component. 激活後，
 
 ![設計對話框特殊字元](/help/assets/text-design-special-characters.png)
 
-可以為元件激活或停用插入特殊字元的選項。 When activated, the allowed characters can be defined.
+可以為元件激活或停用插入特殊字元的選項。 激活後，可以定義允許的字元。
 
 * 點擊或按一下 **添加** 按鈕
 * 輸入字元的HTML代碼和將在編輯對話框中顯示的說明。
