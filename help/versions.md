@@ -3,16 +3,16 @@ title: 核心元件版本
 description: 核心元件作為可能包含多個相同核心元件版本的版本發佈。 本文檔介紹哪些版本和版本以及如何瞭解與核心元件和的相容AEM性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
+source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2599'
 ht-degree: 19%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的當前版本為2.19.0，與 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和 [本AEM地](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安裝。
+核心元件的當前版本為2.20.0，與 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和 [本AEM地](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安裝。
 
 ## 發佈歷史記錄和相容性 {#release-history-and-compatibility}
 
@@ -26,7 +26,8 @@ ht-degree: 19%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 此版本將新版本添加到 [搜索元件](/help/components/quick-search.md) 和 [按鈕元件](/help/components/button.md) 以及許多輔助功能改進和錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年3月17日 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本新增了 [目錄元件](/help/components/tableofcontents.md) 包括錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年5月 |
+| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 此版本將新版本添加到 [搜索元件](/help/components/quick-search.md) 和 [按鈕元件](/help/components/button.md) 以及許多輔助功能改進和錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年4月7日 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修復了AEMaaCS的問題。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年3月17日 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 這是修補程式版本。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年3月3日 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 此主要版本的核心元件將在多個元件的新版本中引入新的連結處理程式，並提供許多輔助功能改進和錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年2月16日 |
@@ -61,7 +62,7 @@ ht-degree: 19%
 | [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要側重於錯誤修復，但還包含一些功能增強 [旋轉軸元件。](/help/components/carousel.md) | 6.4.2.0+ | - | - | 8 | 2018年11月27日 |
 | [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 此版本介紹 [制表符元件](/help/components/tabs.md) 和 [旋轉木馬元件](/help/components/carousel.md) 以及對 [影像元件，](/help/components/image.md) [頁面元件，](/help/components/page.md) 和 [標題元件](/help/components/title.md) 並加強跟蹤。 | 6.4.2.0+ | - | - | 8 | 2018 年 10 月 16 日 |
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 此版本介紹 [預告元件](/help/components/teaser.md) 以及 [影像元件](/help/components/image.md) 和大量錯誤修復。 | 6.4.2.0+ | - | - | 8 | 2018年7月13日 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 這是個錯誤的解決方案。 | 6.4.0.0+ | - | - | 8 | 2018 年 6 月 12 日 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 這是個錯誤的解決方案。 | 6.4.0.0+ | - | - | 8 | 2018年6月12日 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 此版本增加了機尾改進、錯誤修復和小的改進，包括支援在 [影像元件。](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 2018 年 4 月 11 日 |
 | [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 本版本主要側重於在機尾下的改進、錯誤修復，以及對 [影像元件，](/help/components/image.md) [頁面元件，](/help/components/page.md) 和 [內容片段元件。](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 2018年3月7日 |
 | [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 此版本介紹 [導航元件，](/help/components/navigation.md) [語言導航元件，](/help/components/language-navigation.md) 和 [快速搜索元件](/help/components/quick-search.md) 並實施 [樣式系統](/help/get-started/authoring.md#component-styling) 的下界。 | 6.4.0.0+ | - | - | 8 | 2018年1月16日 |
@@ -83,36 +84,37 @@ ht-degree: 19%
 
 下表詳細說明了哪些版本的元件包含哪些核心元件版本。
 
-|  | 1.0.0版 — 1.0.6 | 1.1.0版 | 2.0.0版 — 2.0.8 | 2.1.0版 | 2.2.0-2.2.0版 | 2.3.0-2.3.2版 | 2.4.0版 | 2.5.0版 | 2.6.0版 | 2.7.0-2.8.0版 | 2.9.0-2.17.14版 | 版本2.18.0+ |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[頁面](components/page.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 |
-| **[標題](components/title.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 |
-| **[影像](components/image.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 |
-| **[清單](components/list.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 |
-| **[階層連結](components/breadcrumb.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 |
-| **[社交媒體分享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[來自容器](components/forms/form-container.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
-| **[表單文字](components/forms/form-text.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
-| **[表單選項](components/forms/form-options.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
-| **[已隱藏的表單](components/forms/form-hidden.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
-| **[表單按鈕](components/forms/form-button.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
-| **[內容片段](components/content-fragment-component.md)** |  | 沙盤 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
-| **[導覽](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 |
-| **[語言導覽](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 |
-| **[快速搜尋](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 |
-| **[索引標籤](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[傳送](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[分隔符號](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[內容片段清單](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 、 v2 |
-| **[折疊式面板](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[按鈕](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 、 v2 |
-| **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[下載](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 、 v2 |
-| **[體驗片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 、 v2 |
-| **[內嵌](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 、 v2 |
-| **[進度列](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[PDF 檢視器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
+|  | 1.0.0版 — 1.0.6 | 1.1.0版 | 2.0.0版 — 2.0.8 | 2.1.0版 | 2.2.0-2.2.0版 | 2.3.0-2.3.2版 | 2.4.0版 | 2.5.0版 | 2.6.0版 | 2.7.0-2.8.0版 | 2.9.0-2.17.14版 | 2.18.0版 | 2.19.0版 | 版本2.20.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[Page](components/page.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
+| **[標題](components/title.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
+| **[影像](components/image.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
+| **[清單](components/list.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
+| **[階層連結](components/breadcrumb.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
+| **[社交媒體分享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[來自容器](components/forms/form-container.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[表單文字](components/forms/form-text.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[表單選項](components/forms/form-options.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[已隱藏的表單](components/forms/form-hidden.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[表單按鈕](components/forms/form-button.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[內容片段](components/content-fragment-component.md)** |  | 沙盤 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[導覽](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[語言導覽](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[快速搜尋](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[索引標籤](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[傳送](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[分隔符號](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[內容片段清單](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[折疊式面板](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[按鈕](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[下載](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[體驗片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[內嵌](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
+| **[進度列](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[PDF 檢視器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[目錄](components/tableofcontents.md)** |  |  |  |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 版本和版本 {#versions-and-releases}
 

@@ -3,9 +3,9 @@ title: 核心元件簡介
 description: '獲取核心元件問題的解決方案，並允許其他人在中建立元AEM素。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
+source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '927'
 ht-degree: 23%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 |  |  |
 |---|---|
-| 生產就緒 | 核心元件是28個強健的元件，經過良好測試、廣泛使用，效能良好。 |
+| 生產就緒 | 核心元件是30個強健的元件，經過良好測試、廣泛使用，效能良好。 |
 | 雲就緒 | 是否開啟 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)。 [Adobe托管服務](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或者在內部，它們只是起作用。 |
 | 多功能 | 這些元件代表一般概念，作者可以用這些概念裝配幾乎任何佈局。 |
 | 可配置 | 模板級 [內容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義允許頁作者使用或不使用的功能。 |
@@ -58,6 +58,7 @@ ht-degree: 23%
 * [語言導覽](components/language-navigation.md)
 * [階層連結](components/breadcrumb.md)
 * [快速搜尋](components/quick-search.md)
+* [目錄](components/tableofcontents.md)
 
 ### 頁面創作元件 {#page-authoring-components}
 
@@ -106,7 +107,7 @@ ht-degree: 23%
 
 | 核心元件 版 | AEM as a Cloud Service  | AEM 6.5修補程式級別 | Java SE版本 | 馬文版本 |
 |---------|---------|---------|---------|---------|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 連續 | 6.5.10.0+ * | 8、11 | 3.3.9+ |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 連續 | 6.5.10.0+ * | 8、11 | 3.3.9+ |
 
 >[!NOTE]
 >

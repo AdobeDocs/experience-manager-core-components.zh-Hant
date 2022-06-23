@@ -4,10 +4,10 @@ description: 基於應用程式AEM的項目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: a4ed30ad613efab89f10788a41a5dee8d663bf6c
+source-git-commit: 8b6f0a38d27911f23afa1fe26fd1800b4d200d33
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
    * **[使用原型：](using.md)** 有關使用原型和可用模組的進一步詳情
    * **[ui.frontend:](uifrontend.md)** 如何使用前端生成模組
 * **以下教程基於此原型：**
-   * **[WKND站點：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 瞭解如何啟動新網站。
+   * **[WKND站點：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** 瞭解如何啟動新網站。
    * **[WKND單頁應用：](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** 瞭解如何構建完全可在中授權的React或AngularWeb應AEM用。
 
 ## 功能 {#features}
@@ -102,7 +102,7 @@ mvn -B archetype:generate \
 
 | 原型 | AEM as a Cloud Service  | AEM 6.5 | Java SE | 馬文 |
 |---------|---------|---------|---------|---------|
-| [36](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-36) | 連續 | 6.5.7.0+ | 8、11 | 3.3.9+ |
+| [37](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-37) | 連續 | 6.5.7.0+ | 8、11 | 3.3.9+ |
 
 設定本地開發環境 [AEMas a Cloud ServiceSDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 或 [舊版本AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
 

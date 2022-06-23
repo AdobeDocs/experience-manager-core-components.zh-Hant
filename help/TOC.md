@@ -4,10 +4,10 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
+source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 67%
+source-wordcount: '248'
+ht-degree: 70%
 
 ---
 
@@ -37,12 +37,13 @@ ht-degree: 67%
    + [語言導覽](components/language-navigation.md)
    + [清單](components/list.md)
    + [導覽](components/navigation.md)
-   + [頁面](components/page.md)
+   + [Page](components/page.md)
    + [PDF 檢視器](components/pdf-viewer.md)
    + [進度列](components/progress-bar.md)
    + [快速搜尋](components/quick-search.md)
    + [分隔符號](components/separator.md)
    + [社交媒體分享](components/sharing.md)
+   + [目錄](components/tableofcontents.md)
    + [文字](components/text.md)
    + [索引標籤](components/tabs.md)
    + [Teaser](components/teaser.md)
@@ -84,7 +85,7 @@ ht-degree: 67%
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
    + [成功之路](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
    + [AMP支援](developing/amp.md)
