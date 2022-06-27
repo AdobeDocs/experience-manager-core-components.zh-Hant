@@ -3,9 +3,9 @@ title: 窗體文本元件
 description: 核心元件表單文本元件允許輸入表單文本以供提交。
 role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 6%
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
 | v2 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
-| [v1](/help/components/v1/form-text-v1.md) | 相容 | 相容 | - |
+| [v1](/help/components/v1/form-text-v1.md) | 相容 | 相容 | 相容 |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 

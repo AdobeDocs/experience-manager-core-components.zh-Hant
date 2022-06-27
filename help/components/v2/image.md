@@ -3,9 +3,9 @@ title: 影像元件(v2)
 description: 核心元件影像元件是自適應影像元件特徵就地編輯。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2092'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,6 @@ ht-degree: 0%
 
 此外，映像元件支援延遲載入，以延遲實際映像資產的載入，直到其在瀏覽器中可見為止，從而提高頁面的響應能力。
 
->[!TIP]
->
->請參閱一節 [自適應影像Servlet](#adaptive-image-servlet) 有關這些功能的更多技術詳細資訊，以及優化格式副本選擇的提示。
-
 ## Dynamic Media支援 {#dynamic-media}
 
 影像元件(截至 [發行版2.13.0](/help/versions.md))支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) 資產。 [啟用後，](#design-dialog) 這些功能提供了通過簡單的拖放功能或通過資產瀏覽器添加Dynamic Media映像資產的功能，就像您添加任何其他映像一樣。 此外，還支援影像修飾符、影像預設和智慧作物。
@@ -51,7 +47,7 @@ ht-degree: 0%
 影像元件支援可縮放向量圖形(SVG)。
 
 * 支援從DAM拖放SVG資產和從本地檔案系統上載SVG檔案。
-* 將流化原始SVG檔案的Adaptive Image Servlet流（跳過轉換）。
+* 原始SVG檔案被流式傳輸（跳過轉換）。
 * 對於SVG影像，「智慧影像」和「智慧大小」被設定為影像模型中的空陣列。
 
 ### 安全性 {#security}
@@ -60,7 +56,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->SVG支援要求2.1.0版或更高版本的核心元件以及 [服務包2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=zh-Hant) 支援AEM6.4或更高版本 [影像編輯器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) 內AEM。
+>SVG支援要求2.1.0版或更高版本的核心元件以及 [服務包2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 支援AEM6.4或更高版本 [影像編輯器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) 內AEM。
 
 ## 元件輸出示例 {#sample-component-output}
 
@@ -186,9 +182,12 @@ ht-degree: 0%
 
 此外，當作者將元件添加到頁面時，還可以定義自動或禁用哪些常規元件選項。
 
-![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main.png)
+![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main-v2.png)
 
 * **啟用DM功能**  — 選中後，啟用 [Dynamic Media特徵](#dynamic-media) 的雙曲餘切值。
+* **啟用Web優化映像**  — 選中時， [Web優化的影像傳遞服務](/help/developing/web-optimized-image-delivery.md) 將以WebP格式提供影像，平均將影像大小減少25%。
+   * 此選項僅在AEMaCS中可用。
+   * 如果未選中或Web優化映像提供服務不可用， [自適應影像Servlet](/help/developing/adaptive-image-servlet.md) 的子菜單。
 * **啟用延遲載入**  — 定義在將影像元件添加到頁面時是否自動啟用延遲載入選項。
 * **影像是裝飾性的**  — 定義在將影像元件添加到頁面時是否自動啟用裝飾影像選項。
 * **從DAM獲取替代文本** — 定義在將影像元件添加到頁面時是否自動啟用從DAM檢索替代文本的選項。
@@ -205,7 +204,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->請參閱一節 [自適應影像Servlet](#adaptive-image-servlet) 有關其功能的更多技術詳細資訊，以及通過仔細定義寬度來優化格式副本選擇的提示。
+>查看文檔 [自適應影像Servlet](#adaptive-image-servlet) 用於通過仔細定義寬度來優化格式副本選擇的提示。
 
 ### 功能頁籤 {#features-tab}
 
@@ -250,22 +249,6 @@ ht-degree: 0%
 ### 樣式頁籤 {#styles-tab-1}
 
 映像元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
-
-## 自適應影像Servlet {#adaptive-image-servlet}
-
-影像元件使用核心元件的自適應影像Servlet。 [自適應映像Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 負責影像處理和流式處理，開發人員可以利用 [核心元件的自定義](/help/developing/customizing.md)。
-
-### 優化格式副本選擇 {#optimizing-rendition-selection}
-
-Adaptive Image Servlet將嘗試根據請求的影像大小和類型選擇最佳格式副本。 建議同步定義DAM格式副本和影像元件允許的寬度，以便Adaptive Image Servlet盡可能少地處理。
-
-這將提高效能，並避免某些影像無法被底層影像處理庫正確處理。
-
->[!NOTE]
->
->通過 `Last-Modified` 頭由Adaptive Image Servlet支援，但快取的 `Last-Modified` 標題 [需要在Dispatcher中啟用](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)。
->
->[項AEM目原型](/help/developing/archetype/overview.md)的Dispatcher配置示例已包含此配置。
 
 ## Adobe客戶端資料層 {#data-layer}
 

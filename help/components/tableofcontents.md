@@ -2,9 +2,10 @@
 title: 目錄元件
 description: 目錄元件根據頁面內容中的標題建立一個ToC，使讀者能夠快速瀏覽頁面。
 role: Architect, Developer, Admin, User
-source-git-commit: 52c63ecb014e5d4fda4d166d92e8efb3163633ba
+exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -15,7 +16,11 @@ ht-degree: 1%
 
 ## 使用狀況 {#usage}
 
-「目錄」元件使站點訪問者能夠通過基於頁面內容標題生成的ToC快速瀏覽頁面內容。
+「目錄」元件使站點訪問者能夠根據頁面內容的標題通過高效生成的ToC快速瀏覽頁面內容。
+
+* ToC是生成的伺服器端。
+* 它由調度程式完全快取，以便快速交付。
+* 它適用於頁面上的所有元件，而不只是核心元件。
 
 的 [編輯對話框](#edit-dialog) 允許內容作者定義要在ToC中使用的標題範圍。 使用 [設計對話框](#design-dialog)，當內容作者將目錄元件添加到頁面時，模板作者可以設定標題的預設值，並基於類名限制包含在ToC中的標題。
 

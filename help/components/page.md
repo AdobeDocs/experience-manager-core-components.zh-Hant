@@ -3,9 +3,9 @@ title: 頁面元件
 description: 「頁面元件」是可擴展的頁面元件，旨在與模板編輯器一起使用，並允許與模板編輯器一起裝配頁眉/頁腳和結構元件。
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 |---|---|---|---|
 | v3 | - | 相容 | 相容 |
 | [v2](v2/page.md) | 相容 | 相容 | 相容 |
-| [v1](v1/page-v1.md) | 相容 | 相容 | - |
+| [v1](v1/page-v1.md) | 相容 | 相容 | 相容 |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 

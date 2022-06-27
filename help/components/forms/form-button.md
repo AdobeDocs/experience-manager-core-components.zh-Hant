@@ -3,9 +3,9 @@ title: 窗體按鈕元件
 description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
 role: Architect, Developer, Admin, User
 exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '417'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
 | v2 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
-| [v1](/help/components/v1/form-button-v1.md) | 相容 | 相容 | - |
+| [v1](/help/components/v1/form-button-v1.md) | 相容 | 相容 | 相容 |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 

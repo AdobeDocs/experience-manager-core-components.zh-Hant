@@ -3,9 +3,9 @@ title: 窗體容器元件
 description: 核心元件表單容器元件允許建立簡單提交表單。
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '955'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
 | v2 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
-| [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | - |
+| [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | 相容 |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 
