@@ -2,13 +2,13 @@
 title: Web優化的映像交付
 description: 瞭解核心元件如何AEM利用as a Cloud Service的Web優化映像交付功能更高效地提供映像。
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Web優化的映像交付 {#web-optimized-image-delivery}
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Web優化的映像交付服務是預發佈功能，2022年6月發佈的AEMas a Cloud Service預計將於7月正式發佈。
+>Web優化映像交付服務是預發佈功能，2022年6月發佈的AEMas a Cloud Service預計將於7月正式發佈。
 >
 >有關AEMaaCS的預發行功能的詳細資訊，請參閱文檔 [Adobe Experience Manager as a Cloud Service預發行頻道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
@@ -122,6 +122,6 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 不，這不該發生。
 
-* 在該HTML中，啟用Web優化影像時，標籤不會更改，只會更改影像元素上SCR屬性的值。
+* 在HTML中，啟用Web優化影像時，標籤不會更改，只會更改影像元素上SRC屬性的值。
 * 當新映像服務不可用或無法處理所需映像時，生成的URL將 [回退到Adaptive Image Servlet。](#fallback)
 * 調度器規則可以阻止網路優化的影像服務和 [激活特徵時應檢查。](#activating)
