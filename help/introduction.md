@@ -3,7 +3,7 @@ title: 核心元件簡介
 description: '獲取核心元件問題的解決方案，並允許其他人在中建立元AEM素。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
+source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 23%
@@ -107,7 +107,7 @@ ht-degree: 23%
 
 | 核心元件 版 | AEM as a Cloud Service  | AEM 6.5修補程式級別 | Java SE版本 | 馬文版本 |
 |---------|---------|---------|---------|---------|
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 連續 | 6.5.10.0+ * | 8、11 | 3.3.9+ |
+| [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 連續 | 6.5.13.0+ * | 8、11 | 3.3.9+ |
 
 >[!NOTE]
 >

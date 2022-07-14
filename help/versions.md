@@ -3,16 +3,16 @@ title: 核心元件版本
 description: 核心元件作為可能包含多個相同核心元件版本的版本發佈。 本文檔介紹哪些版本和版本以及如何瞭解與核心元件和的相容AEM性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
+source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2686'
 ht-degree: 18%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件的當前版本為2.20.0，與 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和 [本AEM地](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安裝。
+核心元件的當前版本為2.20.6，與 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和 [本AEM地](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安裝。
 
 ## 發佈歷史記錄和相容性 {#release-history-and-compatibility}
 
@@ -26,8 +26,12 @@ ht-degree: 18%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 這是修補程式版本，可修復新AEMaaCS中的問題 [web優化資產交付服務。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年6月20日 |
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本新增了 [目錄元件](/help/components/tableofcontents.md)，添加對AEMaaCS的支援 [網路優化資產交付服務，](/help/developing/web-optimized-image-delivery.md) 包括錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年6月9日 |
+| [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此修補程式版本解決了新修補程式的問題 [目錄元件。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 連續 | 8、11 | 2022年7月7日 |
+| — | — | — | — | — | — | — |
+| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 此修補程式版本解決了新修補程式的問題 [目錄元件。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 連續 | 8、11 | 2022年6月29日 |
+| — | — | — | — | — | — | — |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 這是修補程式版本，可修復新AEMaaCS中的問題 [web優化資產交付服務。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | 連續 | 8、11 | 2022年6月20日 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本新增了 [目錄元件](/help/components/tableofcontents.md)，添加對AEMaaCS的支援 [網路優化資產交付服務，](/help/developing/web-optimized-image-delivery.md) 包括錯誤修復。 | - | 6.5.13.0+ * | 連續 | 8、11 | 2022年6月9日 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 此版本將新版本添加到 [搜索元件](/help/components/quick-search.md) 和 [按鈕元件](/help/components/button.md) 以及許多輔助功能改進和錯誤修復。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年4月7日 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修復了AEMaaCS的問題。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年3月17日 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 這是修補程式版本。 | - | 6.5.10.0+ * | 連續 | 8、11 | 2022年3月3日 |
