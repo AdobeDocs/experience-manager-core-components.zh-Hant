@@ -3,7 +3,7 @@ title: Web優化的映像交付
 description: 瞭解核心元件如何AEM利用as a Cloud Service的Web優化映像交付功能更高效地提供映像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >有關AEMaaCS的預發行功能的詳細資訊，請參閱文檔 [Adobe Experience Manager as a Cloud Service預發行頻道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
-##  概觀 {#overview}
+## 概觀 {#overview}
 
 作為雲服務的Web優化AEM的映像交付功能可從 [WebP格式。](https://developers.google.com/speed/webp) WebP平均可將影像的下載大小減少約25%，從而加快頁面載入。
 
