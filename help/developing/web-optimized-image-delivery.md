@@ -3,9 +3,9 @@ title: Web優化的映像交付
 description: 瞭解核心元件如何AEM利用as a Cloud Service的Web優化映像交付功能更高效地提供映像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,6 @@ ht-degree: 0%
 # Web優化的映像交付 {#web-optimized-image-delivery}
 
 瞭解核心元件如何AEM利用as a Cloud Service的Web優化映像交付功能更高效地提供映像。
-
->[!NOTE]
->
->Web優化映像交付服務是預發佈功能，2022年6月發佈的AEMas a Cloud Service預計將於7月正式發佈。
->
->有關AEMaaCS的預發行功能的詳細資訊，請參閱文檔 [Adobe Experience Manager as a Cloud Service預發行頻道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
 ## 概觀 {#overview}
 
@@ -66,7 +60,7 @@ Web優化的影像傳送僅在AEMas a Cloud Service。 如果無法使用，例�
 
 ## 常見問題 {#faq}
 
-### 為什麼在我的環境中沒有啟用Web優化映像的此類選項？ {#missing-option}
+### 為什麼沒有選項在我的環境中啟用Web優化映像？ {#missing-option}
 
 該功能僅在AEMas a Cloud Service上可用。 本地AEM或本地運行映像元件 [倒](#fallback) 到使用Adaptive Image Servlet。
 

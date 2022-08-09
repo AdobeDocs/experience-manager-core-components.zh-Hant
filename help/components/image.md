@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自適應影像元件特徵就地編輯。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1687'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 1%
 影像元件具有強大的響應功能，即可開箱即用。 在頁面模板級別， [設計對話框](#design-dialog) 可用於定義影像資產的預設寬度。 然後，影像元件將自動載入正確的寬度以根據瀏覽器窗口的大小進行顯示。 在調整窗口大小時，影像元件會動態載入正確的影像大小。 由於映像元件已優化以載入您的內容，因此元件開發人員無需擔心定義自定義媒體查詢。
 
 此外，映像元件支援延遲載入，以延遲實際映像資產的載入，直到其在瀏覽器中可見為止，從而提高頁面的響應能力。
+
+>[!TIP]
+>
+>預設情況下，映像元件由Adaptive Image Servlet提供電源。 請參閱文檔 [自適應影像Servlet](#adaptive-image-servlet) 詳細瞭解它的工作原理。
 
 ## Dynamic Media支援 {#dynamic-media}
 
