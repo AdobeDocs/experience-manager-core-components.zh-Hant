@@ -3,7 +3,7 @@ title: 快速搜索元件
 description: 快速搜索元件為網站提供搜索功能並顯示搜索結果，以便訪問者可以搜索網站並過濾結果。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-快速搜索元件的當前版本為v1，該版本於2018年1月隨核心元件2.0.0版一同推出，本文檔對此進行了說明。
+快速搜索元件的當前版本為v2，該版本於2018年1月隨核心元件2.18.0版一同推出，本文檔對此進行了說明。
 
 下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
 

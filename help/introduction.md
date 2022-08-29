@@ -3,9 +3,9 @@ title: 核心元件簡介
 description: '獲取核心元件問題的解決方案，並允許其他人在中建立元AEM素。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '928'
 ht-degree: 23%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 23%
 * **[核心元件GitHub儲存庫：](https://github.com/adobe/aem-core-wcm-components)** 有關每個元件和項目下載的開發人員詳細資訊。
 * 立即開始:
    * **[核心元件成功：](/help/developing/success.md)** 在使用核心元件的任何項目開始之前考慮的准則。
-   * **[WKND教程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** 用於構建新站點的兩天教程。
+   * **[WKND教程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 用於構建新站點的兩天教程。
    * **[峰會教程：](https://expleague.azureedge.net/labs/L767/index.html)** 一個兩小時的教程，用於構建新站點（來自2019年美國峰會實驗室）。
    * **[Gems網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 核心元件指導教程（2018年12月錄制）。
 
@@ -73,7 +73,7 @@ ht-degree: 23%
 * [內容片段](components/content-fragment-component.md)
 * [內容片段清單](components/content-fragment-list.md)
 * [內嵌](components/embed.md)
-* [社交媒體分享](components/sharing.md)
+* [社交媒體共用](components/sharing.md) （不建議使用）
 * [分隔符號](components/separator.md)
 * [進度列](components/progress-bar.md)
 * [PDF 檢視器](components/pdf-viewer.md)

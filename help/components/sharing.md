@@ -3,9 +3,9 @@ title: 社交共用元件
 description: 核心元件社交共用元件是Facebook和Pinterest共用元件。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 2%
 # 社交共用元件{#social-sharing-component}
 
 核心元件社交共用元件是Facebook和Pinterest共用元件。
+
+>[!NOTE]
+>
+>社會共用部分已使用核心部分折舊 [2.18.0版。](/help/versions.md)
 
 ## 使用狀況 {#usage}
 
@@ -28,7 +32,7 @@ ht-degree: 2%
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
-| v1 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
+| v1 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容，不建議使用 | 相容，不建議使用 |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
 

@@ -3,9 +3,9 @@ title: 核心元件版本
 description: 核心元件作為可能包含多個相同核心元件版本的版本發佈。 本文檔介紹哪些版本和版本以及如何瞭解與核心元件和的相容AEM性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2689'
 ht-degree: 18%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 18%
 | **[影像](components/image.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
 | **[清單](components/list.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
 | **[階層連結](components/breadcrumb.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 、 v3 | v1 、 v2 、 v3 | v1 、 v2 、 v3 |
-| **[社交媒體分享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[社交媒體分享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，不建議使用 | v1，不建議使用 | v1，不建議使用 |
 | **[來自容器](components/forms/form-container.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
 | **[表單文字](components/forms/form-text.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |
 | **[表單選項](components/forms/form-options.md)** | v1 | v1 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 | v1 、 v2 |

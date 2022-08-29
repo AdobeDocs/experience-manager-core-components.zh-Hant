@@ -2,13 +2,13 @@
 title: 清單元件(v2)
 description: 核心元件清單元件允許輕鬆建立動態清單和靜態清單。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 2%
 
 ---
-
 
 # 清單元件(v2) {#list-component}
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 無論清單是如何構建的， [排序和ID選項](#sort-options) 可以始終進行配置。
 
-![列出元件的編輯對話框](/help/assets/list-edit.png)
+![列出元件的編輯對話框](/help/assets/v2/list-edit.png)
 
 根據內容作者選擇構建清單的方式，其他配置選項將發生更改。
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 該清單可由當前頁面或其他頁面的子頁面生成。
 
-![子頁面選項](/help/assets/list-edit-child-pages.png)
+![子頁面選項](/help/assets/v2/list-edit-child-pages.png)
 
 * **父頁面**
    * 其子頁應生成清單的頁
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 可以使用固定的項目清單生成清單。
 
-![固定清單選項](/help/assets/list-edit-fixed.png)
+![固定清單選項](/help/assets/v2/list-edit-fixed-list.png)
 
 點擊或按一下 **添加** 按鈕
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 可以使用內容搜索的結果來構建列AEM表。
 
-![搜索清單選項](/help/assets/list-edit-search.png)
+![搜索清單選項](/help/assets/v2/list-edit-search.png)
 
 * **搜索查詢**
 將運行全文搜索以生成清單元素的字串
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 可以使用與特定位置下的某些標籤相匹配的頁面來構建清單。
 
-![標籤清單選項](/help/assets/list-edit-tags.png)
+![標籤清單選項](/help/assets/v2/list-edit-tags.png)
 
 * **父頁**
 標籤匹配應從何處開始
@@ -128,7 +128,7 @@ ht-degree: 2%
 
 無論您選擇如何構建清單，總是可以定義某些排序選項。
 
-![排序選項](/help/assets/list-edit-sort-options.png)
+![排序選項](/help/assets/v2/list-edit-sort-options.png)
 
 * **排序依據**
 元素的排序方式
@@ -150,7 +150,7 @@ ht-degree: 2%
 
 使用「項目設定」頁籤，可以配置清單元素的格式。
 
-![項設定](/help/assets/list-edit-items.png)
+![項設定](/help/assets/v2/list-edit-item-settings.png)
 
 * **連結項**
 將項連結到相應頁
@@ -167,7 +167,7 @@ ht-degree: 2%
 
 在 **清單設定** 頁籤中，可以定義日期格式以及元件中的內容作者應使用的清單類型。
 
-![列出元件的設計對話框清單設定](/help/assets/list-design-list-settings.png)
+![列出元件的設計對話框清單設定](/help/assets/v2/list-design-list-settings.png)
 
 * **日期格式**
 用於顯示上次修改日期的格式
@@ -184,7 +184,7 @@ ht-degree: 2%
 
 在 **項設定** 頁籤中，可以定義內容作者的元件中應提供的單個清單元素的格式選項。
 
-![列出元件的設計對話框項設定](/help/assets/list-design-item-settings.png)
+![列出元件的設計對話框項設定](/help/assets/v2/list-design-item-settings.png)
 
 * **連結項**
 在中啟用連結項選項 [編輯對話框](#edit-dialog)
