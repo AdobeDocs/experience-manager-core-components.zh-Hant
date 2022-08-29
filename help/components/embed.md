@@ -3,7 +3,7 @@ title: 嵌入元件
 description: 嵌入元件可將外部內容嵌入到內AEM容頁中。
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ## 技術詳細資訊 {#technical-details}
 
-有關嵌入元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_embed_v1)。
+有關嵌入元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_embed_v2)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

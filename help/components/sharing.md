@@ -3,9 +3,9 @@ title: 社交共用元件
 description: 核心元件社交共用元件是Facebook和Pinterest共用元件。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '400'
 ht-degree: 2%
 
 ---
@@ -35,10 +35,6 @@ ht-degree: 2%
 | v1 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容，不建議使用 | 相容，不建議使用 |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
-
-## 元件輸出示例 {#sample-component-output}
-
-要體驗社交共用元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_sharing)。
 
 ### 技術詳細資訊 {#technical-details}
 

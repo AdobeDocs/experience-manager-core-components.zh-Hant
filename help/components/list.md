@@ -3,7 +3,7 @@ title: 列出元件
 description: 核心元件清單元件允許輕鬆建立動態清單和靜態清單。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 3%
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 ### 技術詳細資訊 {#technical-details}
 
-有關清單元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_list_v2)。
+有關清單元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_list_v3)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

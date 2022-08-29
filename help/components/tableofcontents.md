@@ -3,9 +3,9 @@ title: 目錄元件
 description: 目錄元件根據頁面內容中的標題建立一個ToC，使讀者能夠快速瀏覽頁面。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,6 @@ ht-degree: 1%
 | v1 | 相容 | 相容 |
 
 有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
-
-## 元件輸出示例 {#sample-component-output}
-
-要體驗「目錄」元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_tableofcontents)。
 
 ### 技術詳細資訊 {#technical-details}
 

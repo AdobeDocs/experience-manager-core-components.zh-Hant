@@ -3,7 +3,7 @@ title: 導航元件
 description: 導航元件允許用戶輕鬆導航全球化的站點結構。
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 1%
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 ## 技術詳細資訊 {#technical-details}
 
-有關導航元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_navigation_v1)。
+有關導航元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_navigation_v2)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

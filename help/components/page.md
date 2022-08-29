@@ -3,7 +3,7 @@ title: 頁面元件
 description: 「頁面元件」是可擴展的頁面元件，旨在與模板編輯器一起使用，並允許與模板編輯器一起裝配頁眉/頁腳和結構元件。
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ### 技術詳細資訊 {#technical-details}
 
-有關頁面元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_page_v2)。
+有關頁面元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_page_v3)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

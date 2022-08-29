@@ -3,7 +3,7 @@ title: 快速搜索元件
 description: 快速搜索元件為網站提供搜索功能並顯示搜索結果，以便訪問者可以搜索網站並過濾結果。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 >
 >保護搜索元件或任何基AEM於DOS的應用程式免受DOS攻擊應在更高級別實施，例如，使用 `mod_security` 調度員的電話。
 
-有關快速搜索元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_search_v1)。
+有關快速搜索元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_search_v2)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

@@ -3,7 +3,7 @@ title: 語言導航元件
 description: 語言導航元件為站點提供語言/國家/地區導航，以便訪問者可以在不同的區域環境中導航到同一頁面。
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 ## 技術詳細資訊 {#technical-details}
 
-有關語言導航元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_langnav_v1)。
+有關語言導航元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_langnav_v2)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

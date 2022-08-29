@@ -3,7 +3,7 @@ title: 影像元件
 description: 核心元件影像元件是自適應影像元件特徵就地編輯。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1687'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ### 技術詳細資訊 {#technical-details}
 
-有關映像元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_image_v2)。
+有關映像元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_image_v3)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

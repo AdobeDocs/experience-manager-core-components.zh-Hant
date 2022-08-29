@@ -3,7 +3,7 @@ title: 標題元件
 description: 核心元件標題元件是具有就地編輯功能的節標題元件。
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ### 技術詳細資訊 {#technical-details}
 
-有關標題元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_title_v2)。
+有關標題元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_title_v3)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 

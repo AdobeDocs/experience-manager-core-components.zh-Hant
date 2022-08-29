@@ -3,7 +3,7 @@ title: 下載元件
 description: 核心元件下載元件允許在頁面上建立下載選項。
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ## 技術詳細資訊 {#technical-details}
 
-有關下載元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_download_v1)。
+有關下載元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_download_v2)。
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 
