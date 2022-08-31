@@ -4,9 +4,9 @@ description: 基於應用程式AEM的項目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b6f0a38d27911f23afa1fe26fd1800b4d200d33
+source-git-commit: 01890b368b083b09b5be8a9b6efad55a5d8d4f9e
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1167'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 5%
    * **[使用原型：](using.md)** 有關使用原型和可用模組的進一步詳情
    * **[ui.frontend:](uifrontend.md)** 如何使用前端生成模組
 * **以下教程基於此原型：**
-   * **[WKND站點：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** 瞭解如何啟動新網站。
+   * **[WKND站點：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 瞭解如何啟動新網站。
    * **[WKND單頁應用：](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** 瞭解如何構建完全可在中授權的React或AngularWeb應AEM用。
 
 ## 功能 {#features}
@@ -76,7 +76,7 @@ mvn -B archetype:generate \
 | `appTitle` |  | 應用程式標題將用於網站標題和元件組(例如 `"My Site"`)。 |
 | `appId` |  | 技術名稱將用於元件、配置和內容資料夾名稱以及客戶端庫名稱(例如 `"mysite"`)。 |
 | `artifactId` | *`${appId}`* | 基Maven項目ID(例如 `"mysite"`)。 |
-| `groupId` |  | 基本Maven組ID(例如 `"com.mysite"`)。 |
+| `groupId` |  | 基本Maven組ID(例如 `"com.mysite"`)。 此值必須是 [有效的Java包名稱。](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
 | `package` | *`${groupId}`* | Java源包(例如 `"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 項目版本(例如 `1.0-SNAPSHOT`)。 |
 | `aemVersion` | `cloud` | 目AEM標版本(可以 `cloud` 為 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);或 `6.5.0`或 `6.4.4` 為 [Adobe托管服務](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或內部)。 |
