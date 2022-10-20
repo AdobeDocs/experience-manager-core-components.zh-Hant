@@ -3,9 +3,9 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
+source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2780'
 ht-degree: 18%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 18%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包含多項增強功能，包括發佈LinkHandler API、改善影像元件和資料層，以及改善多面板元件。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年9月12日 |
+| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 這是修正v1和v2問題的修補程式版本 [預告元件。](/help/components/teaser.md) | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年9月12日 |
+| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包含許多增強功能，包括發佈LinkHandler API，以及 [影像元件](/help/components/image.md) 和 [資料層、](/help/developing/data-layer/overview.md) 以及多面板元件的改善項目。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年9月12日 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修正了透過AdaptiveImageServlet傳送SVG影像的問題。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年8月4日 |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此修補程式版本修正 [目錄元件。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年7月7日 |
 | — | — | — | — | — | — | — |

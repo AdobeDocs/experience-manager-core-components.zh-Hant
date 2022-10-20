@@ -3,10 +3,10 @@ title: 核心元件簡介
 description: 取得核心元件問題的解決方案，並允許其他人在AEM中製作元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
+source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 * **[核心元件GitHub存放庫：](https://github.com/adobe/aem-core-wcm-components)** 如需每個元件和專案下載的開發人員詳細資訊。
 * 立即開始:
    * **[成功運用核心元件：](/help/developing/success.md)** 在使用核心元件的專案開始前，請先詳加考慮的准則。
-   * **[WKND教學課程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 建立新網站的為期兩天的教學課程。
+   * **[WKND教學課程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** 建立新網站的為期兩天的教學課程。
    * **[Summit教學課程：](https://expleague.azureedge.net/labs/L767/index.html)** 建立新網站的兩小時教學課程（來自2019年US Summit的Lab）。
    * **[Gems網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 核心元件的導覽（2018年12月錄制）。
 
@@ -107,7 +107,7 @@ ht-degree: 23%
 
 | 核心元件 版 | AEM as a Cloud Service  | AEM 6.5修補程式層級 | Java SE版本 | Maven版本 |
 |---------|---------|---------|---------|---------|
-| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 持續 | 6.5.13.0+ * | 8, 11 | 3.3.9+ |
+| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 持續 | 6.5.13.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ ht-degree: 23%
 
 核心元件需使用 [可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 不支援傳統UI或靜態範本。 如有需要，請查看 [AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) 使用這些現代化的AEM功能更新專案。
 
-若要設定本機開發環境，請簽出 [此AEMas a Cloud ServiceSDK概述](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 或此文檔 [適用於舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+若要設定本機開發環境，請簽出 [此AEMas a Cloud ServiceSDK概述](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或此文檔 [適用於舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 >[!TIP]
 >
