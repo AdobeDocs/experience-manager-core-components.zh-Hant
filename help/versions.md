@@ -3,7 +3,7 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
+source-git-commit: 6fd0fd045846da0d8e6f9c4753d172a9af101ba2
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 18%
@@ -30,9 +30,7 @@ ht-degree: 18%
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包含許多增強功能，包括發佈LinkHandler API，以及 [影像元件](/help/components/image.md) 和 [資料層、](/help/developing/data-layer/overview.md) 以及多面板元件的改善項目。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年9月12日 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修正了透過AdaptiveImageServlet傳送SVG影像的問題。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年8月4日 |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此修補程式版本修正 [目錄元件。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年7月7日 |
-| — | — | — | — | — | — | — |
 | [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 此修補程式版本修正 [目錄元件。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年6月29日 |
-| — | — | — | — | — | — | — |
 | [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 此為修正新AEMaaCS問題的修補程式版本 [網頁最佳化資產傳遞服務。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年6月20日 |
 | [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本新增 [目錄元件](/help/components/tableofcontents.md)，新增對AEMaaCS的支援 [網路最佳化資產傳送服務，](/help/developing/web-optimized-image-delivery.md) 和包含錯誤修正。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年6月9日 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 此版本新增版本至 [搜尋元件](/help/components/quick-search.md) 和功能 [按鈕元件](/help/components/button.md) 以及許多協助工具改善和錯誤修正。 | - | 6.5.10.0+ * | 持續 | 8, 11 | 2022年4月7日 |
