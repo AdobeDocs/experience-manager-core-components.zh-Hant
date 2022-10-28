@@ -4,10 +4,10 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
+source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 68%
+source-wordcount: '281'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 # AEM 核心元件說明 {#using}
 
 + [核心元件簡介](introduction.md)
-+ [成功之路](developing/success.md)
++ [成功路徑](developing/success.md)
 + [元件庫](https://adobe.com/go/aem_cmp_library)
 + [版本](versions.md)
 + 立即開始 {#get-started}
@@ -84,29 +84,45 @@ ht-degree: 68%
       + [標題 (v2)](components/v2/title.md)
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
-   + [成功之路](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
    + [自訂核心元件](developing/customizing.md)
    + [元件指引](developing/guidelines.md)
    + [AMP支援](developing/amp.md)
-   + [上下文感知配置](developing/context-aware-configs.md)
+   + [內容感知配置](developing/context-aware-configs.md)
    + [包括客戶端庫](developing/including-clientlibs.md)
-   + [自適應映像Servlet](/help/developing/adaptive-image-servlet.md)
-   + [Web優化的映像交付](/help/developing/web-optimized-image-delivery.md)
-   + Adobe客戶端資料層 {#data-layer}
-      + [資料層概述](developing/data-layer/overview.md)
-      + [與資料層的整合](developing/data-layer/integrations.md)
-      + [擴展資料層](developing/data-layer/extending.md)
+   + [最適化影像Servlet](/help/developing/adaptive-image-servlet.md)
+   + [Web最佳化影像傳送](/help/developing/web-optimized-image-delivery.md)
+   + Adobe用戶端資料層 {#data-layer}
+      + [資料層概觀](developing/data-layer/overview.md)
+      + [與資料層整合](developing/data-layer/integrations.md)
+      + [擴充資料層](developing/data-layer/extending.md)
    + AEM 專案原型 {#archetype}
       + [原型概述](developing/archetype/overview.md)
       + [使用原型](developing/archetype/using.md)
       + [核心模組](developing/archetype/core.md)
       + [ui.apps模組](developing/archetype/uiapps.md)
-      + [預編譯的捆綁指令碼](developing/archetype/precompiled-bundled-scripts.md)
+      + [預編譯的套件指令碼](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content模組](developing/archetype/uicontent.md)
       + [ui.frontend.general模組](developing/archetype/uifrontend.md)
       + [ui.frontend.react模組](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular模組](developing/archetype/uifrontend-angular.md)
-      + [ui.test模組](developing/archetype/uitests.md)
-      + [it.test模組](developing/archetype/ittests.md)
-      + [生成Analyzer Maven插件](developing/archetype/build-analyzer-maven-plugin.md)
+      + [ui.tests模組](developing/archetype/uitests.md)
+      + [it.tests模組](developing/archetype/ittests.md)
+      + [建置Analyzer Maven外掛程式](developing/archetype/build-analyzer-maven-plugin.md)
++ 電子郵件元件 {#email}
+   + [簡介](/help/email/introduction.md)
+   + [使用電子郵件核心元件](/help/email/using.md)
+   + [促銷活動變數](/help/email/campaign-variables.md)
+   + [版本](/help/email/versions.md)
+   + 電子郵件元件 {#components}
+      + [頁面](/help/email/components/page.md)
+      + [容器](/help/email/components/container.md)
+      + [標題](/help/email/components/title.md)
+      + [文字](/help/email/components/text.md)
+      + [影像](/help/email/components/image.md)
+      + [按鈕](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [體驗片段](/help/email/components/experience-fragment.md)
+      + [內容片段](/help/email/components/content-fragment.md)
+      + [Segmentation](/help/email/components/segmentation.md)
