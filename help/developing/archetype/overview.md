@@ -4,7 +4,7 @@ description: AEM型應用程式的專案範本
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: c817592207868284d6d9cc1c8bc0405aa50f8957
+source-git-commit: 2557a72b6bc9ea3f1fd0f73e53b5880f9b6d3ce7
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 5%
@@ -25,7 +25,7 @@ AEM專案原型是Maven範本，可建立以最佳實務為基礎的簡化Adobe 
    * **[使用原型：](using.md)** 有關使用原型的詳細資訊，以及可用的模組
    * **[ui.frontend:](uifrontend.md)** 如何使用前端構建模組
 * **下列教學課程是以此原型為基礎：**
-   * **[WKND站點：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 了解如何建立全新的網站。
+   * **[WKND站點：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** 了解如何建立全新的網站。
    * **[WKND單頁應用：](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** 了解如何建立完全可在AEM中授權的React或Angular網頁應用程式。
 
 ## 功能 {#features}
@@ -51,7 +51,7 @@ AEM專案原型是Maven範本，可建立以最佳實務為基礎的簡化Adobe 
 若要產生專案，請根據您的需求調整下列命令列：
 
 ```shell
-mvn -B archetype:generate \
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
@@ -106,7 +106,7 @@ mvn -B archetype:generate \
 |---------|---------|---------|---------|---------|
 | [39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
-設定您的本機開發環境，以 [AEMas a Cloud ServiceSDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 或 [舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+設定您的本機開發環境，以 [AEMas a Cloud ServiceSDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或 [舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 ### 已知問題 {#known-issues}
 
