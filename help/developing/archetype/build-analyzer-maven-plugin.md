@@ -4,9 +4,9 @@ description: 本機Maven建置分析器外掛程式的檔案
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: be66739084334120158eda96b830a7b6216ef5cd
+source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '710'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ AEMas a Cloud ServiceSDK建置Analyzer Maven外掛程式會分析各種內容套
 | 模組 | 函式、範例和疑難排解 | 本機SDK | Cloud Manager |
 |---|---|---|---|
 | `api-regions-exportsimports` | 檢查所有OSGI套件組合是否都有其Import-Package聲明由Maven項目中其他包含套件組合的Export-package聲明滿足。 錯誤看起來會像這樣： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is importing package(s) org.acme.foo in start level 20 but no bundle is exporting these for that start level.`<p> </p>若要進行疑難排解，請查看提供套件的套件組合是否包含在部署中，或查看您要匯出的套件組合資訊清單，以判斷使用的名稱是否錯誤或版本是否錯誤。 | 是 | 是 |
+| `bundle-unversioned-packages` | 檢查OSGi套件組合是否指定具有「匯出套件」聲明的版本，以及具有「匯入套件」聲明的版本範圍。 錯誤看起來會像這樣： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is exporting package org.acme.foo without a version.`<p> </p>若要疑難排解，請務必新增 `package-info.java` 指定要匯出的版本的套件。 | 是 | 是 |
 | `requirements-capabilities` | 檢查在OSGI套件組合中生成的所有要求聲明是否由Maven項目中包含的其他套件組合的功能聲明滿足。 錯誤看起來會像這樣： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> 若要進行疑難排解，請查看您希望聲明功能以確定為何缺少該功能的套件清單，或檢查需要套件的清單，以確認其中的要求正確。 | 是 | 是 |
 | `bundle-content` | 如果套件組合包含以Sling-Initial-Content指定的初始內容，則會發出警告，這在AEMas a Cloud Service叢集環境中會造成問題。 警告看起來像這樣： <p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found initial content : [/]` <p> </p>若要疑難排解將初始內容轉換為重新指向陳述式，請參閱重新指向檔案。 | 是 | 是 |
 | `bundle-resources` | 如果套件組合包含以Sling-Bundle-Resources標頭指定的資源，則會發出警告，這在AEMas a Cloud Service叢集環境中會造成問題。 警告看起來像這樣：<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> 若要疑難排解將資源轉換為重新指向陳述式，請參閱 [重新指向檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=en#repo-init). | 是 | 是 |
