@@ -2,11 +2,10 @@
 title: 電子郵件核心元件簡介
 description: 使用電子郵件核心元件的彈性建立引人入勝的電子郵件內容，並透過Adobe Campaign的強大功能提供。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '409'
 ht-degree: 4%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 4%
 
 使用電子郵件核心元件的彈性建立引人入勝的電子郵件內容，並透過Adobe Campaign的強大功能提供。
 
-## 總覽 {#overview}
+## 概觀 {#overview}
 
 電子郵件核心元件是以核心元件的相同強大基礎所建立。 它們可讓您以簡單、有彈性的拖放方式製作電子郵件內容，然後透過Adobe Campaign的強大功能將內容傳送給您的對象。
 
@@ -31,9 +30,9 @@ ht-degree: 4%
 
 * 核心電子郵件元件以 [核心元件、](/help/introduction.md) 因此也支援 [可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 和 [樣式系統。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
 * 有 [10個電子郵件最佳化的生產就緒元件](#components) 來製作電子郵件內容。
-* 由於在大部分的對話方塊欄位中插入Adobe Campaign變數，核心電子郵件元件可提供進階個人化。
-* 彈性的細分元件可讓您對內容進行進階細分。
-* 核心電子郵件元件可提供最佳的電子郵件友好HTML輸出，此功能 [CSS樣式內嵌，](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner) [HTML屬性內線，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) 和 [HTML消毒劑。](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizer)
+* 核心電子郵件元件可提供進階個人化，這要歸功於 [Adobe Campaign變數](campaign-variables.md) 在大多數對話方塊欄位中。
+* 靈活 [區段元件](/help/email/components/segmentation.md) 允許對您的內容進行進階細分。
+* 核心電子郵件元件可提供最佳的電子郵件友好HTML輸出，此功能 [CSS樣式內嵌，](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML屬性內線，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) 和 [HTML消毒劑。](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
 * 您可以在下方任意位置建立電子郵件內容 `/content`.
 * 電子郵件核心元件包括 [開放原始碼。](https://github.com/adobe/aem-core-email-components)
 
@@ -43,7 +42,7 @@ ht-degree: 4%
 
 | AEM | Adobe Campaign | 核心元件 |
 |---|---|---|
-| AEM 6.5.x.y（內部部署或AMS） | Adobe Campaign Classic vX<br>或<br>Adobe Campaign Standard | [第x版](/help/versions.md) 或更高 |
+| AEM 6.5.14.0+<br>內部部署或AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [版本2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >

@@ -2,9 +2,8 @@
 title: 電子郵件文字元件
 description: 電子郵件文字元件是RTF編輯和合成元件，可就地編輯。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 2%

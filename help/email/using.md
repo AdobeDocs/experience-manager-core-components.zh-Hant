@@ -2,12 +2,11 @@
 title: 使用電子郵件核心元件
 description: 了解電子郵件核心元件的基本安裝、設定和使用方式。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 2%
+source-wordcount: '653'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 2%
 
 ### 安裝核心元件 {#core-components}
 
-電子郵件核心元件是以AEM核心元件為基礎而建置。 由於核心元件未隨AEM提供，因此您必須先安裝AEM核心元件，才能安裝電子郵件核心元件。
+電子郵件核心元件是以AEM核心元件為基礎而建置。 由於核心元件未隨AEM 6.5提供，因此您必須先安裝AEM核心元件，才能安裝電子郵件核心元件。
 
 請參閱 [下載和安裝](/help/get-started/using.md#download-and-install) 使用核心元件一節，以取得如何安裝核心元件的詳細資訊。
 
@@ -80,6 +79,4 @@ ht-degree: 2%
 
 如需在AEM中建立電子郵件內容以及在Adobe Campaign中傳送的範例，請參閱下列資源。
 
-* AEMas a Cloud Service: [使用AEM建立Campaign電子報](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [協作使用Adobe Campaign Classic和Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-

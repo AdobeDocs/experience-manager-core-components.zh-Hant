@@ -2,9 +2,8 @@
 title: 電子郵件內容片段元件
 description: 電子郵件內容片段元件可讓您在內容中顯示內容片段。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%

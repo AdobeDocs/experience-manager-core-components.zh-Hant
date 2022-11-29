@@ -2,9 +2,8 @@
 title: 電子郵件宣傳預告元件
 description: 電子郵件宣傳預告元件可顯示影像、標題、RTF，以及視需要選擇地連結至其他內容。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: d6123b22-7cba-406c-986d-b6f00322d135
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 1%
