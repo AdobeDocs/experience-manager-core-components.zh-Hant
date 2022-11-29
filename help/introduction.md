@@ -3,10 +3,10 @@ title: 核心元件簡介
 description: 取得核心元件問題的解決方案，並允許其他人在AEM中製作元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 24%
+source-wordcount: '967'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 |  |  |
 |---|---|
-| 生產就緒 | 核心元件有30種強大元件，經過良好測試、廣泛使用且效能良好。 |
+| 生產就緒 | 核心元件是30個強大的WCM元件，經過良好測試、廣泛使用且效能良好。 |
 | 雲就緒 | 是否開啟 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)，在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，或內部部署，這些功能只能運作。 |
 | 多功能 | 元件代表一般概念，作者可以用這些概念組合幾乎任何版面。 |
 | 可設定 | 範本層級 [內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義頁面作者可使用或不可使用的功能。 |
@@ -47,7 +47,7 @@ ht-degree: 24%
 | 可本地化 | 智慧型參考解析度可讓特定元件尋找和 [自動呈現對應的本地化內容](get-started/localization.md). |
 | 開放來源 | 如果事情不如預期， [貢獻您的改善功能！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
-## 元件 {#the-components}
+## WCM元件 {#the-wcm-components}
 
 目前版本的核心元件主打下列元件。
 
@@ -124,3 +124,9 @@ ht-degree: 24%
 >核心元件會自動成為AEMas a Cloud Service的一部分，且您一律會有最新版的核心元件。
 >
 >請參閱 [使用核心元件](/help/get-started/using.md) 如需如何在AEMaCS和內部部署中開始使用核心元件的詳細資訊，請參閱檔案。
+
+## 其他元件 {#other-components}
+
+AEM作者可使用其他元件，這些元件是以核心元件為基礎而建置。
+
+* [電子郵件核心元件](/help/email/introduction.md)  — 探索以核心元件為基礎所建置的元件，專門與Adobe Campaign搭配使用。

@@ -4,10 +4,10 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 67%
+source-wordcount: '282'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
    + [使用核心元件編寫](get-started/authoring.md)
    + [使用核心元件](get-started/using.md)
    + [本地化功能](get-started/localization.md)
-+ 元件 {#components}
++ WCM元件 {#wcm-components}
    + [折疊式面板](components/accordion.md)
    + [階層連結](components/breadcrumb.md)
    + [按鈕](components/button.md)
@@ -82,6 +82,22 @@ ht-degree: 67%
       + [清單 (v2)](components/v2/list.md)
       + [頁面 (v2)](components/v2/page.md)
       + [標題 (v2)](components/v2/title.md)
++ 電子郵件元件 {#email}
+   + [簡介](/help/email/introduction.md)
+   + [使用電子郵件核心元件](/help/email/using.md)
+   + [促銷活動變數](/help/email/campaign-variables.md)
+   + [版本](/help/email/versions.md)
+   + 電子郵件元件 {#components}
+      + [頁面](/help/email/components/page.md)
+      + [容器](/help/email/components/container.md)
+      + [標題](/help/email/components/title.md)
+      + [文字](/help/email/components/text.md)
+      + [影像](/help/email/components/image.md)
+      + [按鈕](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [體驗片段](/help/email/components/experience-fragment.md)
+      + [內容片段](/help/email/components/content-fragment.md)
+      + [Segmentation](/help/email/components/segmentation.md)
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
    + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
@@ -110,19 +126,3 @@ ht-degree: 67%
       + [ui.tests模組](developing/archetype/uitests.md)
       + [it.tests模組](developing/archetype/ittests.md)
       + [建置Analyzer Maven外掛程式](developing/archetype/build-analyzer-maven-plugin.md)
-+ 電子郵件元件 {#email}
-   + [簡介](/help/email/introduction.md)
-   + [使用電子郵件核心元件](/help/email/using.md)
-   + [促銷活動變數](/help/email/campaign-variables.md)
-   + [版本](/help/email/versions.md)
-   + 電子郵件元件 {#components}
-      + [頁面](/help/email/components/page.md)
-      + [容器](/help/email/components/container.md)
-      + [標題](/help/email/components/title.md)
-      + [文字](/help/email/components/text.md)
-      + [影像](/help/email/components/image.md)
-      + [按鈕](/help/email/components/button.md)
-      + [Teaser](/help/email/components/teaser.md)
-      + [體驗片段](/help/email/components/experience-fragment.md)
-      + [內容片段](/help/email/components/content-fragment.md)
-      + [Segmentation](/help/email/components/segmentation.md)
