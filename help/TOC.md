@@ -4,10 +4,10 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
+source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 66%
+source-wordcount: '360'
+ht-degree: 53%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 66%
    + [促銷活動變數](/help/email/campaign-variables.md)
    + [版本](/help/email/versions.md)
    + 電子郵件元件 {#components}
-      + [頁面](/help/email/components/page.md)
+      + [Page](/help/email/components/page.md)
       + [容器](/help/email/components/container.md)
       + [標題](/help/email/components/title.md)
       + [文字](/help/email/components/text.md)
@@ -98,6 +98,30 @@ ht-degree: 66%
       + [體驗片段](/help/email/components/experience-fragment.md)
       + [內容片段](/help/email/components/content-fragment.md)
       + [Segmentation](/help/email/components/segmentation.md)
++ 調適型表單 {#adaptive-forms}
+   + [簡介](/help/adaptive-forms/introduction.md)
+   + 適用性Forms元件 {#adaptive-forms-components}
+      + [適用性Forms折疊式功能表](/help/adaptive-forms/components/accordion.md)
+      + [適用性Forms按鈕](/help/adaptive-forms/components/button.md)
+      + [適用性Forms核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+      + [適用性Forms日期選擇器](/help/adaptive-forms/components/date-picker.md)
+      + [適用性Forms下拉式清單](/help/adaptive-forms/components/drop-down.md)
+      + [適用性Forms電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+      + [適用性Forms檔案附件](/help/adaptive-forms/components/file-attachment.md)
+      + [適用性Forms水準標籤](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [適用性Forms影像](/help/adaptive-forms/components/image.md)
+      + [適用性Forms數字輸入](/help/adaptive-forms/components/number-input.md)
+      + [適用性Forms面板](/help/adaptive-forms/components/panel-container.md)
+      + [適用性Forms選項按鈕](/help/adaptive-forms/components/radio-button.md)
+      + [適用性Forms重設按鈕](/help/adaptive-forms/components/reset-button.md)
+      + [適用性Forms提交按鈕](/help/adaptive-forms/components/submit-button.md)
+      + [最適化Forms電話輸入](/help/adaptive-forms/components/telephone-input.md)
+      + [適用性Forms文字](/help/adaptive-forms/components/text.md)
+      + [適用性Forms文字方塊](/help/adaptive-forms/components/text-input.md)
+      + [適用性Forms標題](/help/adaptive-forms/components/title.md)
+      + [適用性Forms精靈版面](/help/adaptive-forms/components/wizard.md)
+      + [頁首](/help/adaptive-forms/components/header.md)
+      + [頁尾](/help/adaptive-forms/components/footer.md)
 + 開發 {#developing}
    + [開發核心元件](developing/overview.md)
    + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
