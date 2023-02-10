@@ -2,9 +2,9 @@
 title: 適用性Forms核心元件 — 標題
 description: 使用或自訂適用性Forms標題核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 1%
 
 ---
@@ -34,10 +34,11 @@ ht-degree: 1%
 
 適用性Forms標題核心元件已於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
+|  |  |
+|---|---|
 | 元件版本 | AEM as a Cloud Service  |
-|--- |--- |---|---|
+| — | --- |
 | v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
-
 如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
 
 
@@ -80,6 +81,5 @@ To experience the Accordion Component as well as see examples of its configurati
 
 此部分允許輸入要包含在標題中的文本。
 
-## 設計對話方塊 {#design-dialog}
 
 

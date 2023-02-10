@@ -2,7 +2,7 @@
 title: 適用性Forms核心元件 — 選項按鈕
 description: 使用或自訂適用性Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -44,8 +44,10 @@ ht-degree: 0%
 
 適用性Forms選項按鈕核心元件已於2023年2月發行，是核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
+|  |  |
+|---|---|
 | 元件版本 | AEM as a Cloud Service  |
-|--- |--- |---|---|
+| — | --- |
 | v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
 
 如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
@@ -80,6 +82,7 @@ To experience the Accordion Component as well as see examples of its configurati
 * **系結參考**  — 綁定引用是對資料元素的引用，該資料元素儲存在外部資料源中，並用於表單中。 系結參考可讓您將資料動態系結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，系結參考可用來根據在表單中輸入的客戶ID，在表單中顯示客戶的名稱和地址。 系結參考也可用來使用輸入表單的資料更新資料來源。 如此一來，AEM Forms便能讓您建立與外部資料來源互動的表單，為收集和管理資料提供順暢的使用者體驗。
 
 * **已提交值的資料類型**  — 此選項指定當選取任何選項時所發送值的資料類型。 若 **提交值的資料類型** 設為 `Number` 並將字串資料添加到 **資料值** &#x200B; &#x200B; **選項** 頁簽，畫面會顯示 `Value type mismatch` 錯誤訊息。
+
 * **預設選項**  — 此選項可讓您在表單載入時新增預先選取的預設值。 若 **提交值的資料類型** 設為 `Number` 並將字串資料添加到 **預設選項**，畫面會顯示 `Value type mismatch` 錯誤訊息。
 
 * **顯示選項**  — 此選項用於設定「最適化表單」中單選按鈕的視覺對齊方式。 支援的兩個選項是：
@@ -128,3 +131,4 @@ To experience the Accordion Component as well as see examples of its configurati
 **預設CSS類**:您可以為適用性Forms選項按鈕核心元件提供預設的CSS類別。
 
 **允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
+

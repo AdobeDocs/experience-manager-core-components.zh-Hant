@@ -2,9 +2,9 @@
 title: 適用性Forms核心元件 — 面板容器
 description: 使用或自訂適用性Forms面板容器核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,10 @@ ht-degree: 0%
 
 適用性Forms面板容器核心元件已於2023年2月發行，其為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
+|  |  |
+|---|---|
 | 元件版本 | AEM as a Cloud Service  |
-|--- |--- |---|---|
+| — | --- |
 | v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
 
 如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
@@ -92,7 +94,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **HTML螢幕助讀程式要宣佈的角色** -HTML角色是屬性，用於指定HTML元素用於輔助技術（如螢幕閱讀器）的用途。 角色屬性用於為元素提供附加的上下文和語義，使得螢幕閱讀器更容易解譯內容並向用戶通告內容。 例如，在AEM Forms中，表單欄位的標籤可能具有「label」角色，其輸入欄位可能具有「textbox」角色。 這可協助螢幕助讀程式了解標籤和輸入欄位之間的關係，並正確地向使用者宣告。
 
-## 設計對話方塊 {#design-dialog}
 
 
 

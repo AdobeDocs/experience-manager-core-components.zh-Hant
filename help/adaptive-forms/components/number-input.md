@@ -2,7 +2,7 @@
 title: 適用性Forms核心元件 — 數字輸入
 description: 使用或自訂適用性Forms數字輸入核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 6ea000f9259e9478ee3c0923ac35af7814e184d9
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 0%
@@ -39,8 +39,10 @@ ht-degree: 0%
 
 適用性Forms數字輸入核心元件已於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
+|  |  |
+|---|---|
 | 元件版本 | AEM as a Cloud Service  |
-|--- |--- |---|---|
+| — | --- |
 | v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
 
 如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
@@ -93,6 +95,7 @@ To experience the Accordion Component as well as see examples of its configurati
 * **排除最小值**  — 如果您不想在 **最小數字/最小數字** 要在表單欄位中輸&#x200B;入的值範圍中。
 
 * **最高數/最大數**  — 使用此選項選擇要在表單欄位中輸入的最大允許數量。 如果數字大於 **最高數/最大數** 在「表單」欄位中輸入「 」選項，則會顯示錯誤訊息。
+
 * **最大錯誤消息**  — 此選項可讓您輸入錯誤訊息，當使用者輸入大於 **最高數/最大數** 選項。
 
 * **排除最大值**  — 如果您不想在 **最高數/最大數** 要在表單欄位中輸入的值範圍中包含的選項。
