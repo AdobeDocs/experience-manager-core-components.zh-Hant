@@ -2,7 +2,7 @@
 title: 適用性Forms核心元件 — 面板容器
 description: 使用或自訂適用性Forms面板容器核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
+source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 0%

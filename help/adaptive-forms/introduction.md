@@ -2,9 +2,9 @@
 title: AEM適用性Forms核心元件簡介
 description: 利用適用性Forms核心元件的彈性，建立引人入勝的註冊體驗（表單），並運用Adobe Experience Manager的強大功能提供。
 role: Architect, Developer, Admin, User
-source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
+source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1028'
 ht-degree: 3%
 
 ---
@@ -40,11 +40,14 @@ ht-degree: 3%
 | 雲就緒 | 適用於  [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | 多功能 | 元件代表一般概念，Forms作者可用這些概念組合幾乎任何版面。 |
 | 可設定 | 範本層級 [內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義允許或不允許使用的功能。 |
-| 易於取得 | 他們遵守 [WCAG 2.1標準](https://www.w3.org/TR/WCAG21/)，提供ARIA標籤，支援鍵盤導覽([已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))和文字，以取得輔助技術，例如螢幕閱讀器。 |
+| 易於取得 | 它們提供ARIA標籤，支援鍵盤導覽([已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))和文字，以取得輔助技術，例如螢幕閱讀器。 |
 | 主題 | 元件會實作 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，標籤如下 [BEM CSS慣例](https://getbem.com/). |
 | 可自訂 | 從調整HTML到高級功能重複使用，多種模式都允許輕鬆定制。 |
 | 版本設定 | 此 [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 確保核心元件在改善可能影響您的項目時不會破壞您的網站。 |
 | 開放來源 | 如果有事不如預期，請協助您改善。 |
+
+<!-- comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), -->
+
 
 ## 優點 {#benefits}
 
@@ -62,17 +65,22 @@ ht-degree: 3%
 
 * **更輕鬆設定樣式**:核心元件的樣式比基礎元件相對應項目更輕鬆。 主題建立程式與Sites類似，可從上層Sites頁面繼承相同的主題/CSS。 此外，樣式的BEM模型可讓您更輕鬆了解和修改樣式。
 
-* **協助工具**:適用性Forms核心元件支援協助工具標準和准則，例如  [WCAG 2.1標準](https://www.w3.org/TR/WCAG21/)，確保殘疾人（包括使用輔助技術的人，例如螢幕閱讀器）能使用表單。
+* **協助工具**:適用性Forms核心元件支援協助工具標準和指引，以確保殘疾人（包括使用輔助技術的人）能使用表單，例如螢幕閱讀器
 
-* **與AEM Sites對齊**:核心元件的設計目的是更符合AEM Sites，讓Sites使用者更容易採用和使用，而不需學習任何新功能。 元件使用與Sites相同的前端管道，可更輕鬆地設定樣式和修改外觀。 此外，以下幾點進一步說明了此對齊方式：
 
-   * **內嵌於頁面編輯器中的製作體驗**:核心元件的製作體驗內嵌於Sites編輯器中，具有與頁面編輯器類似的對話方塊和其他體驗。 這可讓Sites使用者更輕鬆地在熟悉的Sites編輯器內容中建立和管理表單。
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
-   * **在Sites編輯器中編輯內嵌表單**:核心元件可讓Sites編輯器內嵌表單編輯作業，避免編輯器之間往返切換。 這可簡化製作體驗，並更輕鬆建立和管理表單。
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
 
-   * **繼承Forms中的Sites功能**:在Sites頁面中撰寫的Forms會繼承與Sites相同的功能。 這可提供順暢且整合的體驗，讓您在AEM Sites中建立和管理表單
+<!-- Additionally, the following points further illustrate this alignment:
 
-   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
 
 
