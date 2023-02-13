@@ -2,7 +2,7 @@
 title: 適用性Forms核心元件 — 標題
 description: 使用或自訂適用性Forms標題核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 1%
@@ -40,8 +40,10 @@ ht-degree: 1%
 
 適用性Forms標題核心元件已於2023年2月發行，其為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
+|  |  |
+|---|---|
 | 元件版本 | AEM as a Cloud Service  |
-|--- |--- |---|---|
+| — | --- |
 | v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
 
 如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。

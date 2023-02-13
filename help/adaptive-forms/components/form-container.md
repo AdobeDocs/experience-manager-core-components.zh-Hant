@@ -2,9 +2,9 @@
 title: 適用性Forms核心元件 — 表單容器
 description: 新增最適化表單至網頁。
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,10 @@ Forms可讓網站訪客透過提供有價值的資訊與網站互動，進而提
 
 適用性Forms容器核心元件已於2023年2月發行，其為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
+|  |  |
+|---|---|
 | 元件版本 | AEM as a Cloud Service  |
-|--- |--- |---|---|
+| — | --- |
 | v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
 
 如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
@@ -72,6 +74,7 @@ To experience the Accordion Component as well as see examples of its configurati
 ![提交標籤](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 使用者可針對適用性表單提交設定不同的動作。
+
 * **重新導向URL/路徑**  — 此選項可讓使用者為每個表單設定一個頁面，在提交最適化表單後，系統會將使用者重新導向至該頁面。 按一下這裡以取得 [如何配置重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![顯示消息頁簽](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **提交動作**  — 使用者按一下適用性表單上的「提交」按鈕時，會觸發「提交動作」。 使用者可從現成支援的下拉式清單中選取「提交動作」 。 了解如何 [在「提交」標籤中設定提交動作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## 設計對話方塊 {#design-dialog}
 
 
 
