@@ -4,7 +4,7 @@ description: AEM型應用程式的專案範本
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 2557a72b6bc9ea3f1fd0f73e53b5880f9b6d3ce7
+source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 5%
@@ -89,7 +89,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 | `includeExamples` | `n` | 包括 [元件庫](https://www.aemcomponents.dev/) 網站範例(可 `y`，或 `n`)。 |
 | `includeErrorHandler` | `n` | 包含對整個執行個體具有全域性的自訂404回應頁面(可以是 `y` 或 `n`)。 |
 | `includeCommerce` | `n` | 包含 [CIF核心元件](https://github.com/adobe/aem-core-cif-components) 相依性並產生對應的成品。 |
-| `commerceEndpoint` |  | 僅CIF為必要。 要使用的商務系統GraphQL服務的可選端點(例如 `https://hostname.com/grapql`)。 |
+| `commerceEndpoint` |  | 僅CIF為必要。 要使用的商務系統GraphQL服務的選用端點(例如 `https://hostname.com/grapql`)。 |
 | `includeFormscommunications` | `n` | 包含 [Forms核心元件](https://github.com/adobe/aem-core-forms-components) 相依性、範本、表單資料模型、主題，以及為Forms通訊程式產生對應的成品。 |
 | `includeFormsenrollment` | `n` | 包含 [Forms核心元件](https://github.com/adobe/aem-core-forms-components) 相依性、範本、表單資料模型、主題，以及為Forms註冊方案產生對應的成品。 |
 | `sdkFormsVersion` | `latest` | 當 `aemVersion=cloud` 和 `includeFormsenrollment=y` 或 `includeFormscommunications=y`，則可指定Forms SDK版本(例如 `2020.12.17.02`)。 |
@@ -104,7 +104,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 原型 | AEM as a Cloud Service  | AEM 6.5 | Java SE | 馬文 |
 |---------|---------|---------|---------|---------|
-| [39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [40](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-40) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 設定您的本機開發環境，以 [AEMas a Cloud ServiceSDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或 [舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
