@@ -1,127 +1,123 @@
 ---
-title: 預告元件
-description: 該預告元件可以顯示影像、標題、富格文本以及可選地連結到其它內容。
+title: Teaser元件
+description: 預告元件可顯示影像、標題、RTF，以及可選地連結至其他內容。
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '988'
 ht-degree: 6%
 
 ---
 
-# 預告元件 {#teaser-component}
+# Teaser元件 {#teaser-component}
 
-核心元件預告元件可以顯示影像、標題、富格文本，並可選地連結到其他內容。
+核心元件預告元件可顯示影像、標題、RTF，以及視需要連結至其他內容。
 
 ## 使用狀況 {#usage}
 
-該預告元件允許內容作者使用影像、標題或富格文本容易地建立預告，以進一步內容，並連結到其他內容或其他動作。
+預告元件可讓內容作者使用影像、標題或RTF來輕鬆建立預告以進一步內容，並連結至更多內容或其他動作。
 
-模板作者可以使用 [設計對話框](#design-dialog) 定義建立「呼叫操作」和添加連結的選項是否可用以及禁用各種顯示選項。 內容作者可以使用 [配置對話框](#configure-dialog) 要設定影像，請定義CTA、設定標題和說明，以及配置指向單個預告的連結。 的 [編輯對話框](image.md#edit-dialog) 的 [影像元件](image.md) 可訪問以修改預激影像。
+範本作者可使用 [設計對話](#design-dialog) 來定義建立動作呼叫和新增連結的選項是否可用，以及停用各種顯示選項。 內容作者可使用 [配置對話框](#configure-dialog) 若要設定影像，請定義CTA、設定標題和說明，以及設定個別預告的連結。 此 [編輯對話框](image.md#edit-dialog) 的 [影像元件](image.md) 可以存取以修改預告影像。
 
-## 版本和相容性 {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
-當前版本的Teaser元件是v2，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+目前的預告元件版本為v2，此版本於2022年2月2.18.0版核心元件推出，本檔案將加以說明。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|---|
 | v2 | - | 相容 | 相容 |
 | [v1](v1/teaser.md) | 相容 | 相容 | 相容 |
 
-## 元件輸出示例 {#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
-要體驗預告元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_teaser)。
+若要體驗預告元件，並查看其設定選項、HTML和JSON輸出的範例，請造訪 [元件庫](https://adobe.com/go/aem_cmp_library_teaser).
 
 ### 技術詳細資訊 {#technical-details}
 
-有關預告元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_teaser_v1)。
+有關Teaser元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_teaser_v1).
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
 ## 配置對話框 {#configure-dialog}
 
-內容作者可以使用配置對話框來定義單個預告的屬性。 還有 [編輯對話框](#edit-dialog) 修改預激影像。
+內容作者可使用設定對話方塊來定義個別預告的屬性。 此外， [編輯對話框](#edit-dialog) 修改預告影像（如果已選取）。
 
-### 連結頁籤 {#links-tab}
+### 連結標籤 {#links-tab}
 
-![預告元件的編輯對話框連結頁籤](/help/assets/teaser-edit-links.png)
+![Teaser元件的編輯對話方塊連結索引標籤](/help/assets/teaser-edit-links.png)
 
 Teaser 標題、說明和影像可以從所連結的頁面繼承，也可以從第一個行動號召中所連結的頁面繼承。如果連結或行動號召都未指定，則會從當前的頁面繼承標題、說明和影像。
 
-* **連結**  — 此檔案連結到內容頁、外部URL或頁面錨點。
-* **在新頁籤中開啟連結**  — 如果啟用，連結將在新瀏覽器頁籤中開啟。
-* **行動要求**  — 此選項允許連結到多個目標。
-   * 在繼承預告標題、說明或影像時，將使用第一個操作調用中連結的頁面。
+* **連結**  — 此檔案連結至內容頁面、外部URL或頁面錨點。
+* **在新索引標籤中開啟連結**  — 如果已啟用，連結會在新的瀏覽器標籤中開啟。
+* **動作呼叫**  — 此選項可連結至多個目的地。
+   * 繼承預告標題、說明或影像時，會使用第一個動作呼叫中連結的頁面。
 
-### 文本頁籤 {#text-tab}
+### 文字索引標籤 {#text-tab}
 
-![預告元件的編輯對話框文本頁籤](/help/assets/teaser-edit-text.png)
+![Teaser元件的編輯對話框文本頁簽](/help/assets/teaser-edit-text.png)
 
-* **前標題**  — 預標題將顯示在預告標題之前。
-* **標題**  — 定義要顯示為預告標題的標題。
-   * **從連結頁面獲取標題**  — 選中後，標題將填充連結頁面的標題。
+* **前置標題**  — 預先標題會顯示在預告標題之前。
+* **標題**  — 定義標題，以顯示為預告的標題。
+   * **從連結的頁面取得標題**  — 若勾選此選項，標題將會填入連結頁面的標題。
 * **說明**  — 定義要顯示為預告子標題的說明。
-   * **從連結頁面獲取描述**  — 選中後，將使用連結頁面的說明填充說明。
-* **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
-   * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
-   * 如果指定了ID，則作者有責任確保其唯一。
-   * 更改ID可能會影響CSS、JS和資料層跟蹤。
+   * **從連結的頁面取得說明**  — 若勾選此選項，描述將會填入連結頁面的說明。
+* **ID**  — 此選項可控制HTML中和 [資料層](/help/developing/data-layer/overview.md).
+   * 若保留為空白，系統會自動為您產生唯一ID，並且可透過檢查產生的頁面來找到。
+   * 若已指定ID，則作者應負責確認其唯一。
+   * 變更ID可能會影響CSS、JS和資料層追蹤。
 
 ### 資產標籤 {#asset-tab}
 
-![預告元件的編輯對話框影像頁籤](/help/assets/teaser-edit-image.png)
+![Teaser元件的編輯對話方塊影像索引標籤](/help/assets/teaser-edit-image.png)
 
-* **從頁面繼承特色影像**  — 使用連結頁面或當前頁面的頁面屬性中定義的影像（如果找不到）。
-* **影像資產**  — 從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或點擊 **瀏覽** 從本地檔案系統上載。
-   * 點擊或按一下 **清除** 來取消選擇當前選定的映像。
-   * 點擊或按一下 **編輯** 至 [管理資產的格式副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 的子菜單。
-* **輔助工具的備選文本**  — 此欄位允許您為視力受損的用戶定義影像描述。
-   * **從頁面繼承備選文本**  — 此選項使用連結資產值的替代說明 `dc:description` DAM中的元資料，或當前頁的元資料（如果未連結任何資產）。
-* **不提供替代文本**  — 此選項標籤要被螢幕閱讀器等輔助技術忽略的影像，在這些情況下，影像純粹是裝飾性的，或者沒有向頁面傳送其他資訊。
+* **從頁面繼承精選影像**  — 使用在連結頁面或目前頁面的頁面屬性中定義的影像（若找不到）。
+* **影像資產**  — 從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或點選 **瀏覽** 從本機檔案系統上傳的選項。
+   * 點選或按一下 **清除** 以取消選取目前選取的影像。
+   * 點選或按一下 **編輯** to [管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 在資產編輯器中。
+* **協助工具的替代文字**  — 此欄位可讓您為視覺障礙使用者定義影像說明。
+   * **從頁面繼承替代文字**  — 此選項使用 `dc:description` 中繼資料（若未連結任何資產）。
+* **不提供替代文本**  — 如果影像純粹是裝飾性的，或未傳達其他資訊至頁面，此選項會標籤要由輔助技術（例如螢幕閱讀器）忽略的影像。
 
->[!NOTE]
->
->[Dynamic Media特徵](image.md#dynamic-media) 當前在預激元件中不可用。
+### 樣式標籤 {#styles-tab-edit}
 
-### 樣式頁籤 {#styles-tab-edit}
+![預告清單元件的編輯對話框的樣式頁簽](/help/assets/teaser-edit-styles.png)
 
-![預告清單元件的編輯對話框的「樣式」頁籤](/help/assets/teaser-edit-styles.png)
+Teaser元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling).
 
-預告元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
+使用下拉式清單選取您要套用至元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
 
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
+必須針對此元件在 [設計對話](#design-dialog) 讓下拉式功能表可供使用。
 
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
+## 編輯對話方塊 {#edit-dialog}
 
-## 編輯對話框 {#edit-dialog}
+預告元件會將影像呈現委派至 [影像元件](image.md). 因此， [編輯對話框](內容作者可使用影像元件的image.md#edit-dialog來操控預告影像。
 
-「預測元件」將影像渲染委託到 [影像元件](image.md)。 因此 [編輯對話框](影像元件的image.md#edit-dialog可用於內容作者操作預告影像。
+## 設計對話方塊 {#design-dialog}
 
-## 設計對話框 {#design-dialog}
+設計對話方塊可讓範本作者定義內容作者使用此元件時具有的宣傳預告選項。
 
-設計對話框允許模板作者定義內容作者在使用此元件時具有的預告選項。
+### Teaser標籤 {#teaser-tab}
 
-### 預告頁籤 {#teaser-tab}
-
-![「預測元件」的設計對話框](/help/assets/teaser-design.png)
+![預告元件的設計對話框](/help/assets/teaser-design.png)
 
 * **呼叫動作**
-   * **禁用呼叫操作**  — 隱藏 **行動要求** 內容作者選項
+   * **停用呼叫動作**  — 隱藏 **呼叫動作** 內容作者選項
 * **元素**
-   * **隱藏前標題**  — 隱藏 **前標題** 內容作者選項
+   * **隱藏首頁**  — 隱藏 **前置標題** 內容作者選項
    * **隱藏標題**  — 隱藏 **標題** 內容作者選項
-      * 選中時 **標題類型** 隱藏
+      * 選取 **標題類型** 隱藏
    * **隱藏說明**  — 隱藏 **說明** 內容作者選項
-* **預設標題類型**  — 定義預告標題使用的H標籤。
-* **影像委託**  — 資訊顯示，指示預告委託影像處理的元件。
+* **預設標題類型**  — 定義預告標題要使用的H標籤。
+* **影像委派**  — 資訊顯示，指出Teaser委派影像處理的元件。
 
-### 樣式頁籤 {#styles-tab}
+### 樣式標籤 {#styles-tab}
 
-預告元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
+Teaser元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-## Adobe客戶端資料層 {#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
-預告元件支援 [Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
+Teaser元件支援 [Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
