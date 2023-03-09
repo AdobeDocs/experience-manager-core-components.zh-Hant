@@ -3,9 +3,9 @@ title: 核心元件版本
 description: 核心元件會發佈為發行版本，其中可能包含相同核心元件的多個版本。 本檔案說明哪些版本和版本，以及如何了解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2873'
 ht-degree: 18%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 18%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本推出 [清單元件](/help/components/list.md) 以及 [Teaser](/help/components/teaser.md) 及更新 [PDF檢視器。](/help/components/pdf-viewer.md) | - | 6.5.14.0+ * | 持續 | 8, 11 | 2023年2月9日 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本推出 [清單元件](/help/components/list.md) 以及 [Teaser](/help/components/teaser.md) 及更新 [PDF檢視器](/help/components/pdf-viewer.md) 和 [輪播](/help/components/carousel.md) | - | 6.5.14.0+ * | 持續 | 8, 11 | 2023年2月9日 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 這是修正v1和v2問題的修補程式版本 [預告元件。](/help/components/teaser.md) | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年9月12日 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包含許多增強功能，包括發佈LinkHandler API，以及 [影像元件](/help/components/image.md) 和 [資料層、](/help/developing/data-layer/overview.md) 以及多面板元件的改善項目。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年9月12日 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修正了透過AdaptiveImageServlet傳送SVG影像的問題。 | - | 6.5.13.0+ * | 持續 | 8, 11 | 2022年8月4日 |

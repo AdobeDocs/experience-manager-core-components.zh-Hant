@@ -1,134 +1,154 @@
 ---
-title: 旋轉木馬元件
-description: 「旋轉旋轉旋轉旋轉旋轉旋轉旋轉旋轉旋轉旋轉旋轉旋轉旋轉。
+title: 轉盤元件
+description: 轉盤元件可讓內容作者以旋轉轉盤呈現內容。
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 0%
+source-wordcount: '1312'
+ht-degree: 1%
 
 ---
 
-# 旋轉木馬元件{#carousel-component}
+# 轉盤元件{#carousel-component}
 
-核心元件旋轉傳送器元件允許內容作者在可導航旋轉傳送器中呈現內容。
+核心元件轉盤元件可讓內容作者在可導覽的轉盤中呈現內容。
 
 ## 使用狀況 {#usage}
 
-內容作者使用「旋轉旋轉旋轉的旋轉旋轉的旋轉旋轉的旋轉旋轉旋轉的旋轉旋轉旋轉的旋轉旋轉旋轉的旋轉旋轉旋轉的旋轉旋轉旋轉旋轉的旋轉旋轉旋轉旋轉的旋轉旋轉旋轉旋轉。
+內容作者可使用轉盤元件，在旋轉的投影片轉盤中組織內容。
 
-的 [編輯對話框](#edit-dialog) 允許內容作者建立、命名和訂購多張幻燈片，並允許延遲自動轉換。 使用 [設計對話框](#design-dialog)，模板作者可以定義哪些元件可以添加到旋轉傳送器中，啟用或禁用自動過渡，以及自定義樣式。
+此 [編輯對話框](#edit-dialog) 可讓內容作者建立、命名和排序多張投影片，並啟用延遲的自動轉換。 使用 [設計對話](#design-dialog)，範本作者可定義可新增至輪播的元件、啟用或停用自動轉變，以及自訂樣式。
 
-## 版本和相容性 {#version-and-compatibility}
+## 版本與相容性 {#version-and-compatibility}
 
-當前版本的Carousel元件是v1，該版本於2018年10月隨核心元件2.2.0版一同推出，本文檔對此進行了說明。
+轉盤元件的目前版本為v1，已於2018年10月隨核心元件2.2.0版推出，本檔案將加以說明。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
+下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
-| v1 | 相容<br>[發行版2.17.4](/help/versions.md) 和 | 相容 | 相容 |
+| v1 | 相容於<br>[版本2.17.4](/help/versions.md) 和之前 | 相容 | 相容 |
 
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+如需核心元件版本和版本的詳細資訊，請參閱本檔案 [核心元件版本](/help/versions.md).
 
-## 元件輸出示例 {#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
-要體驗Carousel元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_carousel)。
+若要體驗轉盤元件並查看其設定選項的範例以及HTML和JSON輸出，請造訪 [元件庫](https://adobe.com/go/aem_cmp_library_carousel).
 
 ### 技術詳細資訊 {#technical-details}
 
-有關旋轉傳送元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_carousel_v1)。
+輪播元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_carousel_v1).
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
-## 編輯對話框 {#edit-dialog}
+## 面板的深層連結 {#deep-linking}
 
-編輯對話框允許內容作者添加、更名和重新排列幻燈片，並定義自動轉換設定。
+轉盤， [標籤，](tabs.md) 和 [折疊式功能表元件](accordion.md) 支援直接連結至元件內的面板。
 
-### 項目頁籤 {#items-tab}
+要執行此操作：
 
-![「旋轉軸元件」的「編輯」(Edit)對話框的「項目」(Items)頁籤](/help/assets/carousel-edit-items.png)
+1. 使用檢視包含元件的頁面 **[檢視為已發佈](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 選項。
+1. Inspect頁面內容並識別面板ID。
+   * 例如 `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. 此ID會成為您可使用雜湊附加至URL的錨點(`#`)。
+   * 例如 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
-使用 **添加** 的子菜單。 添加後，將向清單中添加一個條目，該清單包含以下列：
+導覽至面板ID為錨點的URL，瀏覽器將直接捲動至特定元件並顯示指定的面板。 如果面板設定為預設不顯示，則會自動捲動至。
 
-* **表徵圖**  — 頁籤的元件類型表徵圖，便於在清單中進行標識。 將滑鼠移到工具提示中，以查看完整的元件名稱。
-* **說明**  — 用作頁籤文本的說明，預設為為頁籤選擇的元件的名稱。
-* **刪除**  — 點擊或按一下以從頁籤元件中刪除頁籤。
-* **重新排序**  — 點擊或按一下並拖動以訂購頁籤。
+## 編輯對話方塊 {#edit-dialog}
+
+編輯對話方塊可讓內容作者新增、重新命名和重新排列投影片，以及定義自動轉變設定。
+
+### 項目標籤 {#items-tab}
+
+![轉盤元件編輯對話方塊的「項目」索引標籤](/help/assets/carousel-edit-items.png)
+
+使用 **新增** 按鈕，開啟元件選取器以選擇要新增為索引標籤的元件。 新增後，會將項目新增至清單，其中包含下列欄：
+
+* **圖示**  — 頁簽的元件類型表徵圖，以便在清單中輕鬆識別。 將滑鼠移至以顯示完整的元件名稱，作為工具提示。
+* **說明**  — 用作標籤文本的說明，預設為為標籤選擇的元件的名稱。
+* **刪除**  — 點選或按一下，從標籤元件中刪除標籤。
+* **重新排序**  — 點選或按一下並拖曳以排序標籤。
 
 >[!TIP]
 >
->如果縮小頁面的視區，使編輯對話框變為全屏， **添加** 按鈕。 元件仍可以通過 [從元件瀏覽器中拖動，然後放在頁面編輯器中的「旋轉軸元件」上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)。
+>如果頁面的檢視區縮小，使編輯對話方塊變成全螢幕，則 **新增** 按鈕。 元件仍可依下列方式新增至轉盤元件： [從元件瀏覽器拖曳，並拖放至頁面編輯器中的轉盤元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
-### 屬性頁籤 {#properties-tab}
+### 屬性標籤 {#properties-tab}
 
-![「旋轉軸元件」的「編輯」對話框的「屬性」頁籤](/help/assets/carousel-edit-properties.png)
+![輪播元件的編輯對話方塊的屬性標籤](/help/assets/carousel-edit-properties.png)
 
-在 **屬性** 頁籤，內容作者可以將幻燈片設定為自動轉換。
+在 **屬性** 頁簽，內容作者可以將投影片設定為自動轉變。
 
-* **自動轉換幻燈片**  — 活動時，元件將在指定延遲後自動進入下一張幻燈片。
-* **過渡延遲**  — 選中「自動轉換」幻燈片時，此值用於定義轉換之間的延遲（以毫秒為單位）。
-* **在懸停時禁用自動暫停**  — 時間 **自動轉換幻燈片** 選中後，當游標懸停在旋轉盤上時，旋轉盤過渡將自動暫停。 選擇此選項，以便過渡不會暫停。
-* **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
-   * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
-   * 如果指定了ID，則作者有責任確保其唯一。
-   * 更改ID可能會影響CSS、JS和資料層跟蹤。
+* **活動項**  — 內容作者可定義載入頁面時作用中的索引標籤。
+* **自動轉換幻燈片**  — 活動時，元件在指定的延遲後自動前進到下一張幻燈片。
+* **轉換延遲**  — 選取「自動轉變」投影片時，此值用於定義轉變之間的延遲（以毫秒為單位）。
+* **停用暫留時的自動暫停**  — 何時 **自動轉換幻燈片** 選取時，當游標停留在輪播上時，輪播轉變會自動暫停。 選取此選項，使轉變不會暫停。
+* **ID**  — 此選項可控制HTML中和 [資料層](/help/developing/data-layer/overview.md).
+   * 若保留為空白，系統會自動為您產生唯一ID，並且可透過檢查產生的頁面來找到。
+   * 若已指定ID，則作者應負責確認其唯一。
+   * 變更ID可能會影響CSS、JS和資料層追蹤。
 
 >[!NOTE]
 >
->在中時不啟用幻燈片預放控制項 **編輯** 的子菜單。 使用 [**預覽** 模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) 或 **[查看為已發佈](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 選項，作為已發佈內容的讀者與旋轉傳送帶進行交互。
+>在中時，不會啟用幻燈片預先控制項 **編輯** 模式。 使用 [**預覽** 模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) 或 **[檢視為已發佈](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 選擇以已發佈內容讀者身分與轉盤互動。
 >
->在中時不啟用自動高級功能 **編輯** 的子菜單。 使用 **[查看為已發佈](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 的子菜單。
+>自動進階功能在 **編輯** 模式。 使用 **[檢視為已發佈](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 選項，以閱讀已發佈內容的方式查看自動進階功能。
 
-### 輔助功能頁籤 {#accessibility-tab}
+### 協助工具標籤 {#accessibility-tab}
 
-![「旋轉傳送元件」的「編輯」對話框的「輔助功能」頁籤](/help/assets/carousel-edit-accessibility.png)
+![轉盤元件編輯對話方塊的協助工具標籤](/help/assets/carousel-edit-accessibility.png)
 
-在 **輔助功能** 頁籤，可為 [ARIA輔助功能](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。
+在 **協助工具** 索引標籤中，可為 [ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。
 
-* **標籤**  — 元件的ARIA標籤屬性的值
+* **標籤**  — 輪播的aria-label屬性的值，用於描述輪播的內容
+* **上一個**  — 輪播導覽的上一個按鈕標籤的aria-label屬性值
+* **下一個**  — 輪播導覽下一個按鈕標籤的aria-label屬性值
+* **播放**  — 輪播導覽的播放按鈕標籤的aria-label屬性值
+* **暫停**  — 輪播導覽的暫停按鈕標籤的aria-label屬性值
+* **塔布利特**  — 輪播導覽項目清單標籤的aria-label屬性值
+* **將項目的Aria標籤設定為其標題**  — 如果勾選此選項，系統會自動將轉盤項目標題設為其標籤說明。
 
 ## 選擇面板 {#select-panel}
 
-內容作者可以使用 **選擇面板** 按鈕，將選定控制項在Tab鍵次序中上移一個位置。
+內容作者可使用 **選擇面板** 選項，以更改為不同的幻燈片進行編輯，並輕鬆重新排列幻燈片的順序。
 
-![「選擇面板」表徵圖](/help/assets/select-panel-icon.png)
+![「選擇」面板表徵圖](/help/assets/select-panel-icon.png)
 
-選擇 **選擇面板** 選項中，所配置的幻燈片將顯示為下拉框。
+選取 **選擇面板** 選項，則配置的幻燈片將顯示為下拉清單。
 
-* 清單按幻燈片的指定排列排序，並反映在編號中。
-* 首先顯示幻燈片的元件類型，然後以較淺字型顯示幻燈片的說明。
+* 清單按幻燈片的分配排列排序，並反映在編號中。
+* 首先顯示幻燈片的元件類型，然後以較淺的字型顯示幻燈片的說明。
 
 ![選取面板](/help/assets/select-panel-popover.png)
 
-* 點擊或按一下下拉清單中的條目，將編輯器中的視圖切換到該幻燈片。
+* 點選或按一下下拉式清單中的項目，將編輯器中的檢視切換至該投影片。
 * 可使用拖動控制滑塊就地重新排序幻燈片。
 
-## 設計對話框 {#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
-設計對話框允許模板作者定義哪些元件可以作為幻燈片添加到旋轉傳送元件中，以及定義自動轉換預設值以及哪些自定義樣式可供內容作者使用。
+設計對話方塊可讓範本作者定義哪些元件可新增為轉盤元件的投影片，以及定義自動轉換預設值和哪些自訂樣式可供內容作者使用。
 
-### 屬性頁籤 {#properties-tab-1}
+### 屬性標籤 {#properties-tab-1}
 
-的 **屬性** 頁籤用於定義內容作者將旋轉傳送元件添加到頁面時幻燈片過渡的預設設定。
+此 **屬性** 索引標籤可用來定義內容作者將輪播元件新增至頁面時投影片轉變的預設設定。
 
-![「旋轉軸元件的設計」對話框](/help/assets/carousel-design.png)
+![輪盤元件的設計對話框](/help/assets/carousel-design.png)
 
-* **自動轉換幻燈片**  — 定義當內容作者將旋轉傳送元件添加到頁面時，是否在預設情況下啟用自動將旋轉傳送器推進到下一張幻燈片的選項。
-* **過渡延遲**  — 定義內容作者將旋轉傳送元件添加到頁面時幻燈片之間的轉換延遲的預設值（毫秒）。
-* **在懸停時禁用自動暫停**  — 定義在預設情況下，禁用自動幻燈片暫停的選項是否在 **自動轉換幻燈片** 由內容作者選擇。
+* **自動轉換幻燈片**  — 定義當內容作者將輪播元件新增至頁面時，預設會啟用自動將輪播推進至下一張投影片的選項。
+* **在開頭附加控制元素**  — 若勾選此選項，控制元素將放置在轉盤項目前，以改善協助工具。
 
-### 允許的元件頁籤 {#allowed-components-tab}
+### 「允許的元件」頁簽 {#allowed-components-tab}
 
-的 **允許的元件** 頁籤用於定義哪些元件可以作為幻燈片由內容作者添加到「旋轉軸元件」中。
+此 **允許的元件** 索引標籤可用來定義內容作者可將哪些元件新增為投影片至轉盤元件。
 
-「允許的元件」頁籤的功能與同名的頁籤在 [在模板編輯器中定義佈局容器的策略和屬性。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+當 [在模板編輯器中定義佈局容器的策略和屬性。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 樣式頁籤 {#styles-tab}
+### 樣式標籤 {#styles-tab}
 
-旋轉軸元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
+轉盤元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-## Adobe客戶端資料層 {#data-layer}
+## Adobe用戶端資料層 {#data-layer}
 
-旋轉軸元件支援 [Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
+轉盤元件支援 [Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
