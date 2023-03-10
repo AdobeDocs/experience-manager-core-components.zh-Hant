@@ -3,9 +3,9 @@ title: 核心元件簡介
 description: 取得核心元件問題的解決方案，並允許其他人在AEM中製作元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8b922d7f6305f91337ef3c19d56eb7f192d65774
+source-git-commit: 39adbada42b9ca10fe2a4ff79ce6c0b3876d7be6
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '965'
 ht-degree: 27%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 27%
 
 如需先前核心元件版本的需求，請參閱 [核心元件版本](versions.md).
 
-核心元件需使用 [可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 不支援傳統UI或靜態範本。 如有需要，請查看 [AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) 使用這些現代化的AEM功能更新專案。
+核心元件需使用 [可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 不支援傳統UI或靜態範本。 如有需要，請查看 [AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/) 使用這些現代化的AEM功能更新專案。
 
 若要設定本機開發環境，請查看 [此AEMas a Cloud ServiceSDK概述](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或此文檔 [適用於舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
