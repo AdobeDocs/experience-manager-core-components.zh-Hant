@@ -3,10 +3,10 @@ title: 核心元件簡介
 description: 取得核心元件問題的解決方案，並允許其他人在AEM中製作元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+source-git-commit: 8b922d7f6305f91337ef3c19d56eb7f192d65774
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 在 Adobe Experience Manager 中，元件是構成所編寫頁面內容的結構元素。元件向來是 AEM 體驗的基本元素，讓作者可輕鬆建立頁面、功能又強大，而開發人員在開發元件時，也可保有靈活性與擴充空間。
 
-核心元件是一套適用於AEM的標準化網頁內容管理(WCM)元件，可縮短開發時間並降低網站的維護成本。
+ 核心元件 是一組適用於 AEM 的標準化網站內容管理 (WCM) 元件，可加快開發時間並降低網站的維護成本。
 
 ## 資源 {#resources}
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 | WebApp-Ready | 此 [精簡的JSON輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) 允許用戶端轉譯，但仍有可能 [內容內編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | AMP支援 | 元件已內建 [支援AMP標準，](/help/developing/amp.md) 加速您的行動體驗。 |
 | Design Kit | A [適用於Adobe XD的UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) 允許設計人員建立線框，然後他們就可以 [視需要設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
-| 表 | 元件會實作 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，標籤如下 [BEM CSS慣例](http://getbem.com/). |
+| 表 | 元件會實作 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，標籤如下 [BEM CSS慣例](https://getbem.com/). |
 | 可自訂 | 數個模式允許 [輕鬆定制](developing/customizing.md)，從調整HTML到重新使用進階功能。 |
 | 版本設定 | 此 [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 確保核心元件在改善可能影響您的項目時不會破壞您的網站。 |
 | 可本地化 | 智慧型參考解析度可讓特定元件尋找和 [自動呈現對應的本地化內容](get-started/localization.md). |
