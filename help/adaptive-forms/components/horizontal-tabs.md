@@ -2,13 +2,13 @@
 title: 適用性Forms核心元件 — 水準標籤
 description: 使用或自訂適用性Forms水準標籤核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
-
 
 # 水準標籤 {#horizontal-tabs-adaptive-forms-core-component}
 
@@ -30,15 +30,13 @@ ht-degree: 0%
 
 ## 版本與相容性 {#version-and-compatibility}
 
-2023年2月，核心元件2.0.4版中推出適用性Forms水準標籤核心元件。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,7 +78,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **圖示**  — 此圖示會識別清單中面板的元件。 您可以將滑鼠移至圖示上，以工具提示的形式查看完整元件名稱。
 * **說明**  — 用作面板文字的說明。 預設情況下，為面板選取的元件名稱。
-* **刪除**  — 點選或按一下，從折疊式功能表元件中刪除面板。
+* **刪除**  — 點選或按一下，從水準標籤元件中刪除面板。
 * **重新排列**  — 點選或按一下並拖曳，重新排列面板的順序。
 
 ### 說明內容標籤 {#help-content}
@@ -103,10 +101,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 設計對話方塊 {#design-dialog}
 
-「設計對話框」允許模板建立者控制預設顯示內容的方式。 對於適用性Forms折疊式功能表元件，您可以設定下列項目：
+「設計對話框」允許模板建立者控制預設顯示內容的方式。 對於適用性Forms元件，您可以設定下列項目：
 
-* 表單建立者可新增至適用性Forms編輯器中折疊式功能表的核心元件
-* 樣式的簡單名稱（CSS類別），可套用至適用性Forms編輯器中折疊式功能表元件的屬性對話方塊中。
+* 表單建立者可新增至適用性Forms編輯器中水準標籤的核心元件
+* 樣式的簡單名稱（CSS類別），可套用至適用性Forms編輯器中水準索引標籤元件的屬性對話方塊中。
 
 這有助於讓建立和自訂表單的程式更簡單且有效。
 
@@ -114,10 +112,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 此 **允許的元件** 標籤可讓範本編輯器將可新增為項目的元件，設定至適用性Forms編輯器中「水準」標籤元件的面板。
 
+![水準標籤](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
+
 ### 樣式標籤 {#styles-tab}
 
-「設計對話方塊」可用來定義及管理元件的CSS樣式。 適用性Forms水準標籤核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義及管理元件的CSS樣式。 適用性Forms水準標籤核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-**預設CSS類**:您可以為適用性Forms水準標籤核心元件提供預設CSS類別。
+![樣式標籤](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
-**允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
+* **預設CSS類**:您可以為適用性Forms水準標籤核心元件提供預設CSS類別。
+
+* **允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。

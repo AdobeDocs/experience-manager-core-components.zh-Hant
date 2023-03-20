@@ -2,9 +2,10 @@
 title: 適用性表單折疊式功能表
 description: 使用折疊式功能表，將長或複雜的表單分割成更小、更方便管理的區段，以組織並簡化表單。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
+source-git-commit: 0cfdc56fe5508e156eee2ae818be311748af7247
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -37,16 +38,13 @@ ht-degree: 0%
 
 ## 版本與相容性 {#version-and-compatibility}
 
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-適用性Forms折疊式功能表核心元件已於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
-
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -103,43 +101,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![協助工具標籤](/help/adaptive-forms/assets/accordion_accessibility.png)
 
-在 **協助工具** 頁簽中，為 [ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。 使用螢幕助讀程式的文字時，有各種選項可供使用：
-
-* **螢幕助讀程式的文字**  — 螢幕助讀程式的文字是指視覺障礙人士專用的輔助技術（例如螢幕助讀程式）專門用來閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息的相關資訊（自訂文字）。 螢幕助讀程式文字可協助確保所有使用者都能存取表單，包括視覺障礙者，並讓他們完全了解表單欄位及其需求。
-
-
-   * **自訂文字**:選擇此選項可使用ARIA協助工具標籤的自訂文字。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。
-   * **說明**:選擇此選項可使用ARIA協助工具標籤的說明。
-   * **標題**:選擇此選項可使用ARIA協助工具標籤的標題。
-   * **名稱**:選擇此選項可使用ARIA協助工具標籤的名稱。
-   * **無**:如果您不想為ARIA協助工具標籤新增，請選取此選項。
-
-<!--
-
-### Properties Tab {#properties-tab}
-
-![Properties tab of the edit dialog of the Accordion Component](/help/assets/accordion-edit-properties.png)
-
-*   **Single item expansion** - When selected, this option forces a single accordion item to be expanded at a time. Expanding one item will then collapse all others.
-*   **Expanded items** - This option defines the items that are expanded by default when the page is loaded.
-    * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
-    * When **Single item expansion** is not selected, this option is a multi-select and is optional.
-*   **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
-    * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
-    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
-
-## Select Panel Popover {#select-panel-popover}
-
-The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon.png)) on the component toolbar enables content authors to modify the panels in an accordion with ease. By selecting this option, the author can switch to a different panel for editing and rearrange the order of the panels in the accordion. The configured panels will be displayed in a drop-down menu for the author to choose from. This feature optimizes the editing process and makes it user-friendly for content authors.
-
-![Select panel popover](/help/assets/select-panel-popover.png)
-
-
-* The panels are displayed in a numbered list, reflecting the assigned arrangement.
-* Each panel is listed with its component type in bold, followed by a brief description in lighter font.
-* By clicking or tapping on a panel in the drop-down, you can easily switch the view in the editor to that specific panel.
-* To rearrange the panels, simply use the drag handles to move them into the desired order. -->
+**螢幕助讀程式的文字**  — 螢幕助讀程式的文字是指視覺障礙人士專用的輔助技術（例如螢幕助讀程式）專門用來閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息的相關資訊（自訂文字）。 螢幕助讀程式文字可協助確保所有使用者都能存取表單，包括視覺障礙者，並讓他們完全了解表單欄位及其需求。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -165,43 +127,15 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 此 **允許的元件** 標籤可讓範本編輯器將可新增為項目的元件，設定至適用性Forms編輯器中折疊式功能表元件的面板。
 
+![「允許的元件」頁簽](/help/adaptive-forms/assets/accordion_allowedcomponents.png)
+
 ### 樣式標籤 {#styles-tab}
 
-「設計對話方塊」可用來定義及管理元件的CSS樣式。 適用性Forms折疊式功能表核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義及管理元件的CSS樣式。 適用性Forms折疊式功能表核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-**預設CSS類**:您可以為折疊式功能表元件提供預設的CSS類別。
+![樣式標籤](/help/adaptive-forms/assets/accordion_style.png)
 
-**允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
+* **預設CSS類**:您可以為折疊式功能表元件提供預設的CSS類別。
 
-
-<!-- 
-
-The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
-
-
-### Properties Tab {#properties-tab-design}
-
-![Design dialog properties tab](/help/assets/accordion-design-properties.png)
-
-* **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
-* **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
-
-### Allowed Components Tab {#allowed-components-tab}
-
-The **Allowed Components** tab is used to define which components can be added as items to panels in the Accordion Component by the content author.
-
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
-
-### Styles Tab {#styles-tab}
-
-The Accordion Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adobe Client Data Layer {#data-layer}
-
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
-
--->
-
-
-
+* **允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
 

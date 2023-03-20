@@ -2,13 +2,13 @@
 title: 適用性Forms核心元件 — 標題
 description: 使用或自訂適用性Forms標題核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: aa18def9-0bec-4475-8dde-213860621ef5
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '675'
 ht-degree: 1%
 
 ---
-
 
 # 頁首 {#header-adaptive-forms-core-component}
 
@@ -32,14 +32,13 @@ ht-degree: 1%
 
 ## 版本與相容性 {#version-and-compatibility}
 
-適用性Forms標題核心元件已於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
+
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,6 +79,4 @@ To experience the Accordion Component as well as see examples of its configurati
 ### 文字索引標籤 {#text-tab}
 
 此部分允許輸入要包含在標題中的文本。
-
-
 

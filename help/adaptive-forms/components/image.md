@@ -2,13 +2,13 @@
 title: 適用性Forms核心元件 — 影像
 description: 使用或自訂適用性Forms影像核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
-
 
 # 影像 {#image-adaptive-forms-core-component}
 
@@ -36,15 +36,13 @@ ht-degree: 0%
 
 ## 版本與相容性 {#version-and-compatibility}
 
-適用性Forms影像核心元件已於2023年2月發行，是核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -87,7 +85,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 樣式標籤 {#styles-tab}
 
-「設計對話方塊」可用來定義及管理元件的CSS樣式。 適用性Forms影像核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義及管理元件的CSS樣式。 適用性Forms影像核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+
+![設計對話方塊](/help/adaptive-forms/assets/image_designdialog.png)
 
 **預設CSS類**:您可以為適用性Forms影像核心元件提供預設CSS類別。
 

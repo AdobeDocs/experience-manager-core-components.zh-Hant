@@ -2,9 +2,9 @@
 title: 適用性Forms核心元件 — 表單容器
 description: 新增最適化表單至網頁。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '719'
 ht-degree: 1%
 
 ---
@@ -39,16 +39,13 @@ Forms可讓網站訪客透過提供有價值的資訊與網站互動，進而提
 
 ## 版本與相容性 {#version-and-compatibility}
 
-適用性Forms容器核心元件已於2023年2月發行，其為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
-
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -82,7 +79,3 @@ To experience the Accordion Component as well as see examples of its configurati
 * **顯示消息**  — 此選項可讓使用者新增在成功提交適用性表單時顯示的訊息。 預定義文本包含在對話框中，用戶可以修改它。 「顯示訊息」對話方塊支援RTF格式工具，讓使用者能將新增的文字格式化。
 
 * **提交動作**  — 使用者按一下適用性表單上的「提交」按鈕時，會觸發「提交動作」。 使用者可從現成支援的下拉式清單中選取「提交動作」 。 了解如何 [在「提交」標籤中設定提交動作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
-
-
-
-

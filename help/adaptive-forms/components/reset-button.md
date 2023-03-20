@@ -2,13 +2,13 @@
 title: 適用性Forms核心元件 — 重設按鈕
 description: 使用或自訂適用性Forms重設按鈕核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
-
 
 # 重設 {#reset-button}
 
@@ -31,15 +31,13 @@ ht-degree: 1%
 
 ## 版本與相容性 {#version-and-compatibility}
 
-適用性Forms重設按鈕核心元件已於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -81,7 +79,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![協助工具標籤](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-* **螢幕助讀程式的文字**  — 螢幕助讀程式的文字是指視覺障礙人士專用的輔助技術（例如螢幕助讀程式）專門用來閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息的相關資訊（自訂文字）。 螢幕助讀程式文字可協助確保所有使用者都能存取表單，包括視覺障礙者，並讓他們完全了解表單欄位及其需求。
+
+**螢幕助讀程式的文字**  — 螢幕助讀程式的文字是指視覺障礙人士專用的輔助技術（例如螢幕助讀程式）專門用來閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息的相關資訊（自訂文字）。 螢幕助讀程式文字可協助確保所有使用者都能存取表單，包括視覺障礙者，並讓他們完全了解表單欄位及其需求。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -90,8 +89,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 樣式標籤 {#styles-tab}
 
-「設計對話方塊」可用來定義及管理元件的CSS樣式。 適用性Forms重設按鈕核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義及管理元件的CSS樣式。 適用性Forms重設按鈕核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-**預設CSS類**:您可以為適用性Forms重設按鈕核心元件提供預設CSS類別。
+![設計對話方塊](/help/adaptive-forms/assets/reset_designdialog.png)
 
-**允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
+* **預設CSS類**:您可以為適用性Forms重設按鈕核心元件提供預設CSS類別。
+
+* **允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。

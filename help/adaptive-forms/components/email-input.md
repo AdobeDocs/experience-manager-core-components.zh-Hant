@@ -2,13 +2,13 @@
 title: 適用性Forms核心元件 — 電子郵件輸入
 description: 使用或自訂適用性Forms電子郵件輸入核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
-
 
 # 電子郵件輸入 {#Email-input-adaptive-forms-core-component}
 
@@ -32,15 +32,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 版本與相容性 {#version-and-compatibility}
 
-適用性Forms電子郵件輸入核心元件已於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -112,31 +110,25 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![協助工具標籤](/help/adaptive-forms/assets/email_accessibilitytab.png)
 
-在 **協助工具** 頁簽中，為 [ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。 使用螢幕助讀程式的文字時，有各種選項可供使用：
-
-* **螢幕助讀程式的文字**  — 螢幕助讀程式的文字是指視覺障礙人士專用的輔助技術（例如螢幕助讀程式）專門用來閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息的相關資訊（自訂文字）。 螢幕助讀程式文字可協助確保所有使用者都能存取表單，包括視覺障礙者，並讓他們完全了解表單欄位及其需求。
-
-
-   * **自訂文字**:選擇此選項可使用ARIA協助工具標籤的自訂文字。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。
-   * **說明**:選擇此選項可使用ARIA協助工具標籤的說明。
-   * **標題**:選擇此選項可使用ARIA協助工具標籤的標題。
-   * **名稱**:選擇此選項可使用ARIA協助工具標籤的名稱。
-   * **無**:如果您不想為ARIA協助工具標籤新增，請選取此選項。
-
+**螢幕助讀程式的文字**  — 螢幕助讀程式的文字是指視覺障礙人士專用的輔助技術（例如螢幕助讀程式）專門用來閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息的相關資訊（自訂文字）。 螢幕助讀程式文字可協助確保所有使用者都能存取表單，包括視覺障礙者，並讓他們完全了解表單欄位及其需求。
 
 ## 設計對話方塊 {#design-dialog}
 
 「設計對話方塊」可用來定義及管理電子郵件輸入元件的CSS樣式。
 
-
 ### 樣式標籤 {#styles-tab}
 
-「設計對話方塊」可用來定義及管理元件的CSS樣式。 適用性Forms電子郵件輸入核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義及管理元件的CSS樣式。 適用性Forms電子郵件輸入核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-**預設CSS類**:您可以為適用性Forms電子郵件輸入核心元件提供預設CSS類別。
+![樣式標籤](/help/adaptive-forms/assets/email_designdialog.png)
 
-**允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
+* **預設CSS類**:您可以為適用性Forms電子郵件輸入核心元件提供預設CSS類別。
+
+* **允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
 
 ### 格式標籤 {#format-tab}
 
 格式索引標籤可讓您指定預設和自訂日期格式。
+
+![設計標籤](/help/adaptive-forms/assets/emailinput_designformattab.png)
+

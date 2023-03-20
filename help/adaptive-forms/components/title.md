@@ -2,13 +2,13 @@
 title: 適用性Forms核心元件 — 標題
 description: 使用或自訂適用性Forms標題核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
-
 
 # 標題 {#title-input-adaptive-forms-core-component}
 
@@ -38,15 +38,13 @@ ht-degree: 1%
 
 ## 版本與相容性 {#version-and-compatibility}
 
-適用性Forms標題核心元件已於2023年2月發行，其為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
+適用性Forms折疊式功能表核心元件已於2023年2月發行，作為Cloud Service核心元件2.0.4的一部分，以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.12的一部分。 下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -74,28 +72,32 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 設計對話方塊 {#design-dialog}
 
-「設計對話方塊」可用來定義及管理日期選取器元件的CSS樣式。
+「設計」索引標籤可用來定義及管理日期選取器元件的CSS樣式。
 
 ### 標題
 
 「標題」索引標籤可讓範本作者為表單作者設定預設和允許的HTML標題元素：
 
-![設計對話框標題頁簽](/help/assets/accordion-design-properties.png)
+![設計對話框標題頁簽](/help/adaptive-forms/assets/title_heading.png)
 
 * **允許的標題元素**:此清單包含多個選項，可讓範本作者選擇哪些標題元素可讓作者用於標題。
 
 * **預設標題元素**:一個下拉式清單，用於設定標題元件的預設標題元素。
 
-
 ### 樣式標籤 {#styles-tab}
 
-「設計對話方塊」可用來定義及管理元件的CSS樣式。 適用性Forms日期選取器核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義及管理元件的CSS樣式。 適用性Forms日期選取器核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-**預設CSS類**:您可以為適用性Forms日期選取器核心元件提供預設CSS類別。
+![設計對話框標題頁簽](/help/adaptive-forms/assets/title_styles.png)
 
-**允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
+* **預設CSS類**:您可以為適用性Forms日期選取器核心元件提供預設CSS類別。
+
+* **允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
 
 ### 格式標籤 {#format-tab}
 
 格式索引標籤可讓您指定預設和自訂日期格式。
+
+![格式標籤](/help/adaptive-forms/assets/title_styles.png)
+
 

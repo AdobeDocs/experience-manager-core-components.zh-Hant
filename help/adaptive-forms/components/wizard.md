@@ -2,13 +2,13 @@
 title: 適用性Forms核心元件 — 精靈
 description: 使用或自訂適用性Forms精靈核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
-
 
 # 精靈 {#wizard-adaptive-forms-core-component}
 
@@ -51,13 +51,11 @@ ht-degree: 0%
 
 適用性Forms精靈版面核心元件已於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援的版本、AEM相容性，以及對應檔案的連結：
 
-|  |  |
-|---|---|
-| 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和 | 相容 | 相容 |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|---|---|---|
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和 | 相容於<br>[版本1.1.12](/help/adaptive-forms/version.md) 和2.0.0以下的。 |
 
-如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本和版本的相關資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,11 +122,38 @@ To experience the Accordion Component as well as see examples of its configurati
 
 此 **允許的元件** 標籤可讓範本編輯器將可新增為項目的元件，設定至適用性Forms編輯器中精靈元件的面板。
 
+![「允許的元件」頁簽](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### 預設元件頁簽 {#default-component-tab}
+
+此索引標籤可讓範本編輯器將可新增為項目的元件，對應至適用性Forms編輯器中精靈元件的面板。
+
+![面板預設元件](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### 回應式設定 {#responsive-settings}
+
+此索引標籤允許範本編輯器設定要在回應式格線中顯示的欄數。
+
+![回應式格線](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### 容器設定標籤 {#container-setting-tab}
+
+容器設定標籤可讓您在適用性Forms編輯器中設定元件的位置。
+
+![容器設定](/help/adaptive-forms/assets/panel_settings.png)
+
+* **版面**:「簡單」版面可讓所有內容固定在原處，而「回應式格線」可讓您變更元件的位置，以符合您的需求。
+* **停用配置**:您也可以選取 **停用配置** 核取方塊。
+* **啟用背景影像**:此索引標籤可讓您在範本編輯器中設定背景影像和顏色。
+* **啟用背景顏色**:此索引標籤可讓您在範本編輯器中設定背景顏色。
+
 ### 樣式標籤 {#styles-tab}
 
-「設計對話方塊」可用來定義及管理元件的CSS樣式。 適用性Forms精靈核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義及管理元件的CSS樣式。 適用性Forms精靈核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-**預設CSS類**:您可以為精靈元件提供預設的CSS類別。
+![樣式標籤](/help/adaptive-forms/assets/panel_style.png)
 
-**允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
+* **預設CSS類**:您可以為精靈元件提供預設的CSS類別。
+
+* **允許的樣式**:您可以提供代表樣式的名稱和CSS類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight:粗體」。 您可以在適用性Forms編輯器中，將這些樣式使用或套用至適用性表單。 若要套用樣式，請在適用性Forms編輯器中選取您要套用樣式的元件、導覽至屬性對話方塊，然後從 **樣式** 下拉式清單。 如果需要更新或修改樣式，只需返回「設計」對話框、更新樣式頁簽中的樣式並保存更改即可。
 
