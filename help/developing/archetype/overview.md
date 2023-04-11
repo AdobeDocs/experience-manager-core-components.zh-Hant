@@ -4,10 +4,10 @@ description: AEM型應用程式的專案範本
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
 workflow-type: tm+mt
 source-wordcount: '1192'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -104,7 +104,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 原型 | AEM as a Cloud Service  | AEM 6.5 | Java SE | 馬文 |
 |---------|---------|---------|---------|---------|
-| [40](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-40) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [41](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-41) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 設定您的本機開發環境，以 [AEMas a Cloud ServiceSDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或 [舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
@@ -117,6 +117,6 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 以啟動新專案時，您無法在Eclipse中使用此原型 `File -> New -> Maven Project` 自後代指令碼開始 `archetype-post-generate.groovy` 不會執行，因為 [Eclipse問題。](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) 因應措施是使用上述命令列，然後在Eclipse中使用 `File -> Import -> Existing Maven Project`.
 
-## 進一步閱讀 {#further-reading}
+## 延伸閱讀 {#further-reading}
 
 如需使用原型的詳細資訊，包括其優點、選項及其模組的運作方式，請參閱 [使用原型檔案。](using.md)
