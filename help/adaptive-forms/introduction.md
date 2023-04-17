@@ -2,13 +2,13 @@
 title: AEM適用性Forms核心元件簡介
 description: 利用適用性Forms核心元件的彈性，建立引人入勝的註冊體驗（表單），並運用Adobe Experience Manager的強大功能提供。
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1168'
 ht-degree: 3%
 
 ---
-
 
 # 適用性Forms核心元件簡介 {#adaptive-forms-core-components-introduction}
 
@@ -90,33 +90,41 @@ ht-degree: 3%
 
 | AEM | AEM Forms附加元件 | 核心元件 |
 |---|---|---|
-| AEM as a Cloud Service  | Forms — 數位註冊 | [版本2.20.8](/help/versions.md)+ |
+| AEM as a Cloud Service  | Forms — 數位註冊 | [版本2.20.8](version.md)+ |
+| AEM 6.5 | Forms附加元件 | [版本1.1.12](version.md)+ |
+
+## 設定並建立以核心元件為基礎的最適化表單
+
+**AEM Formsas a Cloud Service**:建立新的AEM Formsas a Cloud Service計畫時，您的環境已啟用適用性Forms核心元件。 如果您有以原型39或更舊版本為基礎的Formsas a Cloud Service環境， [為您的環境啟用適用性Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+若要為您的環境啟用核心元件，請 **適用性Forms（核心元件）** 範本和畫布主題會新增至您的環境。 如果您的AEM SDK版本早於2023.02.0, [確保您 `prerelease` 在您的環境中啟用標幟](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 因為最適化Forms核心元件是2023.02.0版之前的預先發行。
+
+若要使用適用性Forms精靈和適用性表單編輯器來建立適用性表單，請參閱建立適用性表單([核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?))。
 
 
 ## 適用性Forms核心元件 {#components}
 
-您可以使用 [適用性Forms編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) 以建立以核心元件為基礎的適用性Forms。 最新版的適用性Forms核心元件提供下列元件。
+最新版的適用性Forms核心元件提供下列元件。
 
-* 折疊式面板
-* 按鈕
-* 核取方塊群組
-* 日期挑選器
-* 下拉式清單
-* 電子郵件輸入
-* 來自容器
-* 檔案附件
-* 頁尾
-* 頁首
-* 水準標籤
-* 影像
-* 數字輸入
-* 面板容器
-* 選項按鈕
-* 重設按鈕
-* 提交按鈕
-* 電話輸入
-* 文字輸入
-* 文字
-* 標題
-* 精靈
-
+* [折疊式面板](/help/adaptive-forms/components/accordion.md)
+* [按鈕](/help/adaptive-forms/components/button.md)
+* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
+* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
+* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+* [來自容器](/help/adaptive-forms/components/form-container.md)
+* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
+* [頁尾](/help/adaptive-forms/components/footer.md)
+* [頁首](/help/adaptive-forms/components/header.md)
+* [水準標籤](/help/adaptive-forms/components/horizontal-tabs.md)
+* [影像](/help/adaptive-forms/components/image.md)
+* [數字輸入](/help/adaptive-forms/components/number-input.md)
+* [面板容器](/help/adaptive-forms/components/panel-container.md)
+* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
+* [重設按鈕](/help/adaptive-forms/components/reset-button.md)
+* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
+* [電話輸入](/help/adaptive-forms/components/telephone-input.md)
+* [文字輸入](/help/adaptive-forms/components/text-input.md)
+* [文字](/help/adaptive-forms/components/text.md)
+* [標題](/help/adaptive-forms/components/title.md)
+* [精靈](/help/adaptive-forms/components/wizard.md)
