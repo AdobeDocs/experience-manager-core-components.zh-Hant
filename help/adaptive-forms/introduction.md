@@ -3,9 +3,9 @@ title: AEM適用性Forms核心元件簡介
 description: 利用適用性Forms核心元件的彈性，建立引人入勝的註冊體驗（表單），並運用Adobe Experience Manager的強大功能提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1169'
 ht-degree: 3%
 
 ---
@@ -67,41 +67,6 @@ ht-degree: 3%
 
 * **協助工具**:適用性Forms核心元件支援協助工具標準和指引，以確保殘疾人（包括使用輔助技術的人）能使用表單，例如螢幕閱讀器
 
-
-<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
-
-*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
-
-<!-- Additionally, the following points further illustrate this alignment:
-
-    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
-
-    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
-
-    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
-    
-    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
-
-
-
-## 要求 {#requirements}
-
-適用性Forms核心元件有下列需求。
-
-| AEM | AEM Forms附加元件 | 核心元件 |
-|---|---|---|
-| AEM as a Cloud Service  | Forms — 數位註冊 | [版本2.20.8](version.md)+ |
-| AEM 6.5 | Forms附加元件 | [版本1.1.12](version.md)+ |
-
-## 設定並建立以核心元件為基礎的最適化表單
-
-**AEM Formsas a Cloud Service**:建立新的AEM Formsas a Cloud Service計畫時，您的環境已啟用適用性Forms核心元件。 如果您有以原型39或更舊版本為基礎的Formsas a Cloud Service環境， [為您的環境啟用適用性Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
-
-若要為您的環境啟用核心元件，請 **適用性Forms（核心元件）** 範本和畫布主題會新增至您的環境。 如果您的AEM SDK版本早於2023.02.0, [確保您 `prerelease` 在您的環境中啟用標幟](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 因為最適化Forms核心元件是2023.02.0版之前的預先發行。
-
-若要使用適用性Forms精靈和適用性表單編輯器來建立適用性表單，請參閱建立適用性表單([核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?))。
-
-
 ## 適用性Forms核心元件 {#components}
 
 最新版的適用性Forms核心元件提供下列元件。
@@ -128,3 +93,39 @@ ht-degree: 3%
 * [文字](/help/adaptive-forms/components/text.md)
 * [標題](/help/adaptive-forms/components/title.md)
 * [精靈](/help/adaptive-forms/components/wizard.md)
+
+## 設定核心元件
+
+
+適用性Forms核心元件有下列需求。
+
+| AEM | AEM Forms附加元件 | 核心元件 |
+|---|---|---|
+| AEM as a Cloud Service  | Forms — 數位註冊 | [版本2.20.8](version.md)+ |
+| AEM 6.5 | Forms附加元件 | [版本1.1.12](version.md)+ |
+
+### 根據核心元件建立最適化表單
+
+**AEM Formsas a Cloud Service:** 建立新的AEM Formsas a Cloud Service計畫時，您的環境已啟用適用性Forms核心元件。 如果您有以原型39或更舊版本為基礎的Formsas a Cloud Service環境， [為您的環境啟用適用性Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+若要為您的環境啟用核心元件，請 **適用性Forms（核心元件）** 範本和畫布主題會新增至您的環境。 如果您的AEM SDK版本早於2023.02.0, [確保您 `prerelease` 在您的環境中啟用標幟](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 因為最適化Forms核心元件是2023.02.0版之前的預先發行。
+
+若要使用適用性Forms精靈和適用性表單編輯器來建立適用性表單，請參閱建立適用性表單([核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?))。
+
+
+
+
+
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+
+<!-- Additionally, the following points further illustrate this alignment:
+
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->

@@ -4,9 +4,9 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '369'
 ht-degree: 53%
 
 ---
@@ -100,13 +100,14 @@ ht-degree: 53%
       + [體驗片段](/help/email/components/experience-fragment.md)
       + [內容片段](/help/email/components/content-fragment.md)
       + [Segmentation](/help/email/components/segmentation.md)
-+ 調適型表單 {#adaptive-forms}
++ 最適化表單 {#adaptive-forms}
    + [簡介](/help/adaptive-forms/introduction.md)
    + [版本記錄](/help/adaptive-forms/version.md)
    + 適用性Forms元件 {#adaptive-forms-components}
       + [適用性Forms折疊式功能表](/help/adaptive-forms/components/accordion.md)
       + [適用性Forms按鈕](/help/adaptive-forms/components/button.md)
       + [適用性Forms核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+      + [適用性Forms容器](/help/adaptive-forms/components/form-container.md)
       + [適用性Forms日期選擇器](/help/adaptive-forms/components/date-picker.md)
       + [適用性Forms下拉式清單](/help/adaptive-forms/components/drop-down.md)
       + [適用性Forms電子郵件輸入](/help/adaptive-forms/components/email-input.md)
