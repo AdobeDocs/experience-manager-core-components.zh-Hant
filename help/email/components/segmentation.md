@@ -3,9 +3,9 @@ title: 電子郵件分段元件
 description: 電子郵件分段元件
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,7 @@ ht-degree: 0%
 
 | 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|
-| v1 | 相容 | 相容 |
-
-## 範例元件輸出 {#sample-component-output}
-
-若要體驗電子郵件分段元件，並查看其設定選項、HTML和JSON輸出的範例，請造訪 [元件庫。](https://adobe.com/go/aem_cmp_library_email_segmentation)
+| v1 | 相容 | - |
 
 ### 技術詳細資訊 {#technical-details}
 

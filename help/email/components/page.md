@@ -3,9 +3,9 @@ title: 電子郵件頁面元件
 description: 電子郵件頁面元件
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 | 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|
-| v1 | 相容 | 相容 |
+| v1 | 相容 | - |
 
 如需電子郵件核心元件版本和版本的詳細資訊，請參閱本檔案 [電子郵件核心元件版本](/help/email/versions.md)
 

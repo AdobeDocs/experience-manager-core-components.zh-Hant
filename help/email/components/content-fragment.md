@@ -3,9 +3,9 @@ title: 電子郵件內容片段元件
 description: 電子郵件內容片段元件可讓您在內容中顯示內容片段。
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '629'
 ht-degree: 2%
 
 ---
@@ -31,13 +31,9 @@ ht-degree: 2%
 
 | 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|
-| v1 | 相容 | 相容 |
+| v1 | 相容 | - |
 
 如需電子郵件核心元件版本和版本的詳細資訊，請參閱本檔案 [電子郵件核心元件版本。](/help/email/versions.md)
-
-## 範例元件輸出 {#sample-component-output}
-
-若要體驗電子郵件內容片段元件，並查看其設定選項、HTML和JSON輸出的範例，請造訪 [元件庫。](https://adobe.com/go/aem_cmp_library_email_cf)
 
 ## 技術詳細資訊 {#technical-details}
 

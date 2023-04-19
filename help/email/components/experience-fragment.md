@@ -3,10 +3,10 @@ title: 電子郵件體驗片段元件
 description: 電子郵件體驗片段元件可讓內容作者在內容中放置體驗片段變異，同時支援本地化的內容結構。
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 0%
+source-wordcount: '888'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 | 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|
-| v1 | 相容 | 相容 |
+| v1 | 相容 | - |
 
 如需電子郵件核心元件版本和版本的詳細資訊，請參閱本檔案 [電子郵件核心元件版本。](/help/email/versions.md)
 
@@ -104,10 +104,6 @@ ht-degree: 0%
 1. 如果找不到，它會嘗試尋找藍圖。
 1. 如果找不到，則會嘗試尋找即時副本。
 1. 如果找不到，預設為元件中設定的體驗片段。
-
-## 範例元件輸出 {#sample-component-output}
-
-若要體驗電子郵件體驗片段元件，並查看其設定選項、HTML和JSON輸出的範例，請造訪 [元件庫。](https://adobe.com/go/aem_cmp_library_email_xf)
 
 ## 技術詳細資訊 {#technical-details}
 

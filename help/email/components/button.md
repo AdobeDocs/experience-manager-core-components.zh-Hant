@@ -3,9 +3,9 @@ title: 電子郵件按鈕元件
 description: 「電子郵件按鈕」元件可讓您設定並顯示內容中的按鈕項目。
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '525'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,9 @@ ht-degree: 1%
 
 | 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|
-| v1 | 相容 | 相容 |
+| v1 | 相容 | - |
 
 如需核心元件版本和版本的詳細資訊，請參閱本檔案 [電子郵件核心元件版本。](/help/email/versions.md)
-
-## 範例元件輸出 {#sample-component-output}
-
-若要體驗電子郵件按鈕元件，並查看其設定選項、HTML和JSON輸出範例，請造訪 [元件庫。](https://adobe.com/go/aem_cmp_library_email_button)
 
 ## 技術詳細資訊 {#technical-details}
 

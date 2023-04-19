@@ -3,9 +3,9 @@ title: 電子郵件影像元件
 description: 電子郵件影像元件是可就地編輯的最適化影像元件。
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 | 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|
-| v1 | 相容 | 相容 |
+| v1 | 相容 | - |
 
 如需核心元件版本和版本的詳細資訊，請參閱本檔案 [電子郵件核心元件版本](/help/email/versions.md).
 
@@ -61,10 +61,6 @@ ht-degree: 0%
 ### 安全性 {#security}
 
 基於安全考量，影像編輯器絕不會直接呼叫原始SVG。 它被調用 `<img src=“path-to-component”>`. 這會防止瀏覽器執行任何內嵌在SVG檔案中的指令碼。
-
-## 範例元件輸出 {#sample-component-output}
-
-若要體驗電子郵件影像元件，並查看其設定選項、HTML和JSON輸出的範例，請造訪 [元件庫。](https://adobe.com/go/aem_cmp_library_email_image)
 
 ### 技術詳細資訊 {#technical-details}
 
