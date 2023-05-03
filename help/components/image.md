@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自適應影像元件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
+source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -61,10 +61,6 @@ ht-degree: 1%
 ### 安全性 {#security}
 
 基於安全考量，影像編輯器絕不會直接呼叫原始SVG。 它被調用 `<img src=“path-to-component”>`. 這會防止瀏覽器執行任何內嵌在SVG檔案中的指令碼。
-
->[!NOTE]
->
->SVG支援需要2.1.0版或更新版本的核心元件，以及 [服務包2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) AEM 6.4或更新版本，以支援 [影像編輯器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) 在AEM中。
 
 ## 範例元件輸出 {#sample-component-output}
 
