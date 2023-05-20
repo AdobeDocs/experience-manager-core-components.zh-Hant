@@ -1,77 +1,77 @@
 ---
-title: 適用於AngularSPA的前端組建
-description: 說明Angular型SPA專案的前端建置程式
-feature: 核心元件、AEM專案原型
+title: 前端構建用於Angular SPA
+description: 基於Angular的項目的前端構建流程的說SPA明
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
-# 適用於AngularSPA的前端組建 {#frontend-angular}
+# 前端構建用於Angular SPA {#frontend-angular}
 
-本檔案說明使用原型根據Angular架構建立單頁應用程式(SPA)時，所建立專案的詳細資訊。 亦即當您將`frontendModule`選項設為`angular`時。
+本文檔介紹使用原型建立基於Angular框架的單頁應用程式(SPA)時建立的項目的詳細資訊。 也就是說，當你 `frontendModule` 選項 `angular`。
 
-## 概覽 {#overview}
+## 概觀 {#overview}
 
-此項目已用[AngularCLI](https://github.com/angular/angular-cli)引導。
+這個項目是由 [AngularCLI](https://github.com/angular/angular-cli)。
 
-此應用程式的建置目的是使用網站的AEM模型。 它會使用[@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)套件中的協助元件自動產生版面。
+此應用程式的構建是AEM為了使用站點的模型。 它將使用從 [@adobe/cq-angular可編輯的元件](https://www.npmjs.com/package/@adobe/cq-angular-editable-components) 檔案。
 
 ## 指令碼 {#scripts}
 
 在項目目錄中，可以運行以下命令。
 
-### npm開始 {#npm-start}
+### npm啟動 {#npm-start}
 
 ```
 npm start
 ```
 
-此命令會從執行於http://localhost:4502的本機AEM例項代理JSON模型，以開發模式執行應用程式。 這假設已將整個專案部署至AEM至少一次（專案根目錄中的`mvn clean install -PautoInstallPackage`）。
+此命令通過從運行於http://localhost:4502的本地實例代理JSON模型，在開發模式AEM下運行應用。 這假定整個項目已至少部署到AEM一次(`mvn clean install -PautoInstallPackage` )。
 
-在ui.frontend目錄中執行npm開始後，您的應用程式將在瀏覽器中自動開啟(位於路徑http://localhost:4200/content/${appId}/${country}/${language}/home.html)。 如果您進行編輯，頁面會重新載入。
+在ui.frontend目錄中運行npm啟動後，將在瀏覽器中自動開啟您的應用(路徑http://localhost:4200/content/${appId}/${country}/${language}/home.html)。 如果進行編輯，頁面將重新載入。
 
-如果您收到與CORS相關的錯誤，您可能想要依下列方式設定AEM:
+如果您收到與CORS相關的錯誤，則可能需要按如AEM下方式配置：
 
-1. 導覽至Configuration Manager(http://localhost:4502/system/console/configMgr)
-1. 開啟「AdobeGranite跨原始資源共用原則」的設定
-1. 使用下列其他值建立新設定：
-   * 允許的原始項：http://localhost:4200
-   * 支援的標題：授權
+1. 導航到Configuration Manager(http://localhost:4502/system/console/configMgr)
+1. 開啟「Adobe花崗岩跨源資源共用策略」配置
+1. 使用以下附加值建立新配置：
+   * 允許的來源：http://localhost:4200
+   * 支援的標頭：授權
    * 允許的方法：OPTIONS
 
-### npm測試 {#npm-test}
+### npmtest {#npm-test}
 
 ```shell
 npm test
 ```
 
-此命令將啟動Karma測試運行程式。 如需詳細資訊，請參閱[Angular檔案，了解執行測試的相關資訊。](https://angular.io/guide/testing)
+此命令將啟動Karmatest。 查看 [Angular文檔關於運行test](https://angular.io/guide/testing) 的子菜單。
 
-### npm運行測試：debug {#npm-run-test-debug}
+### npm運行test：調試 {#npm-run-test-debug}
 
 ```shell
 npm run test:debug
 ```
 
-此命令將在互動式監視模式下啟動Karma測試運行程式。
+此命令在互動式監視模式下啟動Karmatest運行器。
 
-### npm執行組建 {#npm-run-build}
+### npm運行生成 {#npm-run-build}
 
 ```shell
 npm run build
 ```
 
-此命令會將生產應用程式建置至組建資料夾。 它在生產模式中捆綁Angular，並最佳化組建以獲得最佳效能。 如需詳細資訊，請參閱[關於部署的Angular檔案](https://angular.io/guide/deployment)。
+此命令將生產應用生成到生成資料夾。 它將Angular捆綁在生產模式中，並優化構建以獲得最佳效能。 查看 [Angular有關部署的文檔](https://angular.io/guide/deployment) 的子菜單。
 
-此外，系統會使用[aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)套件從應用程式產生AEM ClientLib。
+此外，AEM使用 [aem-clientlib生成器](https://github.com/wcm-io-frontend/aem-clientlib-generator) 檔案。
 
-如需關於專案原型如何使用AEM ClientLib的詳細資訊，請參閱一般[ui.frontend模組檔案](uifrontend.md#clientlibs)。
+請參閱常規 [ui.frontend模組文檔](uifrontend.md#clientlibs) 有關項目原型AEM如何使用ClientLibs的詳細資訊。
 
 ## 瀏覽器支援 {#browser-support}
 
-依預設，此專案使用[Browserslist](https://github.com/browserslist/browserslist)的預設選項來識別目標瀏覽器。 此外，它還包含現代語言功能的填充，以支援舊版瀏覽器（例如Internet Explorer 11）。 如果不需要支援這類瀏覽器，則可移除polyfill相依性和匯入。
+預設情況下，此項目使用 [瀏覽器清單](https://github.com/browserslist/browserslist)的預設選項可標識目標瀏覽器。 此外，它還包括現代語言功能的填充符，以支援較舊的瀏覽器（如Internet Explorer 11）。 如果不需要支援此類瀏覽器，則可以刪除填充依賴項和導入。

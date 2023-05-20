@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![在設計對話框中啟用Web優化的影像傳遞](/help/assets/web-optimized-image-delivery.png)
 
-就這樣！ 影像現在由WebP格式的影像元件傳送。
+就是這樣！影像現在由WebP格式的影像元件傳送。
 
 激活Web優化的映像傳送後，您可能還希望檢查調度程式配置以驗證它是否不會阻止對映像服務的請求。 此服務的URL採用以下形式。
 

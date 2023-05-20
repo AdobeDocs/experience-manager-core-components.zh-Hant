@@ -2,13 +2,13 @@
 title: 語言導航元件(v1)
 description: 語言導航元件為站點提供語言/國家/地區導航，以便訪問者可以在不同的區域環境中導航到同一頁面。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
 
 ---
-
 
 # 語言導航元件(v1) {#language-navigation-component}
 

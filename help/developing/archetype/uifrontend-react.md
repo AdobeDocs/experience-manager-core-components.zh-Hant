@@ -1,6 +1,6 @@
 ---
-title: React SPA的前端版本編號
-description: 說明React型SPA專案的前端建置程式
+title: 前端構建以反SPA應
+description: 基於React的項目的前端構建流程的描SPA述
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
@@ -11,64 +11,64 @@ ht-degree: 0%
 
 ---
 
-# React SPA的前端版本編號 {#frontend-react}
+# 前端構建以反SPA應 {#frontend-react}
 
-本檔案說明使用原型根據React架構建立單頁應用程式(SPA)時所建立專案的詳細資訊。 即當您設定 `frontendModule` 選項 `react`.
+本文檔介紹使用原型建立基於React框架的單頁應用程式(SPA)時建立的項目的詳細資訊。 也就是說，當你 `frontendModule` 選項 `react`。
 
-## 總覽 {#overview}
+## 概觀 {#overview}
 
-這個項目是由 [create-react-app](https://github.com/facebook/create-react-app).
+此項目已啟動 [建立反應應用](https://github.com/facebook/create-react-app)。
 
-此應用程式的建置目的是使用網站的AEM模型。 它會使用 [@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/aem-react-editable-components) 包。
+此應用程式的構建是AEM為了使用站點的模型。 它將使用從 [@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/aem-react-editable-components) 檔案。
 
 ## 指令碼 {#scripts}
 
 在項目目錄中，可以運行以下命令：
 
-### npm開始 {#npm-start}
+### npm啟動 {#npm-start}
 
 ```shell
 npm start
 ```
 
-此命令會從執行於http://localhost:4502的本機AEM例項代理JSON模型，以開發模式執行應用程式。 這假設已將整個專案部署至AEM至少一次(`mvn clean install -PautoInstallPackage` （在專案根目錄中）。
+此命令通過從運行於http://localhost:4502的本地實例代理JSON模型，在開發模式AEM下運行應用。 這假定整個項目已至少部署到AEM一次(`mvn clean install -PautoInstallPackage` )。
 
-執行後 `npm start` 在 [ui.frontend](uifrontend.md) 目錄，您的應用程式將在瀏覽器中自動開啟(在路徑 `http://localhost:3000/content/<appId>/<country>/<language>/home.html`)。 如果您進行編輯，頁面會重新載入。
+運行後 `npm start` 的 [ui.frontend](uifrontend.md) 目錄，您的應用程式將在瀏覽器中自動開啟（在路徑上） `http://localhost:3000/content/<appId>/<country>/<language>/home.html`)。 如果進行編輯，頁面將重新載入。
 
-如果您收到與CORS相關的錯誤，您可能想要依下列方式設定AEM:
+如果您收到與CORS相關的錯誤，則可能需要按如AEM下方式配置：
 
-1. 導覽至Configuration Manager(http://localhost:4502/system/console/configMgr)
-1. 開啟「AdobeGranite跨原始資源共用原則」的設定
-1. 使用下列其他值建立新設定：
-   * 允許的原始項：http://localhost:3000
-   * 支援的標題：授權
+1. 導航到Configuration Manager(http://localhost:4502/system/console/configMgr)
+1. 開啟「Adobe花崗岩跨源資源共用策略」配置
+1. 使用以下附加值建立新配置：
+   * 允許的來源：http://localhost:3000
+   * 支援的標頭：授權
    * 允許的方法：OPTIONS
 
-### npm測試 {#npm-test}
+### npmtest {#npm-test}
 
 ```shell
 npm test
 ```
 
-此命令將在交互監視模式下啟動測試運行器。 請參閱 [執行測試的React檔案](https://facebook.github.io/create-react-app/docs/running-tests) 以取得更多資訊。
+此命令將在互動式監視模式下啟動test運行程式。 查看 [對有關運行test的文檔進行反應](https://facebook.github.io/create-react-app/docs/running-tests) 的子菜單。
 
-### npm執行組建 {#npm-run-build}
+### npm運行生成 {#npm-run-build}
 
 ```shell
 npm run build
 ```
 
-此命令會將生產應用程式建置至組建資料夾。 It將React捆綁在生產模式中，並最佳化組建以獲得最佳效能。 請參閱 [React有關部署的檔案](https://facebook.github.io/create-react-app/docs/deployment) 以取得更多資訊。
+此命令將生產應用生成到生成資料夾。 它捆綁了在生產模式下的反應，並優化了構建以獲得最佳效能。 查看 [對有關部署的文檔作出反應](https://facebook.github.io/create-react-app/docs/deployment) 的子菜單。
 
-此外，系統會使用從應用程式產生AEM ClientLib [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) 包。
+此外，AEM使用 [aem-clientlib生成器](https://github.com/wcm-io-frontend/aem-clientlib-generator) 檔案。
 
 ## 瀏覽器支援 {#browser-support}
 
-依預設，此專案會使用 [Browserslist](https://github.com/browserslist/browserslist)用於識別目標瀏覽器的預設選項。 此外，它還包含現代語言功能的填充，以支援舊版瀏覽器（例如Internet Explorer 11）。 如果不需要支援這類瀏覽器，則可移除polyfill相依性和匯入。
+預設情況下，此項目使用 [瀏覽器清單](https://github.com/browserslist/browserslist)的預設選項可標識目標瀏覽器。 此外，它還包括現代語言功能的填充符，以支援較舊的瀏覽器（如Internet Explorer 11）。 如果不需要支援此類瀏覽器，則可以刪除填充依賴項和導入。
 
-## 程式碼分割 {#code-splitting}
+## 代碼拆分 {#code-splitting}
 
-React應用程式設定為使用 [代碼拆分](https://webpack.js.org/guides/code-splitting) 依預設。 建置生產用應用程式時，程式碼會以數個區塊輸出：
+React應用程式配置為使用 [代碼拆分](https://webpack.js.org/guides/code-splitting) 預設值。 在構建用於生產的應用程式時，代碼將以幾個塊輸出：
 
 ```shell
 $ ls build/static/js
@@ -80,8 +80,8 @@ runtime~main.a8a9905a.js
 runtime~main.a8a9905a.js.map
 ```
 
-僅在需要時載入區塊可大幅改善應用程式效能。
+僅在需要時載入塊可以顯著提高應用程式效能。
 
-若要使用AEM，應用程式必須能夠識別需要從AEM產生的HTML中請求哪些JS和CSS檔案。 這可使用asset-manifest.json檔案中的「entrypoints」索引鍵來達成。 檔案在clientlib.config.js中進行剖析，且只有entrypoint檔案會整合至ClientLib中。 其餘檔案將放在ClientLib的資源目錄中，並將動態地請求，因此只有在實際需要時才載入。
+要使用此功能，應AEM用需要能夠識別需要從由生成的HTML中請求哪些JS和CSS文AEM件。 可以使用asset-manifest.json檔案中的「入口點」鍵來實現此目標。 檔案在clientlib.config.js中分析，並且只將入口點檔案捆綁到ClientLib中。 其餘檔案將放在ClientLib的資源目錄中，並將動態請求，因此僅在實際需要時才載入。
 
-請參閱一般 [ui.frontend模組檔案](uifrontend.md#clientlibs) 如需如何由專案原型使用AEM ClientLib的詳細資訊。
+請參閱常規 [ui.frontend模組文檔](uifrontend.md#clientlibs) 有關項目原型AEM如何使用ClientLibs的詳細資訊。

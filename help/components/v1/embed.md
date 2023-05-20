@@ -1,18 +1,18 @@
 ---
 title: 嵌入元件(v1)
-description: The Embed Component enables embedding external content in an AEM content page.
+description: 嵌入元件可將外部內容嵌入到內AEM容頁中。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
 
 ---
 
-
 # 嵌入元件(v1) {#embed-component}
 
-The Core Components Embed Component allows embedding external content in an AEM content page.
+核心元件嵌入元件允許將外部內容嵌入內AEM容頁中。
 
 ## 使用狀況 {#usage}
 
@@ -21,7 +21,7 @@ The Core Components Embed Component allows embedding external content in an AEM 
 * 元件的屬性可在 [配置對話框](#configure-dialog)。
 * 在將元件添加到頁面時，可以在 [設計對話框](#design-dialog)。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本和相容性 {#version-and-compatibility}
 
 本文檔介紹嵌入元件的v1，該版本於2019年9月隨核心元件2.7.0版推出。
 
@@ -41,15 +41,15 @@ The Core Components Embed Component allows embedding external content in an AEM 
 
 有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置對話框 {#configure-dialog}
 
-通過「配置」對話框，內容作者可以定義要嵌入頁面的外部資源。 First choose which type of resource should be embedded:
+通過「配置」對話框，內容作者可以定義要嵌入頁面的外部資源。 首先選擇應嵌入的資源類型：
 
 * [URL](#url)
 * [內嵌項目](#embeddable)
 * [HTML](#html)
 
-For each type of embeddable, you can define ad **ID**. 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
+對於每種可嵌入類型，您可以定義廣告 **ID**。 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
 
 * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
 * 如果指定了ID，則作者有責任確保其唯一。
@@ -66,16 +66,16 @@ For each type of embeddable, you can define ad **ID**. 此選項允許控制HTML
 
 開發人員可以通過 [遵循嵌入元件的開發人員文檔。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![Embed Component&#39;s edit dialog for URL](/help/assets/embed-url.png)
+![URL的嵌入元件編輯對話框](/help/assets/embed-url.png)
 
 ### 內嵌項目 {#embeddable}
 
-Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. 作者可以從預先配置的可信嵌入式中進行選擇，並且元件隨YouTube可嵌入式出廠。
+嵌入式允許對嵌入式資源進行更多的定製，該嵌入式資源可以參數化並包括附加資訊。 作者可以從預先配置的可信嵌入式中進行選擇，並且元件隨YouTube可嵌入式出廠。
 
-的 **可嵌入** 欄位定義要使用的處理器類型。 In the case of the YouTube embeddable you can then define:
+的 **可嵌入** 欄位定義要使用的處理器類型。 如果是YouTube可侵佔的，您可以定義：
 
 * **視頻ID**  — 要嵌入的資源的YouTube的唯一視頻ID
-* **Width** - The width of the embedded video
+* **寬度**  — 嵌入式視頻的寬度
 * **高度**  — 嵌入式視頻的高度
 * **啟用靜音**  — 此參數指定視頻是否預設播放靜音。 啟用此功能會增加Autoplay在現代瀏覽器中工作的機會。
 * **啟用自動播放**  — 此參數指定在播放器載入時初始視頻是否自動開始播放。 這僅對發佈實例或使用 **查看為已發佈** 的子菜單。
@@ -87,10 +87,10 @@ Embeddables allow for more customization of the embedded resource, which can be 
 
 其他可嵌入項將提供類似的欄位，並可由開發者定義 [遵循嵌入元件的開發人員文檔。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![Embed Component&#39;s edit dialog for embeddables](/help/assets/embed-embeddable.png)
+![嵌入元件的編輯對話框](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->Embeddables must be enabled at the template level via the [Design Dialog](#design-dialog) to be available to the page author.
+>必須通過 [設計對話框](#design-dialog) 可供頁面作者使用。
 
 ### HTML {#html}
 
@@ -105,7 +105,7 @@ Embeddables allow for more customization of the embedded resource, which can be 
 
 作者可以輸入的HTML標籤會出於安全目的進行篩選，以避免跨站點指令碼攻擊，例如允許作者獲得管理權限。
 
-*In general,* all script and `style` elements as well as all `on*` and `style` attributes will be removed from the output.
+*總的來說，* 所有指令碼和 `style` 元素以及所有 `on*` 和 `style` 屬性將從輸出中刪除。
 
 但是，由於嵌入元件遵循全AEM局HTMLAntiSamy衛生框架過濾規則集，因此規則更複雜。 `/libs/cq/xssprotection/config.xml`。 如果需要，開發人員可以為項目特定配置覆蓋此內容。
 
@@ -123,9 +123,9 @@ Embeddables allow for more customization of the embedded resource, which can be 
 ![嵌入元件的設計對話框](/help/assets/embed-design.png)
 
 * **禁用URL**  — 禁用 **URL** 選項
-* **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected, regardless of which embeddable processors are allowed.
+* **禁用嵌入式**  — 禁用 **可嵌入** 選項，無論允許使用哪個可嵌入處理器。
 * **禁用HTML**  — 禁用 **HTML** 的子菜單。
-* **Allowed Embeddables** - Multiselect that defines which embeddable processors are available to the content author, provided that the **Embeddable** option is active.
+* **允許的嵌入式**  — 定義內容作者可使用哪些可嵌入處理器的多選，前提是 **可嵌入** 選項。
 
 ### YouTube頁籤 {#youtube-tab}
 
@@ -133,11 +133,11 @@ Embeddables allow for more customization of the embedded resource, which can be 
 
 * **允許配置靜音行為**  — 允許內容作者配置 **啟用靜音** 選項
    * **靜音的預設值**  — 自動設定 **啟用靜音** 選項
-* **Allow configuration of autoplay behavior** - Allows content author to configure the **Enable Autoplay** option in the component when the YouTube embed type is selected
+* **允許配置自動播放行為**  — 允許內容作者配置 **啟用自動播放** 選項
    * **自動播放的預設值**  — 自動設定 **啟用自動播放** 選項
 * **允許配置循環行為**  — 允許內容作者配置 **啟用循環** 選項
    * **循環的預設值**  — 自動設定 **啟用循環** 選項
 * **允許配置內聯播放(iOS)**  — 允許內容作者配置 **啟用內聯播放(iOS)** 選項
-   * **Default value of inline playback (iOS)** - Automatically sets **Enable Inline Playback (iOS)** option when the YouTube embed type is selected
+   * **內聯播放的預設值(iOS)**  — 自動設定 **啟用內聯播放(iOS)** 選項
 * **允許配置內聯視頻**  — 允許內容作者配置 **非限制相關視頻** 選項
    * **非限制相關視頻的預設值**  — 自動設定 **非限制相關視頻** 選項

@@ -85,7 +85,7 @@ HTL被設計為一種安全且簡單的模板語言，適合AEM使用。 它可�
 
 ## 把它們放在一起 {#putting-it-all-together}
 
-以標題核心元件為例，下面是整個資源類型綁定結構的概述。 它說明了特定於站點的代理元件如何解決元件版本控制問題，以避免內容資源包含任何版本號。 然後，它顯示了元件 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) 檔案用於模型介面，而實現通過 [吊具模型](https://sling.apache.org/documentation/bundles/models.html) 注釋。
+以標題核心元件為例，下面是整個資源類型綁定結構的概述。 它說明了特定於站點的代理元件如何解決元件版本控制問題，以避免內容資源包含任何版本號。 然後，它顯示了元件 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) 檔案用於模型介面，而實現通過 [吊具模型](https://sling.apache.org/documentation/bundles/models.html) 注釋。
 
 ![資源綁定概述](/help/assets/chlimage_1-32.png)
 
@@ -103,7 +103,7 @@ HTL被設計為一種安全且簡單的模板語言，適合AEM使用。 它可�
 
 [項AEM目原型](/help/developing/archetype/overview.md) 建立最小的Adobe Experience Manager項目作為您自己項目的起點，包括使用SlingModels定制HTL元件的示例，用於邏輯和使用推薦的代理模式正確實施核心元件。
 
-**閱讀下一節內容:**
+**閱讀後續章節：**
 
 * [使用核心元件](/help/get-started/using.md)  — 在您自己的項目中啟動並運行核心元件。
 * [定制核心元件](customizing.md)  — 學習如何設計和定制核心元件。

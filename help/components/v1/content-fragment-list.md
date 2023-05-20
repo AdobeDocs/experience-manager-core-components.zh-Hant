@@ -2,13 +2,13 @@
 title: 內容片段清單元件(v1)
 description: 核心元件內容片段清單元件允許顯示內容片段清單。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 1%
 
 ---
-
 
 # 內容片段清單元件(v1) {#content-fragment-list-component}
 

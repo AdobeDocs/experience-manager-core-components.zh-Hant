@@ -2,13 +2,13 @@
 title: 頁面元件(v2)
 description: 「頁面元件」是可擴展的頁面元件，旨在與模板編輯器一起使用，並允許與模板編輯器一起裝配頁眉/頁腳和結構元件。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
 
 ---
-
 
 # 頁面元件(v2) {#page-component}
 

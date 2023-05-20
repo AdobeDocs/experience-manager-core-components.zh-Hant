@@ -1,6 +1,6 @@
 ---
 title: 自訂核心元件
-description: 核心元件實作多種模式，可輕鬆自訂，從簡單的樣式到進階功能可重複使用。
+description: 核心元件實施了幾種模式，從簡單的造型到高級功能的重用，這些模式允許輕鬆定制。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
@@ -12,38 +12,38 @@ ht-degree: 1%
 
 # 自訂核心元件{#customizing-core-components}
 
-[核心元件](overview.md)實作了數種允許輕鬆自訂的模式，從簡單的樣式到進階功能重複使用。
+的 [核心元件](overview.md) 實施多種模式，從簡單的樣式到高級功能的重用，都可輕鬆實現定制。
 
 ## 靈活的體系結構 {#flexible-architecture}
 
-核心元件從一開始就設計為靈活且可擴充。 檢視其架構的概觀，便可顯示可在何處進行自訂。
+核心元件從一開始就設計為靈活和可擴展。 查看其體系結構的概述，可以在何處進行自定義。
 
-![核心元件架構](/help/assets/screen_shot_2018-12-07at093742.png)
+![核心元件體系結構](/help/assets/screen_shot_2018-12-07at093742.png)
 
-* [設計對](/help/get-started/authoring.md#edit-and-design-dialogs) 話方塊定義作者可在編輯對話方塊中或無法執行的操作。
-* [編輯對](/help/get-started/authoring.md#edit-and-design-dialogs) 話方塊只顯示作者可使用的選項。
-* [Sling模](#customizing-the-logic-of-a-core-component) 型會驗證並準備檢視的內容（範本）。
-* [SPA使用案例](#customizing-the-logic-of-a-core-component) 可將Sling模型的結果序列化為JSON。
-* [HTL會轉譯HTML](#customizing-the-markup) 伺服器端，以利傳統伺服器端轉譯。
-* [HTML會](#customizing-the-markup) 輸出語意、可存取、搜尋引擎已最佳化，且易於設定樣式。
+* [設計對話框](/help/get-started/authoring.md#edit-and-design-dialogs) 定義作者在編輯對話框中可以或不能執行的操作。
+* [編輯對話框](/help/get-started/authoring.md#edit-and-design-dialogs) 僅顯示作者允許使用的選項。
+* [Sling模型](#customizing-the-logic-of-a-core-component) 驗證並準備視圖（模板）的內容。
+* [Sling模型的結果](#customizing-the-logic-of-a-core-component) 可序列化到JSONSPA以用例。
+* [HTL呈現HTML](#customizing-the-markup) 伺服器端，用於傳統的伺服器端呈現。
+* [HTML輸出](#customizing-the-markup) 語義、易訪問、搜索引擎已優化，且易於使用。
 
-所有核心元件都實現[樣式系統](#styling-the-components)。
+所有核心元件都 [樣式系統](#styling-the-components)。
 
 ## AEM 專案原型 {#aem-project-archetype}
 
-[AEM專案原](/help/developing/archetype/overview.md) 型會將最簡化的Adobe Experience Manager專案視為您專案的起點，包括以SlingModels建立的自訂HTL元件範例，以邏輯和正確實作核心元件並搭配建議的Proxy模式。
+[項AEM目原型](/help/developing/archetype/overview.md) 建立最小的Adobe Experience Manager項目作為您自己項目的起點，包括一個帶SlingModels的自定義HTL元件示例，用於邏輯和使用推薦的代理模式正確實施核心元件。
 
-## 自訂模式 {#customization-patterns}
+## 自定義模式 {#customization-patterns}
 
-### 自訂對話方塊 {#customizing-dialogs}
+### 自定義對話框 {#customizing-dialogs}
 
-可能需要自定義核心元件對話框中可用的配置選項，無論是[設計對話框或編輯對話框](/help/get-started/authoring.md)。
+可能需要定制核心元件對話框中可用的配置選項 [設計對話框或編輯對話框](/help/get-started/authoring.md)。
 
-每個對話方塊都有一致的節點結構。 建議在繼承元件中複製此結構，以便[Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)和[Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html)可用來隱藏、替換或重新排序原始對話方塊的區段。 要複製的結構定義為直至索引標籤項目節點層級的任何項目。
+每個對話框都具有一致的節點結構。 建議在繼承元件中複製此結構，以便 [Sling資源合併](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) 和 [隱藏條件](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) 可用於隱藏、替換或重新排序原始對話框的節。 要複製的結構定義為直至頁籤項目節點級別的任何內容。
 
-要完全相容當前版本上對對話框所做的任何更改，請務必不要接觸頁簽項目級別下的結構（隱藏、添加、替換、重新排序等）。 相反地，父項的索引標籤項目應透過`sling:hideResource`屬性（請參閱[ Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)）隱藏，並新增包含定製配置欄位的新索引標籤項目。 `sling:orderBefore` 可以視需要重新排序索引標籤項目。
+要與對對話框當前版本所做的任何更改完全相容，非常重要的是，不要觸碰頁籤項級別下的結構（隱藏、添加到、替換、重新排序等）。 相反，應通過 `sling:hideResource` 屬性(請參見 [Sling資源合併屬性](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html))，以及添加的包含定製配置欄位的新頁籤項。 `sling:orderBefore` 可用於重新排序頁籤項（如果需要）。
 
-以下對話方塊示範建議的對話方塊結構，以及如何依上述方式隱藏和取代繼承的標籤：
+下面的對話框演示了建議的對話框結構以及如何隱藏和替換繼承的頁籤，如上所述：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -73,13 +73,13 @@ ht-degree: 1%
 </jcr:root>
 ```
 
-### 自訂核心元件的邏輯 {#customizing-the-logic-of-a-core-component}
+### 定制核心元件的邏輯 {#customizing-the-logic-of-a-core-component}
 
-核心元件的商業邏輯是在Sling模型中實作。 此邏輯可使用Sling委派模式來擴充。
+核心元件的業務邏輯在Sling模型中實現。 該邏輯可通過使用Sling委託模式來擴展。
 
-例如，標題核心元件使用請求資源的`jcr:title`屬性來提供標題文本。 若未定義`jcr:title`屬性，則會實作目前頁面標題的後援。 我們想要變更行為，以一律顯示目前頁面的標題。
+例如，標題核心元件使用 `jcr:title` 請求資源的屬性，以提供標題文本。 否 `jcr:title` 定義屬性，實現對當前頁標題的回退。 我們要更改行為，以便始終顯示當前頁面的標題。
 
-由於核心元件模型的實作為私人模型，因此必須以委派模式加以擴充。
+由於核心元件模型的實施是私有的，因此必須使用委託模式進行擴展。
 
 ```java
 @Model(adaptables = SlingHttpServletRequest.class,
@@ -98,23 +98,23 @@ public class PageHeadline implements Title {
 }
 ```
 
-如需委派模式的詳細資訊，請參閱核心元件GitHub Wiki文章[Sling模型的委派模式](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)。
+有關委派模式的詳細資訊，請參閱核心元件GitHub Wiki文章 [吊具模型委託模式](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)。
 
 ### 自定義標籤 {#customizing-the-markup}
 
-有時，進階樣式需要元件的不同標籤結構。
+有時，高級樣式需要元件的不同標籤結構。
 
-將需要修改的HTL檔案從核心元件複製到[代理元件中，即可輕鬆完成此操作。](guidelines.md#proxy-component-pattern)
+通過將需要修改的HTL檔案從核心元件複製到 [代理元件。](guidelines.md#proxy-component-pattern)
 
-再以核心階層連結元件的範例為例，若要自訂其標籤輸出，必須將`breadcrumb.html`檔案複製至具有指向核心階層連結元件之`sling:resourceSuperTypes`的網站特定元件。
+再次以核心Breadcrumb元件的示例為例，要自定義其標籤輸出， `breadcrumb.html` 檔案必須複製到具有 `sling:resourceSuperTypes` 指向核心Breacrumb元件。
 
-### 元件的樣式 {#styling-the-components}
+### 設定元件的樣式 {#styling-the-components}
 
-第一種自訂形式是套用CSS樣式。
+第一種定制形式是應用CSS樣式。
 
-為了簡化操作，核心元件會轉譯語義標籤，並遵循受[Bootstrap](https://getbootstrap.com/)啟發的標準化命名慣例。 此外，為了輕鬆定位和命名個別元件的樣式，每個核心元件都包裝在具有「`cmp`」和「`cmp-<name>`」類別的DIV元素中。
+為了簡化此過程，核心元件會呈現語義標籤並遵循受 [Bootstrap](https://getbootstrap.com/)。 此外，為了輕鬆確定各個元件的樣式並命名其空間，每個核心元件都包裝在帶有「 」的DIV元素中 `cmp`&quot;和&quot; `cmp-<name>`類。
 
-例如，查看v1核心階層連結元件的HTL檔案：[breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)，我們發現元素輸出的階層為`ol.breadcrumb > li.breadcrumb-item > a`。 因此，為了確定CSS規則只影響該元件的階層連結類別，所有規則的命名方式皆應如下所示：
+例如，查看v1核心Breadcrumb元件的HTL檔案： [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)，我們看到元素輸出的層次 `ol.breadcrumb > li.breadcrumb-item > a`。 因此，要確保CSS規則僅影響該元件的breadcrumb類，所有規則應按如下所示命名：
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -122,41 +122,41 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每個核心元件都利用AEM [樣式系統功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html)，該功能允許範本作者定義可由頁面作者套用至元件的其他CSS類別名稱。 這可為每個範本定義允許的元件樣式清單，以及其中一個預設應套用至該類型的所有元件。
+此外，每個核心元件都利用 [樣式系統功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) 允許模板作者定義可由頁面作者應用於元件的其他CSS類名。 這允許為每個模板定義允許的元件樣式清單，以及預設情況下是否應將其中一種樣式應用於此類的所有元件。
 
 ## 自定義項的升級相容性 {#upgrade-compatibility-of-customizations}
 
-有三種不同的升級方式：
+可以進行三種不同的升級：
 
-* 升級AEM版本
-* 將核心元件升級至新的次要版本
-* 將核心元件升級至主要版本
+* 升級版AEM本
+* 將核心元件升級到新的次版本
+* 將核心元件升級到主版本
 
-一般而言，將AEM升級至新版本不會影響核心元件或完成的自訂，前提是元件的版本也支援要移轉至的新AEM版本，且自訂不使用已[遭取代或移除的API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+通常，AEM升級到新版本不會影響核心元件或完成的自定義，前提是元件的版本還支援要遷移到的新AEM版本，且自定義不使用已遷移的API [已棄用或刪除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
-升級核心元件而不切換至較新的主要版本，只要使用本頁所述的自訂模式，就不應影響自訂。
+升級核心元件而不切換到較新的主版本不應影響定制，只要使用此頁上描述的定製模式。
 
-切換至較新的主要核心元件版本僅與內容結構相容，但可能需要重構自訂內容。 系統會針對每個元件版本發佈清除變更記錄，以反白標示會影響本頁面所述自訂類型的變更。
+切換到較新的主要核心元件版本僅與內容結構相容，但可能需要重新構造自定義。 將為每個元件版本發佈清除更改日誌，以突出顯示將影響此頁中描述的自定義類型的更改。
 
-## 支援自訂 {#support-of-customizations}
+## 支援自定義 {#support-of-customizations}
 
-與任何AEM元件一樣，有許多關於自訂的事項需要注意：
+與任何組AEM件一樣，在自定義方面有許多需要注意的事項：
 
-1. **請勿直接修改核心元件的程式碼。**
+1. **切勿直接修改核心元件的代碼。**
 
-   這會使這些元件完全不受支援，並讓未來元件的更新過程充滿痛苦。 請改用本頁所述的自訂方法。
+   這將使這些元件完全不受支援，並使將來對元件的更新成為一個痛苦的過程。 而是使用此頁上介紹的自定義方法。
 
-1. **自訂程式碼由您自行負責。**
+1. **自定義代碼是您自己的責任。**
 
-   我們的支援計畫不涵蓋自訂程式碼，且以[作為記錄檔案的Vanilla核心元件無法重制的回報問題將不符合資格。](/help/get-started/using.md)
+   我們的支援計畫不涵蓋自定義代碼，並報告了無法使用以下香草核心元件複製的問題 [已記錄](/help/get-started/using.md) 不合格。
 
-1. **觀看過時和移除的功能。**
+1. **監視已棄用和已刪除的功能。**
 
-   將每個新AEM版本升級至後，請留意[已過時和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)頁面，以確保所有使用的API仍為熱門版。
+   將每個AEM新版本升級到時，通過關注 [已棄用和已刪除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) 的子菜單。
 
-另請參閱[核心元件支援](overview.md#core-component-support)一節。
+另請參閱 [核心元件支援](overview.md#core-component-support) 的子菜單。
 
-**閱讀下一節內容:**
+**閱讀後續章節：**
 
-* [使用核心元件](/help/get-started/using.md)  — 在您自己的專案中開始使用核心元件。
-* [元件准則](guidelines.md)  — 了解核心元件的實作模式。
+* [使用核心元件](/help/get-started/using.md)  — 在您自己的項目中啟動並運行核心元件。
+* [元件指南](guidelines.md)  — 瞭解核心元件的實施模式。

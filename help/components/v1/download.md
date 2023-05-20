@@ -2,13 +2,13 @@
 title: 下載元件(v1)
 description: 核心元件下載元件允許在頁面上建立下載選項。
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
+exl-id: ebd63522-218d-4784-bea0-1627c64f5230
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
 
 ---
-
 
 # 下載元件(v1) {#download-component}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >本文檔介紹下載元件的v1。
 >
->For details of the current version of the Download Component, see the [Download Component](/help/components/download.md) document.
+>有關下載元件當前版本的詳細資訊，請參閱 [下載元件](/help/components/download.md) 的子菜單。
 
 ## 元件輸出示例 {#sample-component-output}
 

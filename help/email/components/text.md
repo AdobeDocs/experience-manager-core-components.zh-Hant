@@ -1,6 +1,6 @@
 ---
-title: 電子郵件文字元件
-description: 電子郵件文字元件是RTF編輯和合成元件，可就地編輯。
+title: 電子郵件文本元件
+description: 電子郵件文本元件是一個富格文本編輯和合成元件，具有就地編輯功能。
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
@@ -11,266 +11,266 @@ ht-degree: 2%
 ---
 
 
-# 電子郵件文字元件 {#email-text-component}
+# 電子郵件文本元件 {#email-text-component}
 
-電子郵件文字元件是RTF編輯和合成元件，可就地編輯。
+電子郵件文本元件是一個富格文本編輯和合成元件，具有就地編輯功能。
 
 ## 使用狀況 {#usage}
 
-電子郵件文字元件提供強大的RTF編輯器，以簡化的內嵌編輯器和全螢幕格式輕鬆編輯文字。
+電子郵件文本元件提供強大的富格文本編輯器，它允許以簡化的串聯編輯器以及全屏格式輕鬆編輯文本。
 
-* 此 [編輯對話框](#edit-dialog) 全螢幕編輯對話方塊中提供有限選項和完整功能的串列編輯功能。
-* 使用 [設計對話方塊，](#design-dialog) 可為內容作者的範本設定標題、特殊字元和段落樣式等文字格式選項。
+* 的 [編輯對話框](#edit-dialog) 功能是使用有限選項進行線上編輯，而全屏編輯對話框中提供了全部功能。
+* 使用 [設計對話框，](#design-dialog) 可以為內容作者的模板配置文本格式選項，如標題、特殊字元和段落樣式。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性 {#version-and-compatibility}
 
-電子郵件文字元件的目前版本為v1，已於2022年10月隨電子郵件核心元件X版推出，本檔案將加以說明。
+電子郵件文本元件的當前版本是v1，該版本於2022年10月隨電子郵件核心元件的X版一同推出，本文檔對此進行了說明。
 
-下表詳細說明所有支援的元件版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
 
 | 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
 |---|---|---|
 | v1 | 相容 | - |
 
-如需核心元件版本和版本的詳細資訊，請參閱本檔案 [電子郵件核心元件版本。](/help/email/versions.md)
+有關核心元件版本和版本的詳細資訊，請參閱文檔 [電子郵件核心元件版本。](/help/email/versions.md)
 
 ### 技術詳細資訊 {#technical-details}
 
-電子郵件文字元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+有關電子郵件文本元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_email_text_v1)。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 
-## 電子郵件文字元件和RTF編輯器 {#the-text-component-and-the-rich-text-editor}
+## 電子郵件文本元件和富格文本編輯器 {#the-text-component-and-the-rich-text-editor}
 
-電子郵件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供多種功能，可編輯其文字內容。 RTE在設定上是彈性的，並提供許多選項。 如需RTE設定方式的詳細資訊，請參閱文章 [設定RTF編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 和 [設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+電子郵件文本元件利AEM用富格文本編輯器(RTE)。 RTE為內容作者提供了多種編輯其文本內容的功能。 RTE的配置靈活，提供了多種選項。 有關如何配置RTE的進一步詳細資訊，請參閱文章 [配置RTF編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) 和 [配置RTF編輯器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
-本檔案的其餘部分示範使用現成可用RTE設定的電子郵件文字元件的標準設定。
+本文檔的其餘部分演示了電子郵件文本元件的標準配置以及現成的RTE配置。
 
 >[!NOTE]
 >
->僅由啟用的選項 [RTE的UI設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 可在「電子郵件文字」元件中使用。
+>僅選項啟用者 [RTE的UI配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 在「電子郵件文本」元件中。
 
-## 編輯對話方塊 {#edit-dialog}
+## 編輯對話框 {#edit-dialog}
 
 ![文本元件的編輯對話框](/help/email/assets/email-text-edit.png)
 
-### 格式選項 {#options}
+### 格式設定選項 {#options}
 
-編輯對話方塊提供標準RTF格式工具，使用者可預期這些工具來撰寫文字。
+編輯對話框提供了用戶希望合成文本的標準富格文本格式工具。
 
 #### 粗體
 
-![粗體圖示](/help/assets/text-bold.png)
+![粗體表徵圖](/help/assets/text-bold.png)
 
-用於將粗體格式應用於選定文本或在游標後輸入的大膽格式文本。
+用於將粗體格式應用於選定文本或大膽設定游標後輸入的文本格式。
 
-**Ctrl+B** 可用作鍵盤快速鍵。
+**Ctrl+B** 可用作鍵盤快捷鍵。
 
 #### 斜體
 
-![斜體圖示](/help/assets/text-italic.png)
+![斜體表徵圖](/help/assets/text-italic.png)
 
-用於將斜體格式應用到選定文本或在游標之後輸入的斜體文本。
+用於將斜體格式應用於游標後輸入的選定文本或斜體文本。
 
-**Ctrl+I** 可用作鍵盤快速鍵。
+**Ctrl+I** 可用作鍵盤快捷鍵。
 
 #### 底線
 
 ![下划線表徵圖](/help/assets/text-underline.png)
 
-用於將下划線格式應用於在游標之後輸入的選定文本或下划線文本。
+用於將下划線格式應用於游標後輸入的選定文本或下划線文本。
 
-**Ctrl+U** 可用作鍵盤快速鍵。
+**Ctrl+U鍵** 可用作鍵盤快捷鍵。
 
 #### 下標
 
 ![下標表徵圖](/help/assets/text-subscript.png)
 
-用於將游標之後輸入的選定文本或文本格式化為下標。
+用於將游標後輸入的選定文本或文本格式化為下標。
 
 #### 上標
 
 ![上標表徵圖](/help/assets/text-superscript.png)
 
-用於將游標之後輸入的選定文本或文本格式化為上標。
+用於將游標後輸入的選定文本或文本格式化為上標。
 
-#### 貼上為文字
+#### 貼上為文本
 
-![貼上為文字圖示](/help/assets/text-paste-text.png)
+![貼上為文本表徵圖](/help/assets/text-paste-text.png)
 
-將任何複製的文本貼上為純文字檔案，不使用任何格式。
+將任何複製的文本貼上為純文字檔案，而不使用任何格式。
 
-選取此選項時，將開啟一個窗口，在該窗口中，文本可以貼上為純文字檔案，在插入文本之前不以格式作為預覽。 點選或按一下複選標籤以接受，點選或按一下x以取消。
+選擇此選項時，將開啟一個窗口，在將文本插入文本之前，可以將文本貼上為純文字檔案，且沒有格式作為預覽。 按一下或按一下複選標籤接受，按一下或按一下x取消。
 
-![貼上為文字範例](/help/assets/text-paste-text-example.png)
+![貼上為文本示例](/help/assets/text-paste-text-example.png)
 
 #### 從 Word 貼上
 
-![「從Word貼上」圖示](/help/assets/text-paste-word.png)
+![「從Word貼上」表徵圖](/help/assets/text-paste-word.png)
 
-選取此選項時，會開啟一個視窗，可貼上文字，並在將其插入文字之前，維持其格式作為預覽。 點選或按一下複選標籤以接受，點選或按一下x以取消。
+選擇此選項時，將開啟一個窗口，在將文本插入文本之前，可以在其中貼上文本，將其格式保持為預覽。 按一下或按一下複選標籤接受，按一下或按一下x取消。
 
-![從Word貼上範例](/help/assets/text-paste-word-example.png)
+![從Word貼上示例](/help/assets/text-paste-word-example.png)
 
 #### 超連結
 
 ![超連結表徵圖](/help/assets/text-hyperlink.png)
 
-使用此選項可將選定文本轉換為超連結或修改已定義的連結。 此選項會開啟一個視窗，其中包含設定連結的其他選項。
+使用此選項可將所選文本轉換為超連結或修改已定義的連結。 此選項開啟一個窗口，其中包含用於設定連結的其他選項。
 
-![超連結範例](/help/assets/text-hyperlink-example.png)
+![超連結示例](/help/assets/text-hyperlink-example.png)
 
 * 輸入路徑
-   * 使用 **開啟選取項目** 對話方塊，在AEM中選擇路徑
-   * 如果連結不在AEM內，請輸入絕對URL
-      * 非絕對路徑會解譯為相對於AEM
-* 輸入連結的替代描述性文字
-* 選取連結行為
+   * 使用 **開啟選擇** 對話框，在中選擇路AEM徑
+   * 如果連結不在AEM其中，請輸入絕對URL
+      * 非絕對路徑被解釋為相對於AEM
+* 輸入連結的備選說明性文本
+* 選擇連結行為
    * 目標
    * 相同索引標籤
    * 新索引標籤
    * 父框架
    * 上框架
 
-點選或按一下核取記號以套用連結，或按x以取消。
+點擊或按一下複選標籤以應用連結，或按一下x以取消。
 
 #### 取消連結
 
 ![取消連結表徵圖](/help/assets/text-unlink.png)
 
-使用此選項可移除已套用至所選文字的連結。 只有在已選取連結時，此選項才會作用中。
+使用此選項可刪除已應用於所選文本的連結。 僅當已選擇連結時，此選項才處於活動狀態。
 
 #### 錨點 {#anchor}
 
-![錨點圖示](/help/email/assets/anchor.png)
+![錨點表徵圖](/help/email/assets/anchor.png)
 
-使用此選項將錨點插入文本中。
+使用此選項將錨點插入文本。
 
 #### 尋找
 
 ![查找表徵圖](/help/assets/text-find.png)
 
-使用此選項可搜索文本以查找指定文本字串的出現。 選擇此選項將開啟一個窗口，用於指定搜索選項。
+使用此選項可搜索文本以查找指定文本字串的出現情況。 選擇此選項將開啟一個窗口，用於指定搜索選項。
 
-![尋找範例](/help/assets/text-find-example.png)
+![查找示例](/help/assets/text-find-example.png)
 
-輸入要搜索的文本，點選或按一下 **查找** 開始搜索。 點選或按一下x以取消。
-如果您想根據大小寫執行完全相符的動作，請選取選項 **符合案例** 開始搜尋之前。
-如果找到相符項目，則會加亮顯示，而搜尋對話方塊則呈現灰色。 點選或按一下 **查找** 按鈕，以搜尋下一個出現次數。
+輸入要搜索的文本，點擊或按一下 **查找** 開始搜索。 點擊或按一下x取消。
+如果要根據大小寫進行精確匹配，請選擇選項 **匹配大小寫** 開始搜索。
+如果找到匹配項，則會加亮該匹配項，並且搜索對話框會變暗。 點擊或按一下 **查找** 的子菜單。
 
-![查找找到的示例](/help/assets/text-find-example-found.png)
+![找到示例](/help/assets/text-find-example-found.png)
 
-如果找不到其他發生次數，則會顯示訊息，並從文字的開頭開始搜尋。
+如果找不到其他出現的情況，將顯示一條消息，並從文本的開頭重新開始搜索。
 
 ![查找示例，不再出現](/help/assets/text-find-example-found-end.png)
 
 #### 取代
 
-![取代圖示](/help/assets/text-replace.png)
+![「替換」表徵圖](/help/assets/text-replace.png)
 
-使用此選項可搜索文本以查找指定文本字串的出現次數，並將匹配項替換為另一個字串。 選擇此選項將開啟一個窗口，用於指定搜索和替換選項。
+使用此選項可搜索文本以查找指定文本字串的具體值，並將匹配項替換為另一個字串。 選擇此選項將開啟一個窗口，用於指定搜索和替換選項。
 
-![取代範例](/help/assets/text-replace-example.png)
+![替換示例](/help/assets/text-replace-example.png)
 
-輸入要搜索的文本以及應替換的文本。
+輸入要搜索的文本以及應替換它的文本。
 
-* 點選或按一下 **查找** 開始搜索。 按一下或點選x以取消。
-* 如果您想根據大小寫執行完全相符的動作，請選取選項 **符合案例** 開始搜尋之前。
-* 選擇 **全部替換** 一次替換所有出現的文本。
+* 點擊或按一下 **查找** 開始搜索。 按一下或點擊x取消。
+* 如果要根據大小寫進行精確匹配，請選擇選項 **匹配大小寫** 開始搜索。
+* 選擇 **全部替換** 來同時替換所有出現的文本。
 
-如果找到相符項目，則會加亮顯示，而搜尋對話方塊則呈現灰色。 按一下 **查找** 按鈕，以搜索下一個出現次數或選擇 **取代** 按鈕，替換突出顯示的匹配文本。 此 **取代** 按鈕只有在進行匹配後才處於活動狀態。
+如果找到匹配項，則會加亮該匹配項，並且搜索對話框會變暗。 按一下 **查找** 按鈕，以搜索下一個出現項或選擇 **替換** 按鈕，將選定控制項在Tab鍵次序中下移一個位置。 的 **替換** 只有匹配後，按鈕才處於活動狀態。
 
-點擊查找時，查找和替換對話框變為透明，點擊替換時變為不透明。 這可讓作者檢閱作者將取代的文字。
+按一下「查找」(find)和「替換」(replace)對話框時，該對話框將變為透明，按一下「替換」(replace)時，該對話框將變為不透明。 這允許作者審閱作者將替換的文本。
 
 >[!NOTE]
 >
->使用取代功能時，應在輸入要取代的字串的同時找到該字串。 不過，在替換字串之前，您仍可以按一下「尋找」來搜尋字串。 如果在按一下「查找」後輸入替換字串，則搜索將重置為文本的開頭。
+>使用替換功能時，應在輸入要替換的字串的同時輸入要查找的字串。 但是，您仍可以按一下「查找」在替換字串之前搜索該字串。 如果在按一下「查找」後輸入替換字串，則搜索將重置為文本的開頭。
 
 #### 復原
 
-![還原圖示](/help/email/assets/undo.png)
+![撤消表徵圖](/help/email/assets/undo.png)
 
-用來還原RTF編輯器中上次的編輯。
+用於撤消富格文本編輯器中的上次編輯。
 
 #### 重做
 
-![重做圖示](/help/email/assets/redo.png)
+![重做表徵圖](/help/email/assets/redo.png)
 
-用於使用還原圖示來還原已還原的編輯。
+用於使用撤消表徵圖撤消編輯。
 
 #### 向左對齊文字
 
-![靠左對齊圖示](/help/assets/text-left.png)
+![左對齊表徵圖](/help/assets/text-left.png)
 
-用來將文字對齊左側邊界。
+用於將文本與左邊距對齊。
 
 #### 文字置中
 
-![中間文字圖示](/help/assets/text-center.png)
+![居中文本表徵圖](/help/assets/text-center.png)
 
-用來將文字置中。
+用於居中文本。
 
 #### 向右對齊文字
 
-![靠右對齊圖示](/help/assets/text-right.png)
+![右對齊表徵圖](/help/assets/text-right.png)
 
-用於將文字對齊右側邊界。
+用於將文本與右邊距對齊。
 
 #### 項目符號
 
-![項目符號圖示](/help/assets/text-bullet.png)
+![項目符號表徵圖](/help/assets/text-bullet.png)
 
-用於將所選文本格式化為項目符號清單，或在游標後開始插入項目符號清單。
+用於將所選文本格式化為項目符號清單或開始在游標後插入項目符號清單。
 
-若要結束項目符號清單，請點選或按一下 **項目符號** 按鈕或輸入兩個歸位。
+要結束項目符號清單，請點擊或按一下 **項目符號** 按鈕或輸入兩個回車符。
 
 #### 編號
 
-![編號清單圖示](/help/assets/text-numbered.png)
+![編號清單表徵圖](/help/assets/text-numbered.png)
 
-用於將所選文本格式化為編號清單，或開始在游標後插入編號清單。
+用於將所選文本格式化為編號清單或開始在游標後插入編號清單。
 
-若要結束編號清單，請點選或按一下 **編號** 按鈕或輸入兩個歸位。
+要結束編號清單，請點擊或按一下 **編號** 按鈕或輸入兩個回車符。
 
 #### 凸排
 
 ![輸出表徵圖](/help/assets/text-outdent.png)
 
-用於減少在游標之後輸入的選定文本或文本的縮進級別。
+用於減少在游標後輸入的選定文本或文本的縮進級別。
 
-僅當游標的選定文本或位置已縮排時才處於活動狀態。
+僅當游標的選定文本或位置已縮進時才處於活動狀態。
 
 #### 縮排
 
 ![縮進表徵圖](/help/assets/text-indent.png)
 
-用於增加在游標之後輸入的選定文本或文本的縮進級別。
+用於增加游標後輸入的選定文本或文本的縮進級別。
 
 #### 表格
 
-![表格圖示](/help/assets/text-table.png)
+![「表格」表徵圖](/help/assets/text-table.png)
 
-用於將表插入文本中。 選擇此選項將開啟一個窗口，用於指定表的詳細資訊。
+用於將表插入文本。 選擇此選項將開啟一個窗口，用於指定表的詳細資訊。
 
-![表格範例](/help/assets/text-table-example.png)
+![表示例](/help/assets/text-table-example.png)
 
-* **欄**  — 表格的欄數（必要）
-* **列**  — 表格的列數（必要）
-* **寬度**  — 表格寬度
-* **高度**  — 表格高度
-* **單元格填充**  — 儲存格內容周圍的空間
-* **儲存格間距**  — 儲存格之間的空間
-* **邊框**  — 表格的邊框粗細
-   * 若表格的標題：
+* **列**  — 表的列數（必需）
+* **行**  — 表的行數（必需）
+* **寬度**  — 表的寬度
+* **高度**  — 表的高度
+* **單元格填充**  — 單元格內容周圍的空間
+* **單元格間距**  — 單元格之間的空格
+* **邊框**  — 表的邊框線的重量
+   * 如果表的標題：
+      * 應使用第一行
       * 應使用第一列
-      * 應使用第一欄
-      * 應使用第一列和第一列
+      * 應使用第一行和第一列
       * 或者不應使用標題。
-* **註解**  — 表格標題
+* **標題**  — 表的標題
 
 #### 影像
 
-![影像圖示](/help/email/assets/image-icon.png)
+![影像表徵圖](/help/email/assets/image-icon.png)
 
 用於對齊插入的影像。
 
@@ -278,19 +278,19 @@ ht-degree: 2%
 
 ![檢查拼寫表徵圖](/help/assets/text-spellcheck.png)
 
-用於檢查文本內容的拼寫。 可能拼錯的字，加上破折的紅線。
+用於檢查文本內容的拼寫。 可能的拼寫錯誤用破折的紅線加下划線。
 
-有關拼寫檢查和自定義拼寫檢查字典的詳細資訊，請參見文檔 [設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+有關拼寫檢查和自定義拼寫檢查詞典的詳細資訊，請參閱文檔 [配置RTF編輯器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 #### 特殊字元 {#special-characters}
 
 ![特殊字元表徵圖](/help/assets/text-special-characters.png)
 
-用於將特殊字元插入文字中。 選擇此選項將開啟一個顯示可用字元的窗口。
+用於在文本中插入特殊字元。 選擇此選項將開啟一個顯示可用字元的窗口。
 
-![特殊字元範例](/help/assets/text-special-characters-example.png)
+![特殊字元示例](/help/assets/text-special-characters-example.png)
 
-點選或按一下所需的字元，將其插入游標後的文字中。 可插入多個字元。 點選或按一下x以關閉選取視窗。
+點擊或按一下所需字元，將其插入游標後的文本。 可以插入多個字元。 點擊或按一下x關閉選擇窗口。
 
 #### 來源編輯
 
@@ -298,111 +298,111 @@ ht-degree: 2%
 
 用於查看和修改文本的HTML源。
 
-點選或按一下 **源編輯** 表徵圖來更改格式化視圖中的文本內容以查看原始HTML。 在此模式中，會禁用所有其他格式選項。 點選或按一下 **源編輯** 圖示返回格式化視圖。
+點擊或按一下 **源編輯** 表徵圖以更改格式化視圖中文本的內容以查看原始HTML。 在此模式下，所有其它格式選項都被禁用。 點擊或按一下 **源編輯** 表徵圖以返回到格式化視圖。
 
 >[!CAUTION]
 >
->如同存取原始HTML的情況，使用 **源編輯** 選項！
+>與訪問原始HTML的情況一樣，在使用 **源編輯** 選項！
 >
->HTML輸入方式 **源編輯** 會掃描XSS風險，且會移除所插入的任何指令碼，且這些指令碼不會顯示在產生的頁面上。 但在中輸入的HTML格式錯誤 **源編輯** 可能會中斷頁面的範本，導致非預期的格式設定，或導致頁面無法使用。
+>HTML輸入方式 **源編輯** 將掃描XSS風險，並刪除插入的任何指令碼，且不會顯示在生成的頁面上。 但是，在中輸入的HTML格式錯誤 **源編輯** 可能會中斷頁面的模板，導致意外的格式設定或導致生成的頁面無法使用。
 
 >[!NOTE]
 >
->因為HTML是透過 **源編輯** 會針對XSS風險和任何指令碼進行掃描並自動移除發現的這些風險，則保存的實際內容可能會與中輸入的內容有所不同 **源編輯**. 因此，為了儲存使用 **源編輯**，您必須先退出 **源編輯** 在保存之前在普通編輯器中查看文本。
+>因為HTML通過 **源編輯** 掃描XSS風險和任何指令碼並自動刪除那些發現的指令碼，保留的實際內容可能與在中輸入的內容不同 **源編輯**。 因此，為了保存使用 **源編輯**，必須先退出 **源編輯** 在普通編輯器中查看文本，然後再保存。
 
 #### 段落格式
 
 ![段落格式表徵圖](/help/assets/text-paragraph.png)
 
-用於將段落格式應用於選定文本或游標後插入的文本。 選擇此選項將開啟一個下拉清單，從中選擇段落格式。
+用於將段落格式應用於選定文本或插入游標後的文本。 選擇此選項將開啟一個下拉清單，從中選擇段落格式。
 
 ![段落格式示例](/help/assets/text-paragraph-example.png)
 
 #### 選取 Adobe Campaign 變數
 
-![選取Adobe Campaign變數圖示](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![選擇Adobe Campaign變數表徵圖](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-開啟 [選取Adobe Campaign變數](/help/email/campaign-variables.md) 對話方塊，從Adobe Campaign插入動態內容。
+開啟 [選擇Adobe Campaign變數](/help/email/campaign-variables.md) 對話框，插入來自Adobe Campaign的動態內容。
 
-### 線上編輯 {#in-line-editing}
+### 聯機編輯 {#in-line-editing}
 
-也可以內嵌編輯文字元件。 若要內嵌編輯，請在內容頁面上選取「電子郵件文字元件」 。
+文本元件也可以進行串聯編輯。 要串聯編輯，請在內容頁面上選擇「電子郵件文本元件」。
 
-![選取電子郵件文字元件](/help/email/assets/email-text-select-component.png)
+![選擇電子郵件文本元件](/help/email/assets/email-text-select-component.png)
 
-然後點選或按一下 **編輯** 圖示（位於工具列上），此圖示會彈出至元件上。 工具列會變更為顯示有限的文字格式選項(包括 **選取Adobe Campaign變數** 選項)，並可以編輯文本行。
+然後點擊或按一下 **編輯** 表徵圖。 工具欄將更改為顯示受限文本格式選項(包括對 **選擇Adobe Campaign變數** 的子菜單。
 
-![行內編輯範例](/help/email/assets/email-text-edit-inline-example.png)
+![行內編輯示例](/help/email/assets/email-text-edit-inline-example.png)
 
-點選或按一下工具列中的核取標籤，以儲存您的變更或捨棄X。
+點擊或按一下工具欄中的複選標籤以保存更改，或按一下X放棄。
 
-由於空間限制，並非所有格式選項都可串聯使用。 若要查看所有選項，請切換至全螢幕模式。
+由於空間限制，並非所有格式選項都是串聯的。 要查看所有選項，請切換到全屏模式。
 
 ### 設定ID {#setting-id}
 
 此選項允許控制HTM中元件的唯一標識符。
 
-* 若保留為空白，系統會自動為您產生唯一ID，並且可透過檢查產生的頁面來找到。
-* 若已指定ID，則作者應負責確認其唯一。
-* 變更ID可能會對CSS造成影響。
+* 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
+* 如果指定了ID，則作者有責任確保其唯一。
+* 更改ID可能會影響CSS。
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-設計對話方塊可讓範本作者定義內容作者可使用的文字格式選項。
+設計對話框允許模板作者定義內容作者可以使用哪些文本格式選項。
 
-### 外掛程式標籤 {#plugins-tab}
+### 插件標籤 {#plugins-tab}
 
-此 **外掛程式** 索引標籤可用來啟用和停用內容作者可用的各種文字格式選項。
+的 **插件** 頁籤用於啟用和禁用內容作者可用的各種文本格式選項。
 
 ### 功能 {#features}
 
-![設計對話方塊功能](/help/assets/text-design-features.png)
+![設計對話框功能](/help/assets/text-design-features.png)
 
-可為元件啟用或停用下列功能。
+可以為元件激活或停用以下特徵。
 
-* 貼上純文字
-* 過去
+* 貼上純文字檔案
+* 過去自單詞
 * 查找和替換
-* 還原和重做
-* 拼字檢查程式
+* 撤消和重做
+* 拼寫檢查
 * 插入的影像修改選項
-* HTML來源編輯
+* HTML源編輯
 
 ### 正在格式化 {#formatting}
 
-![設計對話方塊格式](/help/assets/text-design-formatting.png)
+![設計對話框格式](/help/assets/text-design-formatting.png)
 
-可為元件啟用或停用下列格式選項。
+可以為元件激活或停用以下格式設定選項。
 
 * 表格
 * 清單（項目符號、數字、縮進、縮進）
-* 對齊方式（左、右、居中）
-* 粗體，斜體，底線
+* 對齊（左、右、居中）
+* 粗體、斜體、下划線
 * 連結（和取消連結）
-* 子/上標
+* 下標/上標
 
 ### 段落樣式 {#paragraph-styles}
 
 ![設計對話框段落樣式](/help/assets/text-design-paragraph.png)
 
-可為元件啟用或停用段落樣式。 激活後，可定義允許的格式。
+可以為元件激活或停用段落樣式。 激活後，可以定義允許的格式。
 
-* 點選或按一下 **新增** 按鈕以插入新樣式。
-* 輸入樣式的代碼以及將在編輯對話框中顯示的說明。
-* 若要移除樣式，請點選或按一下 **刪除** 按鈕。
-* 要重新排列格式的順序，請點選或按一下並拖動控點。
+* 點擊或按一下 **添加** 按鈕。
+* 輸入樣式的代碼和將在編輯對話框中顯示的說明。
+* 要刪除樣式，請點擊或按一下 **刪除** 按鈕
+* 要重新排列格式的順序，請點擊或按一下並拖動控制滑塊。
 
 ### 特殊字元 {#configuring-special-characters}
 
 ![設計對話框特殊字元](/help/assets/text-design-special-characters.png)
 
-可為元件啟用或停用插入特殊字元的選項。 啟動後，可定義允許的字元。
+可以為元件激活或停用插入特殊字元的選項。 激活後，可以定義允許的字元。
 
-* 點選或按一下 **新增** 按鈕插入新字元。
-* 輸入字元的HTML代碼，以及將在編輯對話方塊中顯示的說明。
-* 若要移除字元，請點選或按一下 **刪除** 按鈕。
-* 要重新排列字元點選的順序，或按一下並拖動控點。
+* 點擊或按一下 **添加** 按鈕
+* 輸入字元的HTML代碼和將在編輯對話框中顯示的說明。
+* 要刪除字元，請點擊或按一下 **刪除** 按鈕
+* 要重新排列字元點擊的順序，或按一下並拖動控制滑塊。
 
-## 樣式標籤 {#styles-tab}
+## 樣式頁籤 {#styles-tab}
 
-電子郵件文字元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+電子郵件文本元件支AEM持 [風格系統](/help/get-started/authoring.md#component-styling)。

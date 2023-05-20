@@ -2,13 +2,13 @@
 title: Breadcrumb元件(v2)
 description: 核心元件Breadcrumb元件是一個導航元件，它根據頁面在內容層次結構中的位置建立連結的Breadcrumb。
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
+exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
 
 ---
-
 
 # Breadcrumb元件(v2) {#breadcrumb-component}
 

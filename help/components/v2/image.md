@@ -1,6 +1,6 @@
 ---
 title: 影像元件(v2)
-description: 核心元件影像元件是就地編輯的自適應影像元件功能。
+description: 核心元件影像元件是自適應影像元件特徵就地編輯。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
@@ -16,240 +16,240 @@ ht-degree: 0%
 
 ## 使用狀況 {#usage}
 
-「影像元件」提供適用性的影像選取及具有延遲載入的回應式行為給頁面訪客，以及為內容作者輕鬆放置影像和裁切影像。
+影像元件具有自適應影像選擇和響應行為，對頁面訪問者具有延遲載入以及對內容作者易於影像放置和裁剪。
 
-影像寬度以及裁切和其他設定可由範本作者在 [設計對話](#design-dialog). 內容編輯器可以上傳或選取 [配置對話框](#configure-dialog) 並裁切 [編輯對話框](#edit-dialog). 為了更方便，還可以簡單地就地修改影像。
+影像寬度以及裁剪和附加設定可由模板作者在 [設計對話框](#design-dialog)。 內容編輯器可以在 [配置對話框](#configure-dialog) 並在 [編輯對話框](#edit-dialog)。 為了更方便，還提供了影像的簡單就地修改。
 
-## 版本與相容性 {#version-and-compatibility}
+## 版本和相容性 {#version-and-compatibility}
 
-本檔案說明2018年1月核心元件2.0.0版推出的影像元件v2。
+本文檔介紹了2018年1月隨核心元件2.0.0版而推出的影像元件v2。
 
 >[!CAUTION]
 >
->本檔案說明影像元件的v1。
+>本文檔介紹「影像元件」的v1。
 >
->如需目前版本影像元件的詳細資訊，請參閱 [影像元件](/help/components/image.md) 檔案。
+>有關當前版本的映像元件的詳細資訊，請參閱 [影像元件](/help/components/image.md) 的子菜單。
 
-## 回應式功能 {#responsive-features}
+## 響應功能 {#responsive-features}
 
-影像元件隨附立即可用的強大回應式功能。 在頁面範本層級， [設計對話](#design-dialog) 可用來定義影像資產的預設寬度。 影像元件會根據瀏覽器視窗的大小自動載入顯示的正確寬度。 視窗調整大小時，影像元件會動態載入正確的影像大小。 元件開發人員無需擔心定義自訂媒體查詢，因為影像元件已最佳化以載入您的內容。
+影像元件具有強大的響應功能，即可開箱即用。 在頁面模板級別， [設計對話框](#design-dialog) 可用於定義影像資產的預設寬度。 然後，影像元件將自動載入正確的寬度以根據瀏覽器窗口的大小進行顯示。 在調整窗口大小時，影像元件會動態載入正確的影像大小。 由於映像元件已優化以載入您的內容，因此元件開發人員無需擔心定義自定義媒體查詢。
 
-此外，影像元件支援延遲載入，將實際影像資產的載入延遲到在瀏覽器中顯示為止，以提高頁面的回應速度。
+此外，映像元件支援延遲載入，以延遲實際映像資產的載入，直到其在瀏覽器中可見為止，從而提高頁面的響應能力。
 
 >[!TIP]
 >
->影像元件由最適化影像Servlet提供技術支援。 請查看該文檔 [適用性影像Servlet](#adaptive-image-servlet) 以取得運作方式的詳細資訊。
+>影像元件由自適應影像Servlet提供動力。 請參閱文檔 [自適應影像Servlet](#adaptive-image-servlet) 詳細瞭解它的工作原理。
 
 ## Dynamic Media支援 {#dynamic-media}
 
-影像元件(截至 [版本2.13.0](/help/versions.md))支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) 資產。 [啟用後，](#design-dialog) 這些功能可讓您透過簡單的拖放功能，或透過「資產」瀏覽器，新增Dynamic Media影像資產，如同其他影像一樣。 此外，還支援影像修飾元、影像預設集和智慧型裁切。
+影像元件(截至 [發行版2.13.0](/help/versions.md))支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) 資產。 [啟用後，](#design-dialog) 這些功能提供了通過簡單的拖放功能或通過資產瀏覽器添加Dynamic Media映像資產的功能，就像您添加任何其他映像一樣。 此外，還支援影像修飾符、影像預設和智慧作物。
 
-以核心元件建置的網頁體驗無法提供Sensei所提供的豐富、強大、高效能、跨平台的Dynamic Media影像功能。
+您使用核心元件構建的Web體驗不能提供豐富、Sensei支援、強健、高效能、跨平台的Dynamic Media映像功能。
 
 ## SVG支援 {#svg-support}
 
 影像元件支援可縮放向量圖形(SVG)。
 
-* 從DAM拖放SVG資產，以及從本機檔案系統上傳SVG檔案均受支援。
-* 原始SVG檔案流化（跳過轉換）。
-* 對於SVG影像，「智慧影像」和「智慧大小」設為影像模型中的空陣列。
+* 支援從DAM拖放SVG資產和從本地檔案系統上載SVG檔案。
+* 原始SVG檔案被流式傳輸（跳過轉換）。
+* 對於SVG影像，「智慧影像」和「智慧大小」被設定為影像模型中的空陣列。
 
 ### 安全性 {#security}
 
-基於安全考量，影像編輯器絕不會直接呼叫原始SVG。 它被調用 `<img src=“path-to-component”>`. 這會防止瀏覽器執行任何內嵌在SVG檔案中的指令碼。
+出於安全原因，影像編輯器從未直接調用原始SVG。 它被調用 `<img src=“path-to-component”>`。 這會阻止瀏覽器執行嵌入在SVG檔案中的任何指令碼。
 
-## 範例元件輸出 {#sample-component-output}
+## 元件輸出示例 {#sample-component-output}
 
-若要體驗影像元件，並查看其設定選項、HTML和JSON輸出的範例，請造訪 [元件庫](https://adobe.com/go/aem_cmp_library_image).
+要體驗映像元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_image)。
 
 ### 技術詳細資訊 {#technical-details}
 
-影像元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_image_v2).
+有關映像元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_image_v2)。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
 
-影像元件支援 [schema.org microdata](https://schema.org).
+映像元件支援 [schema.org微資料](https://schema.org)。
 
 ## 配置對話框 {#configure-dialog}
 
-除了 [編輯對話框](#edit-dialog) 和 [設計對話](#design-dialog)，影像元件會提供設定對話方塊，定義影像本身及其說明和基本屬性。
+除了 [編輯對話框](#edit-dialog) 和 [設計對話框](#design-dialog)，影像元件提供一個配置對話框，其中定義了影像本身及其說明和基本屬性。
 
 ### 資產標籤 {#asset-tab}
 
-![影像元件設定對話方塊的資產標籤](/help/assets/image-configure-asset.png)
+![「映像元件的配置」對話框的「資產」頁籤](/help/assets/image-configure-asset.png)
 
 * **影像資產**
-   * 從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或點選 **瀏覽** 從本機檔案系統上傳的選項。
-   * 點選或按一下 **清除** 以取消選取目前選取的影像。
-   * 點選或按一下 **編輯** to [管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 在資產編輯器中。
+   * 從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或點擊 **瀏覽** 從本地檔案系統上載。
+   * 點擊或按一下 **清除** 來取消選擇當前選定的映像。
+   * 點擊或按一下 **編輯** 至 [管理資產的格式副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 的子菜單。
 
-### 中繼資料索引標籤 {#metadata-tab}
+### 元資料頁籤 {#metadata-tab}
 
-![影像元件的配置對話框的元資料頁簽](/help/assets/image-configure-metadata.png)
+![映像元件的配置對話框的元資料頁籤](/help/assets/image-configure-metadata.png)
 
-* **預設類型**  — 這會定義可用的影像預設集類型， **影像預設集** 或 **智慧型裁切**，和僅適用於 [Dynamic Media功能](#dynamic-meida) 的URL區段。
-   * **影像預設集**  — 何時 **預設類型** of **影像預設集** ，則下拉式清單中的 **影像預設集** 可用，允許從可用的Dynamic Media預設集中選取。 只有為選取的資產定義了預設集時，才可使用此功能。
-   * **智慧型裁切**  — 何時 **預設類型** of **智慧型裁切** 已選取下拉式清單 **轉譯** 可用，允許從所選資產的可用轉譯中選取。 只有為選取的資產定義轉譯時，才可使用此功能。
-   * **影像修飾元**  — 可在此處定義其他Dynamic Media影像伺服命令，依 `&`，無論 **預設類型** 中所有規則的URL。
-* **影像是裝飾**  — 檢查輔助技術是否應忽略影像，因此不需要替代文字。 這僅適用於裝飾影像。
-* **替代文字** 視障讀者的影像含義或功能的文本替代。
-   * **從DAM取得替代文字**  — 若勾選此選項，影像的替代文字將會填入 `dc:description` DAM中的中繼資料。
-* **註解**  — 影像的其他資訊，預設顯示在影像下方。
-   * **從DAM取得註解**  — 若勾選此選項，影像的註解文字將會填入 `dc:title` DAM中的中繼資料。
-   * **將標題顯示為快顯視窗**  — 若勾選此選項，註解不會顯示在影像下方，但會在將游標暫留在影像上時，以某些瀏覽器顯示的快顯視窗顯示。
-* **連結**  — 將影像連結至其他資源。
-   * 使用選取對話方塊連結至其他AEM資源。
-   * 如果未連結至AEM資源，請輸入絕對URL。 非溶質URL會解譯為相對於AEM。
-* **ID**  — 此選項可控制HTML中和 [資料層](/help/developing/data-layer/overview.md).
-   * 若保留為空白，系統會自動為您產生唯一ID，並且可透過檢查產生的頁面來找到。
-   * 若已指定ID，則作者應負責確認其唯一。
-   * 變更ID可能會影響CSS、JS和資料層追蹤。
+* **預設類型**  — 這定義了可用影像預設的類型 **影像預設** 或 **智慧裁剪**，且僅在 [Dynamic Media特徵](#dynamic-meida) 的子菜單。
+   * **影像預設**  — 時間 **預設類型** 共 **影像預設** 下拉框 **影像預設** 可用，允許從可用的Dynamic Media預設中進行選擇。 僅當為所選資產定義預設時，才可用。
+   * **智慧裁剪**  — 時間 **預設類型** 共 **智慧裁剪** 已選擇下拉 **格式副本** 可用，允許從選定資產的可用格式副本中進行選擇。 僅當為所選資產定義格式副本時，才可使用此選項。
+   * **影像修飾符**  — 此處可以分隔其他Dynamic Media影像服務命令 `&`，無論 **預設類型** 的子菜單。
+* **影像是裝飾性的**  — 檢查影像是否應被輔助技術忽略，因此不需要替代文本。 這僅適用於裝飾性影像。
+* **備選文本**  — 視障讀者對影像含義或功能的文字選擇。
+   * **從DAM獲取替代文本**  — 選中後，影像的替代文本將填充 `dc:description` 元資料。
+* **標題**  — 影像的其他資訊，預設顯示在影像下方。
+   * **從DAM獲取標題**  — 選中後，將使用 `dc:title` 元資料。
+   * **將標題顯示為彈出窗口**  — 選中後，標題不會顯示在影像下方，而是當懸停在影像上方時，由某些瀏覽器顯示的彈出窗口。
+* **連結**  — 將映像連結到其他資源。
+   * 使用選擇對話框連結到另AEM一資源。
+   * 如果未連結到AEM資源，請輸入絕對URL。 非溶質URL將被解釋為相對於AEM。
+* **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
+   * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
+   * 如果指定了ID，則作者有責任確保其唯一。
+   * 更改ID可能會影響CSS、JS和資料層跟蹤。
 
 >[!TIP]
 >
->**智慧型裁切** 和 **影像預設集** 是互斥的選項。 如果作者需要使用影像預設集和智慧型裁切轉譯，則作者必須使用 **影像修飾元** 來手動添加預設集。
+>**智慧裁剪** 和 **影像預設** 是相互排斥的選項。 如果作者需要使用影像預設和Smart Crop格式副本，則作者將必須使用 **影像修飾符** 來手動添加預設。
 
-## 編輯對話方塊 {#edit-dialog}
+## 編輯對話框 {#edit-dialog}
 
-編輯對話方塊可讓內容作者裁切、修改啟動對映，以及縮放影像。
+編輯對話框允許內容作者裁剪、修改啟動映射和縮放影像。
 
 >[!NOTE]
 >
->裁切、旋轉和縮放功能不適用於Dynamic Media資產。 若 [Dynamic Media功能](#dynamic-media) 啟用後，應透過Dynamic Media資產執行任何此類編輯 [配置對話框。](#configure-dialog)
+>裁剪、旋轉和縮放功能不適用於Dynamic Media資產。 如果 [Dynamic Media特徵](#dynamic-media) 啟用，任何此類對Dynamic Media資產的編輯都應通過 [配置對話框。](#configure-dialog)
 
-![影像元件的編輯對話方塊](/help/assets/image-edit.png)
+![影像元件的編輯對話框](/help/assets/image-edit.png)
 
-* 開始裁切
+* 開始裁剪
 
-   ![開始裁切圖示](/help/assets/image-start-crop.png)
+   ![「開始裁剪」表徵圖](/help/assets/image-start-crop.png)
 
-   選取此選項會開啟預先定義的裁切比例的下拉式清單。
+   選擇此選項將開啟預定義裁剪比例的下拉框。
 
-   * 選擇選項 **自由手** 來定義自己的裁切。
-   * 選擇選項 **移除裁切** 來顯示原始資產。
+   * 選擇選項 **自由手** 來定義自己的作物。
+   * 選擇選項 **刪除裁剪** 顯示原始資產。
 
-   選取裁切選項後，使用藍色控點來調整影像上裁切的大小。
+   選擇裁剪選項後，使用藍色手柄來調整影像上的裁剪大小。
 
-   ![裁切選項](/help/assets/image-crop-options.png)
+   ![裁剪選項](/help/assets/image-crop-options.png)
 
 * 向右旋轉
 
-   ![右旋圖示](/help/assets/image-rotate-right.png)
+   ![向右旋轉表徵圖](/help/assets/image-rotate-right.png)
 
-   使用此選項將影像90°向右（順時針）旋轉。
+   使用此選項將影像向右（順時針）旋轉90°。
 
 * 水準翻轉
 
-   ![水準翻轉圖示](/help/assets/image-flip-horizontal.png)
+   ![水準翻轉表徵圖](/help/assets/image-flip-horizontal.png)
 
-   使用此選項可以水準翻轉影像，或沿Y軸旋轉影像180°。
+   使用此選項可水準翻轉影像或沿y軸旋轉180°影像。
 
 * 垂直翻轉
 
-   ![垂直翻轉圖示](/help/assets/image-flip-vertical.png)
+   ![垂直翻轉表徵圖](/help/assets/image-flip-vertical.png)
 
-   使用此選項可垂直翻轉影像或沿x軸旋轉影像180°。
+   使用此選項可垂直翻轉影像或沿x軸旋轉180°影像。
 
 * 重設縮放
 
-   ![重設縮放圖示](/help/assets/image-reset-zoom.png)
+   ![重置縮放表徵圖](/help/assets/image-reset-zoom.png)
 
-   如果影像已縮放，則使用此選項來重設縮放等級。
+   如果影像已縮放，則使用此選項重置縮放級別。
 
-* 開啟縮放滑桿
+* 開啟縮放滑塊
 
-   ![開啟縮放滑桿圖示](/help/assets/image-zoom.png)
+   ![開啟縮放滑塊表徵圖](/help/assets/image-zoom.png)
 
    使用此選項可顯示滑塊以控制影像的縮放級別。
 
-   ![縮放滑桿控制項](/help/assets/image-zoom-slider.png)
+   ![縮放滑塊控制項](/help/assets/image-zoom-slider.png)
 
-就地編輯器也可用來修改影像。 由於空間限制，只有基本選項可在內使用。 如需完整編輯選項，請使用全螢幕模式。
+就地編輯器也可用於修改影像。 由於空間限制，只有基本選項可線上使用。 對於完全編輯選項，請使用全屏模式。
 
 ![影像就地編輯選項](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
->影像編輯操作（裁切、翻轉、旋轉）不支援GIF影像。 在編輯模式中對GIF所做的任何此類變更都不會持續存在。
+>GIF影像不支援影像編輯操作（裁剪、翻轉、旋轉）。 在編輯模式下對GIF所做的任何此類更改都不會保留。
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-設計對話方塊可讓範本作者定義內容作者使用此元件時擁有的裁切、上傳、旋轉和上傳選項。
+設計對話框允許模板作者定義內容作者在使用此元件時具有的裁剪、上載和旋轉及上載選項。
 
-### 主要標籤 {#main-tab}
+### 主頁籤 {#main-tab}
 
-在 **主要** 索引標籤，您可以為影像定義寬度清單（以像素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。 這是 [回應式功能](#responsive-features) 的下限。
+在 **主** 頁籤，您可以定義影像的寬度清單（以像素為單位），元件將根據瀏覽器大小自動載入最合適的寬度。 這是 [響應特徵](#responsive-features) 表徵圖。
 
-此外，您可以定義當作者將元件新增至頁面時，會自動或停用的一般元件選項。
+此外，當作者將元件添加到頁面時，還可以定義自動或禁用哪些常規元件選項。
 
-![影像元件的設計對話方塊主索引標籤](/help/assets/image-design-main-v2.png)
+![「影像元件」的設計對話框主頁籤](/help/assets/image-design-main-v2.png)
 
-* **啟用DM功能**  — 勾選後，啟用 [Dynamic Media功能](#dynamic-media) 的URL區段。
-* **啟用Web優化映像**  — 若勾選， [網頁最佳化的影像傳送服務](/help/developing/web-optimized-image-delivery.md) 會以WebP格式傳送影像，平均將影像大小減少25%。
-   * 此選項僅適用於AEMaaCS。
-   * 取消勾選或網頁最佳化影像傳送服務無法使用時， [適用性影像Servlet](/help/developing/adaptive-image-servlet.md) 中所有規則的URL區段。
-* **啟用延遲載入**  — 定義將影像元件新增至頁面時，延遲載入選項是否自動啟用。
-* **影像是裝飾**  — 定義將影像元件新增至頁面時是否自動啟用裝飾影像選項。
-* **從DAM取得替代文字** — 定義將影像元件新增至頁面時，從DAM擷取替代文字的選項是否自動啟用。
-* **從DAM取得註解**  — 定義將影像元件新增至頁面時，從DAM擷取註解的選項是否自動啟用。
-* **將標題顯示為快顯視窗**  — 定義將影像元件新增至頁面時，將影像標題顯示為快顯視窗的選項是否自動啟用。
-* **停用UUID追蹤功能**  — 勾選「 」以停用影像資產UUID的追蹤功能。
-* **寬度**  — 以像素定義影像的寬度清單，元件會根據瀏覽器大小自動載入最適當的寬度。
-   * 點選或按一下 **新增** 按鈕以添加其他大小。
+* **啟用DM功能**  — 選中後，啟用 [Dynamic Media特徵](#dynamic-media) 的雙曲餘切值。
+* **啟用Web優化映像**  — 選中時， [Web優化的影像傳遞服務](/help/developing/web-optimized-image-delivery.md) 將以WebP格式提供影像，平均將影像大小減少25%。
+   * 此選項僅在AEMaCS中可用。
+   * 如果未選中或Web優化映像提供服務不可用， [自適應影像Servlet](/help/developing/adaptive-image-servlet.md) 的子菜單。
+* **啟用延遲載入**  — 定義在將影像元件添加到頁面時是否自動啟用延遲載入選項。
+* **影像是裝飾性的**  — 定義在將影像元件添加到頁面時是否自動啟用裝飾影像選項。
+* **從DAM獲取替代文本** — 定義在將影像元件添加到頁面時是否自動啟用從DAM檢索替代文本的選項。
+* **從DAM獲取標題**  — 定義在將影像元件添加到頁面時是否自動啟用從DAM檢索標題的選項。
+* **將標題顯示為彈出窗口**  — 定義在將影像元件添加到頁面時是否自動啟用將影像標題顯示為彈出窗口的選項。
+* **禁用UUID跟蹤**  — 選中以禁用對映像資產的UUID的跟蹤。
+* **寬度**  — 定義影像的寬度清單（以像素為單位），元件根據瀏覽器大小自動載入最合適的寬度。
+   * 點擊或按一下 **添加** 按鈕以添加其他大小。
       * 使用抓握手柄重新排列大小的順序。
-      * 使用 **刪除** 表徵圖以移除寬度。
-   * 依預設，載入影像會延遲，直到變成可見為止。
-      * 選取選項 **停用延遲載入** 以在頁面載入時載入影像。
-* **JPEG品質**  — 已轉換（例如縮放或裁切）JPEG影像的品質因數（百分比為0和100）。
+      * 使用 **刪除** 表徵圖以刪除寬度。
+   * 預設情況下，將延遲載入影像，直到其可見。
+      * 選擇選項 **禁用延遲載入** 在載入頁面時載入影像。
+* **JPEG質量**  — 變換（例如縮放或裁切）JPEG影像的質量系數（以百分比表示，從0到100）。
 
 >[!TIP]
 >
->請參閱檔案 [適用性影像Servlet](#adaptive-image-servlet) 請參閱謹慎定義寬度以最佳化轉譯選取的秘訣。
+>查看文檔 [自適應影像Servlet](#adaptive-image-servlet) 用於通過仔細定義寬度來優化格式副本選擇的提示。
 
-### 功能標籤 {#features-tab}
+### 功能頁籤 {#features-tab}
 
-在 **功能** 索引標籤，您可以定義使用元件時，內容作者可使用的選項，包括上傳選項、方向和裁切選項。
+在 **功能** 頁籤，您可以定義在使用元件（包括上載選項、方向和裁剪選項）時內容作者可以使用的選項。
 
 * 來源
 
-   ![「影像元件的設計」對話框「功能」頁簽](/help/assets/image-design-features-source.png)
+   ![「影像元件」的「設計」對話框的「特徵」頁籤](/help/assets/image-design-features-source.png)
 
-   選取選項 **允許從檔案系統上傳資產** 允許內容作者從其本機電腦上傳影像。 若要強制內容作者僅從AEM選取資產，請取消選取此選項。
+   選擇選項 **允許從檔案系統上載資產** 允許內容作者從本地電腦上傳影像。 要強制內容作者僅從中選擇資AEM產，請取消選擇此選項。
 
 * 方向
 
-   ![「影像元件的設計」對話框「功能」頁簽](/help/assets/image-design-features-orientation.png)
+   ![「影像元件」的「設計」對話框的「特徵」頁籤](/help/assets/image-design-features-orientation.png)
 
 * **旋轉**
-使用此選項可允許內容作者使用 
-**向右旋轉** 選項。
+使用此選項允許內容作者使用 
+**向右旋轉** 的雙曲餘切值。
 * **翻轉**
-使用此選項可允許內容作者使用 
-**水準翻轉** 和 **垂直翻轉** 選項。
+使用此選項允許內容作者使用 
+**水準翻轉** 和 **垂直翻轉** 頁籤
 
    >[!CAUTION]
    >
-   >此 **翻轉** 選項預設為停用。 啟用後，將顯示 **垂直翻轉** 和 **水準翻轉** 按鈕，但AEM目前不支援此功能，且使用這些選項所做的任何變更將無法持續存在。
+   >的 **翻轉** 選項。 啟用它將顯示 **垂直翻轉** 和 **水準翻轉** 影像元件的「編輯」對話框中的按鈕，但當前不支援該功能AEM，並且不會保留使用這些選項所做的任何更改。
 
 * 裁切
 
-   ![「影像元件的設計」對話框「功能」頁簽](/help/assets/image-design-features-cropping.png)
+   ![「影像元件」的「設計」對話框的「特徵」頁籤](/help/assets/image-design-features-cropping.png)
 
-   選取選項 **允許裁切** 允許內容作者在編輯對話方塊中裁切元件中的影像。
-   * 按一下 **新增** 來新增預先定義的裁切外觀比例。
-   * 輸入描述性名稱，該名稱將顯示在 **開始裁切** 下拉式清單。
-   * 輸入外觀的數值比。
-   * 使用拖動控制滑塊重新排列縱橫比的順序
-   * 使用垃圾桶圖示來刪除外觀比例。
+   選擇選項 **允許裁剪** 允許內容作者在「編輯」對話框的元件中裁剪影像。
+   * 按一下 **添加** 添加預定義的裁剪縱橫比。
+   * 輸入描述性名稱，該名稱將在 **開始裁剪** 下拉清單。
+   * 輸入縱橫比。
+   * 使用拖動手柄重新排列長寬比的順序
+   * 使用垃圾桶表徵圖刪除縱橫比。
 
    >[!CAUTION]
    >
-   >請注意，在AEM中，裁切外觀比率定義為 **高度/寬度**. 這與傳統的寬度/高度定義不同，因為舊版相容性原因而完成。 只要您提供比例的明確名稱，內容作者就不會察覺任何差異，因為該名稱會顯示在UI中，而非比例本身。
+   >請注意，AEM在中，裁剪縱橫比定義為 **高度/寬度**。 這不同於傳統的寬度/高度定義，是出於傳統相容性原因。 只要您提供比率的明確名稱，內容作者就不會察覺到任何差異，因為該名稱顯示在UI中，而不是比率本身。
 
-### 樣式標籤 {#styles-tab-1}
+### 樣式頁籤 {#styles-tab-1}
 
-影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+映像元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe用戶端資料層 {#data-layer}
+## Adobe客戶端資料層 {#data-layer}
 
-影像元件支援 [Adobe用戶端資料層。](/help/developing/data-layer/overview.md)
+映像元件支援 [Adobe客戶端資料層。](/help/developing/data-layer/overview.md)

@@ -1,6 +1,6 @@
 ---
 title: 包括客戶端庫
-description: 根據您的使用案例，有許多不同的方法可包含用戶端程式庫。
+description: 根據您的使用案例，有多種不同的方法來包括客戶端庫。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # 包括客戶端庫 {#including-client-libraries}
 
-根據您的使用案例，有許多不同的方法可包含[用戶端程式庫](/help/developing/archetype/uifrontend.md#clientlibs)。 本檔案提供各自的範例和範例[ HTL片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant)。
+有許多不同的方法可以包括 [客戶端庫](/help/developing/archetype/uifrontend.md#clientlibs) 取決於你的用例。 本文檔提供示例和示例 [HTL片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) 每個。
 
 ## 建議的預設用法 {#recommended-default-usage}
 
-如果您沒有時間調查最適合您的情況，請在頁面`head`元素內放置下列HTL行，加入用戶端程式庫：
+如果您沒有時間調查最適合您的情況，請將以下HTL行放在您的頁面中，以包括您的客戶端庫 `head` 元素：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,11 +25,11 @@ ht-degree: 2%
 </sly>
 ```
 
-這會同時在您的頁面`head`中包含CSS和JS，但會將`defer`屬性新增至您的JS `script`包含，讓瀏覽器在執行指令碼之前等待DOM就緒，進而最佳化頁面載入速度。
+這將包括頁面中的CSS和JS `head`，但添加 `defer` 屬於您的JS `script` 包括，以便瀏覽器在執行指令碼之前等待DOM就緒，從而優化頁面載入速度。
 
 ## 基本用法 {#basic-usage}
 
-包含用戶端程式庫類別的JS和CSS的基本語法（將產生所有對應的CSS `link`元素及/或JS `script`元素）如下：
+包含客戶端庫類別的JS和CSS的基本語法，該類別將生成所有相應的CSS `link` 元素和/或JS `script` 元素，如下所示：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -37,7 +37,7 @@ ht-degree: 2%
 </sly>
 ```
 
-若要一次對多個用戶端程式庫類別執行相同操作，可將字串陣列傳遞至`categories`參數：
+要同時對多個客戶端庫類別執行相同操作，可以將字串陣列傳遞給 `categories` 參數：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -46,11 +46,11 @@ ht-degree: 2%
 </sly>
 ```
 
-## 僅限CSS或JS {#css-js-only}
+## 僅CSS或JS {#css-js-only}
 
-人們通常會想要將CSS包含在HTML `head`元素中，而JS則包含在`body`元素結尾之前。
+通常，您希望將CSS包括在HTML中 `head` 元素，而JS包含在 `body` 的子菜單。
 
-在`head`中，若要僅包含CSS而不包含JS，請使用`cssIncludes`:
+在 `head`，只包括CSS而不包括JS，請使用 `cssIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -58,7 +58,7 @@ ht-degree: 2%
 </sly>
 ```
 
-在`body`結尾之前，若要僅包含JS而不包含CSS，請使用`jsIncludes`:
+在 `body` 關閉，僅包括JS，而不包括CSS，使用 `jsIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -68,7 +68,7 @@ ht-degree: 2%
 
 ## 屬性 {#attributes}
 
-若要將屬性套用至產生的CSS `link`元素及/或JS `script`元素，可以使用數個參數：
+將屬性應用於生成的CSS `link` 元素和/或JS `script` 元素，可能有多個參數：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -82,9 +82,9 @@ ht-degree: 2%
 </sly>
 ```
 
-可傳遞至`jsAndCssIncludes`和`cssIncludes`的CSS `link`屬性：
+CSS `link` 可傳遞給的屬性 `jsAndCssIncludes` 和 `cssIncludes`:
 
-* `media`:字串 `script` JS屬性，可傳遞至 `jsAndCssIncludes` 和 `jsIncludes`:
+* `media`:字串JS `script` 可傳遞給的屬性 `jsAndCssIncludes` 和 `jsIncludes`:
 * `async`: 布林值
 * `defer`: 布林值
 * `onload`: 字串
@@ -92,9 +92,9 @@ ht-degree: 2%
 
 ## 內襯 {#inlining}
 
-在某些情況下，無論是為了最佳化，還是為了電子郵件或[AMP,](amp.md)可能需要將CSS或JS內嵌至HTML的輸出中。
+在某些情況下，為優化或電子郵件或 [安培，](amp.md) 可能需要將CSS或JS內嵌到HTML的輸出中。
 
-若要內嵌CSS，可使用`cssInline`，在此情況下，您必須撰寫周圍的`style`元素：
+要在CSS內嵌， `cssInline` 可以使用，在這種情況下，您必須寫入周圍 `style` 元素：
 
 ```html
 <style type="text/css"
@@ -103,7 +103,7 @@ ht-degree: 2%
 </style>
 ```
 
-同樣地，若要內嵌JS，可以使用`jsInline`，在此情況下，您必須寫入周圍的`script`元素：
+同樣，要內嵌JS, `jsInline` 可以使用，在這種情況下，您必須寫入周圍 `script` 元素：
 
 ```html
 <script type="text/javascript"
@@ -112,11 +112,11 @@ ht-degree: 2%
 </script>
 ```
 
-## 載入內容感知CSS和JavaScript {#context-aware-loading}
+## 載入上下文感知CSS和JavaScript {#context-aware-loading}
 
-[頁面元件](/help/components/page.md)也支援載入開發人員定義的內容感知CSS、JavaScript或中繼標籤。
+的 [頁面元件](/help/components/page.md) 還支援載入開發人員定義的上下文感知CSS、JavaScript或meta標籤。
 
-要完成此操作，請使用下列結構為`com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig`建立[內容感知資源](context-aware-configs.md):
+通過建立 [上下文感知資源](context-aware-configs.md) 為 `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` 使用以下結構：
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
@@ -133,4 +133,4 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     ...
 ```
 
-[如需詳細資訊，請參閱頁面元件的技術檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
+[有關詳細資訊，請參閱頁面元件的技術文檔。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
