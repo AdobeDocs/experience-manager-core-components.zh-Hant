@@ -1,9 +1,9 @@
 ---
 title: 核心元件簡介
-description: 獲取核心元件問題的解決方案，並允許其他人在中建立元AEM素。
+description: 取得核心元件問題的解決方案，並允許其他人在AEM內撰寫元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 3d43ab39018e786fdca73dc995116344b5e59b91
+source-git-commit: 290fe27ef28e0ae30c3fa50672b550ebf11cadc3
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 27%
@@ -18,40 +18,40 @@ ht-degree: 27%
 
 ## 資源 {#resources}
 
-* **[元件庫：](https://www.adobe.com/go/aem_cmp_library)** 一組示例，用於查看各種配置中的元件。
-* **元件文檔（本文檔）:** 對於開發人員和作者，提供有關每個元件的詳細資訊。
-* **[核心元件GitHub儲存庫：](https://github.com/adobe/aem-core-wcm-components)** 有關每個元件和項目下載的開發人員詳細資訊。
+* **[元件庫：](https://www.adobe.com/go/aem_cmp_library)** 一組範例，用於檢視各種設定中的元件。
+* **元件檔案（本檔案）：** 對於開發人員和作者，包含每個元件的詳細資訊。
+* **[核心元件GitHub存放庫：](https://github.com/adobe/aem-core-wcm-components)** 開發人員可取得每個元件和專案下載的詳細資訊。
 * 立即開始:
-   * **[核心元件成功：](/help/developing/success.md)** 在使用核心元件的任何項目開始之前考慮的准則。
-   * **[WKND教程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** 用於構建新站點的兩天教程。
-   * **[峰會教程：](https://expleague.azureedge.net/labs/L767/index.html)** 一個兩小時的教程，用於構建新站點（來自2019年美國峰會實驗室）。
-   * **[Gems網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 核心元件指導教程（2018年12月錄制）。
+   * **[使用核心元件獲得成功：](/help/developing/success.md)** 在任何將使用核心元件的專案開始之前，都要考慮的准則。
+   * **[WKND教學課程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** 有關建立新網站的兩天教學課程。
+   * **[高峰會教學課程：](https://expleague.azureedge.net/labs/L767/index.html)** 有關建立新網站的兩小時教學課程（來自US Summit 2019的實驗室）。
+   * **[Gems網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 核心元件的導覽（於2018年12月錄製）。
 
 ## 功能 {#features}
 
 |  |  |
 |---|---|
-| 生產就緒 | 核心元件是30個強健的WCM元件，經過良好測試、廣泛使用，效能良好。 |
-| 雲就緒 | 是否開啟 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)。 [Adobe托管服務](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或者在內部，它們只是起作用。 |
-| 多功能 | 這些元件代表一般概念，作者可以用這些概念裝配幾乎任何佈局。 |
-| 可配置 | 模板級 [內容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義允許頁作者使用或不使用的功能。 |
-| 可跟蹤 | 的 [Adobe客戶端資料層整合](/help/developing/data-layer/overview.md) 允許跟蹤訪問者體驗的所有方面。 |
-| 易於取得 | 他們遵守 [WCAG 2.1標準](https://www.w3.org/TR/WCAG21/)，提供ARIA標籤和支援鍵盤導航([已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+輔助功能+in%3Atitle))。 |
-| SEO友好 | HTML輸出是語義的，並提供 [架構.org](https://schema.org) 微資料注釋。 |
-| WebApp就緒 | 的 [精簡的JSON輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) 允許客戶端呈現，但仍有可能 [上下文編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
-| AMP支援 | 這些元件內置了 [支援AMP標準，](/help/developing/amp.md) 加速移動體驗。 |
-| 設計套件 | A [用於Adobe XD的UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) 允許設計人員建立線框，然後 [根據需要的樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
-| 泰默 | 元件實現 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)的 [BEM CSS約定](https://getbem.com/)。 |
-| 可定製 | 幾種模式允許 [輕鬆定制](developing/customizing.md)，從調整HTML到高級功能重用。 |
-| 版本設定 | 的 [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 確保核心元件在改進可能影響您的內容時不會中斷您的站點。 |
-| 可本地化 | 智慧參考解析度允許某些元件查找和 [自動呈現相應的本地化內容](get-started/localization.md)。 |
-| 開源 | 如果事情不如預期， [幫你改進！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| 生產就緒 | 核心元件是30種經過充分測試、廣泛使用且效能優異的強大WCM元件。 |
+| 雲端就緒 | 是否開啟 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)，開啟 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署，只需正常運作即可。 |
+| 多功能 | 這些元件代表作者可用來組裝幾乎任何版面的一般概念。 |
+| 可設定 | 範本層級 [內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義頁面作者可以使用或不能使用的功能。 |
+| 可追蹤 | 此 [Adobe使用者端資料層整合](/help/developing/data-layer/overview.md) 允許全方位追蹤訪客體驗。 |
+| 易於取得 | 他們符合 [WCAG 2.1標準版](https://www.w3.org/TR/WCAG21/)，提供ARIA標籤，並支援鍵盤導覽([已知問題](✓ https://github.com/adobe/aem-core-wcm-components/issues?utf8=&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))。 |
+| SEO友善 | HTML輸出是語意並提供 [schema.org](https://schema.org) 微資料註解。 |
+| WebApp就緒 | 此 [簡化JSON輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) 允許使用者端轉譯，但可能會 [內容內編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
+| AMP支援 | 元件已內建 [支援AMP標準，](/help/developing/amp.md) 加速您的行動體驗。 |
+| 設計套件 | A [Adobe XD的UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) 可讓設計人員建立線框，然後可以 [視需要樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
+| 可主題化 | 元件會實作 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，標籤如下 [BEM CSS慣例](https://getbem.com/). |
+| 可自訂 | 數個模式允許 [輕鬆自訂](developing/customizing.md)，從調整HTML到進階功能重複使用。 |
+| 版本設定 | 此 [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 確保核心元件在改善可能影響您的內容時，不會破壞您的網站。 |
+| 可本地化 | 智慧型參照解析度可讓特定元件尋找和 [自動演算對應的當地語系化內容](get-started/localization.md). |
+| 開放來源 | 如果有出錯的地方， [貢獻您的改善專案！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## WCM元件 {#the-wcm-components}
 
 目前版本的核心元件主打下列元件。
 
-### 模板元件 {#template-components}
+### 範本元件 {#template-components}
 
 * [Page](components/page.md)
 * [導覽](components/navigation.md)
@@ -60,7 +60,7 @@ ht-degree: 27%
 * [快速搜尋](components/quick-search.md)
 * [目錄](components/tableofcontents.md)
 
-### 頁面創作元件 {#page-authoring-components}
+### 頁面製作元件 {#page-authoring-components}
 
 * [標題](components/title.md)
 * [文字](components/text.md)
@@ -73,7 +73,7 @@ ht-degree: 27%
 * [內容片段](components/content-fragment-component.md)
 * [內容片段清單](components/content-fragment-list.md)
 * [內嵌](components/embed.md)
-* [社交媒體共用](components/sharing.md) （不建議使用）
+* [社群媒體分享](components/sharing.md) （已棄用）
 * [分隔符號](components/separator.md)
 * [進度列](components/progress-bar.md)
 * [PDF 檢視器](components/pdf-viewer.md)
@@ -95,7 +95,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->[開發團隊必須先依照作者的環境整合核心元件](get-started/using.md)，才能將其提供給您。整合後，可通過 [模板編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+>[開發團隊必須先依照作者的環境整合核心元件](get-started/using.md)，才能將其提供給您。整合後，可透過 [範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -103,30 +103,30 @@ ht-degree: 27%
 >
 >如需特定元件的相容性資訊，請參閱說明頁面 (連結至上一份清單)，或參考[核心元件版本](versions.md)文件以取得詳細資訊。
 
-## 系統要求 {#system-requirements}
+## 系統需求 {#system-requirements}
 
-| 核心元件 版 | AEM as a Cloud Service  | AEM 6.5修補程式級別 | Java SE版本 | 馬文版本 |
+| 核心元件 版 | AEM as a Cloud Service  | AEM 6.5修補程式等級 | Java SE版本 | Maven版本 |
 |---------|---------|---------|---------|---------|
-| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 連續 | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
+| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 持續 | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
->(*)自2.11.0版以來， `org.apache.sling.models.impl` 1.4.12版或更高版本(由於 [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781))。 這將在將AEM來的Service Pack中為6.4和6.5提供。 在此之前，「吊具模型」捆綁包包含在 `core.wcm.components.all` 檔案。
+>(*)從2.11.0版開始， `org.apache.sling.models.impl` 需要1.4.12版或更新版本(由於 [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781))。 這會在未來的Service Pack中為AEM 6.4和6.5提供。 在此之前，Sling模型組合會包含在 `core.wcm.components.all` 封裝。
 
-有關以前核心元件版本的要求，請參閱 [核心元件版本](versions.md)。
+如需舊版核心元件的需求，請參閱 [核心元件版本](versions.md).
 
-核心元件要求 [可編輯模板](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 不支援Classic UI和靜態模板。 如果需要，請查看 [現代化AEM工具](https://opensource.adobe.com/aem-modernize-tools/) 用這些現代功能更新您的AEM項目。
+核心元件需使用 [可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) 並且不支援傳統UI和靜態範本。 如有需要，請檢視 [AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/) 以使用這些現代化AEM功能更新您的專案。
 
-要設定本地開發環境，請簽出 [as a Cloud ServiceSDK的AEM本概述](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或 [對於舊版本AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
+若要設定您的本機開發環境，請檢視 [此AEMas a Cloud ServiceSDK概觀](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或本檔案 [適用於舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 >[!TIP]
 >
->核心元件自動是AEMas a Cloud Service的一部分，並且您始終擁有最新版本的核心元件。
+>核心元件會自動成為AEMas a Cloud Service的一部分，而您隨時都會擁有最新版本的核心元件。
 >
->查看 [使用核心元件](/help/get-started/using.md) 文檔，瞭解有關如何在AEMaaCS和內部部署中開始使用核心元件的詳細資訊。
+>請參閱 [使用核心元件](/help/get-started/using.md) 檔案，以取得如何在AEMaaCS中和內部部署開始使用核心元件的詳細資訊。
 
 ## 其他元件 {#other-components}
 
-作者可以使用其AEM他元件，這些元件基於核心元件。
+AEM作者可以使用以核心元件為基礎的其他元件。
 
-* [電子郵件核心元件](/help/email/introduction.md)  — 發現構建在核心元件之上的元件，專供Adobe Campaign使用。
+* [電子郵件核心元件](/help/email/introduction.md)  — 探索建置在核心元件之上並專門用於Adobe Campaign的元件。
