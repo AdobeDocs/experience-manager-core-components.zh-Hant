@@ -1,6 +1,6 @@
 ---
 title: 體驗片段元件
-description: 體驗片段元件允許內容作者將體驗片段變體添加到頁面。
+description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
@@ -12,46 +12,46 @@ ht-degree: 1%
 
 # 體驗片段元件{#experience-fragment-component}
 
-核心元件體驗片段元件允許內容作者在支援本地化站點結構的同時將體驗片段變體放置在頁面上。
+核心元件體驗片段元件可讓內容作者在支援當地語系化網站結構的同時，將體驗片段變數放置在頁面上。
 
 ## 使用狀況 {#usage}
 
-核心元件體驗片段元件允許內容作者從現有體驗片段變體中進行選擇，並將其放在內容頁面上。 「體驗片段」元件還支援本地化的站點結構。
+核心元件體驗片段元件可讓內容作者從現有的體驗片段變數中選取，並將其放在內容頁面上。 體驗片段元件也支援本地化的網站結構。
 
-* 元件的屬性可在 [配置對話框](#configure-dialog)。
-* 在將元件添加到頁面時，可以在 [設計對話框](#design-dialog)。
+* 元件的屬性可在 [設定對話方塊](#configure-dialog).
+* 將元件新增至頁面時的元件預設值可在下列位置定義： [設計對話方塊](#design-dialog).
 
 ## 版本和相容性 {#version-and-compatibility}
 
-經驗片段元件的當前版本是v2，該版本於2022年2月隨核心元件2.18.0版一起推出，本文檔對此進行了說明。
+體驗片段元件的目前版本是v2，此版本隨2022年2月的核心元件2.18.0版的發佈引入，具體說明見本文。
 
-下表詳細說明了元件的所有受支援版本、AEM元件版本與之相容的版本，以及指向早期版本文檔的連結。
+下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |---|---|
 | v2 | - | 相容 | 相容 |
 | [v1](v1/experience-fragment.md) | 相容 | 相容 | 相容 |
 
-有關核心元件版本和版本的詳細資訊，請參閱文檔 [核心元件版本](/help/versions.md)。
+如需核心元件版本和發行版本的詳細資訊，請參閱檔案 [核心元件版本](/help/versions.md).
 
-## 本地化站點結構支援 {#localized-site-structure}
+## 當地語系化網站結構支援 {#localized-site-structure}
 
-經驗片段元件適用於局部化的站點結構，並基於頁面的本地化來呈現適當的經驗片段。 為此，經驗片段必須滿足以下條件。
+體驗片段元件可適應本地化的網站結構，並根據頁面的本地化呈現適當的體驗片段。 為此，體驗片段必須滿足以下條件。
 
-* 「體驗片段」元件將添加到模板。
-* 該模板用於建立新內容頁面，該頁面是下面本地化結構的一部分 `/content/<site>`。
-* 內容頁面上引用的體驗片段是下面本地化體驗片段結構的一部分 `/content/experience-fragments` 遵循與下面的站點相同的模式 `/content/<site>` 包括使用相同的元件名稱。
+* 體驗片段元件已新增至範本。
+* 該範本用於建立屬於以下本地化結構一部分的新內容頁面 `/content/<site>`.
+* 在內容頁面上參考的體驗片段是以下本地化體驗片段結構的一部分 `/content/experience-fragments` 遵循與以下網站相同的模式 `/content/<site>` 包括使用相同的元件名稱。
 
-在這種情況下，與當前頁面具有相同本地化（語言、藍圖或即時副本）的片段將作為模板的一部分呈現。
+在此情況下，與目前頁面具有相同本地化（語言、Blueprint或即時副本）的片段將會在範本中轉譯。
 
-此行為僅限於添加到模板的「體驗片段元件」。 添加到單個內容頁面的體驗片段元件將呈現元件中配置的確切體驗片段呈現形式。
+此行為僅限於新增至範本的體驗片段元件。 新增到個別內容頁面的體驗片段元件將轉譯在元件中設定的確切體驗片段轉譯。
 
-* 有關體驗片段元件的本地化功能的示例，請參見 [下面一節](#example)。
-* 有關核心元件的本地化功能如何協同工作的示例，請參見 [「核心元件」頁的本地化功能](/help/get-started/localization.md)。
+* 如需體驗片段元件本地化功能運作方式的範例，請參閱 [下節](#example).
+* 如需核心元件的本地化功能如何搭配運作的範例，請參閱 [核心元件頁面的本地化功能](/help/get-started/localization.md).
 
 ### 範例 {#example}
 
-假設您的內容類似以下內容：
+假設您的內容看起來像這樣：
 
 ```
 /content
@@ -88,61 +88,61 @@ ht-degree: 1%
 \-- wknd-shop
 ```
 
-請注意以下結構 `/content/experience-fragments/wknd` 反映了 `/content/wknd`。
+請注意，下列結構 `/content/experience-fragments/wknd` 映象結構 `/content/wknd`.
 
-在本例中，如果「體驗片段」元件 `/content/experience-fragments/wknd/us/en/footerTextXf` 放置在模板上，基於該模板建立的本地化頁面將自動呈現與本地化內容頁面對應的本地化體驗片段。
+在此情況下，如果體驗片段元件 `/content/experience-fragments/wknd/us/en/footerTextXf` 放在範本上，根據該範本建立的本地化頁面將自動轉譯與本地化內容頁面對應的本地化體驗片段。
 
-所以，如果您導航到 `/content/wknd/ch/de` 使用相同模板， `/content/experience-fragments/wknd/ch/de/footerTextXf` 將呈現 `/content/experience-fragments/wknd/us/en/footerTextXf`。
+因此，如果您導覽至 `/content/wknd/ch/de` 使用相同範本的檔案， `/content/experience-fragments/wknd/ch/de/footerTextXf` 將轉譯而不是 `/content/experience-fragments/wknd/us/en/footerTextXf`.
 
-### 回退 {#fallback}
+### 遞補內容 {#fallback}
 
-體驗片段元件將嘗試按以下順序查找相應的本地化元件。
+體驗片段元件會嘗試依照以下順序尋找對應的本地化元件。
 
-1. 首先，它試圖找到語言根。
-1. 如果找不到，它會嘗試找到一個藍圖。
-1. 如果找不到，它會嘗試查找即時副本。
-1. 如果找不到，則預設為元件中配置的體驗片段。
+1. 首先嘗試尋找語言根。
+1. 如果找不到，它會嘗試尋找Blueprint。
+1. 如果找不到，會嘗試尋找即時副本。
+1. 如果找不到，則預設為元件中設定的體驗片段。
 
-## 元件輸出示例 {#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
-要體驗Experience Fragment元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_xf)。
+若要體驗體驗片段元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪 [元件資料庫](https://adobe.com/go/aem_cmp_library_xf).
 
-## 技術詳細資訊 {#technical-details}
+## 技術細節 {#technical-details}
 
-有關體驗片段元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_xf_v2)。
+有關體驗片段元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_xf_v2).
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
+有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
-## 配置對話框 {#configure-dialog}
+## 設定對話方塊 {#configure-dialog}
 
-通過「配置」對話框，內容作者可以選擇應在頁面上呈現的體驗片段變體。
+此設定對話方塊可讓內容作者選取應呈現在頁面上的體驗片段變數。
 
-![體驗片段元件的編輯對話框](/help/assets/experience-fragment-edit.png)
+![體驗片段元件的「編輯」對話方塊](/help/assets/experience-fragment-edit.png)
 
-使用 **開啟選擇對話框** 按鈕以開啟元件選擇器，以選擇要添加到內容頁面的體驗片段元件變體。
+使用 **開啟選取範圍對話方塊** 按鈕來開啟元件選擇器，以選擇要新增至內容頁面的體驗片段元件變數。
 
-如果將「體驗片段」元件添加到模板，請注意，如果「體驗片段」已本地化，則它將自動本地化，因此在頁面上呈現的內容可能與您明確選擇的元件不同。 [請參閱上面的示例](#example) 的子菜單。
+如果您將體驗片段元件新增至範本，請注意，體驗片段一旦本地化，就會自動本地化，因此根據您明確選取的元件，頁面上呈現的內容可能會有所不同。 [請參閱上述範例](#example) 以取得詳細資訊。
 
-也可以定義 **ID**。 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
+您也可以定義 **ID**. 此選項可讓您控制HTML和中的元件的唯一識別碼 [資料層](/help/developing/data-layer/overview.md).
 
-* 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
-* 如果指定了ID，則作者有責任確保其唯一。
-* 更改ID可能會影響CSS、JS和資料層跟蹤。
+* 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
+* 若指定ID，作者應負責確認該ID是唯一的。
+* 變更ID會對CSS、JS和資料層追蹤造成影響。
 
-### 樣式頁籤 {#styles-tab-edit}
+### 樣式索引標籤 {#styles-tab-edit}
 
-![「體驗片段」元件的「編輯」對話框的「樣式」頁籤](/help/assets/experience-fragment-edit-styles.png)
+![體驗片段元件「編輯」對話方塊的「樣式」索引標籤](/help/assets/experience-fragment-edit-styles.png)
 
-體驗片段元件支AEM持 [樣式系統。](/help/get-started/authoring.md#component-styling)。
+體驗片段元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling).
 
-使用下拉框選擇要應用於元件的樣式。 在編輯對話框中所做的選擇與從元件工具欄中選擇的選項具有相同的效果。
+使用下拉式清單，選取要套用至元件的樣式。 在「編輯」對話方塊中所做的選取與從元件工具列中選擇的效果相同。
 
-必須在 [設計對話框](#design-dialog) 以便下拉菜單可用。
+必須在以下位置為此元件設定樣式： [設計對話方塊](#design-dialog) 讓下拉式功能表可供使用。
 
-## 設計對話框 {#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
-設計對話框允許模板作者定義內容作者可用的選項，內容作者使用「體驗片段元件」以及放置「體驗片段元件」時設定的預設值。
+「設計」對話方塊可讓範本作者定義哪些選項可供使用體驗片段元件的內容作者使用，以及在放置體驗片段元件時的預設值。
 
-### 樣式頁籤 {#styles-tab}
+### 樣式索引標籤 {#styles-tab}
 
-體驗片段元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
+體驗片段元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).

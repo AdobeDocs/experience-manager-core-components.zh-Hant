@@ -1,6 +1,6 @@
 ---
-title: it.項目原型的AEMtest模組
-description: 如何利用項AEM目原型整合Test
+title: AEM專案原型的it.tests模組
+description: 如何使用AEM專案原型整合測試
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 0abc0265-3a3f-4323-97e6-3af0c62299ef
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# it.test項目原型AEM模組 {#ittests-module}
+# AEM專案原型的it.tests模組 {#ittests-module}
 
-項目中包含三個測試級別：
+專案包含三個層級的測試：
 
-* [設備Test](core.md#unit-tests)
-* 整合Test
-* [UITest](uitests.md)
+* [單元測試](core.md#unit-tests)
+* 整合測試
+* [UI測試](uitests.md)
 
-本文介紹了it.test模組中提供的整合test。
+本文說明整合測試，此測試屬於it.tests模組的一部分。
 
-## 運行整合Test {#running-tests}
+## 執行整合測試 {#running-tests}
 
-伺服器端整合test允許在環境(即AEM在伺服器上)中運AEM行單元類test。 要test，請執行：
+伺服器端整合測試允許在AEM環境中(即AEM伺服器上)執行單元測試。 若要測試，請執行：
 
 ```
 mvn clean verify -PintegrationTests

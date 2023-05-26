@@ -1,6 +1,6 @@
 ---
-title: 預編譯的捆綁指令碼
-description: 瞭解如何通過OSGi捆綁包將元件指令碼部署到Adobe Experience ManagerCloud Service。
+title: 預先編譯的套件指令碼
+description: 瞭解如何透過OSGi套件組合將元件指令碼部署到Adobe Experience ManagerCloud Service。
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 767f83fbad11a108aab25be2b77759af3c08b864
 workflow-type: tm+mt
@@ -9,31 +9,31 @@ ht-degree: 0%
 
 ---
 
-# 預編譯的捆綁指令碼
+# 預先編譯的套件指令碼
 
-AEMas a Cloud Service支援 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 元件指令碼作為預編譯的捆綁指令碼。 這允許開發人員在生成時預編譯指令碼，並將其打包為OSGi捆綁包。
+AEMas a Cloud Service支援部署 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 元件指令碼作為預先編譯的套件指令碼。 如此一來，開發人員就能在建置階段預先編譯指令碼，並將這些指令碼封裝為OSGi套件組合。
 
-## 通過OSGi捆綁包部署預編譯指令碼的優勢
+## 透過OSGi套件組合部署預先編譯的指令碼的優點
 
-將指令碼部署為預編譯的捆綁指令碼具有以下優點：
+將指令碼部署為預先編譯的隨附指令碼具有以下優點：
 
-+ 在生成時編譯指令碼允許開發人員在開發過程早期發現錯誤
-+ 通過 `Import-Package` 和 `Export-Package` 包頭
-+ 繼承（通過） `sling:resourceSuperType`)和委派到其他資源類型(通過HTL `data-sly-resource` 塊元素或通過 `sling:include` 例如，JSP標籤可以通過捆綁包的元資料進行映射
-+ 資源類型版本控制可以以類似於Java API的方式實施
++ 在建置時間編譯指令碼可讓開發人員在開發過程的早期發現錯誤
++ Java API指令碼相依性是透過 `Import-Package` 和 `Export-Package` 套件組合標頭
++ 繼承(透過 `sling:resourceSuperType`)和委派至其他資源型別(透過HTL的 `data-sly-resource` 區塊元素或透過 `sling:include` 例如，JSP標籤)可透過套件的中繼資料進行對應
++ 資源型別版本設定能以類似於Java API的方式強制執行
 
-## 預編譯和包導入
+## 預先編譯和套件匯入
 
-的 [`htl-maven-plugin`](https://sling.apache.org/components/htl-maven-plugin/index.html) 可以驗證HTL指令碼的語法，但也可以將HTL指令碼傳輸到Java類中。 然後，這些內容將添加到Maven項目 `generated-sources` 資料夾和由 `maven-compiler-plugin`。
+此 [`htl-maven-plugin`](https://sling.apache.org/components/htl-maven-plugin/index.html) 可驗證HTL指令碼的語法，但也可用來將HTL指令碼轉換為Java類別。 然後，這些會新增到您的Maven專案的 `generated-sources` 資料夾並由 `maven-compiler-plugin`.
 
-的 [`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin) 可以添加以生成用於Java API導入的OSGi捆綁包的元資料。
+此 [`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin) 可新增以產生OSGi套件組合的中繼資料以用於Java API匯入。
 
-## 繼承和委派
+## 繼承與委派
 
-OSGi框架為定義OSGi框架提供了有力的方法 [要求和功能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) 不同部份之間訂立合約。 這些資訊通過元資料描述，並在運行時強制執行。 捆綁的指令碼使用此機制來表示它們的繼承關係(`sling:resourceSuperType`)，以及委派（包括呈現過程中的其他資源類型）。
+OSGi架構提供強大的定義方式 [需求和功能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) 以表示不同元件之間的合約。 這些會透過中繼資料進行說明，並在執行階段強制執行。 套件指令碼使用此機制來表示其繼承關係(`sling:resourceSuperType`)，以及委派（包括轉譯程式中的其他資源型別）。
 
-的 `bnd` 插件 [指令碼捆綁 — maven插件](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 項目可用於提取與由 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 內容包。
+此 `bnd` 外掛程式 [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) project可用於擷取與提供的指令碼對應的需求和功能 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 內容封裝。
 
-## 項AEM目原型支援
+## AEM專案原型支援
 
-從版本31開始， [項AEM目原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html) 可用於正確設定as a Cloud Service項AEM目以使用預編譯的捆綁指令碼。 此外，「項AEM目原型」配置 [AEMas a Cloud ServiceSDK生成Analyzer Maven插件](/help/developing/archetype/build-analyzer-maven-plugin.md) 驗證Java包級別以及指令碼級別依賴關係。
+從第31版開始， [AEM專案原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html) 可用來正確設定AEMas a Cloud Service專案，以使用預先編譯的套件指令碼。 此外，AEM專案原型會設定 [AEMas a Cloud ServiceSDK建置分析器Maven外掛程式](/help/developing/archetype/build-analyzer-maven-plugin.md) 驗證Java套件層級以及指令碼層級的相依性。

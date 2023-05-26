@@ -1,6 +1,6 @@
 ---
-title: AMP對核心元件的支援
-description: 核心元件支援AMP — 加速移動頁
+title: 核心元件的AMP支援
+description: 核心元件支援AMP — 加速行動頁面
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
@@ -10,62 +10,62 @@ ht-degree: 0%
 
 ---
 
-# AMP對核心元件的支援 {#amp-support}
+# 核心元件的AMP支援 {#amp-support}
 
-截至 [發行版2.11.0](/help/versions.md) 核心部件， [AMP — 加速的移動頁面](https://developers.google.com/amp)  — 完全支援。
+截至 [版本2.11.0](/help/versions.md) 核心元件的、 [AMP — 行動頁面加速](https://developers.google.com/amp)  — 完全支援。
 
-本文檔概述了如何支援AMP以及如何為您的站點啟用它。 但是，有關完整的技術詳細資訊，請參閱 [GitHub開發人員文檔。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
+本檔案概述AMP的支援方式以及如何為您的網站啟用。 不過，如需完整技術細節，請參閱 [GitHub開發人員檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
 
-## 什麼是AMP? {#what-is-amp}
+## 什麼是AMP？ {#what-is-amp}
 
-加速移動頁面或AMP是Google最初設計的一個開源框架，用於優化移動瀏覽頁面。 AMP頁面通常比標準網頁載入速度快得多，提供更好的移動體驗。
+Accelerated Mobile Pages或AMP是一個開放原始碼架構，最初由Google設計，用於最佳化頁面以進行行動瀏覽。 AMP頁面的載入速度通常比標準網頁快得多，提供更出色的行動體驗。
 
 ## 核心元件中的AMP {#amp-in-core-components}
 
-支援核心元件中的AMP [完全可配置。](#enabling-amp) AMP版本的頁面可以與標準HTML版本一起單獨提供，或者根本不提供。
+核心元件支援AMP如下 [完全可設定。](#enabling-amp) AMP版本的頁面可單獨提供、與標準HTML版本一起提供，或根本不提供。
 
-核心元件使用 `amp` 作為Sling選擇器來呈現AMP頁。 例如 `example.html` 將呈現正常頁面 `example.amp.html` 是AMP版本。
+核心元件使用 `amp` 作為Sling選擇器以轉譯AMP頁面。 例如 `example.html` 會轉譯一般頁面，並且 `example.amp.html` 會是AMP版本。
 
-單個項目可以決定是否利用AMP。 事實上，由於AMP和標準HTML頁可以並行傳送，因此項目可以選擇只在項目的某些頁面上使用AMP。
+個別專案可決定是否運用AMP。 事實上，由於AMP和標準HTML頁面可以並行傳送，因此專案可以選擇只在某些專案頁面上使用AMP。
 
-## 項目中AMP支援入門 {#getting-started}
+## 開始使用專案中的AMP支援 {#getting-started}
 
-儘管AMP支援提供了極大的靈活性，但要快速開始使用它，只需要幾個簡單的步驟：
+雖然AMP支援提供極大的彈性，但快速開始使用AMP只需要幾個簡單步驟：
 
-1. 如果需要，請安裝AMP支援擴展。
-   * 對於AEMas a Cloud Service項目，核心元件可自動提供擴展，無需安裝。
-   * 對於本地和AMS項目，安裝核心元件時必須顯式安裝擴展。
-1. 安裝AMP擴展後，元件作者必須簡單地將元件超類型指向擴展中的超類型。
-1. [啟用AMP支援](#enabling-amp) 在模板級別或各個頁面上。
-1. [部署內聯CSS](#css-requirements) 按需要。
+1. 視需要安裝AMP支援擴充功能。
+   * 若為AEMas a Cloud Service專案，擴充功能會自動與核心元件搭配使用，不需安裝。
+   * 對於內部部署和AMS專案，安裝核心元件時必須明確安裝擴充功能。
+1. 安裝AMP擴充功能後，元件作者必須將元件超型別指向擴充功能中的超型別。
+1. [啟用AMP支援](#enabling-amp) 在範本層級或您的個別頁面上。
+1. [部署內嵌CSS](#css-requirements) 視需要。
 
 ### 為頁面啟用AMP {#enabling-amp}
 
-要為頁面啟用AMP，請 **AMP模式** 必須在 [頁面策略。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
+若要為頁面啟用AMP，請 **AMP模式** 必須選取以下專案中的 [頁面原則。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
-![AMP頁策略選項](/help/assets/amp-policy.png)
+![AMP頁面原則選項](/help/assets/amp-policy.png)
 
-* **無AMP**  — 該頁僅作為標準HTML提供。
-* **配對AMP**  — 該頁作為AMP和HTML提交。
-* **僅AMP**  — 該頁僅作為AMP傳送。
+* **無AMP**  — 頁面僅以標準HTML傳送。
+* **配對的AMP**  — 以AMP和HTML形式提供頁面。
+* **僅AMP**  — 僅以AMP形式提供頁面。
 
-頁面的AMP設定也可以在 [頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 的子菜單。
+頁面的AMP設定也可以在下列位置覆寫： [頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 個別頁面時。
 
-![AMP頁屬性](/help/assets/amp-page-properties.png)
+![AMP頁面屬性](/help/assets/amp-page-properties.png)
 
-* **從頁面模板繼承**  — 這是預設值，允許從頁面模板的策略中獲取設定。
-* **無AMP**  — 該頁僅作為標準HTML提供。
-* **配對AMP**  — 該頁作為AMP和HTML提交。
-* **僅AMP**  — 該頁僅作為AMP傳送。
+* **繼承自頁面範本**  — 這是預設值，可讓您從頁面範本的原則中取得設定。
+* **無AMP**  — 頁面僅以標準HTML傳送。
+* **配對的AMP**  — 以AMP和HTML形式提供頁面。
+* **僅AMP**  — 僅以AMP形式提供頁面。
 
-### CSS要求 {#css-requirements}
+### CSS需求 {#css-requirements}
 
-將AMP與核心元件一起使用時，主要區別是AMP需要 [要內嵌的CSS](including-clientlibs.md#inlining) 的 `<head>` 元素和優化。
+搭配核心元件使用AMP時，主要差異為AMP需要全部 [要內嵌的CSS](including-clientlibs.md#inlining) 在 `<head>` 元素和最佳化。
 
-為支援此功能，使用自定義的頁面元件，該元件僅為頁面上存在的元件載入特定於AMP的CSS。
+若要支援此功能，系統會使用自訂頁面元件，針對頁面上顯示的元件僅載入AMP專屬的CSS。
 
 >[!NOTE]
 >
->由於AMP設計限制，Adobe不支援將響應網格與頁面的AMP版本一起使用。
+>由於AMP設計限制，Adobe不支援將回應式格線用於頁面的AMP版本。
 
-有關更多要求和技術詳細資訊，請參閱 [GitHub開發人員文檔。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
+如需進一步需求和技術詳細資訊，請參閱 [GitHub開發人員檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)

@@ -1,6 +1,6 @@
 ---
 title: 按鈕元件(v1)
-description: 核心元件按鈕元件允許建立和顯示按鈕。
+description: 核心元件按鈕元件可讓您建立及顯示按鈕。
 role: Architect, Developer, Admin, User
 exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
 source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
@@ -12,66 +12,66 @@ ht-degree: 0%
 
 # 按鈕元件(v1) {#button-component}
 
-核心元件按鈕元件允許在頁面上配置和顯示按鈕項。
+利用核心元件按鈕元件，可在頁面上設定和顯示按鈕專案。
 
 ## 使用狀況 {#usage}
 
-核心元件按鈕元件允許在頁面中包含按鈕。
+利用核心元件按鈕元件，可在頁面上包含按鈕。
 
-* 可以在 [配置對話框](#configure-dialog)。
-* 可在 [設計對話框](#design-dialog)。
+* 按鈕的屬性可在 [設定對話方塊](#configure-dialog).
+* 按鈕元件的樣式可在 [設計對話方塊](#design-dialog).
 
 ## 版本和相容性 {#version-and-compatibility}
 
-該文檔描述了2019年6月隨核心元件2.5.0版推出的按鈕元件v1。
+本檔案說明按鈕元件v1，此版本隨2019年6月的核心元件發行版本2.5.0的發佈引入。
 
 >[!CAUTION]
 >
->本文檔介紹按鈕元件的v1。
+>本檔案說明按鈕元件v1。
 >
->有關按鈕元件當前版本的詳細資訊，請參閱 [按鈕元件](/help/components/button.md) 的子菜單。
+>如需目前版本的Button元件的詳細資訊，請參閱 [按鈕元件](/help/components/button.md) 檔案。
 
-## 元件輸出示例 {#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
-要體驗按鈕元件，並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library_button)。
+若要體驗按鈕元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪 [元件資料庫](https://adobe.com/go/aem_cmp_library_button).
 
-## 技術詳細資訊 {#technical-details}
+## 技術細節 {#technical-details}
 
-有關按鈕元件的最新技術文檔 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_button_v1)。
+有關按鈕元件的最新技術檔案 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_button_v1).
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
+有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
-## 配置對話框 {#configure-dialog}
+## 設定對話方塊 {#configure-dialog}
 
-「配置」對話框允許內容作者定義按鈕及其行為和對頁面訪問者的顯示方式。
+設定對話方塊可讓內容作者定義按鈕，以及對於頁面的訪客它會如何表現和顯示。
 
-### 屬性頁籤 {#properties-tab}
+### 屬性標籤 {#properties-tab}
 
-![按鈕元件編輯對話框的屬性頁籤](/help/assets/button-edit-properties.png)
+![按鈕元件「編輯」對話方塊的「屬性」標籤](/help/assets/button-edit-properties.png)
 
-* **文本**  — 按鈕上顯示的文本
-* **連結**  — 連結到內部、外AEM部資源或錨點的內容頁
-   * 使用 **選擇對話框** 的子例AEM行。
-* **表徵圖**  — 用於在按鈕中顯示表徵圖的標識符
-* **ID**  — 此選項允許控制HTML和 [資料層](/help/developing/data-layer/overview.md)。
-   * 如果留空，則系統會為您自動生成唯一ID，並通過檢查生成的頁面來找到它。
-   * 如果指定了ID，則作者有責任確保其唯一。
-   * 更改ID可能會影響CSS、JS和資料層跟蹤。
+* **文字**  — 按鈕上顯示的文字
+* **連結**  — 連結至AEM中的內容頁面、外部資源或錨點
+   * 使用 **選擇對話方塊** 以在AEM中選擇路徑。
+* **圖示**  — 在按鈕中顯示圖示的識別碼
+* **ID**  — 此選項可讓您控制HTML和中的元件唯一識別碼 [資料層](/help/developing/data-layer/overview.md).
+   * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
+   * 若指定ID，作者應負責確認該ID是唯一的。
+   * 變更ID會對CSS、JS和資料層追蹤造成影響。
 
-### 輔助功能頁籤 {#accessibility-tab}
+### 協助工具標籤 {#accessibility-tab}
 
-![按鈕元件編輯對話框的輔助功能頁籤](/help/assets/button-edit-accessibility.png)
+![按鈕元件「編輯」對話方塊的「協助工具」標籤](/help/assets/button-edit-accessibility.png)
 
-在 **輔助功能** 頁籤，可為 [ARIA輔助功能](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。
+於 **協助工具** 標籤，可設定的值 [ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。
 
-* **標籤**  — 元件的ARIA標籤屬性的值
+* **標籤**  — 元件的ARIA標籤屬性值
 
-## 設計對話框 {#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
-### 樣式頁籤 {#styles-tab}
+### 樣式索引標籤 {#styles-tab}
 
-按鈕元件支AEM持 [樣式系統](/help/get-started/authoring.md#component-styling)。
+按鈕元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-## Adobe客戶端資料層 {#data-layer}
+## Adobe使用者端資料層 {#data-layer}
 
-按鈕元件支援 [Adobe客戶端資料層。](/help/developing/data-layer/overview.md)
+按鈕元件支援 [Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

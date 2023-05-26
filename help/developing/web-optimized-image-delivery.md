@@ -1,6 +1,6 @@
 ---
-title: Web優化的映像交付
-description: 瞭解核心元件如何AEM利用as a Cloud Service的Web優化映像交付功能更高效地提供映像。
+title: 網頁最佳化的影像傳送
+description: 瞭解核心元件如何運用AEM as a Cloud Service的網頁最佳化影像傳送功能，以更有效率地傳送影像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
@@ -10,33 +10,33 @@ ht-degree: 0%
 
 ---
 
-# Web優化的映像交付 {#web-optimized-image-delivery}
+# 網頁最佳化的影像傳送 {#web-optimized-image-delivery}
 
-瞭解核心元件如何AEM利用as a Cloud Service的Web優化映像交付功能更高效地提供映像。
+瞭解核心元件如何運用AEM as a Cloud Service的網頁最佳化影像傳送功能，以更有效率地傳送影像。
 
 ## 概觀 {#overview}
 
-作為雲服務的Web優化AEM的映像交付功能可從 [WebP格式。](https://developers.google.com/speed/webp) WebP平均可將影像的下載大小減少約25%，從而加快頁面載入。
+AEM as a Cloud Service的網頁最佳化影像傳送功能可傳送來自DAM的影像資產，位置如下： [WebP格式。](https://developers.google.com/speed/webp) WebP平均可將影像的下載大小縮減約25%，進而加快頁面載入速度。
 
-在核心元件中激活Web優化影像傳輸非常簡單，而且由於所有常用瀏覽器都支援WebP，因此體驗對最終用戶是透明的。 他們會注意到的唯一區別是內容載入速度更快！
+在核心元件中啟用網頁最佳化的影像傳送非常簡單，而且由於所有常見瀏覽器都支援WebP，因此體驗對一般使用者而言是透明的。 他們唯一會注意到的差異是內容載入更快！
 
-## 激活核心元件的Web優化影像傳送 {#activating}
+## 啟用核心元件的Web最佳化影像傳送 {#activating}
 
-要啟用Web優化的影像傳送，請編輯頁面模板，然後只需激活選項 **啟用Web優化映像** 在 [影像元件。](/help/components/image.md#design-dialog) 此選項可用於映像元件的v1 、 v2和v3。
+若要啟用Web最佳化的影像傳送，請編輯頁面範本並直接啟動選項 **啟用Web最佳化的影像** 在「 」的「設計」對話方塊中 [影像元件。](/help/components/image.md#design-dialog) 此選項適用於影像元件的v1、v2和v3。
 
-如果您不熟悉設計對話框和頁AEM面模板， [請查看此文檔。](/help/get-started/authoring.md#pre-configuring-core-components)
+如果您不熟悉設計對話方塊和AEM頁面範本， [請檢閱此檔案。](/help/get-started/authoring.md#pre-configuring-core-components)
 
-![在設計對話框中啟用Web優化的影像傳遞](/help/assets/web-optimized-image-delivery.png)
+![在設計對話方塊中啟用Web最佳化的影像傳送](/help/assets/web-optimized-image-delivery.png)
 
-就是這樣！影像現在由WebP格式的影像元件傳送。
+就是這樣！影像現在由影像元件以WebP格式傳送。
 
-激活Web優化的映像傳送後，您可能還希望檢查調度程式配置以驗證它是否不會阻止對映像服務的請求。 此服務的URL採用以下形式。
+啟用Web最佳化的影像傳送後，您可能也想要檢查您的Dispatcher設定，以確認其不會封鎖對影像服務的請求。 此服務的URL會採用下列形式。
 
 ```text
 /adobe/dynamicmedia/deliver/dm-aid--741ed388-d5f8-4797-8095-10c896dc9f1d/skitouring.jpg?quality=80&preferwebp=true
 ```
 
-這可以用這個規則運算式來推廣。
+這可以用這個規則運算式來概括。
 
 ```text
 \/adobe\/dynamicmedia\/deliver\/([^:[]|*\/])\/([\w-])\.(gif|png|png8|jpg|pjpg|bjpg|webp|webpll|webply)(?[a-z0-9=&]*)?
@@ -44,78 +44,78 @@ ht-degree: 0%
 
 ## 驗證WebP傳遞 {#verifying}
 
-Web優化的影像傳遞對內容的使用者是透明的，並且不影響標籤。 最終用戶唯一注意到的是加快載入時間。
+網頁最佳化的影像傳送對內容的消費者是透明的，不會影響標籤。 一般使用者唯一會注意到的是載入時間變快。
 
-因此，要觀察實際行為的變化，必須查看頁面源。
+因此，若要觀察行為的實際變更，您必須檢視頁面來源。
 
-1. 在AEM中，編輯基於您所在的模板的頁面 [激活的Web優化影像傳送](#activating) 表徵圖。
-1. 在頁面編輯器中，選擇 **頁面資訊** 按鈕 **查看為已發佈**。
-1. 使用瀏覽器開發工具，查看頁面的源，並查看呈現的標籤如何保持不變，但是影像在 `src` 屬性點到 [新映像服務的URL。](#activating)
+1. 在AEM中，編輯以範本為基礎的頁面，您可以 [已啟動Web最佳化的影像傳遞](#activating) 用於影像元件。
+1. 在頁面編輯器中，選取 **頁面資訊** 按鈕，然後 **檢視已發佈**.
+1. 使用您的瀏覽器開發人員工具，檢視頁面來源並檢視呈現的標籤如何保持不變，但影像在 `src` 屬性指向 [新影像服務的URL。](#activating)
 
-## 當Web優化映像交付不可用時 {#fallback}
+## 無法使用Web最佳化的影像傳送時 {#fallback}
 
-Web優化的影像傳送僅在AEMas a Cloud Service。 如果無法使用，例如在AEM本地或本地開發實例上運行6.5 ，則映像交付將退回到使用 [自適應映像Servlet。](/help/developing/adaptive-image-servlet.md)
+網頁最佳化的影像傳送僅適用於AEMas a Cloud Service。 如果無法正常運作(例如在內部部署或本機開發執行個體上執行AEM 6.5)，則影像傳送會退回使用 [最適化影像Servlet。](/help/developing/adaptive-image-servlet.md)
 
-正如啟用Web優化影像傳遞不會影響標籤一樣，回退到Adaptive Image Servlet對標籤也沒有影響，因為只有URL位於 `src` 屬性 `img` 元素。
+正如啟用Web最佳化的影像傳送不會影響標籤一樣，退回至最適化影像Servlet也不會影響標籤，因為只有 `src` 的屬性 `img` 元素已變更。
 
 ## 常見問題 {#faq}
 
-### 為什麼沒有選項在我的環境中啟用Web優化映像？ {#missing-option}
+### 為什麼在我的環境中沒有啟用Web最佳化影像的選項？ {#missing-option}
 
-該功能僅在AEMas a Cloud Service上可用。 本地AEM或本地運行映像元件 [倒](#fallback) 到使用Adaptive Image Servlet。
+此功能僅適用於AEMas a Cloud Service。 在本機或內部部署執行AEM，影像元件 [回覆](#fallback) 以使用最適化影像Servlet。
 
-### 為什麼服務不與本地SDK配合使用？ {#local-sdk}
+### 此服務為何無法搭配本機SDK運作？ {#local-sdk}
 
-使用AEMSDK時 `localhost`，影像服務不可用，影像呈現 [倒](#fallback) 到使用Adaptive Image Servlet。
+在上使用AEM SDK時 `localhost`，影像服務無法使用，且影像演算 [回覆](#fallback) 以使用最適化影像Servlet。
 
-要使用Web優化的映像傳遞服務，請將項目部署到AEMaaCS開發環境，以便能夠準確test映像服務與映像服務的行為方式。
+若要使用Web最佳化的影像傳送服務，請將專案部署到AEMaaCS開發環境，以便能夠精確測試影像服務與影像服務的行為方式。
 
-### 為什麼服務不適用於我頁面上的某些影像？ {#some-images}
+### 為什麼該服務不適用於我頁面上的某些影像？ {#some-images}
 
-映像服務僅適用於位於 `/content/dam` 它不適用於直接上載到頁面並儲存在 `cq:Page` 的雙曲餘切值。 此類資產仍將與Adaptive Image Servlet一起作為 [回退。](#fallback)
+影像服務僅適用於下方的資產 `/content/dam` 且不適用於直接上傳至頁面並儲存在下的影像。 `cq:Page` 物件。 這類資產仍會以最適化影像Servlet as a傳送 [遞補內容。](#fallback)
 
-### 為什麼服務顯示質量較差的影像或限制影像大小？ {#quality}
+### 為什麼此服務會顯示品質較差影像或限制影像大小？ {#quality}
 
-Web優化影像服務將所有2048px和更小的影像呈現形式都考慮在內，並選取其中最大的格式副本作為應用所請求設定的基礎（寬度、裁剪、格式、質量等）。
+Web最佳化的影像服務會考量所有2048畫素和更小的影像轉譯，並挑選最大的影像轉譯作為套用請求之設定（寬度、裁切、格式、品質等）的基礎。
 
-影像服務永遠不會升級影像。 因此，這些格式副本定義了映像服務能夠提供的最佳大小和質量。 因此，請確保您的資產都具有2048px縮放格式副本，如果它們沒有，則重新處理它們。
+影像服務絕不會將影像升級。 因此，這些轉譯會定義影像服務能夠傳送的最佳大小和品質。 因此，請確定您的資產都有2048畫素的縮放轉譯，如果沒有，請重新處理。
 
-### 我的影像的URL仍以。JPG或.PNG結尾，而不是.WEBP，並且沒有SRCSET屬性或PICTURE元素。 這是否真的在使用優化的Web格式？ {#content-negotiation}
+### 我影像的URL仍以.PNG或。JPG結尾，而非.WEBP，而且沒有SRCSET屬性或PICTURE元素。 這真的使用最佳化的網頁格式嗎？ {#content-negotiation}
 
-為了提供WebP格式，Web優化影像傳輸服務使用一種稱為「內容協商」的技術。 這包括返回WebP檔案格式，即使當請求JPG或PNG檔案副檔名時，也是如此，但僅當發出請求的瀏覽器提供 `image/webp` HTTP接受標頭。 然後，支援此技術的瀏覽器可以提供此標題，而較舊的瀏覽器仍將獲得JPG或PNG檔案格式。
+為了傳遞WebP格式，網頁最佳化的影像傳遞服務使用稱為「內容交涉」的技術。 這包括傳回WebP檔案格式，即使在請求JPG或PNG副檔名時也是如此，但僅當發出請求的瀏覽器提供 `image/webp` HTTP接受標頭。 支援此技術的瀏覽器就可以提供此標頭，而舊版瀏覽器仍會取得JPG或PNG檔案格式。
 
-這種技術的優點是 `img` 元素及其屬性可以保持不變，這將導致現有站點的最佳相容性，並確保向web優化映像交付過渡的最平滑的可能路徑。
+此技巧的優點在於 `img` 元素及其屬性可以維持不變，這將為現有網站帶來最佳相容性，並確保以最順暢的方式過渡到網頁最佳化的影像傳送。
 
-### 是否可以將Web優化的映像交付與自己的元件一起使用？
+### 我可以將Web最佳化的影像傳送搭配自己的元件使用嗎？
 
-是的，Web優化映像交付服務可供自定義元件使用。 Adobe建議 [擴展影像元件](/help/developing/customizing.md) 在這個例子中。
+可以，自訂元件可以使用Web最佳化的影像傳送服務。 Adobe建議 [擴充影像元件](/help/developing/customizing.md) 在此案例中。
 
-以下是服務介面，可用於幫助生成資產URL。
+以下是可協助產生資產URL的服務介面。
 
 ```
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-此服務將資產資源作為強制的第一個參數，並可以為要應用的所需映像轉換建立可選映射，該映射可包含以下參數。
+此服務會將資產資源當作第一個必要引數，並可對要套用的所需影像轉換進行選擇性對應，其中可包含以下引數。
 
-* `path`  — 要交付的資產ID必須為模式 `([^:\[\]\|\*\/]+)` (例如： `unicorn–1234`)
-* `seoname`  — 要附加到影像URL的以用戶定義、以SEO為中心的名稱，可能包含連字元，必須為模式 `([\w-]+)` (例如： `my-friend-the-unicorn`)
-* `format`  — 所需的影像格式可 `gif`。 `png`。 `png8`。 `jpg`。 `pjpg`。 `bjpg`。 `webp`。 `webpll`。 `webply` (例如： `webp`)
-* `preferwebp`  — 如果可能，傳遞WebP輸出，忽略 `format` 參數([請參閱有關內容協商的常見問題](#content-negotiation))，布爾值(例如： `true`)
-* `width`  — 所需的影像解析度（以像素為單位）必須大於1(例如： `400`)
+* `path`  — 要傳送的資產ID必須是模式 `([^:\[\]\|\*\/]+)` (例如： `unicorn–1234`)
+* `seoname`  — 使用者定義的、以SEO為中心的名稱，可附加至影像URL、可能包含連字型大小、必須是模式 `([\w-]+)` (例如： `my-friend-the-unicorn`)
+* `format`  — 所需的影像格式，可以是 `gif`， `png`， `png8`， `jpg`， `pjpg`， `bjpg`， `webp`， `webpll`， `webply` (例如： `webp`)
+* `preferwebp`  — 可能的話，傳送WebP輸出，略過 `format` 引數([請參閱關於內容交涉的常見問題集](#content-negotiation))、布林值(例如： `true`)
+* `width`  — 所需的影像解析度（以畫素為單位）必須大於1 (例如： `400`)
 * `quality`  — 所需的壓縮，介於 `1` 和 `100` (例如： `75`)
-* `c`  — 所需的影像裁剪坐標，逗號分隔的像素值(例如： `100,100,400,200`)
-* `r`  — 所需的影像旋轉，可以 `90`。 `180`。 `270` (例如： `90`)
-* `flip`  — 所需的影像翻轉，可 `h`。 `v`。 `hv` (例如： `h`)
+* `c`  — 所需的影像裁切座標，以逗號分隔的畫素值(例如： `100,100,400,200`)
+* `r`  — 所需的影像旋轉，可以是 `90`， `180`， `270` (例如： `90`)
+* `flip`  — 所需的影像翻轉，可以是 `h`， `v`， `hv` (例如： `h`)
 
-### 新映像服務傳遞的映像的URL是什麼？ {#url}
+### 新影像服務所傳送的影像URL為何？ {#url}
 
-請參閱上一節 [激活核心元件的Web優化影像傳送](#activating) 例如URL和規則運算式。
+請參閱上一節 [啟用核心元件的Web最佳化影像傳送](#activating) 例如URL和規則運算式。
 
-### 啟用Web優化映像後，映像是否無法顯示？
+### 啟用Web最佳化的影像後，影像是否會無法顯示？
 
-不，這不該發生。
+不，這絕不應該發生。
 
-* 在HTML中，啟用Web優化影像時，標籤不會更改，只會更改影像元素上SRC屬性的值。
-* 當新映像服務不可用或無法處理所需映像時，生成的URL將 [回退到Adaptive Image Servlet。](#fallback)
-* 調度器規則可以阻止網路優化的影像服務和 [激活特徵時應檢查。](#activating)
+* 在HTML中，啟用Web最佳化影像時，標籤不會變更，只有影像元素上SRC屬性的值會變更。
+* 每當新的影像服務無法使用或無法處理所需的影像時，產生的URL將 [後援至最適化影像Servlet。](#fallback)
+* Dispatcher規則可能會封鎖網頁最佳化的影像服務，並且 [啟動功能時應該勾選。](#activating)

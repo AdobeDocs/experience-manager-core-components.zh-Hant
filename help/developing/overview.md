@@ -1,6 +1,6 @@
 ---
 title: 開發核心元件
-description: 核心元件提供強大且可擴展的基本元件，這些元件提供功能豐富、連續交付、元件版本控制、現代實現、精益標籤和內容的JSON導出。
+description: 核心元件提供強大且可擴充的基本元件，具備豐富的功能、持續傳遞、元件版本設定、現代化實施、精簡標籤以及內容的JSON匯出。
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
@@ -12,57 +12,57 @@ ht-degree: 13%
 
 # 開發核心元件 {#developing-core-components}
 
-## 何時使用核心元件？ {#when-to-use-the-core-components}
+## 何時該使用核心元件？ {#when-to-use-the-core-components}
 
 核心元件不僅是全新功能，並且有多項優點，因此建議用於新的 AEM 專案。對於既有專案來說，移轉應該是品牌重塑或整體重構等較大專案工作的一部分。
 
-因此，Adobe提出了以下建議：
+因此，Adobe提供下列建議：
 
-* **新建項目**
-新項目應始終嘗試使用核心元件。 如果核心元件不能直接使用或 [擴展](customizing.md) 為滿足項目要求，然後按照核心元件中規定的元件體系結構建立一個自定義元件。 除非不可能，否則請避免使用 [基礎元件](/help/versions.md#foundation-component-support)。
-* **現有項目**
-建議是繼續使用 [基礎元件](/help/versions.md#foundation-component-support)，除非計畫進行站點或元件重構。\
-   由於它們被大多數現有項目廣泛使用，所以基礎部件 [將繼續受支援。](/help/versions.md#foundation-component-support)
-* **新建自定義元件**
-評估現有 [可以定制核心元件](customizing.md)。\
-   否則，建議在 [元件指南](guidelines.md)。
-* **現有自定義元件**
-如果元件按預期工作，則按原樣保持它們。
+* **新專案**
+新專案應一律嘗試使用核心元件。 如果核心元件無法直接使用或 [延伸](customizing.md) 若要滿足專案需求，請依照核心元件中所述的元件架構建立自訂元件。 除非沒有其他方法，否則請避免使用 [基礎元件](/help/versions.md#foundation-component-support).
+* **現有專案**
+建議持續使用 [基礎元件](/help/versions.md#foundation-component-support)，除非有計畫進行網站或元件重構。\
+   由於大部分的現有專案已廣泛使用基礎元件，因此基礎元件 [將繼續獲得支援。](/help/versions.md#foundation-component-support)
+* **新自訂元件**
+評估是否存在 [可自訂核心元件](customizing.md).\
+   如果沒有，建議您在下列步驟之後建置新的自訂元件 [元件指導方針](guidelines.md).
+* **現有自訂元件**
+如果您的元件如預期般運作，則請原樣保留。
 \
-   否則，請參閱上面的「新建自定義元件」。
+   如果沒有，請參閱上述「新自訂元件」。
 
-## 如何成功使用核心元件 {#how-to-succeed}
+## 如何使用核心元件獲得成功 {#how-to-succeed}
 
-核心元件功能強大、靈活，易於使用和定制。 [遵循幾條關鍵准則](success.md) 將確保您的核心元件項目成功。
+核心元件功能強大、彈性好用，且易於使用與自訂。 [遵循幾項重要准則](success.md) 將確保您使用核心元件的專案成功進行。
 
-## 遷移到核心元件
+## 移轉至核心元件
 
-任何新項目都應與核心元件一起實施。 但是，現有項目通常會有廣泛的Foundation Components實施。
+任何新專案都應使用核心元件實作。 不過，現有專案通常具有基礎元件的廣泛實作。
 
-### 從Foundation元件遷移 {#from-foundation}
+### 從基礎元件移轉 {#from-foundation}
 
-對現有項目（例如重新品牌塑造或整體重構）進行更大的努力通常提供了遷移到核心元件的機會。 為了促進這一遷移，Adobe提供了一些遷移工具，以鼓勵採用核心元件和最新AEM技術。
+對現有專案進行較大努力（例如品牌重塑或整體重構）通常可讓您移轉至核心元件。 為了加速此移轉，Adobe提供了許多移轉工具，以鼓勵採用核心元件和最新的AEM技術。
 
-[現代AEM化工具](https://opensource.adobe.com/aem-modernize-tools/) 允許輕鬆轉換：
+[AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/) 可輕鬆轉換：
 
 * 從靜態範本轉換為可編輯的範本
 * 根據原則設計設定
 * 從基礎元件轉換為核心元件
 * 從傳統 UI 轉換為觸控式 UI
 
-有關這些工具的使用情況的詳細資訊， [查看文檔](https://opensource.adobe.com/aem-modernize-tools/)。
+如需這些工具使用方式的詳細資訊， [請參閱他們的檔案](https://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
->現代AEM化工具是社區工作，不受Adobe支援或授權。
+>AEM現代化工具是社群共同努力的成果，Adobe不提供支援或保證。
 
-## 通過移動到AEMas a Cloud Service {#via-aemaacs}
+## 透過移轉至AEMas a Cloud Service進行移轉 {#via-aemaacs}
 
-由AEM於as a Cloud Service自動附帶最新版本的核心元件，因此當您從內部安裝AEM遷移時，需要刪除項目中對核心元件的任何依賴關係 `pom.xml` 的子菜單。
+由於AEMas a Cloud Service會自動隨最新版核心元件提供，當您從內部部署AEM安裝遷移時，您必須在專案中移除任何與核心元件的相依性 `pom.xml` 檔案。
 
-代理元件仍將像以前一樣工作，因為代理指向必要的超類型，且超類型路徑中包含版本。 這樣，只要刪除依賴項，核心元件就可以像在內部那樣在AEMaCS中工作。
+您的Proxy元件仍會像之前一樣運作，因為Proxy指向必要的超型別，而超型別路徑中有版本。 如此一來，只要移除相依性，核心元件就能像內部部署一樣在AEMaaCS中運作。
 
-與任何其他AEMaaCS項目一樣，您也需要向SDK jarAEM添加依賴項。 這並非特定於核心元件，而是必需的。
+就像任何其他AEMaaCS專案一樣，您也需要將相依性新增到AEM SDK jar。 這並非核心元件所特有，但為必要專案。
 
 ```xml
 <dependency>
@@ -71,80 +71,80 @@ ht-degree: 13%
 </dependency>
 ```
 
-查看文檔 [項AEM目結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) 的子菜單。
+檢視檔案 [AEM專案結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) 以取得AEMaaCS專案的詳細資訊。
 
 ## 核心元件支援 {#core-component-support}
 
 核心元件是 AEM 不可或缺的一部分，並依照與 Quickstart 所提供相同的條款與條件給予支援。
 
-與其他產AEM品功能一樣，一般規則是：首先宣佈不建議使用元件，並且最早刪除以下版本的AEM元件。 這樣，客戶在放棄對元件的支援之前，至少可以在一個發佈週期內轉到新版本的元件。
+如同其他AEM產品功能，一般規則是：首先宣佈元件將過時，並且最早從下列AEM版本中移除。 這可讓客戶在停止支援之前，至少有一個發行週期可移至元件的新版本。
 
 每個元件的版本都清楚說明其支援的 AEM 版本。當停止支援 AEM 的單一版本時，核心元件對該 AEM 版本的支援也會停止。
 
-有關支援元件自定義的詳細資訊，請參見 [定制核心元件](customizing.md) 的子菜單。
+如需支援元件自訂功能的詳細資訊，請參閱 [自訂核心元件](customizing.md) 頁面。
 
 
-## 技術能力 {#technical-capabilities}
+## 技術功能 {#technical-capabilities}
 
-下表概述了核心元件和基礎元件之間的差異。
+下表概述核心元件與基礎元件之間的差異。
 
-有關其創作能力和預配置選項的詳細資訊， [請參閱有關它們的創作頁面](/help/get-started/authoring.md)。
+如需有關其製作功能的詳細資訊以及可預先設定它們的選項， [請參閱其相關撰寫頁面](/help/get-started/authoring.md).
 
 | **功能** | **核心元件** | **基礎元件** |
 |-----|---|---|
-| 邏輯實現 | Java POJO [吊具模型](https://sling.apache.org/documentation/bundles/models.html) 注釋 | JSP代碼 |
-| 標籤定義 | [HTML模板語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) (HTL)語法 | JSP代碼 |
-| XSS消毒 | 由HTL自動 | 主要是手動 |
-| CSS類命名 | 基於的標準化命名約定 [塊要素修改量](https://getbem.com/) (BEM)符號(從2.0.0版開始) | 自定義方案 |
-| 對話框定義 | [珊瑚3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | 珊瑚2 +經典用戶介面 |
-| JSON 輸出 | [Sling Models Exporter，帶Jackson系列](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 預設Sling Servlet |
-| 版本設定 | [對於模型和HTL](guidelines.md) | 無 |
-| 測試 | 設備Test+整合Test | 整合Test |
-| 傳送 | [通過公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通過快速啟動 |
-| 授權 | [Apache許可證](https://www.apache.org/licenses/LICENSE-2.0) | Adobe專有 |
-| 貢獻 | 通過拉入請求 | 不可能 |
-| 協助工具 | 完全符合 [WCAG 2.0 AA標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 僅與 [WCAG 2.0 AA標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| 邏輯實施 | Java POJOs搭配 [Sling模型](https://sling.apache.org/documentation/bundles/models.html) 註解 | JSP程式碼 |
+| 標籤定義 | [HTML範本語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) (HTL)語法 | JSP程式碼 |
+| XSS淨化 | 由HTL自動化 | 大部分手動 |
+| CSS類別命名 | 標準化命名慣例依據 [區塊元素修飾元](https://getbem.com/) (BEM)標籤法（截至發行版本2.0.0） | 自訂配置 |
+| 對話方塊定義 | [珊瑚色3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Classic UI |
+| JSON 輸出 | [具有Jackson序列化的Sling模型匯出工具](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 預設Sling servlet |
+| 版本設定 | [用於模型和HTL](guidelines.md) | 無 |
+| 測試 | 單元測試+整合測試 | 整合測試 |
+| 傳送 | [透過公開GitHub](https://github.com/adobe/aem-core-wcm-components) | 透過Quickstart |
+| 授權 | [Apache授權](https://www.apache.org/licenses/LICENSE-2.0) | 專屬Adobe |
+| 貢獻 | 透過提取請求 | 不可能 |
+| 協助工具 | 完全符合 [WCAG 2.0 AA標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 僅與部分相容 [WCAG 2.0 AA標準](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 元件清單 {#component-list}
 
-下表列出了可用的核心元件，它們連結到API，並指明了它們替換的基礎元件。
+下表列出可用的核心元件、其API的連結，並指出其取代的基礎元件。
 
-| 核心元件 | 說明 | 已更換基礎元件 |
+| 核心元件 | 說明 | 已取代的基礎元件 |
 |---|---|---|
-| [Page](https://adobe.com/go/aem_cmp_tech_page_v2) | 使用模板編輯器的響應頁面 | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [階層連結](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | 頁面層次導航 | `/libs/foundation/components/breadcrumb` |
+| [Page](https://adobe.com/go/aem_cmp_tech_page_v2) | 使用範本編輯器的回應式頁面 | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [階層連結](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | 頁面階層導覽 | `/libs/foundation/components/breadcrumb` |
 | [標題](https://adobe.com/go/aem_cmp_tech_title_v2) | H1-H6標題 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
-| [文字](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | 富文本 | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [影像](https://adobe.com/go/aem_cmp_tech_image_v2) | 智慧且緩慢地載入最佳再現大小 | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [文字](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | RTF文字 | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
+| [影像](https://adobe.com/go/aem_cmp_tech_image_v2) | 智慧型和延遲載入最佳轉譯大小 | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [清單](https://adobe.com/go/aem_cmp_tech_list_v2) | 頁面清單 | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [社交媒體分享](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Facebook和Pinterest共用小部件 | `-` |
-| [來自容器](https://adobe.com/go/aem_cmp_tech_form_container_v2) | 回應式段落系統 | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [表單文字](https://adobe.com/go/aem_cmp_tech_form_text_v2) | 文本輸入欄位 | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [表單選項](https://adobe.com/go/aem_cmp_tech_form_options_v2) | 多個選項輸入欄位 | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [已隱藏的表單](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 隱藏輸入欄位 | `/libs/foundation/components/form/hidden` |
-| [表單按鈕](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 提交或自定義按鈕 | `/libs/foundation/components/form/submit` |
-| [導覽](https://adobe.com/go/aem_cmp_tech_navigation_v1) | 列出嵌套頁層次結構的站點導航元件 | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [社交媒體分享](https://adobe.com/go/aem_cmp_tech_sharing_v1) | facebook和Pinterest共用Widget | `-` |
+| [來自容器](https://adobe.com/go/aem_cmp_tech_form_container_v2) | 回應式表單段落系統 | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [表單文字](https://adobe.com/go/aem_cmp_tech_form_text_v2) | 文字輸入欄位 | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [表單選項](https://adobe.com/go/aem_cmp_tech_form_options_v2) | 多選項輸入欄位 | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [已隱藏的表單](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 隱藏的輸入欄位 | `/libs/foundation/components/form/hidden` |
+| [表單按鈕](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 提交或自訂按鈕 | `/libs/foundation/components/form/submit` |
+| [導覽](https://adobe.com/go/aem_cmp_tech_navigation_v1) | 列出巢狀頁面階層的網站導覽元件 | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
 | [語言導覽](https://adobe.com/go/aem_cmp_tech_langnav_v1) | 列出全球語言結構的語言和國家/地區切換器 | `-` |
-| [快速搜尋](https://adobe.com/go/aem_cmp_tech_search_v1) | 在下拉菜單中將結果顯示為就地建議的搜索元件 | `/libs/foundation/components/search` |
-| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 允許內容作者使用影像、標題或富格文本輕鬆建立預告，以進一步內容，並連結到其他內容或其他操作 | `-` |
-| [索引標籤](https://adobe.com/go/aem_cmp_tech_tabs_v1) | 允許內容作者在多個頁籤內組織頁面內容 | `-` |
-| [傳送](https://adobe.com/go/aem_cmp_tech_carousel_v1) | 允許內容作者將內容組織在旋轉的幻燈片旋轉盤中 | `/libs/foundation/components/carousel` |
+| [快速搜尋](https://adobe.com/go/aem_cmp_tech_search_v1) | 在下拉式選單中將結果顯示為就地建議的搜尋元件 | `/libs/foundation/components/search` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 允許內容作者輕鬆建立Teaser，以使用影像、標題或RTF文字進一步內容並連結至進一步內容或其他動作 | `-` |
+| [索引標籤](https://adobe.com/go/aem_cmp_tech_tabs_v1) | 允許內容作者將頁面內容整理在多個標籤中 | `-` |
+| [傳送](https://adobe.com/go/aem_cmp_tech_carousel_v1) | 允許內容作者將內容整理在旋轉的幻燈片輪播中 | `/libs/foundation/components/carousel` |
 | [內容片段](https://adobe.com/go/aem_cmp_tech_cf_v1) | 允許顯示內容片段 | `-` |
 | [內容片段清單](https://adobe.com/go/aem_cmp_tech_cflist_v1) | 允許顯示內容片段清單 | `-` |
 | [分隔符號](https://adobe.com/go/aem_cmp_tech_separator_v1) | 分隔頁面上的內容 | `-` |
-| [折疊式面板](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 在可折疊手風琴中組織內容面板 | `-` |
-| [容器](https://adobe.com/go/aem_cmp_tech_container_v1) | 在容器內組織元件 | `-` |
+| [折疊式面板](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 在可摺疊的摺疊式功能表中整理內容面板 | `-` |
+| [容器](https://adobe.com/go/aem_cmp_tech_container_v1) | 在容器中組織元件 | `-` |
 | [按鈕](https://adobe.com/go/aem_cmp_tech_button_v1) | 在頁面上建立按鈕 | `-` |
-| [下載](https://adobe.com/go/aem_cmp_tech_download_v1) | 將可下載資產添加到頁面 | `-` |
-| [體驗片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 將體驗片段添加到頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [內嵌](https://adobe.com/go/aem_cmp_tech_embed_v1) | 在頁面中嵌入外部資源 | - |
-| [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 提供目標進展的直觀表示 | - |
-| [PDF 檢視器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在頁面上顯示PDF文檔 | - |
+| [下載](https://adobe.com/go/aem_cmp_tech_download_v1) | 新增可下載的資產至頁面 | `-` |
+| [體驗片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [內嵌](https://adobe.com/go/aem_cmp_tech_embed_v1) | 在頁面中內嵌外部資源 | - |
+| [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 提供向目標進度的視覺化表示 | - |
+| [PDF 檢視器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在頁面上顯示PDF檔案 | - |
 
-## 升級核心元件 {#upgrade-of-core-components}
+## 核心元件的升級 {#upgrade-of-core-components}
 
-版本控制元件的一個好處是它允許將遷移到新版本AEM與遷移到新元件版本分開。 此外，如果有新的元件版本，它允許將每個元件單獨遷移到新版本。
+版本化元件的一個優點是，它允許將移轉至新AEM版本與移轉至新元件版本分開。 此外，如果有新的元件版本可用，它允許個別地將每個元件移轉至新版本。
 
-遷移到新版AEM本不會影響核心元件的工作方式，前提是其版本還支援要遷AEM移到的新版本。 對核心元件進行的自定義也不應受到影響，只要它們不使用已使用的API [已棄用或刪除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+移轉至新AEM版本不會影響核心元件的運作方式，前提是其版本也支援移轉至的新AEM版本。 對核心元件進行的自訂也不應受影響，只要這些自訂不使用 [已棄用或已移除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
-遷移到新版本的核心元件也不會影響元件的工作方式，但可能會向頁面作者介紹新功能，這可能需要模板編輯器進行一些配置，以防不需要預設行為。 但是，可能需要調整自定義項，有關詳細資訊，請參閱 [定制核心元件](customizing.md#upgrade-compatibility-of-customizations) 的子菜單。
+移轉至新版本的核心元件也不會影響元件的運作方式，但可能會為頁面作者引入新功能，這可能需要範本編輯器進行一些設定，以免出現預設行為。 不過，自訂功能可能需要調整，如需詳細資訊，請參閱 [自訂核心元件](customizing.md#upgrade-compatibility-of-customizations) 頁面。

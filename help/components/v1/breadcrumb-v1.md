@@ -1,6 +1,6 @@
 ---
-title: Breadcrumb元件(v1)
-description: 核心元件Breadcrumb元件是一個導航元件，它根據頁面在內容層次結構中的位置建立連結的Breadcrumb。
+title: 階層連結元件(v1)
+description: 核心元件階層連結元件是一種導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
@@ -11,35 +11,35 @@ ht-degree: 1%
 
 ---
 
-# Breadcrumb元件(v1) {#breadcrumb-component-v}
+# 階層連結元件(v1) {#breadcrumb-component-v}
 
-核心元件Breadcrumb元件是一個導航元件，它根據頁面在內容層次結構中的位置建立連結的Breadcrumb。
+核心元件階層連結元件是一種導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
 
 ## 使用狀況 {#usage}
 
-Breadcrumb元件顯示當前頁面在站點層次結構中的位置，使頁面訪問者能夠從其當前位置導航頁面層次結構。 這通常整合到頁眉或頁腳中。
+階層連結元件會顯示目前頁面在網站階層中的位置，讓頁面訪客可以從其目前位置導覽頁面階層。 這通常會整合到頁首或頁尾中。
 
-可用選項（如預設導航級別和顯示當前頁面或隱藏頁面的功能）可由模板作者在 [設計對話框](#design-dialog)。 然後，內容編輯器可以選擇是否顯示隱藏頁面以及元件的實際導航級別 [編輯對話框](#edit-dialog)。
+可用選項（例如，預設導覽層級和顯示目前頁面或隱藏頁面的能力）可由範本作者在 [設計對話方塊](#design-dialog). 然後，內容編輯器可以選擇是否顯示隱藏的頁面，以及在中元件的實際導覽層級 [編輯對話方塊](#edit-dialog).
 
 ## 版本和相容性 {#version-and-compatibility}
 
-本文檔介紹Breadcrumb元件的v1，最初是隨帶有6.3的核心元件1.0.0版一起推出AEM的。
+本檔案說明階層連結元件v1，它最初隨附於AEM 6.3的核心元件1.0.0版引入。
 
-下表列出了Breadcrumb元件v1的相容性。
+下表列出階層連結元件v1的相容性。
 
-| 版AEM本 | Breadcrumb元件v1 |
+| AEM版本 | 階層連結元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
 
 >[!CAUTION]
 >
->本文檔介紹Breadcrumb元件的v1。
->有關Breadcrumb元件當前版本的詳細資訊，請參見 [Breadcrumb元件](/help/components/breadcrumb.md) 的子菜單。
+>本檔案說明階層連結元件v1。
+>如需目前版本的階層連結元件的詳細資訊，請參閱 [階層連結元件](/help/components/breadcrumb.md) 檔案。
 
-## 元件輸出示例 {#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
-以下是從 [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下是取自下列專案的範例： [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -84,41 +84,41 @@ Breadcrumb元件顯示當前頁面在站點層次結構中的位置，使頁面�
 
 >[!NOTE]
 >
->從核心元件導出JSON需要1.1.0版核心元件。 請參閱 [核心元件v1的相容性資訊](/help/versions.md) 的子菜單。
+>從核心元件匯出JSON需要核心元件1.1.0版。 請參閱 [核心元件v1的相容性資訊](/help/versions.md) 以取得詳細資訊。
 
-## 編輯對話框 {#edit-dialog}
+## 編輯對話方塊 {#edit-dialog}
 
-編輯對話框允許內容作者隱藏麵包屑中的隱藏頁面和活動頁面，以及該頁面應顯示的層次結構中的深度。
+「編輯」對話方塊可讓內容作者在階層連結中隱藏隱藏和作用中的頁面，以及它應顯示的階層中的深度。
 
 ![](/help/assets/chlimage_1-34.png)
 
-* **要啟動的導航級別**  — 在層次結構中，breadcrumb元件應開始向下走到當前頁。 例如，在We.Retail中：
+* **要開始的導覽層級**  — 階層中階層連結元件的位置，應從這裡開始，逐步前往目前頁面。 例如，在We.Retail中：
 
-   * 1開始 `/content/we-retail`
-   * 2開始 `/content/we-retail/<country>`
+   * 1開始於 `/content/we-retail`
+   * 2開始於 `/content/we-retail/<country>`
 
-* **顯示隱藏**  — 在breadcrumb中顯示標籤為隱藏的頁面（預設情況下，不會顯示這些頁面）
-* **隱藏當前** — 在breadcrumb中隱藏當前頁（預設情況下將顯示）
+* **顯示隱藏專案**  — 在階層連結中顯示標籤為隱藏的頁面（預設不會顯示）
+* **隱藏目前專案** — 在階層連結中隱藏目前頁面（預設會顯示）
 
-## 設計對話框 {#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
-設計對話框允許模板作者定義用於隱藏麵包屑中隱藏的和活動的頁面的選項的預設值，以及該選項應顯示的層次中的深度。
+「設計」對話方塊可讓範本作者定義選項的預設值，以隱藏階層連結中的隱藏頁面和使用中頁面，以及應顯示的階層中的深度。
 
 ![](/help/assets/chlimage_1-35.png)
 
-* **要啟動的導航級別**  — 定義在將breadcrumb元件添加到頁面時，breadcrumb元件應開始向下走到當前頁面的層次中的預設值。
-* **顯示隱藏**  — 定義 **顯示隱藏** 選項。
+* **要開始的導覽層級**  — 定義階層中位置的預設值，在將階層連結元件新增至頁面時，它會從該位置開始向下瀏覽至目前頁面。
+* **顯示隱藏專案**  — 定義 **顯示隱藏專案** 將階層連結元件新增至頁面時的選項。
 
-   * 它不會為作者啟用或禁用選項。 它只設定預設值。
+   * 它不會為作者啟用或停用選項。 它只會設定預設值。
 
-* **隱藏當前**  — 定義 **隱藏當前** 選項。
+* **隱藏目前專案**  — 定義 **隱藏目前專案** 將階層連結元件新增至頁面時的選項。
 
-   * 它不會為作者啟用或禁用選項。 它只設定預設值。
+   * 它不會為作者啟用或停用選項。 它只會設定預設值。
 
-## 技術詳細資訊 {#technical-details}
+## 技術細節 {#technical-details}
 
-有關Breadcrumb元件的最新技術文檔 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb)。
+有關階層連結元件的最新技術檔案 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
 
-整個核心元件項目可從GitHub下載。
+您可以從GitHub下載整個核心元件專案。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
+有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).

@@ -1,6 +1,6 @@
 ---
 title: 使用核心元件編寫
-description: 在中AEM，元件是構成正在創作的頁面內容的結構元素 — 核心元件提供靈活且功能豐富的創作功能。
+description: 在AEM中，元件是結構化元素，可構成所編寫頁面的內容 — 核心元件提供有彈性且功能豐富的編寫功能。
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
@@ -10,76 +10,76 @@ ht-degree: 8%
 
 ---
 
-# 使用核心元件
+# 使用核心元件編寫
 
 在 Adobe Experience Manager 中，元件是構成所編寫頁面內容的結構元素。
 
-核心元件提供靈活且功能豐富的創作功能。 的 [WKND參考站點](https://wknd.site) 並說明了如何利用核心元件來實現豐富的網站體驗。
+核心元件提供有彈性且功能豐富的撰寫功能。 此 [WKND參考網站](https://wknd.site) 及其說明如何使用核心元件來實作豐富的網站體驗。
 
-要體驗核心元件並查看其配置選項以及HTML和JSON輸出的示例，請訪問 [元件庫](https://adobe.com/go/aem_cmp_library)。
+若要體驗核心元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪 [元件資料庫](https://adobe.com/go/aem_cmp_library).
 
-有關在項目上通過使用 [項AEM目原型](/help/developing/archetype/overview.md) 簽出 [WKND教程。](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
+如需有關在AEM專案上實作核心元件的深入資訊，以開發人員為導向，請前往 [AEM專案原型](/help/developing/archetype/overview.md) 簽出 [wknd教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
 
 >[!NOTE]
 >
->[開發團隊必須先依照作者的環境整合核心元件](/help/get-started/using.md)，才能將其提供給您。整合後，可通過 [模板編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+>[開發團隊必須先依照作者的環境整合核心元件](/help/get-started/using.md)，才能將其提供給您。整合後，可透過 [範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!CAUTION]
 >
->核心元件 [要求AEM6.4或更高版本](/help/versions.md) 並要求 [可編輯模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它們不與Classic UI或靜態模板一起使用。
+>核心元件 [需要AEM 6.4或更新版本](/help/versions.md) 並需要使用 [可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html). 它們不能用於傳統UI，也無法用於靜態範本。
 
 ## 使用核心元件編寫 {#authoring-with-core-components}
 
-作為作者，您將注意到核心元件的幾個優點，包括：
+身為作者，您會注意到核心元件的幾項優點，包括：
 
-* 易於使用，與 [頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+* 簡單易用，並與 [頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* 功能豐富，可容納許多使用情形，如 [WKND參考站點](https://wknd.site) 以及 [元件庫](https://adobe.com/go/aem_cmp_library)
+* 功能豐富的功能，適用於許多使用案例，如 [WKND參考網站](https://wknd.site) 以及中的 [元件資料庫](https://adobe.com/go/aem_cmp_library)
 
-* [預配置](#pre-configuring-core-components) 定義頁面作者可通過 [模板編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [可預先設定](#pre-configuring-core-components) 若要定義哪些功能可供頁面作者使用，請透過 [範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-* 圍繞 [輔助性指導](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
+* 建置環境 [協助工具准則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
-* 構建為支援 [響應佈局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* 建置以支援 [回應式佈局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
-* 構建為支援 [易定位](localization.md)
+* 建置以支援 [輕鬆本地化](localization.md)
 
-元件在 **元件** 的子菜單。 [編輯頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)。
+元件可在 **元件** 頁面編輯器側面板的索引標籤 [編輯頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
-元件按稱為元件組的類別進行分組，以便輕鬆地組織和過濾元件。 元件組名隨元件在 [元件瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) 也可以按組過濾，方便地找到正確的元件。
+元件會根據稱為元件群組的類別分組，以便輕鬆組織和篩選元件。 元件群組名稱會與元件一起顯示在中 [元件瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) 也可以依群組篩選，輕鬆找到合適的元件。
 
 >[!NOTE]
 >
->預設情況下，「核心元件」是隱藏組的一部分，在元件瀏覽器中不可見。
+>核心元件預設為隱藏群組的一部分，在元件瀏覽器中不可見。
 >
->將所需元件添加到可見組或自定義它們，以便作者可以使用這些元件。
+>將所需元件新增至可見群組或自訂這些元件，以供作者使用。
 
-## 預配置核心元件 {#pre-configuring-core-components}
+## 預先設定核心元件 {#pre-configuring-core-components}
 
-配置基礎元件是開發人員的作業。 但是，使用核心元件，模板作者現在可以通過模板編輯器配置許多功能。
+開發人員的工作是設定Foundation元件。 不過，使用核心元件時，範本作者現在可以透過範本編輯器設定許多功能。
 
-例如，如果影像元件不應允許從檔案系統上載影像，或者文本元件應僅允許某些段落格式設定，則只需按一下一下即可啟用或禁用這些功能。
+例如，如果影像元件不允許從檔案系統上傳影像，或如果文字元件僅允許特定段落格式，只要按一下即可啟用或停用這些功能。
 
-請參閱 [建立頁面模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 的子菜單。
+另請參閱 [建立頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 以取得詳細資訊。
 
-### 編輯和設計對話框 {#edit-and-design-dialogs}
+### 編輯和設計對話方塊 {#edit-and-design-dialogs}
 
-由於核心元件可由模板作者預先配置，以定義允許哪些選項作為模板的一部分，然後由頁面作者進一步配置以定義實際頁面內容，因此每個元件可以在兩個不同的對話框中具有選項。
+由於範本作者可以預先設定核心元件，以定義範本中允許哪些選項，然後由頁面作者進一步設定以定義實際頁面內容，因此每個元件在兩個不同的對話方塊中都可以有選項。
 
-|  | 說明 | 它控制的內容 | 範例 |
+|  | 說明 | 控制內容 | 範例 |
 |--- |--- |--- |--- |
-| **編輯對話框** | 選項 **頁面作者** 可在對放置的元件進行常規頁面編輯期間進行修改 | 元件顯示的內容及其最終在頁面上的顯示方式。 | 格式化內容文本，在頁面上旋轉影像 |
-| **設計對話框** | 選項 **模板作者** 可以在配置頁面模板時進行修改。 | 編輯元件時頁面作者可用的選項 | 哪些文本格式選項可用，哪些影像就地選項可用 |
+| **編輯對話方塊** | 選項： **頁面作者** 可以在對置入元件進行正常頁面編輯期間進行修改 | 元件顯示的內容以及最終顯示在頁面上的方式。 | 格式化內容文字，旋轉頁面上的影像 |
+| **設計對話方塊** | 選項： **範本作者** 可在設定頁面範本時修改。 | 頁面作者在編輯元件時可以使用哪些選項 | 哪些文字格式選項可用，哪些影像就地選項可用 |
 
 ### 元件樣式 {#component-styling}
 
-大多數「核心元件」的樣式都可使用樣式系AEM統定義。
+大部分核心元件的樣式可使用AEM樣式系統定義。
 
-* 模板作者可以定義哪些樣式可用於該元件的「設計」對話框中的特定元件。
-* 然後，內容作者可以選擇添加元件和建立內容時應用的樣式。
+* 範本作者可以在特定元件的「設計」對話方塊中，定義哪些樣式可供該元件使用。
+* 然後，內容作者就可以在新增元件和建立內容時，選擇要套用的樣式。
 
-有關詳細資訊，請參閱 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) 文檔。
+如需詳細資訊，請參閱 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) 說明檔案。
 
 ## 開發人員資源 {#developer-resources}
 
-查看 [開發核心元件](/help/developing/overview.md) 有關核心元件的技術資訊的開發人員文檔。
+請參閱 [開發核心元件](/help/developing/overview.md) 開發人員檔案，以取得關於核心元件的技術資訊。

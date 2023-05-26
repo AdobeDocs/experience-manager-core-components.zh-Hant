@@ -1,6 +1,6 @@
 ---
 title: 表單選項元件(v1)
-description: 「核心元件表單」選項元件允許以各種格式從預定義選項中進行選擇。
+description: 核心元件表單選項元件可讓您從各種格式的預先定義選項中進行選取。
 index: n
 role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
@@ -13,19 +13,19 @@ ht-degree: 2%
 
 # 表單選項元件(v1) {#form-options-component-v}
 
-「核心元件表單」選項元件允許以各種格式從預定義選項中進行選擇。
+核心元件表單選項元件可讓您從各種格式的預先定義選項中進行選取。
 
 ## 使用狀況 {#usage}
 
-核心元件表單選項元件允許以多種不同方式呈現的不同類型選項的提交，並且與 [形式容器元件](form-container-v1.md)。
+核心元件表單選項元件可讓您提交不同型別的選項（這些選項會以多種不同方式呈現），並且此元件旨在與 [表單容器元件](form-container-v1.md).
 
-選項、標籤和單個選項的演示可由中的內容編輯器定義 [配置對話框](#configure-dialog)。
+選項、標籤和個別選項的呈現可由內容編輯者在 [設定對話方塊](#configure-dialog).
 
 ## 版本和相容性 {#version-and-compatibility}
 
-本文檔介紹了最初隨帶有6.3的核心元件1.0.0版而引入的表單選項元件的v1AEM。
+本檔案說明表單選項元件v1，其最初隨附於AEM 6.3的核心元件1.0.0版引入。
 
-下表列出了「表單選項」元件的v1相容性。
+下表列出表單選項元件(v1)的相容性。
 
 | 元件版本 | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
@@ -34,13 +34,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->本文檔介紹「表單選項」元件的v1。
+>本檔案說明表單選項元件v1。
 >
->有關表單選項元件當前版本的詳細資訊，請參閱 [表單選項元件](/help/components/forms/form-options.md) 的子菜單。
+>如需目前版本的表單選項元件的詳細資訊，請參閱 [表單選項元件](/help/components/forms/form-options.md) 檔案。
 
-## 元件輸出示例 {#sample-component-output}
+## 範例元件輸出 {#sample-component-output}
 
-以下是從 [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下是取自下列專案的範例： [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -110,16 +110,16 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->從核心元件導出JSON需要1.1.0版核心元件。 請參閱 [核心元件v1的相容性資訊](/help/versions.md) 的子菜單。
+>從核心元件匯出JSON需要核心元件1.1.0版。 請參閱 [核心元件v1的相容性資訊](/help/versions.md) 以取得詳細資訊。
 
-## 配置對話框 {#configure-dialog}
+## 設定對話方塊 {#configure-dialog}
 
-「配置」對話框允許內容作者定義應顯示的選項類型、標籤以及哪些選項可用。
+「設定」對話方塊可讓內容作者定義應顯示的選項型別、標籤以及可用的選項。
 
 ![](/help/assets/chlimage_1-90.png)
 
-* **類型**
-如何提供選項
+* **型別**
+如何顯示選項
 
    * **核取方塊**
    * **選項按鈕**
@@ -127,30 +127,30 @@ ht-degree: 2%
    * **複選下拉式清單**
 
 * **標題**  — 將顯示為選項標籤的標題
-* **名稱**  — 使用表單資料提交的欄位的名稱
-* **源**  — 定義選項的位置
+* **名稱**  — 與表單資料共同提交的欄位名稱
+* **來源**  — 定義選項的位置
 
-   * **本地**  — 在元件內定義
-      * 點擊或按一下 **添加** 按鈕以添加值， **刪除** 刪除值
-      * **值**  — 提交表單時選擇該選項時保存的值
-      * **文本**  — 窗體上顯示的選項的標籤
-      * **活動**  — 在載入表單時，選項被標籤為已選
-      * **已禁用**  — 該選項不可選，但仍顯示
-      * **清單**  — 選項使用中其他位置AEM定義的靜態清單
-         * **清單**  — 中靜態清單的路AEM徑
-            * 使用「瀏覽」按鈕查找清單資源
-      * **資料源**  — 資料源用於選項
-         * **資料源**  — 資料源的資源類型
-* **幫助消息**  — 提示用戶可在欄位中輸入的內容
+   * **本機**  — 在元件中定義
+      * 點選或按一下 **新增** 按鈕以新增值， **刪除** 以移除值
+      * **值**  — 提交表單時選取該選項時儲存的值
+      * **文字**  — 表單上顯示之選項的標籤
+      * **作用中**  — 表單載入時，選項會標籤為已選取
+      * **已停用**  — 選項不可選取，但仍會顯示
+      * **清單** - AEM中其他地方定義的靜態清單用於此選項
+         * **清單** - AEM中靜態清單的路徑
+            * 使用瀏覽按鈕來尋找清單資源
+      * **資料來源**  — 資料來源用於選項
+         * **資料來源**  — 資料來源的資源型別
+* **說明訊息**  — 使用者可在欄位中輸入的內容的提示
 
-## 設計對話框 {#design-dialog}
+## 設計對話方塊 {#design-dialog}
 
-「表單選項」元件沒有設計對話框。
+表單選項元件沒有「設計」對話方塊。
 
-## 技術詳細資訊 {#technical-details}
+## 技術細節 {#technical-details}
 
-有關表單選項元件的最新技術文檔 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options)。
+有關表單選項元件的最新技術檔案 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
-整個核心元件項目可從GitHub下載。
+您可以從GitHub下載整個核心元件專案。
 
-有關開發核心元件的詳細資訊，請參閱 [核心元件開發人員文檔](/help/developing/overview.md)。
+有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).

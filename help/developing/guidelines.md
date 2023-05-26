@@ -1,6 +1,6 @@
 ---
 title: 元件指引
-description: 核心元件遵循與基礎元件截然不同的現代實施模式。
+description: 核心元件遵循的現代實作模式與基礎元件大為不同。
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
@@ -12,98 +12,98 @@ ht-degree: 2%
 
 # 元件指引 {#component-guidelines}
 
-的 [核心元件](overview.md) 遵循與基礎元件相去甚遠的現代實施模式。
+此 [核心元件](overview.md) 遵循與基礎元件截然不同的現代化實作模式。
 
-本頁介紹這些模式，以及何時使用這些模式構建您自己的可授權元件。 第一部分 [常規元件模式](#general-component-patterns) 適用於任何類型的元件，而第二部分 [可重用元件模式](#reusable-component-patterns) 適用於要在站點或項目之間重複使用的元件，例如核心元件。
+此頁面說明這些模式，以及何時使用這些模式來建置您自己的可編寫元件。 第一節　 [一般元件模式](#general-component-patterns) 套用至任何種類的元件，而第二區段則 [可重複使用的元件模式](#reusable-component-patterns) 套用至要跨網站或專案重複使用的元件，例如執行個體的核心元件。
 
-## 常規元件模式 {#general-component-patterns}
+## 一般元件模式 {#general-component-patterns}
 
-本節中的指導原則建議用於任何類型的元件，而不管該元件是否特定於單個項目，或該元件是否打算在站點或項目之間廣泛重複使用。
+本節中的指南建議用於任何型別的元件，無論該元件是否特定於單一專案，或該元件是否要跨網站或專案廣泛地重複使用。
 
-### 可配置元件 {#configurable-components}
+### 可設定的元件 {#configurable-components}
 
-元件可以與多種選項對話。 應利用這一點，使元件具有靈活性和可配置性，並避免實施多個大多是彼此差異的元件。
+元件可以有包含各種選項的對話方塊。 應運用此工具，讓元件具備彈性且可設定，並避免實作多個主要是彼此變異的元件。
 
-通常，如果線框或設計包含類似元素的變體，則這些變體不應作為不同的元件實現，而應作為具有在變體之間進行選擇的選項的一個元件來實現。
+通常，如果線框或設計包含類似元素的變數，這些變數不應實作為不同的元件，而應實作為一個元件，並附上選項供您在變數之間選擇。
 
-要進一步執行此步驟，如果元件在站點或項目之間重複使用，請參閱 [預配置功能](#pre-configurable-capabilities) 的子菜單。
+若要更進一步跨網站或專案重複使用元件，請參閱 [可預先設定的功能](#pre-configurable-capabilities) 區段。
 
-### 關注事項的分離 {#separation-of-concerns}
+### 關注點分離 {#separation-of-concerns}
 
-將元件的邏輯（或模型）與標籤模板（或視圖）分離通常是一種好做法。 有幾種方法可實現此目標，但建議使用 [吊具模型](https://sling.apache.org/documentation/bundles/models.html) 邏輯和 [HTML模板語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) (HTL)，與核心元件也一樣。
+將元件的邏輯（或模型）與標籤範本（或檢視）分開通常是好的做法。 有數種方法可以達成此目的，不過建議使用 [Sling模型](https://sling.apache.org/documentation/bundles/models.html) 邏輯和 [HTML範本語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) (HTL)做為標籤，就像核心元件一樣。
 
-Sling Models是一組Java注釋，可輕鬆訪問POJO中所需的變數，因此為元件實現Java邏輯提供了簡單、強大和高效的方法。
+Sling模型是一組Java註解，可輕鬆從POJO存取所需的變數，因此提供簡單、強大且有效率的方式，為元件實作Java邏輯。
 
-HTL被設計為一種安全且簡單的模板語言，適合AEM使用。 它可以調用多種形式的邏輯，使它非常靈活。
+HTL的設計初衷是針對AEM量身打造的一種安全且簡單的範本語言。 它可以呼叫多種形式的邏輯，因此非常靈活。
 
-## 可重用元件模式 {#reusable-component-patterns}
+## 可重複使用的元件模式 {#reusable-component-patterns}
 
-本節中的指南也可用於任何類型的元件，但對於希望在站點或項目之間重複使用的元件（例如核心元件），它們最有意義。 因此，對於僅在單個站點或項目上使用的元件，可以忽略這些准則。
+本節中的指引也可用於任何型別的元件，但對於打算跨網站或專案重複使用的元件（例如例項的核心元件）來說，這是最合理的指引。 因此，對於僅用於單一網站或專案的元件，可忽略這些准則。
 
-### 預配置功能 {#pre-configurable-capabilities}
+### 可預先設定的功能 {#pre-configurable-capabilities}
 
-除了頁面作者使用的編輯對話框外，元件還可以有一個設計對話框，供模板作者預配置它們。 的 [模板編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 允許設定所有這些預配置，稱為「策略」。
+除了頁面作者使用的編輯對話方塊之外，元件也可以有一個設計對話方塊，供範本作者預先設定。 此 [範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 允許設定這些稱為「原則」的預設定。
 
-要使元件盡可能可重複使用，應為它們提供有意義的預配置選項。 這將允許啟用或禁用元件的功能以滿足不同站點的特定需要。
+若要讓元件儘可能重複使用，應提供有意義的選項給元件，讓元件可預先設定。 這將允許啟用或停用元件的功能，以符合不同網站的特定需求。
 
-### 代理元件模式 {#proxy-component-pattern}
+### Proxy元件模式 {#proxy-component-pattern}
 
-因為每個內容資源都有 `sling:resourceType` 引用元件來呈現它的屬性，通常最好將這些屬性指向特定於站點的元件，而不是指向由多個站點共用的元件。 如果一個站點需要某個元件的不同行為，這將提供更大的靈活性並避免內容重構，因為此自定義可以在特定於站點的元件上實現，並且不會影響其他站點。
+由於每個內容資源都有 `sling:resourceType` 參照要呈現元件的屬性，通常好的做法是讓這些屬性指向網站特定的元件，而不是指向由多個網站共用的元件。 這將提供更大的彈性，並可避免在某個網站需要元件的不同行為時進行內容重構，因為此自訂可在網站專用元件上實現，而不會影響其他網站。
 
-但是，對於項目特定的元件，如果不複製任何代碼，則它們應分別引用與 `sling:resourceSuperType` 屬性。 這些主要只指父元件的項目特定元件稱為「代理元件」。 如果代理元件完全繼承了該功能，則它們可以是完全空的，或者可以重新定義元件的某些方面。
+不過，若是專案特定的元件不要複製任何程式碼，則每個元件都應使用來參照共用的父元件 `sling:resourceSuperType` 屬性。 這些通常只是參照父元件的專案特定元件稱為「Proxy元件」。 如果Proxy元件完全繼承了功能，則它們可以完全空白，或者它們可以重新定義元件的某些方面。
 
 >[!TIP]
 >
->查看 [使用核心元件](/help/get-started/using.md#create-proxy-components) 以獲取有關如何建立代理元件的詳細資訊。
+>請參閱 [使用核心元件](/help/get-started/using.md#create-proxy-components) 以取得有關如何建立Proxy元件的詳細資訊。
 
-### 元件版本控制 {#component-versioning}
+### 元件版本設定 {#component-versioning}
 
-隨著時間的推移，元件應保持完全相容，但有時需要進行無法保持相容的更改。 解決這些相反需求的一個解決方案是引入元件版本化，方法是在其資源類型路徑中添加一個數字，並在其實現的完全限定的Java類名稱中添加數字。 此版本號表示由定義的主要版本 [語義版本指導](https://semver.org/)，僅對不向後相容的更改遞增。
+元件應隨時間推移保持完全相容，但有時必須進行無法保持相容的變更。 解決這些矛盾需求的解決方案之一，是在其資源型別路徑中新增數字，並在其實施的完全合格Java類別名稱中新增元件版本設定。 此版本編號代表下列定義的主要版本： [語意版本設定指南](https://semver.org/)，此變數只會隨著不向後相容的變更而遞增。
 
-對元件的以下方面進行不相容的更改將導致它們的新版本：
+對下列元件進行不相容的變更，將會導致元件的新版本：
 
-* Sling模型（遵循語義版本化准則）
-* HTL指令碼和模板
-* HTML標籤和CSS選擇器
-* JSON表示法
+* Sling模型（遵循語意版本設定指南）
+* htl指令碼和範本
+* HTML標籤和CSS選取器
+* JSON呈現
 * 對話方塊
 
-有關詳細資訊，請參閱 [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) 文檔。
+如需詳細資訊，請參閱 [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) 檔案。
 
-元件版本控制建立一種對升級非常重要的合同形式，因為它澄清了何時可能需要重新計算某些內容。 另請參閱 [自定義項的升級相容性](customizing.md#upgrade-compatibility-of-customizations)，說明升級時需要採用不同形式的自定義。
+元件版本設定會建立對升級很重要的合約形式，因為它可釐清何時可能需要重構某些專案。 另請參閱區段 [升級自訂的相容性](customizing.md#upgrade-compatibility-of-customizations)，說明不同自訂形式升級時所需的考量事項。
 
-為避免痛苦的內容遷移，切勿直接指向內容資源中版本控制的元件非常重要。 根據經驗， `sling:resourceType` 內容的版本號永遠不能包含，或升級元件將要求對內容進行重構。 避免這種情況的最佳方法是 [代理元件模式](#proxy-component-pattern) 如上所述。
+為避免痛苦的內容移轉，切勿從內容資源直接指向版本化的元件。 根據經驗， `sling:resourceType` 的內容中絕不能有版本號碼，否則升級元件時也會要求重構內容。 避免此情況的最佳方式是遵循 [Proxy元件模式](#proxy-component-pattern) 如上所述。
 
 ### 模型介面 {#model-interfaces}
 
-此模式與HTL `data-sly-use` 指令指向Java介面，而Sling Model實現也正在將自身註冊到元件的資源類型。
+此模式與HTL有關 `data-sly-use` 指向Java介面的指示，而Sling模型實作也在將自身註冊到元件的資源型別。
 
-與 [代理元件模式](#proxy-component-pattern) 如上所述，這種雙綁定形式提供了以下好的擴展點：
+當與 [Proxy元件模式](#proxy-component-pattern) 如上所述，這種形式的雙重繫結提供下列很好的擴充點：
 
-1. 站點可以通過將Sling模型註冊到代理元件的資源類型來重新定義Sling模型的實現，而不必考慮HTL檔案，該檔案仍可指向介面。
-1. 站點可以重新定義元件的HTL標籤，而無需考慮它應指向哪個實現邏輯。
+1. 網站可以重新定義Sling模型的實作，方法是將其註冊到Proxy元件的資源型別，而不必考慮HTL檔案，它仍可以指向介面。
+1. 網站可以重新定義元件的HTL標籤，而不用考慮它應該指向的實施邏輯。
 
-## 把它們放在一起 {#putting-it-all-together}
+## 整合所有內容 {#putting-it-all-together}
 
-以標題核心元件為例，下面是整個資源類型綁定結構的概述。 它說明了特定於站點的代理元件如何解決元件版本控制問題，以避免內容資源包含任何版本號。 然後，它顯示了元件 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) 檔案用於模型介面，而實現通過 [吊具模型](https://sling.apache.org/documentation/bundles/models.html) 注釋。
+以下為整個資源型別繫結結構的概觀，以標題核心元件為例。 它說明網站特定的Proxy元件如何允許解析元件版本設定，以避免內容資源包含任何版本號碼。 然後它會顯示元件的 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) 檔案會使用來建立模型介面，而實作會透過繫結至元件的特定版本 [Sling模型](https://sling.apache.org/documentation/bundles/models.html) 註解。
 
-![資源綁定概述](/help/assets/chlimage_1-32.png)
+![資源繫結概觀](/help/assets/chlimage_1-32.png)
 
-下面是另一個概述，它不顯示POJO實施的詳細資訊，但是顯示了與 [模板和策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html) 。
+底下是另一個概觀，此概觀不會顯示實作POJO的詳細資訊，但會顯示如何關聯 [範本和原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html) 已被引用。
 
-的 `cq:allowedTemplates` 屬性指明哪些模板可用於站點，以及 `cq:template` 告訴每個頁面關聯的模板是什麼。 每個模板由以下三部分組成：
+此 `cq:allowedTemplates` 屬性說明哪些範本可用於網站，以及 `cq:template` 會說明每個頁面的關聯範本是什麼。 每個範本都由下列三個部分組成：
 
-* **結構**  — 包含將強制在每個頁面上顯示的資源，以及頁面作者將無法刪除的資源，例如頁眉和頁腳元件。
-* **初始**  — 包含建立頁面時將複製到頁面的初始內容。
-* **策略**  — 包含每個元件到策略的映射，策略是元件的預配置。 此映射允許策略跨模板重用，因此可以集中管理。
+* **結構**  — 包含將在要呈現的每個頁面上強制執行，且頁面作者無法刪除的資源，例如頁首和頁尾元件。
+* **初始**  — 包含建立頁面時複製到頁面的初始內容。
+* **原則**  — 包含每個元件的原則對應，這是元件的預先設定。 此對應允許跨範本重複使用原則，因此可以集中管理。
 
-![模板和策略概述](/help/assets/screen_shot_2018-12-07at093102.png)
+![範本和原則概觀](/help/assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM 專案原型 {#aem-project-archetype}
 
-[項AEM目原型](/help/developing/archetype/overview.md) 建立最小的Adobe Experience Manager項目作為您自己項目的起點，包括使用SlingModels定制HTL元件的示例，用於邏輯和使用推薦的代理模式正確實施核心元件。
+[AEM專案原型](/help/developing/archetype/overview.md) 建立最簡化的Adobe Experience Manager專案作為您專案的開端，包括具有SlingModel的自訂HTL元件範例，用於核心元件的邏輯和正確實作以及建議的Proxy模式。
 
 **閱讀後續章節：**
 
-* [使用核心元件](/help/get-started/using.md)  — 在您自己的項目中啟動並運行核心元件。
-* [定制核心元件](customizing.md)  — 學習如何設計和定制核心元件。
+* [使用核心元件](/help/get-started/using.md)  — 在自己的專案中啟動並執行核心元件。
+* [自訂核心元件](customizing.md)  — 瞭解如何樣式化和自訂核心元件。

@@ -1,6 +1,6 @@
 ---
 title: 使用電子郵件核心元件
-description: 瞭解電子郵件核心元件的基本安裝、配置和使用情況。
+description: 瞭解電子郵件核心元件的基本安裝、設定和使用。
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
@@ -13,70 +13,70 @@ ht-degree: 3%
 
 # 使用電子郵件核心元件 {#using}
 
-瞭解電子郵件核心元件的基本安裝、配置和使用情況。
+瞭解電子郵件核心元件的基本安裝、設定和使用。
 
 ## 安裝電子郵件核心元件 {#installation}
 
-電子郵件核心元件可與AEM6.5一起使用。查看 [電子郵件核心元件簡介文檔的「要求」部分](introduction.md#requirements) 的子菜單。
+電子郵件核心元件可搭配AEM 6.5使用。請參閱 [電子郵件核心元件簡介檔案的需求區段](introduction.md#requirements) 以取得詳細資訊。
 
 ### 安裝核心元件 {#core-components}
 
-電子郵件核心元件構建在核AEM心元件上。 由於核心元件未隨附AEM6.5，因此在安裝電子郵件核心AEM元件之前，必須先安裝核心元件。
+電子郵件核心元件是以AEM核心元件為基礎所建立。 由於AEM 6.5未隨附核心元件，因此您必須先安裝AEM核心元件，才能安裝電子郵件核心元件。
 
-請參閱一節 [下載並安裝](/help/get-started/using.md#download-and-install) 中「使用核心元件」一節，瞭解有關如何安裝核心元件的詳細資訊。
+請參閱區段 [下載並安裝](/help/get-started/using.md#download-and-install) 有關如何安裝核心元件的詳細資訊，請參閱檔案使用核心元件的區段。
 
 ### 安裝電子郵件核心元件 {#email-core-components}
 
-在實例中安裝核心元件後，您必須同樣安裝電子郵件核心元件。 「電子郵件核心元件」尚不是「項AEM目原型」的一部分，因此您需要將它們手動添加到項目中。 請遵循中的文檔 [要安裝的電子郵件核心元件GitHub Wiki。](https://github.com/adobe/aem-core-email-components/wiki/Adding-to-Existing-Project)
+在您的執行個體中安裝核心元件後，您也必須同樣安裝電子郵件核心元件。 電子郵件核心元件尚未成為AEM專案原型的一部分，因此您需要手動將其新增到專案。 請依照以下說明檔案操作： [要安裝的電子郵件核心元件GitHub wiki。](https://github.com/adobe/aem-core-email-components/wiki/Adding-to-Existing-Project)
 
-如果您希望調整現有項目以使用電子郵件核心元件，可以按照這些說明進行操作。
+如果您想要調整現有專案以使用電子郵件核心元件，可以依照這些相同的指示進行。
 
 ## 設定 {#configuration}
 
-安裝核心元件後，應完成兩個重要的配置步驟。
+安裝核心元件後，您應完成兩個重要的設定步驟。
 
-### 配置市場活動 {#configure-campaign}
+### 設定Campaign {#configure-campaign}
 
-您必須設定AEM-Adobe Campaign整合才能使兩個解決方案通信。
+您必須設定AEM-Adobe Campaign整合，兩個解決方案才能通訊。
 
-* 配置您的Adobe Campaign整合
-   * Adobe Campaign Classic: [與Adobe Campaign Classic整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
-   * Adobe Campaign Standard: [與Adobe Campaign Standard整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
-* [連結Adobe Campaign整合配置](/help/email/components/page.md#cloud-services-tab) 到內容頁面，您將在其中使用電子郵件核心元件
+* 設定您的Adobe Campaign整合
+   * Adobe Campaign Classic： [與Adobe Campaign Classic整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
+   * Adobe Campaign Standard： [與Adobe Campaign Standard整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
+* [連結Adobe Campaign整合設定](/help/email/components/page.md#cloud-services-tab) 前往要使用電子郵件核心元件的內容頁面
 
-### 為電AEM子郵件元件添加資源類型篩選器 {#aem-resource-filter}
+### 新增電子郵件元件的AEM資源型別篩選器 {#aem-resource-filter}
 
-為了使Adobe Campaign能夠根據電子郵件核心元件呈現電子郵件，必須在市場活動中調整篩選器。
+為了讓Adobe Campaign能夠根據電子郵件核心元件轉譯電子郵件，必須在Campaign中調整篩選器。
 
-1. 使用客戶端控制台以管理員身份登錄Adobe Campaign。
+1. 使用使用者端主控台，以管理員身分登入Adobe Campaign。
 
-1. 選擇 **工具** -> **瀏覽器** 的上界。
+1. 選取 **工具** -> **總管** 功能表列中的。
 
-1. 在瀏覽器中，導航到 **管理** -> **平台** -> **選項** 的下界。
+1. 在總管中，導覽至 **管理** -> **Platform** -> **選項** 節點。
 
-1. 選擇 `AEMResourceTypeFilter` 的子菜單。
+1. 選取 `AEMResourceTypeFilter` 選項。
 
-1. 在 **值** 欄位，追加 `core/email/components/page/<v1>/page` 的子菜單。
+1. 在 **值** 欄位，附加 `core/email/components/page/<v1>/page` 如果它尚未出現。
 
-   * 替換 `<v1>` 與當前版本的電子郵件核心元件 [頁面元件](/help/email/components/page.md) 例如 `v1`。
+   * Replace `<v1>` 搭配最新版本的電子郵件核心元件 [頁面元件](/help/email/components/page.md) 例如 `v1`.
    * 請注意， **值** 欄位必須以逗號分隔。
 
 1. 按一下「**儲存**」。
 
 ## 使用電子郵件核心元件 {#using-components}
 
-安裝電子郵件元件並配置與Adobe Campaign的整合後，您可以使用電子郵件元件在中建立電子郵件內容AEM，然後使用Adobe Campaign將該內容發送給收件人。 以下是工作流的概述。
+在安裝電子郵件元件並設定與Adobe Campaign的整合後，您可以使用電子郵件元件在AEM中建立電子郵件內容，然後使用Adobe Campaign將該內容傳送給收件者。 以下是工作流程的總覽。
 
 | 步驟 | 說明 | 解決方案 |
 |---|---|---|
-| 1 | 作者建立資料夾和電子郵件內容作為頁面的自由格式分層結構。 | AEM |
-| 2 | 使用 [模板編輯器，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 作者配置了將在此頁面模板生成的所有電子郵件頁面之間共用的電子郵件頁眉和/或頁腳。 | AEM |
-| 3 | 作者使用 [頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html) 使用文本編輯器建立電子郵件內容，在文本編輯器中，他們可以選擇Adobe Campaign變數並使用分段元件在收件人滿足特定條件時有條件地顯示資訊。 | AEM |
-| 4 | 電子郵件內容完成後， [工作流正在運行](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html) 以批准內容併發送到市場活動。 | AEM |
-| 5 | 建立傳遞，定義收件人清單。 | 行銷活動 |
-| 6 | 在中建立的AEM內容被選作傳送的內容。 | 行銷活動 |
-| 7 | 內容被發送給收件人，用收件人的個性化資訊替換Adobe Campaign變數。 | 行銷活動 |
+| 1 | 作者會建立自由格式的階層式結構，將資料夾和電子郵件內容當做頁面。 | AEM |
+| 2 | 使用 [範本編輯器、](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) 作者會設定電子郵件頁首和/或頁尾，供由此頁面範本產生的所有電子郵件頁面共用。 | AEM |
+| 3 | 作者使用 [頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html) 使用文字編輯器建立電子郵件內容，他們可以在其中選取Adobe Campaign變數，並使用分段元件在收件者符合特定條件時條件式顯示資訊。 | AEM |
+| 4 | 當電子郵件內容完成時， [工作流程已執行](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html) 以核准內容並傳送至Campaign。 | AEM |
+| 5 | 會建立傳遞，定義收件者清單。 | 行銷活動 |
+| 6 | 在AEM中建立的內容會選取為傳送的內容。 | 行銷活動 |
+| 7 | 內容會傳送給收件者，以收件者的個人化資訊取代Adobe Campaign變數。 | 行銷活動 |
 
-有關在Adobe Campaign中建立電子郵件內容AEM和在中傳遞電子郵件內容的示例，請參閱以下資源。
+如需在AEM中建立電子郵件內容以及在Adobe Campaign中傳送的範例，請參閱下列資源。
 
-* AEM 6.5: [與Adobe Campaign Classic和Adobe Campaign Standard合作](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
+* AEM 6.5： [使用Adobe Campaign Classic和Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)

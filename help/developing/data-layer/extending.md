@@ -1,6 +1,6 @@
 ---
-title: 擴展Adobe客戶端資料層
-description: Adobe客戶端資料層可以按照一些基本模式進行擴展
+title: 擴充Adobe使用者端資料層
+description: Adobe使用者端資料層可依照一些基本模式進行擴充
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
@@ -11,22 +11,22 @@ ht-degree: 0%
 
 ---
 
-# 擴展Adobe客戶端資料層 {#extending-acdl}
+# 擴充Adobe使用者端資料層 {#extending-acdl}
 
-您可以使用自定義對話框選項擴展核心元件，這些對話框選項允許內容作者輸入與資料層相關的附加資訊。
+您可以使用自訂對話方塊選項來擴充核心元件，讓內容作者輸入與Data Layer相關的其他資訊。
 
-要在核心元件提供的資料層中包括這些欄位，必須擴展實現其特定資料層方法的元件模型。
+若要將這些欄位納入核心元件所提供的資料層中，您必須擴充元件模型，以實作其專屬的資料層方法。
 
-## 示例：標題元件 {#example}
+## 範例：標題元件 {#example}
 
-核心元件，如 [標題元件](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) 延伸 [元件](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) 有 `getData` 方法預設返回 [`ComponentData`。](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
+核心元件，例如 [標題元件](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) 延伸 [元件](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) 具有 `getData` 預設會傳回的方法 [`ComponentData`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
 
-`ComponentData` 序列化元件可能實現的預定義欄位，例如 `getDataLayerLinkUrl` 和 `getDataLayerTitle` 為 [`TitleImpl`。](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
+`ComponentData` 序列化您的元件可能實作的預先定義欄位，例如 `getDataLayerLinkUrl` 和 `getDataLayerTitle` 的 [`TitleImpl`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
 
-因此，您的自定義Sling模型可能 `getData` 方法返回擴展的對象 `ComponentData` 按鈕。
+因此，您的自訂Sling模型可能會 `getData` 傳回物件的方法，此物件會擴充 `ComponentData` 以傳回更多欄位。
 
-執行此操作將添加 `data-cmp-data-layer` 屬於元件的HTML元素，其JSON是要填充到資料層的資料。 此時，您可以實現偵聽此資料或相關事件的指令碼。
+執行此動作會新增 `data-cmp-data-layer` 屬性，屬性為元件的HTML元素，且含有將填入資料層之資料的JSON。 此時，您可以實作監聽此資料或相關事件的指令碼。
 
 >[!TIP]
 >
->要進一步瞭解資料層的靈活性，請查看有關整合選項的資訊，包括如何為自定義元件啟用資料層。
+>若要進一步探索Data Layer的彈性，請檢閱整合選項，包括如何為自訂元件啟用Data Layer。

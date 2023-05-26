@@ -1,6 +1,6 @@
 ---
-title: 將Adobe客戶端資料層與核心元件一起使用
-description: 將Adobe客戶端資料層與核心元件一起使用
+title: 搭配核心元件使用Adobe Client Data Layer
+description: 搭配核心元件使用Adobe Client Data Layer
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
@@ -11,38 +11,38 @@ ht-degree: 5%
 
 ---
 
-# 將Adobe客戶端資料層與核心元件一起使用 {#data-layer-core-components}
+# 搭配核心元件使用Adobe Client Data Layer {#data-layer-core-components}
 
-Adobe客戶端資料層的目標是通過提供標準化方法來公開和訪問任何指令碼的任何類型的資料，從而減少對網站的測試工作量。
+Adobe使用者端資料層的目標是提供標準化方法，公開和存取任何指令碼的任何型別的資料，以減少檢測網站所需的工作量。
 
-Adobe客戶端資料層與平台無關，但完全整合到核心元件中，供使用AEM。
+Adobe Client Data Layer不受平台限制，但已完全整合至核心元件，以與AEM搭配使用。
 
-與核心元件一樣，Adobe客戶端資料層的代碼可以在GitHub上以及其開發人員文檔中找到。 本文檔概述了核心元件如何與資料層進行交互，但將全部技術詳細資訊推遲到GitHub文檔中。
+和核心元件一樣，GitHub上也提供Adobe Client Data Layer的程式碼以及其開發人員檔案。 本檔案概述核心元件與Data Layer的互動方式，但完整技術詳細資訊將推遲至GitHub檔案說明。
 
 >[!TIP]
 >
->有關Adobe客戶端資料層的詳細資訊， [請參閱其GitHub儲存庫中的資源。](https://github.com/adobe/adobe-client-data-layer)
+>如需Adobe使用者端資料層的詳細資訊， [請參閱其GitHub存放庫中的資源。](https://github.com/adobe/adobe-client-data-layer)
 >
->有關Adobe客戶端資料層與核心元件整合的進一步技術詳細資訊，請參見 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 檔案。
+>如需Adobe使用者端資料層與核心元件整合的詳細技術資訊，請參閱 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 檔案中設定的完整路徑。
 
-## 安裝和激活 {#installation-activation}
+## 安裝與啟用 {#installation-activation}
 
-從2.9.0版核心元件開始，資料層與核心元件一起作為客戶AEM端庫分發，無需安裝。 由 [AEM原型V.24+項目](/help/developing/archetype/overview.md) 預設情況下包括已激活的資料層。
+截至核心元件2.9.0版，Data Layer以AEM使用者端程式庫形式隨核心元件發佈，無需安裝。 所有產生的專案 [AEM專案原型v. 24+](/help/developing/archetype/overview.md) 預設會包含已啟動的資料層。
 
-要手動激活資料層，必須建立 [上下文感知配置](/help/developing/context-aware-configs.md) 對於它：
+若要手動啟動資料層，您必須建立 [內容感知設定](/help/developing/context-aware-configs.md) 適用於：
 
-1. 在 `/conf/<mySite>` 資料夾，其中 `<mySite>` 是站點項目的名稱：
+1. 在下方建立下列結構 `/conf/<mySite>` 資料夾，其中 `<mySite>` 是您網站的專案名稱：
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * 其中每個節點具有 `jcr:primaryType` 設定為 `nt:unstructured`。
-1. 添加名為 `enabled` 並將其設定為 `true`。
+   * 其中每個節點都有 `jcr:primaryType` 設定為 `nt:unstructured`.
+1. 新增布林值屬性，稱為 `enabled` 並將其設定為 `true`.
 
-   ![DataLayerConfig在WKND參考站點中的位置](/help/assets/datalayer-contextaware-sling-config.png)
+   ![WKND參考網站中DataLayerConfig的位置](/help/assets/datalayer-contextaware-sling-config.png)
 
-   *DataLayerConfig在WKND參考站點中的位置*
+   *WKND參考網站中DataLayerConfig的位置*
 
-1. 添加 `sling:configRef` 屬性 `jcr:content` 下面站點的節點 `/content` (例如 `/content/<mySite>/jcr:content`)並將其設定為 `/conf/<mySite>` 從上一步開始。
+1. 新增 `sling:configRef` 屬性至 `jcr:content` 您的網站節點在下 `/content` (例如： `/content/<mySite>/jcr:content`)並設為 `/conf/<mySite>` 上一步驟中的。
 
-1. 啟用後，可以通過載入編輯器外部站點的頁面來驗證激活，例如，使用 **查看為已發佈** 的子菜單。 Inspect的頁面來源和 `<body>` 標籤應包括屬性 `data-cmp-data-layer-enabled`
+1. 啟用後，您可以在編輯器之外載入網站的頁面，以驗證啟用狀態，例如，使用 **檢視已發佈** 選項中設定的預設值。 Inspect頁面來源和 `<body>` 標籤應包含屬性 `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -58,7 +58,7 @@ Adobe客戶端資料層與平台無關，但完全整合到核心元件中，供
        </script>
    ```
 
-1. 您還可以開啟瀏覽器的開發人員工具，並在控制台中 `adobeDataLayer` JavaScript對象應可用。 輸入以下命令以獲取當前頁的資料層狀態：
+1. 您也可以開啟瀏覽器的開發人員工具，並在主控台中 `adobeDataLayer` JavaScript物件應該可以使用。 輸入下列命令以取得目前頁面的「資料層」狀態：
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -66,7 +66,7 @@ Adobe客戶端資料層與平台無關，但完全整合到核心元件中，供
 
 ## 支援的元件 {#supported-components}
 
-以下元件支援資料層。
+下列元件支援資料層。
 
 * [折疊式面板](/help/components/accordion.md)
 * [階層連結](/help/components/breadcrumb.md)
@@ -84,15 +84,15 @@ Adobe客戶端資料層與平台無關，但完全整合到核心元件中，供
 * [文字](/help/components/text.md)
 * [標題](/help/components/title.md)
 
-另請參閱 [由元件觸發的事件。](#events-components)
+另請參閱 [元件觸發的事件。](#events-components)
 
-## 核心元件資料架構 {#data-schemas}
+## 核心元件資料結構描述 {#data-schemas}
 
-以下是核心元件與資料層一起使用的方案清單。
+以下是核心元件搭配Data Layer使用的結構描述清單。
 
-### 元件/容器項架構 {#item}
+### 元件/容器專案結構描述 {#item}
 
-元件/容器項架構用於以下元件：
+元件/容器專案結構描述會用於下列元件中：
 
 * [階層連結](/help/components/breadcrumb.md)
 * [按鈕](/help/components/button.md)
@@ -103,7 +103,7 @@ Adobe客戶端資料層與平台無關，但完全整合到核心元件中，供
 * [文字](/help/components/text.md)
 * [標題](/help/components/title.md)
 
-元件/容器項架構定義如下。
+元件/容器專案結構描述的定義如下。
 
 ```javascript
 id: {                   // component ID
@@ -117,17 +117,17 @@ id: {                   // component ID
 }
 ```
 
-以下 [事件](#events) 與元件/容器項架構相關：
+下列專案 [事件](#events) 與元件/容器專案結構描述相關：
 
 * `cmp:click`
 
-### 頁架構 {#page}
+### 頁面結構描述 {#page}
 
-頁面架構由以下元件使用：
+「頁面」綱要由下列元件使用：
 
 * [Page](/help/components/page.md)
 
-頁面架構的定義如下。
+「頁面」綱要的定義如下。
 
 ```javascript
 id: {
@@ -145,17 +145,17 @@ id: {
 }
 ```
 
-A `cmp:show` 在頁面載入時觸發事件。 此事件從正好位於開啟位置下方的JavaScript行中調度 `<body>` 標籤，使其成為資料層事件隊列中最早的事件。
+A `cmp:show` 事件會在頁面載入時觸發。 此事件會從緊接在開頭下方的內嵌JavaScript傳送 `<body>` 標籤，使其成為Data Layer事件佇列中最早的事件。
 
-### 容器架構 {#container}
+### 容器結構描述 {#container}
 
-容器架構由以下元件使用：
+容器結構描述可供下列元件使用：
 
 * [折疊式面板](/help/components/accordion.md)
 * [索引標籤](/help/components/tabs.md)
 * [傳送](/help/components/carousel.md)
 
-容器架構的定義如下。
+容器結構描述的定義如下。
 
 ```javascript
 id: {
@@ -170,19 +170,19 @@ id: {
 }
 ```
 
-以下 [事件](#events) 與容器架構相關：
+下列專案 [事件](#events) 與容器結構描述相關：
 
 * `cmp:click`
 * `cmp:show`
 * `cmp:hide`
 
-### 映像架構 {#image}
+### 影像結構描述 {#image}
 
-以下元件使用映像架構：
+影像結構描述由以下元件使用：
 
 * [影像](/help/components/image.md)
 
-映像架構的定義如下。
+影像結構的定義如下。
 
 ```javascript
 id: {
@@ -197,15 +197,15 @@ id: {
 }
 ```
 
-以下 [事件](#events) 與映像架構相關：
+下列專案 [事件](#events) 與影像結構描述相關：
 
 * `cmp:click`
 
-### 資產架構 {#asset}
+### 資產結構 {#asset}
 
-資產架構在 [影像元件。](/help/components/image.md)
+此資產結構描述會用於 [影像元件。](/help/components/image.md)
 
-資產架構的定義如下。
+資產結構的定義如下。
 
 ```javascript
 id: {
@@ -217,15 +217,15 @@ id: {
 }
 ```
 
-以下 [事件](#events) 與資產架構相關：
+下列專案 [事件](#events) 與資產結構描述相關：
 
 * `cmp:click`
 
-### 內容片段架構 {#content-fragment}
+### 內容片段結構描述 {#content-fragment}
 
-內容片段架構由 [內容片段元件。](/help/components/content-fragment-component.md)
+內容片段結構描述是由 [內容片段元件。](/help/components/content-fragment-component.md)
 
-內容片段架構定義如下。
+內容片段結構的定義如下。
 
 ```javascript
 id: {
@@ -240,7 +240,7 @@ id: {
 }
 ```
 
-用於內容片段元素的架構如下所示。
+用於內容片段元素的結構描述如下。
 
 ```javascript
 {
@@ -251,17 +251,17 @@ id: {
 
 ## 核心元件事件 {#events}
 
-核心元件通過資料層觸發了許多事件。 與資料層交互的最佳做法是 [註冊事件偵聽器](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) 和 *然後* 根據觸發事件的事件類型和/或元件執行操作。 這將避免使用非同步指令碼的潛在競爭條件。
+核心元件會透過Data Layer觸發許多事件。 與資料層互動的最佳實務是 [註冊事件監聽器](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) 和 *則* 根據事件型別和/或觸發事件的元件採取動作。 這將避免與非同步指令碼發生可能的競爭情況。
 
-以下是核心元件提供的現成AEM事件：
+以下為AEM核心元件所提供的現成事件：
 
-* **`cmp:click`**  — 按一下可按一下元素(具有 `data-cmp-clickable` 屬性)使資料層觸發 `cmp:click` 的子菜單。
-* **`cmp:show`** 和 **`cmp:hide`**  — 操作折疊面板（展開/折疊）、旋轉軸（下一個/上一個按鈕）和制表符（制表符選擇）元件，使資料層觸發 `cmp:show` 和 `cmp:hide` 事件。 A `cmp:show` 事件也會在頁載入時派發，並且應該是第一個事件。
-* **`cmp:loaded`**  — 一旦資料層在頁面上填充了核心元件，資料層就會觸發 `cmp:loaded` 的子菜單。
+* **`cmp:click`**  — 按一下可點按的元素(具有 `data-cmp-clickable` attribute)讓資料層觸發 `cmp:click` 事件。
+* **`cmp:show`** 和 **`cmp:hide`**  — 操作摺疊式功能表（展開/摺疊）、輪播（下一個/上一個按鈕）和標籤（標籤選取）元件會導致資料層觸發 `cmp:show` 和 `cmp:hide` 個事件。 A `cmp:show` 事件也會在頁面載入時傳送，且預期為第一個事件。
+* **`cmp:loaded`**  — 使用頁面上的核心元件填入Data Layer後， Data Layer會立即觸發 `cmp:loaded` 事件。
 
 ### 元件觸發的事件 {#events-components}
 
-下表列出了觸發事件的標準核心元件以及這些事件。
+下表列出觸發事件的標準核心元件以及這些事件。
 
 | Component | 事件 |
 |---|---|
@@ -277,7 +277,7 @@ id: {
 
 ### 事件路徑資訊 {#event-path-info}
 
-由核心元件觸發的每個資料層事AEM件都將包含具有以下JSON對象的負載：
+AEM核心元件觸發的每個Data Layer事件將包含具有以下JSON物件的裝載：
 
 ```json
 eventInfo: {
@@ -285,7 +285,7 @@ eventInfo: {
 }
 ```
 
-位置 `<component-path>` 是觸發事件的資料層中元件的JSON路徑。  值，可通過 `event.eventInfo.path`，因為它可以用作 `adobeDataLayer.getState(<component-path>)` 它檢索觸發事件的元件的當前狀態，允許自定義代碼訪問其他資料並將其添加到資料層。
+位置 `<component-path>` 是資料層中觸發事件的元件的JSON路徑。  值，可透過以下方式取得： `event.eventInfo.path`，這點很重要，因為它可作為引數用於 `adobeDataLayer.getState(<component-path>)` 會擷取觸發事件的元件目前狀態，允許自訂程式碼存取其他資料並將其新增至Data Layer。
 
 例如：
 
@@ -306,8 +306,8 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教學課程
 
-想更詳細地瞭解資料層和核心元件嗎？ [查看本操作教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+想要更詳細地探索資料層和核心元件嗎？ [請檢視此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
 
 >[!TIP]
 >
->要進一步瞭解資料層的靈活性，請查看有關整合選項的資訊，包括如何為自定義元件啟用資料層。
+>若要進一步探索Data Layer的彈性，請檢閱整合選項，包括如何為自訂元件啟用Data Layer。

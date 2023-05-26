@@ -1,6 +1,6 @@
 ---
-title: 自適應Forms核心元件 — 標題
-description: 使用或自定義自適應Forms頭核心元件。
+title: 最適化Forms核心元件 — 頁首
+description: 使用或自訂最適化Forms頁首核心元件。
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 頁首 {#header-adaptive-forms-core-component}
 
-自適應表單中的標題元件是表單頂部的一個部分，通常包含表單的標題、徽標或名稱。 題頭還可以包括其他資訊，如表單用途的簡要說明、建立表單的組織名稱，或幫助表單的聯繫資訊。 標題用於向用戶提供表單的概述，並提供要填寫的資訊的上下文。 它用於幫助用戶理解表單的目的以及如何正確填寫表單。
+調適型表單中的頁首元件是表單頂端的區段，通常包含表單的標題、標誌或名稱。 頁首也可包含其他資訊，例如表單用途的簡短說明、建立表單的組織名稱，或表單相關說明的聯絡資訊。 標題是用來為使用者提供表單的概觀，並提供他們要填寫的資訊的前後關聯。 它可用來協助使用者瞭解表單的用途以及如何正確填寫。
 
 **範例**
 
@@ -20,25 +20,25 @@ ht-degree: 1%
 
 ## 使用狀況 {#reasons-to-use-header}
 
-* **品牌**:標題可用於顯示建立表單的組織的徽標或名稱，有助於建立品牌認可和信譽。
+* **品牌化**：標題可用來顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
 
-* **上下文**:標題可以提供表單用途的簡要說明，幫助用戶瞭解使用表單的上下文。
+* **內容**：標題可提供表單用途的簡短說明，協助使用者瞭解使用表單的上下文。
 
-* **導航**:標題可以包括允許用戶導航到網站或應用程式的其他部分的連結或按鈕。
+* **導覽**：標題可包含連結或按鈕，讓使用者導覽至網站或應用程式的其他部分。
 
-* **資訊**:標題可以包括聯繫資訊或幫助資源的連結，使用戶在需要時更容易獲得幫助。
+* **資訊**：標題可包含聯絡資訊或說明資源的連結，讓使用者更容易在需要時獲得協助。
 
-* **用戶體驗**:通過為用戶提供訪問和填寫表單欄位的清晰直觀的方式，可以使用標題來使表單更加用戶友好。
+* **使用者體驗**：標題可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，進而讓表單更人性化。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-自適應Forms手風琴核心元件於2023年2月發佈，作為用於Cloud Service的核心元件2.0.4的一部分，以及用於Forms或更晚版本的核心元件1.1.12的核心元件6.5.16.0的一部分。 下面是一個表，其中顯示了所有支援的版本AEM、相容性以及指向相應文檔的連結：
+Adaptive Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM6.5.16.0Forms |
+| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
-| v1 | 相容<br>[發行版2.0.4](/help/adaptive-forms/version.md) 之後 | 相容<br>[發行版1.1.12](/help/adaptive-forms/version.md) 晚但小於2.0.0。 |
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和更新版本，但低於2.0.0。 |
 
-有關核心元件版本和版本的資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 的子菜單。
+如需核心元件版本和發行版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -46,37 +46,37 @@ ht-degree: 1%
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 
-## 技術詳細資訊 {#technical-details}
+## 技術細節 {#technical-details}
 
-獲取有關自適應Forms標頭核心元件的最新資訊，請參閱 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader)。 有關開發核心元件的詳細資訊，請查看 [核心元件開發人員文檔](/help/developing/overview.md)。
+在以下位置的技術檔案中取得最適化Forms標題核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
-## 配置對話框 {#configure-dialog}
+## 設定對話方塊 {#configure-dialog}
 
-通過「配置」對話框，您可以輕鬆自定義訪問者的頁眉體驗。 您還可以輕鬆定義標題選項，以獲得無縫的用戶體驗。
+您可以使用「設定」對話方塊輕鬆自訂訪客的標題體驗。 您也可以輕鬆定義標題選項，以提供順暢的使用者體驗。
 
-### 影像頁籤 {#image-tab}
+### 影像標籤 {#image-tab}
 
-標題的這一部分包含標題標題和影像。
+標頭的這個部分包含標頭標題和影像。
 
-![影像頁籤](/help/adaptive-forms/assets/header_image.png)
+![影像標籤](/help/adaptive-forms/assets/header_image.png)
 
-* **影像資產**  — 此選項允許使用滑鼠拖放來放置資產，如影像。 您還可以使用 **瀏覽** 按鈕 添加影像後，影像底部會出現三個按鈕。 添加影像後，影像底部會出現三個按鈕：
-   * **編輯**  — 點擊或按一下 **編輯** 以在「資產編輯器」中管理資產的格式副本。
-   * **清除**  — 點擊或按一下 **清除** 來取消選擇當前選定的映像。
-   * **選擇**  — 點擊或按一下 **選擇**  選項從「資產」資料夾中選擇另一個影像。
+* **影像資產**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用 **瀏覽** 按鈕。 新增影像後，三個按鈕會出現在影像底部。 新增影像後，影像底部會顯示三個按鈕：
+   * **編輯**  — 點選或按一下 **編輯** 在「資產編輯器」中管理資產的轉譯。
+   * **清除**  — 點選或按一下 **清除** 以取消選取目前選取的影像。
+   * **選取**  — 點選或按一下 **選取**  從「資產」資料夾中選取其他影像的選項。
 
-* **標題**  — 此選項用於將標題添加到標題。 預定義文本包含在對話框中，用戶可以修改它。
-* **連結至**  — 您可以使用 **瀏覽** 表徵圖
-* **說明**  — 說明是簡短的文本說明，提供有關特定影像用途的其他資訊或說明。
-* **大小(px)**  — 它通過增加或減少像素來幫助調整影像的長度和寬度。
+* **標題**  — 此選項用於將標題新增到標題。 預先定義的文字會包含在對話方塊中，且使用者可加以修改。
+* **連結至**  — 您可以使用將標題連結至資料夾 **瀏覽** 圖示。
+* **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
+* **大小（畫素）**  — 增加或減少畫素，有助於調整影像的長度和寬度。
 
-![訪問性頁籤](/help/adaptive-forms/assets/header_accessibility.png)
+![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **備選文本**  — 此選項用於輸入文本，該文本為影像提供了簡短和描述性的文本選項，用於向視障用戶描述影像。
+* **替代文字**  — 此選項用於輸入提供影像的簡短描述性替代文字的文字，向視障使用者說明影像。
 
-* **影像是裝飾性的**  — 檢查影像是否應被輔助技術忽略，因此不需要替代文本。 這僅適用於裝飾性影像。
+* **裝飾性影像**  — 檢查輔助技術是否應忽略影像，因此不需要替代文字。 這僅適用於裝飾性影像。
 
-### 文本頁籤 {#text-tab}
+### 文字索引標籤 {#text-tab}
 
-此部分允許輸入要包含在標題中的文本。
+此區段允許輸入要包含在標頭中的文字。
 
