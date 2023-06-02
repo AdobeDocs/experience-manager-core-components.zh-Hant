@@ -3,9 +3,9 @@ title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立引人入勝的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1163'
 ht-degree: 3%
 
 ---
@@ -94,23 +94,23 @@ ht-degree: 3%
 * [標題](/help/adaptive-forms/components/title.md)
 * [精靈](/help/adaptive-forms/components/wizard.md)
 
-## 設定核心元件
+## 設定最適化Forms核心元件
 
+在AEM Formsas a Cloud Service上啟用最適化Forms核心元件，可讓您使用AEM FormsCloud Service例項在多個管道中開始建立、發佈和提供核心元件型最適化Forms和Headless Forms。 如需啟用最適化表單核心元件的詳細指示，請參閱 [在AEM Formsas a Cloud Service和本機開發環境中啟用最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 最適化Forms核心元件具有下列需求。
 
-| AEM | AEM Forms附加元件 | 核心元件 |
+| AEM | AEM Forms附加元件 | 最適化Forms核心元件 |
 |---|---|---|
-| AEM as a Cloud Service  | Forms — 數位註冊 | [第2.20.8發行版本](version.md)+ |
+| AEM as a Cloud Service  | Forms — 數位註冊 | [版本2.0.10](version.md)+ |
 | AEM 6.5 | Forms附加元件 | [發行版本1.1.12](version.md)+ |
+
+如果您的AEM Cloud Service SDK版本比2023.02.0舊， [確定您擁有 `prerelease` 在您的環境中啟用的標幟](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms核心元件屬於2023.02.0版之前的預先租賃。
+
 
 ### 根據核心元件建立最適化表單
 
-**AEM Formsas a Cloud Service：** 當您建立新的AEM Formsas a Cloud Service程式時，最適化Forms核心元件已針對您的環境啟用。 如果您有以Archetype 39或更舊版本為基礎的Formsas a Cloud Service環境， [為您的環境啟用最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
-
-為您的環境啟用核心元件時， **最適化Forms （核心元件）** 範本和畫布主題會新增至您的環境。 如果您的AEM SDK版本比2023.02.0舊， [確定您擁有 `prerelease` 在您的環境中啟用的標幟](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms核心元件屬於2023.02.0版之前的預先租賃。
-
-若要使用調適型Forms精靈和調適型表單編輯器來建立調適型表單，請參閱建立調適型表單([核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?))。
+若要在AEM Formsas a Cloud Service上建立最適化表單，請參閱 [建立最適化表單（核心元件）](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?).
 
 
 

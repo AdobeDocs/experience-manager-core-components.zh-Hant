@@ -3,9 +3,9 @@ title: AEM Forms核心元件版本
 description: 核心元件會以發行版本發佈，發行版本可能包含相同核心元件的多個版本。 本檔案說明什麼是發行版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: aaf083cc4b479a97f750844c742581e1b243e036
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '314'
 ht-degree: 10%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 10%
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | 此發行版本中引入了數值輸入核心元件的多種格式。 | 持續 | 8, 11 | 2023年2月08日 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | 此發行版本中介紹AEMas a Cloud Service的核心元件支援。 | 持續 | 8, 11 | 2023年1月30日 |
 
-## AEM 6.5 Form內部部署和AMS版本記錄 {#aem-as-form-version-history}
+## AEM 6.5 Forms版本記錄 {#aem-as-form-version-history}
 
 下表列出與AEM 6.5 Form內部部署和AMS相容的核心元件發行版本，這些發行版本可在以下網址取得： [GitHub及其版本的完整詳細資料](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
