@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 按鈕
 description: 使用或自訂Adaptive Forms按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 最適化Forms規則編輯器可讓使用者為按鈕元件設定各種動作。 這些動作包括開啟網站、顯示或隱藏表單元件、新增面板或元件的例項、提交或重設表單等等。
 
-最適化Forms也提供用於提交或重設表單的個別按鈕元件，但如有需要，也可以將按鈕元件設定為執行這些動作。
+最適化Forms功能下列專案的個別元件 [提交按鈕](/help/adaptive-forms/components/submit-button.md) 和 [重設按鈕](/help/adaptive-forms/components/reset-button.md)，方便使用者提交或重設表格。 Button元件可靈活地設定為根據特定需求執行這些動作。
 
 使用者可以使用最適化Forms規則編輯器來存取按鈕元件支援的動作完整清單。 規則編輯器可讓使用者建立由各種事件觸發的規則，例如當按一下按鈕時、當載入表單時，或當欄位值變更時。 然後，這些規則可用於執行各種動作，例如顯示或隱藏元件、設定欄位值或提交表單。
 
