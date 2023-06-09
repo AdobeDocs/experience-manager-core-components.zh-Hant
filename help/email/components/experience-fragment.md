@@ -3,9 +3,9 @@ title: 電子郵件體驗片段元件
 description: 電子郵件體驗片段元件可讓內容作者在其內容中放置體驗片段變數，同時支援當地語系化的內容結構。
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-有關體驗片段元件的最新技術檔案 [在GitHub上可找到。](https://adobe.com/go/aem_cmp_email_tech_xf_v1)
+閱讀最新資訊 [有關體驗片段元件的技術檔案](https://www.adobe.com/go/aem_cmp_xf_v1).
 
 有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案。](/help/developing/overview.md)
 
