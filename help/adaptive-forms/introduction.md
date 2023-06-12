@@ -3,10 +3,10 @@ title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立引人入勝的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
+source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 3%
+source-wordcount: '1147'
+ht-degree: 6%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 | 雲端就緒 | 可用於  [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | 多功能 | 這些元件代表了一般概念，Forms作者可透過這些概念來組合幾乎所有版面。 |
 | 可設定 | 範本層級 [內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義允許使用或不使用哪些特徵。 |
-| 易於取得 | 它們提供ARIA標籤，支援鍵盤導覽([已知問題](✓ https://github.com/adobe/aem-core-wcm-components/issues?utf8=&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))，以及熒幕閱讀器等輔助技術的文字。 |
+| 易於取得 | 這類選件提供ARIA標籤、支援鍵盤導覽，以及熒幕閱讀器等輔助技術的文字。 |
 | 佈景主題表格 | 元件會實作 [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，標籤如下 [BEM CSS慣例](https://getbem.com/). |
 | 可自訂 | 有幾種模式可讓您輕鬆自訂，從調整HTML到進階功能重複使用。 |
 | 版本設定 | 此 [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) 確保核心元件在改善可能影響您的內容時，不會破壞您的網站。 |
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 ## 設定最適化Forms核心元件
 
-在AEM Formsas a Cloud Service上啟用最適化Forms核心元件，可讓您使用AEM FormsCloud Service例項在多個管道中開始建立、發佈和提供核心元件型最適化Forms和Headless Forms。 如需啟用最適化表單核心元件的詳細指示，請參閱 [在AEM Formsas a Cloud Service和本機開發環境中啟用最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+在 AEM Forms as a Cloud Service 上啟用調適型表單心元件，可讓您使用 AEM Forms as a Cloud Service 實例開始建立、發佈和提供以核心元件為主的調適型表單和 Headless 表單至多個管道。 如需啟用最適化表單核心元件的詳細指示，請參閱 [在AEM Formsas a Cloud Service和本機開發環境中啟用最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 最適化Forms核心元件具有下列需求。
 
