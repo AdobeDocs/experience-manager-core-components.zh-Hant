@@ -4,10 +4,10 @@ description: AEM應用程式的專案範本
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
+source-git-commit: d25e659828becc0d9285297d00c53530bb33785a
 workflow-type: tm+mt
 source-wordcount: '1192'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -62,7 +62,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 * Replace `XX` 使用最新 [原型版本號碼。](#requirements)
 * 設定 `aemVersion=cloud` 的 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)；\
-   設定 `aemVersion=6.5.0` 的 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署。
+  設定 `aemVersion=6.5.0` 的 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或內部部署。
 僅針對非雲端AEM版本新增核心元件相依性，因為核心元件是針對AEMas a Cloud Service提供的OOTB。
 * 調整 `appTitle="My Site"` 以定義網站標題和元件群組。
 * 調整 `appId="mysite"` 以定義Maven artifactId、元件、設定和內容資料夾名稱以及使用者端資料庫名稱。
@@ -73,10 +73,10 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 名稱 | 預設 | 說明 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | 應用程式標題，將用於網站標題和元件群組(例如 `"My Site"`)。 |
-| `appId` |  | 技術名稱，將用於元件、設定和內容資料夾名稱，以及使用者端資料庫名稱(例如 `"mysite"`)。 |
+| `appTitle` |                | 應用程式標題，將用於網站標題和元件群組(例如 `"My Site"`)。 |
+| `appId` |                | 技術名稱，將用於元件、設定和內容資料夾名稱，以及使用者端資料庫名稱(例如 `"mysite"`)。 |
 | `artifactId` | *`${appId}`* | 基礎Maven成品ID (例如 `"mysite"`)。 |
-| `groupId` |  | 基本Maven群組ID (例如 `"com.mysite"`)。 此值必須為 [有效的Java套件名稱。](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
+| `groupId` |                | 基本Maven群組ID (例如 `"com.mysite"`)。 此值必須為 [有效的Java套件名稱。](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
 | `package` | *`${groupId}`* | Java來源套件(例如 `"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 專案版本(例如 `1.0-SNAPSHOT`)。 |
 | `aemVersion` | `cloud` | 目標AEM版本(可以是 `cloud` 的 [AEMas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)；或 `6.5.0`，或 `6.4.4` 的 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或內部部署)。 |
@@ -89,7 +89,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 | `includeExamples` | `n` | 包含 [元件資料庫](https://www.aemcomponents.dev/) 網站範例(可以是 `y`，或 `n`)。 |
 | `includeErrorHandler` | `n` | 包含自訂404回應頁面，此頁面將為整個執行個體的全域頁面(可以 `y` 或 `n`)。 |
 | `includeCommerce` | `n` | 包含 [CIF Core Components](https://github.com/adobe/aem-core-cif-components) 相依性並產生對應的成品。 |
-| `commerceEndpoint` |  | 僅適用於CIF。 要使用的商務系統GraphQL服務的選用端點(例如 `https://hostname.com/grapql`)。 |
+| `commerceEndpoint` |                | 僅適用於CIF。 要使用的商務系統GraphQL服務的選用端點(例如 `https://hostname.com/grapql`)。 |
 | `includeFormscommunications` | `n` | 包含 [Forms核心元件](https://github.com/adobe/aem-core-forms-components) 相依性、範本、表單資料模型、主題，並為Forms通訊程式產生對應的成品。 |
 | `includeFormsenrollment` | `n` | 包含 [Forms核心元件](https://github.com/adobe/aem-core-forms-components) 相依性、範本、表單資料模型、主題，並為Forms註冊程式產生對應的成品。 |
 | `sdkFormsVersion` | `latest` | 時間 `aemVersion=cloud` 和其中一個 `includeFormsenrollment=y` 或 `includeFormscommunications=y`，可指定Forms SDK版本(例如 `2020.12.17.02`)。 |
@@ -104,7 +104,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 原型 | AEM as a Cloud Service  | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [41](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-41) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [42](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-42) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 設定您的本機開發環境 [AEMAS A CLOUD SERVICESDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或for [舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
