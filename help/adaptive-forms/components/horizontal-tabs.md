@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 水準標籤
 description: 使用或自訂最適化Forms水準標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
@@ -30,18 +30,20 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-Adaptive Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms水準標籤核心元件於2023年2月發行，作為核心元件2.0.4的一部分。下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
-|---|---|---|
-| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和更新版本，但低於2.0.0。 |
+|  |  |
+|---|---|
+| 元件版本 | AEM as a Cloud Service  |
+| — | --- |
+| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 和更新版本 | 相容 | 相容 |
 
-如需核心元件版本和發行版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
+如需核心元件版本和發行版本的詳細資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
 
 
 ## 技術細節 {#technical-details}
@@ -54,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 基本標籤 {#basic-tab}
 
-![基本索引標籤](/help/adaptive-forms/assets/tabsontop_basictab.png)
+![基本索引標籤](/help/adaptive-forms/assets/tabs-on-top-basic.png)
 
 * **名稱**  — 您可以在表單和規則編輯器中以唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
@@ -70,20 +72,32 @@ To experience the Accordion Component as well as see examples of its configurati
 * **隱藏元件**  — 選取選項，從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存使用者不需要看到或直接變更的資訊時，這會很有用。
 * **停用元件**  — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
+### 重複頂端標籤 {#repeat-tabs-on-top}
+
+![協助工具索引標籤](/help/adaptive-forms/assets/repeat-tabsontop.png)
+
+您可以使用重複性選項來複製「水平定位點」元件及其子元件、定義最小和最大重複計數，以及簡化表單中類似區段的複製。 與「水準」標籤元件互動並存取其設定時，會顯示下列選項：
+
+* **讓水準標籤可重複**：可讓使用者啟用或停用重複測量功能的切換功能。
+* **最小重複次數**：建立水平定位點元件可重複的最小次數。 值為零表示「水平定位點」元件不會重複；預設值為零。
+* **最大重複次數**：設定Horizontal-tab元件可重複的最大次數。 預設情況下，此值為無限制。
+
+若要有效管理水準標籤內的可重複區段，請依照以下提供的步驟操作： [建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
+
 ### 專案標籤 {#items-tab}
 
-![專案索引標籤](/help/adaptive-forms/assets/tabsontop_itemstab.png)
+![專案索引標籤](/help/adaptive-forms/assets/items-tabs-on-top.png)
 
 此 **新增** 按鈕可讓您從元件選取視窗中選取要新增為面板的元件。 新增元件後，您會看到下列選項：
 
 * **圖示**  — 圖示可識別清單中面板的元件。 您可以將滑鼠停留在圖示上，以工具提示的形式檢視完整的元件名稱。
 * **說明**  — 用作面板文字的說明。 依預設，為面板選取的元件名稱。
-* **刪除**  — 點選或按一下以從水準索引標籤元件中刪除面板。
+* **刪除**  — 點選或按一下以從水準標籤元件中刪除面板。
 * **重新排列**  — 點選或按一下並拖曳以重新排列面板。
 
 ### 說明內容標籤 {#help-content}
 
-![說明內容標籤](/help/adaptive-forms/assets/tabsontop_helptab.png)
+![說明內容標籤](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
 
 * **簡短說明**  — 簡短說明是簡短文字說明，提供有關特定表單欄位用途的其他資訊或說明。 它可協助使用者瞭解應在欄位中輸入什麼型別的資料，並可提供指引或範例來協助確保輸入的資訊有效並符合所需條件。 依預設，簡短說明仍會隱藏。 啟用 **一律顯示簡短說明** 選項來將它顯示在元件下方。
 
@@ -93,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 協助工具標籤 {#accessibility}
 
-![協助工具索引標籤](/help/adaptive-forms/assets/tabsontop_accessibilitytab.png)
+![協助工具索引標籤](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 * **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力不佳人士使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取（包括視覺障礙使用者），並讓他們完全瞭解表單欄位及其需求。
 
@@ -101,10 +115,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 設計對話方塊 {#design-dialog}
 
-「設計」對話方塊可讓範本建立者控制物件的預設顯示方式。 針對最適化Forms元件，您可以設定下列專案：
+「設計」對話方塊可讓範本建立者控制物件的預設顯示方式。 針對最適化Forms水準標籤元件，您可以設定下列專案：
 
-* 表單建立者可以新增至最適化Forms編輯器中的水準索引標籤的核心元件
-* 樣式（CSS類別）的簡單名稱，可套用至最適化Forms編輯器中水準索引標籤元件的「屬性」對話方塊。
+* 表單建立者可以新增至最適化Forms編輯器中「水準」標籤的核心元件
+* 樣式（CSS類別）的簡單名稱，可套用至最適化Forms編輯器中Horizontal-tab元件的屬性對話方塊。
 
 這有助於讓建立和自訂表單的程式更直接更有效率。
 
@@ -112,14 +126,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 此 **允許的元件** 索引標籤可讓範本編輯器設定元件，這些元件可在最適化Forms編輯器的「水準索引標籤」元件中新增為面板的專案。
 
-![水準索引標籤](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
-
 ### 樣式索引標籤 {#styles-tab}
 
-索引標籤可用來定義和管理元件的CSS樣式。 最適化Forms水準標籤核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+「設計」對話方塊可用來定義和管理元件的CSS樣式。 最適化Forms水準標籤核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-![樣式索引標籤](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
+**預設CSS類別**：您可以為最適化Forms水準索引標籤核心元件提供預設CSS類別。
 
-* **預設CSS類別**：您可以為最適化Forms水準索引標籤核心元件提供預設CSS類別。
-
-* **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在調適型Forms編輯器中將這些樣式使用或套用至調適型表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只需返回「設計」對話方塊，更新樣式標籤中的樣式，然後儲存變更即可。
+**允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在調適型Forms編輯器中將這些樣式使用或套用至調適型表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只需返回「設計」對話方塊，更新樣式標籤中的樣式，然後儲存變更即可。
