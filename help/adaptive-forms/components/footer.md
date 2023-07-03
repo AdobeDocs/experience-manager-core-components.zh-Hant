@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 頁尾
 description: 使用或自訂最適化Forms頁尾核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -85,6 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
       1. 使用「開啟選取範圍」對話方塊來選擇AEM中的路徑。
       1. 如果連結不在AEM內，請輸入絕對URL。
       1. 非絕對路徑會解譯為相對於AEM。
+
    * **替代文字**  — 輸入連結的替代描述文字。
 
    * **Target**  — 選取連結行為
@@ -93,11 +94,10 @@ To experience the Accordion Component as well as see examples of its configurati
       * 新索引標籤
       * 父框架
       * 上框架
+
    * **取消連結圖示**  — 此選項會移除已套用至所選文字的連結。 只有在已選取連結時，此選項才會啟用。
 
    * **段落格式圖示**  — 此選項可讓您將段落格式套用至選取的文字。 它也可以協助您格式化在游標後插入的文字。 它會定義標題的標題層級。
-
-
 
 * **ID**：此選項可讓您控制HTML和資料層中元件的唯一識別碼。
 
@@ -105,3 +105,8 @@ To experience the Accordion Component as well as see examples of its configurati
    * 若指定ID，作者應負責確認該ID是唯一的。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
 
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

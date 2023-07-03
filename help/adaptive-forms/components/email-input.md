@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 電子郵件輸入
 description: 使用或自訂Adaptive Forms電子郵件輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,6 @@ To experience the Accordion Component as well as see examples of its configurati
 * **字元數下限**  — 此選項可讓您指定欄位中允許的最小字元數。 如果您輸入的字元小於中指定的值 **字元數下限**，畫面會顯示錯誤訊息。 此 **最少字元錯誤訊息** 對話方塊可讓您新增自訂錯誤訊息。
 
 * **最少字元錯誤訊息** - **最少字元錯誤訊息** 如果輸入的字元數小於中指定的值，則對話方塊可讓您新增自訂錯誤訊息。 **字元數下限** 選項。
-
 <br>
 
     **驗證模式**選項可讓您輸入模式來驗證輸入的電子郵件ID。 如果無法在**Pattern**選項中輸入值來驗證電子郵件ID，畫面上會顯示錯誤訊息。
@@ -132,3 +131,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![設計索引標籤](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

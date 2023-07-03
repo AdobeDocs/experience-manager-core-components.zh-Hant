@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 水準標籤
 description: 使用或自訂最適化Forms水準標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -132,4 +132,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 **預設CSS類別**：您可以為最適化Forms水準索引標籤核心元件提供預設CSS類別。
 
-**允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在調適型Forms編輯器中將這些樣式使用或套用至調適型表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只需返回「設計」對話方塊，更新樣式標籤中的樣式，然後儲存變更即可。
+* **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在調適型Forms編輯器中將這些樣式使用或套用至調適型表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只需返回「設計」對話方塊，更新樣式標籤中的樣式，然後儲存變更即可。
+
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

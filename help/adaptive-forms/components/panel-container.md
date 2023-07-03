@@ -2,9 +2,9 @@
 title: 最適化Forms核心元件 — 面板容器
 description: 使用或自訂Adaptive Forms面板容器核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -107,3 +107,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **熒幕助讀程式宣告的HTML角色** -HTML角色是一種屬性，用於指定HTML元素對輔助技術（如熒幕閱讀程式）的目的。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能具有「label」角色，而其輸入欄位的角色可能具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並正確地向使用者宣告這些內容。
 
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

@@ -2,15 +2,15 @@
 title: 最適化Forms核心元件 — 上方索引標籤
 description: 在頂端核心元件上使用或自訂最適化Forms標籤。
 role: Architect, Developer, Admin, User
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
 
 
-# 索引標籤在頂端 {#tabs-on-top-adaptive-forms-core-component}
+# 頂端標籤 {#tabs-on-top-adaptive-forms-core-component}
 
 最適化表單中的索引標籤頂端版面配置是將表單的相關欄位和區段整理並分組到單獨索引標籤的方法。 每個標籤由標籤表示，通常位於表單頂部，並包含一組特定的表單欄位和區段。 此版面配置可讓使用者輕鬆導覽及存取表單的不同區段，使其更方便使用，且負擔更輕。 它通常用於表單包含許多欄位和區段時，並且有必要將它們分成更小的、可管理的區塊。 索引標籤也可讓使用者使用鍵盤快速鍵導覽表單，讓身心障礙使用者更容易存取表單，有助於改善協助工具。
 
@@ -54,4 +54,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 您可以透過「設定」對話方塊輕鬆自訂訪客熱門體驗上的標籤。 您也可以輕鬆定義頂端選項的標籤，以提供順暢的使用者體驗。
 
-## 設計對話方塊 {#design-dialog}
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

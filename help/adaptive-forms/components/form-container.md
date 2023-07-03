@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 表單容器
 description: 新增最適化表單至網頁。
 role: Architect, Developer, Admin, User
 exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
-source-git-commit: 64536dc607c6e8da0b424b4a1502fa64ed8abbd0
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -79,3 +79,9 @@ To experience the Accordion Component as well as see examples of its configurati
 * **顯示訊息**  — 此選項可讓使用者新增訊息，該訊息會在成功提交最適化表單時顯示。 預先定義的文字會包含在對話方塊中，且使用者可加以修改。 「顯示訊息」對話方塊支援RTF格式設定工具，可讓使用者設定新增文字的格式。
 
 * **提交動作**  — 當使用者按一下最適化表單上的提交按鈕時，會觸發提交動作。 使用者可從下拉式清單中選取立即可用的支援提交動作。 瞭解如何 [在「提交」標籤中設定「提交」動作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
+
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

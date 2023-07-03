@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 標題
 description: 使用或自訂最適化Forms標題核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **允許的標題元素**：含有多個選項的清單，可讓範本作者選擇哪些標題元素可以形成作者可用於標題。
 
-* **預設標題元素**：為Title元件設定預設標題元素的下拉式清單。
+* **預設標題元素**：為Title元件設定預設Heading元素的下拉式清單。
 
 ### 樣式索引標籤 {#styles-tab}
 
@@ -100,4 +100,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![格式標籤](/help/adaptive-forms/assets/title_styles.png)
 
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 

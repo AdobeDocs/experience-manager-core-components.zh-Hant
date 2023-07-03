@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 數字輸入
 description: 使用或自訂最適化Forms編號輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -143,3 +143,8 @@ To experience the Accordion Component as well as see examples of its configurati
 「格式」標籤可讓您指定預設和自訂數字格式。
 ![設計索引標籤](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
+## 相關文章 {#related-article}
+
+* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
