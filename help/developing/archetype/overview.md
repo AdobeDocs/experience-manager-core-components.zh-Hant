@@ -4,7 +4,7 @@ description: AEM應用程式的專案範本
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: d25e659828becc0d9285297d00c53530bb33785a
+source-git-commit: 4d93ba2e1aac91521496ecfef127157c9bc8776c
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 9%
@@ -104,7 +104,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 原型 | AEM as a Cloud Service  | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [42](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-42) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [43](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-43) | 持續 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 設定您的本機開發環境 [AEMAS A CLOUD SERVICESDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant) 或for [舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
