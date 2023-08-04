@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: b39cd395d17f6aab7376e01fc01a7c0e98b2460f
+source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 53%
+source-wordcount: '379'
+ht-degree: 51%
 
 ---
 
@@ -103,11 +103,12 @@ ht-degree: 53%
       + [Segmentation](/help/email/components/segmentation.md)
 + 最適化表單 {#adaptive-forms}
    + [簡介](/help/adaptive-forms/introduction.md)
+   + [核心元件中的範例主題、範本和表單資料模型](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [版本記錄](/help/adaptive-forms/version.md)
    + 最適化Forms元件 {#adaptive-forms-components}
       + [最適化Forms摺疊式功能表](/help/adaptive-forms/components/accordion.md)
       + [最適化Forms按鈕](/help/adaptive-forms/components/button.md)
-      + [Adaptive Forms核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+      + [最適化Forms核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
       + [最適化Forms容器](/help/adaptive-forms/components/form-container.md)
       + [最適化Forms日期選擇器](/help/adaptive-forms/components/date-picker.md)
       + [最適化Forms下拉式清單](/help/adaptive-forms/components/drop-down.md)
@@ -116,7 +117,7 @@ ht-degree: 53%
       + [最適化Forms水準標籤](/help/adaptive-forms/components/horizontal-tabs.md)
       + [最適化Forms影像](/help/adaptive-forms/components/image.md)
       + [最適化Forms編號輸入](/help/adaptive-forms/components/number-input.md)
-      + [Adaptive Forms面板](/help/adaptive-forms/components/panel-container.md)
+      + [最適化Forms面板](/help/adaptive-forms/components/panel-container.md)
       + [最適化Forms選項按鈕](/help/adaptive-forms/components/radio-button.md)
       + [最適化Forms重設按鈕](/help/adaptive-forms/components/reset-button.md)
       + [最適化Forms提交按鈕](/help/adaptive-forms/components/submit-button.md)
@@ -136,8 +137,8 @@ ht-degree: 53%
    + [AMP支援](/help/developing/amp.md)
    + [內容感知設定](/help/developing/context-aware-configs.md)
    + [包含使用者端資料庫](/help/developing/including-clientlibs.md)
-   + [最適化影像Servlet](/help/developing/adaptive-image-servlet.md)
-   + [網頁最佳化的影像傳送](/help/developing/web-optimized-image-delivery.md)
+   + [自我調整影像Servlet](/help/developing/adaptive-image-servlet.md)
+   + [網頁最佳化的影像交付](/help/developing/web-optimized-image-delivery.md)
    + Adobe使用者端資料層 {#data-layer}
       + [資料層概觀](/help/developing/data-layer/overview.md)
       + [與資料層的整合](/help/developing/data-layer/integrations.md)
@@ -154,4 +155,4 @@ ht-degree: 53%
       + [ui.frontend.angular模組](/help/developing/archetype/uifrontend-angular.md)
       + [ui.tests模組](/help/developing/archetype/uitests.md)
       + [it.tests模組](/help/developing/archetype/ittests.md)
-      + [建置分析器Maven外掛程式](/help/developing/archetype/build-analyzer-maven-plugin.md)
+      + [組建分析器Maven外掛程式](/help/developing/archetype/build-analyzer-maven-plugin.md)
