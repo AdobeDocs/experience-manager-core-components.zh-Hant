@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
+source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 51%
+source-wordcount: '369'
+ht-degree: 53%
 
 ---
 
@@ -103,7 +103,6 @@ ht-degree: 51%
       + [Segmentation](/help/email/components/segmentation.md)
 + 最適化表單 {#adaptive-forms}
    + [簡介](/help/adaptive-forms/introduction.md)
-   + [核心元件中的範例主題、範本和表單資料模型](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [版本記錄](/help/adaptive-forms/version.md)
    + 最適化Forms元件 {#adaptive-forms-components}
       + [最適化Forms摺疊式功能表](/help/adaptive-forms/components/accordion.md)
