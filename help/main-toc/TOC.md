@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
+source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 53%
+source-wordcount: '373'
+ht-degree: 52%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 53%
       + [最適化Forms精靈配置](/help/adaptive-forms/components/wizard.md)
       + [頁首](/help/adaptive-forms/components/header.md)
       + [頁尾](/help/adaptive-forms/components/footer.md)
+   + [範例主題和範本](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
    + [成功的途徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
