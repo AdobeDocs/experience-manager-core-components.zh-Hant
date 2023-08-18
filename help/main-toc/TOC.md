@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
+source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 52%
+source-wordcount: '381'
+ht-degree: 51%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 52%
       + [最適化Forms影像](/help/adaptive-forms/components/image.md)
       + [最適化Forms編號輸入](/help/adaptive-forms/components/number-input.md)
       + [最適化Forms面板](/help/adaptive-forms/components/panel-container.md)
+      + [最適化Forms驗證碼](/help/adaptive-forms/components/captcha.md)
       + [最適化Forms選項按鈕](/help/adaptive-forms/components/radio-button.md)
       + [最適化Forms重設按鈕](/help/adaptive-forms/components/reset-button.md)
       + [最適化Forms提交按鈕](/help/adaptive-forms/components/submit-button.md)
@@ -127,6 +128,7 @@ ht-degree: 52%
       + [最適化Forms精靈配置](/help/adaptive-forms/components/wizard.md)
       + [頁首](/help/adaptive-forms/components/header.md)
       + [頁尾](/help/adaptive-forms/components/footer.md)
+   + [自訂最適化Forms核心元件](/help/developing/customize-adaptive-forms-core-components.md)
    + [範例主題和範本](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
