@@ -1,20 +1,20 @@
 ---
 title: 最適化Forms核心元件 — 電話輸入
-description: 使用或自訂Adaptive Forms電話輸入核心元件。
+description: 使用或自訂最適化Forms電話輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 0%
+source-wordcount: '1793'
+ht-degree: 1%
 
 ---
 
 # 電話輸入 {#telephone-input-adaptive-forms-core-component}
 
-最適化表單電話輸入核心元件可讓使用者輸入電話號碼。 電話輸入欄位會顯示行動裝置中與電話號碼相關的鍵盤。 您可以使用其他屬性（例如「pattern」和「placeholder」）來自訂它，以指定電話號碼的格式和說明。
+最適化表單電話輸入核心元件可讓使用者輸入電話號碼。 電話輸入欄位會在行動裝置中顯示與電話號碼相關的鍵盤。 您可以使用其他屬性（例如「pattern」和「placeholder」）來自訂電話號碼，以指定電話號碼的格式和說明。
 
-電話輸入欄位通常用於聯絡表單、登錄檔單和其他需要電話號碼作為聯絡方式的方式。 電話輸入欄位也可用於確保使用者輸入有效的電話號碼，因為瀏覽器可以根據「模式」屬性強制執行某些限制，例如電話號碼的長度與格式。
+電話輸入欄位通常用於聯絡表單、登錄檔單和其他需要電話號碼作為聯絡方式的方式。 電話輸入欄位也可用來確保使用者輸入有效的電話號碼，因為瀏覽器可以根據「模式」屬性強制執行特定限制，例如電話號碼的長度與格式。
 
 ## 使用狀況 {#reasons-to-use-telephone-input}
 
@@ -22,19 +22,19 @@ ht-degree: 0%
 
 * **連絡資訊**：電話輸入欄位通常用於收集使用者的電話號碼作為聯絡方式。
 
-* **改善資料準確度**：透過使用電話輸入欄位，表單可以對電話號碼格式強制執行某些限制，這有助於確保輸入的資料正確且完整。
+* **改善資料準確度**：透過使用電話輸入欄位，表單可以對電話號碼格式強制執行某些限制，這有助於確保輸入的資料是準確和完整的。
 
-* **更好的使用者體驗**：電話輸入欄位可提供清楚且直覺的方式讓使用者輸入其電話號碼，並可讓使用者快速輕鬆地輸入聯絡資訊，以改善使用者體驗。
+* **更好的使用者體驗**：電話輸入欄位為使用者提供簡單直觀的電話號碼輸入方式，並可讓使用者快速輕鬆輸入聯絡資訊，以改善使用者體驗。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-Adaptive Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
-| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和更新版本，但低於2.0.0。 |
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 及更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和較新版本，但小於2.0.0。 |
 
-如需核心元件版本和發行版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
+如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -42,71 +42,71 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術細節 {#technical-details}
 
-在的技術檔案中取得最適化Forms電話輸入核心元件的最新資訊，網址為 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在的技術檔案中取得最適化Forms電話輸入核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
 ## 設定對話方塊 {#configure-dialog}
 
-您可以使用「設定」對話方塊輕鬆自訂訪客的電話輸入體驗。 您也可以輕鬆定義電話輸入選項，提供順暢的使用者體驗。
+您可以透過「設定」對話方塊輕鬆自訂訪客的電話輸入體驗。 您也可以輕鬆定義電話輸入選項，提供順暢的使用者體驗。
 
 ![基本標籤](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 
-* **名稱**  — 您可以在表單和規則編輯器中以唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
+* **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
-* **標題**  — 透過其Title ，您可以輕鬆識別表單中的元件，且根據預設，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件名稱而非標題文字。
+* **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
 
-* **隱藏標題**  — 選取隱藏元件標題的選項。
+* **隱藏標題**  — 選取可隱藏元件標題的選項。
 
-* **預留位置文字**  — 表單元件中的預留位置文字是指顯示在輸入欄位中的簡短標籤或提示，作為使用者應在該欄位中輸入哪種資訊型別的提示。 當使用者開始在欄位中輸入時，預留位置文字消失，如果欄位留空，則會重新出現。 它向使用者提供視覺提示，但不會作為欄位的永久標籤或值。
+* **預留位置文字**  — 表單元件中的預留位置文字是指在輸入欄位中顯示的簡短標籤或提示，作為使用者應在該欄位中輸入哪種資訊型別的提示。 當使用者開始在欄位中輸入時，預留位置文字消失，如果欄位留空，則會重新出現。 它向使用者提供視覺提示，但不會作為欄位的永久標籤或值。
 
-* **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
+* **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 
-* **隱藏元件**  — 選取選項，從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存使用者不需要看到或直接變更的資訊時，這會很有用。
+* **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 
 * **停用元件**  — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
-* **唯讀**  — 選取選項，使元件不可編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+* **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
-* **預設值**  — 此選項可讓您在表單欄位中新增預設值。 若 **已停用的元件** 或 **唯讀元件** 選取時，預設值會顯示在畫面上。 如果使用者在表單欄位中未輸入值，則此值會在表單提交時提交
+* **預設值**  — 此選項可讓您在表單欄位中新增預設值。 如果 **已停用的元件** 或 **唯讀元件** 選取時，預設值會顯示在畫面上。 如果使用者在表單欄位中未輸入值，此值會在表單提交時提交
 
 ### 驗證標籤 {#validation-tab}
 
 ![驗證標籤](/help/adaptive-forms/assets/telephoneinput_validationtab.png)
 
-* **必填**  — 如果您想要在最適化表單中顯示元件，請選取此選項。 您無法選取 **隱藏元件** 或 **停用元件**  在 **基本** 索引標籤來標籤選取此選項。
+* **必填**  — 如果您想要在最適化表單中顯示元件，請選取此選項。 您無法選取 **隱藏元件** 或 **停用元件**  在 **基本** 標籤。
 
-* **錯誤訊息**  — 此選項可讓您輸入訊息，如果 **必填** 核取方塊已核取，且欄位留空。
+* **錯誤訊息**  — 此選項可讓您輸入訊息，如果 **必填** 核取方塊，且欄位留空。
 
 * **指令碼驗證訊息**  — 此選項可讓您輸入指令碼驗證失敗時顯示的訊息。
 
-* **字元數量上限**  — 此選項可讓您指定元件中允許的最大字元數。 如果您輸入的字元大於中指定的值 **字元數量上限**，畫面會顯示錯誤訊息。 此 **字元數上限錯誤訊息** 對話方塊可讓您新增自訂錯誤訊息。
+* **最大字元數**  — 此選項可讓您指定元件中允許的最大字元數。 如果您輸入的字元大於中指定的值 **最大字元數**，畫面會顯示錯誤訊息。 此 **最大字元錯誤訊息** 對話方塊可讓您新增自訂錯誤訊息。
 
-* **字元數上限錯誤訊息** - **字元數上限錯誤訊息** 如果輸入的字元大於中指定的值，則對話方塊可讓您新增自訂錯誤訊息。 **字元數量上限** 選項。
+* **最大字元錯誤訊息** - **最大字元錯誤訊息** 如果輸入的字元大於指定的值，對話方塊可讓您新增自訂錯誤訊息。 **最大字元數** 選項。
 
-* **字元數下限**  — 此選項可讓您指定欄位中允許的最小字元數。 如果您輸入的字元小於中指定的值 **字元數下限**，畫面會顯示錯誤訊息。 此 **最少字元錯誤訊息** 對話方塊可讓您新增自訂錯誤訊息。
+* **字元數下限**  — 此選項可讓您指定欄位中允許的最小字元數。 如果您輸入的字元數小於中指定的值 **字元數下限**，畫面會顯示錯誤訊息。 此 **最少字元錯誤訊息** 對話方塊可讓您新增自訂錯誤訊息。
 
-* *最少字元錯誤訊息** - **最少字元錯誤訊息** 如果輸入的字元數小於中指定的值，則對話方塊可讓您新增自訂錯誤訊息。 **字元數下限** 選項。
+* *最少字元錯誤訊息** - **最少字元錯誤訊息** 如果輸入的字元數小於指定的值，對話方塊可讓您新增自訂錯誤訊息。 **字元數下限** 選項。
 
-此 **驗證模式** 選項可讓您輸入模式來驗證輸入的電話號碼。 輸入的電話號碼會根據 **圖樣** 選項。 如果電話號碼無法驗證在中輸入的值 **圖樣** 選項，錯誤訊息會出現在畫面上。
+此 **驗證模式** 選項可讓您輸入模式，以驗證輸入的電話號碼。 輸入的電話號碼會根據 **圖樣** 選項。 如果電話號碼無法以在中輸入的值進行驗證 **圖樣** 選項，熒幕上會顯示錯誤訊息。
 
 * **圖樣**  — 此選項可讓您輸入允許的電話號碼驗證模式。 也允許規則運算式。
 
-* **錯誤訊息**  — 此選項可讓您輸入如果輸入的電話號碼無法以在中輸入的值驗證，熒幕上顯示的訊息。 **圖樣** option
+* **錯誤訊息**  — 如果輸入的電話號碼無法以在中輸入的值驗證，此選項可讓您輸入顯示在畫面上的訊息。 **圖樣** 選項
 
 ### 說明內容標籤 {#help-content-tab}
 
 ![說明內容標籤](/help/adaptive-forms/assets/telephoneinput_helptab.png)
 
-* **簡短說明**  — 簡短說明是簡短文字說明，提供有關特定表單欄位用途的其他資訊或說明。 它可協助使用者瞭解應在欄位中輸入什麼型別的資料，並可提供指引或範例來協助確保輸入的資訊有效並符合所需條件。 依預設，簡短說明仍會隱藏。 啟用 **一律顯示簡短說明** 選項來將它顯示在元件下方。
+* **簡短說明**  — 簡短說明是簡短文字說明，提供有關特定表單欄位用途的其他資訊或說明。 它可協助使用者瞭解應在欄位中輸入哪種資料型別，並可提供指引或範例，以協助確保輸入的資訊有效並符合所需條件。 依預設，簡短說明會維持隱藏狀態。 啟用 **一律顯示簡短說明** 選項來在元件下方顯示它。
 
 * **一律顯示簡短說明**  — 啟用選項以在元件下方顯示簡短說明。
 
-* **說明文字**  — 說明文字是指為協助使用者正確填寫表單欄位，而提供給使用者的其他資訊或指引。 當使用者按一下置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供比表單欄位的標籤或預留位置文字更詳細的資訊，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，使填寫表單更容易、更準確。
+* **說明文字**  — 說明文字是指為協助使用者正確填寫表單欄位而提供的其他資訊或指引。 當使用者按一下放置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更詳細，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，讓填寫表單更容易、更準確。
 
 ### 協助工具標籤 {#accessibility-tab}
 
-![協助工具索引標籤](/help/adaptive-forms/assets/telephoneinput_accessibilitytab.png)
+![協助工具標籤](/help/adaptive-forms/assets/telephoneinput_accessibilitytab.png)
 
-**熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力不佳人士使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取（包括視覺障礙使用者），並讓他們完全瞭解表單欄位及其需求。
+**熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -120,7 +120,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **預設CSS類別**：您可以為最適化Forms電話輸入核心元件提供預設CSS類別。
 
-* **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在調適型Forms編輯器中將這些樣式使用或套用至調適型表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只需返回「設計」對話方塊，更新樣式標籤中的樣式，然後儲存變更即可。
+* **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
 ### 格式標籤 {#format-tab}
 
@@ -133,3 +133,28 @@ To experience the Accordion Component as well as see examples of its configurati
 * [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## 另請參閱 {#see-also}
+
+* [折疊式面板](/help/adaptive-forms/components/accordion.md)
+* [按鈕](/help/adaptive-forms/components/button.md)
+* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
+* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
+* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+* [來自容器](/help/adaptive-forms/components/form-container.md)
+* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
+* [頁尾](/help/adaptive-forms/components/footer.md)
+* [頁首](/help/adaptive-forms/components/header.md)
+* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
+* [影像](/help/adaptive-forms/components/image.md)
+* [數字輸入](/help/adaptive-forms/components/number-input.md)
+* [面板容器](/help/adaptive-forms/components/panel-container.md)
+* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
+* [重設按鈕](/help/adaptive-forms/components/reset-button.md)
+* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
+* [文字輸入](/help/adaptive-forms/components/text-input.md)
+* [文字](/help/adaptive-forms/components/text.md)
+* [標題](/help/adaptive-forms/components/title.md)
+* [精靈](/help/adaptive-forms/components/wizard.md)

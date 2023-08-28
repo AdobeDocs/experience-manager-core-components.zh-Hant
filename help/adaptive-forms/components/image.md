@@ -3,18 +3,18 @@ title: 最適化Forms核心元件 — 影像
 description: 使用或自訂最適化Forms影像核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 0%
+source-wordcount: '1051'
+ht-degree: 3%
 
 ---
 
 # 影像 {#image-adaptive-forms-core-component}
 
-最適化表單中的影像元件是一種在表單中包含影像的方式。 這些影像可用來增強表單的整體設計、提供其他資訊，或作為視覺輔助以幫助使用者瞭解表單的用途。 影像元件可用於在表單中新增標誌、像片或圖形。
+最適化表單中的影像元件是一種在表單中包含影像的方式。 這些影像可用來增強表單的整體設計、提供其他資訊，或作為視覺輔助以幫助使用者瞭解表單的用途。 影像元件可用來在表單中新增標誌、像片或圖形。
 
-針對協助工具，請務必指定 **替代文字** 提供影像的簡短描述性替代文字，向無法看到影像的使用者提供影像說明。
+若想取得協助工具，請務必指定 **替代文字** 影像的替代文字，為影像提供簡短描述性文字，向看不見影像的使用者提供說明。
 
 
 **範例**
@@ -28,21 +28,21 @@ ht-degree: 0%
 
 * **品牌化**：影像可用來顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
 
-* **視覺輔助**：影像可做為視覺化輔助工具，協助使用者瞭解表單用途，進而為使用者提供額外等級的資訊。
+* **視覺輔助**：影像可做為視覺化輔助工具，協助使用者瞭解表單用途，有助於為使用者提供額外等級的資訊。
 
-* **裝飾**：影像可用來增強表單的整體設計，並使其更吸引目光。
+* **裝飾**：影像可用來增強表單的整體設計，並使其更具視覺吸引力。
 
-* **使用者體驗**：影像可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，好讓表單更人性化。
+* **使用者體驗**：影像可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，進而讓表單更人性化。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-Adaptive Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
-| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 和更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和更新版本，但低於2.0.0。 |
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 及更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和較新版本，但小於2.0.0。 |
 
-如需核心元件版本和發行版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
+如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -51,33 +51,33 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術細節 {#technical-details}
 
-在以下位置的技術檔案中取得最適化Forms影像核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/image/v1/image). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在的技術檔案中取得最適化Forms影像核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/image/v1/image). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
 
 ## 設定對話方塊 {#configure-dialog}
 
-您可以使用「設定」對話方塊輕鬆自訂訪客的影像體驗。 您也可以輕鬆定義影像選項，提供順暢的使用者體驗。
+您可以透過「設定」對話方塊輕鬆自訂訪客的影像體驗。 您也可以輕鬆定義影像選項，提供順暢的使用者體驗。
 
 ![屬性標籤](/help/adaptive-forms/assets/image_properties.png)
 
-* **名稱**  — 您可以在表單和規則編輯器中以唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
+* **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
-* **標題**  — 透過其Title ，您可以輕鬆識別表單中的元件，且根據預設，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件名稱而非標題文字。
+* **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
 
-* **記錄檔案繫結參考**  — 此選項可讓您將最適化表單欄位與記錄檔案欄位建立關聯。 當使用者在最適化表單的連結欄位中輸入任何值時，該值也會出現在相應記錄檔案的連結欄位中。 例如，記錄檔案繫結參考可用於根據在表單中輸入的客戶ID在記錄檔案中顯示客戶名稱和地址。 透過這種方式，AEM Forms可讓您產生記錄檔案，並提供順暢的使用者體驗來收集和管理資料。
+* **記錄檔案繫結參考**  — 此選項可讓您將最適化表單欄位與記錄檔案欄位建立關聯。 當使用者在最適化表單的連結欄位中輸入任何值時，該值也會出現在相應記錄檔案的連結欄位中。 例如，記錄檔案繫結參考可用於根據在表單中輸入的客戶ID在記錄檔案中顯示客戶名稱和地址。 透過這種方式，AEM Forms可讓您產生記錄檔案，並提供收集和管理資料的順暢使用者體驗。
 
 * **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
 
-* **將資產拖曳至此處，或瀏覽檔案以上傳**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用 **瀏覽** 按鈕。 新增影像後，影像底部會顯示三個按鈕：
+* **將資產拖曳至此處，或瀏覽檔案以上傳**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用從本機檔案系統上傳檔案 **瀏覽** 按鈕。 新增影像後，影像底部會顯示三個按鈕：
    * **編輯**  — 點選或按一下 **編輯** 在「資產編輯器」中管理資產的轉譯。
    * **清除**  — 點選或按一下 **清除** 以取消選取目前選取的影像。
    * **選取**  — 點選或按一下 **選取**  從「資產」資料夾中選取其他影像的選項。
 
 * **替代文字**  — 此選項用於輸入提供影像的簡短描述性替代文字的文字，向視障使用者說明影像。
 
-* **隱藏元件**  — 選取選項，從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存使用者不需要看到或直接變更的資訊時，這會很有用。
+* **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 
-* **唯讀**  — 選取選項，使元件不可編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+* **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -91,10 +91,35 @@ To experience the Accordion Component as well as see examples of its configurati
 
 **預設CSS類別**：您可以為最適化Forms影像核心元件提供預設CSS類別。
 
-**允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在調適型Forms編輯器中將這些樣式使用或套用至調適型表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只需返回「設計」對話方塊，更新樣式標籤中的樣式，然後儲存變更即可。
+**允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
 ## 相關文章 {#related-article}
 
 * [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## 另請參閱 {#see-also}
+
+* [折疊式面板](/help/adaptive-forms/components/accordion.md)
+* [按鈕](/help/adaptive-forms/components/button.md)
+* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
+* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
+* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+* [來自容器](/help/adaptive-forms/components/form-container.md)
+* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
+* [頁尾](/help/adaptive-forms/components/footer.md)
+* [頁首](/help/adaptive-forms/components/header.md)
+* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
+* [數字輸入](/help/adaptive-forms/components/number-input.md)
+* [面板容器](/help/adaptive-forms/components/panel-container.md)
+* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
+* [重設按鈕](/help/adaptive-forms/components/reset-button.md)
+* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
+* [電話輸入](/help/adaptive-forms/components/telephone-input.md)
+* [文字輸入](/help/adaptive-forms/components/text-input.md)
+* [文字](/help/adaptive-forms/components/text.md)
+* [標題](/help/adaptive-forms/components/title.md)
+* [精靈](/help/adaptive-forms/components/wizard.md)

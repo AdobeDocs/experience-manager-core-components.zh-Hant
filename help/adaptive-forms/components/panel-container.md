@@ -2,10 +2,10 @@
 title: 最適化Forms核心元件 — 面板容器
 description: 使用或自訂Adaptive Forms面板容器核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
+source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 0%
+source-wordcount: '1539'
+ht-degree: 2%
 
 ---
 
@@ -133,3 +133,28 @@ To experience the Accordion Component as well as see examples of its configurati
 - [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 - [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## 另請參閱 {#see-also}
+
+- [折疊式面板](/help/adaptive-forms/components/accordion.md)
+- [按鈕](/help/adaptive-forms/components/button.md)
+- [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+- [日期挑選器](/help/adaptive-forms/components/date-picker.md)
+- [下拉式清單](/help/adaptive-forms/components/drop-down.md)
+- [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+- [來自容器](/help/adaptive-forms/components/form-container.md)
+- [檔案附件](/help/adaptive-forms/components/file-attachment.md)
+- [頁尾](/help/adaptive-forms/components/footer.md)
+- [頁首](/help/adaptive-forms/components/header.md)
+- [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
+- [影像](/help/adaptive-forms/components/image.md)
+- [數字輸入](/help/adaptive-forms/components/number-input.md)
+- [選項按鈕](/help/adaptive-forms/components/radio-button.md)
+- [重設按鈕](/help/adaptive-forms/components/reset-button.md)
+- [提交按鈕](/help/adaptive-forms/components/submit-button.md)
+- [電話輸入](/help/adaptive-forms/components/telephone-input.md)
+- [文字輸入](/help/adaptive-forms/components/text-input.md)
+- [文字](/help/adaptive-forms/components/text.md)
+- [標題](/help/adaptive-forms/components/title.md)
+- [精靈](/help/adaptive-forms/components/wizard.md)
