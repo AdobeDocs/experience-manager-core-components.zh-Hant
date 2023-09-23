@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
+source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 51%
+source-wordcount: '386'
+ht-degree: 50%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 51%
       + [體驗片段](/help/email/components/experience-fragment.md)
       + [內容片段](/help/email/components/content-fragment.md)
       + [Segmentation](/help/email/components/segmentation.md)
-+ 最適化表單 {#adaptive-forms}
++ 調適型表單 {#adaptive-forms}
    + [簡介](/help/adaptive-forms/introduction.md)
    + [版本記錄](/help/adaptive-forms/version.md)
    + 最適化Forms元件 {#adaptive-forms-components}
@@ -141,6 +141,7 @@ ht-degree: 51%
    + [包含使用者端資料庫](/help/developing/including-clientlibs.md)
    + [自我調整影像Servlet](/help/developing/adaptive-image-servlet.md)
    + [網頁最佳化的影像交付](/help/developing/web-optimized-image-delivery.md)
+   + [新一代Dynamic Media支援](/help/developing/next-gen-dm.md)
    + Adobe使用者端資料層 {#data-layer}
       + [資料層概觀](/help/developing/data-layer/overview.md)
       + [與資料層的整合](/help/developing/data-layer/integrations.md)
