@@ -2,7 +2,7 @@
 title: 新一代Dynamic Media支援
 description: 瞭解如何設定核心元件影像和Teaser元件以支援遠端新一代Dynamic Media資產。
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -70,7 +70,7 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 1. 一旦通過驗證，將開啟遠端服務的資產瀏覽器。 選取所需的資產，然後點選或按一下 **選取**.
 
-   ![選取遠端資產](/help/assets/remote-asset-selection.png)
+   ![選取遠端資產](/help/assets/remote-asset-picker.png)
 
 遠端資產會新增至您的本機AEM頁面，且您已驗證功能已正確設定。
 
