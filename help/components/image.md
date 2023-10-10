@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自我調整影像元件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
+source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
@@ -39,17 +39,17 @@ ht-degree: 0%
 
 ## 回應式功能 {#responsive-features}
 
-影像元件提供強大的回應式功能，立即可用。 在頁面範本層級， [設計對話方塊](#design-dialog) 可用來定義影像資產的預設寬度。 然後，影像元件會自動載入正確的寬度，以根據瀏覽器視窗的大小來顯示。 視窗調整大小時，影像元件會即時動態載入正確的影像大小。 元件開發人員無需擔心自訂媒體查詢的定義方式，因為影像元件已最佳化以載入您的內容。
+影像元件提供強大的回應式功能，立即可用。 在頁面範本層級， [設計對話方塊](#design-dialog) 可用來定義影像資產的預設寬度。 影像元件會自動載入正確的寬度，以根據瀏覽器視窗的大小來顯示。 視窗調整大小時，影像元件會即時動態載入正確的影像大小。 元件開發人員無需擔心自訂媒體查詢的定義方式，因為影像元件已最佳化以載入您的內容。
 
 此外，影像元件支援延遲載入，將實際影像資產的載入延遲到顯示在瀏覽器中為止，藉此提高頁面的回應能力。
 
 >[!TIP]
 >
->依預設，影像元件由最適化影像Servlet提供技術支援。 請參閱檔案 [自我調整影像Servlet](#adaptive-image-servlet) 以取得運作方式的詳細資訊。
+>依預設，影像元件由最適化影像Servlet提供技術支援。 另請參閱 [自我調整影像Servlet](/help/developing/adaptive-image-servlet.md) 以取得運作方式的詳細資訊。
 
 ## Dynamic Media支援 {#dynamic-media}
 
-影像元件(截至 [版本2.13.0](/help/versions.md))支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 資產。 [啟用時，](#design-dialog) 這些功能可讓您透過簡單的拖放功能，或透過資產瀏覽器，像新增任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
+影像元件(截至 [版本2.13.0](/help/versions.md))支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 資產。 [啟用時，](#design-dialog) 這些功能可讓您透過簡單的拖放功能，或透過資產瀏覽器，像新增任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
 
 使用核心元件建立的網頁體驗可包含豐富、Sensei支援、穩定、高效能、跨平台的Dynamic Media影像功能。
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
 影像元件支援可縮放向量圖形(SVG)。
 
-* 支援從DAM拖放SVG資產以及從本機檔案系統上傳SVG檔案。
+* 支援從DAM拖放SVG資產以及上傳從本機檔案系統上傳的SVG檔案。
 * 原始SVG檔案會串流處理（略過轉換）。
 * 對於SVG影像，「智慧型影像」和「智慧型大小」會設定為影像模型中的空白陣列。
 
 ### 安全性 {#security}
 
-基於安全理由，影像編輯器絕對不會直接呼叫原始SVG。 透過呼叫 `<img src=“path-to-component”>`. 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
+基於安全理由，影像編輯器絕對不會直接呼叫原始SVG。 透過呼叫 `<img src="path-to-component">`. 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
 
 ## 範例元件輸出 {#sample-component-output}
 
@@ -165,34 +165,34 @@ ht-degree: 0%
 
 * **影像資產**  — 如果符合下列條件，則會自動填入 **從頁面繼承精選影像** 已選取。 取消選取可透過設定以下選項來手動定義影像。
 
-   * 將資產從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或點選 **瀏覽** 從本機檔案系統上傳的選項。
+   * 將資產從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) 或點選 **瀏覽** 選項，讓您可從本機檔案系統上傳。
    * 點選或按一下 **清除** 以取消選取目前選取的影像。
-   * 點選或按一下 **選取** 以開啟 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 以選取影像。
+   * 點選或按一下 **選取** 以開啟 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) 以便選取影像。
       * 如果 [新一代Dynamic Media功能](#next-gen-dm) 啟用時，您有多個選項可挑選資產：
          * **本機** 從本機AEM資產庫選取。
          * **遠端** 會從AEM例項之外的Dynamic Media資料庫中選取。
-   * 點選或按一下 **編輯** 至 [管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 在資產編輯器中。
+   * 點選或按一下 **編輯** 至 [管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) 在Asset Editor中。
 
 * **協助工具的替代文字**  — 此欄位可讓您為視障使用者定義影像的說明。
 
    * **從頁面繼承替代文字**  — 此選項使用連結資產值的替代說明， `dc:description` DAM中的中繼資料，或目前頁面的中繼資料（若未連結資產）。
 
-* **不提供替代文字**  — 此選項會將影像標籤為被熒幕閱讀器等輔助技術忽略，以用於影像純粹起裝飾作用或不向頁面傳達額外資訊的情況。
+* **不提供替代文字**  — 將影像標籤為被熒幕閱讀器等輔助技術忽略，以用於影像純粹起裝飾作用或不向頁面傳達額外資訊的情況。
 
 ### 中繼資料標籤 {#metadata-tab}
 
 ![影像元件「設定」對話方塊的「中繼資料」標籤](/help/assets/image-configure-metadata.png)
 
 * **預設集型別**  — 這定義了可用的影像預設集型別，可以 **影像預設集** 或 **智慧型裁切**、和僅在以下情況下可用： [Dynamic Media功能](#dynamic-meida) 已啟用。
-   * **影像預設集**  — 時間 **預設集型別** 之 **影像預設集** ，下拉式選單 **影像預設集** 可使用，並允許從可用的Dynamic Media預設集中選擇。 這只有在為選取的資產定義了預設集時才能使用。
-   * **智慧型裁切**  — 時間 **預設集型別** 之 **智慧型裁切** ，下拉式選單 **轉譯** 可使用，並允許從所選資產的可用轉譯中進行選擇。 這只有在為選取的資產定義了轉譯時才可用。
+   * **影像預設集**  — 時間 **預設集型別** 之 **影像預設集** 已選取，下拉式清單 **影像預設集** 可使用，並允許從可用的Dynamic Media預設集中選擇。 這只有在為選取的資產定義了預設集時才能使用。
+   * **智慧型裁切**  — 時間 **預設集型別** 之 **智慧型裁切** 已選取，下拉式清單 **轉譯** 可使用，並允許從所選資產的可用轉譯中進行選擇。 這只有在為選取的資產定義了轉譯時才可用。
    * **影像修飾元**  — 您可以在此處定義其他Dynamic Media影像伺服命令，使用下列分隔符號： `&`，無論哪個 **預設集型別** 已選取。
 * **註解**  — 影像的其他相關資訊，預設會顯示於影像下方。
-   * **自DAM取得圖片說明**  — 勾選後，影像的標題文字將會填入 `dc:title` dam中的中繼資料。
+   * **自DAM取得圖片說明**  — 若勾選，影像的標題文字會填入 `dc:title` dam中的中繼資料。
    * **以快顯視窗顯示註解**  — 檢查完畢後，註解不會顯示在影像下方，但如在某些瀏覽器中將滑鼠懸停在影像上，註解會以快顯模式顯示。
 * **連結**  — 將影像連結至其他資源。
    * 使用選取對話方塊可連結至其他AEM資源。
-   * 如果未連結至AEM資源，請輸入絕對URL。 非絕對URL將會解譯為相對於AEM。
+   * 如果未連結至AEM資源，請輸入絕對URL。 非絕對URL會解譯為相對於AEM。
    * **在新標籤中開啟連結**  — 此選項會在新的瀏覽器視窗中開啟連結。
 * **ID**  — 此選項可讓您控制HTML中元件的唯一識別碼，以及 [資料層](/help/developing/data-layer/overview.md).
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
@@ -201,17 +201,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->**智慧型裁切** 和 **影像預設集** 是互斥選項。 如果作者需要使用影像預設集以及智慧型裁切轉譯，該作者必須使用 **影像修飾元** 以手動新增預設集。
+>**智慧型裁切** 和 **影像預設集** 是互斥選項。 如果作者必須使用影像預設集以及智慧型裁切轉譯，則作者必須使用 **影像修飾元** 以手動新增預設集。
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
 ![影像元件「編輯」對話方塊的「樣式」索引標籤](/help/assets/image-configure-styles.png)
 
-影像元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling).
+影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
 使用下拉式清單，選取要套用至元件的樣式。 在「編輯」對話方塊中所做的選取與從元件工具列中選擇的選取具有相同的效果。
 
-您必須在以下位置為此元件設定樣式： [設計對話方塊](#design-dialog) 讓下拉式功能表可供使用。
+您必須在以下位置為此元件設定樣式： [設計對話方塊](#design-dialog) ，讓下拉式功能表可供使用。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -221,28 +221,28 @@ ht-degree: 0%
 
 * **啟用DM功能**  — 選取時， [Dynamic Media功能](#dynamic-media) 可用。
    * 此選項僅在環境中啟用Dynamic Media時顯示。
-* **啟用Web最佳化的影像**  — 選取時， [網頁最佳化的影像傳遞服務](/help/developing/web-optimized-image-delivery.md) 將以WebP格式傳送影像，平均將影像大小減少25%。
+* **啟用Web最佳化的影像**  — 選取時， [網頁最佳化的影像傳遞服務](/help/developing/web-optimized-image-delivery.md) 以WebP格式傳送影像，平均將影像大小減少25%。
    * 此選項僅在AEMaaCS中可用。
-   * 取消勾選或Web最佳化的影像傳遞服務無法使用時， [自我調整影像Servlet](/help/developing/adaptive-image-servlet.md) 已使用。
-* **停用延遲載入**  — 選取後，元件會預先載入所有影像而不會延遲載入。
+   * 取消勾選或Web最佳化的影像傳送服務無法使用時， [自我調整影像Servlet](/help/developing/adaptive-image-servlet.md) 已使用。
+* **停用延遲載入**  — 選取後，元件會預先載入所有影像，而不會延遲載入。
 * **影像為裝飾性**  — 定義將影像元件新增至頁面時，是否自動啟用裝飾性影像選項。
 * **自DAM取得替代文字** — 定義將影像元件新增至頁面時，是否自動啟用從DAM擷取替代文字的選項。
 * **自DAM取得圖片說明**  — 定義將影像元件新增至頁面時，是否自動啟用從DAM擷取註解的選項。
 * **以快顯視窗顯示註解**  — 定義將影像元件新增至頁面時，是否自動啟用以快顯視窗顯示影像註解的選項。
 * **調整寬度**  — 此值用於調整作為DAM資產的基本影像的寬度。
-   * 影像的外觀比例將會保留。
+   * 影像的外觀比例會保留。
    * 如果該值大於影像的實際寬度，則該值無效。
    * 此值對SVG影像沒有影響。
 
-您可以定義影像的寬度（單位為畫素），元件會根據瀏覽器大小自動載入最適當的寬度。 這是 [回應式功能](#responsive-features) 影像元件的。
+您可以定義影像的寬度（以畫素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。 這是 [回應式功能](#responsive-features) 影像元件的。
 
 * **寬度**  — 定義影像的寬度（以畫素為單位），元件會根據瀏覽器大小自動載入最適當的寬度。
    * 點選或按一下 **新增** 按鈕以新增其他大小。
-      * 使用抓取操作框來重新排列大小。
+      * 使用抓取操作框可重新排列大小順序。
       * 使用 **刪除** 圖示可移除寬度。
    * 依預設，影像載入會延遲到影像可見為止。
-      * 選取選項 **停用延遲載入** 以在頁面載入時載入影像。
-* **JPEG品質**  — 轉換（例如縮放或裁切）的JPEG影像的品質係數（0到100的百分比）。
+      * 選取選項 **停用延遲載入** 這樣就能在頁面載入時載入影像。
+* **JPEG品質**  — 轉換（例如，縮放或裁切）的JPEG影像的品質係數（0到100的百分比）。
 
 >[!TIP]
 >
