@@ -2,10 +2,10 @@
 title: 最適化Forms核心元件 — 索引標籤在頂端
 description: 在頂端核心元件上使用或自訂最適化Forms標籤。
 role: Architect, Developer, Admin, User
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 6%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -54,11 +54,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 您可以透過「設定」對話方塊輕鬆自訂您對訪客最高體驗的標籤。 您也可以輕鬆定義頂端選項的索引標籤，以提供順暢的使用者體驗。
 
-## 相關文章 {#related-article}
+<!--
 
-* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 文字輸入（文字方塊）
 description: 使用或自訂最適化Forms文字輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1786'
 ht-degree: 1%
 
 ---
@@ -139,12 +139,13 @@ To experience the Accordion Component as well as see examples of its configurati
 ![格式標籤](/help/adaptive-forms/assets/telephoneinput_format.png)
 
 
-## 相關文章 {#related-article}
+<!--
 
-* [在AEM Sites頁面或體驗片段中建立最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+-->
 
 >[!MORELIKETHIS]
 >
