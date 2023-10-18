@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 重設按鈕
 description: 使用或自訂最適化Forms重設按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
 workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 2%
@@ -104,26 +104,30 @@ To experience the Accordion Component as well as see examples of its configurati
 * [建立獨立的最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 
+>[!MORELIKETHIS]
+>
+>* [折疊式面板](/help/adaptive-forms/components/accordion.md)
+>* [按鈕](/help/adaptive-forms/components/button.md)
+>* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
+>* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
+>* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
+>* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+>* [來自容器](/help/adaptive-forms/components/form-container.md)
+>* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
+>* [頁尾](/help/adaptive-forms/components/footer.md)
+>* [頁首](/help/adaptive-forms/components/header.md)
+>* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [影像](/help/adaptive-forms/components/image.md)
+>* [數字輸入](/help/adaptive-forms/components/number-input.md)
+>* [面板容器](/help/adaptive-forms/components/panel-container.md)
+>* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
+>* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
+>* [電話輸入](/help/adaptive-forms/components/telephone-input.md)
+>* [文字輸入](/help/adaptive-forms/components/text-input.md)
+>* [文字](/help/adaptive-forms/components/text.md)
+>* [標題](/help/adaptive-forms/components/title.md)
+>* [精靈](/help/adaptive-forms/components/wizard.md)
+
 ## 另請參閱 {#see-also}
 
-* [折疊式面板](/help/adaptive-forms/components/accordion.md)
-* [按鈕](/help/adaptive-forms/components/button.md)
-* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
-* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
-* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
-* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
-* [來自容器](/help/adaptive-forms/components/form-container.md)
-* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
-* [頁尾](/help/adaptive-forms/components/footer.md)
-* [頁首](/help/adaptive-forms/components/header.md)
-* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
-* [影像](/help/adaptive-forms/components/image.md)
-* [數字輸入](/help/adaptive-forms/components/number-input.md)
-* [面板容器](/help/adaptive-forms/components/panel-container.md)
-* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
-* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
-* [電話輸入](/help/adaptive-forms/components/telephone-input.md)
-* [文字輸入](/help/adaptive-forms/components/text-input.md)
-* [文字](/help/adaptive-forms/components/text.md)
-* [標題](/help/adaptive-forms/components/title.md)
-* [精靈](/help/adaptive-forms/components/wizard.md)
+{{see-also}}
