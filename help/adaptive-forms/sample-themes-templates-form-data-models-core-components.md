@@ -1,34 +1,31 @@
 ---
-title: 如何取得AEM Forms的主題和範本範例？
-description: AEM Forms核心元件提供範例最適化表單主題、範本和表單資料模型
+title: 如何取得AEM Forms核心元件的範例主題和範本？
+description: AEM Forms核心元件提供範例最適化表單主題、範本和表單資料模型。
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
-hide: true
-hidefromtoc: true
 level: Intermediate
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
+exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
+source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1349'
 ht-degree: 5%
 
 ---
 
-
 # 範例主題、範本和表單資料模型 {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] 核心元件提供立即可用的範例主題、範本和表單資料模型，以便快速建立多樣化的調適型表單。 這也有助於讓作者瞭解的擴充性、適應性和回應能力 [AEM Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 能夠快速建立簡易的表單，並輕鬆建立複雜的表單，同時與資料庫緊密連線。
+[!DNL AEM Forms] 核心元件提供立即可用的範例主題、範本和表單資料模型，以便快速建立多樣化的調適型表單。 這也有助於讓作者瞭解的擴充性、適應性和回應能力 [最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 能夠快速建立簡單的表單，並輕鬆建立複雜的表單，同時順暢地與資料庫連線。
 
 參考內容套件中包含的範例主題、範本和表單資料模型包括：
 
 | 範本 | 主題 | 表單資料模型 |
 ---------|----------|---------
-| [基本](#Basic) | [畫布](#Canvas) | Microsoft® Dynamics 365 |
-| [空白](#Blank) | [WKND](#WKND) | Salesforce |
-| [聯絡我們](#Contact-Us) | [畫架](#Easel) |  |
-| [聯絡詳細資料更新](#Contact-Details-Update) |   |   |
-| [同意表單](#Consent-Form) | |  |
-| [記錄服務要求](#Log-Service-Request) |  |  |
+| [空白](#Blank) | [畫布](#Canvas) | Microsoft® Dynamics 365 |
+| [聯絡我們](#Contact-Us) | [WKND](#WKND) | Salesforce |
+| [聯絡詳細資料更新](#Contact-Details-Update) | [畫架](#Easel) |   |
+| [同意表單](#Consent-Form) | [FSI](#FSI) |  |
+| [記錄服務要求](#Log-Service-Request) | [保健](#Healthcare) |  |
 | [提供意見回饋](#Give-Feedback) |  |  |
 | [福利註冊](#Benefits-Enrollment) |  |   |
 | [員工福利彙總](#Employee-Benefits-Summary) |   |   |
@@ -39,15 +36,55 @@ ht-degree: 5%
 
 ## 範例主題 {#Sample-Themes}
 
-參考範例主題可協助作者定義及自訂表單的樣式，即使具備CSS基本知識的作者也可以視需要自訂主題。
+參考範例主題可協助作者使用、定義及自訂表單的樣式，即使具備CSS基本知識的作者也可以視需要自訂主題。
 
 **如何取得這些主題？**
-* 若要開啟這些主題 **Formsas a Cloud Service** 環境， [啟用最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) 並使用 [前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) 以部署這些主題。
-* 若要將這些主題放在 **AEM 6.5 Forms** 環境， [啟用最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) 並使用 [封裝管理員](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) 以部署這些主題。
+您可以使用以下為提供的步驟來取得這些主題 **AEMas a Cloud Service** 環境：
+
+1. [啟用最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
+1. [將AEM Archetype 45專案部署至您的環境](https://github.com/adobe/aem-project-archetype)
+
+
+部署AEM原型時，您只能在表單中使用OOTB主題。若要根據需求自訂主題， [使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) 以部署主題。
+
+>[!NOTE]
+>
+> * 主題不可用於 **AEM 6.5** 環境。
+
+<!--
+
+1. **AEM 6.5**
+
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
+    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+
+
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
+
+-->
+
+
+<!--
+
+### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+
+You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+
+### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
+
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
+    
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
+
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
+
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
+
+-->
 
 此 **立即可用** [最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 主題包括：
 
-![OOTB主題](/help/adaptive-forms/assets/OOTB-themes.png)
+![OOTB主題](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
 ### 畫布 {#Canvas}
 
@@ -64,16 +101,40 @@ WKND主題包含生動、富有想象力且吸引人的設計，以展現您表�
 
 ### 畫架 {#Easel}
 
-畫框主題有助於建立吸引人且易於設定的表單外觀，而且會經過客製化，以簡化操作且方便使用。 畫架主題是以一個可攜式支架的概念為基礎，藝術家在創作畫作時可使用此支架來支援畫布。
+畫框主題有助於建立吸引人且易於設定的表單外觀，而且會經過客製化，以簡化操作且方便使用。 畫架主題是以可攜式底座的概念為基礎，藝術家在製作畫作時可透過底座支援畫布。
 
 ![畫框主題](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
+
+### FSI （金融服務與保險） {#FSI}
+
+FSI主題強調讓您的表單具有乾淨、實用的外觀。 套用FSI主題時，會套用淺藍色色調至您的表單，如影像所示。
+
+![FSI主題](/help/adaptive-forms/assets/fsi-theme-new1.png)
+
+
+### 保健 {#Healthcare}
+
+Healthcare主題採用豐富而柔和的色調，強調表單中的標籤、面板、文字方塊和按鈕等元素。
+
+![醫療保健主題](/help/adaptive-forms/assets/healthcare-new-theme.png)
+
 
 ## 範例範本 {#Sample-templates}
 
 範本會定義要在您的表單中復寫的初始表單結構、內容和動作，或是使用與您的表單類似的範本結構，例如，同意表單、權益登錄檔單等等。
 
 **如何取得這些範本？**
-您可以部署 [以AEM Archetype 43或更新版本為基礎的專案](https://github.com/adobe/aem-project-archetype) 至您的 **AEM Formsas a Cloud Service** 或 **AEM 6.5** Forms環境。
+您可以部署範本以取得這些範本 [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) 至您的 **AEM Formsas a Cloud Service** 環境或 **AEM 6.5 Forms** 環境。
+
+<!--
+
+>[!NOTE]
+>
+> * If you have [enabled core components and used front-end pipeline to deploy themes](#use-front-end-pipeline-to-deploy-themes), you need not to deploy an AEM Archetype.
+> * You can find list of all OOTB templates when you create a form.
+
+-->
+
 
 此 **立即可用** [最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 範本包括：
 
@@ -81,7 +142,7 @@ WKND主題包含生動、富有想象力且吸引人的設計，以展現您表�
 
 ### 基本 {#Basic}
 
-基本範本可幫助您快速建立註冊體驗表單。 您也可以用它來預覽功能 [最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). 它提供精靈版面配置，用於逐節呈現資料。
+基本範本可協助您快速建立註冊體驗表單。 您也可以用它來預覽 [最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). 它提供精靈版面配置，用於逐節呈現資料。
 
 ![基本範本](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -111,14 +172,14 @@ WKND主題包含生動、富有想象力且吸引人的設計，以展現您表�
 
 ### 記錄服務要求 {#Log-Service-Request}
 
-記錄服務要求範本可協助建立向服務提供者要求記錄特定記錄服務的表單。 表單可作為正式請求，針對記錄以監控或追蹤狀態的事件、活動或資料建立票證。
+記錄服務要求範本可協助建立向服務提供者要求記錄特定記錄服務的表單。 此表單可作為一個正式請求，為事件、活動或資料記錄建立票證以用於監控或追蹤狀態。
 
 ![記錄服務請求範本](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### 提供意見回饋 {#Give-Feedback}
 
-提供意見回饋表單範本有助於建立表格，向其他人員或團隊提供具建設性的意見回饋。 此表單有助於確保意見反應清晰、明確且可行，可促進開放式溝通和改進。
+提供意見回饋表單範本有助於建立表格，向其他人員或團隊提供具建設性的意見回饋。 表單有助於確保意見反應清晰、明確且可行，有助於促進開放溝通和改進。
 
 ![提供意見反應範本](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -138,7 +199,7 @@ WKND主題包含生動、富有想象力且吸引人的設計，以展現您表�
 
 ### 要求帳戶對帳單 {#Request-for-Account-Statement}
 
-Request for account statement template可協助建立表單，以啟動取得準確且最新之客戶對帳單的程式。 對帳單提供財務交易、活動的詳細記錄，或使用此表單之客戶的其他相關資訊。
+帳戶對帳單範本的請求可協助建立表單，以啟動取得準確且最新的客戶對帳單的程式。 對帳單提供財務交易、活動的詳細記錄，或使用此表單之客戶的其他相關資訊。
 
 ![帳戶請求宣告](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
