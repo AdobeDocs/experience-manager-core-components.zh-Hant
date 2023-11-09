@@ -6,9 +6,9 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
+source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1304'
 ht-degree: 5%
 
 ---
@@ -140,11 +140,15 @@ Healthcare主題採用豐富而柔和的色調，強調表單中的標籤、面�
 
 ![參考範本](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
-### 基本 {#Basic}
+<!--
 
-基本範本可協助您快速建立註冊體驗表單。 您也可以用它來預覽 [最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). 它提供精靈版面配置，用於逐節呈現資料。
+### Basic {#Basic}
 
-![基本範本](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
+
+![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
+
+-->
 
 ### 空白 {#Blank}
 
