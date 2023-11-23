@@ -3,10 +3,10 @@ title: 最適化Forms核心元件 — 水準索引標籤
 description: 使用或自訂最適化Forms水準索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
 workflow-type: tm+mt
-source-wordcount: '2195'
-ht-degree: 3%
+source-wordcount: '2020'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 3%
 最適化表單中的水準索引標籤是指一個設計模式，其中表單的多個區段分組在一起，並以水準對齊的單獨索引標籤顯示。 使用者可在標籤之間切換以存取表單的不同區段。 每個標籤都會當作顯示和隱藏相關表單內容的觸發器。 水準標籤有助於將長表格組織成易於管理的部分，並改善使用者體驗。 索引標籤可協助殘障使用者更輕鬆地存取表單，因為他們可以使用鍵盤導覽在區段之間切換。
 
 標籤通常以一系列連結或按鈕的形式建立，每個連結或按鈕都會與表單的某個區段相對應。 當使用者按一下索引標籤，表單內容會動態更新以顯示對應的區段。
+
+![範例](/help/adaptive-forms/assets/horizontal-example-new.png)
 
 ## 使用狀況 {#reasons-to-use-horizontal-tabs}
 
@@ -146,58 +148,38 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ### 允許的元件標籤 {#allowed-components-tab}
 
+![允許的元件索引標籤](/help/adaptive-forms/assets/tabs-allowed-component.png)
+
 此 **允許的元件** 索引標籤可讓範本編輯器設定元件，這些元件可在最適化Forms編輯器中的水準索引標籤元件中新增為面板的專案。
 
 ### 樣式索引標籤 {#styles-tab}
 
 「設計」對話方塊可用來定義和管理元件的CSS樣式。 最適化Forms水準標籤核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-**預設CSS類別**：您可以為最適化Forms水準索引標籤核心元件提供預設CSS類別。
+![樣式索引標籤](/help/adaptive-forms/assets/tabs-styles-tab.png)
+
+- **預設CSS類別**：您可以為最適化Forms水準索引標籤核心元件提供預設CSS類別。
 
 - **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
+### 自訂屬性索引標籤
+
+![自訂屬性索引標籤](/help/adaptive-forms/assets/tabs-custom-properties.png)
+
+自訂屬性可讓您使用表單範本，將自訂屬性（索引鍵/值組）與最適化表單核心元件建立關聯。 自訂屬性會反映在元件Headless轉譯的properties區段中。 它可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動、桌上型電腦或Web平台設計各種無頭Forms元件的轉譯，大幅提升各種裝置的使用者體驗。
+
+- **群組名稱**：您可以提供名稱來識別自訂屬性群組。 您可以新增、刪除或重新排列多個自訂屬性群組。 新增自訂屬性群組後，您可以看到下列選項：
+
+   - **索引鍵值配對**：您可以按一下「 」，新增多個自訂屬性名稱和自訂屬性值 **新增** 按鈕來設定每個自訂屬性群組。
+
+   - **刪除**：點選或按一下以刪除自訂屬性名稱和自訂屬性值。
+
+   - **重新排列**：點選或按一下並拖曳，以重新排列自訂屬性名稱和自訂屬性值的順序。
+
 ## 相關文章 {#related-articles}
 
-- [折疊式面板](/help/adaptive-forms/components/accordion.md)
-- [按鈕](/help/adaptive-forms/components/button.md)
-- [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
-- [日期挑選器](/help/adaptive-forms/components/date-picker.md)
-- [下拉式清單](/help/adaptive-forms/components/drop-down.md)
-- [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
-- [來自容器](/help/adaptive-forms/components/form-container.md)
-- [檔案附件](/help/adaptive-forms/components/file-attachment.md)
-- [頁尾](/help/adaptive-forms/components/footer.md)
-- [頁首](/help/adaptive-forms/components/header.md)
-- [影像](/help/adaptive-forms/components/image.md)
-- [數字輸入](/help/adaptive-forms/components/number-input.md)
-- [面板容器](/help/adaptive-forms/components/panel-container.md)
-- [選項按鈕](/help/adaptive-forms/components/radio-button.md)
-- [重設按鈕](/help/adaptive-forms/components/reset-button.md)
-- [提交按鈕](/help/adaptive-forms/components/submit-button.md)
-- [電話輸入](/help/adaptive-forms/components/telephone-input.md)
-- [文字輸入](/help/adaptive-forms/components/text-input.md)
-- [文字](/help/adaptive-forms/components/text.md)
-- [標題](/help/adaptive-forms/components/title.md)
-- [精靈](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## 另請參閱 {#see-also}
 
-- [建立AEM最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-- [將AEM最適化表單新增至AEM Sites頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-- [將主題套用至AEM最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)
-- [將元件新增至AEM最適化表單](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [在AEM最適化表單中使用reCAPTCHA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html)
-- [產生AEM最適化表單的PDF版本(DoR)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
-- [翻譯AEM最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html)
-- [為最適化表單啟用Adobe Analytics以追蹤表單使用情況](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
-- [將最適化表單連線至Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration)
-- [將最適化表單連線至Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate)
-- [將最適化表單連線至Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive)
-- [將最適化表單連線至Microsoft Azure Blob儲存體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
-- [將最適化表單連線至Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html)
-- [在AEM最適化表單中使用Adobe Sign](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)
-- [為最適化表單新增地區設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
-- [傳送最適化表單資料至資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
-- [傳送最適化表單資料至REST端點](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
-- [傳送最適化表單資料至AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
-- [使用Forms入口網站列出AEM網站上的AEM Adaptive Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
+{{see-also}}

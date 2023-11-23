@@ -3,10 +3,10 @@ title: 最適化Forms核心元件 — 影像
 description: 使用或自訂最適化Forms影像核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 3%
+source-wordcount: '1205'
+ht-degree: 1%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 3%
 
 **範例**
 
-![](/help/adaptive-forms/assets/image.png)
+![範例](/help/adaptive-forms/assets/image.png)
 
 
 ## 使用狀況 {#reasons-to-use-image-in-a-form}
 
 在最適化表單中加入影像元件有幾個好處，包括：
 
-* **品牌化**：影像可用來顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
+- **品牌化**：影像可用來顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
 
-* **視覺輔助**：影像可做為視覺化輔助工具，協助使用者瞭解表單用途，有助於為使用者提供額外等級的資訊。
+- **視覺輔助**：影像可做為視覺化輔助工具，協助使用者瞭解表單用途，有助於為使用者提供額外等級的資訊。
 
-* **裝飾**：影像可用來增強表單的整體設計，並使其更具視覺吸引力。
+- **裝飾**：影像可用來增強表單的整體設計，並使其更具視覺吸引力。
 
-* **使用者體驗**：影像可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，進而讓表單更人性化。
+- **使用者體驗**：影像可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，進而讓表單更人性化。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -60,24 +60,26 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![屬性標籤](/help/adaptive-forms/assets/image_properties.png)
 
-* **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
+- **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
-* **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+- **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
 
-* **記錄檔案繫結參考**  — 此選項可讓您將最適化表單欄位與記錄檔案欄位建立關聯。 當使用者在最適化表單的連結欄位中輸入任何值時，該值也會出現在相應記錄檔案的連結欄位中。 例如，記錄檔案繫結參考可用於根據在表單中輸入的客戶ID在記錄檔案中顯示客戶名稱和地址。 透過這種方式，AEM Forms可讓您產生記錄檔案，並提供收集和管理資料的順暢使用者體驗。
+- **標籤為未繫結表單元素**：選取選項以設定未連結至任何結構的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
 
-* **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
+- **記錄檔案繫結參考**  — 此選項可讓您將最適化表單欄位與記錄檔案欄位建立關聯。 當使用者在最適化表單的連結欄位中輸入任何值時，該值也會出現在相應記錄檔案的連結欄位中。 例如，記錄檔案繫結參考可用於根據在表單中輸入的客戶ID在記錄檔案中顯示客戶名稱和地址。 透過這種方式，AEM Forms可讓您產生記錄檔案，並提供收集和管理資料的順暢使用者體驗。
 
-* **將資產拖曳至此處，或瀏覽檔案以上傳**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用從本機檔案系統上傳檔案 **瀏覽** 按鈕。 新增影像後，影像底部會顯示三個按鈕：
-   * **編輯**  — 點選或按一下 **編輯** 在「資產編輯器」中管理資產的轉譯。
-   * **清除**  — 點選或按一下 **清除** 以取消選取目前選取的影像。
-   * **選取**  — 點選或按一下 **選取**  從「資產」資料夾中選取其他影像的選項。
+- **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
 
-* **替代文字**  — 此選項用於輸入提供影像的簡短描述性替代文字的文字，向視障使用者說明影像。
+- **將資產拖曳至此處，或瀏覽檔案以上傳**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用從本機檔案系統上傳檔案 **瀏覽** 按鈕。 新增影像後，影像底部會顯示三個按鈕：
+   - **編輯**  — 點選或按一下 **編輯** 在「資產編輯器」中管理資產的轉譯。
+   - **清除**  — 點選或按一下 **清除** 以取消選取目前選取的影像。
+   - **選取**  — 點選或按一下 **選取**  從「資產」資料夾中選取其他影像的選項。
 
-* **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
+- **替代文字**  — 此選項用於輸入提供影像的簡短描述性替代文字的文字，向視障使用者說明影像。
 
-* **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+- **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
+
+- **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -87,45 +89,29 @@ To experience the Accordion Component as well as see examples of its configurati
 
 索引標籤可用來定義和管理元件的CSS樣式。 最適化Forms影像核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-![設計對話方塊](/help/adaptive-forms/assets/image_designdialog.png)
+![設計對話方塊](/help/adaptive-forms/assets/checkbox-style.png)
 
-**預設CSS類別**：您可以為最適化Forms影像核心元件提供預設CSS類別。
+- **預設CSS類別**：您可以為最適化Forms核取方塊群組核心元件提供預設CSS類別。
 
-**允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
+- **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
-<!--
+### 自訂屬性
 
-## Related article {#related-article}
+![自訂屬性對話方塊](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+自訂屬性可讓您使用表單範本，將自訂屬性（索引鍵/值組）與最適化表單核心元件建立關聯。 自訂屬性會反映在元件Headless轉譯的properties區段中。 它可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動、桌上型電腦或Web平台設計各種無頭Forms元件的轉譯，大幅提升各種裝置的使用者體驗。
 
--->
+- **群組名稱**：您可以提供名稱來識別自訂屬性群組。 您可以新增、刪除或重新排列多個自訂屬性群組。 新增自訂屬性群組後，您可以看到下列選項：
 
+   - **索引鍵值配對**：您可以按一下「 」，新增多個自訂屬性名稱和自訂屬性值 **新增** 按鈕來設定每個自訂屬性群組。
 
->[!MORELIKETHIS]
->
->* [折疊式面板](/help/adaptive-forms/components/accordion.md)
->* [按鈕](/help/adaptive-forms/components/button.md)
->* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
->* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
->* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
->* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
->* [來自容器](/help/adaptive-forms/components/form-container.md)
->* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
->* [頁尾](/help/adaptive-forms/components/footer.md)
->* [頁首](/help/adaptive-forms/components/header.md)
->* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
->* [數字輸入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
->* [重設按鈕](/help/adaptive-forms/components/reset-button.md)
->* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
->* [電話輸入](/help/adaptive-forms/components/telephone-input.md)
->* [文字輸入](/help/adaptive-forms/components/text-input.md)
->* [文字](/help/adaptive-forms/components/text.md)
->* [標題](/help/adaptive-forms/components/title.md)
->* [精靈](/help/adaptive-forms/components/wizard.md)
+   - **刪除**：點選或按一下以刪除自訂屬性名稱和自訂屬性值。
 
+   - **重新排列**：點選或按一下並拖曳，以重新排列自訂屬性名稱和自訂屬性值的順序。
+
+## 相關文章 {#related-articles}
+
+{{more-like-this}}
 
 ## 另請參閱 {#see-also}
 

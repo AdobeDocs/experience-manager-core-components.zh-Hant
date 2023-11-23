@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 50%
+source-wordcount: '398'
+ht-degree: 49%
 
 ---
 
@@ -101,18 +101,20 @@ ht-degree: 50%
       + [體驗片段](/help/email/components/experience-fragment.md)
       + [內容片段](/help/email/components/content-fragment.md)
       + [Segmentation](/help/email/components/segmentation.md)
-+ 調適型表單 {#adaptive-forms}
++ 最適化表單 {#adaptive-forms}
    + [簡介](/help/adaptive-forms/introduction.md)
    + [版本記錄](/help/adaptive-forms/version.md)
    + 最適化Forms元件 {#adaptive-forms-components}
       + [最適化Forms摺疊式功能表](/help/adaptive-forms/components/accordion.md)
       + [最適化Forms按鈕](/help/adaptive-forms/components/button.md)
+      + [最適化Forms核取方塊](/help/adaptive-forms/components/checkbox.md)
       + [最適化Forms核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
       + [最適化Forms容器](/help/adaptive-forms/components/form-container.md)
       + [最適化Forms日期選擇器](/help/adaptive-forms/components/date-picker.md)
       + [最適化Forms下拉式清單](/help/adaptive-forms/components/drop-down.md)
       + [最適化Forms電子郵件輸入](/help/adaptive-forms/components/email-input.md)
       + [最適化Forms檔案附件](/help/adaptive-forms/components/file-attachment.md)
+      + [最適化Forms垂直標籤](/help/adaptive-forms/components/vertical-tabs.md)
       + [最適化Forms水準標籤](/help/adaptive-forms/components/horizontal-tabs.md)
       + [最適化Forms影像](/help/adaptive-forms/components/image.md)
       + [最適化Forms編號輸入](/help/adaptive-forms/components/number-input.md)
@@ -126,6 +128,7 @@ ht-degree: 50%
       + [最適化Forms文字方塊](/help/adaptive-forms/components/text-input.md)
       + [最適化Forms標題](/help/adaptive-forms/components/title.md)
       + [最適化Forms精靈配置](/help/adaptive-forms/components/wizard.md)
+      + [最適化Forms條款與條件](/help/adaptive-forms/components/terms-and-conditions.md)
       + [頁首](/help/adaptive-forms/components/header.md)
       + [頁尾](/help/adaptive-forms/components/footer.md)
    + [自訂最適化Forms核心元件](/help/developing/customize-adaptive-forms-core-components.md)

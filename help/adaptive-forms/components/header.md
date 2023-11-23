@@ -3,10 +3,10 @@ title: 最適化Forms核心元件 — 頁首
 description: 使用或自訂最適化Forms頁首核心元件。
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 4%
+source-wordcount: '679'
+ht-degree: 1%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 4%
 
 ## 使用狀況 {#reasons-to-use-header}
 
-* **品牌化**：頁首可用於顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
+- **品牌化**：頁首可用於顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
 
-* **內容**：標題可提供表單用途的簡短說明，協助使用者瞭解使用表單的上下文。
+- **內容**：標題可提供表單用途的簡短說明，協助使用者瞭解使用表單的上下文。
 
-* **導覽**：標題可包含連結或按鈕，讓使用者導覽至網站或應用程式的其他部分。
+- **導覽**：標題可包含連結或按鈕，讓使用者導覽至網站或應用程式的其他部分。
 
-* **資訊**：標題可包含聯絡資訊或說明資源的連結，讓使用者更容易在需要時取得協助。
+- **資訊**：標題可包含聯絡資訊或說明資源的連結，讓使用者更容易在需要時取得協助。
 
-* **使用者體驗**：標題可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，進而讓表單更人性化。
+- **使用者體驗**：標題可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，進而讓表單更人性化。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -60,21 +60,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![影像標籤](/help/adaptive-forms/assets/header_image.png)
 
-* **影像資產**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用從本機檔案系統上傳檔案 **瀏覽** 按鈕。 新增影像後，影像底部會顯示三個按鈕。 新增影像後，影像底部會顯示三個按鈕：
-   * **編輯**  — 點選或按一下 **編輯** 在「資產編輯器」中管理資產的轉譯。
-   * **清除**  — 點選或按一下 **清除** 以取消選取目前選取的影像。
-   * **選取**  — 點選或按一下 **選取**  從「資產」資料夾中選取其他影像的選項。
+- **影像資產**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用從本機檔案系統上傳檔案 **瀏覽** 按鈕。 新增影像後，影像底部會顯示三個按鈕。 新增影像後，影像底部會顯示三個按鈕：
+   - **編輯**  — 點選或按一下 **編輯** 在「資產編輯器」中管理資產的轉譯。
+   - **清除**  — 點選或按一下 **清除** 以取消選取目前選取的影像。
+   - **選取**  — 點選或按一下 **選取**  從「資產」資料夾中選取其他影像的選項。
 
-* **標題**  — 此選項用於將標題新增到標題。 預先定義的文字會包含在對話方塊中，而且使用者可以修改它。
-* **連結至**  — 您可以使用將標題連結至資料夾 **瀏覽** 圖示。
-* **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
-* **大小（畫素）**  — 增加或減少畫素，有助於調整影像的長度和寬度。
+- **標題**  — 此選項用於將標題新增到標題。 預先定義的文字會包含在對話方塊中，而且使用者可以修改它。
+- **連結至**  — 您可以使用將標題連結至資料夾 **瀏覽** 圖示。
+- **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
+- **大小（畫素）**  — 增加或減少畫素，有助於調整影像的長度和寬度。
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **替代文字**  — 此選項用於輸入提供影像的簡短描述性替代文字的文字，向視障使用者說明影像。
+- **替代文字**  — 此選項用於輸入提供影像的簡短描述性替代文字的文字，向視障使用者說明影像。
 
-* **影像為裝飾性**  — 檢查輔助技術是否應忽略影像，因此不需要替代文字。 這僅適用於裝飾性影像。
+- **影像為裝飾性**  — 檢查輔助技術是否應忽略影像，因此不需要替代文字。 這僅適用於裝飾性影像。
 
 ### 文字索引標籤 {#text-tab}
 
@@ -88,30 +88,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 相關文章 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [折疊式面板](/help/adaptive-forms/components/accordion.md)
->* [按鈕](/help/adaptive-forms/components/button.md)
->* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
->* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
->* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
->* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
->* [來自容器](/help/adaptive-forms/components/form-container.md)
->* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
->* [頁尾](/help/adaptive-forms/components/footer.md)
->* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
->* [影像](/help/adaptive-forms/components/image.md)
->* [數字輸入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
->* [重設按鈕](/help/adaptive-forms/components/reset-button.md)
->* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
->* [電話輸入](/help/adaptive-forms/components/telephone-input.md)
->* [文字輸入](/help/adaptive-forms/components/text-input.md)
->* [文字](/help/adaptive-forms/components/text.md)
->* [標題](/help/adaptive-forms/components/title.md)
->* [精靈](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## 另請參閱 {#see-also}
 

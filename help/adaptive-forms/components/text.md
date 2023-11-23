@@ -3,10 +3,10 @@ title: 最適化Forms核心元件 — 文字
 description: 使用或自訂最適化Forms文字核心元件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 3%
+source-wordcount: '1039'
+ht-degree: 1%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 3%
 
 **範例**
 
-![](/help/adaptive-forms/assets/text.png)
+![範例](/help/adaptive-forms/assets/text.png)
 
 ## 使用狀況 {#reasons-to-use-text-label}
 
 在表單中使用文字有幾個原因：
 
-* **提供指示**：文字可用於提供如何填寫表單或需要哪些資訊的說明。
+- **提供指示**：文字可用於提供如何填寫表單或需要哪些資訊的說明。
 
-* **提供內容**：文字可用於提供表單的內容，例如說明表單的用途或收集資訊的組織。
+- **提供內容**：文字可用於提供表單的內容，例如說明表單的用途或收集資訊的組織。
 
-* **將表單劃分為邏輯部分**：文字可用來將表單劃分為邏輯區段，讓使用者更容易理解並完成表單。
+- **將表單劃分為邏輯部分**：文字可用來將表單劃分為邏輯區段，讓使用者更容易理解並完成表單。
 
-* **品牌和身分**：文字可用於品牌和身分識別目的，例如在表單中包含組織名稱。
+- **品牌和身分**：文字可用於品牌和身分識別目的，例如在表單中包含組織名稱。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -56,11 +56,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![基本索引標籤](/help/adaptive-forms/assets/text_properties.png)
 
-* **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
+- **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
-* **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
-* **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
-* **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+- **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
+- **標籤為未繫結表單元素**：選取選項以設定未連結至任何結構的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
+- **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
+- **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
 
 ## 設計對話方塊 {#design-dialog}
@@ -71,44 +72,29 @@ To experience the Accordion Component as well as see examples of its configurati
 
 索引標籤可用來定義和管理元件的CSS樣式。 最適化Forms文字核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-![設計對話方塊](/help/adaptive-forms/assets/reset_designdialog.png)
+![設計對話方塊](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **預設CSS類別**：您可以為最適化Forms文字核心元件提供預設CSS類別。
+- **預設CSS類別**：您可以為最適化Forms核取方塊群組核心元件提供預設CSS類別。
 
-* **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
+- **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
-<!--
+### 自訂屬性
 
-## Related article {#related-article}
+![自訂屬性對話方塊](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+自訂屬性可讓您使用表單範本，將自訂屬性（索引鍵/值組）與最適化表單核心元件建立關聯。 自訂屬性會反映在元件Headless轉譯的properties區段中。 它可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動、桌上型電腦或Web平台設計各種無頭Forms元件的轉譯，大幅提升各種裝置的使用者體驗。
 
--->
+- **群組名稱**：您可以提供名稱來識別自訂屬性群組。 您可以新增、刪除或重新排列多個自訂屬性群組。 新增自訂屬性群組後，您可以看到下列選項：
 
+   - **索引鍵值配對**：您可以按一下「 」，新增多個自訂屬性名稱和自訂屬性值 **新增** 按鈕來設定每個自訂屬性群組。
 
->[!MORELIKETHIS]
->
->* [折疊式面板](/help/adaptive-forms/components/accordion.md)
->* [按鈕](/help/adaptive-forms/components/button.md)
->* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
->* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
->* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
->* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
->* [來自容器](/help/adaptive-forms/components/form-container.md)
->* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
->* [頁尾](/help/adaptive-forms/components/footer.md)
->* [頁首](/help/adaptive-forms/components/header.md)
->* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
->* [影像](/help/adaptive-forms/components/image.md)
->* [數字輸入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
->* [重設按鈕](/help/adaptive-forms/components/reset-button.md)
->* [提交按鈕](/help/adaptive-forms/components/submit-button.md)
->* [電話輸入](/help/adaptive-forms/components/telephone-input.md)
->* [文字輸入](/help/adaptive-forms/components/text-input.md)
->* [標題](/help/adaptive-forms/components/title.md)
->* [精靈](/help/adaptive-forms/components/wizard.md)
+   - **刪除**：點選或按一下以刪除自訂屬性名稱和自訂屬性值。
+
+   - **重新排列**：點選或按一下並拖曳，以重新排列自訂屬性名稱和自訂屬性值的順序。
+
+## 相關文章 {#related-articles}
+
+{{more-like-this}}
 
 ## 另請參閱 {#see-also}
 
