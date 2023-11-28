@@ -2,15 +2,13 @@
 title: 最適化Forms核心元件 — 條款與條件
 description: 使用或自訂最適化Forms條款與條件核心元件。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c607d554-ad2d-4434-856d-91e174ef3149
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 0%
 
 ---
-
 
 # 條款與條件元件
 
@@ -222,4 +220,3 @@ A **條款與條件** 元件是指表單中的區段，其中概述了使用者�
 ## 另請參閱 {#see-also}
 
 {{see-also}}
-
