@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 條款與條件
 description: 使用或自訂最適化Forms條款與條件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 0%
@@ -36,11 +36,11 @@ A **條款與條件** 元件是指表單中的區段，其中概述了使用者�
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.62和核心元件1.1.28的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
-| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 及更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和較新版本，但小於2.0.0。 |
+| v1 | 相容於<br>[版本2.0.62](/help/adaptive-forms/version.md) 及更新版本 | 相容於<br>[第1.1.28發行版本](/help/adaptive-forms/version.md) 和較新版本，但小於2.0.0。 |
 
 如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 

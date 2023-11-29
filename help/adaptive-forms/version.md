@@ -3,10 +3,10 @@ title: AEM Forms核心元件版本
 description: AEM核心元件會以發行版本發佈，發行版本可能包含相同核心元件的多個版本。 本檔案說明什麼是發行版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: f53be69df3dff9f3873a3bda6ba331f76de75487
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | 新增預設錯誤訊息的本地化支援，以及可重複元件的新增/移除按鈕。 | 持續 | 8, 11 | 2023年6月28日 |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | 此版本新增最適化Forms的驗證碼支援。 | 持續 | 8, 11 | 2023年6月15日 |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | 支援在AEM Sites上新增最適化表單。 | 持續 | 8, 11 | 2023年6月7日 |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | 在此版本中，支援摺疊式功能表元件的重複性。 | 持續 | 8, 11 | 2023年6月5日 |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | 在此版本中，支援摺疊式功能表元件的重複性。 也將新元件新增為垂直索引標籤。 | 持續 | 8, 11 | 2023年6月5日 |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | 在這個版本中，Sites的編輯器開始支援最適化表單容器元件。 | 持續 | 8, 11 | 2023 年 3 月 17 日 |
 | [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | 此發行版本中介紹了精靈元件的重複功能。 | 持續 | 8, 11 | 2023 年 3 月 03 日 |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | 此發行版本引進了多種數值輸入核心元件格式。 | 持續 | 8, 11 | 2023年2月8日 |

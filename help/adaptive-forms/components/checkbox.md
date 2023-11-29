@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 核取方塊
 description: 使用或自訂Adaptive Forms核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms核取方塊核心元件於2023年2月發行，屬於核心元件2.0.4的一部分。下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms核取方塊核心元件已發佈作為核心元件2.0.52的一部分。下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 |  |  |
 |---|---|
 | 元件版本 | AEM as a Cloud Service  |
 | — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 及更新版本 | 相容 | 相容 |
+| v1 | 相容於<br>[發行版本2.0.52](/help/versions.md) 及更新版本 | 相容 | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
 
