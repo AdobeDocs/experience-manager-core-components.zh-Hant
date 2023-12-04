@@ -3,14 +3,14 @@ title: 最適化Forms核心元件 — 垂直索引標籤
 description: 使用或自訂最適化Forms垂直索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
 
-# 垂直標籤 {#vertical-tabs-adaptive-forms-core-component}
+# 垂直索引標籤元件{#vertical-tabs-adaptive-forms-core-component}
 
 最適化表單中的垂直索引標籤是指一種設計模式，其中表單的多個區段會分組在一起，並以垂直對齊的個別索引標籤顯示。 使用者可在標籤之間切換以存取表單的不同區段。 每個標籤都會當作顯示和隱藏相關表單內容的觸發器。 垂直標籤有助於將長表格整理到易於管理的區段中，並改善使用者體驗。 索引標籤可協助殘障使用者更輕鬆地存取表單，因為他們可以使用鍵盤導覽在區段之間切換。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 |  |  |
 |---|---|
 | 元件版本 | AEM as a Cloud Service  |
-| — | --- |
+| — | — |
 | v1 | 相容於<br>[發行版本2.0.18](/help/versions.md) 及更新版本 | 相容 | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
