@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
+source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 5%
+source-wordcount: '1239'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 5%
 | [聯絡我們](#Contact-Us) | [WKND](#WKND) | Salesforce |
 | [聯絡詳細資料更新](#Contact-Details-Update) | [畫架](#Easel) |   |
 | [同意表單](#Consent-Form) | [FSI](#FSI) |  |
-| [記錄服務要求](#Log-Service-Request) | [保健](#Healthcare) |  |
+| [記錄服務要求](#Log-Service-Request) | [醫療保健](#Healthcare) |  |
 | [提供意見回饋](#Give-Feedback) |  |  |
 | [福利註冊](#Benefits-Enrollment) |  |   |
 | [員工福利彙總](#Employee-Benefits-Summary) |   |   |
@@ -42,7 +42,7 @@ ht-degree: 5%
 您可以使用以下為提供的步驟來取得這些主題 **AEMas a Cloud Service** 環境：
 
 1. [啟用最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
-1. [將AEM Archetype 45專案部署至您的環境](https://github.com/adobe/aem-project-archetype)
+1. [將AEM Archetype 47專案或更新版本部署至您的環境](https://github.com/adobe/aem-project-archetype)
 
 
 部署AEM原型時，您只能在表單中使用OOTB主題。若要根據需求自訂主題， [使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) 以部署主題。
@@ -56,7 +56,7 @@ ht-degree: 5%
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ ht-degree: 5%
 
 <!--
 
-### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -124,7 +124,7 @@ Healthcare主題採用豐富而柔和的色調，強調表單中的標籤、面�
 範本會定義要在您的表單中復寫的初始表單結構、內容和動作，或是使用與您的表單類似的範本結構，例如，同意表單、權益登錄檔單等等。
 
 **如何取得這些範本？**
-您可以部署範本以取得這些範本 [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) 至您的 **AEM Formsas a Cloud Service** 環境或 **AEM 6.5 Forms** 環境。
+您可以部署範本以取得這些範本 [AEM Archetype 45或更新版本](https://github.com/adobe/aem-project-archetype) 至您的 **AEM Formsas a Cloud Service** 環境或 **AEM 6.5 Forms** 環境。
 
 <!--
 
