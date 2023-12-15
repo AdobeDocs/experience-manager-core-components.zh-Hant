@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 電子郵件輸入
 description: 使用或自訂最適化Forms電子郵件輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -96,9 +96,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最少字元錯誤訊息** - **最少字元錯誤訊息** 如果輸入的字元數小於指定的值，對話方塊可讓您新增自訂錯誤訊息。 **字元數下限** 選項。
 <br>
 
-    **驗證模式**選項可讓您輸入模式來驗證輸入的電子郵件ID。 如果電子郵件ID無法以在**Pattern**選項中輸入的值驗證，熒幕上會顯示錯誤訊息。
-    - **模式** — 此選項可讓您為電子郵件輸入允許的驗證模式。 也允許規則運算式。
-    - **錯誤訊息** — 此選項可讓您輸入在電子郵件ID無法以**Pattern**選項中輸入的值驗證時熒幕上顯示的訊息
+此 **驗證模式** 選項可讓您輸入模式來驗證輸入的電子郵件ID。 如果電子郵件ID無法透過在中輸入的值進行驗證 **圖樣** 選項，熒幕上會顯示錯誤訊息。
+
+- **圖樣**  — 此選項可讓您為電子郵件輸入允許的驗證模式。 也允許規則運算式。
+- **錯誤訊息**  — 此選項可讓您輸入在電子郵件ID無法以在中輸入的值進行驗證時顯示在畫面上的訊息。 **圖樣** 選項
 
 ### 說明內容標籤 {#help-content-tab}
 
