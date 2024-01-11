@@ -3,9 +3,9 @@ title: 網頁最佳化的影像交付
 description: 瞭解核心元件如何運用AEMas a Cloud Service的網頁最佳化影像傳送功能，以更有效率地傳送影像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
+source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ AEM as a Cloud Service的網頁最佳化影像傳送功能可從以下位置傳�
 
 ### 我可以搭配自己的元件使用Web最佳化的影像傳送嗎？
 
-可以，自訂元件可使用網頁最佳化的影像傳送服務。 Adobe建議 [擴充影像元件](/help/developing/customizing.md) 在此案例中。
+可以，自訂元件可使用網頁最佳化的影像傳送服務，建立者為 [擴充影像元件，](/help/developing/customizing.md)
 
 以下服務介面可用於協助產生資產URL。
 
@@ -96,7 +96,9 @@ AEM as a Cloud Service的網頁最佳化影像傳送功能可從以下位置傳�
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**請注意，如果體驗不是透過在AEM Sites CS上執行的核心元件所建置，則直接URL會違反Media Library授權條款。**
+>[!WARNING]
+>
+>直接URL內嵌的體驗不是透過在AEM Sites CS上執行的核心元件建置的，這違反Media Library授權條款。
 
 ### 新影像服務所傳送的影像URL為何？ {#url}
 
