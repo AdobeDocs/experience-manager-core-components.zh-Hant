@@ -2,9 +2,7 @@
 title: 最適化表單片段
 description: 使用表單片段建立表單片段或欄位群組，並在最適化Forms中重複使用，以提高效率和可重複使用性。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: 9b97ea68d176d5194844093afdc41b82bdb45fee
+source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
 workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 1%
