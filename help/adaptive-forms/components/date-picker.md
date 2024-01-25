@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 日期選擇器
 description: 使用或自訂最適化Forms日期選擇器核心元件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **範例**
 
-![](/help/adaptive-forms/assets/date-picker.png)
+![範例](/help/adaptive-forms/assets/date-picker.png)
 
 ## 使用狀況 {#reasons-to-use-drop-date-picker}
 

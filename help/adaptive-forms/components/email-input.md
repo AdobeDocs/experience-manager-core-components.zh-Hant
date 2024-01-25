@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 電子郵件輸入
 description: 使用或自訂最適化Forms電子郵件輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1917'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![樣式標籤](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **預設CSS類別**：您可以為最適化Forms日期選擇器核心元件提供預設CSS類別。
+- **預設CSS類別**：您可以為最適化Forms電子郵件輸入核心元件提供預設CSS類別。
 
 - **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 

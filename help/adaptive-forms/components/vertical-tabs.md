@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 垂直索引標籤
 description: 使用或自訂最適化Forms垂直索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 |---|---|
 | 元件版本 | AEM as a Cloud Service  |
 | — | — |
-| v1 | 相容於<br>[發行版本2.0.18](/help/versions.md) 及更新版本 | 相容 | 相容 |
+| v1 | 相容於<br>[發行版本2.0.18](/help/adaptive-forms/version.md) 及更新版本 | 相容 | 相容 |
 
-如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 ## 技術細節 {#technical-details}
 

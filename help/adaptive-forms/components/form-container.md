@@ -3,10 +3,10 @@ title: 最適化Forms核心元件 — 表單容器
 description: 將最適化表單新增至網頁。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 1%
+source-wordcount: '1297'
+ht-degree: 2%
 
 ---
 
@@ -65,6 +65,9 @@ To experience the Accordion Component as well as see examples of its configurati
 - **預填服務**  — 此選項可讓使用者選擇預填服務，以便在最適化表單轉譯時擷取資料。 進一步瞭解 [如何建立及設定預填服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
 - **使用者端資料庫類別**  — 使用者可以根據每個最適化表單設定自訂JavaScript程式庫。 建議僅將可重複使用的函式保留在程式庫中，這些函式需依賴jquery和underscore.js協力廠商程式庫。
+有時，如果有 **複雜驗證規則**，則確切的驗證指令碼會位於自訂函式中，且使用者會從欄位驗證運算式呼叫這些自訂函式。 AEM若要在執行伺服器端驗證時讓此自訂函式館為已知且可用，表單使用者可在 **[!UICONTROL 基本]** 最適化表單容器屬性的索引標籤，如下所示。
+
+使用者可以根據每個最適化表單設定customJavaScript程式庫。 程式庫中只會保留可重複使用的函數，這些函數與 jquery 和 underscore.js 第三方程式庫有相依性。
 
 ### 資料模型標籤 {#data-model-tab}
 
@@ -116,7 +119,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![設計對話方塊](/help/adaptive-forms/assets/formcontainer-styletab.png)
 
-- **預設CSS類別**：您可以為最適化Forms核取方塊群組核心元件提供預設CSS類別。
+- **預設CSS類別**：您可以為最適化Forms表單容器核心元件提供預設CSS類別。
 
 - **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 

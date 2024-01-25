@@ -5,15 +5,15 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 49%
+source-wordcount: '390'
+ht-degree: 39%
 
 ---
 
 
-# AEM 核心元件說明 {#using}
+# AEM核心元件說明 {#using}
 
 + [核心元件簡介](/help/introduction.md)
 + [成功的途徑](/help/developing/success.md)
@@ -24,7 +24,7 @@ ht-degree: 49%
    + [使用核心元件](/help/get-started/using.md)
    + [本地化功能](/help/get-started/localization.md)
 + WCM元件 {#wcm-components}
-   + [折疊式面板](/help/components/accordion.md)
+   + [折疊面板](/help/components/accordion.md)
    + [階層連結](/help/components/breadcrumb.md)
    + [按鈕](/help/components/button.md)
    + [傳送](/help/components/carousel.md)
@@ -38,7 +38,7 @@ ht-degree: 49%
    + [語言導覽](/help/components/language-navigation.md)
    + [清單](/help/components/list.md)
    + [導覽](/help/components/navigation.md)
-   + [Page](/help/components/page.md)
+   + [頁面](/help/components/page.md)
    + [PDF 檢視器](/help/components/pdf-viewer.md)
    + [進度列](/help/components/progress-bar.md)
    + [快速搜尋](/help/components/quick-search.md)
@@ -63,7 +63,7 @@ ht-degree: 49%
       + [內嵌 (v1)](/help/components/v1/embed.md)
       + [體驗片段 (v1)](/help/components/v1/experience-fragment.md)
       + [影像 (v1)](/help/components/v1/image-v1.md)
-      + [語言導覽 (v1)](/help/components/v1/language-navigation.md)
+      + [語言導覽(v1)](/help/components/v1/language-navigation.md)
       + [清單 (v1)](/help/components/v1/list-v1.md)
       + [導覽 (v1)](/help/components/v1/navigation.md)
       + [頁面 (v1)](/help/components/v1/page-v1.md)
@@ -74,24 +74,24 @@ ht-degree: 49%
       + v1 表單元件 {#v1-forms}
          + [表單按鈕 (v1)](/help/components/v1/form-button-v1.md)
          + [表單容器 (v1)](/help/components/v1/form-container-v1.md)
-         + [表單隱藏 (v1)](/help/components/v1/form-hidden-v1.md)
+         + [已隱藏的表單 (v1)](/help/components/v1/form-hidden-v1.md)
          + [表單選項 (v1)](/help/components/v1/form-options-v1.md)
          + [表單文字 (v1)](/help/components/v1/form-text-v1.md)
-   + v2 元件 {#v2-components}
+   + v2元件 {#v2-components}
       + [階層連結 (v2)](/help/components/v2/breadcrumb.md)
       + [影像 (v2)](/help/components/v2/image.md)
       + [清單 (v2)](/help/components/v2/list.md)
       + [頁面 (v2)](/help/components/v2/page.md)
       + [標題 (v2)](/help/components/v2/title.md)
-   + v3 元件 {#v3-components}
-      + [清單 (v3)](/help/components/v3/list.md)
+   + v3元件 {#v3-components}
+      + [清單(v3)](/help/components/v3/list.md)
 + 電子郵件元件 {#email}
    + [簡介](/help/email/introduction.md)
    + [使用電子郵件核心元件](/help/email/using.md)
    + [促銷活動變數](/help/email/campaign-variables.md)
    + [版本](/help/email/versions.md)
    + 電子郵件元件 {#components}
-      + [Page](/help/email/components/page.md)
+      + [頁面](/help/email/components/page.md)
       + [容器](/help/email/components/container.md)
       + [標題](/help/email/components/title.md)
       + [文字](/help/email/components/text.md)
@@ -113,6 +113,7 @@ ht-degree: 49%
       + [最適化Forms日期選擇器](/help/adaptive-forms/components/date-picker.md)
       + [最適化Forms下拉式清單](/help/adaptive-forms/components/drop-down.md)
       + [最適化Forms電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+      + [Adaptive Forms表單片段](/help/adaptive-forms/components/form-fragment.md)
       + [最適化Forms檔案附件](/help/adaptive-forms/components/file-attachment.md)
       + [最適化Forms垂直標籤](/help/adaptive-forms/components/vertical-tabs.md)
       + [最適化Forms水準標籤](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -123,6 +124,7 @@ ht-degree: 49%
       + [最適化Forms選項按鈕](/help/adaptive-forms/components/radio-button.md)
       + [最適化Forms重設按鈕](/help/adaptive-forms/components/reset-button.md)
       + [最適化Forms提交按鈕](/help/adaptive-forms/components/submit-button.md)
+      + [最適化Forms交換器](/help/adaptive-forms/components/switch.md)
       + [最適化Forms電話輸入](/help/adaptive-forms/components/telephone-input.md)
       + [最適化Forms文字](/help/adaptive-forms/components/text.md)
       + [最適化Forms文字方塊](/help/adaptive-forms/components/text-input.md)
@@ -136,9 +138,9 @@ ht-degree: 49%
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
    + [成功的途徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
+   + [WKND開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](/help/developing/customizing.md)
-   + [元件指引](/help/developing/guidelines.md)
+   + [元件指導方針](/help/developing/guidelines.md)
    + [AMP支援](/help/developing/amp.md)
    + [內容感知設定](/help/developing/context-aware-configs.md)
    + [包含使用者端資料庫](/help/developing/including-clientlibs.md)
@@ -149,7 +151,7 @@ ht-degree: 49%
       + [資料層概觀](/help/developing/data-layer/overview.md)
       + [與資料層的整合](/help/developing/data-layer/integrations.md)
       + [擴充資料層](/help/developing/data-layer/extending.md)
-   + AEM 專案原型 {#archetype}
+   + AEM專案原型 {#archetype}
       + [原型概觀](/help/developing/archetype/overview.md)
       + [使用原型](/help/developing/archetype/using.md)
       + [核心模組](/help/developing/archetype/core.md)

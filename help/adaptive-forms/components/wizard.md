@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 精靈
 description: 使用或自訂最適化Forms精靈核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ ht-degree: 0%
 |  |  |
 |---|---|
 | 元件版本 | AEM as a Cloud Service  |
-| — | --- |
-| v1 | 相容於<br>[版本2.0.4](/help/versions.md) 及更新版本 | 相容 | 相容 |
+| — | — |
+| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 及更新版本 | 相容 | 相容 |
 
-如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
+如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 

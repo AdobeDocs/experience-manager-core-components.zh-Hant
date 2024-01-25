@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 頁首
 description: 使用或自訂最適化Forms頁首核心元件。
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 **範例**
 
-![](/help/adaptive-forms/assets/header.png)
+![範例](/help/adaptive-forms/assets/header.png)
 
 ## 使用狀況 {#reasons-to-use-header}
 
