@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 39%
+source-wordcount: '376'
+ht-degree: 41%
 
 ---
 
@@ -154,13 +154,6 @@ ht-degree: 39%
    + AEM專案原型 {#archetype}
       + [原型概觀](/help/developing/archetype/overview.md)
       + [使用原型](/help/developing/archetype/using.md)
-      + [核心模組](/help/developing/archetype/core.md)
-      + [ui.apps模組](/help/developing/archetype/uiapps.md)
+      + [前端開發](/help/developing/archetype/front-end.md)
       + [預先編譯的套件指令碼](/help/developing/archetype/precompiled-bundled-scripts.md)
-      + [ui.content模組](/help/developing/archetype/uicontent.md)
-      + [ui.frontend.general模組](/help/developing/archetype/uifrontend.md)
-      + [ui.frontend.react模組](/help/developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular模組](/help/developing/archetype/uifrontend-angular.md)
-      + [ui.tests模組](/help/developing/archetype/uitests.md)
-      + [it.tests模組](/help/developing/archetype/ittests.md)
       + [組建分析器Maven外掛程式](/help/developing/archetype/build-analyzer-maven-plugin.md)
