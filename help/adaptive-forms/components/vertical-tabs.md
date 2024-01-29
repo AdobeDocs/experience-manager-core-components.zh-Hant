@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 垂直索引標籤
 description: 使用或自訂最適化Forms垂直索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1959'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 當使用者按一下索引標籤，表單內容會動態更新以顯示對應的區段。
 
+>[!NOTE]
+>
+> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)匯入的。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件發行版本的詳細資訊，請參閱 [最適化Forms核心元件發行版本](/help/adaptive-forms/version.md)
+
 ![範例](/help/adaptive-forms/assets/horizontal-example.png)
 
-## 使用狀況 {#reasons-to-use-vertical-tabs}
+## 使用情況 {#reasons-to-use-vertical-tabs}
 
 在最適化表單中使用垂直索引標籤的常見原因包括：
 

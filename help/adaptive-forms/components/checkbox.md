@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 核取方塊
 description: 使用或自訂Adaptive Forms核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,15 @@ ht-degree: 0%
 
 核取方塊通常以小方塊表示，只要按一下或點選核取方塊，即可將其切換為開啟或關閉。 核取核取方塊時，會顯示核取記號以顯示相關聯的選項或功能為作用中或已啟用。
 
+>[!NOTE]
+>
+> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)匯入的。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件發行版本的詳細資訊，請參閱 [最適化Forms核心元件發行版本](/help/adaptive-forms/version.md)
+
 **範例**
 
 ![核取方塊群組](/help/adaptive-forms/assets/checkbox-example.png)
 
-## 使用狀況 {#reasons-to-use-checkbox}
+## 使用情況 {#reasons-to-use-checkbox}
 
 在最適化表單中使用核取方塊的常見原因如下：
 

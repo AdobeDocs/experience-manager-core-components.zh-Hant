@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 條款與條件
 description: 使用或自訂最適化Forms條款與條件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2690'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ A **條款與條件** 元件是指表單中的區段，其中概述了使用者�
 
 此 **條款與條件** 元件是由文字、核取方塊和連結元件組成的複合元件。 文字元件包含標題以及條款和條件的用途和範圍的簡短概觀。 其中也包含用來取得使用者明確同意的核取方塊。 您也可以將同意文字取代為連結。
 
+>[!NOTE]
+>
+> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)匯入的。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件發行版本的詳細資訊，請參閱 [最適化Forms核心元件發行版本](/help/adaptive-forms/version.md)
+
 **範例**
 
 ![條款與條件](/help/adaptive-forms/assets/terms-and-conditions.png)
 
 另請參閱 [條款與條件元件的子元件](#sub-component) 區段，以進一步瞭解條款與條件元件的不同元件。
 
-## 使用狀況 {#reasons-to-use-termsandconditions}
+## 使用情況 {#reasons-to-use-termsandconditions}
 
 - **使用者協定**：元件可作為服務提供者與使用者之間的協定。 使用者存取服務或內容前，必須先確認並同意條款。
 
