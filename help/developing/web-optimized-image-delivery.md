@@ -3,9 +3,9 @@ title: 網頁最佳化的影像交付
 description: 瞭解核心元件如何運用AEMas a Cloud Service的網頁最佳化影像傳送功能，以更有效率地傳送影像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
+source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -30,33 +30,22 @@ AEM as a Cloud Service的網頁最佳化影像傳送功能可從以下位置傳�
 
 就是這樣！影像現在由影像元件以WebP格式傳送。
 
-在啟用網頁最佳化的影像傳送後，您可能也想要檢查您的Dispatcher設定，以確認其不會封鎖對影像服務的請求。 此服務的URL採用以下形式。
-
-```text
-/adobe/dynamicmedia/deliver/dm-aid--741ed388-d5f8-4797-8095-10c896dc9f1d/skitouring.jpg?quality=80&preferwebp=true
-```
-
-這可以用此規則運算式來推廣。
-
-```text
-\/adobe\/dynamicmedia\/deliver\/([^:[]|*\/])\/([\w-])\.(gif|png|png8|jpg|pjpg|bjpg|webp|webpll|webply)(?[a-z0-9=&]*)?
-```
+啟用網頁最佳化的影像傳送後，您可以檢查Dispatcher設定，確認其不會封鎖對影像傳送服務的請求。 請參閱 [此常見問題集專案](#failure-to-deliver) 以取得詳細資訊。
 
 ## 驗證WebP傳遞 {#verifying}
 
-網頁最佳化的影像傳送對內容的消費者是透明的，不會影響標籤。 一般使用者只會注意到載入時間變快。
-
-因此，若要觀察行為的實際變更，您必須檢視頁面來源。
+網頁最佳化的影像傳送對內容的消費者而言是透明的。 一般使用者只會注意到載入時間變快。 因此，若要觀察行為的任何實際變更，您必須檢查瀏覽器中演算後影像的內容型別。 所有現代瀏覽器都支援WebP。 您可參閱 [此網站](https://caniuse.com/webp) 以取得瀏覽器支援的詳細資訊。
 
 1. 在AEM中，編輯以範本為基礎的頁面，您可以 [已啟動網頁最佳化的影像傳遞](#activating) 用於影像元件。
 1. 在頁面編輯器中，選取 **頁面資訊** 左上角的按鈕，然後 **以發佈的形式檢視**.
-1. 使用您的瀏覽器開發工具，檢視頁面來源並檢視呈現的標籤如何保持不變，但影像在 `src` 屬性指向 [新影像服務的URL。](#activating)
+1. 開啟瀏覽器的開發人員工具，然後選取「網路」標籤。
+1. 重新載入頁面，並尋找載入影像的HTTP請求，然後檢查瀏覽器收到的影像內容型別。
 
 ## 當Web最佳化的影像傳送無法使用時 {#fallback}
 
 網頁最佳化的影像傳遞僅適用於AEMas a Cloud Service。 如果無法使用該功能(例如在內部部署或本機開發執行個體上執行AEM 6.5)，則影像傳送會退回使用 [自我調整影像Servlet。](/help/developing/adaptive-image-servlet.md)
 
-正如啟用Web最佳化的影像傳送不會影響標籤一樣，退回撥適型影像Servlet也不會影響標籤，因為只有 `src` 的屬性 `img` 元素已變更。
+遞補為最適化影像Servlet會變更 `src` 的屬性 `img` 頁面來源中的元素。
 
 ## 常見問題 {#faq}
 
@@ -76,15 +65,15 @@ AEM as a Cloud Service的網頁最佳化影像傳送功能可從以下位置傳�
 
 ### 為什麼此服務會顯示品質較差的影像或限制影像大小？ {#quality}
 
-網頁最佳化的影像服務會考量所有2048畫素和更小的影像轉譯，並挑選最大的影像轉譯作為套用請求之設定（寬度、裁切、格式、品質等）的基礎。
+當影像資產位於 `/content/dam` 都會處理，AEMas a Cloud Service的環境會產生不同維度的最佳化轉譯。 網頁最佳化的影像服務會分析影像核心元件要求的寬度，考量原始影像及所有2048畫素或以下大小的轉譯，並挑選影像服務可處理的最大值(在大小和維度限制內，目前為50 MB， `12k`x`12k`)作為套用請求之設定（寬度、裁切、格式、品質等）的基礎。
 
-影像服務絕對不會放大影像。 因此，這些轉譯會定義影像服務能夠傳送的最佳大小和品質。 因此，請確定您的資產都有2048畫素的縮放轉譯，如果沒有，請重新處理。
+為了保留輸出的逼真度，影像服務不會放大影像。 上述轉譯定義了影像服務能夠提供的最佳品質。 由於您通常無法影響原始影像資產的大小和/或尺寸，請確定您的影像資產都有2048畫素的縮放轉譯，如果沒有，請重新處理。
 
 ### 我的影像URL仍以.PNG或。JPG結尾，而非.WEBP，而且沒有SRCSET屬性或PICTURE元素。 這真的使用最佳化的網頁格式嗎？ {#content-negotiation}
 
-為了傳遞WebP格式，網頁最佳化的影像傳遞服務使用稱為「內容交涉」的技術。 這包括傳回WebP檔案格式，即使在請求JPG或PNG副檔名時也是如此，但僅當發出請求的瀏覽器提供 `image/webp` HTTP接受標頭。 支援此技術的瀏覽器就可以提供此標題，而較舊的瀏覽器仍會取得JPG或PNG檔案格式。
+為了傳遞WebP格式，網頁最佳化的影像傳遞服務會執行 [伺服器驅動的內容交涉。](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) 這有助於根據使用者端廣告功能選擇影像的最佳輸出格式，讓影像傳送服務可忽略副檔名。
 
-此技巧的優點在於 `img` 元素及其屬性可以維持不變，這將為現有網站帶來最佳相容性，並確保以最順暢的方式過渡到網頁最佳化的影像傳送。
+運用內容交涉的優點在於，未廣告支援WebP的瀏覽器仍會取得JPG或PNG檔案格式，而不需要變更頁面的標籤。 這樣可為現有網站提供最佳相容性，並確保以最順暢的方式過渡到網頁最佳化的影像傳送。
 
 ### 我可以搭配自己的元件使用Web最佳化的影像傳送嗎？
 
@@ -98,16 +87,12 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->直接URL內嵌的體驗不是透過在AEM Sites CS上執行的核心元件建置的，這違反Media Library授權條款。
+>非透過上述SPI (可在AEMas a Cloud Service網站上取得)建立的體驗中的直接URL嵌入違反了 [Media Library使用條款](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library).
 
-### 新影像服務所傳送的影像URL為何？ {#url}
+### 啟用Web最佳化的影像後，影像是否會無法顯示？ {#failure-to-deliver}
 
-請參閱上一節 [啟用核心元件的Web最佳化影像傳送](#activating) 例如URL和規則運算式。
+否，由於下列原因，此情況絕不應該發生。
 
-### 啟用Web最佳化的影像後，影像是否會無法顯示？
-
-不，這絕不應該發生。
-
-* 在HTML中，啟用Web最佳化影像時，標籤不會變更，只有影像元素上SRC屬性的值會變更。
+* 在HTML中，啟用Web最佳化影像時，標籤不會變更，只會變更 `src` 影像元素上的屬性會變更。
 * 每當新的影像服務無法使用或無法處理所需的影像時，產生的URL將 [後援至最適化影像Servlet。](#fallback)
-* Dispatcher規則可能會封鎖網頁最佳化的影像服務，並且 [啟動功能時應該勾選。](#activating)
+* Dispatcher規則可能會封鎖網頁最佳化的影像傳送服務。 影像傳遞服務的URL開頭為 `/adobe`，並檢查 [已拒絕請求的Dispatcher記錄](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 應該有助於疑難排解將影像傳送至瀏覽器期間所遇到的任何問題。
