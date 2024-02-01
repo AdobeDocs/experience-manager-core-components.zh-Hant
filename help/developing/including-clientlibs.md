@@ -1,20 +1,36 @@
 ---
-title: 包含使用者端資料庫
-description: 根據您的使用案例，包含使用者端資料庫的方式有很多種。
+title: 使用者端程式庫與核心元件
+description: 核心元件隨附許多使用者端資料庫，並提供包含您自己的資料庫的功能。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
-# 包含使用者端資料庫 {#including-client-libraries}
 
-要包含的方法有很多種 [使用者端資料庫](/help/developing/archetype/front-end.md#clientlibs) 視您的使用案例而定。 本檔案提供範例和範例 [HTL代碼片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) （每個）。
+# 使用者端程式庫與核心元件 {#client-libraries}
 
-## 建議的預設使用方式 {#recommended-default-usage}
+核心元件隨附許多使用者端資料庫，並提供包含您自己的資料庫的功能。
+
+## 提供的使用者端資料庫 {#provided}
+
+核心元件提供下列現成可用的使用者端程式庫。
+
+* 此 **網站** clientlibs提供要套用至網站之元件的極簡功能行為。
+   * 這是加速專案的起點，同時鼓勵擴充和延伸實作 [自訂](/help/developing/customizing.md) 以獲得所需的外觀和功能。
+* 此 **編輯者** clientlibs會套用至編寫對話方塊，以確保其預期的功能和外觀。
+* 此 **editorhook** 以編輯模式載入時，clientlibs會套用至網站。
+   * 這些檔案包含在編輯器觸發的事件上執行的JavaScript程式碼，有助於初始化動態功能。
+* 某些元件可能具有專為特定情況而設計的特定額外clientlibs，例如與搭配使用時 [Dynamic Media](/help/components/image.md#dynamic-media) 例如。
+
+## 包含使用者端資料庫 {#including}
+
+要包含的方法有很多種 [使用者端資料庫](/help/developing/archetype/front-end.md#clientlibs) 視您的使用案例而定。 以下是範例的範例 [HTL代碼片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) （每個）。
+
+### 建議的預設使用方式 {#recommended-default-usage}
 
 如果您沒時間調查您所處情況下的最佳使用，請在頁面中放入下列HTL行，以包含使用者端程式庫 `head` 元素：
 
@@ -27,7 +43,7 @@ ht-degree: 0%
 
 這會將CSS和JS納入您的頁面 `head`，但新增 `defer` 屬性至您的JS `script` 包含，讓瀏覽器等候DOM準備就緒再執行指令碼，進而將頁面載入速度最佳化。
 
-## 基本用途 {#basic-usage}
+### 基本用途 {#basic-usage}
 
 包含使用者端資料庫類別的JS和CSS的基本語法，會產生所有對應的CSS `link` 元素和/或JS `script` 元素如下所示：
 
@@ -46,7 +62,7 @@ ht-degree: 0%
 </sly>
 ```
 
-## 僅限CSS或JS {#css-js-only}
+### 僅限CSS或JS {#css-js-only}
 
 通常，需要將CSS包含的內容放入HTML中 `head` 元素，且JS包含在 `body` 元素。
 
@@ -66,7 +82,7 @@ ht-degree: 0%
 </sly>
 ```
 
-## 屬性 {#attributes}
+### 屬性 {#attributes}
 
 若要將屬性套用至產生的CSS `link` 元素和/或JS `script` 元素中，可以有許多引數：
 
@@ -90,7 +106,7 @@ CSS `link` 可傳遞到的屬性 `jsAndCssIncludes` 和 `cssIncludes`：
 * `onload`：字串
 * `crossorigin`：字串
 
-## 內嵌 {#inlining}
+### 內嵌 {#inlining}
 
 在某些情況下，針對最佳化，或針對電子郵件或 [AMP、](amp.md) 可能需要將CSS或JS內嵌至HTML的輸出中。
 
@@ -112,7 +128,7 @@ CSS `link` 可傳遞到的屬性 `jsAndCssIncludes` 和 `cssIncludes`：
 </script>
 ```
 
-## 載入內容感知CSS和JavaScript {#context-aware-loading}
+### 載入內容感知CSS和JavaScript {#context-aware-loading}
 
 此 [頁面元件](/help/components/page.md) 也支援載入開發人員定義的內容感知CSS、JavaScript或中繼標籤。
 

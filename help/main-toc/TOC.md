@@ -5,9 +5,9 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
+source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 41%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 41%
 # AEM核心元件說明 {#using}
 
 + [核心元件簡介](/help/introduction.md)
++ [回應式設計](/help/responsive.md)
 + [成功的途徑](/help/developing/success.md)
 + [元件資料庫](https://adobe.com/go/aem_cmp_library)
 + [版本](/help/versions.md)
@@ -46,12 +47,12 @@ ht-degree: 41%
    + [社交媒體分享](/help/components/sharing.md)
    + [目錄](/help/components/tableofcontents.md)
    + [文字](/help/components/text.md)
-   + [索引標籤](/help/components/tabs.md)
+   + [標籤](/help/components/tabs.md)
    + [Teaser](/help/components/teaser.md)
    + [標題](/help/components/title.md)
    + 表單元件 {#forms}
       + [表單按鈕](/help/components/forms/form-button.md)
-      + [來自容器](/help/components/forms/form-container.md)
+      + [表單容器](/help/components/forms/form-container.md)
       + [已隱藏的表單](/help/components/forms/form-hidden.md)
       + [表單選項](/help/components/forms/form-options.md)
       + [表單文字](/help/components/forms/form-text.md)
