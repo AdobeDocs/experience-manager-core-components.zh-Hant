@@ -3,9 +3,9 @@ title: 網頁最佳化的影像交付
 description: 瞭解核心元件如何運用AEMas a Cloud Service的網頁最佳化影像傳送功能，以更有效率地傳送影像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -95,4 +95,5 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 * 在HTML中，啟用Web最佳化影像時，標籤不會變更，只會變更 `src` 影像元素上的屬性會變更。
 * 每當新的影像服務無法使用或無法處理所需的影像時，產生的URL將 [後援至最適化影像Servlet。](#fallback)
-* Dispatcher規則可能會封鎖網頁最佳化的影像傳送服務。 影像傳遞服務的URL開頭為 `/adobe`，並檢查 [已拒絕請求的Dispatcher記錄](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 應該有助於疑難排解將影像傳送至瀏覽器期間所遇到的任何問題。
+
+不過，Dispatcher規則可能會封鎖網頁最佳化的影像傳送服務。 影像傳遞服務的URL開頭為 `/adobe`，並檢查Dispatcher記錄檔中拒絕的請求 [此處說明](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 應該有助於疑難排解將影像傳送至瀏覽器期間所遇到的任何問題。
