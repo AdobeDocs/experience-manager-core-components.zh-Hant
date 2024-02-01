@@ -2,13 +2,14 @@
 product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
 type: Documentation
-description: Adobe Experience Manager核心元件文檔
+description: Adobe Experience Manager核心元件的檔案
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.zh-Hant
 index: y
-source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
+recommendations: noDisplay
+source-git-commit: 55e5ef9271b07d8fffc7b396c890af1637309ff3
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 89%
+source-wordcount: '101'
+ht-degree: 91%
 
 ---
 
