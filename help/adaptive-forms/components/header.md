@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 頁首
 description: 使用或自訂最適化Forms頁首核心元件。
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![範例](/help/adaptive-forms/assets/header.png)
 
-## 使用狀況 {#reasons-to-use-header}
+## 使用情況 {#reasons-to-use-header}
 
 - **品牌化**：頁首可用於顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
 
@@ -44,7 +44,6 @@ ht-degree: 1%
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
-
 
 ## 技術細節 {#technical-details}
 

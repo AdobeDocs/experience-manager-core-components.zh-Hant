@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 表單容器
 description: 將最適化表單新增至網頁。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 2%
@@ -17,7 +17,6 @@ Forms可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與
 ## 使用情況 {#reasons-to-use-forms-container}
 
 可以將表單新增至網站的原因有幾個：
-
 - **資料彙集**：Forms可用來從網站訪客收集資料，以進行各種用途，例如市場研究、使用者行為分析等。
 
 - **銷售機會開發**：表單可用來從潛在客戶收集資訊，例如姓名和電子郵件地址，以針對銷售和行銷工作產生潛在客戶。

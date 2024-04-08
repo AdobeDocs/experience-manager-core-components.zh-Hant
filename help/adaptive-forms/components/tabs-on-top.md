@@ -2,10 +2,10 @@
 title: 最適化Forms核心元件 — 索引標籤在頂端
 description: 在頂端核心元件上使用或自訂最適化Forms標籤。
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 7%
+source-wordcount: '467'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 ![](/help/adaptive-forms/assets/tabs.png)
 
-## 使用狀況 {#reasons-to-use-tab-on-the-top-layout}
+## 使用情況 {#reasons-to-use-tab-on-the-top-layout}
 
 在最適化表單的頂端版面配置上使用索引標籤有幾個原因：
 
@@ -68,7 +68,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [折疊式面板](/help/adaptive-forms/components/accordion.md)
 >* [按鈕](/help/adaptive-forms/components/button.md)
 >* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
->* [日期挑選器](/help/adaptive-forms/components/date-picker.md)
+>* [日期選取器](/help/adaptive-forms/components/date-picker.md)
 >* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
 >* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
 >* [來自容器](/help/adaptive-forms/components/form-container.md)
@@ -89,5 +89,6 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [精靈](/help/adaptive-forms/components/wizard.md)
 
 ## 另請參閱 {#see-also}
+
 
 {{see-also}}

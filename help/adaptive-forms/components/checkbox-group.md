@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 核取方塊群組
 description: 使用或自訂Adaptive Forms核取方塊群組核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: db65bd4dd2190ea034799ae209edd78598ac8a48
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 0%

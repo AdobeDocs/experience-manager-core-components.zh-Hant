@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 精靈
 description: 使用或自訂最適化Forms精靈核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 0e7bfe0d9a7263469d96227e37caf932a8c135c6
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -19,7 +19,6 @@ ht-degree: 0%
 精靈版面對於含有大量欄位或需要收集資訊的表單非常有用，因為它會將表單劃分為更小、更易於管理的區塊。 此外，也可協助使用者一次只專注於一組欄位，減少填寫表單的麻煩。
 
 但是，它也可能會增加表單的複雜性，因為使用者必須瀏覽幾個頁面才能完成表單。 因此，在決定使用精靈版面配置之前，必須評估表單需求和使用者需求。
-
 您可以在調適型表單中使用精靈版面配置核心元件來建立精靈版面。
 
 

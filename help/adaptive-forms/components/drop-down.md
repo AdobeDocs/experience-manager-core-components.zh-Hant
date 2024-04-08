@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 下拉式清單
 description: 使用或自訂最適化Forms下拉式核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 0%
@@ -78,7 +78,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
 - **允許多重選取**  — 選取此選項，從下拉式清單中選取多個選項。
-
 - **另存值**  — 此選項會指定選取任何選項時傳送之值的資料型別。 如果 **另存值** 設為 `Number` 而您將字串資料新增至 **資料值** 在&#x200B;&#x200B;上 **選項** 索引標籤中，畫面會顯示 `Value type mismatch` 錯誤訊息。
 
   在 **選項** 索引標籤上，您可以使用 **新增** 按鈕。 在新增選項後，會執行下列動作：

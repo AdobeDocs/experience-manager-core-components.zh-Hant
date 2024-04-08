@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 選項按鈕
 description: 使用或自訂最適化Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 0%
@@ -72,7 +72,6 @@ To experience the Accordion Component as well as see examples of its configurati
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
 - **選項**  — 您可以新增資料值並顯示文字配對，使用 **新增** 按鈕。
@@ -85,7 +84,6 @@ To experience the Accordion Component as well as see examples of its configurati
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   新增選項後，可以執行下列動作：
-
    - **資料值**  — 此選項可讓您輸入在選取選項時要提交的內容。
    - **顯示文字**  — 此選項可讓您輸入要在最適化表單中顯示的內容。
    - **刪除**  — 點選或按一下以刪除選項按鈕的選項。

@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 垂直索引標籤
 description: 使用或自訂最適化Forms垂直索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 0%
@@ -49,7 +49,6 @@ ht-degree: 0%
 ## 技術細節 {#technical-details}
 
 在的技術檔案中取得最適化Forms垂直標籤核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
-
 
 ## 設定對話方塊 {#configure-dialog}
 

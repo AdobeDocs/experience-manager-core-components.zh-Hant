@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 檔案附件
 description: 使用或自訂Adaptive Forms檔案附件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -84,7 +84,6 @@ To experience the Accordion Component as well as see examples of its configurati
 ![驗證標籤](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
 - **必填**  — 如果您想要在最適化表單中顯示元件，請選取此選項。 選取選項後，您必須附加附件才能繼續提交表單。 您無法選取 **隱藏元件** 或 **停用元件**  在 **基本** 標籤。
-
 - **錯誤訊息**  — 此選項可讓您輸入訊息，如果 **必填** 核取方塊，且欄位留空。
 
 - **指令碼驗證訊息**  — 此選項可讓您輸入指令碼驗證失敗時顯示的訊息。

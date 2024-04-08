@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 標題
 description: 使用或自訂最適化Forms標題核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![範例](/help/adaptive-forms/assets/title.png)
 
-## 使用狀況 {#reasons-to-use-title-in-an-adaptive-form}
+## 使用情況 {#reasons-to-use-title-in-an-adaptive-form}
 
 在表單中使用標題是好的作法的原因有幾個：
 
@@ -109,6 +109,7 @@ To experience the Accordion Component as well as see examples of its configurati
 -->
 
 ## 相關文章 {#related-articles}
+
 
 {{more-like-this}}
 

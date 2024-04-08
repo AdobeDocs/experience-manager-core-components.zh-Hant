@@ -5,10 +5,10 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 3%
+source-wordcount: '869'
+ht-degree: 2%
 
 ---
 
@@ -18,8 +18,7 @@ CAPTCHA （完全自動化公用圖靈測試來區分電腦和人之間的差異
 
 AEM Formsas a Cloud Service支援Adaptive Forms中的Google reCAPTCHA v2。 您可以用它來在表單提交時提出驗證碼質詢
 
-## 使用狀況 {#reasons-to-use-google-recaptcha}
-
+## 使用情況 {#reasons-to-use-google-recaptcha}
 
 - **垃圾郵件和機器人預防**：使用reCAPTCHA的主要原因之一，是防止垃圾訊息提交和惡意機器人淹沒您的表單。 reCAPTCHA的進階演演算法可偵測自動提交表單的嘗試，因此可確保只有合法使用者才能與其互動。
 
@@ -38,7 +37,7 @@ AEM Formsas a Cloud Service支援Adaptive Forms中的Google reCAPTCHA v2。 您�
 |  |  |
 |---|---|
 | 元件版本 | AEM as a Cloud Service  |
-| — | --- |
+| — | — |
 | v1 | 相容於<br>[版本2.0.4](/help/versions.md) 及更新版本 | 相容 | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/versions.md) 檔案。
@@ -61,7 +60,7 @@ AEM Formsas a Cloud Service支援Adaptive Forms中的Google reCAPTCHA v2。 您�
 
 - **設定** -
 
-- **類型** -
+- **型別** -
 
 - **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 
@@ -90,7 +89,7 @@ AEM Formsas a Cloud Service支援Adaptive Forms中的Google reCAPTCHA v2。 您�
 - [將最適化表單連線至Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html)
 - [在AEM最適化表單中使用Adobe Sign](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)
 - [為最適化表單新增地區設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
-- [傳送最適化表單資料至資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
+- [將最適化表單資料傳送到資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
 - [傳送最適化表單資料至REST端點](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
 - [傳送最適化表單資料至AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
 - [使用Forms入口網站列出AEM網站上的AEM Adaptive Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)

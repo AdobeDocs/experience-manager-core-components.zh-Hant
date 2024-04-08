@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 水準索引標籤
 description: 使用或自訂最適化Forms水準索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 0%
@@ -109,7 +109,6 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **將索引標籤置於最上方可重複**：一種切換功能，可讓使用者啟用或停用重複測量功能。
 - **最小重複次數**：建立水平定位點元件可重複的最小次數。 值為零表示「水平定位點」元件不會重複；預設值為零。
 - **最大重複次數**：設定水準索引標籤元件可重複的最大次數。 預設情況下，此值為無限制。
-
 若要有效管理水準標籤內的可重複區段，請依照以下提供的步驟操作： [建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
 
 ### 專案標籤 {#items-tab}
