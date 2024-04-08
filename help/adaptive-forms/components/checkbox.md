@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 核取方塊
 description: 使用或自訂Adaptive Forms核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,11 @@ ht-degree: 0%
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，根據預設，標題會顯示在元件的旁邊。 如果您未新增標題，元件不會顯示。
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
@@ -73,12 +78,9 @@ ht-degree: 0%
 - **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 
 - **停用元件**  — 選取選項以停用或鎖定元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
-- **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **選取後，傳回值**  — 選取此選項，以指定核取方塊被核取或選取時，應該與核取方塊關聯的值。 這是當您標籤或勾選核取方塊時發生的動作。
-- **啟用取消核取。** — 選取選項，以啟用或停用取消核取先前已核取的核取方塊的功能。
-   - 如果 **啟用取消核取** 啟用或設為true，這表示使用者可以自行決定勾選和取消勾選核取方塊。 他們可視需要開啟或關閉核取方塊。
-
-   - 如果 **啟用取消核取** 停用或設為false，這表示核取方塊一旦勾選，就不允許使用者取消勾選。
+- **保留取消核取狀態值** — 選取此選項，以指定未選取核取方塊元件時要傳回的值。 如果 **保留取消核取狀態值** 已啟用或設為true， **取消勾選時，傳回值** 選項隨即顯示。
 - **取消勾選時，傳回值**  — 選項可讓您指定當核取方塊處於未核取或取消核取狀態時，應該與核取方塊關聯的值。
 
 - **預設值**：此選項可讓您在表單欄位中新增預設值。 如果 **已停用的元件** 或 **唯讀元件** 選取時，預設值會顯示在畫面上。 如果使用者在表單欄位中未輸入值，此值會在表單提交時提交。

@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 電子郵件輸入
 description: 使用或自訂最適化Forms電子郵件輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在規則編輯器中可唯一識別元件的名稱。名稱字串中不允許特殊字元和空格。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -76,6 +80,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **預設值**  — 此選項可讓您在表單欄位中新增預設值。 如果 **已停用的元件** 或 **唯讀元件** 選取時，預設值會顯示在畫面上。 如果使用者在表單欄位中未輸入值，此值會在表單提交時提交
 
+- **Autofill屬性**：選項可讓使用者輸入值，該值會根據儲存的資訊自動填入表單欄位中。
 
 ### 驗證標籤 {#validation-tab}
 

@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 面板容器
 description: 使用或自訂Adaptive Forms面板容器核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2052'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![範例](/help/adaptive-forms/assets/panel-container.png)
 
-## 使用狀況 {#reasons-to-use-panel-container}
+## 使用情況 {#reasons-to-use-panel-container}
 
 在表單中使用面板有幾個理由，包括：
 
@@ -65,6 +65,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -94,6 +98,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 - **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 - **停用元件**  — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+- **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
 ### 重複面板標籤 {#repeat-panel}
 
@@ -101,7 +106,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 您可以使用重複性選項來複製面板容器及其子元件、定義最小和最大重複計數，以及簡化表單中類似區段的複製。 與面板容器元件互動並存取其設定時，會顯示下列選項：
 
-- **讓精靈可重複**：一種切換功能，可讓使用者啟用或停用重複測量功能。
+- **讓面板可重複**：一種切換功能，可讓使用者啟用或停用重複測量功能。
 - **最小重複次數**：建立面板容器可重複的最小次數。 值為零表示「精靈」面板不會重複；預設值為零。
 - **最大重複次數**：設定面板容器可重複的最大次數。 預設情況下，此值為無限制。
 

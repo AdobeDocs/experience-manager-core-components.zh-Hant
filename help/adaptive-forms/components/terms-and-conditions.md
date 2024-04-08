@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 條款與條件
 description: 使用或自訂最適化Forms條款與條件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
+source-git-commit: c29798f15edb77fbc5912010685e97c1072e2034
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2862'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,10 @@ A **條款與條件** 元件是指表單中的區段，其中概述了使用者�
 - **名稱**  — 此名稱可唯一識別規則編輯器中的元件。 名稱字串中不允許特殊字元和空格。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **顯示核准選項**  — 選取選項，以顯示用來取得使用者明確同意的同意核取方塊。
 
@@ -114,7 +118,9 @@ A **條款與條件** 元件是指表單中的區段，其中概述了使用者�
 
 ![協助工具標籤](/help/adaptive-forms/assets/terms-and-conditions-accessibility-tab.png)
 
-**熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+- **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+
+- **熒幕助讀程式宣告的HTML角色** -HTML角色是一種屬性，用來指定HTML元素對輔助技術（例如熒幕閱讀程式）的用途。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -163,10 +169,23 @@ A **條款與條件** 元件是指表單中的區段，其中概述了使用者�
 - **名稱**  — 此名稱可唯一識別規則編輯器中的元件。 名稱字串中不允許特殊字元和空格。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
 - **連結**  — 指定用來取代同意文字的連結和對應顯示文字。 您可以按一下 **新增** 按鈕。
+新增選項後，可以執行下列動作：
+   - **連結**  — 此選項可讓您在選取選項時，輸入要重新導向的URL。
+   - **顯示文字**  — 此選項可讓您輸入要在最適化表單中顯示的內容。
+   - **刪除**  — 點選或按一下以刪除選項按鈕的選項。
+   - **重新排列**  — 點選或按一下並拖曳以重新排列選項。
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
 
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 

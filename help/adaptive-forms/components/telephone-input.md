@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 電話輸入
 description: 使用或自訂最適化Forms電話輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2027'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![範例](/help/adaptive-forms/assets/emailid-example.png)
 
-## 使用狀況 {#reasons-to-use-telephone-input}
+## 使用情況 {#reasons-to-use-telephone-input}
 
 在最適化表單中使用電話輸入欄位的常見原因包括：
 
@@ -50,11 +50,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 您可以透過「設定」對話方塊輕鬆自訂訪客的電話輸入體驗。 您也可以輕鬆定義電話輸入選項，提供順暢的使用者體驗。
 
-![基本標籤](/help/adaptive-forms/assets/telephoneinput_basictab.png)
+![基本索引標籤](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -69,7 +73,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
-- **預設值**  — 此選項可讓您在表單欄位中新增預設值。 如果 **已停用的元件** 或 **唯讀元件** 選取時，預設值會顯示在畫面上。 如果使用者在表單欄位中未輸入值，此值會在表單提交時提交
+- **預設值**  — 此選項可讓您在表單欄位中新增預設值。 如果 **已停用的元件** 或 **唯讀元件** 選取時，預設值會顯示在畫面上。 如果使用者在表單欄位中未輸入值，此值會在表單提交時提交。
+
+- **Autofill屬性**：選項可讓使用者輸入值，該值會根據儲存的資訊自動填入表單欄位中。
 
 ### 驗證標籤 {#validation-tab}
 
@@ -87,7 +93,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **字元數下限**  — 此選項可讓您指定欄位中允許的最小字元數。 如果您輸入的字元數小於中指定的值 **字元數下限**，畫面會顯示錯誤訊息。 此 **最少字元錯誤訊息** 對話方塊可讓您新增自訂錯誤訊息。
 
-- *最少字元錯誤訊息** - **最少字元錯誤訊息** 如果輸入的字元數小於指定的值，對話方塊可讓您新增自訂錯誤訊息。 **字元數下限** 選項。
+- **最少字元錯誤訊息** - **最少字元錯誤訊息** 如果輸入的字元數小於指定的值，對話方塊可讓您新增自訂錯誤訊息。 **字元數下限** 選項。
 
 此 **驗證模式** 選項可讓您輸入模式，以驗證輸入的電話號碼。 輸入的電話號碼會根據 **圖樣** 選項。 如果電話號碼無法以在中輸入的值進行驗證 **圖樣** 選項，熒幕上會顯示錯誤訊息。
 

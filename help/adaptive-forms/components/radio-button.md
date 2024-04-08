@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 選項按鈕
 description: 使用或自訂最適化Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 此外，每個選項按鈕都可設定為每個選項提供不同的處理值，並可使用最適化Forms規則編輯器進行設定
 
-## 使用狀況 {#reasons-to-use-radio-button}
+## 使用情況 {#reasons-to-use-radio-button}
 
 在表單中使用選項按鈕有幾個理由，包括：
 
@@ -67,10 +67,24 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
-  在 **選項** 索引標籤上，您可以使用 **新增** 按鈕。 新增選項後，即可執行下列動作：
+- **選項**  — 您可以新增資料值並顯示文字配對，使用 **新增** 按鈕。
+  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
+
+  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
+
+  新增選項後，可以執行下列動作：
 
    - **資料值**  — 此選項可讓您輸入在選取選項時要提交的內容。
    - **顯示文字**  — 此選項可讓您輸入要在最適化表單中顯示的內容。

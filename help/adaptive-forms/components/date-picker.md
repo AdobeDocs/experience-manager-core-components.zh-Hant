@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 日期選擇器
 description: 使用或自訂最適化Forms日期選擇器核心元件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1980'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![範例](/help/adaptive-forms/assets/date-picker.png)
 
-## 使用狀況 {#reasons-to-use-drop-date-picker}
+## 使用情況 {#reasons-to-use-drop-date-picker}
 
 在最適化表單中加入日期選擇器有幾個好處，包括：
 
@@ -64,10 +64,16 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 此名稱可唯一識別規則編輯器中的元件。 名稱字串中不允許特殊字元和空格。
 
 - **標題**  — 標題是出現在最適化表單中元件頂端的字串。 標題可唯一識別最適化表單樹狀結構中的元件。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **隱藏標題**  — 選取此選項可隱藏最適化表單中元件型別的標題。
 
 - **預留位置文字**  — 表單元件中的預留位置文字是指在輸入欄位中顯示的簡短標籤或提示，作為使用者應在該欄位中輸入哪種資訊型別的提示。 當使用者開始在欄位中輸入時，預留位置文字消失，如果欄位留空，則會重新出現。 它向使用者提供視覺提示，但不會作為欄位的永久標籤或值。
+
+- **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 
 - **標籤為未繫結表單元素**：選取選項以設定未連結至任何結構的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
 
@@ -90,11 +96,13 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最小日期**  — 此選項可讓您輸入最低需求日期。 如果您輸入的日期早於在「最小日期」中指定的日期，畫面會顯示錯誤訊息。 此 **最小錯誤訊息** 對話方塊可讓您新增自訂錯誤訊息。
 
 - **最小錯誤訊息** - **最小錯誤訊息** 如果您輸入的日期早於中指定的日期，對話方塊可讓您新增要顯示的自訂錯誤訊息。 **最小日期** 選項。
+- **排除最小日期**  — 此選項可忽略指定日期範圍或日期集內的最小日期。
 
 - **最大日期**  — 此選項可讓您輸入所需的最大日期。 如果您輸入的日期晚於在「最大日期」中指定的日期，則畫面會顯示錯誤訊息。 此 **錯誤訊息上限** 對話方塊可讓您新增自訂錯誤訊息。
 
 - **錯誤訊息上限** - **錯誤訊息上限** 如果您輸入的日期晚於 **最大日期** 選項。
 
+- **排除最大日期**  — 此選項可忽略指定日期範圍或日期集內的最大日期。
 
 ### 說明內容標籤 {#help-content-tab}
 
@@ -120,10 +128,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **顯示格式**  — 代表向使用者顯示的日期格式。 此 **型別** 選項可讓使用者選取日期格式。 您也可以使用來自訂日期格式 **自訂** 中的選項 **型別** 下拉式功能表。
 
 - **編輯格式**  — 代表使用者可編輯日期的日期格式。 此 **型別** 選項可讓使用者選取日期格式。 您也可以使用來自訂日期格式 **自訂** 中的選項 **型別** 下拉式功能表。
-
-- **顯示格式**  — 代表向使用者顯示的日期格式。 型別選項可讓使用者選取日期格式。 您也可以使用來自訂日期格式 **自訂** 中的選項 **型別** 下拉式功能表。
-
-- **編輯格式**  — 代表使用者編輯日期的日期格式。 型別選項可讓使用者選取日期格式。 您也可以使用來自訂日期格式 **自訂** 中的選項 **型別** 下拉式功能表。
 
 ## 設計對話方塊 {#design-dialog}
 

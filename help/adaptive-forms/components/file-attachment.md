@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 檔案附件
 description: 使用或自訂Adaptive Forms檔案附件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1726'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ![範例](/help/adaptive-forms/assets/upload-image.png)
 
 
-## 使用狀況 {#reasons-to-use-file-attachment}
+## 使用情況 {#reasons-to-use-file-attachment}
 
 在最適化表單中加入檔案附件元件有幾個好處，包括：
 
@@ -62,6 +62,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -73,6 +77,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **停用元件**  — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 - **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 - **允許多個附件**  — 選取此選項以使用上傳多個附件 **檔案附件** 按鈕。
+- **拖放文字**  — 這是顯示在 **附加** 按鈕以提示使用者附加或拖放檔案。 您可以選擇自訂顯示在頂端的 **附加** 按鈕。 <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### 驗證標籤 {#validation-tab}
 
@@ -84,11 +89,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **指令碼驗證訊息**  — 此選項可讓您輸入指令碼驗證失敗時顯示的訊息。
 
-- **最小檔案錯誤訊息**  — 此選項用於輸入當您上傳的檔案數小於指定的最小檔案數時顯示的錯誤訊息。
-
-- **最大檔案錯誤訊息**  — 此選項用於輸入當您上傳的檔案大於指定的最大檔案數時顯示的錯誤訊息。
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **檔案大小上限(MB)**  — 此選項可指定檔案大小上限。 檔案大小以MB為單位指定。
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **檔案大小上限錯誤訊息**  — 此選項用於輸入當您上傳的檔案大小超過中指定的檔案大小時顯示的錯誤訊息。 **檔案大小上限(MB)** 選項。
 

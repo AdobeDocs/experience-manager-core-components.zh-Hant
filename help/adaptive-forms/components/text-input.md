@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 文字輸入（文字方塊）
 description: 使用或自訂最適化Forms文字輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 ![範例](/help/adaptive-forms/assets/text-input.png)
 
 
-## 使用狀況 {#reasons-to-use-text-input-field}
+## 使用情況 {#reasons-to-use-text-input-field}
 
 在最適化表單中使用文字輸入元件有幾個理由：
 
@@ -57,6 +57,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -75,9 +79,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **允許多行**  — 此選項可讓使用者在表單欄位中輸入多行。
 
-- **允許RTF文字**  — 「編輯」對話方塊提供標準的RTF格式工具，可讓使用者設定文字格式。
-
-- **自動填寫屬性**  — 自動填寫選項會根據圖樣或先前輸入的文字填入表單欄位。 當使用者開始在表單欄位中輸入文字時，建議會出現在下拉式清單中，使用者可以從其中選取適當的選項。
+- **自動填寫屬性**  — 選項可讓使用者輸入值，該值會根據儲存的資訊自動填入表單欄位中。
 
 ### 驗證標籤 {#validation-tab}
 

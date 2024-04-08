@@ -2,13 +2,13 @@
 title: 最適化表單片段
 description: 使用表單片段建立表單片段或欄位群組，並在最適化Forms中重複使用，以提高效率和可重複使用性。
 role: Architect, Developer, Admin, User
-source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1780'
 ht-degree: 1%
 
 ---
-
 
 # 表單片段元件 {#form-fragment-component-adaptive-forms-core-component}
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 > 您可以 [建立自適應表單片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) 從頭開始或將現有Adaptive Form中的面板另存為片段。
 
-## 使用狀況 {#usage}
+## 使用情況 {#usage}
 
 - **可重複使用**：在多個最適化Forms中重複使用表單片段的能力是使用表單片段的主要優點。 它有助於保持設計和功能的一致性，因為對片段所做的變更會反映在使用片段的所有例項中。
 
@@ -60,6 +60,10 @@ Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的�
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -112,11 +116,13 @@ Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的�
 
 - **說明文字**  — 說明文字是指為協助使用者正確填寫表單欄位而提供的其他資訊或指引。 當使用者按一下放置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更詳細，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，讓填寫表單更容易、更準確。
 
-### 協助工具 {#accessibility}
+### 親和力 {#accessibility}
 
 ![協助工具標籤](/help/adaptive-forms/assets/fragment-accessibilitytab.png)
 
 - **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+
+- **熒幕助讀程式宣告的HTML角色** -HTML角色是一種屬性，用來指定HTML元素對輔助技術（例如熒幕閱讀程式）的用途。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -153,9 +159,3 @@ Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的�
 ## 另請參閱 {#see-also}
 
 {{see-also}}
-
-
-
-
-
-

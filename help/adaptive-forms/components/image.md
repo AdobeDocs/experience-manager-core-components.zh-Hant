@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 影像
 description: 使用或自訂最適化Forms影像核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1057'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 ![範例](/help/adaptive-forms/assets/image.png)
 
 
-## 使用狀況 {#reasons-to-use-image-in-a-form}
+## 使用情況 {#reasons-to-use-image-in-a-form}
 
 在最適化表單中加入影像元件有幾個好處，包括：
 
@@ -66,7 +66,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **標籤為未繫結表單元素**：選取選項以設定未連結至任何結構的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
 
-- **記錄檔案繫結參考**  — 此選項可讓您將最適化表單欄位與記錄檔案欄位建立關聯。 當使用者在最適化表單的連結欄位中輸入任何值時，該值也會出現在相應記錄檔案的連結欄位中。 例如，記錄檔案繫結參考可用於根據在表單中輸入的客戶ID在記錄檔案中顯示客戶名稱和地址。 透過這種方式，AEM Forms可讓您產生記錄檔案，並提供收集和管理資料的順暢使用者體驗。
+<!--   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enable you to generate Document of Record and offers a seamless user experience for collecting and managing data.-->
 
 - **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
 
@@ -79,7 +79,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 
-- **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+<!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-->
 
 ## 設計對話方塊 {#design-dialog}
 

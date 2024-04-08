@@ -3,14 +3,14 @@ title: 最適化Forms核心元件 — 水準索引標籤
 description: 使用或自訂最適化Forms水準索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '1979'
 ht-degree: 0%
 
 ---
 
-# 水準索引標籤 {#horizontal-tabs-adaptive-forms-core-component}
+# 水準索引標籤（頂端索引標籤）{#horizontal-tabs-adaptive-forms-core-component}
 
 最適化表單中的水準索引標籤是指一個設計模式，其中表單的多個區段分組在一起，並以水準對齊的單獨索引標籤顯示。 使用者可在標籤之間切換以存取表單的不同區段。 每個標籤都會當作顯示和隱藏相關表單內容的觸發器。 水準標籤有助於將長表格組織成易於管理的部分，並改善使用者體驗。 索引標籤可協助殘障使用者更輕鬆地存取表單，因為他們可以使用鍵盤導覽在區段之間切換。
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![範例](/help/adaptive-forms/assets/horizontal-example-new.png)
 
-## 使用狀況 {#reasons-to-use-horizontal-tabs}
+## 使用情況 {#reasons-to-use-horizontal-tabs}
 
 在最適化表單中使用水準索引標籤的常見原因包括：
 
@@ -63,9 +63,12 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
-
 
 - **在表單提交時將子元件的資料分組（將資料包裝在物件中）**  — 選取選項時，其子元件的資料會巢狀內嵌於父元件的JSON物件中。 但是，如果未選取選項，則提交的JSON資料會具有平坦結構，沒有父元件的物件。 例如：
 
@@ -90,11 +93,12 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **版面**  — 您可以為精靈設定固定版面（簡單）或彈性版面（回應式格線）。 「簡單」版面可讓一切固定在原處，而「回應式格線」則可讓您調整元件位置，以符合需求。 例如，使用回應式格線在單一列中對齊表單中的「名字」、「中間名」和「姓氏」。
+<!-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. -->
 
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 - **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 - **停用元件**  — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+- **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
 ### 重複頂端標籤 {#repeat-tabs-on-top}
 
@@ -102,7 +106,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 您可以使用重複性選項來複製「水平定位點」元件及其子元件、定義最小和最大重複計數，以及簡化表單中類似區段的複製。 與「水準」標籤元件互動並存取其設定時，會顯示下列選項：
 
-- **讓水準標籤可重複**：一種切換功能，可讓使用者啟用或停用重複測量功能。
+- **將索引標籤置於最上方可重複**：一種切換功能，可讓使用者啟用或停用重複測量功能。
 - **最小重複次數**：建立水平定位點元件可重複的最小次數。 值為零表示「水平定位點」元件不會重複；預設值為零。
 - **最大重複次數**：設定水準索引標籤元件可重複的最大次數。 預設情況下，此值為無限制。
 

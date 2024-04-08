@@ -3,18 +3,18 @@ title: 最適化Forms核心元件 — 表單容器
 description: 將最適化表單新增至網頁。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1340'
 ht-degree: 2%
 
 ---
 
-# 來自容器 {#form-container-adaptive-forms-core-component}
+# 表單容器 {#form-container-adaptive-forms-core-component}
 
 Forms可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與度和使用者滿意度。 Adobe Experience Manager (AEM) Sites中的最適化表單容器可讓網站擁有者輕鬆將表單新增至其頁面。 這有助於促進網站訪客與網站擁有者或組織之間的溝通，透過提供簡化的方式讓訪客提供意見回饋、提出查詢並完成其他動作
 
-## 使用狀況 {#reasons-to-use-forms-container}
+## 使用情況 {#reasons-to-use-forms-container}
 
 可以將表單新增至網站的原因有幾個：
 
@@ -62,6 +62,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![基本索引標籤](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+
 - **預填服務**  — 此選項可讓使用者選擇預填服務，以便在最適化表單轉譯時擷取資料。 進一步瞭解 [如何建立及設定預填服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
 - **使用者端資料庫類別**  — 使用者可以根據每個最適化表單設定自訂JavaScript程式庫。 建議僅將可重複使用的函式保留在程式庫中，這些函式需依賴jquery和underscore.js協力廠商程式庫。
@@ -79,15 +81,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 提交索引標籤 {#submission-tab}
 
-![提交索引標籤](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 使用者可以為最適化表單提交設定不同的動作。
 
 - **重新導向URL/路徑**  — 此選項可讓使用者為每個表單設定頁面，表單使用者在提交調適型表單後會重新導向至該頁面。 按一下這裡以取得更多關於 [如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
-![顯示訊息標籤](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![提交索引標籤](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **顯示訊息**  — 此選項可讓使用者新增訊息，該訊息會在成功提交最適化表單時顯示。 預先定義的文字會包含在對話方塊中，且使用者可加以修改。 「顯示訊息」對話方塊支援RTF格式工具，可讓使用者格式化新增的文字。
+
+![顯示訊息標籤](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **提交動作**  — 當使用者按一下最適化表單上的提交按鈕時，就會觸發提交動作。 使用者可從下拉式清單中選取立即可用的支援提交動作。 瞭解如何 [在提交索引標籤中設定提交動作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 

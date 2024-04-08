@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 精靈
 description: 使用或自訂最適化Forms精靈核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 0e7bfe0d9a7263469d96227e37caf932a8c135c6
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2100'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ![範例](/help/adaptive-forms/assets/wizard.png)
 
-## 使用狀況 {#reasons-to-use-wizard-in-an-adaptive-form}
+## 使用情況 {#reasons-to-use-wizard-in-an-adaptive-form}
 
 在最適化表單中使用精靈版面配置有幾個好處：
 
@@ -81,15 +81,40 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
-- **將資料換行到物件中**  — 選擇「在物件中繞排資料」，將精靈的欄位資料放在JSON物件中。 如果未選擇，則提交資料JSON的精靈欄位會採用平面結構。
+- **在表單提交時將子元件的資料分組（將資料包裝在物件中）**  — 選取選項時，其子元件的資料會巢狀內嵌於父元件的JSON物件中。 但是，如果未選取選項，則提交的JSON資料會具有平坦結構，沒有父元件的物件。 例如：
 
-- **版面**  — 您可以為精靈設定固定版面（簡單）或彈性版面（回應式格線）。 「簡單」版面可讓一切固定在原處，而「回應式格線」則可讓您調整元件位置，以符合需求。 例如，使用回應式格線在單一列中對齊表單中的「名字」、「中間名」和「姓氏」。
+   - 選取選項時，子元件（例如街道、城市和郵遞區號）的資料會巢狀內嵌於父元件（位址）中，做為JSON物件。 這樣會建立階層式結構，而資料會整理在父元件下。
+
+     提交資料的結構：
+
+     ```JSON
+     { "Address":
+     
+     { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     
+     }
+     ```
+
+   - 未選取選項時，提交的JSON資料會具有不含父系元件（位址）物件的平面結構。 所有資料都位於相同層級，沒有任何階層式組織。
+
+
+     提交資料的結構：
+
+     ```JSON
+        { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     ```
+
+<!--   **Wrap data in an object** - Choose "Wrap data in an object" to put the field data from the Wizard inside a JSON object. If not chosen, the submit data JSON has a flat structure for the Wizard's fields.
+
+-   **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row.  -->
 
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 
 - **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 
 - **停用元件**  — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
+
+- **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
 ### 重複精靈索引標籤 {#repeat-wizard-tab}
 
@@ -105,7 +130,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 專案標籤 {#items-tab}
 
-![專案索引標籤](/help/adaptive-forms/assets/wizard_helptab.png)
+![專案索引標籤](/help/adaptive-forms/assets/wizard_itemstab.png)
 
 此選項可讓您按一下「新增」按鈕來新增最適化表單元件，當精靈以編輯模式新增時，預設會顯示「新增」按鈕。
 

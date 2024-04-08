@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 數字輸入
 description: 使用或自訂最適化Forms編號輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![範例](/help/adaptive-forms/assets/numeric-stepper.png)
 
-## 使用狀況 {#reasons-to-use-number-input-numeric-stepper}
+## 使用情況 {#reasons-to-use-number-input-numeric-stepper}
 
 在最適化表單中加入數值輸入元件有幾個好處，包括：
 
@@ -65,6 +65,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.   
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -121,9 +125,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **顯示格式**  — 此選項可讓您從不同的整數 — 數字型別格式中選取選項以供顯示。 當使用者選擇任何選項 **型別** 下拉式功能表、 **格式** 選項即會顯示在面板中。 您可以選擇向使用者顯示數字的特定格式。
 
-- **小數點分隔符號前的位數(1234.000)**  — 使用此選項指定小數點前顯示的位數。
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **小數點分隔符號後的位數(1234.000)**  — 使用此選項可指定小數點後要顯示的位數。
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## 設計對話方塊 {#design-dialog}
 

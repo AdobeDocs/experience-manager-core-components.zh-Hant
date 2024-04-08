@@ -2,15 +2,13 @@
 title: 最適化Forms核心元件 — 切換元件
 description: 使用或自訂最適化Forms交換器核心元件。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 0%
 
 ---
-
 
 # 切換元件{#switch-adaptive-forms-core-component}
 
@@ -20,7 +18,7 @@ switch元件是布林控制元素，會將值設為true或false。 例如，它�
 
 ![切換元件範例](/help/adaptive-forms/assets/switch-example.png)
 
-## 使用狀況 {#reasons-to-use-switch}
+## 使用情況 {#reasons-to-use-switch}
 
 在最適化表單中使用切換的常見原因包括：
 
@@ -59,6 +57,10 @@ switch元件是布林控制元素，會將值設為true或false。 例如，它�
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，根據預設，標題會顯示在元件的旁邊。 如果您未新增標題，元件不會顯示。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -68,6 +70,15 @@ switch元件是布林控制元素，會將值設為true或false。 例如，它�
    - **顯示文字**  — 指定在最適化表單中啟用切換時，要顯示為標籤的文字。
    - **關閉資料值**  — 指定在調適型表單中未啟用切換器時要提交的值。 只有當 **保留取消核取狀態值** 切換器已啟用。
    - **關閉顯示文字**  — 指定在調適型表單中未啟用切換鍵時，要顯示為標籤的文字。 只有當 **保留取消核取狀態值** 切換器已啟用。
+
+<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+
 
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 - **標籤為未繫結表單元素**：選取選項以設定未連結至任何結構的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
@@ -148,12 +159,3 @@ switch元件是布林控制元素，會將值設為true或false。 例如，它�
 ## 另請參閱 {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-
