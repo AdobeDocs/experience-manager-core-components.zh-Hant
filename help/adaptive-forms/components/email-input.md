@@ -3,15 +3,16 @@ title: 最適化Forms核心元件 — 電子郵件輸入
 description: 使用或自訂最適化Forms電子郵件輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
 
-
 # 電子郵件輸入 {#Email-input-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單電子郵件輸入核心元件是用來收集使用者的電子郵件地址。 電子郵件輸入欄位可讓瀏覽器驗證輸入的資料是否為有效的電子郵件地址格式。 它通常以文字方塊表示，並且具備僅接受有效電子郵件地址的模式驗證。 可使用其他屬性（例如「必要」、「預留位置」和「模式」）來進一步自訂電子郵件輸入欄位，以設定輸入資料的驗證。
 
@@ -63,10 +64,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在規則編輯器中可唯一識別元件的名稱。名稱字串中不允許特殊字元和空格。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **允許標題使用RTF文字**  — 此功能可讓使用者格式化純文字標題，並整合如粗體、斜體、底線文字、各種字型、字型大小、顏色，以及其他可增強視覺呈現和自訂的選項。 它提供更大的彈性和創意控制，讓標題在檔案、網站或應用程式中脫穎而出。\
+  選取「 」的核取方塊時 **允許標題使用RTF文字** ，可顯示格式選項以設定元件標題的樣式。 若要存取所有可用的格式選項，您可以按一下 ![全熒幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 標籤。
+
+  ![RTF支援](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 

@@ -3,14 +3,16 @@ title: 最適化Forms核心元件 — 選項按鈕
 description: 使用或自訂最適化Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
 
 # 選項按鈕 {#radio-button-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 和 **允許選項使用RTF格式**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的選項按鈕是一種輸入元素，可讓使用者從一組相關選項中選取一個選項。 它由一個小的圓形按鈕表示，該按鈕已填滿或空白，以指示是否選取該選項。 當使用者選取一個選項按鈕時，群組中的其他按鈕會變為取消選取。 當有多個互斥選項且一次只能選取一個選項時，通常會使用選項按鈕。
 
@@ -67,27 +69,26 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **允許標題使用RTF文字**  — 此功能可讓使用者格式化純文字標題，並整合如粗體、斜體、底線文字、各種字型、字型大小、顏色，以及其他可增強視覺呈現和自訂的選項。 它提供更大的彈性和創意控制，讓標題在檔案、網站或應用程式中脫穎而出。\
+  選取「 」的核取方塊時 **允許標題使用RTF文字** ，可顯示格式選項以設定元件標題的樣式。 若要存取所有可用的格式選項，您可以按一下 ![全熒幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 標籤。
+
+  ![RTF支援](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
-- **選項**  — 您可以新增資料值並顯示文字配對，使用 **新增** 按鈕。
-  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
-
-  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
-
+- **選項**  — 您可以新增資料值並顯示文字配對，使用 **新增** 按鈕。\
   新增選項後，可以執行下列動作：
    - **資料值**  — 此選項可讓您輸入在選取選項時要提交的內容。
    - **顯示文字**  — 此選項可讓您輸入要在最適化表單中顯示的內容。
    - **刪除**  — 點選或按一下以刪除選項按鈕的選項。
    - **重新排列**  — 點選或按一下並拖曳以重新排列選項。
+您也可以使用來格式化選項按鈕群組的選項 **允許選項使用RTF格式**.
+
+  ![選項的RTF支援](/help/adaptive-forms/assets/richtext-for-options.png)
+
+  勾選「 」的核取方塊後， **允許選項使用RTF格式** 格式化選項會變成可見，以設定元件選項的樣式。 若要存取所有可用的格式選項，您可以按一下 `Fullscreen` ![全熒幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 標籤。
+
+  ![選項的RTF支援](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 

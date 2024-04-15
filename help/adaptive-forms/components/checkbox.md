@@ -3,14 +3,17 @@ title: 最適化Forms核心元件 — 核取方塊
 description: 使用或自訂Adaptive Forms核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
 
 # 核取方塊元件{#checkbox-component}
+
+<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
 
 核取方塊是一種圖形化使用者介面元素，通常用於軟體應用程式和表單中，可讓使用者在兩個選項之間進行二進位選擇：已核取（已選取）或未核取（已取消選取）。
 
@@ -62,10 +65,10 @@ ht-degree: 0%
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，根據預設，標題會顯示在元件的旁邊。 如果您未新增標題，元件不會顯示。
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **允許標題使用RTF文字**  — 此功能可讓使用者格式化純文字標題，並整合如粗體、斜體、底線文字、各種字型、字型大小、顏色，以及其他可增強視覺呈現和自訂的選項。 它提供更大的彈性和創意控制，讓標題在檔案、網站或應用程式中脫穎而出。\
+  選取「 」的核取方塊時 **允許標題使用RTF文字** ，可顯示格式選項以設定元件標題的樣式。 若要存取所有可用的格式選項，您可以按一下 ![全熒幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 標籤。
+
+  ![RTF支援](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 

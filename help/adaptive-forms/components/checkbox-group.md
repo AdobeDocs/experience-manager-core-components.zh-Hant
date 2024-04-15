@@ -3,14 +3,16 @@ title: 最適化Forms核心元件 — 核取方塊群組
 description: 使用或自訂Adaptive Forms核取方塊群組核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
 
 # 核取方塊群組 {#button-component-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 和 **允許選項使用RTF格式**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的核取方塊群組是一組相關的核取方塊，可讓使用者從清單中選取一或多個選項。 每個核取方塊由資料值（用於處理核取方塊群組專案的值）和顯示值（說明其用途的每個核取方塊專案的標籤）表示
 
@@ -75,10 +77,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **標題**  — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **允許標題使用RTF文字**  — 此功能可讓使用者格式化純文字標題，並整合如粗體、斜體、底線文字、各種字型、字型大小、顏色，以及其他可增強視覺呈現和自訂的選項。 它提供更大的彈性和創意控制，讓標題在檔案、網站或應用程式中脫穎而出。\
+  選取「 」的核取方塊時 **允許標題使用RTF文字** ，可顯示格式選項以設定元件標題的樣式。 若要存取所有可用的格式選項，您可以按一下 `Fullscreen` ![全熒幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 標籤。
+
+  ![RTF支援](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隱藏標題**  — 選取可隱藏元件標題的選項。
 
@@ -89,14 +91,12 @@ To experience the Accordion Component as well as see examples of its configurati
    - **刪除**  — 點選或按一下以刪除核取方塊的選項。
    - **重新排列**  — 點選或按一下並拖曳以重新排列面板。
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+  您也可以使用將核取方塊群組的選項格式化 **允許選項使用RTF格式**.
 
-    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+  ![選項的RTF支援](/help/adaptive-forms/assets/richtext-for-options.png)
 
-    -->
+  勾選「 」的核取方塊後， **允許選項使用RTF格式** 格式化選項會變成可見，以設定元件選項的樣式。 若要存取所有可用的格式選項，您可以按一下 `Fullscreen` ![全熒幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 標籤。
+  ![選項的RTF支援](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 
