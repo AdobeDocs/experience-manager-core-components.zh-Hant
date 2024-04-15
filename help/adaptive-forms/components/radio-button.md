@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 選項按鈕
 description: 使用或自訂最適化Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -110,7 +110,6 @@ To experience the Accordion Component as well as see examples of its configurati
 ![驗證標籤](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
 - **必填**  — 如果您想要在最適化表單中顯示元件，請選取此選項。 選取選項後，您必須先進行選取，才能繼續提交表單。 您無法選取 **隱藏元件** 或 **停用元件**  在 **基本** 標籤。
-
 - **錯誤訊息**  — 此選項可讓您輸入訊息，如果 **必填** 核取方塊，且表單欄位留空。
 
 - **指令碼驗證訊息**  — 此選項可讓您輸入指令碼驗證失敗時顯示的訊息。

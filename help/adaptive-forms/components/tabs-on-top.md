@@ -2,9 +2,9 @@
 title: 最適化Forms核心元件 — 索引標籤在頂端
 description: 在頂端核心元件上使用或自訂最適化Forms標籤。
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -13,10 +13,9 @@ ht-degree: 3%
 # 頂端標籤 {#tabs-on-top-adaptive-forms-core-component}
 
 最適化表單中的索引標籤頂端版面配置是將表單的相關欄位和區段整理及分組到單獨索引標籤的方法。 每個標籤由標籤表示，通常位於表單頂端，並包含一組特定的表單欄位和區段。 此版面配置可讓使用者輕鬆導覽及存取表單的不同區段，使其更方便使用，且不易造成負擔。 當表單包含許多欄位和區段時，通常就會使用它，而且必須將它們分割成可管理的較小區塊。 索引標籤也可讓使用者使用鍵盤快速鍵導覽表單，讓身心障礙使用者更輕鬆地存取表單，有助於改善協助工具。
-
 **範例**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![索引標籤在頂端](/help/adaptive-forms/assets/tabs.png)
 
 ## 使用情況 {#reasons-to-use-tab-on-the-top-layout}
 

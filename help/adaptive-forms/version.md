@@ -3,7 +3,7 @@ title: AEM Adaptive Forms核心元件版本
 description: AEM核心元件會以發行版本發佈，發行版本可能包含相同核心元件的多個版本。 本檔案說明什麼是發行版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ddb234ee5551fa3ecd47b4df073b97bef9a882f
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 1%
@@ -20,6 +20,7 @@ ht-degree: 1%
 與AEMas a Cloud Service相容的核心元件發行版本可在以下網址取得： [GitHub及其版本的完整詳細資訊](https://github.com/adobe/aem-core-forms-components/releases).
 
 若要檢視AEMas a Cloud Service的核心元件版本記錄， [按一下這裡](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+
 
 <!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  

@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 表單容器
 description: 將最適化表單新增至網頁。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 2%
@@ -34,7 +34,6 @@ Forms可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與
 - **使用者驗證**：Forms可用於使用者驗證，可讓網站訪客建立帳戶並登入以存取專屬內容或功能。
 
 - **提高轉換率**：設計良好的表單可讓使用者輕鬆完成所需的動作，例如購買產品或註冊服務，進而提高轉換率。
-
 
 ## 版本和相容性 {#version-and-compatibility}
 

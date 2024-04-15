@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 標題
 description: 使用或自訂最適化Forms標題核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 **範例**
 
-![範例](/help/adaptive-forms/assets/title.png)
+![標題範例](/help/adaptive-forms/assets/title.png)
 
 ## 使用情況 {#reasons-to-use-title-in-an-adaptive-form}
 

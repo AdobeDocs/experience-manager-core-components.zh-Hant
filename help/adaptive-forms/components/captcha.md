@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 2%
@@ -33,6 +33,7 @@ AEM Formsas a Cloud Service支援Adaptive Forms中的Google reCAPTCHA v2。 您�
 ## 版本和相容性 {#version-and-compatibility}
 
 最適化Forms Google reCAPTCHA核心元件於2023年8月發行，屬於核心元件「版本」的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+
 
 |  |  |
 |---|---|

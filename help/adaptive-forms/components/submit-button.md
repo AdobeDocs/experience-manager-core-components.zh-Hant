@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 提交按鈕
 description: 使用或自訂最適化Forms提交按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 1%
@@ -31,7 +31,6 @@ ht-degree: 1%
 - **改善的使用者體驗**：設計良好的提交按鈕可針對表單提交流程提供清楚的意見回饋，並指明表單已成功提交的時間，進而改善使用者體驗。
 
 - **資料驗證**：提交按鈕可用於觸發資料驗證檢查，以確保表單資料完整且準確，然後才會傳送至伺服器。
-
 
 ## 版本和相容性 {#version-and-compatibility}
 

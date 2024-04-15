@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 下拉式清單
 description: 使用或自訂最適化Forms下拉式核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 0%
@@ -32,7 +32,6 @@ ht-degree: 0%
 - **使用者體驗**：下拉式清單可讓使用者以清楚直覺的方式選取選項，讓表單更人性化。
 
 - **資料分析**：下拉式清單可用來從各種來源收集資料並加以分析，或用來作為進一步處理的輸入。
-
 
 **屬性對話方塊**
 

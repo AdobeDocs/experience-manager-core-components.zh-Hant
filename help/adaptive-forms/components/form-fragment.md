@@ -3,7 +3,7 @@ title: 最適化表單片段
 description: 使用表單片段建立表單片段或欄位群組，並在最適化Forms中重複使用，以提高效率和可重複使用性。
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 1%
@@ -152,6 +152,7 @@ Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的�
    - **刪除**：點選或按一下以刪除自訂屬性名稱和自訂屬性值。
 
    - **重新排列**：點選或按一下並拖曳以重新排列自訂屬性名稱和自訂屬性值。
+
 
 ## 相關文章 {#related-articles}
 

@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 數字輸入
 description: 使用或自訂最適化Forms編號輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 0%
@@ -35,7 +35,6 @@ ht-degree: 0%
 - **資料範圍**：數值欄位可用來使用最小、最大和步驟屬性來設定有效值的範圍。
 
 - **動態內容**：數值元件可用來根據表單欄位顯示動態資料。
-
 
 ## 版本和相容性 {#version-and-compatibility}
 
