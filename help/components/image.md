@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自我調整影像元件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 核心元件影像元件是自我調整影像元件。
 
-## 使用狀況 {#usage}
+## 使用情況 {#usage}
 
 影像元件提供最適化影像選擇和回應式行為，頁面訪客可延遲載入，內容作者可輕鬆放置影像。
 
@@ -138,20 +138,6 @@ ht-degree: 0%
 ### Dynamic Media資產編輯 {#dynamic-media-assets}
 
 如果您有 [已啟用Dynamic Media功能，](#dynamic-media) 編輯影像本身必須在資產主控台中執行。
-
-### 新一代Dynamic Media資產編輯 {#next-gen-dm-assets}
-
-如果您有 [新一代Dynamic Media已設定，](#next-gen-dm) 此 **智慧型裁切** 選項在元件的前後關聯功能表中可用。
-
-![智慧型裁切](/help/assets/image-smart-crop.png)
-
-使用對話方塊可調整智慧型裁切。
-
-![智慧型裁切對話方塊](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->如需智慧型裁切的詳細資訊，請參閱 [這部關於此功能的影片。](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
 
 ## 設定對話方塊 {#configure-dialog}
 
