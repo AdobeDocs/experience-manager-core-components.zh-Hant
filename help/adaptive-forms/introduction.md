@@ -3,9 +3,9 @@ title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立吸引人的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1176'
 ht-degree: 7%
 
 ---
@@ -71,25 +71,25 @@ ht-degree: 7%
 
 目前版本的Adaptive Forms核心元件包含下列元件。
 
-* [折疊式面板](/help/adaptive-forms/components/accordion.md)
+* [折疊面板](/help/adaptive-forms/components/accordion.md)
 * [按鈕](/help/adaptive-forms/components/button.md)
 * [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
 * [日期挑選器](/help/adaptive-forms/components/date-picker.md)
-* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
+* [下拉式清單](/help/adaptive-forms/components/drop-down-list.md)
 * [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
-* [來自容器](/help/adaptive-forms/components/form-container.md)
+* [表單容器](/help/adaptive-forms/components/form-container.md)
 * [檔案附件](/help/adaptive-forms/components/file-attachment.md)
 * [頁尾](/help/adaptive-forms/components/footer.md)
 * [頁首](/help/adaptive-forms/components/header.md)
 * [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
 * [影像](/help/adaptive-forms/components/image.md)
-* [數字輸入](/help/adaptive-forms/components/number-input.md)
-* [面板容器](/help/adaptive-forms/components/panel-container.md)
+* [數值方塊](/help/adaptive-forms/components/numeric-box.md)
+* [面板](/help/adaptive-forms/components/panel.md)
 * [選項按鈕](/help/adaptive-forms/components/radio-button.md)
 * [重設按鈕](/help/adaptive-forms/components/reset-button.md)
 * [提交按鈕](/help/adaptive-forms/components/submit-button.md)
 * [電話輸入](/help/adaptive-forms/components/telephone-input.md)
-* [文字輸入](/help/adaptive-forms/components/text-input.md)
+* [文字方塊](/help/adaptive-forms/components/text-box.md)
 * [文字](/help/adaptive-forms/components/text.md)
 * [標題](/help/adaptive-forms/components/title.md)
 * [精靈](/help/adaptive-forms/components/wizard.md)
@@ -100,9 +100,9 @@ ht-degree: 7%
 
 最適化Forms核心元件具有下列需求。
 
-| AEM版本 | AEM Forms附加元件 | 最適化Forms核心元件 |
+| AEM 版本 | AEM Forms附加元件 | 最適化Forms核心元件 |
 |---|---|---|
-| AEM as a Cloud Service  | Forms — 數位註冊 | [發行版本2.0.10](version.md)+ |
+| AEM as a Cloud Service  | Forms - 數位註冊 | [發行版本2.0.10](version.md)+ |
 | AEM 6.5 | Forms附加元件 | [發行版本1.1.12](version.md)+ |
 
 如果您的AEM Cloud Service SDK版本早於2023.02.0， [確定您已 `prerelease` 在您的環境中啟用的標幟](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant#new-features) as Adaptive Forms核心元件屬於2023.02.0版之前的預先租賃。

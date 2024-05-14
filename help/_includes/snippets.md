@@ -1,8 +1,8 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 18%
+source-wordcount: '211'
+ht-degree: 20%
 
 ---
 # 代碼片段 {#snippets}
@@ -61,24 +61,23 @@ ht-degree: 18%
 - [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
 - [核取方塊](/help/adaptive-forms/components/checkbox.md)
 - [日期挑選器](/help/adaptive-forms/components/date-picker.md)
-- [下拉式清單](/help/adaptive-forms/components/drop-down.md)
+- [下拉式清單](/help/adaptive-forms/components/drop-down-list.md)
 - [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
-- [來自容器](/help/adaptive-forms/components/form-container.md)
+- [表單容器](/help/adaptive-forms/components/form-container.md)
 - [檔案附件](/help/adaptive-forms/components/file-attachment.md)
-- [表單片段](/help/adaptive-forms/components/form-fragment.md)
+- [最適化表單片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [頁尾](/help/adaptive-forms/components/footer.md)
 - [頁首](/help/adaptive-forms/components/header.md)
 - [影像](/help/adaptive-forms/components/image.md)
-- [數字輸入](/help/adaptive-forms/components/number-input.md)
-- [面板容器](/help/adaptive-forms/components/panel-container.md)
+- [數值方塊](/help/adaptive-forms/components/numeric-box.md)
+- [面板](/help/adaptive-forms/components/panel.md)
 - [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
 - [垂直索引標籤](/help/adaptive-forms/components/vertical-tabs.md)
 - [選項按鈕](/help/adaptive-forms/components/radio-button.md)
 - [重設按鈕](/help/adaptive-forms/components/reset-button.md)
 - [提交按鈕](/help/adaptive-forms/components/submit-button.md)
-- [切換](/help/adaptive-forms/components/switch.md)
 - [電話輸入](/help/adaptive-forms/components/telephone-input.md)
-- [文字輸入](/help/adaptive-forms/components/text-input.md)
+- [文字方塊](/help/adaptive-forms/components/text-box.md)
 - [文字](/help/adaptive-forms/components/text.md)
 - [標題](/help/adaptive-forms/components/title.md)
 - [條款與條件標籤](/help/adaptive-forms/components/terms-and-conditions.md)

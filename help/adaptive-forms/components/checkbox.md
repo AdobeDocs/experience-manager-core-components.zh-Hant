@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 核取方塊
 description: 使用或自訂Adaptive Forms核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 核取方塊元件{#checkbox-component}
 
-<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 核取方塊是一種圖形化使用者介面元素，通常用於軟體應用程式和表單中，可讓使用者在兩個選項之間進行二進位選擇：已核取（已選取）或未核取（已取消選取）。
 

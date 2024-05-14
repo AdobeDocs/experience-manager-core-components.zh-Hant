@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 按鈕
 description: 使用或自訂最適化Forms按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 按鈕元件 {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的按鈕是UI元素，可讓使用者在按一下時起始動作。 按鈕元素可用於提交表單、重設表單或執行其他動作，例如導覽至其他頁面或觸發自訂程式碼。 按鈕可使用按鈕核心元件來建立。
 
