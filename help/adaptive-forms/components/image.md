@@ -3,14 +3,14 @@ title: 最適化Forms核心元件 — 影像
 description: 使用或自訂最適化Forms影像核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1058'
 ht-degree: 1%
 
 ---
 
-# 影像 {#image-adaptive-forms-core-component}
+# 影像元件{#image-adaptive-forms-core-component}
 
 最適化表單中的影像元件是一種在表單中包含影像的方式。 這些影像可用來增強表單的整體設計、提供其他資訊，或作為視覺輔助以幫助使用者瞭解表單的用途。 影像元件可用來在表單中新增標誌、像片或圖形。
 

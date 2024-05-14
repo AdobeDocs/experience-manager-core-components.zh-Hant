@@ -3,14 +3,14 @@ title: 最適化Forms核心元件 — 文字
 description: 使用或自訂最適化Forms文字核心元件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
 
-# 文字 {#text-adaptive-forms-core-component}
+# 文字元件 {#text-adaptive-forms-core-component}
 
 在最適化表單中，文字是指顯示在表單上以供使用者閱讀的內容。 這可以包括用來標示一組表單元素（例如文字欄位）的文字，以及提供給使用者的任何其他指示或資訊。
 

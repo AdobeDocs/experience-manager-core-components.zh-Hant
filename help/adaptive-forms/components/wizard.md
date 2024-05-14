@@ -3,14 +3,14 @@ title: 最適化Forms核心元件 — 精靈
 description: 使用或自訂最適化Forms精靈核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
 
-# 精靈 {#wizard-adaptive-forms-core-component}
+# 精靈元件{#wizard-adaptive-forms-core-component}
 
 最適化表單中的精靈版面配置是指分成多個步驟或頁面，使用者一次移動一個步驟的表單。 此版面稱為「精靈」，因為它會逐步引導使用者完成表單。
 

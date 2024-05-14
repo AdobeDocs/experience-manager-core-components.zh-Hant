@@ -3,16 +3,16 @@ title: 最適化Forms核心元件 — 提交按鈕
 description: 使用或自訂最適化Forms提交按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
 
-# 提交按鈕 {#submit-button}
+# 提交按鈕元件 {#submit-button}
 
-<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的提交按鈕是可讓使用者將表單資料提交至伺服器以進行處理的按鈕。 按一下提交按鈕後，表單資料會傳送至伺服器，您可在此儲存、處理或用於各種用途，例如傳送電子郵件或更新資料庫。
 

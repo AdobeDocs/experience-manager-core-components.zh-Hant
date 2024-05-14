@@ -3,14 +3,14 @@ title: 最適化Forms核心元件 — 標題
 description: 使用或自訂最適化Forms標題核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
-# 標題 {#title-input-adaptive-forms-core-component}
+# 標題元件{#title-input-adaptive-forms-core-component}
 
 在調適型表單中，「標題」是指出現在表單頂端的文字，通常在標題下方。 使用Title元件指定標題。 此元件可新增至表單版面，其文字可編輯以符合表單的用途或主題。 標題可為使用者提供表單的標籤或簡短說明，有助於區分表單與其他表單。
 

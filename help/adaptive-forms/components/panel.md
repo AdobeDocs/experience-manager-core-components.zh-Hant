@@ -1,40 +1,44 @@
 ---
-title: 最適化Forms核心元件 — 水準索引標籤
-description: 使用或自訂最適化Forms水準索引標籤核心元件。
+title: 最適化Forms核心元件 — 面板容器
+description: 使用或自訂Adaptive Forms面板容器核心元件。
 role: Architect, Developer, Admin, User
-exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
 
-# 水準索引標籤（頂端索引標籤）元件{#horizontal-tabs-adaptive-forms-core-component}
+# 面板元件{#panel-container-adaptive-forms-core-component}
 
 <span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-最適化表單中的水準索引標籤是指一個設計模式，其中表單的多個區段分組在一起，並以水準對齊的單獨索引標籤顯示。 使用者可在標籤之間切換以存取表單的不同區段。 每個標籤都會當作顯示和隱藏相關表單內容的觸發器。 水準標籤有助於將長表格組織成易於管理的部分，並改善使用者體驗。 索引標籤可協助殘障使用者更輕鬆地存取表單，因為他們可以使用鍵盤導覽在區段之間切換。
+在最適化表單中，面板是容器元素，可用來將相關的表單元素群組在一起。 它可讓您以邏輯和有意義的方式分組和組織不同的表單元素。 這有助於改善表單的整體結構和可讀性，讓使用者更容易理解和導覽。
 
-標籤通常以一系列連結或按鈕的形式建立，每個連結或按鈕都會與表單的某個區段相對應。 當使用者按一下索引標籤，表單內容會動態更新以顯示對應的區段。
+面板也可用來建立可摺疊的區段，這對於隱藏複雜或不常使用的表單欄位很有用，讓表單保持簡單且易於使用。 它也可讓您包含其他元件，例如文字、核取方塊、按鈕等。
 
-![範例](/help/adaptive-forms/assets/horizontal-example-new.png)
+它也可用來設定不同的規則型動作，例如提交表單、開啟網站、顯示/隱藏元件，或新增面板的執行個體。
 
-## 使用情況 {#reasons-to-use-horizontal-tabs}
+**範例**
 
-在最適化表單中使用水準索引標籤的常見原因包括：
+![範例](/help/adaptive-forms/assets/panel-container.png)
 
-- **改善可用性**：水準索引標籤讓使用者更容易在表單中導覽，尤其是在表單有多個區段或大量欄位時。
+## 使用情況 {#reasons-to-use-panel-container}
 
-- **空間管理**：水準索引標籤可協助將相關的表單區段分組為索引標籤，一次僅顯示一個區段，節省熒幕空間。
+在表單中使用面板有幾個理由，包括：
 
-- **更好的組織**：索引標籤為表單提供清楚且有條理的結構，讓使用者更容易瞭解並完成表單。
+- **組織表單元素**：面板可用來將相關的表單元素分組在一起，讓使用者更容易理解和導覽表單。
 
-- **增加使用者參與**：水準索引標籤可以讓表單更吸引目光、更吸引使用者，進而提高表單完成率。
+- **改善表單結構**：將表單元素分組為面板，可改善表單的整體結構和可讀性，使其更易於理解。
+
+- **建立可摺疊區段**：面板可用來建立可摺疊的區段，這對於隱藏複雜或不太常用的表單欄位很有用，讓表單保持簡單且易於使用。
+
+- **提升可用性**：使用面板來組織表單元素，可讓表單更方便使用者使用，進而提高完成率。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms水準標籤核心元件於2023年2月發行，是核心元件2.0.4的一部分。下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms面板容器核心元件於2023年2月發行，是核心元件2.0.4的一部分。下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 |  |  |
 |---|---|
@@ -44,23 +48,21 @@ ht-degree: 0%
 
 如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
 
-
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
-
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
-在的技術檔案中取得最適化Forms水準標籤核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs)。 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在的技術檔案中取得最適化Forms面板容器核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
 ## 設定對話方塊 {#configure-dialog}
 
-您可以透過「設定」對話方塊輕鬆自訂訪客的水準索引標籤體驗。 您也可以輕鬆定義「水準」標籤選項，以提供順暢的使用者體驗。
+您可以透過「設定」對話方塊輕鬆自訂訪客的面板容器體驗。 您也可以輕鬆定義面板容器選項，以提供順暢的使用者體驗。
 
 ### 基本標籤 {#basic-tab}
 
-![基本索引標籤](/help/adaptive-forms/assets/tabs-on-top-basic.png)
+![基本索引標籤](/help/adaptive-forms/assets/basic-panel.png)
 
 - **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
 
@@ -95,47 +97,37 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-<!-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. -->
-
 - **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 - **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 - **停用元件**  — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 - **唯讀**  — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
-### 重複頂端標籤 {#repeat-tabs-on-top}
+### 重複面板標籤 {#repeat-panel}
 
-![協助工具標籤](/help/adaptive-forms/assets/repeat-tabsontop.png)
+![重複標籤](/help/adaptive-forms/assets/repeat-panel.png)
 
-您可以使用重複性選項來複製「水平定位點」元件及其子元件、定義最小和最大重複計數，以及簡化表單中類似區段的複製。 與「水準」標籤元件互動並存取其設定時，會顯示下列選項：
+您可以使用重複性選項來複製面板容器及其子元件、定義最小和最大重複計數，以及簡化表單中類似區段的複製。 與面板容器元件互動並存取其設定時，會顯示下列選項：
 
-- **將索引標籤置於最上方可重複**：一種切換功能，可讓使用者啟用或停用重複測量功能。
-- **最小重複次數**：建立水平定位點元件可重複的最小次數。 值為零表示「水平定位點」元件不會重複；預設值為零。
-- **最大重複次數**：設定水準索引標籤元件可重複的最大次數。 預設情況下，此值為無限制。
-若要有效管理水準標籤內的可重複區段，請依照以下提供的步驟操作： [建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
+- **讓面板可重複**：一種切換功能，可讓使用者啟用或停用重複測量功能。
+- **最小重複次數**：建立面板容器可重複的最小次數。 值為零表示「精靈」面板不會重複；預設值為零。
+- **最大重複次數**：設定面板容器可重複的最大次數。 預設情況下，此值為無限制。
 
-### 專案標籤 {#items-tab}
-
-![專案索引標籤](/help/adaptive-forms/assets/items-tabs-on-top.png)
-
-此 **新增** 按鈕可讓您從元件選取視窗中選取要新增為面板的元件。 新增元件後，您會看到下列選項：
-
-- **圖示**  — 圖示可識別清單中面板的元件。 您可以將滑鼠停留在圖示上，以工具提示的形式檢視完整的元件名稱。
-- **說明**  — 面板文字所用的說明。 依預設，為面板選取的元件名稱。
-- **刪除**  — 點選或按一下以從水準索引標籤元件中刪除面板。
-- **重新排列**  — 點選或按一下並拖曳以重新排列面板。
+若要有效管理面板容器內的可重複區段，請依照 [建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
 
 ### 說明內容標籤 {#help-content}
 
-![說明內容標籤](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
+![說明內容標籤](/help/adaptive-forms/assets/helpcontent-panel.png)
 
 - **簡短說明**  — 簡短說明是簡短文字說明，提供有關特定表單欄位用途的其他資訊或說明。 它可協助使用者瞭解應在欄位中輸入哪種資料型別，並可提供指引或範例，以協助確保輸入的資訊有效並符合所需條件。 依預設，簡短說明會維持隱藏狀態。 啟用 **一律顯示簡短說明** 選項來在元件下方顯示它。
+
 - **一律顯示簡短說明**  — 啟用選項以在元件下方顯示簡短說明。
 
 - **說明文字**  — 說明文字是指為協助使用者正確填寫表單欄位而提供的其他資訊或指引。 當使用者按一下放置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更詳細，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，讓填寫表單更容易、更準確。
 
 ### 協助工具標籤 {#accessibility}
 
-![協助工具標籤](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
+![協助工具標籤](/help/adaptive-forms/assets/accessibilty-panel.png)
+
 
 - **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
 
@@ -143,32 +135,51 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 設計對話方塊 {#design-dialog}
 
-「設計」對話方塊可讓範本建立者控制物件的預設顯示方式。 對於最適化Forms水準標籤元件，您可以設定下列專案：
-
-- 表單建立者可以在最適化Forms編輯器中新增到水準索引標籤的核心元件
-- 樣式（CSS類別）的簡單名稱，可套用至最適化Forms編輯器中Horizontal-tab元件的屬性對話方塊中。
-
-這有助於讓建立和自訂表單的流程更直接有效。
+「設計」對話方塊可用來定義和管理表單容器元件的CSS樣式。
 
 ### 允許的元件標籤 {#allowed-components-tab}
 
-![允許的元件索引標籤](/help/adaptive-forms/assets/tabs-allowed-component.png)
+![設計對話方塊允許的元件索引標籤](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-此 **允許的元件** 索引標籤可讓範本編輯器設定元件，這些元件可在最適化Forms編輯器中的水準索引標籤元件中新增為面板的專案。
+此 **允許的元件** 索引標籤可讓範本編輯器設定元件，這些元件可在最適化Forms編輯器中作為面板的專案新增。
+
+### 預設元件標籤 {#default-components-tab}
+
+![「設計」對話方塊預設元件索引標籤](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+此 **預設元件** 索引標籤可讓範本編輯器指定在調適型Forms編輯器中，預設顯示為表單容器元件專案的元件。
+
+### 回應式設定標籤 {#responsive-tab}
+
+![設計對話方塊回應式設定索引標籤](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+此 **回應式設定** 索引標籤可讓範本編輯器在調適型Forms編輯器中指定表單容器元件內格線的欄數。
+
+### 容器設定索引標籤
+
+![容器設定索引標籤](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **版面**  — 您可以為精靈設定固定版面（簡單）或彈性版面（回應式格線）。 「簡單」版面可讓一切固定在原處，而「回應式格線」則可讓您調整元件位置，以符合需求。 例如，使用回應式格線在單一列中對齊表單中的「名字」、「中間名」和「姓氏」。
+
+- **停用配置**：選取此選項可停用元件的「編輯」對話方塊中的版面選擇。
+
+- **啟用背景影像**：此選項可讓使用者設定面板設定，加入視覺背景以增強視覺吸引力。
+
+- **啟用背景顏色**：此選項可讓您設定或變更面板的背景顏色。 此功能通常用於使用者介面設計，以自訂較大介面中面板的外觀。 當您選取 **啟用背景顏色** 選項， **僅限色票** 選項隨即顯示。 此 **僅限色票** 選項可讓您指定或選擇面板中背景、文字或其他視覺元素的顏色，使用 **新增** 按鈕
 
 ### 樣式索引標籤 {#styles-tab}
 
-「設計」對話方塊可用來定義和管理元件的CSS樣式。 最適化Forms水準標籤核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+最適化Forms檔案附件核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
 
-![樣式索引標籤](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![設計對話方塊](/help/adaptive-forms/assets/panel-container-styles-tab.png)
 
-- **預設CSS類別**：您可以為最適化Forms水準索引標籤核心元件提供預設CSS類別。
+- **預設CSS類別**：您可以為最適化Forms面板容器核心元件提供預設CSS類別。
 
 - **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
-### 自訂屬性索引標籤
+### 自訂屬性標籤
 
-![自訂屬性索引標籤](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![自訂屬性對話方塊](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
 自訂屬性可讓您使用表單範本，將自訂屬性（索引鍵/值組）與最適化表單核心元件建立關聯。 自訂屬性會反映在元件Headless轉譯的properties區段中。 它可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動、桌上型電腦或Web平台設計各種無頭Forms元件的轉譯，大幅提升各種裝置的使用者體驗。
 
@@ -179,6 +190,14 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
    - **刪除**：點選或按一下以刪除自訂屬性名稱和自訂屬性值。
 
    - **重新排列**：點選或按一下並拖曳，以重新排列自訂屬性名稱和自訂屬性值的順序。
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 ## 相關文章 {#related-articles}
 

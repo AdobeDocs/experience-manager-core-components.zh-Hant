@@ -3,17 +3,17 @@ title: 最適化Forms核心元件 — 電話輸入
 description: 使用或自訂最適化Forms電話輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2142'
 ht-degree: 0%
 
 ---
 
 
-# 電話輸入 {#telephone-input-adaptive-forms-core-component}
+# 電話輸入元件{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有關以下專案的內容： **允許標題使用RTF文字** 功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單電話輸入核心元件可讓使用者輸入電話號碼。 電話輸入欄位會在行動裝置中顯示與電話號碼相關的鍵盤。 您可以使用其他屬性（例如「pattern」和「placeholder」）來自訂電話號碼，以指定電話號碼的格式和說明。
 
