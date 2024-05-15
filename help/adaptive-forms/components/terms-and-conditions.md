@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 條款與條件
 description: 使用或自訂最適化Forms條款與條件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '3115'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 條款與條件元件
 
-<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  和  **允許選項使用RTF格式**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**   和   **允許選項使用RTF格式**   功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 A **條款與條件** 元件是指表單中的區段，其中概述了使用者在使用服務或存取內容時必須同意或遵循的條款、規則和條件。
 

@@ -3,7 +3,7 @@ title: 自適應表單可摺疊面板
 description: 使用摺疊式功能表，將表格分成更小、更易於管理的章節，以整理及簡化長或複雜的表格。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 收合式選單元件 {#accordion-component-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 摺疊式功能表核心元件可讓使用者在最適化表單中建立可展開和可收合的區段。 它通常用於組織和簡化長或複雜的表單，方法是將其分成更小、更易於管理的部分。 摺疊式功能表的每個區段通常由標題表示，使用者可以按一下標題來展開或收合對應的內容。 內容可以是任何核心元件。
 

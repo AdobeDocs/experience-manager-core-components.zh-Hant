@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 選項按鈕
 description: 使用或自訂最適化Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 選項按鈕元件 {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  和  **允許選項使用RTF格式**   功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**   和   **允許選項使用RTF格式**   功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的選項按鈕是一種輸入元素，可讓使用者從一組相關選項中選取一個選項。 它由一個小的圓形按鈕表示，該按鈕已填滿或空白，以指示是否選取該選項。 當使用者選取一個選項按鈕時，群組中的其他按鈕會變為取消選取。 當有多個互斥選項且一次只能選取一個選項時，通常會使用選項按鈕。
 

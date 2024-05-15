@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 下拉式清單
 description: 使用或自訂最適化Forms下拉式核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 下拉式清單元件{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的下拉式清單可讓使用者從預先定義的選項清單中選取一或多個選項。 選項可以是字串、數字或布林值型別。 此外，下拉式清單元件可設定為具有不同的驗證和預設值。
 

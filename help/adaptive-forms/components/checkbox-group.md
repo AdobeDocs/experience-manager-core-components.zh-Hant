@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 核取方塊群組
 description: 使用或自訂Adaptive Forms核取方塊群組核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 核取方塊群組元件 {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  和  **允許選項使用RTF格式**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**   和   **允許選項使用RTF格式**   功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的核取方塊群組是一組相關的核取方塊，可讓使用者從清單中選取一或多個選項。 每個核取方塊由資料值（用於處理核取方塊群組專案的值）和顯示值（說明其用途的每個核取方塊專案的標籤）表示
 **範例**

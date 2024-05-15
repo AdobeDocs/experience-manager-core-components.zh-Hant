@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 重設按鈕
 description: 使用或自訂最適化Forms重設按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 重設按鈕元件 {#reset-button}
 
-<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的重設按鈕是允許使用者清除所有表單欄位或將其重設為預設值的按鈕。 按一下重設按鈕時，已輸入表單欄位的任何資料都會被刪除，且欄位會恢復其原始狀態。 重設按鈕通常作為提交按鈕的替代方法，為使用者提供一種在表單中輸入不正確或不需要的資料時重新開始的方法。
 

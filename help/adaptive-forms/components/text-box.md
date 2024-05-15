@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 文字輸入（文字方塊）
 description: 使用或自訂最適化Forms文字輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 文字方塊元件{#text-input-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有關以下專案的內容：  **允許標題使用RTF文字**  功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 文字輸入（文字方塊）元件可讓使用者根據輸入元素的型別屬性，輸入及編輯一行或多行文字。 文字輸入元件可放置在表單中，且通常標示有用文字以輕鬆識別其用途。 這些是任何形式的基本元素，廣泛用於從使用者收集不同型別的資料，這些簡單、靈活，並且可以設定為驗證輸入，提高資料收集的準確性。
 
