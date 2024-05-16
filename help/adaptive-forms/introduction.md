@@ -3,18 +3,18 @@ title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立吸引人的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
+source-git-commit: e15254b119194e14b5719de10a00b2990264756f
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2175'
 ht-degree: 6%
 
 ---
 
-# 最適化Forms核心元件簡介 {#adaptive-forms-core-components-introduction}
+# 最適化Forms核心元件  {#adaptive-forms-core-components-introduction}
 
-使用Adobe Experience Manager中的最適化Forms核心元件，您可以運用彈性和可用的自訂選項來建立引人入勝的註冊體驗。
+使用Adobe Experience Manager中的最適化Forms核心元件，您可以建立引人入勝的註冊體驗。
 
-## 核心元件  {#overview}
+## 核心元件 {#overview}
 
 在Adobe Experience Manager (AEM)中，元件是用來建立頁面和表單的建置組塊。 它們為作者提供簡單且強大的方式來建立和管理內容，同時為開發人員提供建立自訂元件所需的彈性和擴充性。 這些設定可加快開發時間並降低網站與表單的維護成本、彈性且可輕鬆自訂，以符合網站與表單的特定需求。
 
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 這些元件可用來建立優異的資料擷取和註冊體驗，方法是提供各式各樣的表單欄位選項，包括文字欄位、核取方塊、下拉式功能表等。 此外也包含驗證、條件式邏輯和回應式設計等功能，可用來建立簡單易用的表單。
 
-此外，由於這些元件是開放原始碼，開發人員可輕鬆自訂和擴充元件，以符合其組織的特定需求。 此外，這些元件建置於BEM方法上，可確保它們具有可擴充性和可維護性。
+此外，由於這些元件是開放原始碼，開發人員可輕鬆自訂和擴充元件，以符合其組織的特定需求。 而且，這些元件是以BEM方法建置的，可確保它們具有可擴充性和可維護性。
 
 ![最適化表單影像](assets/sample-adaptive-form.png)
 
@@ -37,7 +37,7 @@ ht-degree: 6%
 |  |  |
 |---|---|
 | 生產就緒 | 最適化Forms核心元件是24個強大的WCM元件。 |
-| 雲端就緒 | 可用於  [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
+| 雲端就緒 | 可用於 [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | 多功能 | 這些元件代表一般概念，Forms作者可透過這些概念來組合幾乎所有版面。 |
 | 可設定 | 範本層級 [內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義允許使用或不使用哪些特徵。 |
 | 易於取得 | 這類選件提供ARIA標籤、支援鍵盤導覽，以及熒幕閱讀器等輔助技術的文字。 |
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 * **[GitHub上的可用性](https://github.com/adobe/aem-core-forms-components)**： AEM最適化Forms核心元件是開放原始碼，可在GitHub上取得，以及完整的檔案。 如此一來，開發人員就能更輕鬆瞭解元件及其運作方式，且更能協助開發工作。 此 [aemcomponents.dev](https://www.aemcomponents.dev/) 網站也是寶貴的資源，開發人員可在此檢視運作中的元件，並存取詳細檔案。
 
-* **[樣式的BEM模型](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**：核心元件在樣式設定上會遵循BEM （區塊元素修飾元）模型，這是一項建立良好且廣泛使用的方法來組織CSS。 如此一來，開發人員就能更輕鬆瞭解樣式的組織方式，以及如何修改樣式，以符合其特定需求。
+* **[樣式的BEM模型](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**：核心元件在樣式設定上會遵循BEM （區塊元素修飾元）模型，這是一項建立良好且廣泛使用的CSS組織方法。 如此一來，開發人員就能更輕鬆瞭解樣式的組織方式，以及如何修改樣式，以符合其特定需求。
 
 * **對協力廠商程式庫沒有相依性**：核心元件的優點之一，就是其不依存於協力廠商JavaScript程式庫，包括JQuery和Underscore。 這可讓元件更快且更輕量，以及更輕鬆地整合至現有的AEM實作。
 
@@ -71,20 +71,20 @@ ht-degree: 6%
 
 ## 比較核心元件、基礎元件和表單區塊元件 {#components}
 
-目前版本的AEM有下列核心元件和基礎元件。
+目前版本的AEM有下列核心元件、基礎元件和表單區塊元件(Edge Delivery Services)。
 
 | 元件 | 基礎元件 | 核心元件 | 表單區塊元件 | 其他資訊 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
-| Adobe Sign 區塊 | ✔️ | | | Adobe Sign整合僅適用於Foundation元件。 |
-| 折疊面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 對於Foundation元件，您可以在面板元件屬性中設定摺疊式功能表配置 |
-| 最適化表單片段 | ✔️ | ✔️ | | 對於基礎元件，您可以從面板元件的屬性新增片段。 |
-| 自適應表單 reCAPTCHA | ✔️ | ✔️ | ✔️ | 對於基礎元件，請使用Captcha元件將Google reCaptcha新增至表單。 |
+| Adobe Sign 區塊 | ✔️ | | | [Adobe Sign整合](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) 僅適用於Foundation元件。 |
+| 折疊面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 若為Foundation元件，您可在以下位置設定收合式選單版面： [面板元件屬性](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
+| 最適化表單片段 | ✔️ | ✔️ | | 對於基礎元件，您可以 [新增片段](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) 從「資產瀏覽器」。 |
+| 自適應表單 reCAPTCHA | ✔️ | ✔️ | ✔️ | 對於基礎元件，請使用驗證碼元件 [將Google reCaptcha新增至表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | 按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| Captcha | ✔️ | | | 對於基礎元件，請使用Captcha元件將Google reCaptcha新增至表單。 |
+| Captcha | ✔️ | | | 對於基礎元件，請使用驗證碼元件 [將Google reCaptcha新增至表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | 圖表 | ✔️ | | | |
 | 核取方塊 | ✔️ | ✔️ | | |
 | 核取方塊群組 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 對於基礎元件，使用核取方塊元件以新增多個核取方塊 |
-| 資料輸入欄位 | ✔️ | | | 對於核心元件，請使用日期選擇器或使用個別文字方塊或數值方塊元件來擷取日、月和年。 |
+| 資料輸入欄位 | ✔️ | | | 若為核心元件，請使用 [日期選取器](/help/adaptive-forms/components/date-picker.md) 元件。 您也可以新增個別 [文字方塊](/help/adaptive-forms/components/text-box.md) 或 [數值方塊](/help/adaptive-forms/components/numeric-box.md) 元件以擷取日、月和年。 |
 | 日期挑選器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | 下拉式清單 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | 電子郵件 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
@@ -92,19 +92,19 @@ ht-degree: 6%
 | 檔案附件清單 | ✔️ | | | |
 | 頁尾 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | 註腳預留位置 | ✔️ | | | |
-| 表單容器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 對於基礎元件，請使用根面板元件。 |
+| 表單容器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 對於基礎元件，請使用 [根面板元件](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | 表單標題 | ✔️ | ✔️ | | 對於基礎元件，請使用標題元件。 |
 | 頁首 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
-| 水準索引標籤 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 對於基礎元件，您可以在面板元件屬性中設定索引標籤在頂端（水準索引標籤）的配置 |
+| 水準索引標籤 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 對於基礎元件，您可以設定 [索引標籤在頂端（水準索引標籤）配置](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 在面板元件屬性中。 |
 | 影像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
 | 影像選擇 | ✔️ | | | |
-| 下一個按鈕 | ✔️ | ✔️ | | 對下一個和上一個按鈕使用精靈元件，以在多個面板之間移動。 |
+| 下一個按鈕 | ✔️ | ✔️ | | 使用 [精靈元件](/help/adaptive-forms/components/wizard.md) 讓下一個和上一個按鈕在多個面板之間移動。 |
 | 數值方塊 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | 數值步進器 | ✔️ | | | |
 | 面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 密碼方塊 | ✔️ | | ✔️ | |
 | 電話/電話 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
-| 前一個按鈕 | ✔️ | | | 對下一個和上一個按鈕使用精靈元件，以在多個面板之間移動。 |
+| 前一個按鈕 | ✔️ | | | 使用 [精靈元件](/help/adaptive-forms/components/wizard.md) 讓下一個和上一個按鈕在多個面板之間移動。 |
 | 選項按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | 選項按鈕群組 | | | ✔️ | |
 | 重設按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
@@ -112,14 +112,14 @@ ht-degree: 6%
 | 分隔符號 | ✔️ | | | |
 | 提交按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 摘要步驟 | ✔️ | | | |
-| 切換 | ✔️ | ✔️ | | |
+| 切換 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
 | 表格 | ✔️ | | | |
 | 條款與條件 | ✔️ | ✔️ | | |
 | 文字 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 文字方塊 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| 標題 | ✔️ | | | 若是核心元件，請使用表單標題元件。 |
-| 垂直標籤 | ✔️ | ✔️ | | 對於基礎元件，您可以在面板元件屬性中設定左側索引標籤（垂直索引標籤）配置 |
-| 精靈 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 對於Foundation元件，您可以在面板元件屬性中設定精靈配置 |
+| 標題 | ✔️ | | | 若為核心元件，請使用 [表單標題](/help/adaptive-forms/components/title.md) 元件。 |
+| 垂直標籤 | ✔️ | ✔️ | | 對於基礎元件，您可以設定 [索引標籤在左側（垂直索引標籤）配置](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 在面板元件屬性中 |
+| 精靈 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 對於基礎元件，您可以設定 [精靈配置](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 在面板元件屬性中 |
 
 
 
@@ -162,7 +162,7 @@ ht-degree: 6%
 基於核心元件的最適化Forms的編輯器類似於您已用於建立AEM Sites頁面的編輯器。 以下是您獲得的內容：
 
 
-* **熟悉的UI元素和設定**：設定表單元件的屬性時，您會看到「屬性」對話方塊，看起來就像您對WCM核心元件使用的對話方塊。 這可讓您更快找到所需的選項。 如同WCM核心元件，對於表單元件，「屬性」對話方塊會顯示在編輯器的中央處，以清楚的索引標籤分隔基本和進階選項、說明文字及協助工具資訊 — 所有內容都以索引標籤格式顯示，方便瀏覽。
+* **熟悉的UI元素和設定**：設定表單元件的屬性時，您會看到「屬性」對話方塊，看起來就像您對WCM核心元件使用的對話方塊。 這可讓您更快找到所需的選項。 如同WCM核心元件，對於表單元件，「屬性」對話方塊會顯示在編輯器的中央，以清楚的索引標籤分隔基本和進階選項、說明文字及協助工具資訊 — 所有內容都以索引標籤格式顯示，以方便瀏覽。
 
 * **[規則編輯器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**：您可以在表單中新增邏輯和動態功能，而不需撰寫程式碼。 您可以使用內建規則編輯器來：
    * 根據使用者選擇顯示或隱藏欄位
@@ -182,7 +182,7 @@ ht-degree: 6%
    * 建立其他規則（鏈結動作和邏輯）
    * 及更多內容！
 
-  規則編輯器沒有程式碼編輯器。 您可以使用 [自訂函式](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) 新增您自己的程式碼，以符合規則編輯器的特定需求。
+  規則編輯器沒有程式碼編輯器。 您可以使用 [自訂函式](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) 將您自己的程式碼因應特定需求新增至規則編輯器。
 
 
 
