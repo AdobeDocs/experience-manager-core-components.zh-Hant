@@ -3,7 +3,7 @@ title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立吸引人的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
+source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 ## 最適化Forms核心元件
 
-最適化Forms核心元件是一組24個開放原始碼、BEM相容的元件，建立在Adobe Experience Manager WCM核心元件的基礎上。 這些表單是專為建立最適化Forms所設計，是適合使用者裝置、瀏覽器和熒幕大小的表單。
+最適化Forms核心元件是一組29個開放原始碼、BEM相容的元件，建立在Adobe Experience Manager WCM核心元件的基礎上。 這些表單是專為建立最適化Forms所設計，是適合使用者裝置、瀏覽器和熒幕大小的表單。
 
 這些元件可用來建立優異的資料擷取和註冊體驗，方法是提供各式各樣的表單欄位選項，包括文字欄位、核取方塊、下拉式功能表等。 此外也包含驗證、條件式邏輯和回應式設計等功能，可用來建立簡單易用的表單。
 
