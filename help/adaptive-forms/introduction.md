@@ -3,9 +3,9 @@ title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立吸引人的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
+source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2214'
 ht-degree: 6%
 
 ---
@@ -69,9 +69,9 @@ ht-degree: 6%
 
 * **[版本設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**：您可以建立和管理多個版本的以最適化Forms為基礎的核心元件、透過註釋參與合作討論，以及將註解附加至特定表單元件，從而增強整體表單建立體驗。
 
-## 比較核心元件、基礎元件和表單區塊元件 {#components}
+## 可用元件：依元件型別的劃分
 
-目前版本的AEM有下列核心元件， [基礎元件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)、和 [表單區塊元件(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+目前版本的AEM Forms有下列核心元件， [基礎元件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)、和 [表單區塊元件(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | 元件 | 基礎元件 | 核心元件 | 表單區塊元件 | 其他資訊 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
