@@ -5,9 +5,9 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
+source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 41%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 41%
    + [包含使用者端資料庫](/help/developing/including-clientlibs.md)
    + [自我調整影像Servlet](/help/developing/adaptive-image-servlet.md)
    + [網頁最佳化的影像交付](/help/developing/web-optimized-image-delivery.md)
-   + [新一代Dynamic Media支援](/help/developing/next-gen-dm.md)
+   + [遠端資產支援](/help/developing/remote-assets.md)
    + Adobe使用者端資料層 {#data-layer}
       + [資料層概觀](/help/developing/data-layer/overview.md)
       + [與資料層的整合](/help/developing/data-layer/integrations.md)

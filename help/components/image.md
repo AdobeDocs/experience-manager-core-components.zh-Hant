@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自我調整影像元件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,9 @@ ht-degree: 0%
 
 使用核心元件建立的網頁體驗可包含豐富、Sensei支援、穩定、高效能、跨平台的Dynamic Media影像功能。
 
-## 新一代Dynamic Media支援 {#next-gen-dm}
+## 遠端資產支援 {#remote-assets}
 
-影像元件(截至 [版本2.23.2](/help/versions.md))支援新一代Dynamic Media遠端資產。
-
-[設定後，](/help/developing/next-gen-dm.md) 您可以從遠端新一代Dynamic Media服務為您的影像元件選取資產。
+影像元件(截至 [版本2.23.2](/help/versions.md))支援遠端資產。 [設定後，](/help/developing/remote-assets.md) 您可以從遠端服務為您的影像元件選取資產。
 
 ## SVG支援 {#svg-support}
 
@@ -87,7 +85,7 @@ ht-degree: 0%
 
 「編輯」對話方塊可讓內容作者裁切和縮放影像。
 
-視您是否擁有 [Dynamic Media](#dynamic-media) 已啟用或 [新一代Dynamic Media](#next-gen-dm) 功能已啟用，可用於編輯影像的選項會有所不同。
+視您是否擁有 [Dynamic Media](#dynamic-media) 已啟用或 [遠端資產支援](#remote-assets) 已啟用，可用來編輯影像的選項會有所不同。
 
 ### 標準資產編輯 {#standard-assets}
 
@@ -154,7 +152,7 @@ ht-degree: 0%
    * 將資產從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) 或點選 **瀏覽** 選項，讓您可從本機檔案系統上傳。
    * 點選或按一下 **清除** 以取消選取目前選取的影像。
    * 點選或按一下 **選取** 以開啟 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) 以便選取影像。
-      * 如果 [新一代Dynamic Media功能](#next-gen-dm) 啟用時，您有多個選項可挑選資產：
+      * 如果 [遠端判斷提示支援](#remote-assets) 已啟用，則您有多個選項可挑選資產：
          * **本機** 從本機AEM資產庫選取。
          * **遠端** 會從AEM例項之外的Dynamic Media資料庫中選取。
    * 點選或按一下 **編輯** 至 [管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) 在Asset Editor中。

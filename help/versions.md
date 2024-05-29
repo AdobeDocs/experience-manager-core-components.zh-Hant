@@ -3,7 +3,7 @@ title: 核心元件版本
 description: 核心元件會以發行版本發佈，其中可能包含相同核心元件的多個版本。 本檔案說明什麼是發行版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 8%
@@ -35,7 +35,7 @@ ht-degree: 8%
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 此發行版本新增了對Google Tag Manager Data Layer的支援，並包含各種錯誤修正。 | - | 6.5.21.0+ | 持續 | 8， 11 | 2024 年 2 月 14 日 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 此修補程式版本包含各種錯誤修正。 | - | 6.5.17.0+ | 持續 | 8， 11 | 2023年9月15日 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 此修補程式將遠端資產的Dynamic Media智慧型裁切新增至 [影像](/help/components/image.md) 和 [Teaser元件](/help/components/teaser.md) 並修正若干錯誤。 | - | 6.5.17.0+ | 持續 | 8， 11 | 2023年8月4日 |
-| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本新增支援 [新一代Dynamic Media遠端資產。](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | 持續 | 8， 11 | 2023年6月6日 |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本新增支援 [新一代Dynamic Media遠端資產。](/help/developing/remote-assets.md) | - | 6.5.17.0+ | 持續 | 8， 11 | 2023年6月6日 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 此修補程式版本修正了兩個問題。 | - | 6.5.14.0+ | 持續 | 8， 11 | 2023年5月25日 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此修補程式版本修正了兩個回歸。 | - | 6.5.14.0+ | 持續 | 8， 11 | 2023年5月11日 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此修補程式版本復原了先前版本中意外移除的功能。 | - | 6.5.14.0+ | 持續 | 8， 11 | 2023年5月9日 |

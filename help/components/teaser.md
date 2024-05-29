@@ -3,9 +3,9 @@ title: Teaser元件
 description: Teaser元件可顯示影像、標題、RTF文字，並可選擇連結至其他內容。
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1042'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 核心元件Teaser元件可顯示影像、標題、RTF文字，並可選擇連結至其他內容。
 
-## 使用狀況 {#usage}
+## 使用情況 {#usage}
 
 Teaser元件可讓內容作者輕鬆建立Teaser，以使用影像、標題或RTF文字進一步擴充內容，並連結至進一步內容或其他動作。
 
@@ -31,11 +31,9 @@ Teaser元件的目前版本是v2，此版本隨2022年2月的核心元件發行�
 | v2 | - | 相容 | 相容 |
 | [v1](v1/teaser.md) | 相容 | 相容 | 相容 |
 
-## 新一代Dynamic Media支援 {#next-gen-dm}
+## 遠端資產支援 {#remote-assets}
 
-Teaser元件(截至 [版本2.23.2](/help/versions.md))支援新一代Dynamic Media遠端資產。
-
-[設定後，](/help/developing/next-gen-dm.md) 您可以從遠端新一代Dynamic Media服務中選取資產，以用於Teaser元件。
+Teaser元件(截至 [版本2.23.2](/help/versions.md))支援遠端資產。 [設定後，](/help/developing/remote-assets.md) 您可以從遠端服務中為您的Teaser元件選取資產。
 
 ## 範例元件輸出 {#sample-component-output}
 
@@ -84,7 +82,7 @@ Teaser 標題、說明和影像可以從所連結的頁面繼承，也可以從�
 * **影像資產**  — 將資產從 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或點選 **瀏覽** 從本機檔案系統上傳的選項。
    * 點選或按一下 **清除** 以取消選取目前選取的影像。
    * 點選或按一下 **選取** 以開啟 [資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 以選取影像。
-      * 如果 [新一代Dynamic Media功能](#next-gen-dm) 啟用時，您有多個選項可挑選資產：
+      * 如果 [遠端資產支援](#remote-assets) 已啟用，則您有多個選項可挑選資產：
          * **本機** 從本機AEM資產庫選取。
          * **遠端** 會從AEM例項之外的Dynamic Media資料庫中選取。
    * 點選或按一下 **編輯** 至 [管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 在資產編輯器中。
@@ -114,7 +112,7 @@ Teaser元件會將影像演算委派給 [影像元件](image.md). 因此， [編
 
 ![Teaser元件的設計對話方塊](/help/assets/teaser-design.png)
 
-* **呼叫動作**
+* **行動號召**
    * **停用呼叫動作**  — 隱藏 **行動號召** 內容作者的選項
 * **元素**
    * **隱藏前置標題**  — 隱藏 **前置標題** 內容作者的選項
