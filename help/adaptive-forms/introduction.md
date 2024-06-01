@@ -2,8 +2,7 @@
 title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立吸引人的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
-exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1f9cef8eb448b4f5662c95827ab6575bdfeaf740
+source-git-commit: ae81102adafef131b013425465ad56af41f604bf
 workflow-type: tm+mt
 source-wordcount: '2229'
 ht-degree: 6%

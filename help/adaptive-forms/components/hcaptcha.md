@@ -4,7 +4,7 @@ description: 使用hCaptcha&reg；服務輕鬆增強表單安全性。 內的逐
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: 08d44e4db42594fb5aaf33d7d42df6fe19c70f59
+source-git-commit: ddfd55259f84443e6add3ced09fd319bcd9c1677
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 2%
