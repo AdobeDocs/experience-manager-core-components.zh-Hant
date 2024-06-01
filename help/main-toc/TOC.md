@@ -4,10 +4,10 @@ user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
-feature-set: Experience Manager Sites
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+feature-set: Experience Manager Sites, Experience Manager Forms
+source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 41%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 41%
       + [Adaptive Forms表單片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [最適化Forms檔案附件](/help/adaptive-forms/components/file-attachment.md)
       + [最適化Forms垂直標籤](/help/adaptive-forms/components/vertical-tabs.md)
+      + [最適化Forms驗證碼](/help/adaptive-forms/components/hcaptcha.md)
       + [最適化Forms水準標籤](/help/adaptive-forms/components/horizontal-tabs.md)
       + [最適化Forms影像](/help/adaptive-forms/components/image.md)
       + [最適化Forms數值方塊](/help/adaptive-forms/components/numeric-box.md)
