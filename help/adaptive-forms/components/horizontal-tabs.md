@@ -3,16 +3,14 @@ title: 最適化Forms核心元件 — 水準索引標籤
 description: 使用或自訂最適化Forms水準索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
 
-# 水準索引標籤（頂端索引標籤）元件{#horizontal-tabs-adaptive-forms-core-component}
-
-<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+# 水準索引標籤元件（頂端索引標籤）元件{#horizontal-tabs-adaptive-forms-core-component}
 
 最適化表單中的水準索引標籤是指一個設計模式，其中表單的多個區段分組在一起，並以水準對齊的單獨索引標籤顯示。 使用者可在標籤之間切換以存取表單的不同區段。 每個標籤都會當作顯示和隱藏相關表單內容的觸發器。 水準標籤有助於將長表格組織成易於管理的部分，並改善使用者體驗。 索引標籤可協助殘障使用者更輕鬆地存取表單，因為他們可以使用鍵盤導覽在區段之間切換。
 
@@ -52,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 技術細節 {#technical-details}
 
-在的技術檔案中取得最適化Forms水準標籤核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs)。 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在的技術檔案中取得最適化Forms水準標籤核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -138,6 +136,11 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 ![協助工具標籤](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 - **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+   - **自訂文字**：選取此選項以使用自訂文字做為ARIA協助工具標籤。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。
+   - **說明**：選取此選項即可使用ARIA協助工具標籤的說明。
+   - **標題**：選取此選項以使用ARIA協助工具標籤的標題。
+   - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
+   - **無**：如果您不想要新增ARIA協助工具標籤，請選取此選項。
 
 - **熒幕助讀程式宣告的HTML角色** -HTML角色是一種屬性，用來指定HTML元素對輔助技術（例如熒幕閱讀程式）的用途。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
@@ -145,8 +148,8 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 「設計」對話方塊可讓範本建立者控制物件的預設顯示方式。 對於最適化Forms水準標籤元件，您可以設定下列專案：
 
-- 表單建立者可以在最適化Forms編輯器中新增到水準索引標籤的核心元件
-- 樣式（CSS類別）的簡單名稱，可套用至最適化Forms編輯器中Horizontal-tab元件的屬性對話方塊中。
+- 表單建立者可以新增到最適化Forms編輯器中的水準索引標籤的核心元件
+- 樣式（CSS類別）的簡單名稱，可套用至最適化Forms編輯器中「水準」索引標籤元件的「屬性」對話方塊中。
 
 這有助於讓建立和自訂表單的流程更直接有效。
 

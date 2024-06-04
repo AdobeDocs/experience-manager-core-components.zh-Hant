@@ -3,16 +3,14 @@ title: 最適化Forms核心元件 — 提交按鈕
 description: 使用或自訂最適化Forms提交按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 1%
+source-wordcount: '1509'
+ht-degree: 0%
 
 ---
 
 # 提交按鈕元件 {#submit-button}
-
-<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的提交按鈕是可讓使用者將表單資料提交至伺服器以進行處理的按鈕。 按一下提交按鈕後，表單資料會傳送至伺服器，您可在此儲存、處理或用於各種用途，例如傳送電子郵件或更新資料庫。
 
@@ -86,7 +84,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![協助工具標籤](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-**熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+- **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+   - **自訂文字**：選取此選項以使用自訂文字做為ARIA協助工具標籤。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。
+   - **說明**：選取此選項即可使用ARIA協助工具標籤的說明。
+   - **標題**：選取此選項以使用ARIA協助工具標籤的標題。
+   - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
+   - **無**：如果您不想要新增ARIA協助工具標籤，請選取此選項。
 
 ## 設計對話方塊 {#design-dialog}
 

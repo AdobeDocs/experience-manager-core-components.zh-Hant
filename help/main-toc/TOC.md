@@ -5,9 +5,9 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
+source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 41%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 41%
       + [最適化Forms容器](/help/adaptive-forms/components/form-container.md)
       + [最適化Forms日期選擇器](/help/adaptive-forms/components/date-picker.md)
       + [最適化Forms下拉式清單](/help/adaptive-forms/components/drop-down-list.md)
-      + [最適化Forms電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+      + [最適化Forms電子郵件](/help/adaptive-forms/components/email.md)
       + [Adaptive Forms表單片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [最適化Forms檔案附件](/help/adaptive-forms/components/file-attachment.md)
       + [最適化Forms垂直標籤](/help/adaptive-forms/components/vertical-tabs.md)
@@ -122,15 +122,15 @@ ht-degree: 41%
       + [最適化Forms影像](/help/adaptive-forms/components/image.md)
       + [最適化Forms數值方塊](/help/adaptive-forms/components/numeric-box.md)
       + [最適化Forms面板](/help/adaptive-forms/components/panel.md)
-      + [最適化Forms驗證碼](/help/adaptive-forms/components/captcha.md)
+      + [最適化Forms驗證碼](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [最適化Forms選項按鈕](/help/adaptive-forms/components/radio-button.md)
       + [最適化Forms重設按鈕](/help/adaptive-forms/components/reset-button.md)
       + [最適化Forms提交按鈕](/help/adaptive-forms/components/submit-button.md)
-      + [最適化Forms交換器](/help/adaptive-forms/components/switch.md)
-      + [最適化Forms電話輸入](/help/adaptive-forms/components/telephone-input.md)
+      + [最適化Forms交換器](/help/adaptive-forms/components/adaptive-form-switch.md)
+      + [最適化Forms手機](/help/adaptive-forms/components/phone.md)
       + [最適化Forms文字](/help/adaptive-forms/components/text.md)
       + [最適化Forms文字方塊](/help/adaptive-forms/components/text-box.md)
-      + [最適化Forms標題](/help/adaptive-forms/components/title.md)
+      + [最適化Forms表單標題](/help/adaptive-forms/components/form-title.md)
       + [最適化Forms精靈](/help/adaptive-forms/components/wizard.md)
       + [最適化Forms條款與條件](/help/adaptive-forms/components/terms-and-conditions.md)
       + [頁首](/help/adaptive-forms/components/header.md)

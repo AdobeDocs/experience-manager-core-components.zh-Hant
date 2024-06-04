@@ -3,16 +3,14 @@ title: 最適化表單片段
 description: 使用表單片段建立表單片段或欄位群組，並在最適化Forms中重複使用，以提高效率和可重複使用性。
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1954'
 ht-degree: 1%
 
 ---
 
 # 最適化表單片段元件 {#form-fragment-component-adaptive-forms-core-component}
-
-<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化Forms提供建立表單區段（例如面板或欄位群組）的便利方式，以便這些區段能在不同的最適化Forms中重複使用。 這些可重複使用的獨立區段稱為 [最適化表單片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
 
@@ -122,6 +120,11 @@ Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的�
 ![協助工具標籤](/help/adaptive-forms/assets/fragment-accessibilitytab.png)
 
 - **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+   - **自訂文字**：選取此選項以使用自訂文字做為ARIA協助工具標籤。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。
+   - **說明**：選取此選項即可使用ARIA協助工具標籤的說明。
+   - **標題**：選取此選項以使用ARIA協助工具標籤的標題。
+   - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
+   - **無**：如果您不想要新增ARIA協助工具標籤，請選取此選項。
 
 - **熒幕助讀程式宣告的HTML角色** -HTML角色是一種屬性，用來指定HTML元素對輔助技術（例如熒幕閱讀程式）的用途。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 

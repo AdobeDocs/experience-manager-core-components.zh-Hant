@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 表單容器
 description: 將最適化表單新增至網頁。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---

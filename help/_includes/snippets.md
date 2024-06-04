@@ -1,8 +1,8 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 20%
+source-wordcount: '214'
+ht-degree: 23%
 
 ---
 # 代碼片段 {#snippets}
@@ -57,29 +57,30 @@ ht-degree: 20%
 ## 更多相關資訊 {#more-like-this}
 
 - [折疊面板](/help/adaptive-forms/components/accordion.md)
+- [最適化表單片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [自適應表單 reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [按鈕](/help/adaptive-forms/components/button.md)
 - [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
 - [核取方塊](/help/adaptive-forms/components/checkbox.md)
 - [日期挑選器](/help/adaptive-forms/components/date-picker.md)
 - [下拉式清單](/help/adaptive-forms/components/drop-down-list.md)
-- [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
+- [電子郵件](/help/adaptive-forms/components/email.md)
 - [表單容器](/help/adaptive-forms/components/form-container.md)
+- [表單標題](/help/adaptive-forms/components/form-title.md)
 - [檔案附件](/help/adaptive-forms/components/file-attachment.md)
-- [最適化表單片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [頁尾](/help/adaptive-forms/components/footer.md)
 - [頁首](/help/adaptive-forms/components/header.md)
 - [影像](/help/adaptive-forms/components/image.md)
 - [數值方塊](/help/adaptive-forms/components/numeric-box.md)
 - [面板](/help/adaptive-forms/components/panel.md)
+- [手機](/help/adaptive-forms/components/phone.md)
 - [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
 - [垂直索引標籤](/help/adaptive-forms/components/vertical-tabs.md)
 - [選項按鈕](/help/adaptive-forms/components/radio-button.md)
 - [重設按鈕](/help/adaptive-forms/components/reset-button.md)
 - [提交按鈕](/help/adaptive-forms/components/submit-button.md)
-- [電話輸入](/help/adaptive-forms/components/telephone-input.md)
 - [文字方塊](/help/adaptive-forms/components/text-box.md)
 - [文字](/help/adaptive-forms/components/text.md)
-- [標題](/help/adaptive-forms/components/title.md)
 - [條款與條件標籤](/help/adaptive-forms/components/terms-and-conditions.md)
 - [精靈](/help/adaptive-forms/components/wizard.md)
 

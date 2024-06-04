@@ -3,16 +3,14 @@ title: 最適化Forms核心元件 — 選項按鈕
 description: 使用或自訂最適化Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
 
 # 選項按鈕元件 {#radio-button-adaptive-forms-core-component}
-
-<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**   和   **允許選項使用RTF格式**   功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的選項按鈕是一種輸入元素，可讓使用者從一組相關選項中選取一個選項。 它由一個小的圓形按鈕表示，該按鈕已填滿或空白，以指示是否選取該選項。 當使用者選取一個選項按鈕時，群組中的其他按鈕會變為取消選取。 當有多個互斥選項且一次只能選取一個選項時，通常會使用選項按鈕。
 
@@ -128,7 +126,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![協助工具標籤](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
 
-**熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+- **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指視力受損者使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+   - **自訂文字**：選取此選項以使用自訂文字做為ARIA協助工具標籤。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。
+   - **說明**：選取此選項即可使用ARIA協助工具標籤的說明。
+   - **標題**：選取此選項以使用ARIA協助工具標籤的標題。
+   - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
+   - **無**：如果您不想要新增ARIA協助工具標籤，請選取此選項。
 
 ## 設計對話方塊 {#design-dialog}
 

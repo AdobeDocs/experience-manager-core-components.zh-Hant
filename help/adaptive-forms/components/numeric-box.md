@@ -3,16 +3,14 @@ title: 最適化Forms核心元件 — 數字輸入
 description: 使用或自訂最適化Forms編號輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
 
 # 數值方塊元件{#number-input-adaptive-forms-core-component}
-
-<span class="preview"> 本文包含有關以下專案的內容：   **允許標題使用RTF文字**    功能，搶鮮版功能。 搶鮮版功能只能透過我們的 [發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 最適化表單中的數字輸入元件是一種表單欄位，可讓使用者輸入數值。 元件通常以文字欄位表示，並使用向上和向下箭頭遞增和遞減數字。
 
@@ -117,7 +115,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![協助工具標籤](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**熒幕助讀程式的文字**  — 熒幕助讀程式文字是指供視障人士使用的輔助技術（例如熒幕助讀程式）閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+- **熒幕助讀程式的文字**  — 熒幕助讀程式文字是指供視障人士使用的輔助技術（例如熒幕助讀程式）閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
+   - **自訂文字**：選取此選項以使用自訂文字做為ARIA協助工具標籤。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。
+   - **說明**：選取此選項即可使用ARIA協助工具標籤的說明。
+   - **標題**：選取此選項以使用ARIA協助工具標籤的標題。
+   - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
+   - **無**：如果您不想要新增ARIA協助工具標籤，請選取此選項。
 
 ### 格式標籤 {#formats-configure-tab}
 
@@ -131,7 +134,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 設計對話方塊 {#design-dialog}
 
-「設計」對話方塊可用來定義和管理Number輸入元件的CSS樣式。
+「設計」對話方塊可用來定義和管理數值方塊元件的CSS樣式。
 
 ### 樣式索引標籤 {#styles-tab}
 
@@ -139,7 +142,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![樣式標籤](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **預設CSS類別**：您可以為最適化Forms數字輸入核心元件提供預設CSS類別。
+- **預設CSS類別**：您可以為最適化Forms數值方塊核心元件提供預設CSS類別。
 
 - **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
