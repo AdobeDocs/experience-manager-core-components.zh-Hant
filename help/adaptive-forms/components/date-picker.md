@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 日期選擇器
 description: 使用或自訂最適化Forms日期選擇器核心元件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2299'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,21 @@ To experience the Accordion Component as well as see examples of its configurati
 - **顯示格式**  — 代表向使用者顯示的日期格式。 此 **型別** 選項可讓使用者選取日期格式。 您也可以使用來自訂日期格式 **自訂** 中的選項 **型別** 下拉式功能表。
 
 - **編輯格式**  — 代表使用者可編輯日期的日期格式。 此 **型別** 選項可讓使用者選取日期格式。 您也可以使用來自訂日期格式 **自訂** 中的選項 **型別** 下拉式功能表。
+- **格式錯誤訊息**  — 此選項可讓您在輸入的日期格式不正確時，輸入畫面上顯示的訊息。
+- **語言**  — 此功能用於格式化特定欄位。 當使用者選擇任何語言選項 **型別** 下拉式功能表、 **IETF BCP 47語言標籤** 選項隨即顯示在面板中。 將最適化表單翻譯成特定語言時，您可以選擇欄位格式化的語言。
+
+預設不會顯示這組語言，但使用者可以輸入自訂 **IETF BCP 47語言標籤** 更新範本原則：
+
+1. 在範本編輯器中開啟與最適化表單相關的對應範本。
+2. 選取現有的原則為 `datepicker-default-policy` （從下拉式功能表）。
+
+   ![日期選擇器範本原則](/help/adaptive-forms/assets/date-picker-template-policy.png)
+
+3. 按一下&#x200B;**「完成」**。
+
+   >[!NOTE]
+   >
+   > 如需如何將最適化表單轉譯為特定地區設定的詳細資訊， [按一下這裡](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## 設計對話方塊 {#design-dialog}
 

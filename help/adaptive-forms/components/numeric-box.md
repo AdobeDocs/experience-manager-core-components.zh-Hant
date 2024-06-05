@@ -3,16 +3,16 @@ title: 最適化Forms核心元件 — 數字輸入
 description: 使用或自訂最適化Forms編號輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2283'
 ht-degree: 0%
 
 ---
 
 # 數值方塊元件{#number-input-adaptive-forms-core-component}
 
-最適化表單中的數字輸入元件是一種表單欄位，可讓使用者輸入數值。 元件通常以文字欄位表示，並使用向上和向下箭頭遞增和遞減數字。
+最適化表單中的數值方塊元件是一種表單欄位，可讓使用者輸入數值。 元件通常以文字欄位表示，並使用向上和向下箭頭遞增和遞減數字。
 
 也可以搭配最小值、最大值、步長、值等屬性使用。 這些屬性可用於設定欄位中允許的最小值和最大值、增加或減少數字的步驟間隔，以及欄位的預設值。
 
@@ -127,10 +127,21 @@ To experience the Accordion Component as well as see examples of its configurati
 ![協助工具標籤](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **顯示格式**  — 此選項可讓您從不同的整數 — 數字型別格式中選取選項以供顯示。 當使用者選擇任何選項 **型別** 下拉式功能表、 **格式** 選項即會顯示在面板中。 您可以選擇向使用者顯示數字的特定格式。
+- **語言**  — 此功能用於格式化特定欄位。 當使用者選擇任何語言選項 **型別** 下拉式功能表、 **IETF BCP 47語言標籤** 選項隨即顯示在面板中。 將最適化表單翻譯成特定語言時，您可以選擇欄位格式化的語言。
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+預設不會顯示這組語言，但使用者可以輸入自訂 **IETF BCP 47語言標籤** 更新範本原則：
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+1. 在範本編輯器中開啟與最適化表單相關的對應範本。
+2. 選取現有的原則為 `numberinput-default-policy` （從下拉式功能表）。
+
+   ![日期選擇器範本原則](/help/adaptive-forms/assets/numberinput-template-policy.png)
+
+3. 按一下&#x200B;**「完成」**。
+
+   >[!NOTE]
+   >
+   > 如需如何將最適化表單轉譯為特定地區設定的詳細資訊， [按一下這裡](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+
 
 ## 設計對話方塊 {#design-dialog}
 
