@@ -3,7 +3,7 @@ title: 核心元件版本
 description: 核心元件會以發行版本發佈，其中可能包含相同核心元件的多個版本。 本檔案說明什麼是發行版本和版本，以及如何瞭解與核心元件和AEM的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 39c9dd3374ea7c31b9f03cc02e883ab26f463368
 workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 8%
@@ -26,8 +26,8 @@ ht-degree: 8%
 
 | 發行 | 說明 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  | Java | 發行日期 |
 |---|---|---|---|---|---|---|
-| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 此為修正部分IT故障的次要版本。 | - | 6.5.22.0+ | 持續 | 8， 11 | 2024年5月10日 |
-| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 此為修正部分IT故障的次要版本。 | - | 6.5.22.0+ | 持續 | 8， 11 | 2024年5月9日 |
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 此為修正部分IT故障的次要版本。 | - | 6.5.21.0+ | 持續 | 8， 11 | 2024年5月10日 |
+| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 此為修正部分IT故障的次要版本。 | - | 6.5.21.0+ | 持續 | 8， 11 | 2024年5月9日 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 此發行版本新增對Dynamic Media中具名智慧型裁切的支援，包括效能和協助工具改進以及各種錯誤修正。 | - | 6.5.21.0+ | 持續 | 8， 11 | 2024年5月2日 |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 此修補程式發行版本包含資料層初始化的改良功能。 | - | 6.5.21.0+ | 持續 | 8， 11 | 2024年4月22日 |
 | [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 此修補程式發行版本修正Sling模型初始化。 | - | 6.5.21.0+ | 持續 | 8， 11 | 2024年4月1日 |
