@@ -1,11 +1,11 @@
 ---
 title: 電子郵件按鈕元件
-description: 電子郵件按鈕元件允許設定並在您的內容中顯示按鈕專案。
+description: 電子郵件按鈕元件允許您在內容中設定和顯示按鈕專案。
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -13,14 +13,14 @@ ht-degree: 1%
 
 # 電子郵件按鈕元件 {#email-button-component}
 
-電子郵件按鈕元件允許設定並在您的內容中顯示按鈕專案。
+電子郵件按鈕元件允許您在內容中設定和顯示按鈕專案。
 
-## 使用狀況 {#usage}
+## 使用情況 {#usage}
 
 電子郵件按鈕元件允許在您的內容中加入按鈕，內容閱讀器可點按，連結到其他資源。
 
-* 按鈕的屬性可在 [設定對話方塊。](#configure-dialog)
-* 電子郵件按鈕元件的樣式可在 [設計對話方塊。](#design-dialog)
+* 可在[設定對話方塊中選取按鈕的屬性。](#configure-dialog)
+* 電子郵件按鈕元件的樣式可在[設計對話方塊中定義。](#design-dialog)
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -32,52 +32,52 @@ ht-degree: 1%
 |---|---|---|
 | v1 | 相容 | - |
 
-如需核心元件版本和發行版本的詳細資訊，請參閱檔案 [電子郵件核心元件版本。](/help/email/versions.md)
+如需核心元件版本的詳細資訊，請參閱檔案[電子郵件核心元件版本。](/help/email/versions.md)
 
 ## 技術細節 {#technical-details}
 
-有關電子郵件按鈕元件的最新技術檔案 [在GitHub上可找到。](https://adobe.com/go/aem_cmp_tech_email_button_v1)
+您可以在GitHub上找到有關電子郵件按鈕元件[的最新技術檔案。](https://adobe.com/go/aem_cmp_tech_email_button_v1)
 
-有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案。](/help/developing/overview.md)
+在[核心元件開發人員檔案中可找到有關開發核心元件的進一步詳細資料。](/help/developing/overview.md)
 
 ## 設定對話方塊 {#configure-dialog}
 
-設定對話方塊可讓內容作者定義按鈕，以及按鈕的行為和顯示方式，以供內容讀者閱讀。
+此設定對話方塊可讓內容作者定義按鈕，以及按鈕對內容讀者的行為和顯示方式。
 
 ### 屬性標籤 {#properties-tab}
 
-![按鈕元件「編輯」對話方塊的「屬性」標籤](/help/email/assets/email-button-edit-properties.png)
+按鈕元件](/help/email/assets/email-button-edit-properties.png)之編輯對話方塊的![屬性標籤
 
-* **文字**  — 按鈕上顯示的文字
-   * 按一下Campaign圖示以開啟 [選取Adobe Campaign變數](/help/email/campaign-variables.md) 對話方塊，插入來自Adobe Campaign的動態內容。
-* **連結**  — 連結至AEM中的內容頁面、外部資源或錨點
-   * 使用 **選擇對話方塊** 以在AEM中選擇路徑。
-   * 按一下Campaign圖示以開啟 [選取Adobe Campaign變數](/help/email/campaign-variables.md) 對話方塊，插入來自Adobe Campaign的動態內容。
-* **圖示**  — 在按鈕中顯示圖示的識別碼
-* **ID**  — 此選項可讓您控制HTML中元件的唯一識別碼。
-   * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果內容找到該ID。
-   * 若指定ID，作者應負責確認該ID是唯一的。
+* **文字** — 按鈕上顯示的文字
+   * 按一下Campaign圖示以開啟[選取Adobe Campaign變數](/help/email/campaign-variables.md)對話方塊，插入來自Adobe Campaign的動態內容。
+* **連結** — 連結至AEM中的內容頁面、外部資源或錨點
+   * 使用&#x200B;**選取範圍對話方塊**&#x200B;在AEM中選擇路徑。
+   * 按一下Campaign圖示以開啟[選取Adobe Campaign變數](/help/email/campaign-variables.md)對話方塊，插入來自Adobe Campaign的動態內容。
+* **圖示** — 在按鈕中顯示圖示的識別碼
+* **ID** — 此選項允許控制HTML中元件的唯一識別碼。
+   * 如果保留為空白，系統會自動為您產生唯一ID，但您可在檢查結果內容時找到該ID。
+   * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS造成影響。
-* **在新標籤中開啟連結**  — 如果勾選，連結將在新的瀏覽器分頁中開啟。
+* **在新標籤中開啟連結** — 如果勾選，將在新的瀏覽器標籤中開啟連結。
 
 ### 協助工具標籤 {#accessibility-tab}
 
-![按鈕元件「編輯」對話方塊的「協助工具」標籤](/help/email/assets/email-button-edit-accessibility.png)
+![按鈕元件](/help/email/assets/email-button-edit-accessibility.png)之編輯對話方塊的協助工具標籤
 
-於 **協助工具** 標籤，可設定的值 [ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。
+在&#x200B;**協助工具**&#x200B;標籤上，可以為元件設定[ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/)標籤的值。
 
-* **標籤**  — 元件的ARIA標籤屬性值
+* **標籤** — 元件的ARIA標籤屬性值
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-電子郵件按鈕元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling).
+電子郵件按鈕元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取要套用至元件的樣式。 在「編輯」對話方塊中所做的選取與從元件工具列中選擇的效果相同。
+使用下拉式清單，選取要套用至元件的樣式。 在「編輯」對話方塊中所做的選取與從元件工具列中選擇的選取具有相同的效果。
 
-必須在以下位置為此元件設定樣式： [設計對話方塊](#design-dialog) 讓索引標籤可用。
+必須在[設計對話方塊](#design-dialog)中為此元件設定樣式，才能使用索引標籤。
 
 ## 設計對話方塊 {#design-dialog}
 
 ### 樣式索引標籤 {#styles-tab}
 
-電子郵件按鈕元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+電子郵件按鈕元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。

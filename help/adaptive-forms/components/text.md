@@ -24,13 +24,13 @@ ht-degree: 1%
 
 在表單中使用文字有幾個原因：
 
-- **提供指示**：文字可用於提供如何填寫表單或需要哪些資訊的說明。
+- **提供指示**：文字可用於提供如何填寫表單或需要哪些資訊的指示。
 
-- **提供內容**：文字可用於提供表單的內容，例如說明表單的用途或收集資訊的組織。
+- **提供內容**：文字可用來提供表單的內容，例如說明表單的目的或收集資訊的組織。
 
-- **將表單劃分為邏輯部分**：文字可用來將表單劃分為邏輯區段，讓使用者更容易理解並完成表單。
+- **將表單分割為邏輯區段**：文字可用來將表單分割為邏輯區段，讓使用者更容易理解並完成表單。
 
-- **品牌和身分**：文字可用於品牌和身分識別目的，例如在表單中包含組織名稱。
+- **品牌和身分**：文字可用於品牌和身分目的，例如在表單中包含組織的名稱。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -38,9 +38,9 @@ ht-degree: 1%
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
-| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 及更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和較新版本，但小於2.0.0。 |
+| v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
-如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
+如需核心元件版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -48,7 +48,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術細節 {#technical-details}
 
-在的技術檔案中取得最適化Forms文字核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text)上的技術檔案中取得最適化Forms文字核心元件的最新資訊。 如需開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -56,11 +56,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![基本索引標籤](/help/adaptive-forms/assets/text_properties.png)
 
-- **名稱**  — 在表單和規則編輯器中，您可以使用表單元件的唯一名稱輕鬆識別表單元件，但名稱不得包含空格或特殊字元。
+- **名稱** — 您可以在表單和規則編輯器中輕鬆識別具有唯一名稱的表單元件，但名稱不得包含空格或特殊字元。
 
-- **繫結參考**  — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
-- **標籤為未繫結表單元素**：選取選項以設定未連結至任何結構的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
-- **隱藏元件**  — 選取選項，以從表單中隱藏元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
+- **繫結參考** — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
+- **標籤為未繫結的表單元素**：選取選項以設定未連結至任何結構描述的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
+- **隱藏元件** — 選取選項，以隱藏表單中的元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
   <!--    **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
 ## 設計對話方塊 {#design-dialog}
@@ -69,13 +69,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 樣式索引標籤 {#styles-tab}
 
-索引標籤可用來定義和管理元件的CSS樣式。 最適化Forms文字核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤可用來定義和管理元件的CSS樣式。 最適化Forms文字核心元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ![設計對話方塊](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **預設CSS類別**：您可以為最適化Forms文字核心元件提供預設CSS類別。
 
-- **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至「屬性」對話方塊，然後從 **樣式** 下拉式清單。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
+- **允許的樣式**：您可以提供名稱以及代表樣式的CSS類別來定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供CSS類別「font-weight： bold」。 您可以在最適化Forms編輯器中將這些樣式使用或套用至最適化表單。 若要套用樣式，請在最適化Forms編輯器中，選取您要套用樣式的元件，導覽至屬性對話方塊，然後從&#x200B;**樣式**&#x200B;下拉式清單中選取所需的樣式。 如果您需要更新或修改樣式，只要返回「設計」對話方塊，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
 ### 自訂屬性
 
@@ -83,13 +83,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 自訂屬性可讓您使用表單範本，將自訂屬性（索引鍵/值組）與最適化表單核心元件建立關聯。 自訂屬性會反映在元件Headless轉譯的properties區段中。 它可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動、桌上型電腦或Web平台設計各種無頭Forms元件的轉譯，大幅提升各種裝置的使用者體驗。
 
-- **群組名稱**：您可以提供名稱來識別自訂屬性群組。 您可以新增、刪除或重新排列多個自訂屬性群組。 新增自訂屬性群組後，您可以看到下列選項：
+- **群組名稱**：您可以提供一個名稱來識別自訂屬性群組。 您可以新增、刪除或重新排列多個自訂屬性群組。 新增自訂屬性群組後，您可以看到下列選項：
 
-   - **索引鍵值配對**：您可以按一下「 」，新增多個自訂屬性名稱和自訂屬性值 **新增** 按鈕來設定每個自訂屬性群組。
+   - **索引鍵 — 值配對**：您可以按一下每個自訂屬性群組的&#x200B;**新增**&#x200B;按鈕，以新增多個自訂屬性名稱和自訂屬性值。
 
    - **刪除**：點選或按一下以刪除自訂屬性名稱和自訂屬性值。
 
-   - **重新排列**：點選或按一下並拖曳，以重新排列自訂屬性名稱和自訂屬性值的順序。
+   - **重新排列**：點選或按一下並拖曳以重新排列自訂屬性名稱和自訂屬性值。
 
 ## 相關文章 {#related-articles}
 

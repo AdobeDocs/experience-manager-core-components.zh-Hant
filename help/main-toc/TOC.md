@@ -18,13 +18,13 @@ ht-degree: 41%
 + [核心元件簡介](/help/introduction.md)
 + [回應式設計](/help/responsive.md)
 + [成功的途徑](/help/developing/success.md)
-+ [元件資料庫](https://adobe.com/go/aem_cmp_library)
++ [元件庫](https://adobe.com/go/aem_cmp_library)
 + [版本](/help/versions.md)
-+ 立即開始 {#get-started}
++ 開始使用 {#get-started}
    + [使用核心元件編寫](/help/get-started/authoring.md)
    + [使用核心元件](/help/get-started/using.md)
    + [本地化功能](/help/get-started/localization.md)
-+ WCM元件 {#wcm-components}
++ WCM元件{#wcm-components}
    + [折疊面板](/help/components/accordion.md)
    + [階層連結](/help/components/breadcrumb.md)
    + [按鈕](/help/components/button.md)
@@ -78,20 +78,20 @@ ht-degree: 41%
          + [已隱藏的表單 (v1)](/help/components/v1/form-hidden-v1.md)
          + [表單選項 (v1)](/help/components/v1/form-options-v1.md)
          + [表單文字 (v1)](/help/components/v1/form-text-v1.md)
-   + v2元件 {#v2-components}
+   + v2元件{#v2-components}
       + [階層連結 (v2)](/help/components/v2/breadcrumb.md)
       + [影像 (v2)](/help/components/v2/image.md)
       + [清單 (v2)](/help/components/v2/list.md)
       + [頁面 (v2)](/help/components/v2/page.md)
       + [標題 (v2)](/help/components/v2/title.md)
-   + v3元件 {#v3-components}
+   + v3元件{#v3-components}
       + [清單(v3)](/help/components/v3/list.md)
-+ 電子郵件元件 {#email}
++ 電子郵件元件{#email}
    + [簡介](/help/email/introduction.md)
    + [使用電子郵件核心元件](/help/email/using.md)
    + [促銷活動變數](/help/email/campaign-variables.md)
    + [版本](/help/email/versions.md)
-   + 電子郵件元件 {#components}
+   + 電子郵件元件{#components}
       + [頁面](/help/email/components/page.md)
       + [容器](/help/email/components/container.md)
       + [標題](/help/email/components/title.md)
@@ -105,7 +105,7 @@ ht-degree: 41%
 + 最適化表單 {#adaptive-forms}
    + [簡介](/help/adaptive-forms/introduction.md)
    + [版本記錄](/help/adaptive-forms/version.md)
-   + 最適化Forms元件 {#adaptive-forms-components}
+   + 最適化Forms元件{#adaptive-forms-components}
       + [最適化Forms摺疊式功能表](/help/adaptive-forms/components/accordion.md)
       + [最適化Forms按鈕](/help/adaptive-forms/components/button.md)
       + [最適化Forms核取方塊](/help/adaptive-forms/components/checkbox.md)
@@ -139,7 +139,7 @@ ht-degree: 41%
    + [範例主題和範本](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
-   + [成功的途徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](/help/developing/customizing.md)
    + [元件指導方針](/help/developing/guidelines.md)
@@ -148,12 +148,12 @@ ht-degree: 41%
    + [包含使用者端資料庫](/help/developing/including-clientlibs.md)
    + [自我調整影像Servlet](/help/developing/adaptive-image-servlet.md)
    + [網頁最佳化的影像交付](/help/developing/web-optimized-image-delivery.md)
-   + [遠端資產支援](/help/developing/remote-assets.md)
-   + Adobe使用者端資料層 {#data-layer}
+   + [遠端Assets支援](/help/developing/remote-assets.md)
+   + Adobe使用者端資料層{#data-layer}
       + [資料層概觀](/help/developing/data-layer/overview.md)
       + [與資料層的整合](/help/developing/data-layer/integrations.md)
       + [擴充資料層](/help/developing/data-layer/extending.md)
-   + AEM專案原型 {#archetype}
+   + AEM專案原型{#archetype}
       + [原型概觀](/help/developing/archetype/overview.md)
       + [使用原型](/help/developing/archetype/using.md)
       + [前端開發](/help/developing/archetype/front-end.md)

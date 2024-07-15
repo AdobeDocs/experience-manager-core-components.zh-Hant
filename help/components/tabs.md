@@ -19,13 +19,13 @@ ht-degree: 0%
 
 索引標籤元件可讓內容作者在多個索引標籤內整理頁面內容。
 
-此 [編輯對話方塊](#edit-dialog) 允許內容作者定義多個索引標籤並設定作用中的索引標籤。 使用 [設計對話方塊](#design-dialog)，範本作者可以定義哪些元件可以新增到索引標籤並自訂樣式。
+[編輯對話方塊](#edit-dialog)可讓內容作者定義多個索引標籤並設定作用中的索引標籤。 使用[設計對話方塊](#design-dialog)，範本作者可以定義哪些元件可以加入索引標籤並自訂樣式。
 
 >[!TIP]
 >
 >支援巢狀標籤元件（標籤內的標籤）。
 >
->可以使用來定位/選取簡單（非巢狀）標籤元件 [內容樹狀結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)，但巢狀索引標籤不可以是。
+>可以使用[內容樹狀結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)來尋找/選取簡單（非巢狀）索引標籤元件，但是無法巢狀索引標籤。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -35,31 +35,31 @@ ht-degree: 0%
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
 |--- |--- |--- |---|
-| v1 | 相容於<br>[第2.17.4發行版本](/help/versions.md) 和先前的 | 相容 | 相容 |
+| v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 |
 
-如需核心元件版本的詳細資訊，請參閱檔案 [核心元件版本](/help/versions.md).
+如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗索引標籤元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪 [元件資料庫](https://adobe.com/go/aem_cmp_library_tabs).
+若要體驗索引標籤元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_tabs)。
 
 ### 技術細節 {#technical-details}
 
-有關索引標籤元件的最新技術檔案 [在GitHub上可找到](https://adobe.com/go/aem_cmp_tech_tabs_v1).
+在GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1)上可找到有關索引標籤元件[的最新技術檔案。
 
-有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
 ## 面板的深層連結 {#deep-linking}
 
-索引標籤、 [輪播，](carousel.md) 和 [摺疊式功能表元件](accordion.md) 支援直接連結至元件中的面板。
+索引標籤、[轉盤、](carousel.md)和[摺疊式功能表元件](accordion.md)支援直接連結至元件中的面板。
 
 若要這麼做：
 
-1. 使用檢視含元件的頁面 **[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 選項來編輯頁面。
+1. 在頁面編輯器中使用&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
 1. Inspect頁面內容並識別面板的ID。
-   * 例如 `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. ID會成為您可以使用雜湊附加至URL的錨點(`#`)。
-   * 例如 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+   * 例如`id="accordion-86196c94d3-item-ca319dbb0b"`
+1. ID會成為您可以使用雜湊(`#`)附加至URL的錨點。
+   * 例如`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 導覽至將面板ID當作錨點的URL，瀏覽器會直接捲動至特定元件，並顯示指定的面板。 如果面板預設為不展開，則會自動展開。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 所有核心元件的設計都可充分回應，確保裝置間的順暢體驗。
 
-有些進階元件（如標籤元件）在執行專案的內容中可能需要特別考量，以保持在所有條件下的回應能力。 請參閱檔案 [核心元件的回應式設計](/help/responsive.md) 以取得詳細資訊。
+有些進階元件（如標籤元件）在執行專案的內容中可能需要特別考量，以保持在所有條件下的回應能力。 如需詳細資訊，請參閱檔案[核心元件的回應式設計](/help/responsive.md)。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -75,45 +75,45 @@ ht-degree: 0%
 
 ### 專案標籤 {#items-tab}
 
-![索引標籤元件的「編輯」對話方塊專案索引標籤](/help/assets/tabs-edit-items.png)
+![索引標籤元件的編輯對話方塊專案索引標籤](/help/assets/tabs-edit-items.png)
 
-使用 **新增** 按鈕來開啟元件選擇器，選擇要新增為索引標籤的元件。 新增專案後，專案會新增到清單中，包含以下欄：
+使用&#x200B;**新增**&#x200B;按鈕開啟元件選擇器，選擇要新增為索引標籤的元件。 新增專案後，專案會新增到清單中，包含以下欄：
 
-* **圖示**  — 標籤的元件型別圖示，可方便在清單中識別。 將滑鼠移到上方以檢視完整的元件名稱作為工具提示。
-* **說明**  — 用來作為索引標籤文字的說明，預設為針對索引標籤選取的元件名稱。
-* **刪除**  — 點選或按一下以從標籤元件中刪除標籤。
-* **重新排列**  — 點選或按一下並拖曳以重新排列標籤。
+* **圖示** — 標籤元件型別的圖示，可在清單中輕鬆識別。 將滑鼠移到上方以檢視完整的元件名稱作為工具提示。
+* **描述** — 用作索引標籤文字的描述，預設為針對索引標籤選取的元件名稱。
+* **刪除** — 點選或按一下以從索引標籤元件刪除索引標籤。
+* **重新排列** — 點選或按一下並拖曳以重新排列標籤。
 
 >[!TIP]
 >
->如果減少頁面的檢視區以便讓編輯對話方塊變成全熒幕，則 **新增** 按鈕將會隱藏。 元件仍可透過以下方式新增至索引標籤元件 [從元件瀏覽器拖曳並放置在頁面編輯器的索引標籤元件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
+>如果減少頁面的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可透過從元件瀏覽器拖曳並放置在頁面編輯器的索引標籤元件上[新增到索引標籤元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)。
 
 ### 屬性標籤 {#properties-tab}
 
-![索引標籤元件的「編輯」對話方塊屬性索引標籤](/help/assets/tabs-edit-properties.png)
+![索引標籤元件的編輯對話方塊屬性索引標籤](/help/assets/tabs-edit-properties.png)
 
-* **作用中的專案**  — 內容作者可以定義載入頁面時處於作用中狀態的索引標籤。
-   * 使用 **預設** 選項，則會選取第一個索引標籤。
-* **ID**  — 此選項可讓您控制HTML中元件的唯一識別碼，以及 [資料層](/help/developing/data-layer/overview.md).
+* **作用中專案** — 內容作者可以定義載入頁面時作用中的索引標籤。
+   * 透過&#x200B;**預設**&#x200B;選項，將會選取第一個索引標籤。
+* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
 
 ### 協助工具標籤 {#accessibility-tab}
 
-![索引標籤元件的「編輯」對話方塊協助工具索引標籤](/help/assets/tabs-edit-accessibility.png)
+![索引標籤元件的編輯對話方塊協助工具索引標籤](/help/assets/tabs-edit-accessibility.png)
 
-在 **協助工具** 標籤，可設定的值 [ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/) 元件的標籤。
+在&#x200B;**協助工具**&#x200B;標籤上，可以為元件設定[ARIA協助工具](https://www.w3.org/WAI/standards-guidelines/aria/)標籤的值。
 
-* **標籤**  — 元件的ARIA標籤屬性值
+* **標籤** — 元件的ARIA標籤屬性值
 
 ## 選取面板 {#select-panel}
 
-內容作者可以使用 **選取面板** 元件工具列上的選項，以變更為不同的面板進行編輯，以及輕鬆地重新排列索引標籤。
+內容作者可以使用元件工具列上的&#x200B;**選取面板**&#x200B;選項，變更到不同的面板進行編輯，以及輕鬆地重新排列索引標籤。
 
 ![選取面板圖示](/help/assets/select-panel-icon.png)
 
-選取 **選取面板** 選項時，已設定的標籤會以下拉式清單的形式顯示。
+在元件工具列中選取&#x200B;**選取面板**&#x200B;選項後，已設定的索引標籤會顯示為下拉式清單。
 
 * 清單會依指派的標籤排列方式排序，並會反映在編號中。
 * 首先顯示標籤的元件型別，然後是較細字型的標籤說明。
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->索引標籤在中時，作者無法選取 **編輯** 模式。 使用 **[預覽](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** 模式或 **[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 選項，可以像已發佈內容的讀者那樣與索引標籤互動。
+>作者在&#x200B;**編輯**&#x200B;模式中無法選取索引標籤。 使用&#x200B;**[預覽](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，可以像已發佈內容的讀者那樣與索引標籤互動。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -133,14 +133,14 @@ ht-degree: 0%
 
 ### 允許的元件標籤 {#allowed-components-tab}
 
-此 **允許的元件** tab可用來定義哪些元件可由內容作者新增為索引標籤元件的專案。
+**允許的元件**&#x200B;索引標籤是用來定義哪些元件可由內容作者新增為索引標籤元件的專案。
 
-「允許的元件」標籤的功能與相同名稱的標籤相同，當 [在範本編輯器中定義配置容器的原則和屬性。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+當[在範本編輯器中定義配置容器的原則與屬性時，「允許的元件」索引標籤的功能與相同名稱的索引標籤相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 樣式索引標籤 {#styles-tab}
 
-索引標籤元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling).
+索引標籤元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ## Adobe使用者端資料層 {#data-layer}
 
-索引標籤元件支援 [Adobe使用者端資料層。](/help/developing/data-layer/overview.md)
+索引標籤元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

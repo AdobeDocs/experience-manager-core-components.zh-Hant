@@ -15,22 +15,22 @@ ht-degree: 1%
 
 # 範例主題、範本和表單資料模型 {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] 核心元件提供立即可用的範例主題、範本和表單資料模型，以便快速建立多樣化的調適型表單。 這也有助於讓作者瞭解的擴充性、適應性和回應能力 [最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 能夠快速建立簡單的表單，並輕鬆建立複雜的表單，同時順暢地與資料庫連線。
+[!DNL AEM Forms]核心元件提供現成的範例主題、範本和表單資料模型，以便快速建立多樣化的調適型表單。 這也有助於表單作者瞭解[最適化Forms核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)的可擴充性、適應性和回應能力，以便輕鬆建立簡易的表單，同時與資料庫緊密連線。
 
 參考內容套件中包含的範例主題、範本和表單資料模型包括：
 
 | 範本 | 主題 | 表單資料模型 |
 ---------|----------|---------
 | [空白](#Blank) | [畫布](#Canvas) | Microsoft® Dynamics 365 |
-| [聯絡我們](#Contact-Us) | [WKND](#WKND) | Salesforce |
-| [聯絡詳細資料更新](#Contact-Details-Update) | [畫架](#Easel) |   |
+| [連絡我們](#Contact-Us) | [WKND](#WKND) | Salesforce |
+| [連絡人詳細資料更新](#Contact-Details-Update) | [畫架](#Easel) |   |
 | [同意表單](#Consent-Form) | [FSI](#FSI) |  |
 | [記錄服務要求](#Log-Service-Request) | [醫療保健](#Healthcare) |  |
 | [提供意見回饋](#Give-Feedback) |  |  |
-| [福利註冊](#Benefits-Enrollment) |  |   |
-| [員工福利彙總](#Employee-Benefits-Summary) |   |   |
+| [權益註冊](#Benefits-Enrollment) |  |   |
+| [員工福利摘要](#Employee-Benefits-Summary) |   |   |
 | [要求帳戶對帳單](#Request-for-Account-Statement) |   |   |
-| [安全檢查表](#Safety-Inspection) |   |   |
+| [安全檢查表單](#Safety-Inspection) |   |   |
 | [品質控制檢查](#Quality-Control-Inspection) |   |   |
 | [購買要求](#Purchase-Request) |  |  |
 
@@ -39,17 +39,17 @@ ht-degree: 1%
 參考範例主題可協助作者使用、定義及自訂表單的樣式，即使具備CSS基本知識的作者也可以視需要自訂主題。
 
 **如何取得這些主題？**
-您可以使用以下為提供的步驟來取得這些主題 **AEMas a Cloud Service** 環境：
+您可以使用以下針對**AEM as a Cloud Service**&#x200B;環境提供的步驟來取得這些主題：
 
 1. [啟用最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
 1. [將AEM Archetype 47專案或更新版本部署至您的環境](https://github.com/adobe/aem-project-archetype)
 
 
-部署AEM原型時，您只能在表單中使用OOTB主題。若要根據需求自訂主題， [使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) 以部署主題。
+部署AEM Archetype時，您只能在表單中使用OOTB主題。若要根據您的需求自訂主題，[使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)以部署主題。
 
 >[!NOTE]
 >
-> * 主題不可用於 **AEM 6.5** 環境。
+> * 主題不適用於&#x200B;**AEM 6.5**&#x200B;環境。
 
 <!--
 
@@ -82,7 +82,7 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 -->
 
-此 **立即可用** [最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 主題包括：
+**立即可用** [最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)主題為：
 
 ![OOTB主題](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
@@ -90,33 +90,33 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 畫布布主題是表單的預設主題，並強調使用基本顏色、透明度與平面圖示。 在下方熒幕擷圖中，您可以看到畫布布佈景主題的外觀。
 
-![畫布主題](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
+![畫布布主題](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
 ### WKND {#WKND}
 
-WKND主題包含生動、富有想象力且吸引人的設計，以展現您表單的時尚外觀。 主題是根據 [WKND網站](https://wknd.site/us/en.html) 這是一個旅遊和冒險網站，建立在 [Adobe Experience Manager核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html).
+WKND主題包含生動、富有想象力且吸引人的設計，以展現您表單的時尚外觀。 此主題是以[WKND網站](https://wknd.site/us/en.html)的外觀和樣式為基礎，該網站是以[Adobe Experience Manager核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)為基礎的旅遊和冒險網站組建。
 
-![WKND主題](/help/adaptive-forms/assets/Safety-Inspection-Form-Theme.png)
+![WKND佈景主題](/help/adaptive-forms/assets/Safety-Inspection-Form-Theme.png)
 
 
 ### 畫架 {#Easel}
 
 畫框主題有助於建立吸引人且易於設定的表單外觀，而且會經過客製化，以簡化操作且方便使用。 畫架主題是以可攜式底座的概念為基礎，藝術家在製作畫作時可透過底座支援畫布。
 
-![畫框主題](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
+![畫架佈景主題](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
 
 ### FSI （金融服務與保險） {#FSI}
 
 FSI主題強調讓您的表單具有乾淨、實用的外觀。 套用FSI主題時，會套用淺藍色色調至您的表單，如影像所示。
 
-![FSI主題](/help/adaptive-forms/assets/fsi-theme-new1.png)
+![FSI佈景主題](/help/adaptive-forms/assets/fsi-theme-new1.png)
 
 
 ### 保健 {#Healthcare}
 
 Healthcare主題採用豐富而柔和的色調，強調表單中的標籤、面板、文字方塊和按鈕等元素。
 
-![醫療保健主題](/help/adaptive-forms/assets/healthcare-new-theme.png)
+![醫療保健佈景主題](/help/adaptive-forms/assets/healthcare-new-theme.png)
 
 
 ## 範例範本 {#Sample-templates}
@@ -125,7 +125,7 @@ Healthcare主題採用豐富而柔和的色調，強調表單中的標籤、面�
 
 **如何取得這些範本？**
 
-您可以部署範本以取得這些範本 [AEM Archetype 47或更新版本](https://github.com/adobe/aem-project-archetype) 至您的 **AEM Formsas a Cloud Service** 環境或 **AEM 6.5 Forms** 環境。
+您可以將[AEM Archetype 47或更新版本](https://github.com/adobe/aem-project-archetype)部署至您的&#x200B;**AEM Formsas a Cloud Service**&#x200B;環境或&#x200B;**AEM 6.5 Forms**&#x200B;環境，以取得這些範本。
 
 <!--
 
@@ -137,7 +137,7 @@ Healthcare主題採用豐富而柔和的色調，強調表單中的標籤、面�
 -->
 
 
-此 **立即可用** [最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 範本包括：
+**立即可用** [最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)範本為：
 
 ![參考範本](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
@@ -161,13 +161,13 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 聯絡我們表單範本是用來建立表單，以促進網站訪客與表單管理員之間的通訊。 使用者可以透過表單提交查詢、意見回饋或支援請求。
 
-![聯絡我們範本](/help/adaptive-forms/assets/Contact-us-desktop-view.png)
+![連絡我們範本](/help/adaptive-forms/assets/Contact-us-desktop-view.png)
 
 ### 連絡人詳細資料更新 {#Contact-Details-Update}
 
 聯絡資料詳細資料更新範本可協助作者建立客戶地址和聯絡資料更新的表單。 此表單也可協助客戶更新與訂閱或權益相關的個人資訊，以確保順暢的通訊以及不間斷地存取服務或權益。
 
-![Contact-details-update](/help/adaptive-forms/assets/Contact-details-update.png)
+![連絡人詳細資料 — 更新](/help/adaptive-forms/assets/Contact-details-update.png)
 
 ### 同意表單 {#Consent-Form}
 
@@ -179,7 +179,7 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 記錄服務要求範本可協助建立向服務提供者要求記錄特定記錄服務的表單。 此表單可作為一個正式請求，為事件、活動或資料記錄建立票證以用於監控或追蹤狀態。
 
-![記錄服務請求範本](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
+![記錄服務要求範本](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### 提供意見回饋 {#Give-Feedback}
@@ -193,20 +193,20 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 福利登錄檔單範本可用來建立表單，以收集員工有關其偏好福利與保險選項的基本資訊。 它通常伴隨年度福利註冊期間。
 
-![福利註冊範本](/help/adaptive-forms/assets/Benefits-enrollment-form-template.png)
+![權益註冊範本](/help/adaptive-forms/assets/Benefits-enrollment-form-template.png)
 
 
 ### 員工福利彙總 {#Employee-Benefits-Summary}
 
 員工福利摘要表單範本可用來建立表單，以收集有關個人福利的基本詳細資訊。 它有助於快速準確地評估涵蓋範圍，提供有效協助和支援的完整概觀。
-![員工福利彙總](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+![員工福利摘要](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### 要求帳戶對帳單 {#Request-for-Account-Statement}
 
 帳戶對帳單範本的請求可協助建立表單，以啟動取得準確且最新的客戶對帳單的程式。 對帳單提供財務交易、活動的詳細記錄，或使用此表單之客戶的其他相關資訊。
 
-![帳戶請求宣告](/help/adaptive-forms/assets/Request-for-account-statment.png)
+![帳戶陳述請求](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
 ### 安全檢查 {#Safety-Inspection}
 
@@ -229,16 +229,16 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ## 參考表單資料模型 {#reference-models}
 
-建立最適化表單之後，根據 [核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)，您可以將表單與資料庫Microsoft®Dynamics 365和Salesforce伺服器連線，以啟用業務工作流程。 例如：
+建立以[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)為基礎的最適化表單後，您可以將表單與資料庫Microsoft®Dynamics 365和Salesforce伺服器連線，以啟用業務工作流程。 例如：
 
 * 在Microsoft® Dynamics 365和Salesforce中寫入資料於最適化表單提交時。
 * 透過「表單資料模型」中定義的自訂實體在Microsoft®Dynamics 365和Salesforce中寫入資料，反之亦然。
 * 查詢Microsoft®Dynamics 365和Salesforce伺服器以取得資料，並預先填入Adaptive Forms。
 * 從Microsoft® Dynamics 365和Salesforce伺服器讀取資料。
 
-您可以透過安裝以下表單資料模型 [參考內容封裝](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-reference-content.ui.content-2.1.0.zip)：
+您可以安裝[參考內容套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-reference-content.ui.content-2.1.0.zip)，以取得下清單單資料模型：
 
 * Microsoft® Dynamics 365
 * Salesforce
 
-如需使用這些模型的詳細資訊，請參閱 [設定Microsoft® Dynamics 365和Salesforce雲端服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html#configure-dynamics-cloud-service)
+如需使用這些模型的詳細資訊，請參閱[設定Microsoft®Dynamics 365和Salesforce雲端服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html#configure-dynamics-cloud-service)

@@ -15,19 +15,19 @@ ht-degree: 3%
 最適化表單中的索引標籤頂端版面配置是將表單的相關欄位和區段整理及分組到單獨索引標籤的方法。 每個標籤由標籤表示，通常位於表單頂端，並包含一組特定的表單欄位和區段。 此版面配置可讓使用者輕鬆導覽及存取表單的不同區段，使其更方便使用，且不易造成負擔。 當表單包含許多欄位和區段時，通常就會使用它，而且必須將它們分割成可管理的較小區塊。 索引標籤也可讓使用者使用鍵盤快速鍵導覽表單，讓身心障礙使用者更輕鬆地存取表單，有助於改善協助工具。
 **範例**
 
-![索引標籤在頂端](/help/adaptive-forms/assets/tabs.png)
+![個索引標籤在頂端](/help/adaptive-forms/assets/tabs.png)
 
 ## 使用情況 {#reasons-to-use-tab-on-the-top-layout}
 
 在最適化表單的頂端版面配置上使用索引標籤有幾個原因：
 
-* **組織**：索引標籤可用來將表單的不同區段組織成不同的類別，讓使用者更容易導覽及找到所需的資訊。
+* **組織**：標籤可用來將表單的不同區段組織成不同的類別，讓使用者更容易導覽並尋找所需的資訊。
 
-* **空間保護**：索引標籤一次只允許顯示表單的一個區段，有助於節省頁面空間。
+* **節省空間**：索引標籤一次只允許顯示表單的一個區段，有助於節省頁面上的空間。
 
-* **改善的使用者體驗**：標籤可讓表單更吸引人且更易於使用，藉此改善使用者體驗。
+* **改善的使用者體驗**：標籤可以讓表單更吸引人且更易於使用，藉此改善使用者體驗。
 
-* **適合行動裝置**：索引標籤可減少捲動並方便在欄位之間切換，使表單更適合行動使用。
+* **方便行動使用**：索引標籤可減少捲動次數，讓表單更方便行動使用，並讓您在欄位之間切換。
 
 簡言之，標籤可以讓表單更井然有序、節省空間、方便使用者存取。
 
@@ -37,9 +37,9 @@ ht-degree: 3%
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
-| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 及更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和較新版本，但小於2.0.0。 |
+| v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
-如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
+如需核心元件版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)檔案。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -47,7 +47,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術細節 {#technical-details}
 
-在的技術檔案中取得最適化Forms索引標籤在頂端核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/tabsontop/v1/tabsontop). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/tabsontop/v1/tabsontop)的技術檔案中，取得最適化Forms索引標籤頂端核心元件的最新資訊。 如需開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -67,16 +67,16 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [折疊式面板](/help/adaptive-forms/components/accordion.md)
 >* [按鈕](/help/adaptive-forms/components/button.md)
 >* [核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
->* [日期選取器](/help/adaptive-forms/components/date-picker.md)
+>* [日期選擇器](/help/adaptive-forms/components/date-picker.md)
 >* [下拉式清單](/help/adaptive-forms/components/drop-down.md)
 >* [電子郵件輸入](/help/adaptive-forms/components/email-input.md)
 >* [來自容器](/help/adaptive-forms/components/form-container.md)
 >* [檔案附件](/help/adaptive-forms/components/file-attachment.md)
 >* [頁尾](/help/adaptive-forms/components/footer.md)
->* [頁首](/help/adaptive-forms/components/header.md)
+>* [標頭](/help/adaptive-forms/components/header.md)
 >* [水準索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
 >* [影像](/help/adaptive-forms/components/image.md)
->* [數字輸入](/help/adaptive-forms/components/number-input.md)
+>* [輸入數字](/help/adaptive-forms/components/number-input.md)
 >* [面板容器](/help/adaptive-forms/components/panel-container.md)
 >* [選項按鈕](/help/adaptive-forms/components/radio-button.md)
 >* [重設按鈕](/help/adaptive-forms/components/reset-button.md)

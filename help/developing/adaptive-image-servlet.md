@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 影像核心元件可使用兩種方法來傳送影像。
 
 * 預設為最適化影像Servlet。
-* [網頁最佳化的影像交付](/help/developing/web-optimized-image-delivery.md) AEMaaCS有提供使用，平均可將下載大小減少25%。
+* [網頁最佳化的影像傳遞](/help/developing/web-optimized-image-delivery.md)可供AEMaaCS使用，平均將下載大小減少25%。
 
 本檔案說明預設的最適化影像Servlet。
 
 ## 概觀 {#overview}
 
-依預設，影像元件會使用核心元件的調適型影像Servlet來傳送影像。 [自我調整影像Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 負責影像處理和串流，可由開發人員運用於 [核心元件的自訂](/help/developing/customizing.md).
+依預設，影像元件會使用核心元件的調適型影像Servlet來傳送影像。 [最適化影像Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)負責影像處理和串流，可由開發人員在其[核心元件的自訂中](/help/developing/customizing.md)運用。
 
 ## 轉譯選擇 {#rendition-selection}
 
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 ## 使用上次修改的標頭 {#last-modified}
 
-透過的條件請求 `Last-Modified` 標頭受到最適化影像Servlet支援，但快取功能可以 `Last-Modified` 頁首 [需要在Dispatcher中啟用](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
+最適化影像Servlet支援透過`Last-Modified`標頭進行條件式要求，但是必須在Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)中啟用`Last-Modified`標頭[的快取。
 
 [AEM專案原型](/help/developing/archetype/overview.md)的範例Dispatcher設定已包含此設定。

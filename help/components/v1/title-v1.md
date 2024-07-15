@@ -6,8 +6,8 @@ role: Architect, Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 1%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -15,32 +15,32 @@ ht-degree: 1%
 
 核心元件標題元件是章節標題元件，具備就地編輯的功能。
 
-## 使用狀況 {#usage}
+## 使用情況 {#usage}
 
-標題元件旨在用作內容區段的標題或標題。
+標題元件是用作內容區段的標題或標題。
 
-可用的標題層級可由範本作者在 [設計對話方塊](#design-dialog). 內容編輯者可以從 [編輯對話方塊](#edit-dialog). 為了增加便利性，也可以簡單地就地編輯標題文字。
+可用的標題層級可由範本作者在[設計對話方塊](#design-dialog)中定義。 內容編輯者可在[編輯對話方塊](#edit-dialog)中選取可用的標題層級。 為了增加便利性，也可以簡單地就地編輯標題文字。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-本檔案說明Title元件v1，它最初隨附於AEM 6.3的核心元件1.0.0版引入。
+本檔案說明標題元件v1，其最初隨附於AEM 6.3的核心元件1.0.0版引入。
 
 下表列出標題元件v1的相容性。
 
-| AEM版本 | 標題元件v1 |
+| AEM 版本 | 標題元件v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
 
 >[!CAUTION]
 >
->本檔案說明第1版的「標題元件」。
+>本檔案說明第1版標題元件。
 >
->如需目前版本標題元件的詳細資訊，請參閱 [標題元件](/help/components/title.md) 檔案。
+>如需目前版本的標題元件的詳細資訊，請參閱[標題元件](/help/components/title.md)檔案。
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是取自下列專案的範例： [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要核心元件1.1.0版。 請參閱 [核心元件v1的相容性資訊](/help/versions.md) 以取得詳細資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->標題的值若為空白，則會顯示頁面標題。
+>標題的空白值會顯示頁面標題。
 
 ![](/help/assets/chlimage_1-91.png)
 
@@ -85,14 +85,14 @@ ht-degree: 1%
 
 ## 設計對話方塊 {#design-dialog}
 
-「設計」對話方塊可讓範本作者定義內容作者建立標題元件時具有的預設標題層級。
+「設計」對話方塊可讓範本作者定義內容作者建立標題元件時的預設標題層級。
 
 ![](/help/assets/chlimage_1-92.png)
 
 ## 技術細節 {#technical-details}
 
-有關標題元件的最新技術檔案 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+您可以在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)上找到有關標題元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 
-有關開發核心元件的進一步詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。

@@ -20,15 +20,15 @@ ht-degree: 1%
 
 ## 使用情況 {#reasons-to-use-header}
 
-- **品牌化**：頁首可用於顯示建立表單的組織的標誌或名稱，有助於建立品牌認知度和可信度。
+- **品牌**：頁首可用來顯示建立表單之組織的標誌或名稱，有助於建立品牌認知度和可信度。
 
-- **內容**：標題可提供表單用途的簡短說明，協助使用者瞭解使用表單的上下文。
+- **內容**：標題可提供表單用途的簡短說明，以協助使用者瞭解正在使用表單的內容。
 
-- **導覽**：標題可包含連結或按鈕，讓使用者導覽至網站或應用程式的其他部分。
+- **導覽**：標題可以包含連結或按鈕，讓使用者可以導覽至網站或應用程式的其他部分。
 
-- **資訊**：標題可包含聯絡資訊或說明資源的連結，讓使用者更容易在需要時取得協助。
+- **資訊**：標題可以包含連絡資訊或協助資源的連結，讓使用者在需要時更容易取得協助。
 
-- **使用者體驗**：標題可讓使用者透過清晰且直覺的方式存取及填寫表單欄位，進而讓表單更人性化。
+- **使用者體驗**：標題可讓使用者以清楚且直覺的方式存取及填寫表單欄位，讓表單更人性化。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -36,9 +36,9 @@ ht-degree: 1%
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
-| v1 | 相容於<br>[版本2.0.4](/help/adaptive-forms/version.md) 及更新版本 | 相容於<br>[第1.1.12發行版本](/help/adaptive-forms/version.md) 和較新版本，但小於2.0.0。 |
+| v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
-如需核心元件版本的詳細資訊，請參閱 [核心元件版本](/help/adaptive-forms/version.md) 檔案。
+如需核心元件版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)檔案。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -47,7 +47,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技術細節 {#technical-details}
 
-在的技術檔案中取得最適化Forms標題核心元件的最新資訊： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). 如需開發核心元件的詳細資訊，請參閱 [核心元件開發人員檔案](/help/developing/overview.md).
+在[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader)的技術檔案中取得最適化Forms標題核心元件的最新資訊。 如需開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -59,21 +59,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![影像標籤](/help/adaptive-forms/assets/header_image.png)
 
-- **影像資產**  — 此選項可讓您使用滑鼠拖放功能拖放影像等資產。 您也可以使用從本機檔案系統上傳檔案 **瀏覽** 按鈕。 新增影像後，影像底部會顯示三個按鈕。 新增影像後，影像底部會顯示三個按鈕：
-   - **編輯**  — 點選或按一下 **編輯** 在「資產編輯器」中管理資產的轉譯。
-   - **清除**  — 點選或按一下 **清除** 以取消選取目前選取的影像。
-   - **選取**  — 點選或按一下 **選取**  從「資產」資料夾中選取其他影像的選項。
+- **影像資產** — 此選項允許以滑鼠拖放方式放置影像等資產。 您也可以使用&#x200B;**瀏覽**&#x200B;按鈕，從本機檔案系統上傳檔案。 新增影像後，影像底部會顯示三個按鈕。 新增影像後，影像底部會顯示三個按鈕：
+   - **編輯** — 點選或按一下「**編輯**」，在Assets編輯器中管理資產的轉譯。
+   - **清除** — 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
+   - **挑選** — 點選或按一下&#x200B;**挑選**&#x200B;選項，從Assets資料夾中選取其他影像。
 
-- **標題**  — 此選項用於將標題新增到標題。 預先定義的文字會包含在對話方塊中，而且使用者可以修改它。
-- **連結至**  — 您可以使用將標題連結至資料夾 **瀏覽** 圖示。
-- **說明**  — 說明是簡短文字說明，提供有關特定影像用途的其他資訊或說明。
-- **大小（畫素）**  — 增加或減少畫素，有助於調整影像的長度和寬度。
+- **標題** — 此選項用於將標題新增至標題。 預先定義的文字會包含在對話方塊中，而且使用者可以修改它。
+- **連結至** — 您可以使用&#x200B;**瀏覽**&#x200B;圖示將標題連結至資料夾。
+- **描述** — 描述是簡短文字說明，提供特定影像用途的其他資訊或說明。
+- **大小（畫素）** — 增加或減少畫素，有助於調整影像的長度和寬度。
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-- **替代文字**  — 此選項用於輸入提供影像的簡短描述性替代文字的文字，向視障使用者說明影像。
+- **替代文字** — 此選項用於輸入文字，為影像提供簡短且描述性的替代文字，向視障使用者說明影像。
 
-- **影像為裝飾性**  — 檢查輔助技術是否應忽略影像，因此不需要替代文字。 這僅適用於裝飾性影像。
+- **影像為裝飾性** — 檢查輔助技術是否應忽略影像，因此不需要替代文字。 這僅適用於裝飾性影像。
 
 ### 文字索引標籤 {#text-tab}
 

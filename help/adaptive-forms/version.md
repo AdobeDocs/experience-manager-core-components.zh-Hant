@@ -17,9 +17,9 @@ ht-degree: 1%
 
 ## AEM Forms作為Cloud Service版本記錄 {#aem-as-cs-version-history}
 
-與AEMas a Cloud Service相容的核心元件發行版本可在以下網址取得： [GitHub及其版本的完整詳細資訊](https://github.com/adobe/aem-core-forms-components/releases).
+與AEM as a Cloud Service相容的核心元件版本可在[GitHub上取得，連同其版本的完整詳細資料](https://github.com/adobe/aem-core-forms-components/releases)。
 
-若要檢視AEMas a Cloud Service的核心元件版本記錄， [按一下這裡](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+若要檢視AEM as a Cloud Service的核心元件版本記錄，[請按一下這裡](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md)。
 
 
 <!--
@@ -117,9 +117,9 @@ ht-degree: 1%
 
 ## AEM 6.5 Forms版本記錄 {#aem-as-form-version-history}
 
-與AEM 6.5 Form內部部署和AMS相容的核心元件發行版本，可從取得 [GitHub及其版本的完整詳細資訊](https://github.com/adobe/aem-core-forms-components/releases).
+與AEM 6.5 Form內部部署和AMS相容的核心元件版本可在[GitHub上取得，連同其版本的完整詳細資料](https://github.com/adobe/aem-core-forms-components/releases)。
 
-若要檢視AEM 6.5 Form內部部署和AMS的核心元件版本記錄， [按一下這裡](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+若要檢視AEM 6.5 Form內部部署和AMS的核心元件版本記錄，[請按一下這裡](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md)。
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  
