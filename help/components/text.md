@@ -3,9 +3,9 @@ title: 文字元件
 description: 文字元件是RTF編輯和撰寫元件，具備就地編輯功能。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2181'
 ht-degree: 2%
 
 ---
@@ -302,9 +302,9 @@ ht-degree: 2%
 
 ![內嵌編輯範例](/help/assets/text-edit-inline-example.png)
 
-### 設定和ID {#setting-id}
+### 設定ID {#setting-id}
 
-此選項允許控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
 
 * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
 * 若指定ID，作者應負責確認該ID為唯一ID。
