@@ -3,9 +3,9 @@ title: AEM Adaptive Forms核心元件簡介
 description: 運用Adaptive Forms核心元件的彈性，建立吸引人的註冊體驗（表單），並運用Adobe Experience Manager的強大功能加以提供。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
 workflow-type: tm+mt
-source-wordcount: '2229'
+source-wordcount: '2205'
 ht-degree: 6%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 6%
 | 最適化表單片段 | ✔️ | ✔️ | | 對於基礎元件，您可以從Assets瀏覽器[新增片段](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)。 |
 | 自適應表單 reCAPTCHA | ✔️ | ✔️ | ✔️ | 對於基礎元件，請使用Captcha元件將Google reCaptcha新增至表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。[ |
 | 按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| 驗證碼 | ✔️ |  |  | 對於基礎元件，請使用Captcha元件將Google reCaptcha新增至表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。[ |
 | 圖表 | ✔️ | | | |
 | 核取方塊 | ✔️ | ✔️ | | |
 | 核取方塊群組 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 對於基礎元件，使用核取方塊元件以新增多個核取方塊 |
@@ -105,12 +104,11 @@ ht-degree: 6%
 | 面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 密碼方塊 | ✔️ | | ✔️ | |
 | 電話/電話 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| 前一個按鈕 | ✔️ | | | 使用[精靈元件](/help/adaptive-forms/components/wizard.md)，讓下一個和上一個按鈕在多個面板之間移動。 |
-| 選項按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| 選項按鈕群組 | | | ✔️ | |
+| 前一個按鈕 | ✔️ | ✔️ | | 使用[精靈元件](/help/adaptive-forms/components/wizard.md)，讓下一個和上一個按鈕在多個面板之間移動。 |
+| 選項按鈕群組 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | 重設按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 草寫簽名 | ✔️ | | | |
-| 分隔符號 | ✔️ | | | |
+| 分隔符號 | ✔️ | | | 使用WCM [分隔符號](/help/components/separator.md)元件 |
 | 提交按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 摘要步驟 | ✔️ | | | |
 | 切換 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -118,7 +116,6 @@ ht-degree: 6%
 | 條款與條件 | ✔️ | ✔️ | | |
 | 文字 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 文字方塊 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| 標題 | ✔️ | | | 對於核心元件，請使用[表單標題](/help/adaptive-forms/components/form-title.md)元件。 |
 | Turnstile驗證碼 | ✔️ | | | [Turnstile驗證碼](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)僅適用於Foundation元件。 |
 | 垂直標籤 | ✔️ | ✔️ | | 對於基礎元件，您可以在面板元件屬性中設定左側[標籤（垂直標籤）配置](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) |
 | 精靈 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 對於Foundation元件，您可以在面板元件屬性中設定[精靈配置](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) |
