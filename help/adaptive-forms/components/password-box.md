@@ -1,43 +1,48 @@
 ---
-title: 最適化Forms核心元件 — 文字輸入（文字方塊）
-description: 使用或自訂最適化Forms文字輸入核心元件。
+title: 最適化Forms核心元件 — 密碼方塊
+description: 使用或自訂Adaptive Forms密碼方塊核心元件。
 role: Architect, Developer, Admin, User
-exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+hide: true
+hidefromtoc: true
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '2124'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
 
-# 文字方塊元件{#text-input-adaptive-forms-core-component}
+# 密碼方塊元件
 
-文字輸入（文字方塊）元件可讓使用者根據輸入元素的型別屬性，輸入及編輯一行或多行文字。 文字輸入元件可放置在表單中，且通常標示有用文字以輕鬆識別其用途。 這些是任何形式的基本元素，廣泛用於從使用者收集不同型別的資料，這些簡單、靈活，並且可以設定為驗證輸入，提高資料收集的準確性。
+<span class="preview">這是一項預先發佈功能，可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)存取。</span>
+
+密碼方塊元件可讓使用者輸入及編輯敏感資訊，通常以隱私權遮罩。 密碼元件可設定各種驗證規則，以確保資料準確性。 密碼欄位通常用於表單中，其簡單且可增強資料安全性。
 
 **範例**
 
-![範例](/help/adaptive-forms/assets/text-input.png)
+![密碼盒範例](/help/adaptive-forms/assets/password.png)
 
+使用者可以按一下眼睛圖示來切換所輸入密碼文字的可見度。 它增強了安全性，同時允許使用者準確地輸入機密資訊。
 
-## 使用情況 {#reasons-to-use-text-input-field}
+## 使用情況
 
-在最適化表單中使用文字輸入元件有幾個理由：
+在最適化表單中使用密碼方塊元件有幾個原因：
 
-- **資料彙集**：文字輸入欄位是最常見的表單元素之一，可用來收集使用者的各種資訊，例如姓名、電子郵件地址、電話號碼和其他型別的文字資料。
+- **安全資料彙集**：密碼方塊欄位用於收集機密資訊，例如密碼、PIN和其他機密專案，顯示隱私權的遮罩字元。
 
-- **使用者友善**：文字輸入欄位簡單易用，讓使用者可以輕鬆輸入和編輯文字。
+- **使用者友善**：密碼方塊欄位可讓使用者安全地輸入及編輯資訊，而不會在熒幕上顯示該資訊。
 
-- **彈性**：文字輸入欄位可用於收集範圍廣泛的資訊，從短的單行文字專案到較長的多行文字專案。
+- **彈性**：密碼方塊元件可設定為符合安全性需求，例如最小字元長度、特殊字元或其他自訂驗證，以確保強大的資料保護和準確性。
 
-## 版本和相容性 {#version-and-compatibility}
+<!--
+## Version and Compatibility {#version-and-compatibility}
 
-最適化Forms文字方塊核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及適用於AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+The Adaptive Forms Password box Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
-| v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-如需核心元件版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)檔案。
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -53,7 +58,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 基本索引標籤
 
-![基本索引標籤](/help/adaptive-forms/assets/textinput_basictab.png)
+![基本索引標籤](/help/adaptive-forms/assets/password-basic.png)
 
 - **名稱** — 您可以在表單和規則編輯器中輕鬆識別具有唯一名稱的表單元件，但名稱不得包含空格或特殊字元。
 
@@ -75,15 +80,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **唯讀** — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 
-- **預設值** — 此選項可讓您在表單欄位中新增預設值。 使用者開始在欄位中輸入時，文字會消失。 如果選取&#x200B;**已停用的元件**&#x200B;或&#x200B;**唯讀元件**，熒幕上會顯示預設值。 如果使用者在表單欄位中未輸入值，此值會在表單提交時提交。
-
-- **允許多行** — 此選項可讓使用者在表單欄位中輸入多行。
-
-- **自動填寫屬性** — 選項可讓使用者輸入值，該值會根據儲存的資訊自動填入表單欄位中。
-
 ### 驗證標籤 {#validation-tab}
 
-![驗證標籤](/help/adaptive-forms/assets/textinput_validationtab.png)
+![驗證標籤](/help/adaptive-forms/assets/password-validation.png)
 
 - **必要** — 如果您想要在最適化表單中顯示元件，請選取此選項。 選取選項後，您必須先輸入值，才能繼續提交表單。 選取此選項時，您無法在&#x200B;**基本**&#x200B;索引標籤中選取&#x200B;**隱藏元件**&#x200B;或&#x200B;**停用元件**。
 
@@ -107,7 +106,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 說明內容標籤 {#help-content-tab}
 
-![說明內容標籤](/help/adaptive-forms/assets/textinput_helptab.png)
+![說明內容標籤](/help/adaptive-forms/assets/password-help.png)
 
 - **簡短說明** — 簡短說明是簡短文字說明，提供特定表單欄位用途的其他資訊或說明。 它可協助使用者瞭解應在欄位中輸入哪種資料型別，並可提供指引或範例，以協助確保輸入的資訊有效並符合所需條件。 依預設，簡短說明會維持隱藏狀態。 啟用&#x200B;**永遠顯示簡短描述**&#x200B;選項，以在元件下方顯示它。
 
@@ -117,7 +116,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 協助工具標籤 {#accessibility-tab}
 
-![協助工具標籤](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
+![協助工具標籤](/help/adaptive-forms/assets/password-accessibilty.png)
 
 - **熒幕助讀程式文字** — 熒幕助讀程式文字是指視力不佳人士使用的輔助技術（例如熒幕助讀程式）專門用於閱讀的其他文字。 此文字提供表單欄位用途的音訊說明，並可包含欄位標題、說明、名稱和任何相關訊息（自訂文字）的相關資訊。 熒幕助讀程式文字可協助確保表單可供所有使用者存取，包括視覺障礙的使用者，並提供他們對表單欄位及其要求的完整瞭解。
    - **自訂文字**：選取此選項即可使用ARIA協助工具標籤的自訂文字。 選取此選項會顯示「自訂文字」對話方塊。 您可以在「自訂文字」對話方塊中新增相關資訊。

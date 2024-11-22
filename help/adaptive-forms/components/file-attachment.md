@@ -3,14 +3,16 @@ title: 最適化Forms核心元件 — 檔案附件
 description: 使用或自訂Adaptive Forms檔案附件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '2043'
 ht-degree: 0%
 
 ---
 
 # 檔案附件元件 {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview">已提交值的&#x200B;**資料型別**&#x200B;功能可在早期採用者程式下使用。 您可以從您的官方電子郵件ID寫信到aem-forms-ea@adobe.com ，以加入率先採用者計畫並請求存取該功能。</span>
 
 最適化表單中的檔案附件元件可讓使用者從本機電腦或裝置選取及上傳檔案。 檔案附件元件可設定為允許特定檔案型別、大小限制和多個附件。
 
@@ -35,7 +37,7 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+Adaptive Forms檔案附件核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及適用於AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
@@ -57,7 +59,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 基本標籤 {#basic-tab}
 
-![基本索引標籤](/help/adaptive-forms/assets/fileattachement_basictab.png)
+![基本索引標籤](/help/adaptive-forms/assets/fileattachement_basictab1.png)
 
 - **名稱** — 您可以在表單和規則編輯器中輕鬆識別具有唯一名稱的表單元件，但名稱不得包含空格或特殊字元。
 
@@ -72,6 +74,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **按鈕標題** — 此選項是用來設定在最適化表單上顯示的按鈕標籤。
 - **繫結參考** — 繫結參考是儲存在外部資料來源中並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可顯示資料來源的最新資料。 例如，繫結參考可用於根據在表單中輸入的客戶ID在表單中顯示客戶名稱和地址。 繫結參考也可用來使用輸入到表單中的資料更新資料來源。 透過這種方式，AEM Forms可讓您建立與外部資料來源互動的表單，提供順暢的使用者體驗來收集和管理資料。
 - **標籤為未繫結的表單元素**：選取選項以設定未連結至任何結構描述的表單欄位。 此選項可讓您儲存資料而不更新資料來源。 它也可讓您以自訂方式處理資料，與標準資料庫整合不同。
+- **提交值的資料型別**：選取選項以決定如何將附加檔案提交至伺服器。 若要以二進位資料傳送附件，請選擇`File`選項。 若要以Base64編碼字串形式傳送附件，請選擇`String`選項。 如果選取`String`，則會將二進位格式的檔案作為資料URL提交至伺服器。 伺服器會自動將資料URL轉換為二進位格式，確保與現有動作（例如傳送電子郵件和產生記錄檔案）相容，而不需要使用者進行任何變更。 依預設，已選取`File`選項。
 - **隱藏元件** — 選取選項，以隱藏表單中的元件。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。 當您需要儲存不需要由使用者看到或直接變更的資訊時，這將很有用。
 - **停用元件** — 選取選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
 - **唯讀** — 選取選項，讓元件無法編輯。 使用者可以看到欄位的值，但無法修改它。 元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。

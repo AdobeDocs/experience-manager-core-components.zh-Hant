@@ -5,9 +5,9 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '381'
 ht-degree: 41%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 41%
       + [體驗片段](/help/email/components/experience-fragment.md)
       + [內容片段](/help/email/components/content-fragment.md)
       + [Segmentation](/help/email/components/segmentation.md)
-+ 最適化表單 {#adaptive-forms}
++ 最適化 Forms {#adaptive-forms}
    + [簡介](/help/adaptive-forms/introduction.md)
    + [版本記錄](/help/adaptive-forms/version.md)
    + 最適化Forms元件{#adaptive-forms-components}
@@ -121,6 +121,7 @@ ht-degree: 41%
       + [最適化Forms水準標籤](/help/adaptive-forms/components/horizontal-tabs.md)
       + [最適化Forms影像](/help/adaptive-forms/components/image.md)
       + [最適化Forms數值方塊](/help/adaptive-forms/components/numeric-box.md)
+      + [最適化Forms密碼方塊](/help/adaptive-forms/components/password-box.md)
       + [最適化Forms面板](/help/adaptive-forms/components/panel.md)
       + [最適化Forms驗證碼](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [最適化Forms選項按鈕](/help/adaptive-forms/components/radio-button.md)

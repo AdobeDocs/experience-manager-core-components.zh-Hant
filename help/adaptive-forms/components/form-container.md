@@ -3,14 +3,16 @@ title: 最適化Forms核心元件 — 表單容器
 description: 將最適化表單新增至網頁。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1526'
 ht-degree: 2%
 
 ---
 
 # 表單容器 {#form-container-adaptive-forms-core-component}
+
+<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，這是發行前功能。 只能透過我們的[發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>存取發行前功能
 
 Forms可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與度和使用者滿意度。 Adobe Experience Manager (AEM) Sites中的最適化表單容器可讓網站擁有者輕鬆將表單新增至其頁面。 這有助於促進網站訪客與網站擁有者或組織之間的溝通，透過提供簡化的方式讓訪客提供意見回饋、提出查詢並完成其他動作
 
@@ -58,16 +60,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 基本標籤 {#basic-tab}
 
-![基本索引標籤](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![基本索引標籤](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 
 - **標題** — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
 
 - **預填服務** — 此選項可讓使用者在轉譯最適化表單時，選取用於擷取資料的預填服務。 深入瞭解[如何建立及設定預填服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service)。
 
-- **使用者端資料庫類別** — 使用者可以根據每個最適化表單設定自訂JavaScript資料庫。 建議僅將可重複使用的函式保留在程式庫中，這些函式需依賴jquery和underscore.js協力廠商程式庫。
-有時，如果有**個複雜的驗證規則**，則確切的驗證指令碼會位於自訂函式中，且使用者會從欄位驗證運算式呼叫這些自訂函式。 若要在執行伺服器端驗證時讓此自訂函式館為已知且可用，表單使用者可在Adaptive Form容器屬性的&#x200B;**[!UICONTROL Basic]**&#x200B;標籤下設定AEM使用者端程式庫的名稱，如下所示。
+- **角色**：角色是HTML屬性，用來指定HTML元素的用途，以輔助技術（例如熒幕閱讀程式）。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
+- **使用者端資料庫類別** — 使用者可以根據每個最適化表單設定自訂JavaScript資料庫。 建議僅將可重複使用的函式保留在程式庫中，這些函式需依賴jquery和underscore.js協力廠商程式庫。
+有時，如果有**個複雜的驗證規則**，則確切的驗證指令碼會位於自訂函式中，且使用者會從欄位驗證運算式呼叫這些自訂函式。 若要在執行伺服器端驗證時讓此自訂函式館為已知且可用，表單使用者可在Adaptive Form容器屬性的&#x200B;**[!UICONTROL Basic]**標籤下設定AEM使用者端資料庫的名稱。
 使用者可以根據每個最適化表單設定customJavaScript程式庫。 程式庫中只會保留可重複使用的函數，這些函數與 jquery 和 underscore.js 第三方程式庫有相依性。
+
+<!--
+- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. -->
+
 
 ### 資料模型標籤 {#data-model-tab}
 
@@ -76,6 +83,14 @@ To experience the Accordion Component as well as see examples of its configurati
 您可以使用表單資料模型將表單連線至資料Source，以根據使用者動作傳送及接收資料。 您也可以將表單連線至JSON結構描述，以預先定義的格式接收提交的資料。 根據需求，將您的表單連結至JSON結構描述或表單資料模型：
 - 建立JSON結構描述並上傳至您的環境
 - 建立表單資料模型
+
+### 草稿
+
+![提交索引標籤](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+
+- **自動儲存草稿**：選取&#x200B;**自動儲存草稿**&#x200B;核取方塊以啟用將表單儲存為草稿。
+- **儲存喜好設定**：設定&#x200B;**儲存喜好設定**&#x200B;為&#x200B;**定期儲存草稿**，以在特定時間間隔後自動儲存表單。
+  **儲存間隔頻率（秒）**：指定時間間隔（秒），以設定在定義的間隔觸發自動儲存表單的持續時間。
 
 ### 提交索引標籤 {#submission-tab}
 
@@ -138,11 +153,67 @@ To experience the Accordion Component as well as see examples of its configurati
    - **重新排列**：點選或按一下並拖曳以重新排列自訂屬性名稱和自訂屬性值。
 
 <!--
+## Learn more about the hamburger menu
 
-## Related article {#related-article}
+A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Consider a scenario, where a financial institution offers an online loan application form that requires users to provide detailed information across several panels, such as personal details, financial information, loan preferences, and supporting documents. The form includes multiple panels and options that can clutter the interface, especially on mobile devices. Users need an organized way to navigate through these panels without feeling overwhelmed. The hamburger menu is implemented to enhance the user experience on mobile devices.
 
+### Components of hamburger menu
+
+![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+
+**A. Hamburger menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. The menu displays the panel headings, and selecting a panel shifts the focus to that panel. It allows users to easily navigate between different panels.
+
+![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+
+**B. Breadcrumb**: Breadcrumbs indicate the user’s current location within the form. They offer a hierarchical trail that shows the user’s navigation path and helps them understand their position in the form.
+
+**C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
+
+### Points to consider while working with the hamburger menu
+
+- The hamburger menu displays only the names of the panels. Here are different scenarios illustrating how the panel name appears in the navigation pane of the hamburger menu based on the configuration properties of the panel:  
+  
+  - If you set the properties of the panel to hidden, the panel's name does not appear in the navigation pane of the hamburger menu. For example, if you configure the properties of the `Financial Information` panel as `hidden`, the panel name does not appear in the navigation pane of the hamburger menu.
+    
+    ![Hidden panel](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+
+  - If you set the properties of the panel to `disabled`, its name appears in the navigation pane of the hamburger menu, but you cannot select or edit it. For example, if you configure the properties of the `Financial Information` panel as `disabled`, the panel name appears in the navigation pane, but it cannot be selected or edited. 
+     
+    ![Disabled panel](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
+
+  - If you hide the  title of the panel, it does not appear in the navigation pane of the hamburger menu. A blank space shows up instead, but you can navigate to the fields of the panel by clicking on that space. For example, if you hide the title of the `Financial Information` panel, the blank space appears in its place in the navigation pane of the hamburger menu. You can navigate to the fields of the panel by clicking on the blank space.
+    
+    ![Hidden title panel](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
+
+- By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
+- When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
+
+### Advantages to use hamburger menu
+
+- **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
+
+- **Clutter reduction**: It minimizes visual clutter by consolidating various form navigation links into a single, collapsible menu.
+
+- **Improved focus**: With fewer visible navigation elements, users can concentrate on the main content of the form without being distracted by secondary options.
+
+- **Simplified design**: It creates a more streamlined user interface, resulting in a cleaner and more organized form layout.
+
+- **Enhanced mobile experience**: On mobile devices, where screen space is limited, the hamburger menu offers an efficient way to access all form navigation options without overwhelming the user.
+
+### How to enable hamburger menu for your form?
+
+To enable hamburger menu for form, perform the following steps:
+
+1. Open form in an edit mode.
+1. Open the Content browser, and select the **[!UICONTROL Guide Container]** component of your Adaptive Form. 
+1. Click the Guide Container properties ![Guide properties](/help/adaptive-forms/assets/configure_icon.png) icon. The Adaptive Form Container dialog box opens. 
+1. Click the  **[!UICONTROL Basic]** tab. 
+1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
+1. Click **[!UICONTROL Done]**.
+
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
 -->
 
 ## 相關文章 {#related-articles}

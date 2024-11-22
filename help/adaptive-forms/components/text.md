@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 文字
 description: 使用或自訂最適化Forms文字核心元件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms文字核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
@@ -53,6 +53,8 @@ To experience the Accordion Component as well as see examples of its configurati
 ## 設定對話方塊 {#configure-dialog}
 
 您可以透過「設定」對話方塊輕鬆自訂訪客的文字型驗。 您也可以輕鬆定義文字選項，提供順暢的使用者體驗。
+
+### 基本索引標籤
 
 ![基本索引標籤](/help/adaptive-forms/assets/text_properties.png)
 

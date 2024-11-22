@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 核取方塊
 description: 使用或自訂Adaptive Forms核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ ht-degree: 0%
 ## 設定對話方塊 {#configure-dialog}
 
 您可以透過「設定」對話方塊輕鬆自訂訪客的核取方塊體驗。 您也可以輕鬆定義核取方塊選項，以提供順暢的使用者體驗。
+
+### 基本索引標籤
 
 ![基本索引標籤](/help/adaptive-forms/assets/checkbox-basic.png)
 

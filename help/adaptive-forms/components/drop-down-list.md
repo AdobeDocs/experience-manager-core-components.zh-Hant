@@ -3,9 +3,9 @@ title: 最適化Forms核心元件 — 下拉式清單
 description: 使用或自訂最適化Forms下拉式核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms摺疊式功能表核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms下拉式清單核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 | 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
@@ -62,6 +62,8 @@ To experience the Accordion Component as well as see examples of its configurati
 ## 設定對話方塊 {#configure-dialog}
 
 您可以使用「設定」對話方塊輕鬆自訂訪客的下拉式清單體驗。 您也可以輕鬆定義下拉式清單選項，以提供順暢的使用者體驗。
+
+### 基本索引標籤
 
 ![基本索引標籤](/help/adaptive-forms/assets/dropdown_basictab.png)
 
