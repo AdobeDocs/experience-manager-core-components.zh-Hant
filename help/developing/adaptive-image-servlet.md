@@ -3,9 +3,9 @@ title: 自我調整影像Servlet
 description: 瞭解核心元件如何使用最適化影像Servlet來傳送影像，以及如何最佳化其使用。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # 自我調整影像Servlet {#adaptive-image-servlet}
 
 瞭解核心元件如何使用最適化影像Servlet來傳送影像，以及如何最佳化其使用。
+
+>[!WARNING]
+>
+>基於效能考量，強烈建議將影像儲存在DAM中，並使用網頁最佳化的影像傳送。
+>
+>將影像直接儲存在元件節點下是專為偶爾使用而設。 它不會利用DAM轉譯來減少最適化影像Servlet中的處理，且不允許網頁最佳化的影像傳送的效能優勢，因此可能會導致效能問題。
 
 ## 最適化影像Servlet或網頁最佳化的影像傳送？ {#options}
 
