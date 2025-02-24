@@ -3,9 +3,9 @@ title: 自我調整影像Servlet
 description: 瞭解核心元件如何使用最適化影像Servlet來傳送影像，以及如何最佳化其使用。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 0%
 1. 它只會選取與原始參考資產具有相同mime/型別的資產。
    * 例如，如果原始資產是PNG，則只會考慮PNG轉譯。
 1. 在這些轉譯中，會考量尺寸，並將尺寸與應顯示影像的容器大小進行比較。
-   1. 如果轉譯大於=容器大小，則會將其新增至候選轉譯清單。
-   1. 如果轉譯小於容器大小，則忽略該轉譯。
-   1. 這些條件可確保轉譯不會放大，進而影響影像品質。
+1. 如果轉譯大於=容器大小，則會將其新增至候選轉譯清單。
+1. 如果轉譯小於容器大小，則忽略該轉譯。
+1. 這些條件可確保轉譯不會放大，進而影響影像品質。
 1. 最適化影像Servlet接著會從候選清單中挑選檔案大小最小的轉譯。
 
 ## 最佳化轉譯選擇 {#optimizing-rendition-selection}
@@ -56,4 +56,4 @@ ht-degree: 0%
 
 最適化影像Servlet支援透過`Last-Modified`標頭進行條件式要求，但是必須在Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)中啟用`Last-Modified`標頭[的快取。
 
-[AEM專案原型](/help/developing/archetype/overview.md)的範例Dispatcher設定已包含此設定。
+[AEM專案原型的](/help/developing/archetype/overview.md)範例Dispatcher設定已包含此設定。
