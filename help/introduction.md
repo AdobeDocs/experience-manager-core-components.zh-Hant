@@ -3,9 +3,9 @@ title: 核心元件簡介
 description: 取得核心元件問題的解決方案，並允許其他人在AEM中編寫元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: b723ad29b035bbff58c56c8a5cce3a2b50e8b2b2
+source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '807'
 ht-degree: 23%
 
 ---
@@ -33,12 +33,12 @@ ht-degree: 23%
 |  |  |
 |---|---|
 | 生產就緒 | 核心元件是30種經過充分測試、廣泛使用且效能出色的強大WCM元件。 |
-| 雲端就緒 | 無論是在[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)、[AdobeManaged Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)還是內部部署，這些元件都能運作。 |
+| 雲端就緒 | 無論是在[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)還是內部部署，這些元件都能運作。 |
 | 多功能 | 這些元件代表作者可用來組裝幾乎任何版面的一般概念。 |
 | 可設定 | 範本層級[內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)定義頁面作者可以使用或不使用的功能。 |
 | [回應式](responsive.md) | 所有核心元件的設計都可充分回應，確保裝置間的順暢體驗 |
-| 可追蹤 | [Adobe使用者端資料層整合](/help/developing/data-layer/overview.md)允許追蹤訪客體驗的各個層面。 |
-| 易於取得 | 它們符合[WCAG 2.1標準](https://www.w3.org/TR/WCAG21/)，提供ARIA標籤，並支援鍵盤導覽（[已知問題](✓ https://github.com/adobe/aem-core-wcm-components/issues?utf8=&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）。 |
+| 可追蹤 | [Adobe Client Data Layer整合](/help/developing/data-layer/overview.md)允許追蹤訪客體驗的各個層面。 |
+| 易於取得 | 它們符合[WCAG 2.1標準](https://www.w3.org/TR/WCAG21/)，提供ARIA標籤，並支援鍵盤導覽（[已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）。 |
 | SEO友善 | HTML輸出是語意且提供[schema.org](https://schema.org)微資料註解。 |
 | WebApp就緒 | [簡化的JSON輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允許使用者端轉譯，仍可進行[內容內編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP支援 | 元件已內建[AMP標準支援，](/help/developing/amp.md)可加速您的行動體驗。 |
@@ -88,7 +88,7 @@ ht-degree: 23%
 * [標籤](components/tabs.md)
 * [折疊面板](components/accordion.md)
 
-### 表單元件  {#form-components}
+### 表單元件 {#form-components}
 
 * [表單容器](components/forms/form-container.md)
 * [表單文字](components/forms/form-text.md)
@@ -110,11 +110,11 @@ ht-degree: 23%
 
 | 核心元件發行版本 | AEM as a Cloud Service  | AEM 6.5修補程式等級 | Java SE版本 | Maven版本 |
 |---------|---------|---------|---------|---------|
-| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | 持續 | 6.5.21.0+ | 8， 11 | 3.3.9+ |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 持續 | 6.5.21.0+ | 8， 11 | 3.3.9+ |
 
 如需舊版核心元件的需求，請參閱[核心元件版本](versions.md)。
 
-核心元件需要使用[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，而且不支援傳統UI或靜態範本。 如有需要，請檢視[AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/)，以使用這些現代AEM功能更新您的專案。
+核心元件需要使用[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，而且不支援傳統UI或靜態範本。 如有需要，請檢視[AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/)，以使用這些現代化AEM功能更新您的專案。
 
 若要設定您的本機開發環境，請檢視[此AEM as a Cloud Service SDK概觀](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)或此檔案[舊版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
 
