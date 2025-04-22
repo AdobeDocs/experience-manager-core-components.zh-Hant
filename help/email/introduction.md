@@ -3,9 +3,9 @@ title: 電子郵件核心元件簡介
 description: 使用電子郵件核心元件的彈性，建立吸引人的電子郵件內容，並透過Adobe Campaign的強大功能提供。
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '382'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## 優點 {#benefits}
 
-電子郵件是品牌體驗和客戶歷程的一部分。 透過電子郵件核心元件，您的作者可以在AEM中製作電子郵件內容，提供一致的品牌體驗，從而提高內容速度。
+電子郵件是品牌體驗和客戶歷程的一部分。 透過電子郵件核心元件，您的作者可在AEM中製作電子郵件內容，提供一致的品牌體驗，進而提升內容速度。
 
 * 就像使用核心元件編寫頁面一樣，電子郵件核心元件可讓作者在沒有技術知識的情況下組裝電子郵件，同時確保他們遵循品牌指南。
 * 資產和內容重複使用的功能也鼓勵作者遵循品牌指南並最佳化內容建立流程。
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 | AEM | Adobe Campaign | 核心元件 |
 |---|---|---|
-| AEM 6.5.14.0+<br>內部部署或AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [版本2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+或AEM 6.5 LTS GA<br>內部部署或AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [版本2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: 列出元件
 description: 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |--- |---|---|
 | v4 | - | 相容 | 相容 |
-| [v3](/help/components/v3/list.md) | - | 相容 | 相容 |
-| [v2](/help/components/v2/list.md) | 相容 | 相容 | 相容 |
-| [v1](/help/components/v1/list-v1.md) | 相容 | 相容 | 相容 |
+| [v3](/help/components/v3/list.md) | - | 相容 | 相容 | 相容 |
+| [v2](/help/components/v2/list.md) | 相容 | 相容 | - | 相容 |
+| [v1](/help/components/v1/list-v1.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -154,7 +154,7 @@ ht-degree: 2%
 * **最大專案**
 在清單中顯示的最大專案數。
    * 留空將傳回所有專案。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。

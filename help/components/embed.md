@@ -3,9 +3,9 @@ title: 內嵌元件
 description: 內嵌元件可在AEM內容頁面中內嵌外部內容。
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1343'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |---|---|
-| v2 | - | 相容 | 相容 |
-| [v1](v1/embed.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |---|---|---|
+| v2 | - | 相容 | 相容 | 相容 |
+| [v1](v1/embed.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -100,20 +100,20 @@ ht-degree: 1%
 
 #### HTML {#html}
 
-您可以使用內嵌元件將自由格式HTML新增至頁面。
+您可以使用內嵌元件，將自由格式的HTML新增至您的頁面。
 
-![內嵌元件的HTML](/help/assets/embed-html.png)編輯對話方塊
+![內嵌元件的HTML編輯對話方塊](/help/assets/embed-html.png)
 
 >[!NOTE]
 >任何不安全的標籤（例如指令碼）將會從輸入的HTML中篩選，且不會在產生的頁面上轉譯。
 
 ##### 安全性 {#security}
 
-作者可以輸入的HTML標示會基於安全性目的進行篩選，以避免跨網站指令碼攻擊，例如允許作者取得管理許可權。
+作者可以輸入的HTML標籤會基於安全性目的進行篩選，以避免跨網站指令碼攻擊，例如允許作者取得管理許可權。
 
 一般來說，所有指令碼和`style`元素以及所有`on*`和`style`屬性都將從輸出中移除。
 
-不過，規則比較複雜，因為內嵌元件會遵循AEM的全域HTMLAntiSamy淨化架構篩選規則集（可在`/libs/cq/xssprotection/config.xml`找到）。 如有需要，開發人員可為專案特定的設定覆蓋此專案。
+不過，規則比較複雜，因為內嵌元件會遵循AEM的全域HTML AntiSamy淨化架構篩選規則集（可在`/libs/cq/xssprotection/config.xml`找到）。 如有需要，開發人員可為專案特定的設定覆蓋此專案。
 
 其他安全性資訊可在適用於內部部署安裝的[AEM開發人員檔案](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)以及[AEM as a Cloud Service安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)中找到。
 

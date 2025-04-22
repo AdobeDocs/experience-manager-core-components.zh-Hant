@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自我調整影像元件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
-| v3 | - | 相容 | 相容 |
-| [v2](v2/image.md) | 相容 | 相容 | 相容 |
-| [v1](v1/image-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |--- |---|---|
+| v3 | - | 相容 | 相容 | 相容 |
+| [v2](v2/image.md) | 相容 | 相容 | - | 相容 |
+| [v1](v1/image-v1.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## Dynamic Media支援 {#dynamic-media}
 
-影像元件（截至[版本2.13.0](/help/versions.md)）支援[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像新增任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
+影像元件（截至[版本2.13.0](/help/versions.md)）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
 
 使用核心元件建立的網頁體驗可包含豐富、Sensei支援、穩定、高效能、跨平台的Dynamic Media影像功能。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ### 安全性 {#security}
 
-基於安全理由，影像編輯器絕對不會直接呼叫原始SVG。 透過`<img src="path-to-component">`呼叫。 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
+基於安全考量，影像編輯器絕對不會直接呼叫原始SVG。 透過`<img src="path-to-component">`呼叫。 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
 
 ## 範例元件輸出 {#sample-component-output}
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 「編輯」對話方塊可讓內容作者裁切和縮放影像。
 
-視您是否已啟用[Dynamic Media](#dynamic-media)或已啟用[遠端Assets支援](#remote-assets)而定，可用於編輯影像的選項會有所不同。
+視您已啟用[動態媒體](#dynamic-media)或已啟用[遠端Assets支援](#remote-assets)而定，可用於編輯影像的選項會有所不同。
 
 ### 標準資產編輯 {#standard-assets}
 
@@ -154,7 +154,7 @@ ht-degree: 0%
    * 點選或按一下&#x200B;**挑選**&#x200B;以開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)，讓您能夠選取影像。
       * 如果已啟用[遠端判斷提示支援](#remote-assets)，則您有多個選項可以挑選資產：
          * 從本機AEM資產庫選取&#x200B;**本機**。
-         * **遠端**&#x200B;從AEM執行個體之外的Dynamic Media資料庫中選取。
+         * **遠端**&#x200B;從AEM執行個體外部的Dynamic Media媒體庫選取。
    * 點選或按一下「**編輯**」以[在Asset Editor中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html)的轉譯。
 
 * **協助工具的替代文字** — 此欄位可讓您為視障使用者定義影像的說明。
@@ -168,14 +168,14 @@ ht-degree: 0%
 影像元件之設定對話方塊的![中繼資料標籤](/help/assets/image-configure-metadata.png)
 
 * **預設集型別** — 這定義了可用影像預設集的型別，可以是&#x200B;**影像預設集**&#x200B;或&#x200B;**智慧型裁切**，而且僅在[Dynamic Media功能](#dynamic-meida)啟用時可用。
-   * **影像預設集** — 選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集型別**&#x200B;時，下拉式&#x200B;**影像預設集**&#x200B;可供使用，並允許從可用的Dynamic Media預設集選取。 這只有在為選取的資產定義了預設集時才能使用。
+   * **影像預設集** — 當選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集型別**&#x200B;時，下拉式&#x200B;**影像預設集**&#x200B;可供使用，並允許從可用的Dynamic Media預設集中選取。 這只有在為選取的資產定義了預設集時才能使用。
    * **智慧型裁切** — 當選取了&#x200B;**智慧型裁切**&#x200B;的&#x200B;**預設型別**&#x200B;時，下拉式清單&#x200B;**轉譯**&#x200B;可供使用，並允許從所選資產的可用轉譯中選擇。 這只有在為選取的資產定義了轉譯時才可用。
    * **影像修飾元** — 在這裡可以定義其他Dynamic Media影像伺服命令，以`&`分隔，無論選取哪個&#x200B;**預設集型別**。
 * **標題** — 影像的其他相關資訊，預設會顯示於影像下方。
    * **從DAM取得註解** — 檢查時，影像的註解文字會以DAM中`dc:title`中繼資料的值填入。
    * **以快顯視窗顯示註解** — 檢查後，註解不會顯示在影像下方，但如在某些瀏覽器中將滑鼠懸停在影像上，註解會以快顯視窗顯示。
 * **連結** — 將影像連結到其他資源。
-   * 使用選取對話方塊可連結至其他AEM資源。
+   * 使用「選取」對話方塊可連結至其他AEM資源。
    * 如果未連結至AEM資源，請輸入絕對URL。 非絕對URL會解譯為相對於AEM。
    * **在新索引標籤中開啟連結** — 此選項會在新的瀏覽器視窗中開啟連結。
 * **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
@@ -203,8 +203,8 @@ ht-degree: 0%
 
 ![影像元件的設計對話方塊主索引標籤](/help/assets/image-design-main.png)
 
-* **啟用DM功能** — 選取後，[Dynamic Media功能](#dynamic-media)可供使用。
-   * 此選項僅在環境中啟用Dynamic Media時顯示。
+* **啟用DM功能** — 檢查時，[可以使用Dynamic Media功能](#dynamic-media)。
+   * 只有在環境中啟用Dynamic Media時，才會顯示此選項。
 * **啟用Web最佳化影像** — 檢查後，[Web最佳化影像傳送服務](/help/developing/web-optimized-image-delivery.md)會以WebP格式傳送影像，平均將影像大小減少25%。
    * 此選項僅在AEMaaCS中可用。
    * 取消勾選或無法使用網頁最佳化的影像傳遞服務時，會使用[最適化影像Servlet](/help/developing/adaptive-image-servlet.md)。
@@ -226,7 +226,7 @@ ht-degree: 0%
       * 使用&#x200B;**刪除**&#x200B;圖示來移除寬度。
    * 依預設，影像載入會延遲到影像可見為止。
       * 選取選項&#x200B;**停用延遲載入**，以便在頁面載入時載入影像。
-* **JPEG品質** — 轉換（例如，縮放或裁切）的JPEG影像的品質因數（從0到100的百分比）。
+* **JPEG品質** — 轉換（例如，縮放或裁切）的JPEG影像的品質係數（以從0到100的百分比表示）。
 
 >[!TIP]
 >

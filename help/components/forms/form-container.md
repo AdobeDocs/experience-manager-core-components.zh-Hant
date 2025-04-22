@@ -3,9 +3,9 @@ title: 表單容器元件
 description: 利用核心元件表單容器元件，可建立簡易提交表單。
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
-| v2 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 |
-| [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |--- |---|---|
+| v2 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
+| [v1](/help/components/v1/form-container-v1.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -53,17 +53,17 @@ ht-degree: 1%
 
 根據選取的&#x200B;**動作型別**，容器內的可用選項將會變更。 可用的動作型別為：
 
-* [Post表單資料](#post-data)
+* [張貼表單資料](#post-data)
 * [郵件](#mail)
 * [存放區內容](#store-content)
 
 無論型別為何，都有[一般設定](#general-settings)適用於每個動作。
 
-### Post表單資料 {#post-data}
+### 張貼表單資料 {#post-data}
 
 提交表單時，發佈表單資料動作型別會將提交的資料以JSON的形式，傳遞至協力廠商進行處理。
 
-表單容器元件的「編輯」對話方塊中的![Post表單資料選項](/help/assets/form-container-edit-post.png)
+![在表單容器元件的編輯對話方塊中張貼表單資料選項](/help/assets/form-container-edit-post.png)
 
 * **端點** — 將處理資料的完整HTTPS服務
 * **錯誤訊息** — 提交失敗時顯示的訊息
@@ -100,7 +100,7 @@ ht-degree: 1%
 >
 >為了簡化使用者資料的管理並強制分離關注點，通常不建議將使用者產生的內容儲存在存放庫中。
 >
->請改用[Post表單資料](#post-data)動作型別將使用者內容傳遞給專用服務提供者。
+>改用[張貼表單資料](#post-data)動作型別將使用者內容傳遞給專用服務提供者。
 
 ### 一般設定 {#general-settings}
 
@@ -109,10 +109,10 @@ ht-degree: 1%
 ![表單容器元件的「編輯」對話方塊中的一般選項](/help/assets/form-container-edit-general.png)
 
 * **感謝您的頁面** — 完成表單提交後，系統會將使用者重新導向至指定的頁面。
-   * 使用「選取」對話方塊來選取AEM中的資源。
-   * 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會解譯為相對於AEM。
+   * 使用「選取」對話方塊可在AEM中選取資源。
+   * 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會詮釋為相對於AEM。
    * 留空可在提交後重新顯示表單。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。

@@ -3,9 +3,9 @@ title: 按鈕元件
 description: 利用核心元件按鈕元件，可建立和顯示按鈕。
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,10 @@ Button元件的目前版本是v2，此版本隨2022年2月的核心元件發行�
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |---|---|
-| v2 | - | 相容 | 相容 |
-| [v1](v1/button.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |---|---|---|
+| v2 | - | 相容 | 相容 | 相容 |
+| [v1](v1/button.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -57,7 +57,7 @@ Button元件的目前版本是v2，此版本隨2022年2月的核心元件發行�
    * 使用&#x200B;**選取範圍對話方塊**&#x200B;在AEM中選擇路徑。
 * **在新標籤中開啟連結** — 如果勾選，將在新的瀏覽器標籤中開啟連結。
 * **圖示** — 在按鈕中顯示圖示的識別碼
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。

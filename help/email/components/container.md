@@ -3,9 +3,9 @@ title: 電子郵件容器元件
 description: 電子郵件容器元件可讓您為電子郵件內容中的多個其他元件建立容器。
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|
-| v1 | 相容 | - |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|---|---|---|---|
+| v1 | 相容 | 相容 | - |
 
 如需電子郵件核心元件版本的詳細資訊，請參閱檔案[電子郵件核心元件版本。](/help/email/versions.md)
 
@@ -54,7 +54,7 @@ ht-degree: 1%
    * **三分之一|三分之二**
    * **三分之二|三分之一**
    * **三分之一|三分之一|三分之一**
-* **背景色彩** — 可定義為任意格式的RGB值，或使用檢色器，[視組態而定](#container-settings-tab)
+* **背景色彩** — 定義為自由格式的RGB值，或使用檢色器，[視組態而定](#container-settings-tab)
 * **背景影像** — 定義容器的背景影像，[視組態而定](#container-settings-tab)
 * **ID** — 此選項允許控制HTML中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，但您可在檢查結果內容時找到該ID。

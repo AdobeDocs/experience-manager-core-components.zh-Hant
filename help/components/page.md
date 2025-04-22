@@ -3,9 +3,9 @@ title: 頁面元件
 description: 「頁面元件」是可延伸的頁面元件，設計用於範本編輯器，允許使用範本編輯器來組裝頁首/頁尾和結構元件。
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|---|
-| v3 | - | 相容 | 相容 |
-| [v2](v2/page.md) | 相容 | 相容 | 相容 |
-| [v1](v1/page-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|---|---|---|---|---|
+| v3 | - | 相容 | 相容 | 相容 |
+| [v2](v2/page.md) | 相容 | 相容 | - | 相容 |
+| [v1](v1/page-v1.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 

@@ -3,9 +3,9 @@ title: 電子郵件頁面元件
 description: 電子郵件頁面元件
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|
-| v1 | 相容 | - |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|---|---|---|---|
+| v1 | 相容 | 相容 | - |
 
 如需電子郵件核心元件版本的詳細資訊，請參閱檔案[電子郵件核心元件版本](/help/email/versions.md)
 
@@ -44,13 +44,13 @@ ht-degree: 1%
 
 由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中找到。
 
-### Cloud Service標籤 {#cloud-services}
+### 雲端服務標籤 {#cloud-services}
 
 為了讓電子郵件核心元件能夠擷取促銷活動變數和資料，頁面必須連結至Adobe Campaign設定。
 
 ![電子郵件頁面屬性](/help/email/assets/email-page-properties.png)
 
-在&#x200B;**Cloud Service組態**&#x200B;標題下，在下拉式清單中選取&#x200B;**新增組態**。
+在「**Cloud Service設定**」標題下，在下拉式清單中選取「**新增設定**」。
 
 在&#x200B;**Adobe Campaign**&#x200B;標題下，選取您與Adobe Campaign整合的設定。
 

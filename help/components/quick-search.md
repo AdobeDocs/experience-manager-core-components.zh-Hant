@@ -3,9 +3,9 @@ title: 快速搜尋元件
 description: 快速搜尋元件提供對網站的搜尋功能並顯示搜尋結果，讓訪客可以搜尋網站並篩選結果。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
-| v2 | - | 相容 | 相容 |
-| [v1](/help/components/v1/quick-search.md) | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |--- |---|---|
+| v2 | - | 相容 | 相容 | 相容 |
+| [v1](/help/components/v1/quick-search.md) | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->保護搜尋元件或任何以AEM為基礎的應用程式免受DOS攻擊應在更高層級實作，例如透過在Dispatcher上使用`mod_security`。
+>保護搜尋元件或任何AEM型應用程式免受DOS攻擊應在較高層級實作，例如透過在Dispatcher上使用`mod_security`。
 
 在GitHub](https://adobe.com/go/aem_cmp_tech_search_v2)上可找到有關快速搜尋元件[的最新技術檔案。
 

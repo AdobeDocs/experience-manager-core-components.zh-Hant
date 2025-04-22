@@ -3,9 +3,9 @@ title: 電子郵件區段元件
 description: 電子郵件區段元件
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|
-| v1 | 相容 | - |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|---|---|---|---|
+| v1 | 相容 | 相容 | - |
 
 ### 技術細節 {#technical-details}
 
@@ -135,6 +135,6 @@ ht-degree: 0%
 * **區段條件名稱** — 條件說明
 * **區段條件** — 必須滿足的實際條件，根據Adobe Campaign個人化變數
    * [如需Adobe Campaign Standard個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [如需Adobe Campaign Classic個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/
+   * [如需Adobe Campaign Classic個人化資源，請參閱此處。]&#x200B;(https://experienceleague.adobe.com/docs/
 * **移除** — 點選以按一下以移除條件
 * **重新排列** — 點選或按一下並拖曳以重新排列條件

@@ -3,9 +3,9 @@ title: 核心元件簡介
 description: 取得核心元件問題的解決方案，並允許其他人在AEM中編寫元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
+source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '811'
 ht-degree: 23%
 
 ---
@@ -108,9 +108,9 @@ ht-degree: 23%
 
 ## 系統需求 {#system-requirements}
 
-| 核心元件發行版本 | AEM as a Cloud Service  | AEM 6.5修補程式等級 | Java SE版本 | Maven版本 |
-|---------|---------|---------|---------|---------|
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 持續 | 6.5.21.0+ | 8， 11 | 3.3.9+ |
+| 核心元件發行版本 | AEM as a Cloud Service  | AEM 6.5 LTS | AEM 6.5 | Java SE版本 | Maven版本 |
+|---|---|---|---|---|---|
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 持續 | 6.5 LTS GA | 6.5.21.0+ | 8， 11 | 3.3.9+ |
 
 如需舊版核心元件的需求，請參閱[核心元件版本](versions.md)。
 

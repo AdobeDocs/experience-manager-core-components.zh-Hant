@@ -3,9 +3,9 @@ title: 電子郵件影像元件
 description: 電子郵件影像元件是自我調整影像元件，具備就地編輯的功能。
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|
-| v1 | 相容 | - |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|---|---|---|---|
+| v1 | 相容 | 相容 | - |
 
 如需核心元件版本的詳細資訊，請參閱檔案[電子郵件核心元件版本](/help/email/versions.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## Dynamic Media支援 {#dynamic-media}
 
-電子郵件影像元件支援[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像新增任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
+電子郵件影像元件支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
 
 使用電子郵件核心元件建置的電子郵件體驗可包含豐富、Sensei支援、穩定、高效能、跨平台的Dynamic Media影像功能。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 安全性 {#security}
 
-基於安全理由，影像編輯器絕對不會直接呼叫原始SVG。 透過`<img src=“path-to-component”>`呼叫。 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
+基於安全考量，影像編輯器絕對不會直接呼叫原始SVG。 透過`<img src=“path-to-component”>`呼叫。 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
 
 ### 技術細節 {#technical-details}
 
@@ -98,14 +98,14 @@ ht-degree: 0%
 影像元件之設定對話方塊的![中繼資料標籤](/help/email/assets/email-image-configure-metadata.png)
 
 * **預設集型別** — 這定義了可用影像預設集的型別，可以是&#x200B;**影像預設集**&#x200B;或&#x200B;**智慧型裁切**，而且僅在[Dynamic Media功能](#dynamic-meida)啟用時可用。
-   * **影像預設集** — 選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集型別**&#x200B;時，下拉式&#x200B;**影像預設集**&#x200B;可供使用，並允許從可用的Dynamic Media預設集選取。 這只有在為選取的資產定義了預設集時才能使用。
+   * **影像預設集** — 當選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集型別**&#x200B;時，下拉式&#x200B;**影像預設集**&#x200B;可供使用，並允許從可用的Dynamic Media預設集中選取。 這只有在為選取的資產定義了預設集時才能使用。
    * **智慧型裁切** — 選取&#x200B;**智慧型裁切**&#x200B;的&#x200B;**預設型別**&#x200B;時，下拉式清單&#x200B;**轉譯**&#x200B;可供使用，並允許從所選資產的可用轉譯中進行選取。 這只有在為選取的資產定義了轉譯時才可用。
    * **影像修飾元** — 在這裡可以定義其他Dynamic Media影像伺服命令，以`&`分隔，無論選取哪個&#x200B;**預設集型別**。
 * **標題** — 影像的其他相關資訊，預設會顯示於影像下方。
    * **從DAM取得註解** — 勾選時，影像的註解文字將會填入DAM中`dc:title`中繼資料的值。 僅在從DAM中選擇資產時可用。
    * **以快顯視窗顯示註解** — 檢查後，註解不會顯示在影像下方，但如在某些瀏覽器中將滑鼠懸停在影像上，註解會以快顯視窗顯示。
 * **連結** — 將影像連結到其他資源。
-   * 使用選取對話方塊可連結至其他AEM資源。
+   * 使用「選取」對話方塊可連結至其他AEM資源。
    * 如果未連結至AEM資源，請輸入絕對URL。 非絕對URL將會解譯為相對於AEM。
    * **在新索引標籤中開啟連結** — 此選項會在新的瀏覽器視窗中開啟連結。
 * **ID** — 此選項允許控制HTML中元件的唯一識別碼。
@@ -135,8 +135,8 @@ ht-degree: 0%
 
 ![影像元件的設計對話方塊主索引標籤](/help/email/assets/email-image-design-main.png)
 
-* **啟用DM功能** — 選取後，[Dynamic Media功能](#dynamic-media)可供使用。
-   * 此選項僅在環境中啟用Dynamic Media時顯示。
+* **啟用DM功能** — 檢查時，[可以使用Dynamic Media功能](#dynamic-media)。
+   * 只有在環境中啟用Dynamic Media時，才會顯示此選項。
 * **啟用Web最佳化影像** — 檢查完畢後，[Web最佳化影像傳送服務](/help/developing/web-optimized-image-delivery.md)會傳送WebP格式的影像，平均將影像大小減少25%。
    * 此選項僅在AEMaaCS中可用。
    * 取消勾選或無法使用網頁最佳化的影像傳遞服務時，會使用[最適化影像Servlet](/help/developing/adaptive-image-servlet.md)。

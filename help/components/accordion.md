@@ -3,9 +3,9 @@ title: 收合式選單元件
 description: 「核心元件摺疊式功能表」元件可讓您在頁面上建立以摺疊式功能表排列的面板集合。
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |---|---|
-| v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |---|---|---|
+| v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 若要這麼做：
 
 1. 在頁面編輯器中使用&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
-1. Inspect頁面內容並識別面板的ID。
+1. 檢查頁面內容並識別面板的ID。
    * 例如`id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID會成為您可以使用雜湊(`#`)附加至URL的錨點。
    * 例如`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -92,7 +92,7 @@ ht-degree: 0%
 * **展開的專案** — 此選項會定義載入頁面時預設展開的專案。
    * 選取&#x200B;**單一專案展開**&#x200B;時，必須選取一個面板。 依預設，會選取第一個面板。
    * 未選取&#x200B;**單一專案展開**&#x200B;時，此選項為多重選取且是選擇性的。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -121,7 +121,7 @@ ht-degree: 0%
 ![設計對話方塊屬性索引標籤](/help/assets/accordion-design-properties.png)
 
 * **允許的標題元素** — 此多選下拉式清單會定義允許由作者選取的收合式選單專案標題HTML元素。
-* **預設標題元素** — 此下拉式清單會定義預設收合式選單專案標題HTML元素。
+* **預設標題元素** — 此下拉式清單會定義預設摺疊式功能表專案標題HTML元素。
 
 ### 允許的元件標籤 {#allowed-components-tab}
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 ### 樣式索引標籤 {#styles-tab}
 
-收合式選單元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
+摺疊式功能表元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ## Adobe使用者端資料層 {#data-layer}
 

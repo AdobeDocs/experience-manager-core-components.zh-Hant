@@ -3,9 +3,9 @@ title: 階層連結元件
 description: 核心元件階層連結元件是一種導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- | --- |--- |---|
-| v3 | - | 相容 | 相容 |
-| [v2](v2/breadcrumb.md) | 相容 | 相容 | 相容 |
-| [v1](v1/breadcrumb-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- | --- |--- |---|---|
+| v3 | - | 相容 | 相容 | 相容 |
+| [v2](v2/breadcrumb.md) | 相容 | 相容 | - | 相容 |
+| [v1](v1/breadcrumb-v1.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 * **顯示隱藏的導覽專案** — 在階層連結中顯示標籤為隱藏的頁面（預設不會顯示這些頁面）
 * **隱藏目前頁面** — 在階層連結中隱藏目前頁面（預設會顯示）
 * **停用陰影** — 如果階層中的頁面是重新導向，將顯示重新導向頁面的名稱而非目標。 如需詳細資訊，請參閱導覽元件的[陰影網站結構支援](navigation.md#shadow-structure)。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。

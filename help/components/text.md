@@ -3,9 +3,9 @@ title: 文字元件
 description: 文字元件是RTF編輯和撰寫元件，具備就地編輯功能。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
+source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|---|
-| v2 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 |
-| [v1](v1/text-v1.md) | 相容 | 相容 | 相容 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|---|---|---|---|---|
+| v2 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
+| [v1](v1/text-v1.md) | 相容 | 相容 | - | 相容 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -122,8 +122,8 @@ ht-degree: 2%
 ![超連結範例](/help/assets/text-hyperlink-example.png)
 
 * 輸入路徑
-   * 使用「開啟選取範圍」對話方塊在AEM中選擇路徑
-   * 如果連結不在AEM內，請輸入絕對URL
+   * 使用「開啟選取範圍」對話方塊可在AEM中選擇路徑
+   * 如果連結不在AEM中，請輸入絕對URL
       * 非絕對路徑會解譯為相對於AEM
 * 輸入連結的替代描述文字
 * 選取連結行為
@@ -280,13 +280,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->和存取原始HTML時一樣，使用&#x200B;**Source編輯**&#x200B;選項時必須小心！
+>和存取原始HTML的情況一樣，使用&#x200B;**Source編輯**&#x200B;選項時必須小心！
 >
->已掃描透過&#x200B;**Source Edit**&#x200B;輸入的HTML是否有XSS風險，任何插入的指令碼都會被移除，不會顯示在結果頁面上。 不過，在&#x200B;**Source Edit**&#x200B;中輸入的格式錯誤的HTML可能會破壞頁面的範本，導致未預期的格式設定或導致產生的頁面無法使用。
+>已掃描透過&#x200B;**Source Edit**&#x200B;輸入的HTML是否有XSS風險，插入的任何指令碼都會被移除，且不會顯示在結果頁面上。 不過，在&#x200B;**Source Edit**&#x200B;中輸入的格式錯誤的HTML可能會破壞頁面的範本，導致未預期的格式設定或導致產生的頁面無法使用。
 
 >[!NOTE]
 >
->由於已掃描透過&#x200B;**Source Edit**&#x200B;輸入的HTML以瞭解XSS風險和任何指令碼，並自動移除找到的指令碼，因此保留的實際內容可能會與&#x200B;**Source Edit**&#x200B;中輸入的內容不同。 因此，若要儲存使用&#x200B;**Source Edit**&#x200B;所做的變更，您必須先結束&#x200B;**Source Edit**，以在儲存前於一般編輯器中檢視文字。
+>由於已掃描透過&#x200B;**HTML Edit**&#x200B;輸入的Source是否有XSS風險和任何指令碼，並且會自動移除找到的指令碼，因此保留的實際內容可能會與&#x200B;**Source Edit**&#x200B;中輸入的內容不同。 因此，若要儲存使用&#x200B;**Source Edit**&#x200B;所做的變更，您必須先結束&#x200B;**Source Edit**，以在儲存前於一般編輯器中檢視文字。
 
 ### 段落格式
 
@@ -326,7 +326,7 @@ ht-degree: 2%
 
 * 貼上純文字
 * 從文字貼上
-* 尋找和取代
+* 尋找並取代
 * 拼字檢查程式
 * 插入的影像修改選項
 * HTML來源編輯
@@ -362,7 +362,7 @@ ht-degree: 2%
 可以為元件啟用或停用插入特殊字元的選項。 啟用時，可以定義允許的字元。
 
 * 點選或按一下&#x200B;**新增**&#x200B;按鈕以插入新字元。
-* 輸入字元的HTML碼，以及將顯示在編輯對話方塊中的說明。
+* 輸入字元的HTML程式碼，以及將顯示在編輯對話方塊中的說明。
 * 若要移除字元點選或按一下&#x200B;**刪除**&#x200B;按鈕。
 * 若要重新排列字元順序，請點選或按一下並拖曳控點。
 

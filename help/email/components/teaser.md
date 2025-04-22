@@ -3,9 +3,9 @@ title: 電子郵件Teaser元件
 description: 電子郵件Teaser元件可以顯示影像、標題、RTF文字，並可選擇連結至更多內容。
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM as a Cloud Service  |
-|---|---|---|
-| v1 | 相容 | - |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|---|---|---|---|
+| v1 | 相容 | 相容 | - |
 
 ### 技術細節 {#technical-details}
 
@@ -47,12 +47,12 @@ ht-degree: 0%
 
 ![電子郵件Teaser元件的編輯對話方塊連結索引標籤](/help/email/assets/email-teaser-edit-links.png)
 
-Teaser標題、說明和影像可以從連結的內容繼承，也可以從第一個號召性用語中連結的內容繼承。 如果未指定連結或號召性用語，標題、說明和影像將會繼承自目前內容。
+Teaser標題、說明和影像可以從連結的內容繼承，也可以從第一個call-to-action中連結的內容繼承。 如果未指定連結或call-to-action，則會從目前內容繼承標題、說明和影像。
 
 * **連結** — 此檔案連結到內容、外部URL或錨點。
    * 按一下Campaign圖示以開啟[選取Adobe Campaign變數](/help/email/campaign-variables.md)對話方塊，插入來自Adobe Campaign的動態內容。
 * **行動號召** — 此選項可連結至多個目的地。
-   * 在繼承Teaser標題、說明或影像時，將使用第一個號召性用語中連結的頁面。
+   * 當繼承Teaser標題、說明或影像時，將使用第一個call-to-action中連結的頁面。
    * 按一下Campaign圖示以開啟[選取Adobe Campaign變數](/help/email/campaign-variables.md)對話方塊，插入來自Adobe Campaign的動態內容。
 
 ### 文字索引標籤 {#text-tab}

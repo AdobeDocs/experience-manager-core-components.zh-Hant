@@ -1,18 +1,18 @@
 ---
 title: 社交分享元件
-description: 核心元件社交分享元件是Facebook和Pinterest共用Widget。
+description: 核心元件社交分享元件是Facebook和Pinterest分享Widget。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '378'
 ht-degree: 2%
 
 ---
 
 # 社交分享元件{#social-sharing-component}
 
-核心元件社交分享元件是Facebook和Pinterest共用Widget。
+核心元件社交分享元件是Facebook和Pinterest分享Widget。
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 使用情況 {#usage}
 
-社交共用元件會將Facebook和Pinterest共用連結新增至頁面。 它通常包含在頁首或頁尾中。
+社交分享元件會將Facebook和Pinterest分享連結新增至頁面。 它通常包含在頁首或頁尾中。
 
 與其他元件不同，社交分享元件的設定是由範本作者透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)完成，並由內容作者透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
 
@@ -30,9 +30,9 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本，以及與元件版本相容的AEM版本。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
-|--- |--- |--- |---|
-| v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容，已棄用 | 相容，已棄用 |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+|--- |--- |--- |---|---|
+| v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容，已棄用 | 相容，已棄用 | 相容，已棄用 |
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ![共用元件的編輯對話方塊](/help/assets/sharing-edit.png)
 
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
