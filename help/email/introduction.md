@@ -3,9 +3,9 @@ title: 電子郵件核心元件簡介
 description: 使用電子郵件核心元件的彈性，建立吸引人的電子郵件內容，並透過Adobe Campaign的強大功能提供。
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 5%
 
 ---

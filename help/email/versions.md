@@ -3,7 +3,7 @@ title: 核心電子郵件元件版本
 description: 核心電子郵件元件會以發行版本發佈。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 13%
@@ -13,7 +13,7 @@ ht-degree: 13%
 
 # 核心電子郵件元件版本 {#core-components-versions}
 
-電子郵件核心元件的目前版本為1.3.0，與AEM 6.5和AEM 6.5 LTS相容。
+電子郵件核心元件的目前版本為1.3.0，與內部部署和AMS的AEM 6.5相容。
 
 如需有關需求和安裝的詳細資訊，請參閱「電子郵件核心元件簡介」檔案的[需求區段](/help/email/introduction.md#requirements)和「使用電子郵件核心元件」檔案的[安裝區段](/help/email/using.md#installing-the-email-core-components)。
 
