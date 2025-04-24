@@ -3,9 +3,9 @@ title: 影像元件
 description: 核心元件影像元件是自我調整影像元件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2062'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,14 @@ ht-degree: 0%
 >[!TIP]
 >
 >依預設，影像元件由最適化影像Servlet提供技術支援。 請參閱[最適化影像Servlet](/help/developing/adaptive-image-servlet.md)，瞭解其運作方式的詳細資訊。
+
+### 與v2的差異 {#v2-differences}
+
+與影像元件第2版不同，第3版使用瀏覽器原生回應。 這表示它會為瀏覽器提供一組不同寬度影像的來源，而瀏覽器會挑選最佳來源。
+
+大部分時候，瀏覽器偏好在本機縮小較大的寬度以符合較小的檢視區，而非從伺服器擷取較小的寬度影像。 這是預期會出現的情況，以及為什麼不應該將影像元件用於藝術方向（不同的檢視區會有不同的影像/裁切）。
+
+[如需詳細資訊，請參閱影像元件](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings)的技術檔案。
 
 ## Dynamic Media支援 {#dynamic-media}
 
