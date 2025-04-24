@@ -3,9 +3,9 @@ title: 電子郵件體驗片段元件
 description: 電子郵件體驗片段元件可讓內容作者在其內容中放置體驗片段變數，同時支援當地語系化的內容結構。
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 | 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
 |---|---|---|---|
-| v1 | 相容 | 相容 | - |
+| v1 | 相容 | - | - |
 
 如需電子郵件核心元件版本的詳細資訊，請參閱檔案[電子郵件核心元件版本。](/help/email/versions.md)
 

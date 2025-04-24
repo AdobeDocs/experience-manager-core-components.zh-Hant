@@ -3,9 +3,9 @@ title: 電子郵件區段元件
 description: 電子郵件區段元件
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 | 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
 |---|---|---|---|
-| v1 | 相容 | 相容 | - |
+| v1 | 相容 | - | - |
 
 ### 技術細節 {#technical-details}
 

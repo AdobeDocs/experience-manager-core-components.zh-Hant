@@ -3,9 +3,9 @@ title: 電子郵件Teaser元件
 description: 電子郵件Teaser元件可以顯示影像、標題、RTF文字，並可選擇連結至更多內容。
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
 |---|---|---|---|
-| v1 | 相容 | 相容 | - |
+| v1 | 相容 | - | - |
 
 ### 技術細節 {#technical-details}
 

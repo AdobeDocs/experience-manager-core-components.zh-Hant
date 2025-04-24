@@ -3,9 +3,9 @@ title: 電子郵件核心元件簡介
 description: 使用電子郵件核心元件的彈性，建立吸引人的電子郵件內容，並透過Adobe Campaign的強大功能提供。
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '377'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 | AEM | Adobe Campaign | 核心元件 |
 |---|---|---|
-| AEM 6.5.14.0+或AEM 6.5 LTS GA<br>內部部署或AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [版本2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br>內部部署或AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [版本2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >

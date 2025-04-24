@@ -3,9 +3,9 @@ title: 電子郵件文字元件
 description: 電子郵件文字元件是RTF編輯和撰寫元件，具備就地編輯功能。
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '2265'
+source-wordcount: '2264'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 | 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
 |---|---|---|---|
-| v1 | 相容 | 相容 | - |
+| v1 | 相容 | - | - |
 
 如需核心元件版本的詳細資訊，請參閱檔案[電子郵件核心元件版本。](/help/email/versions.md)
 

@@ -3,9 +3,9 @@ title: 電子郵件容器元件
 description: 電子郵件容器元件可讓您為電子郵件內容中的多個其他元件建立容器。
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 | 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
 |---|---|---|---|
-| v1 | 相容 | 相容 | - |
+| v1 | 相容 | - | - |
 
 如需電子郵件核心元件版本的詳細資訊，請參閱檔案[電子郵件核心元件版本。](/help/email/versions.md)
 
