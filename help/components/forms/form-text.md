@@ -37,7 +37,7 @@ ht-degree: 5%
 
 ### 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2)上可找到有關表單文字元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_form_text_v2)上可找到有關表單文字元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

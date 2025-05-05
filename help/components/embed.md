@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_embed_v2)上可找到有關內嵌元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_embed_v2)上可找到有關內嵌元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-內嵌元件](/help/assets/embed-styles.png)之編輯對話方塊的![樣式索引標籤
+內嵌元件![&#128279;](/help/assets/embed-styles.png)之編輯對話方塊的樣式索引標籤
 
 內嵌元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
 

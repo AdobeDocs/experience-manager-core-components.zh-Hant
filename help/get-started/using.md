@@ -84,7 +84,7 @@ ht-degree: 1%
    jcr:description="Section Heading"
    ```
 
-例如，檢視WKND網站](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml)的[title元件，這是以這種方式建置的Proxy元件的好範例。
+例如，檢視WKND網站[&#128279;](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml)的title元件，這是以這種方式建置的Proxy元件的好範例。
 
 ## 載入核心樣式 {#load-the-core-styles}
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 開始自訂最適化Forms核心元件之前，
 
-* 瞭解核心元件](customizing.md#customizing-the-markup-customizing-the-markup)的[架構，並參閱[Adobe Experience Manager核心元件官方檔案](customizing.md)。 這些全方位的資源在整個自訂程式中都是您的指南。
+* 瞭解核心元件[&#128279;](customizing.md#customizing-the-markup-customizing-the-markup)的架構，並參閱[Adobe Experience Manager核心元件官方檔案](customizing.md)。 這些全方位的資源在整個自訂程式中都是您的指南。
 * 設定您的開發環境這可確保順利進行工作流程，以變更核心元件。 設定開發環境時，請使用以最新AEM原型專案為基礎的AEM原型專案。 根據您的環境，您可以：
 
    * [為Formsas a Cloud Service設定本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html)。

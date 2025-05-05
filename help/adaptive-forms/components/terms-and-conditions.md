@@ -180,7 +180,7 @@ ht-degree: 0%
 
 - **隱藏標題** — 選取隱藏元件標題的選項。
 
-- **連結** — 指定用來取代同意文字的連結和對應顯示文字。 您可以按一下&#x200B;**新增**按鈕，以新增多個連結。
+- **連結** — 指定用來取代同意文字的連結和對應顯示文字。 您可以按一下&#x200B;**新增**&#x200B;按鈕，以新增多個連結。
 新增選項後，可以執行下列動作：
    - **連結** — 此選項可讓您在選取選項時，輸入要重新導向的URL。
    - **顯示文字** — 此選項可讓您輸入要在最適化表單中顯示的內容。
@@ -234,14 +234,14 @@ ht-degree: 0%
 
 **Text**&#x200B;元件會顯示文字內容，為使用者提供資訊。 此元件包含實際的條款與條件、法律語言或任何其他相關文字資訊。
 
-您可以使用「設定」對話方塊輕鬆為訪客個別自訂[文字元件](/help/adaptive-forms/components/text.md)。 若要輕鬆定義文字選項以提供順暢的使用者體驗，請使用文字元件](/help/adaptive-forms/components/text.md#configure-dialog)的[設定對話方塊。
+您可以使用「設定」對話方塊輕鬆為訪客個別自訂[文字元件](/help/adaptive-forms/components/text.md)。 若要輕鬆定義文字選項以提供順暢的使用者體驗，請使用文字元件[&#128279;](/help/adaptive-forms/components/text.md#configure-dialog)的設定對話方塊。
 
 
 ### 核取方塊元件 {#checkbox}
 
 核取方塊是用來取得使用者同意或認可。 它可當作使用者已閱讀並同意所概述條款的視覺指標。 強制選取核取方塊以表示使用者同意。
 
-您可以透過[設定]對話方塊輕鬆為訪客個別自訂[核取方塊元件](/help/adaptive-forms/components/checkbox.md)。 若要定義順暢使用者體驗的核取方塊屬性，請使用核取方塊元件](/help/adaptive-forms/components/checkbox.md#configure-dialog)的[設定對話方塊。
+您可以透過[設定]對話方塊輕鬆為訪客個別自訂[核取方塊元件](/help/adaptive-forms/components/checkbox.md)。 若要定義順暢使用者體驗的核取方塊屬性，請使用核取方塊元件[&#128279;](/help/adaptive-forms/components/checkbox.md#configure-dialog)的設定對話方塊。
 
 
 ## 相關文章 {#related-articles}

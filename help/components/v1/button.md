@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_button_v1)上可找到有關按鈕元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_button_v1)上可找到有關按鈕元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 屬性標籤 {#properties-tab}
 
-按鈕元件](/help/assets/button-edit-properties.png)之編輯對話方塊的![屬性標籤
+按鈕元件![&#128279;](/help/assets/button-edit-properties.png)之編輯對話方塊的屬性標籤
 
 * **文字** — 按鈕上顯示的文字
 * **連結** — 連結至AEM中的內容頁面、外部資源或錨點

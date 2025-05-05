@@ -16,7 +16,7 @@ ht-degree: 1%
 
 **範例**
 
-標題](/help/adaptive-forms/assets/title.png)的![範例
+標題![&#128279;](/help/adaptive-forms/assets/title.png)的範例
 
 ## 使用情況 {#reasons-to-use-title-in-an-adaptive-form}
 

@@ -41,7 +41,7 @@ Teaser元件（截至[版本2.23.2](/help/versions.md)）支援遠端資產。 [
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1)上找到有關Teaser元件[的最新技術檔案。
+您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_teaser_v1)上找到有關Teaser元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

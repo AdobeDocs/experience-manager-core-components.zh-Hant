@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub](https://adobe.com/go/aem_cmp_tech_title_v3)上找到有關標題元件[的最新技術檔案。
+您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_title_v3)上找到有關標題元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 必須在[設計對話方塊](#design-dialog)中為此元件設定樣式，以便下拉式功能表可用。
 
-標題元件](/help/assets/title-edit-styles.png)的編輯對話方塊的![樣式索引標籤
+標題元件![&#128279;](/help/assets/title-edit-styles.png)的編輯對話方塊的樣式索引標籤
 
 ## 設計對話方塊 {#design-dialog}
 

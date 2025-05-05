@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_container_v1)上可找到容器元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_container_v1)上可找到容器元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 ### 背景索引標籤 {#background-tab}
 
-容器元件](/help/assets/container-design-background.png)之設計對話方塊的![背景標籤
+容器元件![&#128279;](/help/assets/container-design-background.png)之設計對話方塊的背景標籤
 
 * **背景影像**
    * **啟用背景影像** — 選取此選項可讓內容作者定義容器的背景影像。

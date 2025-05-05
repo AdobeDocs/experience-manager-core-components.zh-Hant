@@ -97,7 +97,7 @@ ht-degree: 13%
 | CSS類別命名 | 標準化命名慣例是以[區塊元素修飾元](https://getbem.com/) (BEM)標籤法（截至發行版本2.0.0）為基礎 | 自訂配置 |
 | 對話方塊定義 | [珊瑚色3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Classic UI |
 | JSON 輸出 | [Sling模型匯出工具與Jackson序列化](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 預設Sling servlet |
-| 版本設定 | 模型和HTL的[](guidelines.md) | 無 |
+| 版本設定 | 模型和HTL的[&#128279;](guidelines.md) | 無 |
 | 測試 | 單元測試+整合測試 | 整合測試 |
 | 傳遞 | [透過公開GitHub](https://github.com/adobe/aem-core-wcm-components) | 透過Quickstart |
 | 授權 | [Apache授權](https://www.apache.org/licenses/LICENSE-2.0) | Adobe專有 |

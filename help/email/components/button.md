@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ### 屬性標籤 {#properties-tab}
 
-按鈕元件](/help/email/assets/email-button-edit-properties.png)之編輯對話方塊的![屬性標籤
+按鈕元件![&#128279;](/help/email/assets/email-button-edit-properties.png)之編輯對話方塊的屬性標籤
 
 * **文字** — 按鈕上顯示的文字
    * 按一下Campaign圖示以開啟[選取Adobe Campaign變數](/help/email/campaign-variables.md)對話方塊，插入來自Adobe Campaign的動態內容。

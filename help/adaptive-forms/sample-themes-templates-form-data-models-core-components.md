@@ -39,7 +39,7 @@ ht-degree: 1%
 參考範例主題可協助作者使用、定義及自訂表單的樣式，即使具備CSS基本知識的作者也可以視需要自訂主題。
 
 **如何取得這些主題？**
-您可以使用以下針對**AEM as a Cloud Service**&#x200B;環境提供的步驟來取得這些主題：
+您可以使用以下針對&#x200B;**AEM as a Cloud Service**&#x200B;環境提供的步驟來取得這些主題：
 
 1. [啟用最適化表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
 1. [將AEM Archetype 47專案或更新版本部署至您的環境](https://github.com/adobe/aem-project-archetype)

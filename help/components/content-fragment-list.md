@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1)上可找到有關內容片段清單元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_cflist_v1)上可找到有關內容片段清單元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 **屬性**&#x200B;索引標籤定義清單中包含的內容片段。 這主要是根據所選的內容片段模式，但還有其他可用的篩選選項。
 
-內容片段清單元件](/help/assets/content-fragment-list-properties.png)的編輯對話方塊的![屬性標籤
+內容片段清單元件![&#128279;](/help/assets/content-fragment-list-properties.png)的編輯對話方塊的屬性標籤
 
 * **Model** — 清單所根據的內容片段模式的路徑。
    * 依預設，定義為&#x200B;**模型路徑**&#x200B;的所有模型內容片段都會包含在清單中。
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 依預設，內容片段模式的所有元素將會包含在清單中（除非受&#x200B;**最大專案**&#x200B;欄位限制）。 **Elements**&#x200B;索引標籤允許您僅指定要包含的特定元素。
 
-內容片段清單元件](/help/assets/content-fragment-list-elements.png)的編輯對話方塊的![元素標籤
+內容片段清單元件![&#128279;](/help/assets/content-fragment-list-elements.png)的編輯對話方塊的元素標籤
 
 * **元素** — 只會顯示指定清單中內容片段的元素。
    * 按一下或點選「**新增**」按鈕以新增元素。
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-內容片段清單元件](/help/assets/content-fragment-list-styles.png)的[編輯]對話方塊的![樣式索引標籤
+內容片段清單元件![&#128279;](/help/assets/content-fragment-list-styles.png)的[編輯]對話方塊的樣式索引標籤
 
 內容片段清單元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
 

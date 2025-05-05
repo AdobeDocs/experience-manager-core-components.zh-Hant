@@ -28,7 +28,7 @@ ht-degree: 1%
 
 * **WKND教學課程** — 如需有關在AEM上進行開發的精彩介紹，包括如何運用原型，請參閱[AEM Sites快速入門 — WKND教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)中的實際範例，以逐步引導您使用原型實作簡單的專案。
 * **WKND事件教學課程** — 如果您對AEM上的單頁應用程式(SPA)開發特別感興趣，請務必檢視專屬的[WKND事件教學課程。](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
-* **自行開始！** — 您可以輕鬆下載GitHub](https://github.com/adobe/aem-project-archetype)上可用的[目前專案原型，並自行建立您的第一個專案。
+* **自行開始！** — 您可以輕鬆下載GitHub[&#128279;](https://github.com/adobe/aem-project-archetype)上可用的目前專案原型，並自行建立您的第一個專案。
 
 ## 如何使用原型 {#how-to-use-the-archetype}
 

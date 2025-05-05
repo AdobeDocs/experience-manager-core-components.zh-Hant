@@ -52,7 +52,7 @@ PDF Viewer元件的目前版本是v1，此版本隨2020年6月的核心元件2.1
 
 設定索引標籤可讓作者定義應該顯示哪個PDF。 路徑可定義為AEM中的資產或其他資源的絕對路徑。
 
-PDF Viewer元件](/help/assets/pdf-viewer-edit-configuration.png)之編輯對話方塊的![設定標籤
+PDF Viewer元件![&#128279;](/help/assets/pdf-viewer-edit-configuration.png)之編輯對話方塊的設定標籤
 
 ### 自訂標籤 {#customize-tab}
 

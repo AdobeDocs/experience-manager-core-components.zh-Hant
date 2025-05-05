@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Sling內容感知設定和核心元件 {#sling-context-aware-configurations}
 
-內容感知設定是Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)的[功能。 這些是與內容資源或資源樹相關的設定，並由核心元件用於允許全網站設定。
+內容感知設定是Sling[&#128279;](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)的功能。 這些是與內容資源或資源樹相關的設定，並由核心元件用於允許全網站設定。
 
 ## Sling內容感知設定 {#context-aware-configurations}
 

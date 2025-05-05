@@ -134,7 +134,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -260,7 +260,7 @@ ht-degree: 3%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)上可找到有關清單元件[的最新技術檔案。
+在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)上可找到有關清單元件的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 
