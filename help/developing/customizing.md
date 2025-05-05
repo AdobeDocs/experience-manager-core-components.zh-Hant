@@ -39,9 +39,9 @@ ht-degree: 0%
 
 可能需要自訂核心元件對話方塊中可用的組態選項，無論是[設計對話方塊或編輯對話方塊](/help/get-started/authoring.md)。
 
-每個對話方塊都有一致的節點結構。 建議在繼承元件中復寫此結構，以便使用[Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)和[隱藏條件](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html)來隱藏、取代或重新排序原始對話方塊的區段。 要復寫的結構定義為標籤專案節點層級的任何內容。
+每個對話方塊都有一致的節點結構。 建議在繼承元件中復寫此結構，以便使用[Sling Resource Merger](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)和[隱藏條件](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/hide-conditions.html)來隱藏、取代或重新排序原始對話方塊的區段。 要復寫的結構定義為標籤專案節點層級的任何內容。
 
-若要與對話方塊目前版本的任何變更完全相容，請勿觸及索引標籤專案層級下的結構（隱藏、新增至、取代、重新排序等），這點極為重要。 相反地，父系中的索引標籤專案應透過`sling:hideResource`屬性隱藏（請參閱[Sling資源合併屬性](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)），並且新增包含自訂設定欄位的新索引標籤專案。 必要時可使用`sling:orderBefore`重新排序索引標籤專案。
+若要與對話方塊目前版本的任何變更完全相容，請勿觸及索引標籤專案層級下的結構（隱藏、新增至、取代、重新排序等），這點極為重要。 相反地，父系中的索引標籤專案應透過`sling:hideResource`屬性隱藏（請參閱[Sling資源合併屬性](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)），並且新增包含自訂設定欄位的新索引標籤專案。 必要時可使用`sling:orderBefore`重新排序索引標籤專案。
 
 下列對話方塊示範建議的對話方塊結構，以及如何隱藏和取代上述繼承的索引標籤：
 
@@ -137,7 +137,7 @@ public class PageHeadline implements Title {
 * 將核心元件升級至新的次要版本
 * 將核心元件升級至主要版本
 
-一般而言，將AEM升級至新版本不會影響核心元件或已完成的自訂，前提是元件的版本也支援正在移轉至的新AEM版本，且自訂功能不會使用[已棄用或已移除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的API。
+一般而言，將AEM升級至新版本不會影響核心元件或已完成的自訂，前提是元件的版本也支援正在移轉至的新AEM版本，且自訂功能不會使用[已棄用或已移除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hant)的API。
 
 升級核心元件而不切換至更新的主要版本應該不會影響自訂，前提是使用本頁所述的自訂模式。
 
@@ -157,7 +157,7 @@ public class PageHeadline implements Title {
 
 1. **觀看已過時和已移除的功能。**
 
-   隨著每個新AEM版本的升級，請密切留意[已過時和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)頁面，確保所有使用的API仍是常用的。
+   隨著每個新AEM版本的升級，請密切留意[已過時和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hant)頁面，確保所有使用的API仍是常用的。
 
 另請參閱[核心元件支援](overview.md#core-component-support)區段。
 

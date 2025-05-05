@@ -37,11 +37,11 @@ Teaser元件（截至[版本2.23.2](/help/versions.md)）支援遠端資產。 [
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗Teaser元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_teaser)。
+若要體驗Teaser元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_teaser_tw)。
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_teaser_v1)上找到有關Teaser元件的最新技術檔案。
+您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_teaser_v1_tw)上找到有關Teaser元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -79,13 +79,13 @@ Teaser 標題、說明和影像可以從所連結的頁面繼承，也可以從�
 ![Teaser元件的編輯對話方塊影像標籤](/help/assets/teaser-edit-image.png)
 
 * **從頁面**&#x200B;繼承精選影像 — 使用連結頁面的頁面屬性中定義的影像，如果沒有找到，則使用目前頁面。
-* **影像資產** — 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，從本機檔案系統上傳。
+* **影像資產** — 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**挑選**&#x200B;以開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)以選取影像。
+   * 點選或按一下&#x200B;**挑選**&#x200B;以開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)以選取影像。
       * 如果[遠端Assets支援](#remote-assets)已啟用，您有多個選項可挑選資產：
          * 從本機AEM資產庫選取&#x200B;**本機**。
          * **遠端**&#x200B;從AEM執行個體外部的Dynamic Media媒體庫選取。
-   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
+   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
 * **協助工具的替代文字** — 此欄位可讓您為視障使用者定義影像的說明。
    * **從頁面**&#x200B;繼承替代文字 — 此選項使用DAM中`dc:description`中繼資料之連結資產值的替代說明，或是使用目前頁面的替代說明（如果未連結資產）。
 * **不提供替代文字** — 此選項會將影像標籤為被熒幕閱讀器等輔助技術忽略，以用於影像純粹起裝飾作用或不向頁面傳達額外資訊的情況。

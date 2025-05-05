@@ -40,8 +40,8 @@ ht-degree: 3%
 您必須設定AEM-Adobe Campaign整合，兩個解決方案才能通訊。
 
 * 設定您的Adobe Campaign整合
-   * Adobe Campaign Classic： [與Adobe Campaign Classic整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
-   * Adobe Campaign Standard： [與Adobe Campaign Standard整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
+   * Adobe Campaign Classic： [與Adobe Campaign Classic整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=zh-Hant)
+   * Adobe Campaign Standard： [與Adobe Campaign Standard整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hant)
 * [將Adobe Campaign整合設定連結](/help/email/components/page.md#cloud-services-tab)至您將使用電子郵件核心元件的內容頁面
 
 ### 為電子郵件元件新增AEM資源型別篩選器 {#aem-resource-filter}
@@ -70,13 +70,13 @@ ht-degree: 3%
 | 步驟 | 說明 | 解決方案 |
 |---|---|---|
 | 1 | 作者會建立自由格式的階層式結構，將資料夾和電子郵件內容當做頁面。 | AEM |
-| 2 | 使用[範本編輯器，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)作者可設定電子郵件頁首及/或頁尾，此電子郵件頁首及/或頁尾將在此頁面範本產生的所有電子郵件頁面之間共用。 | AEM |
-| 3 | 作者使用[頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html)，使用文字編輯器建立電子郵件內容，他們可以在其中選取Adobe Campaign變數，並使用分段元件，在收件者符合特定條件時有條件地顯示資訊。 | AEM |
-| 4 | 電子郵件內容完成時，會執行[工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html)以核准內容並傳送至Campaign。 | AEM |
+| 2 | 使用[範本編輯器，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)作者可設定電子郵件頁首及/或頁尾，此電子郵件頁首及/或頁尾將在此頁面範本產生的所有電子郵件頁面之間共用。 | AEM |
+| 3 | 作者使用[頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant)，使用文字編輯器建立電子郵件內容，他們可以在其中選取Adobe Campaign變數，並使用分段元件，在收件者符合特定條件時有條件地顯示資訊。 | AEM |
+| 4 | 電子郵件內容完成時，會執行[工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=zh-Hant)以核准內容並傳送至Campaign。 | AEM |
 | 5 | 會建立傳遞，定義收件者清單。 | 行銷活動 |
 | 6 | 在AEM中建立的內容會選取為傳送的內容。 | 行銷活動 |
 | 7 | 內容會傳送給收件者，以收件者的個人化資訊取代Adobe Campaign變數。 | 行銷活動 |
 
 如需在AEM中建立電子郵件內容以及在Adobe Campaign中傳送的範例，請參閱下列資源。
 
-* AEM 6.5： [使用Adobe Campaign Classic和Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
+* AEM 6.5： [使用Adobe Campaign Classic和Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hant)

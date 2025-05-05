@@ -37,11 +37,11 @@ ht-degree: 0%
 
 ### 使用元件資料庫 {#component-library}
 
-參考已經處於設計階段的[元件庫](https://adobe.com/go/aem_cmp_library)。 核心元件功能強大且靈活，可將您視為起點。 只有在有實際業務需求，而使用核心元件確實無法合理達成時，才新增自訂元件。
+參考已經處於設計階段的[元件庫](https://adobe.com/go/aem_cmp_library_tw)。 核心元件功能強大且靈活，可將您視為起點。 只有在有實際業務需求，而使用核心元件確實無法合理達成時，才新增自訂元件。
 
 ### 使用Adobe XD UI套件 {#ui-kit}
 
-一旦證明需要自訂元件，請善用Adobe XD的UI套件[，可從這裡下載](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，讓設計人員開始以核心元件作為建置區塊來建置線框和設計。
+一旦證明需要自訂元件，請善用Adobe XD的UI套件[，可從這裡下載](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=zh-Hant)，讓設計人員開始以核心元件作為建置區塊來建置線框和設計。
 
 ## 不要忽視強大的功能 {#powerful-features}
 
@@ -49,13 +49,13 @@ AEM和核心元件的功能非常強大，但也非常微妙，設計人員可�
 
 ### 內容片段 {#content-fragments}
 
-[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html)可讓您建立頻道中性的內容，以及（可能是頻道特定的）變化。 接著，您就可以在編寫內容頁面時，使用這些片段及其變數。
+[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hant)可讓您建立頻道中性的內容，以及（可能是頻道特定的）變化。 接著，您就可以在編寫內容頁面時，使用這些片段及其變數。
 
 結構化內容片段與更新的JSON匯出工具搭配使用，也可用來透過Content Services將AEM內容傳送至AEM頁面以外的管道。
 
 ### 體驗片段範本 {#experience-fragment-templates}
 
-如果作者想要重複使用頁面的部分（體驗的片段）。 如果沒有[體驗片段，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html)作者將需要複製並貼上該片段。 建立及維護這些複製/貼上體驗非常耗時，而且容易發生使用者錯誤。 體驗片段不需要複製/貼上。
+如果作者想要重複使用頁面的部分（體驗的片段）。 如果沒有[體驗片段，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=zh-Hant)作者將需要複製並貼上該片段。 建立及維護這些複製/貼上體驗非常耗時，而且容易發生使用者錯誤。 體驗片段不需要複製/貼上。
 
 ### 內嵌元件 {#embed-component}
 

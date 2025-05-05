@@ -56,14 +56,14 @@ ht-degree: 0%
    * **預設** — 定義預設區段以顯示是否不滿足其他條件
    * **自訂** — 允許作者定義條件
       * 條件以Adobe Campaign個人化變數為基礎
-      * [如需Adobe Campaign Standard個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-      * [如需Adobe Campaign Classic個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+      * [如需Adobe Campaign Standard個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
+      * [如需Adobe Campaign Classic個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hant)
 * **刪除** — 點選或按一下以從電子郵件區段元件中刪除區段。
 * **重新排列** — 點選或按一下並拖曳以重新排列區段。
 
 >[!TIP]
 >
->如果減少內容的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可透過從元件瀏覽器拖曳並放置在內容編輯器的電子郵件分段元件上來新增至電子郵件分段元件。[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
+>如果減少內容的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可透過從元件瀏覽器拖曳並放置在內容編輯器的電子郵件分段元件上來新增至電子郵件分段元件。[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#inserting-a-component)
 
 ### 屬性標籤 {#properties-tab}
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 **允許的元件**&#x200B;索引標籤是用來定義哪些元件可由內容作者新增為電子郵件區段元件。
 
-**允許的元件**&#x200B;索引標籤的功能與[在範本編輯器中定義配置容器的原則與屬性時的相同名稱索引標籤的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**允許的元件**&#x200B;索引標籤的功能與[在範本編輯器中定義配置容器的原則與屬性時的相同名稱索引標籤的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)
 
 ### 樣式索引標籤 {#styles-tab}
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 * **區段條件名稱** — 條件說明
 * **區段條件** — 必須滿足的實際條件，根據Adobe Campaign個人化變數
-   * [如需Adobe Campaign Standard個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [如需Adobe Campaign Classic個人化資源，請參閱此處。]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [如需Adobe Campaign Standard個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
+   * [如需Adobe Campaign Classic個人化資源，請參閱此處。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=zh-Hant
 * **移除** — 點選以按一下以移除條件
 * **重新排列** — 點選或按一下並拖曳以重新排列條件

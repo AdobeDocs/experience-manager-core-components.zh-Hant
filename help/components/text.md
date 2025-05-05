@@ -35,23 +35,23 @@ ht-degree: 2%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗文字元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_text)。
+若要體驗文字元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_text_tw)。
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_text_v2)上找到有關文字元件的最新技術檔案。
+您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_text_v2_tw)上找到有關文字元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
 ## 文字元件和RTF編輯器 {#the-text-component-and-the-rich-text-editor}
 
-核心元件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供編輯其文字內容的廣泛功能。 RTE的設定非常靈活，並提供了許多選項。 如需如何設定RTE的詳細資訊，請參閱文章[設定RTF編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
+核心元件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供編輯其文字內容的廣泛功能。 RTE的設定非常靈活，並提供了許多選項。 如需如何設定RTE的詳細資訊，請參閱文章[設定RTF編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=zh-Hant)和[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)。
 
 本文章的其餘部分示範使用現成可用的RTE組態的核心元件文字元件的標準組態。
 
 >[!NOTE]
 >
->只有由RTE[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的UI組態啟用的選項在文字元件中才有提供。
+>只有由RTE[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)的UI組態啟用的選項在文字元件中才有提供。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -258,7 +258,7 @@ ht-degree: 2%
 
 用於檢查文字內容的拼字。 可能的拼字錯誤會以紅色虛線加底線。
 
-如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱檔案[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
+如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱檔案[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)。
 
 ### 特殊字元 {#special-characters}
 

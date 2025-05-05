@@ -30,7 +30,7 @@ ht-degree: 0%
 
 通常建議使用HTTP來執行您的所有生產AEM執行個體。 不過，您的本機開發環境可能不會依此設定。 不過，使用Dynamic Media搭配OpenAPI的遠端資產需要HTTPS才能運作。
 
-[使用本指南](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html)設定HTTPS，無論您想使用遠端資產，包括開發環境。
+[使用本指南](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=zh-Hant)設定HTTPS，無論您想使用遠端資產，包括開發環境。
 
 ## 設定OSGi {#osgi}
 
@@ -47,8 +47,8 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 如需如何設定OSGi的詳細資訊，請參閱下列檔案：
 
-* [為AEM as a Cloud Service設定Adobe Experience Manager as a Cloud Service的OSGi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html)
-* [為AEM 6.5設定OSGi](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html)
+* [為AEM as a Cloud Service設定Adobe Experience Manager as a Cloud Service的OSGi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=zh-Hant)
+* [為AEM 6.5設定OSGi](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=zh-Hant)
 
 ## 驗證設定 {#verify}
 

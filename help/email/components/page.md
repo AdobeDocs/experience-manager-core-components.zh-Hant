@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 電子郵件頁面元件 {#email-page-component}
 
-電子郵件頁面元件是可擴充的頁面元件，設計用於[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，並允許使用範本編輯器來組裝頁首/頁尾和結構元件，為建立Adobe Campaign內容量身打造。
+電子郵件頁面元件是可擴充的頁面元件，設計用於[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)，並允許使用範本編輯器來組裝頁首/頁尾和結構元件，為建立Adobe Campaign內容量身打造。
 
 ## 使用情況 {#usage}
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 ## 編輯對話方塊 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)視窗中找到。
 
 ### 雲端服務標籤 {#cloud-services}
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 * 若要移除欄位，請按一下或點選要移除欄位旁的垃圾桶圖示。
 * 若要重新排列載入順序，請按一下或點選並拖曳要移動欄位旁的控點。
 
-如需有關使用使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
+如需有關使用使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫。](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
 ### 樣式索引標籤 {#styles-tab}
 

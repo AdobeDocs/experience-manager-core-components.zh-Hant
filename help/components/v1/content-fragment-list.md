@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 內容片段清單元件(v1) {#content-fragment-list-component}
 
-核心元件內容片段清單元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。
+核心元件內容片段清單元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)的清單。
 
 ## 使用情況 {#usage}
 
-核心元件內容片段清單元件允許在根據內容片段模型的頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。 這對於建立可由其他應用程式輕鬆使用的[Headless內容](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用。
+核心元件內容片段清單元件允許在根據內容片段模型的頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)的清單。 這對於建立可由其他應用程式輕鬆使用的[Headless內容](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用。
 
 * 清單及其屬性可以在[設定對話方塊](#configure-dialog)中選取。
 * 樣式可套用至[設計對話方塊](#design-dialog)中的元件。
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗內容片段清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_cflist)。
+若要體驗內容片段清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_cflist_tw)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_cflist_v1)上可找到有關內容片段清單元件的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_cflist_v1_tw)上可找到有關內容片段清單元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!TIP]
 >
 >如需如何從頭開始使用專案設定、核心元件、可編輯的範本、使用者端程式庫和元件開發的更廣泛說明，以下多部分教學課程可能會對您有所幫助：\
->[開始使用AEM Sites - WKND教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[開始使用AEM Sites - WKND教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
 
 >[!TIP]
 >
@@ -46,13 +46,13 @@ ht-degree: 1%
 * 如果您的專案先前在`/apps`中包含核心元件，[您可能需要調整專案。](/help/developing/overview.md#via-aemaacs)
 * 即使核心元件現在位於`/libs`，也不建議在`/apps`中建立相同路徑的任何覆蓋。 [如果需要自訂元件的任何方面，則應改用Proxy元件模式](/help/developing/guidelines.md#proxy-component-pattern)。
 * 若要讓[目錄元件](/help/components/tableofcontents.md)呈現其內容，必須在OSGi中設定篩選器。
-   * [如需詳細資訊，請參閱元件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)的GitHub檔案。
+   * [如需詳細資訊，請參閱元件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_tw)的GitHub檔案。
 
 ### AEM 6.5和舊版 {#aem-65}
 
 在生產模式（沒有範例內容）下啟動時，核心元件不是快速入門的一部分。 因此，您的第一步是[從GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下載最新發行的內容套件，並安裝在您的AEM環境中。
 
-有數種方法可以自動執行這項操作，但使用封裝管理員可以最簡單的方式在執行個體上快速安裝內容封裝；請參閱[安裝封裝](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您也執行了發佈執行個體，您就需要將該套件復寫到發佈者；請參閱[復寫套件](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
+有數種方法可以自動執行這項操作，但使用封裝管理員可以最簡單的方式在執行個體上快速安裝內容封裝；請參閱[安裝封裝](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#installing-packages)。 此外，一旦您也執行了發佈執行個體，您就需要將該套件復寫到發佈者；請參閱[復寫套件](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#replicating-packages)。
 
 ## 建立Proxy元件 {#create-proxy-components}
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 ## 載入核心樣式 {#load-the-core-styles}
 
-1. 如果尚未完成，請建立[使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)，其中包含您的網站所需的所有CSS和JS檔案。
+1. 如果尚未完成，請建立[使用者端資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)，其中包含您的網站所需的所有CSS和JS檔案。
 1. 在網站的使用者端資料庫上，將相依性新增至所需的核心元件。 這是透過新增`embed`屬性來完成的。
 
    例如，若要包含所有v1核心元件的使用者端資料庫，則要新增的屬性為：
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ## 允許元件 {#allow-the-components}
 
-在[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)中執行以下步驟。
+在[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)中執行以下步驟。
 
 1. 在「範本編輯器」中，選取「版面容器」，然後開啟其原則。
 1. 在「允許的元件」清單中，選取先前建立的Proxy元件，這些元件應顯示在指定給它們的元件群組下。 完成後，套用變更。

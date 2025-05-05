@@ -87,7 +87,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->非透過上述SPI (可在AEM as a Cloud Service網站上取得)建置的體驗中的直接URL內嵌違反[Media Library使用條款](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library)。
+>非透過上述SPI (可在AEM as a Cloud Service網站上取得)建置的體驗中的直接URL內嵌違反[Media Library使用條款](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=zh-Hant#use-media-library)。
 
 ### 啟用Web最佳化的影像後，影像是否會無法顯示？ {#failure-to-deliver}
 
@@ -96,4 +96,4 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 * 在HTML中，啟用Web最佳化影像時，標籤不會變更，只有影像元素上`src`屬性的值會變更。
 * 每當新的影像服務無法使用或無法處理所需的影像時，產生的URL將[後援至最適化影像Servlet。](#fallback)
 
-不過，Dispatcher規則可能會封鎖網頁最佳化的影像傳送服務。 影像傳遞服務的URL以`/adobe`開頭，並依照[此處所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects)檢查Dispatcher記錄檔以找出拒絕的請求，應該有助於疑難排解將影像傳遞至瀏覽器時遇到的所有失敗。
+不過，Dispatcher規則可能會封鎖網頁最佳化的影像傳送服務。 影像傳遞服務的URL以`/adobe`開頭，並依照[此處所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=zh-Hant#filter-rejects)檢查Dispatcher記錄檔以找出拒絕的請求，應該有助於疑難排解將影像傳遞至瀏覽器時遇到的所有失敗。

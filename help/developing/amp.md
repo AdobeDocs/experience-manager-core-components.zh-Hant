@@ -41,7 +41,7 @@ Accelerated Mobile Pages或AMP是開放原始碼架構，最初由Google設計�
 
 ### 為頁面啟用AMP {#enabling-amp}
 
-若要啟用頁面的AMP，必須在[頁面原則中選取&#x200B;**AMP模式**。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
+若要啟用頁面的AMP，必須在[頁面原則中選取&#x200B;**AMP模式**。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant#editing-a-template-page-policy-template-author-developer)
 
 ![AMP頁面原則選項](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Accelerated Mobile Pages或AMP是開放原始碼架構，最初由Google設計�
 * **配對的AMP** — 頁面會以AMP及HTML形式傳送。
 * **僅AMP** — 僅以AMP傳送頁面。
 
-個別頁面的[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)也可以覆寫頁面的AMP設定。
+個別頁面的[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)也可以覆寫頁面的AMP設定。
 
 ![AMP頁面屬性](/help/assets/amp-page-properties.png)
 

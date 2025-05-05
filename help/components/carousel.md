@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗轉盤元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_carousel)。
+若要體驗轉盤元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_carousel_tw)。
 
 ### 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_carousel_v1)上可找到有關轉盤元件的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_carousel_v1_tw)上可找到有關轉盤元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 若要這麼做：
 
-1. 在頁面編輯器中使用&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
+1. 在頁面編輯器中使用&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
 1. 檢查頁面內容並識別面板的ID。
    * 例如`id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
 1. ID會成為您可以使用雜湊(`#`)附加至URL的錨點。
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果減少頁面的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可透過[從元件瀏覽器拖曳並放置在頁面編輯器的轉盤元件上來新增至轉盤元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)。
+>如果減少頁面的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可透過[從元件瀏覽器拖曳並放置在頁面編輯器的轉盤元件上來新增至轉盤元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#inserting-a-component-from-the-components-browser)。
 
 ### 屬性標籤 {#properties-tab}
 
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在&#x200B;**編輯**&#x200B;模式中不會啟用幻燈片前進控制項。 使用&#x200B;[**預覽**&#x200B;模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)或&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，可以像已發佈內容的讀者那樣與輪播互動。
+>在&#x200B;**編輯**&#x200B;模式中不會啟用幻燈片前進控制項。 使用&#x200B;[**預覽**&#x200B;模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#preview-mode)或&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，可以像已發佈內容的讀者那樣與輪播互動。
 >
->在&#x200B;**編輯**&#x200B;模式下不會啟用自動前進功能。 使用&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，可以像已發佈內容的讀者那樣檢視自動前進功能。
+>在&#x200B;**編輯**&#x200B;模式下不會啟用自動前進功能。 使用&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，可以像已發佈內容的讀者那樣檢視自動前進功能。
 
 ### 協助工具標籤 {#accessibility-tab}
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 **允許的元件**&#x200B;索引標籤是用來定義哪些元件可由內容作者新增為轉盤元件的投影片。
 
-當[在範本編輯器中定義配置容器的原則與屬性時，「允許的元件」索引標籤的功能與相同名稱的索引標籤相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+當[在範本編輯器中定義配置容器的原則與屬性時，「允許的元件」索引標籤的功能與相同名稱的索引標籤相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)
 
 ### 樣式索引標籤 {#styles-tab}
 

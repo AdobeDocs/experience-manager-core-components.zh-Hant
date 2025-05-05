@@ -35,7 +35,7 @@ AEM檔案涵蓋標準使用案例。 因此，通常不會記錄錯誤、由錯�
 
 歡迎您提出任何必須改善AEM檔案的想法，做為貢獻。 但是，評論、問題和提取要求僅供稿 *件* 。 這些項目不會用來回答您有關如何使用AEM、實作AEM專案或解決技術問題的問題。
 
-如果您對AEM的使用或技術錯誤有任何疑問，請透過 [Experience Cloud企業支援入口網站](https://helpx.adobe.com/contact/enterprise-support.ec.html) ，或在 [Experience Manager社群中討論，透過一般支援程式進行報告](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)。
+如果您對AEM的使用或技術錯誤有任何疑問，請透過 [Experience Cloud企業支援入口網站](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html) ，或在 [Experience Manager社群中討論，透過一般支援程式進行報告](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)。
 
 ***AEM檔案捐款並非Adobe客戶服務的替代品*** ，任何此類捐款如欲獲得支援相關問題的解答，將遭拒絕。
 

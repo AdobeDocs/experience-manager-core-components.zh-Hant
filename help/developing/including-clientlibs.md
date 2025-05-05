@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 包含使用者端資料庫 {#including}
 
-根據您的使用案例，有多種不同的方式來包含[使用者端資料庫](/help/developing/archetype/front-end.md#clientlibs)。 以下範例包含每個的範例[HTL代碼片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)。
+根據您的使用案例，有多種不同的方式來包含[使用者端資料庫](/help/developing/archetype/front-end.md#clientlibs)。 以下範例包含每個的範例[HTL代碼片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant)。
 
 ### 建議的預設使用方式 {#recommended-default-usage}
 

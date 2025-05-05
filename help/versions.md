@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件與[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)和[內部部署AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html)安裝相容。
+核心元件與[AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant)和[內部部署AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hant)安裝相容。
 
 ## 發行版本歷史記錄和相容性 {#release-history-and-compatibility}
 
@@ -186,4 +186,4 @@ ht-degree: 11%
 
 Adobe的開發重點已轉向核心元件，並將繼續新增新功能。
 
-[幾乎所有的基礎元件已在AEM 6.5中棄用](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)，未來只考慮修復基礎元件的重大錯誤。
+[幾乎所有的基礎元件已在AEM 6.5中棄用](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=zh-Hant)，未來只考慮修復基礎元件的重大錯誤。

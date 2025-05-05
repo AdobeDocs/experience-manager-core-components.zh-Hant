@@ -32,11 +32,11 @@ PDF Viewer元件的目前版本是v1，此版本隨2020年6月的核心元件2.1
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗PDF Viewer元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_pdfviewer)。
+若要體驗PDF Viewer元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_pdfviewer_tw)。
 
 ## 技術細節 {#technical-details}
 
-如需PDF Viewer元件[的最新技術檔案，請前往GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)。
+如需PDF Viewer元件[的最新技術檔案，請前往GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_tw)。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

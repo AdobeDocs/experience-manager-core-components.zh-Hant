@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # 表單容器 {#form-container-adaptive-forms-core-component}
 
-<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，這是發行前功能。 只能透過我們的[發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>存取發行前功能
+<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，這是發行前功能。 只能透過我們的[發行前通道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant#new-features).</span>存取發行前功能
 
 Forms可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與度和使用者滿意度。 Adobe Experience Manager (AEM) Sites中的最適化表單容器可讓網站擁有者輕鬆將表單新增至其頁面。 這有助於促進網站訪客與網站擁有者或組織之間的溝通，透過提供簡化的方式讓訪客提供意見回饋、提出查詢並完成其他動作
 
@@ -48,7 +48,7 @@ Forms可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與
 如需核心元件版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)檔案。
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
 
 ## 技術細節 {#technical-details}
 
@@ -64,7 +64,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **標題** — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
 
-- **預填服務** — 此選項可讓使用者在轉譯最適化表單時，選取用於擷取資料的預填服務。 深入瞭解[如何建立及設定預填服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service)。
+- **預填服務** — 此選項可讓使用者在轉譯最適化表單時，選取用於擷取資料的預填服務。 深入瞭解[如何建立及設定預填服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=zh-Hant#aem-forms-custom-prefill-service)。
 
 - **角色**：角色是HTML屬性，用來指定HTML元素的用途，以輔助技術（例如熒幕閱讀程式）。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
@@ -96,7 +96,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 使用者可以為最適化表單提交設定不同的動作。
 
-- **重新導向URL/路徑** — 此選項可讓使用者為每個表單設定頁面，表單使用者在提交最適化表單後會重新導向至該頁面。 按一下這裡以取得有關[如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)的詳細資訊。
+- **重新導向URL/路徑** — 此選項可讓使用者為每個表單設定頁面，表單使用者在提交最適化表單後會重新導向至該頁面。 按一下這裡以取得有關[如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=zh-Hant)的詳細資訊。
 
 ![提交索引標籤](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
@@ -104,7 +104,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![顯示訊息標籤](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-- **提交動作** — 當使用者按一下最適化表單上的提交按鈕時，就會觸發提交動作。 使用者可從下拉式清單中選取立即可用的支援提交動作。 瞭解如何[在提交索引標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)中設定提交動作。
+- **提交動作** — 當使用者按一下最適化表單上的提交按鈕時，就會觸發提交動作。 使用者可從下拉式清單中選取立即可用的支援提交動作。 瞭解如何[在提交索引標籤](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=zh-Hant#supporting-custom-functions-in-validation-expressions-br)中設定提交動作。
 
 ## 設計對話方塊 {#design-dialog}
 

@@ -54,6 +54,6 @@ ht-degree: 0%
 
 ## 使用上次修改的標頭 {#last-modified}
 
-最適化影像Servlet支援透過`Last-Modified`標頭進行條件式要求，但是必須在Dispatcher[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)中啟用`Last-Modified`標頭的快取。
+最適化影像Servlet支援透過`Last-Modified`標頭進行條件式要求，但是必須在Dispatcher[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hant#caching-http-response-headers)中啟用`Last-Modified`標頭的快取。
 
 [AEM專案原型的](/help/developing/archetype/overview.md)範例Dispatcher設定已包含此設定。

@@ -55,7 +55,7 @@ Adaptive Forms核取方塊群組核心元件於2023年2月發行，屬於AEM 6.5
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
 
 ## 技術細節 {#technical-details}
 

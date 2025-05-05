@@ -26,7 +26,7 @@ ht-degree: 1%
 
 專案原型可讓您在AEM上輕鬆開始開發。 您可以透過多種方式採取處理原型的第一個步驟。
 
-* **WKND教學課程** — 如需有關在AEM上進行開發的精彩介紹，包括如何運用原型，請參閱[AEM Sites快速入門 — WKND教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)中的實際範例，以逐步引導您使用原型實作簡單的專案。
+* **WKND教學課程** — 如需有關在AEM上進行開發的精彩介紹，包括如何運用原型，請參閱[AEM Sites快速入門 — WKND教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)中的實際範例，以逐步引導您使用原型實作簡單的專案。
 * **WKND事件教學課程** — 如果您對AEM上的單頁應用程式(SPA)開發特別感興趣，請務必檢視專屬的[WKND事件教學課程。](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
 * **自行開始！** — 您可以輕鬆下載GitHub[&#128279;](https://github.com/adobe/aem-project-archetype)上可用的目前專案原型，並自行建立您的第一個專案。
 
@@ -87,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-主要相依性之一是[AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)這將包含所有AEM API，而且只有一個AEM版本的相依專案。
+主要相依性之一是[AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hant)這將包含所有AEM API，而且只有一個AEM版本的相依專案。
 
 >[!NOTE]
 >

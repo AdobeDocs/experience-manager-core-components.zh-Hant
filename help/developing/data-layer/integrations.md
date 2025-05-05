@@ -40,10 +40,10 @@ Adobe Client Data Layer搭配Adobe Analytics和Adobe Target，成為功能強大
 
 瞭解如何搭配使用Adobe Client Data Layer的內建功能與AEM核心元件，收集Adobe Experience Manager Sites中某個頁面的相關資料。 Experience Platform Launch和Adobe Analytics擴充功能將用於建立規則，以將頁面資料傳送至Adobe Analytics。
 
-[在此檢視教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[在此檢視教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=zh-Hant)
 
 ### 使用Adobe Analytics追蹤已點按的元件 {#track-clicked-components}
 
 使用事件導向的Adobe使用者端資料層搭配AEM核心元件，追蹤Adobe Experience Manager網站上特定元件的點按次數。 瞭解如何使用Experience Platform Launch中的規則來監聽點選事件、依元件篩選資料，以及透過追蹤連結信標將資料傳送至Adobe Analytics。
 
-[在此檢視教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[在此檢視教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=zh-Hant)

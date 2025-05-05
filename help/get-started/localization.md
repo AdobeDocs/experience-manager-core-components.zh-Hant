@@ -20,7 +20,7 @@ ht-degree: 0%
 
 同樣地，導覽元件通常必須跨所有頁面顯示。 不過，它也必須反映當地語系化頁面的內容。
 
-使用[導覽核心元件](/help/components/navigation.md)和[體驗片段核心元件](/help/components/experience-fragment.md)的本地化功能，以及AEM[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的可編輯範本，這項工作就會變得簡單。 此範例可進一步延伸以使用[語言導覽元件](/help/components/language-navigation.md)。
+使用[導覽核心元件](/help/components/navigation.md)和[體驗片段核心元件](/help/components/experience-fragment.md)的本地化功能，以及AEM[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)的可編輯範本，這項工作就會變得簡單。 此範例可進一步延伸以使用[語言導覽元件](/help/components/language-navigation.md)。
 
 ## 內容結構 {#content-structure}
 

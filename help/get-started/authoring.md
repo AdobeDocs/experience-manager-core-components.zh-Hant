@@ -16,37 +16,37 @@ ht-degree: 3%
 
 核心元件提供有彈性且功能豐富的撰寫功能。 [WKND參考網站](https://wknd.site)及其說明如何使用核心元件來實作豐富的網站體驗。
 
-若要體驗核心元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library)。
+若要體驗核心元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_tw)。
 
-如需使用[AEM專案原型](/help/developing/archetype/overview.md)在AEM專案上實作核心元件的更深入、開發人員導向的簡介，請檢視[WKND教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+如需使用[AEM專案原型](/help/developing/archetype/overview.md)在AEM專案上實作核心元件的更深入、開發人員導向的簡介，請檢視[WKND教學課程。](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
 
 >[!NOTE]
 >
->[開發團隊必須先依照作者的環境整合核心元件](/help/get-started/using.md)，才能將其提供給您。整合後，可透過[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)使用及預先設定。
+>[開發團隊必須先依照作者的環境整合核心元件](/help/get-started/using.md)，才能將其提供給您。整合後，可透過[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)使用及預先設定。
 
 >[!CAUTION]
 >
->核心元件[需要AEM 6.4或更新版本](/help/versions.md)，而且需要使用[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它們無法搭配傳統UI使用，也無法搭配靜態範本使用。
+>核心元件[需要AEM 6.4或更新版本](/help/versions.md)，而且需要使用[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)。 它們無法搭配傳統UI使用，也無法搭配靜態範本使用。
 
 ## 使用核心元件編寫 {#authoring-with-core-components}
 
 身為作者，您會注意到核心元件的幾項優點，包括：
 
-* 簡單易用，並與[頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)妥善整合
+* 簡單易用，並與[頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant)妥善整合
 
-* 功能豐富的功能，可適應[WKND參考網站](https://wknd.site)以及[元件庫](https://adobe.com/go/aem_cmp_library)中說明的許多使用案例
+* 功能豐富的功能，可適應[WKND參考網站](https://wknd.site)以及[元件庫](https://adobe.com/go/aem_cmp_library_tw)中說明的許多使用案例
 
-* [可預先設定](#pre-configuring-core-components)，以透過[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)定義頁面作者可用的功能
+* [可預先設定](#pre-configuring-core-components)，以透過[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)定義頁面作者可用的功能
 
-* 建置於[協助工具准則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
+* 建置於[協助工具准則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hant)
 
-* 建置以支援[回應式配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* 建置以支援[回應式配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=zh-Hant)
 
 * 建置以支援[輕鬆本地化](localization.md)
 
-在[編輯頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)時，元件可在頁面編輯器側面板的&#x200B;**元件**&#x200B;索引標籤上使用。
+在[編輯頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant)時，元件可在頁面編輯器側面板的&#x200B;**元件**&#x200B;索引標籤上使用。
 
-元件會根據稱為元件群組的類別分組，以輕鬆組織和篩選元件。 元件群組名稱會與元件一起顯示在[元件瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)中，也可以依群組篩選以輕鬆找到正確的元件。
+元件會根據稱為元件群組的類別分組，以輕鬆組織和篩選元件。 元件群組名稱會與元件一起顯示在[元件瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant)中，也可以依群組篩選以輕鬆找到正確的元件。
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 例如，如果影像元件不允許從檔案系統上傳影像，或如果文字元件僅允許特定段落格式，只要按一下即可啟用或停用這些功能。
 
-如需詳細資訊，請參閱[建立頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+如需詳細資訊，請參閱[建立頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)。
 
 ### 編輯和設計對話方塊 {#edit-and-design-dialogs}
 

@@ -56,7 +56,7 @@ AEM專案原型包括可選用的基於Webpack的專用前端建置機制。 因
 
 >[!TIP]
 >
->您也可以利用[元件庫](https://adobe.com/go/aem_cmp_library)來擷取每個元件的標籤輸出範例，以便在元件層級而非頁面層級上運作。
+>您也可以利用[元件庫](https://adobe.com/go/aem_cmp_library_tw)來擷取每個元件的標籤輸出範例，以便在元件層級而非頁面層級上運作。
 
 ### 使用Storybook {#using-storybook}
 
@@ -68,7 +68,7 @@ AEM專案原型包括可選用的基於Webpack的專用前端建置機制。 因
 
 ## Clientlibs概述 {#clientlibs}
 
-前端模組可使用[AEM clientlib。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)。執行NPM建置指令碼時，會建置應用程式，且`aem-clientlib-generator`套件會擷取產生的建置輸出，並將其轉換為此類clientlib。
+前端模組可使用[AEM clientlib。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)。執行NPM建置指令碼時，會建置應用程式，且`aem-clientlib-generator`套件會擷取產生的建置輸出，並將其轉換為此類clientlib。
 
 clientlib將包含下列檔案和目錄：
 
@@ -80,4 +80,4 @@ clientlib將包含下列檔案和目錄：
 
 >[!TIP]
 >
->在[AEM開發檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)中進一步瞭解AEM如何處理clientlibs，並瞭解如何將其納入[核心元件檔案。](/help/developing/including-clientlibs.md)
+>在[AEM開發檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)中進一步瞭解AEM如何處理clientlibs，並瞭解如何將其納入[核心元件檔案。](/help/developing/including-clientlibs.md)
