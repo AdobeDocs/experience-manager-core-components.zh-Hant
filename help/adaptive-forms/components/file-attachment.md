@@ -3,7 +3,7 @@ title: 最適化Forms核心元件 — 檔案附件
 description: 使用或自訂Adaptive Forms檔案附件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: a1a274b152b3a0fe0bcc72858721ef9830487bb9
+source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adaptive Forms檔案附件核心元件於2023年2月發行，屬於Cloud Service
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -101,12 +101,8 @@ To experience the Accordion Component as well as see examples of its configurati
    - **刪除** — 點選或按一下以移除特定檔案型別。
    - **重新排列** — 點選或按一下並拖曳以重新排列允許的檔案型別。
 
+  將檔案型別變更為允許的檔案型別格式來提交檔案，會在表單提交期間擲回錯誤。
 - **檔案型別錯誤訊息** — 此選項可讓您輸入上傳檔案格式時（非&#x200B;**允許的檔案型別**&#x200B;選項中所列的格式）所顯示的錯誤訊息。
-
->
->
-> 將檔案型別變更為允許的檔案型別格式來提交檔案，會在表單提交期間擲回錯誤。
-
 
 ### 說明內容標籤 {#help-content-tab}
 
@@ -162,7 +158,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
