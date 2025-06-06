@@ -4,16 +4,17 @@ description: 使用或自訂Adaptive Forms密碼方塊核心元件。
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
+exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
+source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
 
 # 密碼方塊元件
 
-<span class="preview">這是一項預先發佈功能，可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant#new-features)存取。</span>
+<span class="preview">這是一項預先發佈功能，可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)存取。</span>
 
 密碼方塊元件可讓使用者輸入及編輯敏感資訊，通常以隱私權遮罩。 密碼元件可設定各種驗證規則，以確保資料準確性。 密碼欄位通常用於表單中，其簡單且可增強資料安全性。
 
@@ -46,11 +47,11 @@ For information on Core Component versions and releases, refer to the [Core Comp
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
-在[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput)的技術檔案中，取得最適化Forms索引標籤頂端核心元件的最新資訊。 如需開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
+在[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput)上的技術檔案中取得最適化Forms密碼核心元件的最新資訊。 如需開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案](/help/developing/overview.md)。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -163,7 +164,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
