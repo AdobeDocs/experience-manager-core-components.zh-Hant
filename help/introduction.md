@@ -48,7 +48,7 @@ ht-degree: 23%
 | SEO友善 | HTML輸出是語意且提供[schema.org](https://schema.org)微資料註解。 |
 | WebApp就緒 | [簡化的JSON輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允許使用者端轉譯，仍可進行[內容內編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP支援 | 元件已內建[AMP標準支援，](/help/developing/amp.md)可加速您的行動體驗。 |
-| 設計套件 | Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)的[UI套件可讓設計人員建立線框，然後視需要[設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
+| 設計套件 | Adobe XD[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)的UI套件可讓設計人員建立線框，然後視需要[設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
 | 可主題化 | 元件實作[樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，標籤遵循[BEM CSS慣例](https://getbem.com/)。 |
 | 可自訂 | 數個模式可讓[輕鬆自訂](developing/customizing.md)，從調整HTML到進階功能重複使用。 |
 | 版本設定 | [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可確保核心元件在改善可能影響您的內容時，不會中斷您的網站。 |
