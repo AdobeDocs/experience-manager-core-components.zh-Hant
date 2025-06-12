@@ -3,12 +3,12 @@ sub-product: AEM Core Components
 user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 feature: Core Components
-user-guide-description: 使用可擴充的核心元件，讓作者輕鬆建立內容。
+user-guide-description: 若是傳統的AEM專案，請使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 42%
+source-wordcount: '388'
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 42%
 + [核心元件簡介](/help/introduction.md)
 + [回應式設計](/help/responsive.md)
 + [成功的途徑](/help/developing/success.md)
-+ [元件庫](https://adobe.com/go/aem_cmp_library_tw)
++ [元件庫](https://adobe.com/go/aem_cmp_library)
 + [版本](/help/versions.md)
 + 開始使用 {#get-started}
    + [使用核心元件編寫](/help/get-started/authoring.md)
@@ -141,8 +141,8 @@ ht-degree: 42%
    + [範例主題和範本](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
-   + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hant)
-   + [WKND開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
+   + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [WKND開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](/help/developing/customizing.md)
    + [元件指導方針](/help/developing/guidelines.md)
    + [AMP支援](/help/developing/amp.md)
