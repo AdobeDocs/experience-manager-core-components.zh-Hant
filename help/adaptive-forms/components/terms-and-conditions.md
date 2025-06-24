@@ -3,12 +3,13 @@ title: 最適化Forms核心元件 — 條款與條件
 description: 使用或自訂最適化Forms條款與條件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '3256'
+source-wordcount: '3253'
 ht-degree: 0%
 
 ---
+
 
 # 條款與條件元件
 
@@ -18,7 +19,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)匯入的。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件版本的詳細資訊，請參閱[最適化Forms核心元件版本](/help/adaptive-forms/version.md)
+> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件版本的詳細資訊，請參閱[最適化Forms核心元件版本](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **範例**
 
@@ -40,9 +43,9 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms條款與條件核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.62和核心元件1.1.28的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms條款與條件核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.62以及AEM 6.5.16.0 Forms或更新版本核心元件1.1.28的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.62](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.28](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -124,7 +127,7 @@ ht-degree: 0%
    - **標題**：選取此選項即可使用ARIA協助工具標籤的標題。
    - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
    - **無**：如果您不想新增ARIA協助工具標籤，請選取此選項。
-- **熒幕朗讀程式要宣告的HTML角色** -HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
+- **熒幕朗讀程式要宣告的HTML角色** - HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）使用。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -180,7 +183,7 @@ ht-degree: 0%
 
 - **隱藏標題** — 選取隱藏元件標題的選項。
 
-- **連結** — 指定用來取代同意文字的連結和對應顯示文字。 您可以按一下&#x200B;**新增**&#x200B;按鈕，以新增多個連結。
+- **連結** — 指定用來取代同意文字的連結和對應顯示文字。 您可以按一下&#x200B;**新增**按鈕，以新增多個連結。
 新增選項後，可以執行下列動作：
    - **連結** — 此選項可讓您在選取選項時，輸入要重新導向的URL。
    - **顯示文字** — 此選項可讓您輸入要在最適化表單中顯示的內容。
@@ -234,14 +237,14 @@ ht-degree: 0%
 
 **Text**&#x200B;元件會顯示文字內容，為使用者提供資訊。 此元件包含實際的條款與條件、法律語言或任何其他相關文字資訊。
 
-您可以使用「設定」對話方塊輕鬆為訪客個別自訂[文字元件](/help/adaptive-forms/components/text.md)。 若要輕鬆定義文字選項以提供順暢的使用者體驗，請使用文字元件[&#128279;](/help/adaptive-forms/components/text.md#configure-dialog)的設定對話方塊。
+您可以使用「設定」對話方塊輕鬆為訪客個別自訂[文字元件](/help/adaptive-forms/components/text.md)。 若要輕鬆定義文字選項以提供順暢的使用者體驗，請使用文字元件](/help/adaptive-forms/components/text.md#configure-dialog)的[設定對話方塊。
 
 
 ### 核取方塊元件 {#checkbox}
 
 核取方塊是用來取得使用者同意或認可。 它可當作使用者已閱讀並同意所概述條款的視覺指標。 強制選取核取方塊以表示使用者同意。
 
-您可以透過[設定]對話方塊輕鬆為訪客個別自訂[核取方塊元件](/help/adaptive-forms/components/checkbox.md)。 若要定義順暢使用者體驗的核取方塊屬性，請使用核取方塊元件[&#128279;](/help/adaptive-forms/components/checkbox.md#configure-dialog)的設定對話方塊。
+您可以透過[設定]對話方塊輕鬆為訪客個別自訂[核取方塊元件](/help/adaptive-forms/components/checkbox.md)。 若要定義順暢使用者體驗的核取方塊屬性，請使用核取方塊元件](/help/adaptive-forms/components/checkbox.md#configure-dialog)的[設定對話方塊。
 
 
 ## 相關文章 {#related-articles}

@@ -3,12 +3,14 @@ title: Teaser元件(v1)
 description: Teaser元件可顯示影像、標題、RTF文字，並可選擇連結至其他內容。
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
+
 
 # Teaser元件(v1) {#teaser-component}
 
@@ -32,11 +34,11 @@ Teaser元件可讓內容作者輕鬆建立Teaser，以使用影像、標題或RT
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗Teaser元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_teaser_tw)。
+若要體驗Teaser元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_teaser)。
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_teaser_v1_tw)上找到有關Teaser元件的最新技術檔案。
+您可以在GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1)上找到有關Teaser元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -49,9 +51,9 @@ Teaser元件可讓內容作者輕鬆建立Teaser，以使用影像、標題或RT
 ![Teaser元件的編輯對話方塊影像標籤](/help/assets/teaser-edit-image.png)
 
 * **影像資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
+   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 
 >[!NOTE]
 >
@@ -66,7 +68,7 @@ Teaser元件可讓內容作者輕鬆建立Teaser，以使用影像、標題或RT
    * **從連結的頁面取得標題** — 勾選後，標題會填入連結頁面的標題。
 * **描述** — 定義要顯示為Teaser子標題的描述。
    * **從連結的頁面取得說明** — 勾選後，說明將會填入連結頁面的說明。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -76,7 +78,7 @@ Teaser元件可讓內容作者輕鬆建立Teaser，以使用影像、標題或RT
 ![Teaser元件的編輯對話方塊連結索引標籤](/help/assets/teaser-edit-link.png)
 
 * **連結** — 連結已套用至Teaser。 使用路徑瀏覽器來選取連結目標。
-* **啟用呼叫動作** — 選取時，啟用呼叫動作的定義。 清單中的第一個呼叫動作連結會用作其他Teaser元素的連結。
+* **啟用呼叫動作** — 選取時，啟用呼叫動作的定義。 清單中的第一個Call-to-action連結會用作其他Teaser元素的連結。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -107,6 +109,6 @@ Teaser元件將影像演算委派給[影像元件](image-v1.md)。 因此，內�
 
 Teaser元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 Teaser元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

@@ -3,18 +3,21 @@ title: 最適化Forms核心元件 — 影像
 description: 使用或自訂最適化Forms影像核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
+
 
 # 影像元件{#image-adaptive-forms-core-component}
 
 最適化表單中的影像元件是一種在表單中包含影像的方式。 這些影像可用來增強表單的整體設計、提供其他資訊，或作為視覺輔助以幫助使用者瞭解表單的用途。 影像元件可用來在表單中新增標誌、像片或圖形。
 
 若要取得協助工具，請務必指定影像的&#x200B;**替代文字**，為影像提供簡短的描述性替代文字，向無法看到影像的使用者說明影像。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -35,9 +38,9 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms影像核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及適用於AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms影像核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -46,7 +49,7 @@ ht-degree: 1%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 

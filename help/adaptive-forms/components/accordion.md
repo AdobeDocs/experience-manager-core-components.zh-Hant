@@ -3,18 +3,21 @@ title: 自適應表單可摺疊面板
 description: 使用摺疊式功能表，將表格分成更小、更易於管理的章節，以整理及簡化長或複雜的表格。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 1%
 
 ---
 
+
 # 收合式選單元件 {#accordion-component-adaptive-forms-core-component}
 
 摺疊式功能表核心元件可讓使用者在最適化表單中建立可展開和可收合的區段。 它通常用於組織和簡化長或複雜的表單，方法是將其分成更小、更易於管理的部分。 摺疊式功能表的每個區段通常由標題表示，使用者可以按一下標題來展開或收合對應的內容。 內容可以是任何核心元件。
 
 ![範例](/help/adaptive-forms/assets/example-accordion.png)
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -45,7 +48,7 @@ ht-degree: 1%
 
 |  |  |
 |---|---|
-| 元件版本 | AEM as a Cloud Service  |
+| 元件版本 | AEM as a Cloud Service |
 | — | — |
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 相容 | 相容 |
 
@@ -54,7 +57,7 @@ ht-degree: 1%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -121,7 +124,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最小重複次數**：建立摺疊面板可重複的最小次數。 值為零表示不重複摺疊面板；預設值為零。
 - **最大重複次數**：設定摺疊面板可以重複的最大次數。 預設情況下，此值為無限制。
 
-若要有效管理摺疊式功能表內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理摺疊式功能表內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 專案標籤 {#items-tab}
 

@@ -4,12 +4,13 @@ description: 利用核心元件表單隱藏元件，可在表單中包含隱藏�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 3%
 
 ---
+
 
 # 表單按鈕元件(v1) {#form-button-component-v}
 
@@ -40,7 +41,7 @@ ht-degree: 3%
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -84,7 +85,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -108,7 +109,7 @@ ht-degree: 3%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)上可找到有關表單按鈕元件的最新技術檔案。
+在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)上可找到有關表單按鈕元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

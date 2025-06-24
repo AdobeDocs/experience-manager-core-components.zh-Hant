@@ -3,12 +3,14 @@ title: 快速搜尋元件(v1)
 description: 快速搜尋元件提供對網站的搜尋功能並顯示搜尋結果，讓訪客可以搜尋網站並篩選結果。
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 1%
 
 ---
+
 
 # 快速搜尋元件(v1) {#quick-search-component}
 
@@ -26,14 +28,14 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 |
 
 >[!CAUTION]
 >
 >本檔案說明快速搜尋元件v1。
->如需目前版本的快速搜尋元件的詳細資訊，請參閱[快速搜尋元件](/help/components/quick-search.md)檔案。
+>>如需目前版本的快速搜尋元件的詳細資訊，請參閱[快速搜尋元件](/help/components/quick-search.md)檔案。
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -41,9 +43,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->保護搜尋元件或任何以AEM為基礎的應用程式免受DOS攻擊應在更高層級實作，例如透過在Dispatcher上使用`mod_security`。
+>保護搜尋元件或任何AEM型應用程式免受DOS攻擊應在較高層級實作，例如透過在Dispatcher上使用`mod_security`。
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_search_v1_tw)上可找到有關快速搜尋元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_search_v1)上可找到有關快速搜尋元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

@@ -3,16 +3,19 @@ title: 下載元件
 description: 核心元件下載元件允許在頁面上建立下載選項。
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 1%
 
 ---
 
+
 # 下載元件{#download-component}
 
 核心元件下載元件允許在頁面上建立下載選項。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -27,7 +30,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
 | v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/download.md) | 相容 | 相容 | - | 相容 |
@@ -36,11 +39,11 @@ ht-degree: 1%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗下載元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_download_tw)。
+若要體驗下載元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_download)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_download_v2_tw)上可找到有關下載元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_download_v2)上可找到有關下載元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -55,9 +58,9 @@ ht-degree: 1%
 選取的下載資產與[影像元件](image.md)的功能非常類似，也同樣運用AEM的DAM。
 
 * **下載資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
+   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 
 ### 屬性標籤 {#properties-tab}
 
@@ -77,7 +80,7 @@ ht-degree: 1%
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-下載元件![&#128279;](/help/assets/download-edit-styles.png)之編輯對話方塊的樣式索引標籤
+下載元件](/help/assets/download-edit-styles.png)之編輯對話方塊的![樣式索引標籤
 
 下載元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
 
@@ -91,7 +94,7 @@ ht-degree: 1%
 
 ### 屬性標籤 {#properties-tab-design}
 
-下載元件![&#128279;](/help/assets/download-design.png)的設計對話方塊
+下載元件](/help/assets/download-design.png)的![設計對話方塊
 
 * **允許從檔案系統上傳** — 允許內容作者從其本機檔案系統上傳資產作為下載資產。
    * 預設值為未選取。

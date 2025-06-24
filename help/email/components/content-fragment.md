@@ -3,7 +3,8 @@ title: 電子郵件內容片段元件
 description: 電子郵件內容片段元件可讓您在內容中顯示內容片段。
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 1%
@@ -13,11 +14,11 @@ ht-degree: 1%
 
 # 電子郵件內容片段元件 {#email-content-fragment-component}
 
-電子郵件內容片段元件可讓您在內容中顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+電子郵件內容片段元件可讓您在內容中顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 ## 使用情況 {#usage}
 
-電子郵件內容片段元件允許在您的電子郵件內容中包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。 內容片段是多頻道結構化內容，可以集中編寫並輕鬆重複使用。
+電子郵件內容片段元件允許在您的電子郵件內容中包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。 內容片段是多頻道結構化內容，可以集中編寫並輕鬆重複使用。
 
 * 可在[設定對話方塊中選取片段及其屬性。](#configure-dialog)
 * 可在[設計對話方塊中定義要處理特定影像和網格的資源型別。](#design-dialog)
@@ -29,7 +30,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | - | - |
 
@@ -82,9 +83,9 @@ ht-degree: 1%
 
 點選或按一下&#x200B;**編輯**&#x200B;按鈕會開啟內容片段編輯器。 內容片段編輯器已擴充為包含&#x200B;**選取Adobe Campaign變數**&#x200B;以將Adobe Campaign變數插入內容片段的按鈕。
 
-電子郵件![&#128279;](/help/email/assets/email-content-fragment-editor.png)的內容片段編輯器
+電子郵件](/help/email/assets/email-content-fragment-editor.png)的![內容片段編輯器
 
-如需有關編輯和編寫內容片段的詳細資訊，請參閱檔案[編寫片段內容。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=zh-Hant)
+如需有關編輯和編寫內容片段的詳細資訊，請參閱檔案[編寫片段內容。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
 
 ## 設計對話方塊 {#design-dialog}
 

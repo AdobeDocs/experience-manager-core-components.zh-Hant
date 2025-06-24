@@ -3,23 +3,27 @@ title: 最適化Forms核心元件 — 電子郵件輸入
 description: 使用或自訂最適化Forms電子郵件輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2111'
 ht-degree: 0%
 
 ---
+
 
 # 電子郵件元件 {#Email-input-adaptive-forms-core-component}
 
 最適化表單電子郵件輸入核心元件是用來收集使用者的電子郵件地址。 電子郵件輸入欄位可讓瀏覽器驗證輸入的資料是否為有效的電子郵件地址格式。 它通常以文字方塊表示，並且具備僅接受有效電子郵件地址的模式驗證。 可使用其他屬性（例如「必要」、「預留位置」和「模式」）來進一步自訂電子郵件輸入欄位，以設定輸入資料的驗證。
 
+{{traditional-aem}}
+
 **範例**
+
 ![範例](/help/adaptive-forms/assets/emailid-example.png)
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 在最適化表單中加入電子郵件輸入元件有幾個好處，包括：
 
@@ -35,9 +39,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms電子郵件核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms電子郵件核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -45,7 +49,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -163,7 +167,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

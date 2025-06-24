@@ -3,27 +3,30 @@ title: 最適化表單片段
 description: 使用表單片段建立表單片段或欄位群組，並在最適化Forms中重複使用，以提高效率和可重複使用性。
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1952'
 ht-degree: 1%
 
 ---
 
+
 # 最適化表單片段元件 {#form-fragment-component-adaptive-forms-core-component}
 
-最適化Forms提供建立表單區段（例如面板或欄位群組）的便利方式，以便這些區段能在不同的最適化Forms中重複使用。 這些可重複使用的獨立區段稱為[最適化表單片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hant)。
+最適化Forms提供建立表單區段（例如面板或欄位群組）的便利方式，以便這些區段能在不同的最適化Forms中重複使用。 這些可重複使用的獨立區段稱為[最適化表單片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)。
 
-您可以[將片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hant#insert-a-fragment-in-an-adaptive-form)新增多次，並使用其元件的資料繫結屬性將其繫結到不同的資料來源或結構描述。 例如，您可以將相同的地址片段用於永久、通訊和帳單地址，並將其連線到資料來源或結構的不同欄位。
+您可以[將片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form)新增多次，並使用其元件的資料繫結屬性將其繫結到不同的資料來源或結構描述。 例如，您可以將相同的地址片段用於永久、通訊和帳單地址，並將其連線到資料來源或結構的不同欄位。
 
 ![範例](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-您也可以使用[重複選項](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)來複製表單片段元件及其子元件、定義最小和最大重複計數，以及促進表單中類似區段的複製。
+您也可以使用[重複選項](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)來複製表單片段元件及其子元件、定義最小和最大重複計數，以及促進表單中類似區段的複製。
 
 >[!NOTE]
 >
-> 您可以[從頭開始建立最適化表單片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hant#create-a-fragment)，或將現有最適化表單中的面板儲存為片段。
+> 您可以[從頭開始建立最適化表單片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment)，或將現有最適化表單中的面板儲存為片段。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -39,7 +42,7 @@ ht-degree: 1%
 
 Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的一部分，以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.26。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.50](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.26](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -115,7 +118,7 @@ Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的�
 
 - **說明文字** — 說明文字是指提供給使用者的其他資訊或指引，以協助使用者正確填寫表單欄位。 當使用者按一下放置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更詳細，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，讓填寫表單更容易、更準確。
 
-### 親和力 {#accessibility}
+### 協助工具 {#accessibility}
 
 ![協助工具標籤](/help/adaptive-forms/assets/fragment-accessibilitytab.png)
 
@@ -126,7 +129,7 @@ Adaptive Forms片段核心元件已發行為Cloud Service核心元件2.0.50的�
    - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
    - **無**：如果您不想新增ARIA協助工具標籤，請選取此選項。
 
-- **熒幕朗讀程式要宣告的HTML角色** -HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
+- **熒幕朗讀程式要宣告的HTML角色** - HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）使用。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
 ## 設計對話方塊 {#design-dialog}
 

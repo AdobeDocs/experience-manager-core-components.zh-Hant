@@ -4,12 +4,13 @@ description: 核心元件階層連結元件是一種導覽元件，可根據頁�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 1%
 
 ---
+
 
 # 階層連結元件(v1) {#breadcrumb-component-v}
 
@@ -35,11 +36,11 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >本檔案說明階層連結元件v1。
->如需目前版本的階層連結元件的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)檔案。
+>>如需目前版本的階層連結元件的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)檔案。
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -84,7 +85,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -117,7 +118,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb)上可找到有關階層連結元件的最新技術檔案。
+在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb)上可找到有關階層連結元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

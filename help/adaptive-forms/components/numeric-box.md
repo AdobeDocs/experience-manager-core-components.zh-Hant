@@ -3,12 +3,13 @@ title: 最適化Forms核心元件 — 數字輸入
 description: 使用或自訂最適化Forms編號輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2282'
 ht-degree: 0%
 
 ---
+
 
 # 數值方塊元件{#number-input-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ ht-degree: 0%
 此元件可用於收集年齡、數量等數值資料。 它也可以用來執行數學運算，例如加法和減法。 此元件也可用於驗證使用者輸入的數值資料。
 
 對於協助工具，請務必指定「label」，以說明數字輸入欄位的用途，以及預期的輸入型別。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -36,9 +39,9 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms數值方塊核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及適用於AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms數值方塊核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -47,7 +50,7 @@ ht-degree: 0%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -140,7 +143,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
    >[!NOTE]
    >
-   > 如需如何將最適化表單轉譯為特定地區設定的詳細資訊，[請按一下這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components)。
+   > 如需如何將最適化表單轉譯為特定地區設定的詳細資訊，[請按一下這裡](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components)。
 
 
 ## 設計對話方塊 {#design-dialog}
@@ -181,7 +184,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

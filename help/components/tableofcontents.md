@@ -3,16 +3,19 @@ title: 目錄元件
 description: 目錄元件會根據頁面內容中的標題建立目錄，讓讀者快速瀏覽頁面。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
+
 # 目錄元件 {#table-of-contents-component}
 
 目錄元件會根據頁面內容中的標題建立目錄，讓讀者快速瀏覽頁面。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -30,7 +33,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | 相容 | 相容 |
 
@@ -40,11 +43,11 @@ ht-degree: 1%
 >
 >在AEM as a Cloud Service上，您的管理員需要啟用元件的篩選器，才能呈現元件的內容。
 >
->[如需詳細資訊，請參閱元件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_tw)的GitHub檔案。
+>[如需詳細資訊，請參閱元件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)的GitHub檔案。
 
 ### 技術細節 {#technical-details}
 
-目錄元件[的最新技術檔案可在GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_tw)上找到。
+目錄元件[的最新技術檔案可在GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)上找到。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -84,6 +87,6 @@ ht-degree: 1%
 
 目錄元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 目錄元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

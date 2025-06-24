@@ -3,7 +3,8 @@ title: 電子郵件體驗片段元件
 description: 電子郵件體驗片段元件可讓內容作者在其內容中放置體驗片段變數，同時支援當地語系化的內容結構。
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 1%
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | - | - |
 
@@ -40,11 +41,11 @@ ht-degree: 1%
 
 電子郵件體驗片段元件可適應本地化的內容結構，並根據內容的本地化呈現適當的體驗片段。 為此，體驗片段必須符合以下條件。
 
-* 電子郵件體驗片段元件已新增至[頁面範本。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=zh-Hant)
+* 電子郵件體驗片段元件已新增至[頁面範本。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)
 * 該範本是用來建立新內容頁面，此頁面是`/content/<site>`以下的本地化結構的一部分。
 * 在內容頁面上參考的體驗片段屬於`/content/experience-fragments`以下的本地化體驗結構的一部分，遵循與`/content/<site>`以下的網站相同的模式，包括使用相同的元件名稱。
 
-在這種情況下，與目前頁面具有相同本地化（[語言、Blueprint或即時副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=zh-Hant)）的片段將會呈現為範本的一部分。
+在這種情況下，與目前頁面具有相同本地化（[語言、Blueprint或即時副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html)）的片段將會呈現為範本的一部分。
 
 此行為僅限新增到範本的電子郵件體驗片段元件。 新增到個別內容頁面的體驗片段元件將轉譯在元件中設定的精確體驗片段轉譯。
 
@@ -107,7 +108,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-閱讀有關體驗片段元件[&#128279;](https://www.adobe.com/go/aem_cmp_xf_v1_tw)的最新技術檔案。
+閱讀有關體驗片段元件](https://www.adobe.com/go/aem_cmp_xf_v1)的最新[技術檔案。
 
 如需開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案。](/help/developing/overview.md)
 

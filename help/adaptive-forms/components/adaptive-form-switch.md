@@ -3,12 +3,13 @@ title: 最適化Forms核心元件 — 切換元件
 description: 使用或自訂最適化Forms交換器核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 0%
 
 ---
+
 
 # 最適化表單切換元件{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 0%
 switch元件是布林控制元素，會將值設為true或false。 例如，它可用來開啟或關閉功能，例如將聲音設為靜音或取消靜音，或啟用或停用藍芽或WiFi。
 
 ![切換元件範例](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## 使用情況 {#reasons-to-use-switch}
 
@@ -36,7 +39,7 @@ switch元件是布林控制元素，會將值設為true或false。 例如，它�
 
 |  |  |
 |---|---|
-| 元件版本 | AEM as a Cloud Service  |
+| 元件版本 | AEM as a Cloud Service |
 | — | — |
 | v1 | 與<br>[版本2.0.64](/help/adaptive-forms/version.md)和更新版本相容 | 相容 | 相容 |
 

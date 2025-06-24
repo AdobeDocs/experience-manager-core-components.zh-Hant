@@ -3,12 +3,14 @@ title: 語言導覽元件(v1)
 description: 語言導覽元件提供網站的語言/國家導覽，讓訪客可以導覽至不同地區設定的相同頁面。
 role: Architect, Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
 
 ---
+
 
 # 語言導覽元件(v1) {#language-navigation-component}
 
@@ -35,11 +37,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗語言導覽元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_langnav_tw)。
+若要體驗語言導覽元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_langnav)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_langnav_v1_tw)上可找到有關語言導覽元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1)上可找到有關語言導覽元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -103,6 +105,6 @@ ht-degree: 0%
 
 ![語言導覽元件的編輯對話方塊](/help/assets/language-navigation-edit.png)
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 語言導覽元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

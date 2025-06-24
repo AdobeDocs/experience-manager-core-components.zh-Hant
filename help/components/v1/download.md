@@ -3,12 +3,14 @@ title: 下載元件(v1)
 description: 核心元件下載元件允許在頁面上建立下載選項。
 role: Architect, Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
 
 ---
+
 
 # 下載元件(v1) {#download-component}
 
@@ -33,11 +35,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗下載元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_download_tw)。
+若要體驗下載元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_download)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_download_v1_tw)上可找到有關下載元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_download_v1)上可找到有關下載元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -52,9 +54,9 @@ ht-degree: 0%
 選取的下載資產與[影像元件](image-v1.md)的功能非常類似，也同樣運用AEM的DAM。
 
 * **下載資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
+   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 
 ### 屬性標籤 {#properties-tab}
 
@@ -67,7 +69,7 @@ ht-degree: 0%
 * **動作文字** — 顯示為下載專案的動作文字
    * 從檔案系統上傳資產時，此欄位為必填欄位。
    * **顯示內嵌** — 選取時，提供的&#x200B;**動作文字**&#x200B;將顯示內嵌。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -78,7 +80,7 @@ ht-degree: 0%
 
 ### 屬性標籤 {#properties-tab-design}
 
-下載元件![&#128279;](/help/assets/download-design.png)的設計對話方塊
+下載元件](/help/assets/download-design.png)的![設計對話方塊
 
 * **允許從檔案系統上傳** — 允許內容作者從其本機檔案系統上傳資產作為下載資產。
    * 預設值為未選取。

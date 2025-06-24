@@ -3,20 +3,23 @@ title: 最適化Forms核心元件 — 標題
 description: 使用或自訂最適化Forms標題核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
+
 
 # 表單標題元件{#title-input-adaptive-forms-core-component}
 
 在調適型表單中，「標題」是指出現在表單頂端的文字，通常在標題下方。 使用Title元件指定標題。 此元件可新增至表單版面，其文字可編輯以符合表單的用途或主題。 標題可為使用者提供表單的標籤或簡短說明，有助於區分表單與其他表單。
 
+{{traditional-aem}}
+
 **範例**
 
-標題![&#128279;](/help/adaptive-forms/assets/title.png)的範例
+標題](/help/adaptive-forms/assets/title.png)的![範例
 
 ## 使用情況 {#reasons-to-use-title-in-an-adaptive-form}
 
@@ -38,9 +41,9 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms標題核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms標題核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -48,7 +51,7 @@ ht-degree: 1%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 
 ## 技術細節 {#technical-details}
@@ -65,7 +68,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **標題** — 您可以使用其Title輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 如果您未新增標題，則會顯示元件的名稱而非標題文字。
 - **Type /Size** — 定義標題的標題層級。
-- **ID** — 此選項允許控制HTML和資料層中元件的唯一識別碼。
+- **ID** — 此選項可讓您控制HTML和資料層中元件的唯一識別碼。
    - 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    - 若指定ID，作者應負責確認該ID為唯一ID。
    - 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -104,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

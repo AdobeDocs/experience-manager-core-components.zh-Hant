@@ -3,16 +3,19 @@ title: 最適化Forms核心元件 — 文字輸入（文字方塊）
 description: 使用或自訂最適化Forms文字輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2120'
 ht-degree: 0%
 
 ---
 
+
 # 文字方塊元件{#text-input-adaptive-forms-core-component}
 
 文字輸入（文字方塊）元件可讓使用者根據輸入元素的型別屬性，輸入及編輯一行或多行文字。 文字輸入元件可放置在表單中，且通常標示有用文字以輕鬆識別其用途。 這些是任何形式的基本元素，廣泛用於從使用者收集不同型別的資料，這些簡單、靈活，並且可以設定為驗證輸入，提高資料收集的準確性。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -41,7 +44,7 @@ ht-degree: 0%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -164,7 +167,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

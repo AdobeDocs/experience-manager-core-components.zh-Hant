@@ -3,16 +3,19 @@ title: 體驗片段元件
 description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 1%
 
 ---
 
+
 # 體驗片段元件{#experience-fragment-component}
 
 核心元件體驗片段元件可讓內容作者在支援當地語系化網站結構時，將體驗片段變數放置在頁面上。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -27,7 +30,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
 | v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/experience-fragment.md) | 相容 | 相容 | - | 相容 |
@@ -109,7 +112,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_xf_v2_tw)上找到體驗片段元件的最新技術檔案。
+您可以在GitHub](https://adobe.com/go/aem_cmp_tech_xf_v2)上找到體驗片段元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -131,7 +134,7 @@ ht-degree: 1%
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-體驗片段元件![&#128279;](/help/assets/experience-fragment-edit-styles.png)的編輯對話方塊的樣式索引標籤
+體驗片段元件](/help/assets/experience-fragment-edit-styles.png)的編輯對話方塊的![樣式索引標籤
 
 體驗片段元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
 

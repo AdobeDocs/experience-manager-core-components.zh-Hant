@@ -3,18 +3,21 @@ title: 最適化Forms核心元件 — 重設按鈕
 description: 使用或自訂最適化Forms重設按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
+
 
 # 重設按鈕元件 {#reset-button}
 
 最適化表單中的重設按鈕是允許使用者清除所有表單欄位或將其重設為預設值的按鈕。 按一下重設按鈕時，已輸入表單欄位的任何資料都會被刪除，且欄位會恢復其原始狀態。 重設按鈕通常作為提交按鈕的替代方法，為使用者提供一種在表單中輸入不正確或不需要的資料時重新開始的方法。
 
 ![範例](/help/adaptive-forms/assets/example-reset.png)
+
+{{traditional-aem}}
 
 ## 使用情況 {#reasons-to-use-reset-button}
 
@@ -32,9 +35,9 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms重設按鈕核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms重設按鈕核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -42,7 +45,7 @@ ht-degree: 0%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -79,7 +82,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **永遠顯示簡短描述** — 啟用選項以在元件下方顯示簡短描述。
 - **說明文字** — 說明文字是指提供給使用者的其他資訊或指引，以協助使用者正確填寫表單欄位。 當使用者按一下放置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更詳細，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，讓填寫表單更容易、更準確。
 
-### 親和力 {#accessibility}
+### 協助工具 {#accessibility}
 
 ![協助工具標籤](/help/adaptive-forms/assets/button_accessibilitytab.png)
 

@@ -3,7 +3,8 @@ title: 電子郵件容器元件
 description: 電子郵件容器元件可讓您為電子郵件內容中的多個其他元件建立容器。
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 1%
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | - | - |
 
@@ -77,11 +78,11 @@ ht-degree: 1%
 
 **允許的元件**&#x200B;索引標籤是用來定義哪些元件可由內容作者新增為電子郵件容器元件的專案。
 
-**允許的元件**&#x200B;索引標籤的功能與[在範本編輯器中定義配置容器的原則與屬性時的相同名稱索引標籤的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)
+**允許的元件**&#x200B;索引標籤的功能與[在範本編輯器中定義配置容器的原則與屬性時的相同名稱索引標籤的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 預設元件標籤 {#default-components-tab}
 
-**預設元件**&#x200B;索引標籤用於定義在特定資產型別放到容器上時，要新增到元件的元件，類似於[如何在頁面範本上定義預設元件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)
+**預設元件**&#x200B;索引標籤用於定義在特定資產型別放到容器上時，要新增到元件的元件，類似於[如何在頁面範本上定義預設元件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 容器設定標籤 {#container-settings-tab}
 

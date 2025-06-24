@@ -3,16 +3,19 @@ title: PDF檢視器元件
 description: PDF檢視器元件可讓您顯示PDF檔案。
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
 
 ---
 
+
 # PDF檢視器元件 {#pdf-viewer-component}
 
 核心元件PDF Viewer元件允許在頁面上包含PDF檔案。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -24,7 +27,7 @@ PDF Viewer元件的目前版本是v1，此版本隨2020年6月的核心元件2.1
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
 | v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
 
@@ -32,11 +35,11 @@ PDF Viewer元件的目前版本是v1，此版本隨2020年6月的核心元件2.1
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗PDF Viewer元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_pdfviewer_tw)。
+若要體驗PDF Viewer元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_pdfviewer)。
 
 ## 技術細節 {#technical-details}
 
-如需PDF Viewer元件[的最新技術檔案，請前往GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_tw)。
+如需PDF Viewer元件[的最新技術檔案，請前往GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -52,7 +55,7 @@ PDF Viewer元件的目前版本是v1，此版本隨2020年6月的核心元件2.1
 
 設定索引標籤可讓作者定義應該顯示哪個PDF。 路徑可定義為AEM中的資產或其他資源的絕對路徑。
 
-PDF Viewer元件![&#128279;](/help/assets/pdf-viewer-edit-configuration.png)之編輯對話方塊的設定標籤
+PDF Viewer元件](/help/assets/pdf-viewer-edit-configuration.png)之編輯對話方塊的![設定標籤
 
 ### 自訂標籤 {#customize-tab}
 

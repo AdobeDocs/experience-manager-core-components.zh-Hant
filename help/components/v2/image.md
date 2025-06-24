@@ -3,12 +3,14 @@ title: 影像元件(v2)
 description: 核心元件影像元件是自我調整影像元件，具備就地編輯的功能。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 1%
 
 ---
+
 
 # 影像元件(v2) {#image-component}
 
@@ -42,7 +44,7 @@ ht-degree: 1%
 
 ## Dynamic Media支援 {#dynamic-media}
 
-影像元件（截至[版本2.13.0](/help/versions.md)）支援[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant#dynamicmedia)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像新增任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
+影像元件（截至[版本2.13.0](/help/versions.md)）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
 
 使用核心元件建立的網頁體驗現在具備豐富、Sensei支援、穩定、高效能、跨平台的Dynamic Media影像功能。
 
@@ -56,15 +58,15 @@ ht-degree: 1%
 
 ### 安全性 {#security}
 
-基於安全理由，影像編輯器絕對不會直接呼叫原始SVG。 透過`<img src=“path-to-component”>`呼叫。 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
+基於安全考量，影像編輯器絕對不會直接呼叫原始SVG。 透過`<img src=“path-to-component”>`呼叫。 這可防止瀏覽器執行內嵌於SVG檔案中的任何指令碼。
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗影像元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_image_tw)。
+若要體驗影像元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_image)。
 
 ### 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_image_v2_tw)上可找到有關影像元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_image_v2)上可找到有關影像元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -79,9 +81,9 @@ ht-degree: 1%
 影像元件之設定對話方塊的![資產標籤](/help/assets/image-configure-asset.png)
 
 * **影像資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
+   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 
 ### 中繼資料標籤 {#metadata-tab}
 
@@ -98,9 +100,9 @@ ht-degree: 1%
    * **從DAM取得註解** — 勾選時，影像的註解文字將會填入DAM中`dc:title`中繼資料的值。
    * **以快顯視窗顯示註解** — 檢查後，註解不會顯示在影像下方，但如在某些瀏覽器中將滑鼠懸停在影像上，註解會以快顯視窗顯示。
 * **連結** — 將影像連結到其他資源。
-   * 使用選取對話方塊可連結至其他AEM資源。
+   * 使用「選取」對話方塊可連結至其他AEM資源。
    * 如果未連結至AEM資源，請輸入絕對URL。 非絕對URL將會解譯為相對於AEM。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -184,7 +186,7 @@ ht-degree: 1%
 
 ![影像元件的設計對話方塊主索引標籤](/help/assets/image-design-main-v2.png)
 
-* **啟用DM功能** — 勾選後，即可使用[Dynamic Media功能](#dynamic-media)。
+* **啟用DM功能** — 勾選後，即可使用[動態媒體功能](#dynamic-media)。
 * **啟用Web最佳化影像** — 勾選後，[Web最佳化影像傳送服務](/help/developing/web-optimized-image-delivery.md)將以WebP格式傳送影像，平均將影像大小減少25%。
    * 此選項僅在AEMaaCS中可用。
    * 取消勾選或Web最佳化的影像傳遞服務無法使用時，會使用[最適化影像Servlet](/help/developing/adaptive-image-servlet.md)。
@@ -221,9 +223,9 @@ ht-degree: 1%
   ![影像元件的設計對話方塊[功能]索引標籤](/help/assets/image-design-features-orientation.png)
 
 * **旋轉**
-使用此選項可允許內容作者使用&#x200B;**向右旋轉**&#x200B;選項。
+使用此選項可允許內容作者使用**向右旋轉**&#x200B;選項。
 * **翻轉**
-使用此選項可允許內容作者使用&#x200B;**水準翻轉**&#x200B;和&#x200B;**垂直翻轉**&#x200B;選項。
+使用此選項可允許內容作者使用**水準翻轉**&#x200B;和&#x200B;**垂直翻轉**&#x200B;選項。
 
   >[!CAUTION]
   >
@@ -234,7 +236,7 @@ ht-degree: 1%
   ![影像元件的設計對話方塊[功能]索引標籤](/help/assets/image-design-features-cropping.png)
 
   選取選項&#x200B;**允許裁切**，以允許內容作者在編輯對話方塊中裁切元件中的影像。
-   * 按一下「新增&#x200B;**&#x200B;**」以新增預先定義的裁切外觀比例。
+   * 按一下「新增&#x200B;****」以新增預先定義的裁切外觀比例。
    * 輸入描述性名稱，此名稱將顯示在&#x200B;**開始裁切**&#x200B;下拉式清單中。
    * 輸入外觀的數字比例。
    * 使用拖曳操作框來重新排列長寬比
@@ -242,12 +244,12 @@ ht-degree: 1%
 
   >[!CAUTION]
   >
-  >請注意，在AEM中，裁切外觀比例定義為&#x200B;**高度/寬度**。 這和寬度/高度比的傳統定義不同，並且是由於舊有相容性的原因完成的。只要您提供明確的比率名稱，內容作者就不會察覺任何差異，因為該名稱會顯示在UI中，而非比率本身。
+  >請注意，在AEM中，裁切比例定義為&#x200B;**高度/寬度**。 這和寬度/高度比的傳統定義不同，並且是由於舊有相容性的原因完成的。只要您提供明確的比率名稱，內容作者就不會察覺任何差異，因為該名稱會顯示在UI中，而非比率本身。
 
 ### 樣式索引標籤 {#styles-tab-1}
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 影像元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

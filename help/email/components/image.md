@@ -3,7 +3,8 @@ title: 電子郵件影像元件
 description: 電子郵件影像元件是自我調整影像元件，具備就地編輯的功能。
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | - | - |
 
@@ -46,7 +47,7 @@ ht-degree: 0%
 
 ## Dynamic Media支援 {#dynamic-media}
 
-電子郵件影像元件支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant#dynamicmedia)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
+電子郵件影像元件支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
 
 使用電子郵件核心元件建置的電子郵件體驗可包含豐富、Sensei支援、穩定、高效能、跨平台的Dynamic Media影像功能。
 
@@ -78,16 +79,16 @@ ht-degree: 0%
 
 電子郵件影像元件之設定對話方塊的![資產標籤](/help/email/assets/email-image-configure-asset.png)
 
-* **從頁面**&#x200B;繼承精選影像 — 此選項使用連結頁面[&#128279;](page.md)的精選影像或目前頁面的精選影像（如果未連結影像）。
+* **從頁面**&#x200B;繼承精選影像 — 此選項使用連結頁面](page.md)的[精選影像或目前頁面的精選影像（如果未連結影像）。
 
 * **協助工具的替代文字** — 此欄位可讓您為視障使用者定義影像的說明。
 
    * **從頁面**&#x200B;繼承替代文字 — 此選項使用DAM中`dc:description`中繼資料之連結資產值的替代說明，或是使用目前頁面的替代說明（如果未連結資產）。
 
 * **影像資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下「**編輯**」以[在Asset Editor中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
+   * 點選或按一下「**編輯**」以[在Asset Editor中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 
 * **不提供替代文字** — 此選項會將影像標籤為被熒幕閱讀器等輔助技術忽略，以用於影像純粹起裝飾作用或不向頁面傳達額外資訊的情況。
 

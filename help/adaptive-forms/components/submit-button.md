@@ -3,18 +3,21 @@ title: 最適化Forms核心元件 — 提交按鈕
 description: 使用或自訂最適化Forms提交按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
+
 
 # 提交按鈕元件 {#submit-button}
 
 最適化表單中的提交按鈕是可讓使用者將表單資料提交至伺服器以進行處理的按鈕。 按一下提交按鈕後，表單資料會傳送至伺服器，您可在此儲存、處理或用於各種用途，例如傳送電子郵件或更新資料庫。
 
 提交按鈕通常是表單填寫流程的最後一步，用於啟動將表單資料傳送至伺服器的流程。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -32,9 +35,9 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms提交按鈕核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms提交按鈕核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本的Cloud Service核心元件2.0.4以及核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -42,7 +45,7 @@ ht-degree: 0%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -80,7 +83,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **說明文字** — 說明文字是指提供給使用者的其他資訊或指引，以協助使用者正確填寫表單欄位。 當使用者按一下放置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更詳細，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，讓填寫表單更容易、更準確。
 
-### 親和力 {#accessibility}
+### 協助工具 {#accessibility}
 
 ![協助工具標籤](/help/adaptive-forms/assets/button_accessibilitytab.png)
 

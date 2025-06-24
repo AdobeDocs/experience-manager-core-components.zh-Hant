@@ -3,16 +3,18 @@ title: 頁面元件(v2)
 description: 「頁面元件」是可延伸的頁面元件，設計用於範本編輯器，允許使用範本編輯器來組裝頁首/頁尾和結構元件。
 role: Architect, Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
+
 # 頁面元件(v2) {#page-component}
 
-頁面元件是可擴充的頁面元件，設計用於[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)，並允許使用範本編輯器來組裝頁首/頁尾和結構元件。
+頁面元件是可擴充的頁面元件，設計用於[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，並允許使用範本編輯器來組裝頁首/頁尾和結構元件。
 
 ## 使用情況 {#usage}
 
@@ -32,17 +34,17 @@ ht-degree: 0%
 
 ## 漸進式網頁應用程式支援 {#pwa-support}
 
-核心元件2.15.0版推出支援AEM as a Cloud Service的內建[漸進式網頁應用程式(PWA)功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)透過網站層級的簡單設定，將您的AEM體驗轉換為PWA！
+核心元件2.15.0版推出支援AEM as a Cloud Service的內建[漸進式網頁應用程式(PWA)功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)透過網站層級的簡單設定，將您的AEM體驗轉換為PWA！
 
 ### 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_page_v2_tw)上可找到有關頁面元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_page_v2)上可找到有關頁面元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
 ## 編輯對話方塊 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中找到。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 * 若要移除欄位，請按一下或點選要移除欄位旁的垃圾桶圖示。
 * 若要重新排列載入順序，請按一下或點選並拖曳要移動欄位旁的控點。
 
-如需有關使用使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/clientlibs.html)。
+如需有關使用使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)。
 
 >[!CAUTION]
 >
@@ -85,6 +87,6 @@ ht-degree: 0%
 
 頁面元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 頁面元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

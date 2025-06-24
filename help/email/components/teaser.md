@@ -3,7 +3,8 @@ title: 電子郵件Teaser元件
 description: 電子郵件Teaser元件可以顯示影像、標題、RTF文字，並可選擇連結至更多內容。
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 0%
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | - | - |
 
@@ -76,9 +77,9 @@ Teaser標題、說明和影像可以從連結的內容繼承，也可以從第�
 ![電子郵件Teaser元件的編輯對話方塊影像標籤](/help/email/assets/email-teaser-edit-image.png)
 
 * **從頁面**&#x200B;繼承精選影像 — 使用連結頁面的頁面屬性中定義的影像，如果沒有找到，則使用目前頁面。
-* **影像資產** — 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，從本機檔案系統上傳。
+* **影像資產** — 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下「**編輯**」以[在Asset Editor中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
+   * 點選或按一下「**編輯**」以[在Asset Editor中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的轉譯。
 * **協助工具的替代文字** — 此欄位可讓您為視障使用者定義影像的說明。
    * **從頁面**&#x200B;繼承替代文字 — 此選項使用DAM中`dc:description`中繼資料之連結資產值的替代說明，或是使用目前頁面的替代說明（如果未連結資產）。
 * **不提供替代文字** — 此選項會將影像標籤為被熒幕閱讀器等輔助技術忽略，以用於影像純粹起裝飾作用或不向頁面傳達額外資訊的情況。

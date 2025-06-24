@@ -3,12 +3,13 @@ title: 最適化Forms核心元件 — 垂直索引標籤
 description: 使用或自訂最適化Forms垂直索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2173'
 ht-degree: 0%
 
 ---
+
 
 # 垂直索引標籤元件{#vertical-tabs-adaptive-forms-core-component}
 
@@ -17,9 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)匯入的。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件版本的詳細資訊，請參閱[最適化Forms核心元件版本](/help/adaptive-forms/version.md)
+> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件版本的詳細資訊，請參閱[最適化Forms核心元件版本](/help/adaptive-forms/version.md)
 
 ![範例](/help/adaptive-forms/assets/horizontal-example.png)
+
+{{traditional-aem}}
 
 ## 使用情況 {#reasons-to-use-vertical-tabs}
 
@@ -39,7 +42,7 @@ ht-degree: 0%
 
 |  |  |
 |---|---|
-| 元件版本 | AEM as a Cloud Service  |
+| 元件版本 | AEM as a Cloud Service |
 | — | — |
 | v1 | 與<br>[版本2.0.18](/help/adaptive-forms/version.md)及更新版本相容 | 相容 | 相容 |
 
@@ -106,7 +109,7 @@ ht-degree: 0%
 - **最小重複次數**：建立Vertical-tab元件可重複的最小次數。 如果值為零，表示「垂直定位點」元件不會重複；預設值為零。
 - **最大重複次數**：設定Vertical-tab元件可重複的最大次數。 預設情況下，此值為無限制。
 
-若要有效管理垂直標籤內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理垂直標籤內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 專案標籤 {#items-tab}
 
@@ -141,7 +144,7 @@ ht-degree: 0%
    - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
    - **無**：如果您不想新增ARIA協助工具標籤，請選取此選項。
 
-- **熒幕朗讀程式要宣告的HTML角色** -HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
+- **熒幕朗讀程式要宣告的HTML角色** - HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）使用。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
 ## 設計對話方塊 {#design-dialog}
 

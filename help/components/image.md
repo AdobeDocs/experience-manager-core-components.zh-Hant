@@ -3,10 +3,10 @@ title: 影像元件
 description: 核心元件影像元件是自我調整影像元件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '2062'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 0%
 # 影像元件 {#image-component}
 
 核心元件影像元件是自我調整影像元件。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -29,7 +31,7 @@ ht-degree: 0%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v3 | - | 相容 | 相容 | 相容 |
 | [v2](v2/image.md) | 相容 | 相容 | - | 相容 |
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 ## Dynamic Media支援 {#dynamic-media}
 
-影像元件（截至[版本2.13.0](/help/versions.md)）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
+影像元件（截至[版本2.13.0](/help/versions.md)）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html)資產。 [啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增Dynamic Media影像資產。 此外，也支援影像修飾元、影像預設集和智慧型裁切。
 
 使用核心元件建立的網頁體驗可包含豐富、Sensei支援、穩定、高效能、跨平台的Dynamic Media影像功能。
 
@@ -79,11 +81,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗影像元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_image_tw)。
+若要體驗影像元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_image)。
 
 ### 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_image_v3_tw)上可找到有關影像元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_image_v3)上可找到有關影像元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -153,17 +155,17 @@ ht-degree: 0%
 
 影像元件之設定對話方塊的![資產標籤](/help/assets/image-configure-asset.png)
 
-* **從頁面**&#x200B;繼承精選影像 — 此選項使用連結頁面[&#128279;](page.md)的精選影像或目前頁面的精選影像（如果未連結影像）。
+* **從頁面**&#x200B;繼承精選影像 — 此選項使用連結頁面](page.md)的[精選影像或目前頁面的精選影像（如果未連結影像）。
 
 * **影像資產** — 如果選取&#x200B;**從頁面**&#x200B;繼承精選影像，則會自動填入此資產。 取消選取可透過設定以下選項來手動定義影像。
 
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以便您可以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以便您可以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**挑選**&#x200B;以開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)，讓您能夠選取影像。
+   * 點選或按一下&#x200B;**挑選**&#x200B;以開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)，讓您能夠選取影像。
       * 如果已啟用[遠端判斷提示支援](#remote-assets)，則您有多個選項可以挑選資產：
          * 從本機AEM資產庫選取&#x200B;**本機**。
          * **遠端**&#x200B;從AEM執行個體外部的Dynamic Media媒體庫選取。
-   * 點選或按一下「**編輯**」以[在Asset Editor中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hant)的轉譯。
+   * 點選或按一下「**編輯**」以[在Asset Editor中管理資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html)的轉譯。
 
 * **協助工具的替代文字** — 此欄位可讓您為視障使用者定義影像的說明。
 
@@ -197,7 +199,7 @@ ht-degree: 0%
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-影像元件![&#128279;](/help/assets/image-configure-styles.png)之[編輯]對話方塊的樣式索引標籤
+影像元件](/help/assets/image-configure-styles.png)之[編輯]對話方塊的![樣式索引標籤
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
@@ -244,6 +246,6 @@ ht-degree: 0%
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 影像元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

@@ -3,16 +3,19 @@ title: 列出元件
 description: 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 2%
 
 ---
 
+
 # 列出元件{#list-component}
 
 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -24,7 +27,7 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v4 | - | 相容 | 相容 |
 | [v3](/help/components/v3/list.md) | - | 相容 | 相容 | 相容 |
@@ -46,11 +49,11 @@ ht-degree: 2%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_list_tw)。
+若要體驗清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_list)。
 
 ### 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_list_v3_tw)上可找到有關清單元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_list_v3)上可找到有關清單元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -178,7 +181,7 @@ ht-degree: 2%
 
 必須在[設計對話方塊](#design-dialog)中為此元件設定樣式，以便下拉式功能表可用。
 
-清單元件![&#128279;](/help/assets/list-edit-styles.png)之編輯對話方塊的樣式索引標籤
+清單元件](/help/assets/list-edit-styles.png)之編輯對話方塊的![樣式索引標籤
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -218,6 +221,6 @@ ht-degree: 2%
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 清單元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

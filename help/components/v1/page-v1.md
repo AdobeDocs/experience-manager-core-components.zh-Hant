@@ -4,16 +4,17 @@ description: 「頁面元件」是可延伸的頁面元件，設計用於範本�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 1%
 
 ---
 
+
 # 頁面元件(v1) {#page-component-v}
 
-頁面元件是可擴充的頁面元件，設計用於[範本編輯器](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/templates.html)，並允許使用範本編輯器來組裝頁首/頁尾和結構元件。
+頁面元件是可擴充的頁面元件，設計用於[範本編輯器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)，並允許使用範本編輯器來組裝頁首/頁尾和結構元件。
 
 ## 使用情況 {#usage}
 
@@ -44,7 +45,7 @@ ht-degree: 1%
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -678,11 +679,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
 ## 編輯對話方塊 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)視窗中找到。
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -696,13 +697,13 @@ ht-degree: 1%
 * 若要移除欄位，請按一下或點選要移除欄位旁的垃圾桶圖示。
 * 若要重新排列載入順序，請按一下或點選並拖曳要移動欄位旁的控點。
 
-如需有關使用使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://helpx.adobe.com/tw/experience-manager/6-3/sites/developing/using/clientlibs.html)。
+如需有關使用使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)。
 
 ![](/help/assets/chlimage_1-95.png)
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)上可找到有關頁面元件的最新技術檔案。
+在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)上可找到有關頁面元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

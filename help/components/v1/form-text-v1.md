@@ -4,12 +4,13 @@ description: 核心元件表單文字元件可讓您輸入表單文字以供提�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 6%
 
 ---
+
 
 # 表單文字元件(v1) {#form-text-component-v}
 
@@ -40,7 +41,7 @@ ht-degree: 6%
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -88,7 +89,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -140,7 +141,7 @@ ht-degree: 6%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)上可找到有關表單文字元件的最新技術檔案。
+在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)上可找到有關表單文字元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

@@ -3,12 +3,13 @@ title: 最適化Forms核心元件 — 核取方塊
 description: 使用或自訂Adaptive Forms核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1837'
 ht-degree: 0%
 
 ---
+
 
 # 核取方塊元件{#checkbox-component}
 
@@ -18,7 +19,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)匯入的。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件版本的詳細資訊，請參閱[最適化Forms核心元件版本](/help/adaptive-forms/version.md)
+> 對於AEM 6.5 Forms，此元件是隨AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 若要啟用此元件，請確定已安裝Forms核心元件和WCM核心元件的必要版本。 如需最適化Forms核心元件版本的詳細資訊，請參閱[最適化Forms核心元件版本](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **範例**
 
@@ -42,7 +45,7 @@ ht-degree: 0%
 
 |  |  |
 |---|---|
-| 元件版本 | AEM as a Cloud Service  |
+| 元件版本 | AEM as a Cloud Service |
 | — | — |
 | v1 | 與<br>[版本2.0.52](/help/adaptive-forms/version.md)和更新版本相容 | 相容 | 相容 |
 

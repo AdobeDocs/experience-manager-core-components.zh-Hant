@@ -3,16 +3,19 @@ title: 分隔符號元件
 description: 分隔符號元件會在頁面上的元件之間建立分隔符號
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 4%
 
 ---
 
+
 # 分隔符號元件 {#separator-component}
 
 核心元件分隔符號元件會顯示分隔內容的水平線。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -24,17 +27,17 @@ ht-degree: 4%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗分隔符號元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_separator_tw)。
+若要體驗分隔符號元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_separator)。
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_separator_v1_tw)上找到有關分隔符號元件的最新技術檔案。
+您可以在GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1)上找到有關分隔符號元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

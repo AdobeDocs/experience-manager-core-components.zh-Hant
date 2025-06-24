@@ -3,7 +3,8 @@ title: 電子郵件核心元件簡介
 description: 使用電子郵件核心元件的彈性，建立吸引人的電子郵件內容，並透過Adobe Campaign的強大功能提供。
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 5%
@@ -28,7 +29,7 @@ ht-degree: 5%
 
 ## 功能 {#features}
 
-* 核心電子郵件元件以[核心元件](/help/introduction.md)為基礎，因此也支援[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)和[樣式系統。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hant)
+* 核心電子郵件元件以[核心元件](/help/introduction.md)為基礎，因此也支援[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)和[樣式系統。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
 * 有[10個電子郵件最佳化的生產就緒元件](#components)可編寫電子郵件內容。
 * 由於在大多數對話方塊欄位中插入[Adobe Campaign變數](campaign-variables.md)，核心電子郵件元件提供進階個人化。
 * 彈性的[分段元件](/help/email/components/segmentation.md)允許對您的內容進行進階分段。

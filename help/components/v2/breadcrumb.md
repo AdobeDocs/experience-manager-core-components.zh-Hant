@@ -3,12 +3,14 @@ title: 階層連結元件(v2)
 description: 核心元件階層連結元件是一種導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
+
 
 # 階層連結元件(v2) {#breadcrumb-component}
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗階層連結元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_breadcrumb_tw)。
+若要體驗階層連結元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_breadcrumb)。
 
 >[!NOTE]
 >
@@ -40,7 +42,7 @@ ht-degree: 0%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_tw)上可找到有關階層連結元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2)上可找到有關階層連結元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -59,7 +61,7 @@ ht-degree: 0%
 * **顯示隱藏的導覽專案** — 在階層連結中顯示標籤為隱藏的頁面（預設不會顯示這些頁面）
 * **隱藏目前頁面** — 在階層連結中隱藏目前頁面（預設會顯示）
 * **停用陰影** — 如果階層中的頁面是重新導向，將顯示重新導向頁面的名稱而非目標。 如需詳細資訊，請參閱導覽元件的[陰影網站結構支援](../v1/navigation.md#shadow-structure)。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -87,6 +89,6 @@ ht-degree: 0%
 
 階層連結元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 階層連結元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

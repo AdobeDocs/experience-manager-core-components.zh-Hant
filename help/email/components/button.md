@@ -3,7 +3,8 @@ title: 電子郵件按鈕元件
 description: 電子郵件按鈕元件允許您在內容中設定和顯示按鈕專案。
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 1%
@@ -28,7 +29,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | - | - |
 
@@ -46,7 +47,7 @@ ht-degree: 1%
 
 ### 屬性標籤 {#properties-tab}
 
-按鈕元件![&#128279;](/help/email/assets/email-button-edit-properties.png)之編輯對話方塊的屬性標籤
+按鈕元件](/help/email/assets/email-button-edit-properties.png)之編輯對話方塊的![屬性標籤
 
 * **文字** — 按鈕上顯示的文字
    * 按一下Campaign圖示以開啟[選取Adobe Campaign變數](/help/email/campaign-variables.md)對話方塊，插入來自Adobe Campaign的動態內容。

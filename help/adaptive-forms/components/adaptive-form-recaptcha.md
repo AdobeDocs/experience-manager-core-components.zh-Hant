@@ -3,18 +3,21 @@ title: 最適化Forms核心元件 — Google reCAPTCHA
 description: 透過Google reCAPTCHA服務，使用AEM Forms輕鬆增強表單安全性。 說明最適化表單reCaptcha的屬性
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 1%
 
 ---
 
+
 # 自適應表單 reCAPTCHA {#google-recaptcha}
 
 CAPTCHA （完全自動化公用圖靈測試來區分電腦和人類）是一種常用於線上交易的程式，以區分人類和自動化程式或機器人。 這會帶來挑戰，並評估使用者的回應，以判斷其是否為人類或機器人與網站互動。 它可防止使用者在測試失敗時繼續進行，並透過防止機器人張貼垃圾郵件或惡意目的來確保線上交易的安全。
 
-AEM Formsas a Cloud Service支援最適化Forms中的Google reCAPTCHA v2。 您可以用它來在表單提交時提出驗證碼質詢
+AEM Forms as a Cloud Service支援Adaptive Forms中的Google reCAPTCHA v2。 您可以用它來在表單提交時提出驗證碼質詢
+
+{{traditional-aem}}
 
 ## 使用情況 {#reasons-to-use-google-recaptcha}
 
@@ -34,7 +37,7 @@ AEM Formsas a Cloud Service支援最適化Forms中的Google reCAPTCHA v2。 您�
 最適化Forms Google reCAPTCHA核心元件於2023年8月發行，屬於核心元件「版本」的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
 
-| 元件版本 | AEM as a Cloud Service  |
+| 元件版本 | AEM as a Cloud Service |
 |--- |--- |
 | v1 | 與<br>[版本2.0.4](/help/versions.md)和更新版本相容 | 相容 | 相容 |
 

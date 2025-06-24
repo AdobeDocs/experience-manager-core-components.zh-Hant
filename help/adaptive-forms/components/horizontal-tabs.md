@@ -3,12 +3,13 @@ title: 最適化Forms核心元件 — 水準索引標籤
 description: 使用或自訂最適化Forms水準索引標籤核心元件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 0%
 
 ---
+
 
 # 水準索引標籤元件（頂端索引標籤）元件{#horizontal-tabs-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 0%
 標籤通常以一系列連結或按鈕的形式建立，每個連結或按鈕都會與表單的某個區段相對應。 當使用者按一下索引標籤，表單內容會動態更新以顯示對應的區段。
 
 ![範例](/help/adaptive-forms/assets/horizontal-example-new.png)
+
+{{traditional-aem}}
 
 ## 使用情況 {#reasons-to-use-horizontal-tabs}
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 
 |  |  |
 |---|---|
-| 元件版本 | AEM as a Cloud Service  |
+| 元件版本 | AEM as a Cloud Service |
 | — | — |
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 相容 | 相容 |
 
@@ -109,7 +112,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **將索引標籤設定在頂端可重複**：切換功能，可讓使用者啟用或停用重複功能。
 - **最小重複次數**：建立水準標籤元件可重複的最小次數。 值為零表示「水平定位點」元件不會重複；預設值為零。
 - **最大重複次數**：設定Horizontal-tab元件可重複的最大次數。 預設情況下，此值為無限制。
-若要有效管理水準標籤內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理水準標籤內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 專案標籤 {#items-tab}
 
@@ -142,7 +145,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
    - **名稱**：選取此選項即可使用ARIA協助工具標籤的名稱。
    - **無**：如果您不想新增ARIA協助工具標籤，請選取此選項。
 
-- **熒幕朗讀程式要宣告的HTML角色** -HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
+- **熒幕朗讀程式要宣告的HTML角色** - HTML角色是用來指定HTML元素用途的屬性，以輔助技術（例如熒幕朗讀程式）使用。 角色屬性可用來提供元素的其他上下文和語意意義，讓熒幕朗讀程式更容易向使用者解譯和宣告內容。 例如，在AEM Forms中，表單欄位的標籤可能會具有「label」角色，而其輸入欄位的角色可能會具有「textbox」。 這可協助熒幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確宣告。
 
 ## 設計對話方塊 {#design-dialog}
 

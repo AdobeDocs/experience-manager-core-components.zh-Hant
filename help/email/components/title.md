@@ -3,7 +3,8 @@ title: 電子郵件標題元件
 description: 電子郵件標題元件是您電子郵件的章節標題元件，具有就地編輯功能。
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 相容 | - | - |
 
@@ -38,7 +39,7 @@ ht-degree: 1%
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_email_title_v1)上找到有關標題元件的最新技術檔案。
+您可以在GitHub](https://adobe.com/go/aem_cmp_tech_email_title_v1)上找到有關標題元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -70,7 +71,7 @@ ht-degree: 1%
 
 必須在[設計對話方塊](#design-dialog)中為此元件設定樣式，以便下拉式功能表可用。
 
-標題元件![&#128279;](/help/email/assets/email-title-edit-styles.png)的編輯對話方塊的樣式索引標籤
+標題元件](/help/email/assets/email-title-edit-styles.png)的編輯對話方塊的![樣式索引標籤
 
 ## 設計對話方塊 {#design-dialog}
 

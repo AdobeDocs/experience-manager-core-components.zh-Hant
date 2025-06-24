@@ -3,12 +3,14 @@ title: 清單元件(v3)
 description: 核心元件清單元件(v3)可讓您輕鬆建立動態和靜態清單。
 role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 2%
 
 ---
+
 
 # 清單元件(v3) {#list-component}
 
@@ -30,7 +32,7 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | [v4](/help/components/list.md) | - | 相容 | 相容 |
 | v3 | - | 相容 | 相容 |
@@ -52,11 +54,11 @@ ht-degree: 2%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_list_tw)。
+若要體驗清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_list)。
 
 ### 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_list_v3_tw)上可找到有關清單元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_list_v3)上可找到有關清單元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -152,7 +154,7 @@ ht-degree: 2%
 * **最大專案**
 在清單中顯示的最大專案數。
    * 留空將傳回所有專案。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -176,7 +178,7 @@ ht-degree: 2%
 
 必須在[設計對話方塊](#design-dialog)中為此元件設定樣式，以便下拉式功能表可用。
 
-清單元件![&#128279;](/help/assets/v3/list-edit-styles.png)之編輯對話方塊的樣式索引標籤
+清單元件](/help/assets/v3/list-edit-styles.png)之編輯對話方塊的![樣式索引標籤
 
 ## 設計對話方塊 {#design-dialog}
 
@@ -216,6 +218,6 @@ ht-degree: 2%
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 清單元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

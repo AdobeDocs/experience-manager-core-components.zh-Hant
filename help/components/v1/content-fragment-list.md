@@ -3,20 +3,22 @@ title: 內容片段清單元件(v1)
 description: 核心元件內容片段清單元件可讓您顯示內容片段的清單。
 role: Architect, Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
+
 # 內容片段清單元件(v1) {#content-fragment-list-component}
 
-核心元件內容片段清單元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)的清單。
+核心元件內容片段清單元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。
 
 ## 使用情況 {#usage}
 
-核心元件內容片段清單元件允許在根據內容片段模型的頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)的清單。 這對於建立可由其他應用程式輕鬆使用的[Headless內容](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用。
+核心元件內容片段清單元件允許在根據內容片段模型的頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的清單。 這對於建立可由其他應用程式輕鬆使用的[Headless內容](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特別有用。
 
 * 清單及其屬性可以在[設定對話方塊](#configure-dialog)中選取。
 * 樣式可套用至[設計對話方塊](#design-dialog)中的元件。
@@ -33,11 +35,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗內容片段清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_cflist_tw)。
+若要體驗內容片段清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_cflist)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_cflist_v1_tw)上可找到有關內容片段清單元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1)上可找到有關內容片段清單元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -49,7 +51,7 @@ ht-degree: 0%
 
 **屬性**&#x200B;索引標籤定義清單中包含的內容片段。 這主要是根據所選的內容片段模式，但還有其他可用的篩選選項。
 
-內容片段清單元件![&#128279;](/help/assets/content-fragment-list-properties.png)的編輯對話方塊的屬性標籤
+內容片段清單元件](/help/assets/content-fragment-list-properties.png)的編輯對話方塊的![屬性標籤
 
 * **Model** — 清單所根據的內容片段模式的路徑。
    * 依預設，定義為&#x200B;**模型路徑**&#x200B;的所有模型內容片段都會包含在清單中。
@@ -65,7 +67,7 @@ ht-degree: 0%
    * 遞增或遞減
 * **最大專案數** — 清單中顯示的最大專案數
    * 沒有值會傳回所有專案。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 依預設，內容片段模式的所有元素將會包含在清單中（除非受&#x200B;**最大專案**&#x200B;欄位限制）。 **Elements**&#x200B;索引標籤允許您僅指定要包含的特定元素。
 
-內容片段清單元件![&#128279;](/help/assets/content-fragment-list-elements.png)的編輯對話方塊的元素標籤
+內容片段清單元件](/help/assets/content-fragment-list-elements.png)的編輯對話方塊的![元素標籤
 
 * **元素** — 只會顯示指定清單中內容片段的元素。
    * 按一下或點選「**新增**」按鈕以新增元素。

@@ -3,18 +3,21 @@ title: 最適化Forms核心元件 — 文字
 description: 使用或自訂最適化Forms文字核心元件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
+
 
 # 文字元件 {#text-adaptive-forms-core-component}
 
 在最適化表單中，文字是指顯示在表單上以供使用者閱讀的內容。 這可以包括用來標示一組表單元素（例如文字欄位）的文字，以及提供給使用者的任何其他指示或資訊。
 
 這也可以協助將表單的結構分割成邏輯區段，讓使用者更容易理解並完成表單。 此外，它可用於協助工具，以簡短說明與其關聯的元素。 此類文字欄位通常會顯示在表單元件附近，例如顯示於其之前或之後。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -34,9 +37,9 @@ ht-degree: 1%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms文字核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms文字核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -44,7 +47,7 @@ ht-degree: 1%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 

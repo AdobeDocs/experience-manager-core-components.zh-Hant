@@ -3,12 +3,13 @@ title: 最適化Forms核心元件 — 按鈕
 description: 使用或自訂最適化Forms按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
+
 
 # 按鈕元件 {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ ht-degree: 0%
 最適化Forms為[送出按鈕](/help/adaptive-forms/components/submit-button.md)和[重設按鈕](/help/adaptive-forms/components/reset-button.md)提供個別元件，讓使用者能夠方便地送出或重設表單。 Button元件可靈活地設定為根據特定需求執行這些動作。
 
 使用者可以使用Adaptive Forms規則編輯器，存取按鈕元件支援的動作完整清單。 規則編輯器可讓使用者建立由不同事件觸發的規則，例如當按一下按鈕時、當載入表單時，或當欄位值變更時。 這些規則接著可用於執行各種動作，例如顯示或隱藏元件、設定欄位值或提交表單。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -40,9 +43,9 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms按鈕核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms按鈕核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -51,7 +54,7 @@ ht-degree: 0%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -94,7 +97,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **說明文字** — 說明文字是指提供給使用者的其他資訊或指引，以協助使用者正確填寫表單欄位。 當使用者按一下放置於元件旁的說明圖示(i)時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更詳細，其設計旨在協助使用者瞭解欄位的需求或限制。 它也可以提供建議或範例，讓填寫表單更容易、更準確。
 
-### 親和力 {#accessibility}
+### 協助工具 {#accessibility}
 
 ![協助工具標籤](/help/adaptive-forms/assets/button_accessibilitytab.png)
 

@@ -3,12 +3,14 @@ title: 體驗片段元件(v1)
 description: 體驗片段元件可讓內容作者將體驗片段變數新增至頁面。
 role: Architect, Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
 
 ---
+
 
 # 體驗片段元件(v1) {#experience-fragment-component}
 
@@ -106,7 +108,7 @@ ht-degree: 0%
 
 ## 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_xf_v1_tw)上找到體驗片段元件的最新技術檔案。
+您可以在GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1)上找到體驗片段元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

@@ -3,12 +3,14 @@ title: 社交分享元件
 description: 核心元件社交分享元件是Facebook和Pinterest分享Widget。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+index: false
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 2%
 
 ---
+
 
 # 社交分享元件{#social-sharing-component}
 
@@ -16,13 +18,15 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->社交共用元件已隨著核心元件[版本2.18.0.](/help/versions.md)而折舊
+>社交分享元件已隨著核心元件[版本2.18.0.](/help/versions.md)折舊
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
 社交分享元件會將Facebook和Pinterest分享連結新增至頁面。 它通常包含在頁首或頁尾中。
 
-與其他元件不同，社交分享元件的設定是由範本作者透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)完成，並由內容作者透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)完成。
+與其他元件不同，社交分享元件的設定是由範本作者透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)完成，並由內容作者透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -30,7 +34,7 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本，以及與元件版本相容的AEM版本。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容，已棄用 | 相容，已棄用 | 相容，已棄用 |
 
@@ -38,7 +42,7 @@ ht-degree: 2%
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_sharing_v1_tw)上找到共用元件的最新技術檔案。
+您可以在GitHub](https://adobe.com/go/aem_cmp_tech_sharing_v1)上找到共用元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -51,8 +55,8 @@ ht-degree: 2%
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
 
-由於共用需要特殊的頁首，因此必須在頁面層級啟用任何共用。 因此，對於內容作者，可透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)的「共用」索引標籤，使用共用元件的其他編輯選項。
+由於共用需要特殊的頁首，因此必須在頁面層級啟用任何共用。 因此，對於內容作者，可透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)的「共用」索引標籤，使用共用元件的其他編輯選項。
 
 ## 設計對話方塊 {#design-dialog}
 
-由於共用需要特殊的頁首，因此必須在頁面層級啟用任何共用。 因此，對於範本作者，可透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)使用共用元件的設計選項。
+由於共用需要特殊的頁首，因此必須在頁面層級啟用任何共用。 因此，對於範本作者，可透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)使用共用元件的設計選項。

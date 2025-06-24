@@ -3,16 +3,19 @@ title: 容器元件
 description: 利用核心元件容器元件，可在頁面上為多個其他元件建立容器。
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
 
 ---
 
+
 # 容器元件{#container-component}
 
 利用核心元件容器元件，可在頁面上為多個其他元件建立容器。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -27,7 +30,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
 | v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
 
@@ -35,11 +38,11 @@ ht-degree: 1%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗容器元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_container_tw)。
+若要體驗容器元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_container)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_container_v1_tw)上可找到容器元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_container_v1)上可找到容器元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -51,7 +54,7 @@ ht-degree: 1%
 
 * **配置** — 此選項定義容器元件的行為或配置行為。
    * **簡單** — 將容器定義為簡單的元件集合
-   * **回應式格線** — 將容器定義為[AEM回應式配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=zh-Hant)
+   * **回應式格線** — 將容器定義為[AEM回應式配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **背景色彩** — 定義為自由格式的RGB值，或使用檢色器，[視組態而定](#background-tab)
 * **背景影像** — 定義容器的背景顏色，[視組態而定](#background-tab)
 * **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
@@ -67,11 +70,11 @@ ht-degree: 1%
 
 **允許的元件**&#x200B;索引標籤是用來定義哪些元件可由內容作者新增為容器元件的專案。
 
-當[在範本編輯器中定義配置容器的原則與屬性時，「允許的元件」索引標籤的功能與相同名稱的索引標籤相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)
+當[在範本編輯器中定義配置容器的原則與屬性時，「允許的元件」索引標籤的功能與相同名稱的索引標籤相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 預設元件標籤 {#default-components-tab}
 
-「預設元件」索引標籤用於定義在特定資產型別放到容器上時，要新增到元件的元件，類似於[如何在頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)上定義預設元件。
+「預設元件」索引標籤用於定義在特定資產型別放到容器上時，要新增到元件的元件，類似於[如何在頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)上定義預設元件。
 
 ### 回應式設定標籤 {#responsive-settings-tab}
 
@@ -81,7 +84,7 @@ ht-degree: 1%
 
 ### 背景索引標籤 {#background-tab}
 
-容器元件![&#128279;](/help/assets/container-design-background.png)之設計對話方塊的背景標籤
+容器元件](/help/assets/container-design-background.png)之設計對話方塊的![背景標籤
 
 * **背景影像**
    * **啟用背景影像** — 選取此選項可讓內容作者定義容器的背景影像。

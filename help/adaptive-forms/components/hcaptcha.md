@@ -4,12 +4,14 @@ description: 使用hCaptcha&amp；reg；服務輕鬆增強表單安全性。 內
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: 9a691fc2aa656f5a96d8cd4b6285e6bd473cdaa4
+exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 2%
 
 ---
+
 
 # Captcha元件{#hCaptcha-component-adaptive-forms-core-component}
 
@@ -18,6 +20,8 @@ ht-degree: 2%
 hCaptcha®服務可保護您的表單免受機器人、垃圾郵件和自動濫用的侵擾。 這會提出核取方塊Widget質詢，並評估使用者回應，以判斷它是人類還是機器人與表單互動。 它可防止使用者在測試失敗時繼續進行，並透過防止機器人張貼垃圾郵件或惡意活動來確保線上交易的安全。
 
 ![驗證碼®](/help/adaptive-forms/assets/hCaptcha-challenge.png)
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -46,7 +50,7 @@ hCaptcha®服務可保護您的表單免受機器人、垃圾郵件和自動濫�
 
 |  |  |
 |---|---|
-| 元件版本 | AEM as a Cloud Service  |
+| 元件版本 | AEM as a Cloud Service |
 | — | — |
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 相容 | 相容 |
 
@@ -78,9 +82,9 @@ hCaptcha®服務可保護您的表單免受機器人、垃圾郵件和自動濫�
 
 - [在核心元件的最適化表單中使用hCaptcha](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [在Foundation元件的最適化表單中使用hCaptcha](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [在Foundation元件的最適化表單中使用hCaptcha](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [在基礎元件的最適化表單中使用Turnstile驗證碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [在基礎元件的最適化表單中使用Turnstile驗證碼](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
 - [在基礎元件的最適化表單中使用Google reCAPTCHA](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 

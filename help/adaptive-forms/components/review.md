@@ -4,7 +4,8 @@ description: 使用或自訂最適化Forms檢閱核心元件。
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -15,6 +16,8 @@ ht-degree: 0%
 # 檢閱元件
 
 調適型Forms中的稽核元件可讓使用者在提交表單前稽核及驗證他們已輸入的資訊。 它用作摘要頁面，以結構化和使用者友好的格式提供所有欄位及其值的唯讀檢視。 此功能可確保使用者在提交完成前能找出並修正任何錯誤或遺漏，進而增強整體表單體驗。 按一下編輯圖示，使用者可在提交表單前修改輸入的資訊。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -76,4 +79,3 @@ ht-degree: 0%
 ## 另請參閱 {#see-also}
 
 {{see-also}}
-

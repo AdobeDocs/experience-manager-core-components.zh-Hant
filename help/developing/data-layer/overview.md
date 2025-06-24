@@ -4,12 +4,13 @@ description: 搭配核心元件使用Adobe使用者端資料層
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 4%
 
 ---
+
 
 # 搭配核心元件使用Adobe使用者端資料層 {#data-layer-core-components}
 
@@ -21,13 +22,15 @@ Adobe Client Data Layer不受平台限制，但已完全整合至核心元件，
 
 >[!TIP]
 >
->如需Adobe使用者端資料層的詳細資訊，[請參閱其GitHub存放庫中的資源。](https://github.com/adobe/adobe-client-data-layer)
+>如需Adobe Client Data Layer的詳細資訊，[請參閱其GitHub存放庫中的資源。](https://github.com/adobe/adobe-client-data-layer)
 >
 >如需Adobe使用者端資料層與核心元件整合的詳細技術資訊，請參閱核心元件存放庫中的[`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)檔案。
 
+{{traditional-aem}}
+
 ## 安裝及啟用 {#installation-activation}
 
-截至核心元件2.9.0版，Data Layer會作為AEM使用者端程式庫隨核心元件發佈，無需安裝。 [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md)產生的所有專案預設包含已啟動的資料層。
+截至核心元件2.9.0版，Data Layer會作為AEM使用者端程式庫隨核心元件發佈，無需安裝。 [AEM專案原型v. 24+](/help/developing/archetype/overview.md)產生的所有專案預設包含已啟動的資料層。
 
 若要手動啟動資料層，您必須為其建立[內容感知設定](/help/developing/context-aware-configs.md)：
 
@@ -42,7 +45,7 @@ Adobe Client Data Layer不受平台限制，但已完全整合至核心元件，
 
 1. 將`sling:configRef`屬性新增至您網站的`jcr:content`節點，位置在`/content` （例如`/content/<mySite>/jcr:content`）下，並將其設定為上一步驟中的`/conf/<mySite>`。
 
-1. 啟用後，您可以在編輯器之外載入網站的頁面，例如使用編輯器中的&#x200B;**以發佈的形式檢視**&#x200B;選項，以驗證啟動。 Inspect頁面來源和`<body>`標籤應包含屬性`data-cmp-data-layer-enabled`
+1. 啟用後，您可以在編輯器之外載入網站的頁面，例如使用編輯器中的&#x200B;**以發佈的形式檢視**&#x200B;選項，以驗證啟動。 檢查頁面來源，`<body>`標籤應包含屬性`data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -253,7 +256,7 @@ id: {
 
 核心元件會透過「資料層」觸發許多事件。 與資料層互動的最佳實務是[註冊事件接聽程式](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener)，然後&#x200B;*根據事件型別和/或觸發事件的元件採取動作。*&#x200B;這將避免與非同步指令碼的潛在競爭條件。
 
-以下是AEM核心元件所提供的現成事件：
+以下為AEM核心元件所提供的現成事件：
 
 * **`cmp:click`** — 按一下可點按的元素（具有`data-cmp-clickable`屬性的元素）會導致資料層觸發`cmp:click`事件。
 * **`cmp:show`**&#x200B;和&#x200B;**`cmp:hide`** — 操作收合式選單（展開/摺疊）、轉盤（下一個/上一個按鈕）和標籤（索引標籤選取）元件會導致資料層分別觸發`cmp:show`和`cmp:hide`事件。 `cmp:show`事件也會在頁面載入時傳送，且預期會成為第一個事件。
@@ -306,7 +309,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教學課程
 
-想要更詳細地探索資料層和核心元件嗎？ [檢視此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hant)。
+想要更詳細地探索資料層和核心元件嗎？ [檢視此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

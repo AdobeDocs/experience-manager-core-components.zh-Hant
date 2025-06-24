@@ -3,7 +3,7 @@ title: 自訂核心元件
 description: 核心元件實作多種模式，可讓您輕鬆自訂，從簡單的樣式設定到進階功能重複使用。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 # 自訂核心元件{#customizing-core-components}
 
 [核心元件](overview.md)實作多種模式，從簡單的樣式到進階功能重複使用，都可以輕鬆自訂。
+
+{{traditional-aem}}
 
 ## 彈性的架構 {#flexible-architecture}
 
@@ -24,8 +26,8 @@ ht-degree: 0%
 * [編輯對話方塊](/help/get-started/authoring.md#edit-and-design-dialogs)只顯示作者可以使用的選項。
 * [Sling模型](#customizing-the-logic-of-a-core-component)會驗證並準備檢視（範本）的內容。
 * [對於SPA使用案例，Sling模型](#customizing-the-logic-of-a-core-component)的結果可序列化為JSON。
-* [對於傳統的伺服器端轉譯，HTL會轉譯HTML](#customizing-the-markup)伺服器端。
-* [HTML輸出](#customizing-the-markup)具有語意性、可存取、已最佳化搜尋引擎，且樣式簡易。
+* [針對傳統的伺服器端轉譯，HTL會轉譯HTML](#customizing-the-markup)伺服器端。
+* [HTML輸出](#customizing-the-markup)具有語意化、可存取、已最佳化搜尋引擎，且樣式簡易。
 
 而且所有核心元件都實作[樣式系統](#styling-the-components)。
 
@@ -39,9 +41,9 @@ ht-degree: 0%
 
 可能需要自訂核心元件對話方塊中可用的組態選項，無論是[設計對話方塊或編輯對話方塊](/help/get-started/authoring.md)。
 
-每個對話方塊都有一致的節點結構。 建議在繼承元件中復寫此結構，以便使用[Sling Resource Merger](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)和[隱藏條件](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/hide-conditions.html)來隱藏、取代或重新排序原始對話方塊的區段。 要復寫的結構定義為標籤專案節點層級的任何內容。
+每個對話方塊都有一致的節點結構。 建議在繼承元件中復寫此結構，以便使用[Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)和[隱藏條件](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html)來隱藏、取代或重新排序原始對話方塊的區段。 要復寫的結構定義為標籤專案節點層級的任何內容。
 
-若要與對話方塊目前版本的任何變更完全相容，請勿觸及索引標籤專案層級下的結構（隱藏、新增至、取代、重新排序等），這點極為重要。 相反地，父系中的索引標籤專案應透過`sling:hideResource`屬性隱藏（請參閱[Sling資源合併屬性](https://helpx.adobe.com/tw/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)），並且新增包含自訂設定欄位的新索引標籤專案。 必要時可使用`sling:orderBefore`重新排序索引標籤專案。
+若要與對話方塊目前版本的任何變更完全相容，請勿觸及索引標籤專案層級下的結構（隱藏、新增至、取代、重新排序等），這點極為重要。 相反地，父系中的索引標籤專案應透過`sling:hideResource`屬性隱藏（請參閱[Sling資源合併屬性](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)），並且新增包含自訂設定欄位的新索引標籤專案。 必要時可使用`sling:orderBefore`重新排序索引標籤專案。
 
 下列對話方塊示範建議的對話方塊結構，以及如何隱藏和取代上述繼承的索引標籤：
 
@@ -117,7 +119,7 @@ public class PageHeadline implements Title {
 
 自訂的第一個形式是套用CSS樣式。
 
-為了輕鬆達成此目的，核心元件會轉譯語意標籤，並遵循由[Bootstrap](https://getbootstrap.com/)所激發的標準化命名慣例。 此外，為了輕鬆鎖定個別元件的樣式並為其建立名稱空間，每個核心元件都包裝在具有「`cmp`」和「`cmp-<name>`」類別的DIV元素中。
+為了輕鬆達成此目標，核心元件會轉譯語意標籤，並遵循由[Bootstrap](https://getbootstrap.com/)引發的標準化命名慣例。 此外，為了輕鬆鎖定個別元件的樣式並為其建立名稱空間，每個核心元件都包裝在具有「`cmp`」和「`cmp-<name>`」類別的DIV元素中。
 
 舉例來說，若檢視v1核心階層連結元件的HTL檔案： [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)，我們發現元素輸出的階層為`ol.breadcrumb > li.breadcrumb-item > a`。 因此，為了確保CSS規則僅影響該元件的階層連結類別，所有規則都應採用名稱空間，如下所示：
 
@@ -127,7 +129,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每個核心元件都運用AEM [樣式系統功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=zh-Hant)，此功能可讓範本作者定義可由頁面作者套用至元件的其他CSS類別名稱。 這允許為每個範本定義一個允許的元件樣式清單，以及其中一個樣式是否預設應套用至該型別的所有元件。
+此外，每個核心元件都運用AEM [樣式系統功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=zh-hant)，此功能可讓範本作者定義可由頁面作者套用至元件的其他CSS類別名稱。 這允許為每個範本定義一個允許的元件樣式清單，以及其中一個樣式是否預設應套用至該型別的所有元件。
 
 ## 升級自訂的相容性 {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +139,7 @@ public class PageHeadline implements Title {
 * 將核心元件升級至新的次要版本
 * 將核心元件升級至主要版本
 
-一般而言，將AEM升級至新版本不會影響核心元件或已完成的自訂，前提是元件的版本也支援正在移轉至的新AEM版本，且自訂功能不會使用[已棄用或已移除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hant)的API。
+一般而言，升級AEM至新版本不會影響核心元件或完成的自訂，前提是元件的版本也支援正在移轉至的新AEM版本，且自訂功能不會使用[已過時或已移除的API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
 升級核心元件而不切換至更新的主要版本應該不會影響自訂，前提是使用本頁所述的自訂模式。
 
@@ -145,7 +147,7 @@ public class PageHeadline implements Title {
 
 ## 支援自訂 {#support-of-customizations}
 
-和任何AEM元件一樣，關於自訂，有許多需要注意的事項：
+和任何AEM元件一樣，關於自訂，也有許多需要注意的事項：
 
 1. **絕對不要直接修改核心元件的程式碼。**
 
@@ -157,7 +159,7 @@ public class PageHeadline implements Title {
 
 1. **觀看已過時和已移除的功能。**
 
-   隨著每個新AEM版本的升級，請密切留意[已過時和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hant)頁面，確保所有使用的API仍是常用的。
+   隨著每個新的AEM版本都升級，請密切留意[已過時和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)頁面，確保所有使用的API仍是常用的。
 
 另請參閱[核心元件支援](overview.md#core-component-support)區段。
 

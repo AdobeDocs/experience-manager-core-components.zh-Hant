@@ -3,16 +3,19 @@ title: 文字元件
 description: 文字元件是RTF編輯和撰寫元件，具備就地編輯功能。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '2185'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
+
 
 # 文字元件{#text-component}
 
 核心元件文字元件是RTF文字編輯和撰寫元件，具備就地編輯功能。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -26,7 +29,7 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
 | [v1](v1/text-v1.md) | 相容 | 相容 | - | 相容 |
@@ -35,23 +38,23 @@ ht-degree: 2%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗文字元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_text_tw)。
+若要體驗文字元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_text)。
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_text_v2_tw)上找到有關文字元件的最新技術檔案。
+您可以在GitHub](https://adobe.com/go/aem_cmp_tech_text_v2)上找到有關文字元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
 ## 文字元件和RTF編輯器 {#the-text-component-and-the-rich-text-editor}
 
-核心元件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供編輯其文字內容的廣泛功能。 RTE的設定非常靈活，並提供了許多選項。 如需如何設定RTE的詳細資訊，請參閱文章[設定RTF編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=zh-Hant)和[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)。
+核心元件文字元件採用AEM RTF編輯器(RTE)。 RTE為內容作者提供編輯其文字內容的廣泛功能。 RTE的設定非常靈活，並提供了許多選項。 如需如何設定RTE的詳細資訊，請參閱文章[設定RTF編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 本文章的其餘部分示範使用現成可用的RTE組態的核心元件文字元件的標準組態。
 
 >[!NOTE]
 >
->只有由RTE[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)的UI組態啟用的選項在文字元件中才有提供。
+>只有由RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的[UI組態啟用的選項在文字元件中才有提供。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -149,9 +152,9 @@ ht-degree: 2%
 
 ![尋找範例](/help/assets/text-find-example.png)
 
-輸入您要搜尋的文字，然後點選或按一下[尋找] **開始搜尋。**&#x200B;點選或按一下x以取消。
-如果您想要根據大小寫進行完全比對，請先選取選項&#x200B;**符合大小寫**，再開始搜尋。
-如果找到相符專案，則會反白該專案，且搜尋對話方塊會變暗。 在灰色的對話方塊中，再次點選或按一下&#x200B;**尋找**&#x200B;按鈕以搜尋下一個專案。
+輸入您要搜尋的文字，然後點選或按一下[尋找] **開始搜尋。**點選或按一下x以取消。
+如果您想要根據大小寫進行完全比對，請先選取選項**符合大小寫**，再開始搜尋。
+如果找到相符專案，則會反白該專案，且搜尋對話方塊會變暗。 在灰色的對話方塊中，再次點選或按一下**尋找**&#x200B;按鈕以搜尋下一個專案。
 
 ![找到範例](/help/assets/text-find-example-found.png)
 
@@ -258,7 +261,7 @@ ht-degree: 2%
 
 用於檢查文字內容的拼字。 可能的拼字錯誤會以紅色虛線加底線。
 
-如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱檔案[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)。
+如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱檔案[設定RTF編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 ### 特殊字元 {#special-characters}
 
@@ -370,6 +373,6 @@ ht-degree: 2%
 
 文字元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 文字元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

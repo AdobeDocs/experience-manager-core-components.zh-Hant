@@ -3,28 +3,31 @@ title: 內容片段元件
 description: 利用核心元件內容片段元件，可顯示內容片段。
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
+
 # 內容片段元件{#content-fragment-component}
 
-核心元件內容片段元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+核心元件內容片段元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
 >在核心元件2.4.0版之前，內容片段元件可作為核心元件的擴充功能使用，且必須單獨下載並明確啟用。
 
+{{traditional-aem}}
+
 ## 使用情況 {#usage}
 
-核心元件內容片段元件允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+核心元件內容片段元件允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 * 可在[設定對話方塊](#configure-dialog)中選取片段及其屬性。
 * 可在[設計對話方塊](#design-dialog)中定義要處理特定影像和網格的資源型別。
-* 編輯選項會在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=zh-Hant)中開啟選取的片段。
+* 編輯選項會在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中開啟選取的片段。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -32,7 +35,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
 | v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
 
@@ -56,7 +59,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_cf_v1_tw)上可找到有關內容片段元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1)上可找到有關內容片段元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -110,6 +113,6 @@ ht-degree: 1%
 
    * 用於內部回應式格線的Sling資源型別
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 內容片段元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

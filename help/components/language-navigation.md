@@ -3,16 +3,19 @@ title: 語言導覽元件
 description: 語言導覽元件提供網站的語言/國家導覽，讓訪客可以導覽至不同地區設定的相同頁面。
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
 
 ---
 
+
 # 語言導覽元件{#language-navigation-component}
 
 語言導覽元件提供網站的語言/國家導覽，讓訪客可以導覽至不同地區設定的相同頁面。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -29,7 +32,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/language-navigation.md) | 相容 | 相容 | - | 相容 |
@@ -38,11 +41,11 @@ ht-degree: 1%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗語言導覽元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_langnav_tw)。
+若要體驗語言導覽元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_langnav)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_langnav_v2_tw)上可找到有關語言導覽元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v2)上可找到有關語言導覽元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -124,6 +127,6 @@ ht-degree: 1%
 
 語言導覽元件之[編輯]對話方塊的![樣式索引標籤](/help/assets/language-navigation-edit-styles.png)
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 語言導覽元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

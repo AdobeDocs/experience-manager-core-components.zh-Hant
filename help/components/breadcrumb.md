@@ -3,16 +3,19 @@ title: 階層連結元件
 description: 核心元件階層連結元件是一種導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
+
 
 # 階層連結元件{#breadcrumb-component}
 
 核心元件階層連結元件是一種導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -26,7 +29,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- | --- |--- |---|---|
 | v3 | - | 相容 | 相容 | 相容 |
 | [v2](v2/breadcrumb.md) | 相容 | 相容 | - | 相容 |
@@ -36,7 +39,7 @@ ht-degree: 1%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗階層連結元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_breadcrumb_tw)。
+若要體驗階層連結元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_breadcrumb)。
 
 >[!NOTE]
 >
@@ -44,7 +47,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3_tw)上可找到有關階層連結元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3)上可找到有關階層連結元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -103,6 +106,6 @@ ht-degree: 1%
 
 階層連結元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 階層連結元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

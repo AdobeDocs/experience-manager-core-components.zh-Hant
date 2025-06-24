@@ -3,16 +3,19 @@ title: 最適化Forms核心元件 — 頁尾
 description: 使用或自訂最適化Forms頁尾核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 2%
 
 ---
 
+
 # 頁尾 {#footer-adaptive-forms-core-component}
 
 最適化表單中的頁尾元件是通常出現在表單底部的區域，並包含版權宣告、相關資源連結或聯絡資訊等資訊。 頁尾可提供額外資訊（例如上次更新的日期），對有協助工具需求的使用者有利。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -34,9 +37,9 @@ ht-degree: 2%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms頁尾核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms頁尾核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -44,7 +47,7 @@ ht-degree: 2%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -82,8 +85,8 @@ To experience the Accordion Component as well as see examples of its configurati
 - **超連結**
 
    - **路徑** — 輸入路徑
-      1. 使用「開啟選取範圍」對話方塊在AEM中選擇路徑。
-      1. 如果連結不在AEM內，請輸入絕對URL。
+      1. 使用「開啟選取範圍」對話方塊，在AEM中選擇路徑。
+      1. 如果連結不在AEM中，請輸入絕對URL。
       1. 非絕對路徑會解譯為相對於AEM。
 
    - **替代文字** — 輸入連結的替代描述文字。
@@ -109,7 +112,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

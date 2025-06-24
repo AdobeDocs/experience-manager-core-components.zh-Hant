@@ -4,12 +4,13 @@ description: 利用核心元件表單容器元件，可建立簡易提交表單�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 3%
 
 ---
+
 
 # 表單容器元件(v1) {#form-container-component-v1}
 
@@ -19,7 +20,7 @@ ht-degree: 3%
 
 「表單容器元件」可支援簡單的WCM表單，並使用巢狀結構來允許其他表單元件，藉以建置簡單的資訊提交表單和功能。
 
-使用[設定對話方塊](#settings-dialog)，內容編輯者可以定義表單提交會觸發的動作型別、提交內容的儲存位置，以及是否應觸發工作流程。 範本作者可使用[設計對話方塊](#design-dialog)定義允許元件及其對應，類似於範本編輯器[&#128279;](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/templates.html)中標準配置容器的設計對話方塊。
+使用[設定對話方塊](#settings-dialog)，內容編輯者可以定義表單提交會觸發的動作型別、提交內容的儲存位置，以及是否應觸發工作流程。 範本作者可使用[設計對話方塊](#design-dialog)定義允許元件及其對應，類似於範本編輯器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)中[標準配置容器的設計對話方塊。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -98,17 +99,17 @@ ht-degree: 3%
 
 提交完表單後，系統會將使用者重新導向至指定的頁面。
 
-* 使用「選取」對話方塊來選取AEM中的資源。
-* 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會解譯為相對於AEM。
+* 使用「選取」對話方塊可在AEM中選取資源。
+* 如果感謝頁面不在AEM中，請指定絕對URL。 非絕對URL將會詮釋為相對於AEM。
 * 留空可在提交後重新顯示表單。
 
 ## 設計對話方塊 {#design-dialog}
 
-設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似於範本編輯器[&#128279;](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)中標準配置容器的設計對話方塊。
+設計對話方塊可讓範本作者為容器定義允許的元件及其對應，類似於範本編輯器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)中[標準配置容器的設計對話方塊。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container)上可找到有關表單容器元件的最新技術檔案。
+在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container)上可找到有關表單容器元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

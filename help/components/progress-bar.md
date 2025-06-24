@@ -3,16 +3,19 @@ title: 進度列元件
 description: 進度列元件會以視覺化方式呈現目標的進度
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
+
 
 # 進度列元件 {#progress-bar-component}
 
 核心元件進度列元件會以視覺化方式呈現目標的進度。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -24,17 +27,17 @@ ht-degree: 2%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗進度列元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_progressbar_tw)。
+若要體驗進度列元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_progressbar)。
 
 ### 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_progress_v1)上可找到有關進度列元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1)上可找到有關進度列元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -56,6 +59,6 @@ ht-degree: 2%
 
 進度列元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 進度列元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

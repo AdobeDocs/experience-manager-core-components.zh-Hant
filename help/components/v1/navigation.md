@@ -3,12 +3,14 @@ title: 導覽元件(v1)
 description: 導覽元件可讓使用者輕鬆導覽全域化的網站結構。
 role: Architect, Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
 
 ---
+
 
 # 導覽元件(v1) {#navigation-component}
 
@@ -100,7 +102,7 @@ ht-degree: 0%
 
 ## 導覽中的重新導向 {#redirects}
 
-當頁面具有重新導向目標時(無論它指向的是外部URL還是另一個AEM頁面)，則包含指向該點的連結的導覽元件會直接指向重新導向目標的URL。
+當頁面具有重新導向目標時(無論它指向的是外部URL還是另一個AEM頁面)，則包含該點連結的導覽元件會直接指向重新導向目標的URL。
 
 ### 範例 {#redirect-example}
 
@@ -111,11 +113,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗導覽元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_navigation_tw)。
+若要體驗導覽元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_navigation)。
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_navigation_v1_tw)上可找到有關導覽元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1)上可找到有關導覽元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -140,7 +142,7 @@ ht-degree: 0%
 * **收集所有子頁面** — 收集屬於導覽根目錄子系的所有頁面。
 * **導覽結構深度** — 定義元件在導覽樹狀結構中應相對於導覽根目錄向下顯示多少層級（僅在未選取&#x200B;**收集所有子頁面**&#x200B;時可用）。
 * **停用陰影** — 如果階層中的頁面是重新導向，將顯示重新導向頁面的名稱而非目標。 如需詳細資訊，請參閱[陰影網站結構支援](#shadow-structure)。
-* **ID** — 此選項可控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
    * 若指定ID，作者應負責確認該ID為唯一ID。
    * 變更ID會對CSS、JS和資料層追蹤造成影響。
@@ -175,6 +177,6 @@ ht-degree: 0%
 
 導覽元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-## Adobe使用者端資料層 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 導覽元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)

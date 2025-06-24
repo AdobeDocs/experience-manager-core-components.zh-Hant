@@ -4,12 +4,13 @@ description: 文字元件是RTF編輯和撰寫元件，具備就地編輯功能�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 3%
 
 ---
+
 
 # 文字元件(v1) {#text-component-v}
 
@@ -40,7 +41,7 @@ ht-degree: 3%
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -68,7 +69,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -140,8 +141,8 @@ ht-degree: 3%
 
    * 輸入位置
 
-      * 使用「開啟選取範圍」對話方塊在AEM中選擇路徑
-      * 如果連結不在AEM內，請輸入絕對URL (非絕對路徑會解譯為相對於AEM)
+      * 使用「開啟選取範圍」對話方塊可在AEM中選擇路徑
+      * 如果連結不在AEM中，請輸入絕對URL (非絕對路徑會解譯為相對於AEM)
 
    * 輸入連結的替代描述文字
    * 選取連結行為
@@ -296,10 +297,10 @@ ht-degree: 3%
 
   >[!CAUTION]
   >
-  >和存取原始HTML時一樣，使用&#x200B;**Source編輯**&#x200B;選項時必須小心！
+  >和存取原始HTML的情況一樣，使用&#x200B;**Source編輯**&#x200B;選項時必須小心！
   >
   >
-  >已掃描透過&#x200B;**Source Edit**&#x200B;輸入的HTML是否有XSS風險，任何插入的指令碼都會被移除，不會顯示在結果頁面上。 不過，在&#x200B;**Source Edit**&#x200B;中輸入的格式錯誤的HTML可能會破壞頁面的範本，導致未預期的格式設定或導致產生的頁面無法使用。
+  >已掃描透過&#x200B;**Source Edit**&#x200B;輸入的HTML是否有XSS風險，插入的任何指令碼都會被移除，且不會顯示在結果頁面上。 不過，在&#x200B;**Source Edit**&#x200B;中輸入的格式錯誤的HTML可能會破壞頁面的範本，導致未預期的格式設定或導致產生的頁面無法使用。
 
 * 段落格式
 
@@ -325,7 +326,7 @@ ht-degree: 3%
 
 * 貼上純文字
 * 從文字貼上
-* 尋找和取代
+* 尋找並取代
 * 拼字檢查程式
 * Source編輯
 
@@ -360,13 +361,13 @@ ht-degree: 3%
 可以為元件啟用或停用插入特殊字元的選項。 啟用時，可以定義允許的字元。
 
 * 點選或按一下&#x200B;**新增**&#x200B;按鈕以插入新字元。
-* 輸入字元的HTML碼，以及將顯示在編輯對話方塊中的說明。
+* 輸入字元的HTML程式碼，以及將顯示在編輯對話方塊中的說明。
 * 若要移除字元點選或按一下&#x200B;**刪除**&#x200B;按鈕。
 * 若要重新排列字元順序，請點選或按一下並拖曳控點。
 
 ## 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text)上找到有關文字元件的最新技術檔案。
+您可以在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text)上找到有關文字元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

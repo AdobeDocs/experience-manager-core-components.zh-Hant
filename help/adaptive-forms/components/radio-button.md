@@ -3,16 +3,19 @@ title: 最適化Forms核心元件 — 選項按鈕
 description: 使用或自訂最適化Forms選項按鈕核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2137'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
 
+
 # 選項按鈕元件 {#radio-button-adaptive-forms-core-component}
 
 最適化表單中的選項按鈕是一種輸入元素，可讓使用者從一組相關選項中選取一個選項。 它由一個小的圓形按鈕表示，該按鈕已填滿或空白，以指示是否選取該選項。 當使用者選取一個選項按鈕時，群組中的其他按鈕會變為取消選取。 當有多個互斥選項且一次只能選取一個選項時，通常會使用選項按鈕。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -42,9 +45,9 @@ ht-degree: 0%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms選項按鈕核心元件於2023年2月發行，屬於AEM 6.5.16.0 Forms或更新版本適用的Cloud Service核心元件2.0.4和核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
+最適化Forms選項按鈕核心元件於2023年2月發行，屬於Cloud Service核心元件2.0.4以及AEM 6.5.16.0 Forms或更新版本的核心元件1.1.12的一部分。 下表顯示所有支援版本、AEM相容性以及對應檔案的連結：
 
-| 元件版本 | AEM as a Cloud Service  | AEM 6.5.16.0 Forms或更新版本 |
+| 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更新版本 |
 |---|---|---|
 | v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容 | 與<br>[版本1.1.12](/help/adaptive-forms/version.md)及更新版本相容，但小於2.0.0。 |
 
@@ -52,7 +55,7 @@ ht-degree: 0%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -82,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **顯示文字** — 此選項可讓您輸入要在最適化表單中顯示的內容。
    - **刪除** — 點選或按一下以刪除選項按鈕的選項。
    - **重新排列** — 點選或按一下並拖曳以重新排列選項。
-您也可以使用&#x200B;**允許選項的RTF格式**&#x200B;來格式化選項群組選項。
+您也可以使用**允許選項的RTF格式**&#x200B;來格式化選項群組選項。
 
   選項的![RTF支援](/help/adaptive-forms/assets/richtext-for-options.png)
 

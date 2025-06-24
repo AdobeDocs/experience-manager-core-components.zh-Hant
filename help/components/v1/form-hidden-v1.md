@@ -4,12 +4,13 @@ description: 核心元件表單隱藏元件可顯示隱藏欄位。
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 2%
 
 ---
+
 
 # 表單隱藏元件(v1) {#form-hidden-component-v}
 
@@ -40,7 +41,7 @@ ht-degree: 2%
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### HTML {#html}
 
@@ -80,7 +81,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md#release-history-and-compatibility)的相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md#release-history-and-compatibility)的[相容性資訊。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -98,7 +99,7 @@ ht-degree: 2%
 
 ## 技術細節 {#technical-details}
 
-您可以在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)上找到有關表單隱藏元件的最新技術檔案。
+您可以在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)上找到有關表單隱藏元件[的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

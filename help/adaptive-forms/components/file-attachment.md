@@ -3,18 +3,21 @@ title: 最適化Forms核心元件 — 檔案附件
 description: 使用或自訂Adaptive Forms檔案附件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 0%
 
 ---
 
+
 # 檔案附件元件 {#file-attachment-adaptive-forms-core-component}
 
 <span class="preview">已提交值的&#x200B;**資料型別**&#x200B;功能可在早期採用者程式下使用。 您可以從您的官方電子郵件ID寫信到aem-forms-ea@adobe.com ，以加入率先採用者計畫並請求存取該功能。</span>
 
 最適化表單中的檔案附件元件可讓使用者從本機電腦或裝置選取及上傳檔案。 檔案附件元件可設定為允許特定檔案型別、大小限制和多個附件。
+
+{{traditional-aem}}
 
 **範例**
 
@@ -47,7 +50,7 @@ Adaptive Forms檔案附件核心元件於2023年2月發行，屬於Cloud Service
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術細節 {#technical-details}
 
@@ -158,7 +161,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

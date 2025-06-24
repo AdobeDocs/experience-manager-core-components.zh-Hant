@@ -3,16 +3,19 @@ title: 內嵌元件
 description: 內嵌元件可在AEM內容頁面中內嵌外部內容。
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 1%
 
 ---
 
+
 # 內嵌元件 {#embed-component}
 
 核心元件內嵌元件允許將外部內容內嵌於AEM內容頁面。
+
+{{traditional-aem}}
 
 ## 使用情況 {#usage}
 
@@ -27,7 +30,7 @@ ht-degree: 1%
 
 下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service  |
+| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
 | v2 | - | 相容 | 相容 | 相容 |
 | [v1](v1/embed.md) | 相容 | 相容 | - | 相容 |
@@ -40,7 +43,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_embed_v2_tw)上可找到有關內嵌元件的最新技術檔案。
+在GitHub](https://adobe.com/go/aem_cmp_tech_embed_v2)上可找到有關內嵌元件[的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -115,7 +118,7 @@ ht-degree: 1%
 
 不過，規則比較複雜，因為內嵌元件會遵循AEM的全域HTML AntiSamy淨化架構篩選規則集（可在`/libs/cq/xssprotection/config.xml`找到）。 如有需要，開發人員可為專案特定的設定覆蓋此專案。
 
-其他安全性資訊可在適用於內部部署安裝的[AEM開發人員檔案](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hant)以及[AEM as a Cloud Service安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hant)中找到。
+其他安全性資訊可在適用於內部部署安裝的[AEM開發人員檔案](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)以及[AEM as a Cloud Service安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)中找到。
 
 >[!NOTE]
 >
@@ -123,7 +126,7 @@ ht-degree: 1%
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-內嵌元件![&#128279;](/help/assets/embed-styles.png)之編輯對話方塊的樣式索引標籤
+內嵌元件](/help/assets/embed-styles.png)之編輯對話方塊的![樣式索引標籤
 
 內嵌元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
 
