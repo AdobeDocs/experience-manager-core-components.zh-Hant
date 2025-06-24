@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_download_v1)上可找到有關下載元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_download_v1)上可找到有關下載元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ### 屬性標籤 {#properties-tab-design}
 
-下載元件](/help/assets/download-design.png)的![設計對話方塊
+下載元件![&#128279;](/help/assets/download-design.png)的設計對話方塊
 
 * **允許從檔案系統上傳** — 允許內容作者從其本機檔案系統上傳資產作為下載資產。
    * 預設值為未選取。

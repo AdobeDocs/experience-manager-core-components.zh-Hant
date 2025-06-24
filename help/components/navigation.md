@@ -121,7 +121,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v2)上可找到有關導覽元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_navigation_v2)上可找到有關導覽元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 必須在[設計對話方塊](#design-dialog)中為此元件設定樣式，以便下拉式功能表可用。
 
-導覽元件](/help/assets/navigation-edit-styles.png)之編輯對話方塊的![樣式索引標籤
+導覽元件![&#128279;](/help/assets/navigation-edit-styles.png)之編輯對話方塊的樣式索引標籤
 
 ## 設計對話方塊 {#design-dialog}
 

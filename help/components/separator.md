@@ -37,7 +37,7 @@ ht-degree: 4%
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1)上找到有關分隔符號元件[的最新技術檔案。
+您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_separator_v1)上找到有關分隔符號元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

@@ -35,7 +35,7 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >本檔案說明快速搜尋元件v1。
->>如需目前版本的快速搜尋元件的詳細資訊，請參閱[快速搜尋元件](/help/components/quick-search.md)檔案。
+>&#x200B;>如需目前版本的快速搜尋元件的詳細資訊，請參閱[快速搜尋元件](/help/components/quick-search.md)檔案。
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 >
 >保護搜尋元件或任何AEM型應用程式免受DOS攻擊應在較高層級實作，例如透過在Dispatcher上使用`mod_security`。
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_search_v1)上可找到有關快速搜尋元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_search_v1)上可找到有關快速搜尋元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 

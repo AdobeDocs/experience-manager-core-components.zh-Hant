@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果減少內容的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可透過從元件瀏覽器拖曳並放置在內容編輯器的電子郵件分段元件上來新增至電子郵件分段元件。[](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
+>如果減少內容的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可透過從元件瀏覽器拖曳並放置在內容編輯器的電子郵件分段元件上來新增至電子郵件分段元件。[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
 
 ### 屬性標籤 {#properties-tab}
 

@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1)上可找到有關摺疊式功能表元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_accordion_v1)上可找到有關摺疊式功能表元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 ### 屬性標籤 {#properties-tab}
 
-摺疊式功能表元件](/help/assets/accordion-edit-properties.png)之編輯對話方塊的![屬性標籤
+摺疊式功能表元件![&#128279;](/help/assets/accordion-edit-properties.png)之編輯對話方塊的屬性標籤
 
 * **單一專案展開** — 選取時，此選項會強制一次展開單一摺疊專案。 展開一個專案後，其他所有專案都會摺疊。
 * **展開的專案** — 此選項會定義載入頁面時預設展開的專案。

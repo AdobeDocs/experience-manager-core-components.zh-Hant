@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 安裝電子郵件核心元件 {#installation}
 
-電子郵件核心元件可搭配AEM 6.5使用。如需詳細資訊，請參閱電子郵件核心元件簡介檔案](introduction.md#requirements)的[需求區段。
+電子郵件核心元件可搭配AEM 6.5使用。如需詳細資訊，請參閱電子郵件核心元件簡介檔案[&#128279;](introduction.md#requirements)的需求區段。
 
 ### 安裝核心元件 {#core-components}
 

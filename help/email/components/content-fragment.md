@@ -83,7 +83,7 @@ ht-degree: 1%
 
 點選或按一下&#x200B;**編輯**&#x200B;按鈕會開啟內容片段編輯器。 內容片段編輯器已擴充為包含&#x200B;**選取Adobe Campaign變數**&#x200B;以將Adobe Campaign變數插入內容片段的按鈕。
 
-電子郵件](/help/email/assets/email-content-fragment-editor.png)的![內容片段編輯器
+電子郵件![&#128279;](/help/email/assets/email-content-fragment-editor.png)的內容片段編輯器
 
 如需有關編輯和編寫內容片段的詳細資訊，請參閱檔案[編寫片段內容。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
 

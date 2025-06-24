@@ -108,7 +108,7 @@ ht-degree: 1%
 
 ## 技術細節 {#technical-details}
 
-閱讀有關體驗片段元件](https://www.adobe.com/go/aem_cmp_xf_v1)的最新[技術檔案。
+閱讀有關體驗片段元件[&#128279;](https://www.adobe.com/go/aem_cmp_xf_v1)的最新技術檔案。
 
 如需開發核心元件的詳細資訊，請參閱[核心元件開發人員檔案。](/help/developing/overview.md)
 

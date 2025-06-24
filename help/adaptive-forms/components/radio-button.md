@@ -85,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **顯示文字** — 此選項可讓您輸入要在最適化表單中顯示的內容。
    - **刪除** — 點選或按一下以刪除選項按鈕的選項。
    - **重新排列** — 點選或按一下並拖曳以重新排列選項。
-您也可以使用**允許選項的RTF格式**&#x200B;來格式化選項群組選項。
+您也可以使用&#x200B;**允許選項的RTF格式**&#x200B;來格式化選項群組選項。
 
   選項的![RTF支援](/help/adaptive-forms/assets/richtext-for-options.png)
 

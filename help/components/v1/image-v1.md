@@ -74,7 +74,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1](/help/versions.md)的[相容性資訊。
+>從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
 
 ## 設定對話方塊 {#configure-dialog}
 
@@ -219,7 +219,7 @@ ht-degree: 2%
 
    * **旋轉** — 使用此選項可允許內容作者使用&#x200B;**向右旋轉**&#x200B;選項。
    * **翻轉**
-使用此選項可允許內容作者使用**水準翻轉**&#x200B;和&#x200B;**垂直翻轉**&#x200B;選項。
+使用此選項可允許內容作者使用&#x200B;**水準翻轉**&#x200B;和&#x200B;**垂直翻轉**&#x200B;選項。
 
   >[!CAUTION]
   >
@@ -230,7 +230,7 @@ ht-degree: 2%
   ![](/help/assets/chlimage_1-21.png)
 
   選取選項&#x200B;**允許裁切**，以允許內容作者在編輯對話方塊中裁切元件中的影像。
-   * 按一下「新增&#x200B;****」以新增預先定義的裁切外觀比例。
+   * 按一下「新增&#x200B;**&#x200B;**」以新增預先定義的裁切外觀比例。
    * 輸入描述性名稱，此名稱將顯示在&#x200B;**開始裁切**&#x200B;下拉式清單中。
    * 輸入外觀的數字比例。
    * 使用拖曳操作框來重新排列長寬比
@@ -242,7 +242,7 @@ ht-degree: 2%
 
 ## 技術細節 {#technical-details}
 
-在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)上可找到有關影像元件[的最新技術檔案。
+在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)上可找到有關影像元件的最新技術檔案。
 
 您可以從GitHub下載整個核心元件專案。
 

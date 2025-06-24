@@ -81,7 +81,7 @@ ht-degree: 6%
 | Adobe Sign 區塊 | ✔️ | | | [Adobe Sign整合](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government)僅適用於Foundation元件。 |
 | 折疊面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 對於Foundation元件，您可以在[面板元件屬性](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)中設定收合式選單配置。 |
 | 最適化表單片段 | ✔️ | ✔️ | | 對於基礎元件，您可以從Assets瀏覽器[新增片段](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)。 |
-| 自適應表單 reCAPTCHA | ✔️ | ✔️ | ✔️ | 對於基礎元件，請使用Captcha元件將Google reCaptcha新增至表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。[ |
+| 自適應表單 reCAPTCHA | ✔️ | ✔️ | ✔️ | 對於基礎元件，請使用Captcha元件將Google reCaptcha新增至表單[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。 |
 | 按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
 | 圖表 | ✔️ | | | |
 | 核取方塊 | ✔️ | ✔️ | | |

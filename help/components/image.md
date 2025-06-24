@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ### 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_image_v3)上可找到有關影像元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_image_v3)上可找到有關影像元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 
 影像元件之設定對話方塊的![資產標籤](/help/assets/image-configure-asset.png)
 
-* **從頁面**&#x200B;繼承精選影像 — 此選項使用連結頁面](page.md)的[精選影像或目前頁面的精選影像（如果未連結影像）。
+* **從頁面**&#x200B;繼承精選影像 — 此選項使用連結頁面[&#128279;](page.md)的精選影像或目前頁面的精選影像（如果未連結影像）。
 
 * **影像資產** — 如果選取&#x200B;**從頁面**&#x200B;繼承精選影像，則會自動填入此資產。 取消選取可透過設定以下選項來手動定義影像。
 
@@ -199,7 +199,7 @@ ht-degree: 1%
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-影像元件](/help/assets/image-configure-styles.png)之[編輯]對話方塊的![樣式索引標籤
+影像元件![&#128279;](/help/assets/image-configure-styles.png)之[編輯]對話方塊的樣式索引標籤
 
 影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 

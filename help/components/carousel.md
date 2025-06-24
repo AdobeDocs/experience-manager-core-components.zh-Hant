@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ### 技術細節 {#technical-details}
 
-在GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1)上可找到有關轉盤元件[的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_carousel_v1)上可找到有關轉盤元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 ### 專案標籤 {#items-tab}
 
-轉盤元件](/help/assets/carousel-edit-items.png)的編輯對話方塊的![專案標籤
+轉盤元件![&#128279;](/help/assets/carousel-edit-items.png)的編輯對話方塊的專案標籤
 
 使用&#x200B;**新增**&#x200B;按鈕開啟元件選擇器，選擇要新增為索引標籤的元件。 新增專案後，專案會新增到清單中，包含以下欄：
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 ### 屬性標籤 {#properties-tab}
 
-轉盤元件](/help/assets/carousel-edit-properties.png)的編輯對話方塊的![屬性標籤
+轉盤元件![&#128279;](/help/assets/carousel-edit-properties.png)的編輯對話方塊的屬性標籤
 
 在&#x200B;**屬性**&#x200B;標籤上，內容作者可以設定投影片自動切換。
 

@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ### 技術細節 {#technical-details}
 
-您可以在GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1)上找到有關電子郵件文字元件[的最新技術檔案。
+您可以在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_email_text_v1)上找到有關電子郵件文字元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->只有RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的[UI組態啟用的選項在電子郵件文字元件中可用。
+>只有RTE[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的UI組態啟用的選項在電子郵件文字元件中可用。
 
 ## 編輯對話方塊 {#edit-dialog}
 
@@ -155,9 +155,9 @@ ht-degree: 2%
 
 ![尋找範例](/help/assets/text-find-example.png)
 
-輸入您要搜尋的文字，然後點選或按一下[尋找] **開始搜尋。**點選或按一下x以取消。
-如果您想要根據大小寫進行完全比對，請先選取選項**符合大小寫**，再開始搜尋。
-如果找到相符專案，則會反白該專案，且搜尋對話方塊會變暗。 在灰色的對話方塊中，再次點選或按一下**尋找**&#x200B;按鈕以搜尋下一個專案。
+輸入您要搜尋的文字，然後點選或按一下[尋找] **開始搜尋。**&#x200B;點選或按一下x以取消。
+如果您想要根據大小寫進行完全比對，請先選取選項&#x200B;**符合大小寫**，再開始搜尋。
+如果找到相符專案，則會反白該專案，且搜尋對話方塊會變暗。 在灰色的對話方塊中，再次點選或按一下&#x200B;**尋找**&#x200B;按鈕以搜尋下一個專案。
 
 ![找到範例](/help/assets/text-find-example-found.png)
 
