@@ -78,11 +78,11 @@ ht-degree: 1%
 
 **允許的元件**&#x200B;索引標籤是用來定義哪些元件可由內容作者新增為電子郵件容器元件的專案。
 
-**允許的元件**&#x200B;索引標籤的功能與[在範本編輯器中定義配置容器的原則與屬性時的相同名稱索引標籤的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**允許的元件**&#x200B;索引標籤的功能與[在範本編輯器中定義配置容器的原則與屬性時的相同名稱索引標籤的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)
 
 ### 預設元件標籤 {#default-components-tab}
 
-**預設元件**&#x200B;索引標籤用於定義在特定資產型別放到容器上時，要新增到元件的元件，類似於[如何在頁面範本上定義預設元件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**預設元件**&#x200B;索引標籤用於定義在特定資產型別放到容器上時，要新增到元件的元件，類似於[如何在頁面範本上定義預設元件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)
 
 ### 容器設定標籤 {#container-settings-tab}
 

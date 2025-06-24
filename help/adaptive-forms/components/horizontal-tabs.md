@@ -112,7 +112,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **將索引標籤設定在頂端可重複**：切換功能，可讓使用者啟用或停用重複功能。
 - **最小重複次數**：建立水準標籤元件可重複的最小次數。 值為零表示「水平定位點」元件不會重複；預設值為零。
 - **最大重複次數**：設定Horizontal-tab元件可重複的最大次數。 預設情況下，此值為無限制。
-若要有效管理水準標籤內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
+若要有效管理水準標籤內的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
 
 ### 專案標籤 {#items-tab}
 

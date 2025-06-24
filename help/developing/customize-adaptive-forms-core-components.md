@@ -23,8 +23,8 @@ ht-degree: 0%
 * 瞭解核心元件[&#128279;](customizing.md#customizing-the-markup-customizing-the-markup)的架構，並參閱[Adobe Experience Manager核心元件官方檔案](customizing.md)。 這些全方位的資源在整個自訂程式中都是您的指南。
 * 設定您的開發環境這可確保順利進行工作流程，以變更核心元件。 設定開發環境時，請使用以最新AEM原型專案為基礎的AEM原型專案。 根據您的環境，您可以：
 
-   * [設定Forms as a Cloud Service的本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html)。
-   * [為AEM 6.5 Forms設定本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)
+   * [設定Forms as a Cloud Service的本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=zh-Hant)。
+   * [為AEM 6.5 Forms設定本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=zh-Hant)
 
 ## 自訂最適化Forms核心元件
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. **在本機開發環境中部署及測試元件**
 
-   使用[maven在您的本機開發環境中建置和部署元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html#building-and-installing)。 部署元件後，建立最適化表單以測試自訂元件。
+   使用[maven在您的本機開發環境中建置和部署元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=zh-Hant#building-and-installing)。 部署元件後，建立最適化表單以測試自訂元件。
 
 1. **在您的生產環境中部署自訂元件**
 

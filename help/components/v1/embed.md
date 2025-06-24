@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 技術細節 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_embed_v1)上可找到有關內嵌元件的最新技術檔案。
+在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_embed_v1_tw)上可找到有關內嵌元件的最新技術檔案。
 
 在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 不過，規則比較複雜，因為內嵌元件會遵循AEM的全域HTML AntiSamy淨化架構篩選規則集（可在`/libs/cq/xssprotection/config.xml`找到）。 如有需要，開發人員可為專案特定的設定覆蓋此專案。
 
-其他安全性資訊可在適用於內部部署安裝的[AEM開發人員檔案](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)以及[AEM as a Cloud Service安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)中找到。
+其他安全性資訊可在適用於內部部署安裝的[AEM開發人員檔案](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hant)以及[AEM as a Cloud Service安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hant)中找到。
 
 >[!NOTE]
 >雖然AntiSamy淨化架構規則可透過覆蓋`/libs/cq/xssprotection/config.xml`來設定，但這些變更會影響到所有HTL和JSP行為，而不只是內嵌核心元件。

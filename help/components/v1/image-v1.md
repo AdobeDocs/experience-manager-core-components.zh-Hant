@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -83,9 +83,9 @@ ht-degree: 2%
 ![](/help/assets/chlimage_1-50.png)
 
 * **影像資產**
-   * 從[資產瀏覽器](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://helpx.adobe.com/tw/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)拖放資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**清除**&#x200B;以取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)的轉譯。
+   * 點選或按一下&#x200B;**編輯**&#x200B;以[在資產編輯器中管理資產](https://helpx.adobe.com/tw/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)的轉譯。
 
 * **影像為裝飾性** — 檢查輔助技術是否應忽略影像，因此不需要替代文字。 這僅適用於裝飾性影像。
 * **替代文字** — 影像含義或功能的替代文字，適用於視障讀者。

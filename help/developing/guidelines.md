@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 關注點分離 {#separation-of-concerns}
 
-將元件的邏輯（或模型）與標籤範本（或檢視）分離通常是好的做法。 有幾種方法可以達成此目的，不過建議的方法是為邏輯使用[Sling模型](https://sling.apache.org/documentation/bundles/models.html)，為標籤使用[HTML範本語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL)，就像核心元件一樣。
+將元件的邏輯（或模型）與標籤範本（或檢視）分離通常是好的做法。 有幾種方法可以達成此目的，不過建議的方法是為邏輯使用[Sling模型](https://sling.apache.org/documentation/bundles/models.html)，為標籤使用[HTML範本語言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant) (HTL)，就像核心元件一樣。
 
 Sling模型是一組Java註解，可從POJO輕鬆存取所需的變數，因此提供簡單、強大且有效率的方式，為元件實作Java邏輯。
 
@@ -44,7 +44,7 @@ HTL的設計初衷是針對AEM量身打造的一種安全且簡單的範本語�
 
 ### 可預先設定的功能 {#pre-configurable-capabilities}
 
-除了頁面作者使用的編輯對話方塊之外，元件也可以有設計對話方塊，供範本作者預先設定。 [範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)允許設定這些稱為「原則」的預先設定。
+除了頁面作者使用的編輯對話方塊之外，元件也可以有設計對話方塊，供範本作者預先設定。 [範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)允許設定這些稱為「原則」的預先設定。
 
 若要讓元件儘可能重複使用，應提供有意義的選項給元件，讓元件可預先設定。 這可讓您啟用或停用元件的功能，以符合不同網站的特定需求。
 
@@ -87,11 +87,11 @@ HTL的設計初衷是針對AEM量身打造的一種安全且簡單的範本語�
 
 ## 整合所有內容 {#putting-it-all-together}
 
-以下為整個資源型別繫結結構的概觀，以標題核心元件為例。 它說明網站特定的Proxy元件如何允許解析元件版本設定，以避免內容資源包含任何版本號碼。 接著它會顯示當實作透過[Sling Model](https://sling.apache.org/documentation/bundles/models.html)註解繫結至元件的特定版本時，元件的`title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)檔案如何使用模型介面。
+以下為整個資源型別繫結結構的概觀，以標題核心元件為例。 它說明網站特定的Proxy元件如何允許解析元件版本設定，以避免內容資源包含任何版本號碼。 接著它會顯示當實作透過[Sling Model](https://sling.apache.org/documentation/bundles/models.html)註解繫結至元件的特定版本時，元件的`title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant)檔案如何使用模型介面。
 
 ![資源繫結總覽](/help/assets/chlimage_1-32.png)
 
-下面是其他概觀，其中並未顯示實作POJO的詳細資料，但顯示如何參考關聯的[範本和原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html)。
+下面是其他概觀，其中並未顯示實作POJO的詳細資料，但顯示如何參考關聯的[範本和原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hant)。
 
 `cq:allowedTemplates`屬性指出哪些範本可以用於網站，而`cq:template`則指出每個頁面的關聯範本是什麼。 每個範本皆由下列三個部分組成：
 

@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
 
 ## 技術細節 {#technical-details}
 
@@ -127,7 +127,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最小重複次數**：建立精靈面板可重複的最小次數。 值為零表示「精靈」面板不會重複；預設值為零。
 - **最大重複次數**：設定精靈面板可重複的最大次數。 預設情況下，此值為無限制。
 
-若要有效管理精靈中的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
+若要有效管理精靈中的可重複區段，請依照[建立包含可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
 
 ### 專案標籤 {#items-tab}
 
