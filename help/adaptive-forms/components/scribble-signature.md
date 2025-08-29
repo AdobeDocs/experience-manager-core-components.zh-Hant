@@ -2,15 +2,17 @@
 title: 最適化Forms核心元件 — 手寫簽名
 description: 使用或自訂最適化Forms手寫簽名核心元件。
 role: Architect, Developer, Admin, User
-source-git-commit: 4218af42d947e19a65efe8839ccd4eb102fe2f21
+source-git-commit: 246a608e4c23a9075813a64691d583584164578c
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
 
 # 手寫簽名元件
+
+<span>手寫簽名元件在早期採用程式中。 您可以從您的正式電子郵件ID寫信到`aem-forms-ea@adobe.com`，以加入早期採用者程式並請求存取權能。</span>
 
 最適化表單中的手寫簽名元件是使用者介面元素，可讓使用者使用滑鼠、手寫筆或觸控熒幕，直接在表單中繪製其&#x200B;**簽名**。 它可確保數位工作流程中準確擷取手寫同意、核准或驗證。
 
