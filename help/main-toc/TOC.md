@@ -3,12 +3,12 @@ sub-product: AEM Core Components
 user-guide-title: AEM 核心元件
 breadcrumb-title: 核心元件指南
 feature: Core Components
-user-guide-description: 若是傳統的AEM專案，請使用可擴充的核心元件，讓作者輕鬆建立內容。
+user-guide-description: 針對傳統 AEM 專案，使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
+source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 38%
+source-wordcount: '397'
+ht-degree: 41%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 38%
 + [核心元件簡介](/help/introduction.md)
 + [回應式設計](/help/responsive.md)
 + [成功的途徑](/help/developing/success.md)
-+ [元件庫](https://adobe.com/go/aem_cmp_library_tw)
++ [元件庫](https://adobe.com/go/aem_cmp_library)
 + [版本](/help/versions.md)
-+ 開始使用 {#get-started}
++ 快速入門 {#get-started}
    + [使用核心元件編寫](/help/get-started/authoring.md)
    + [使用核心元件](/help/get-started/using.md)
    + [本地化功能](/help/get-started/localization.md)
@@ -111,6 +111,7 @@ ht-degree: 38%
       + [最適化Forms核取方塊](/help/adaptive-forms/components/checkbox.md)
       + [最適化Forms核取方塊群組](/help/adaptive-forms/components/checkbox-group.md)
       + [最適化Forms容器](/help/adaptive-forms/components/form-container.md)
+      + [最適化Forms日期和時間](/help/adaptive-forms/components/date-time-component.md)
       + [最適化Forms日期選擇器](/help/adaptive-forms/components/date-picker.md)
       + [最適化Forms下拉式清單](/help/adaptive-forms/components/drop-down-list.md)
       + [最適化Forms電子郵件](/help/adaptive-forms/components/email.md)
@@ -127,6 +128,7 @@ ht-degree: 38%
       + [最適化Forms選項按鈕](/help/adaptive-forms/components/radio-button.md)
       + [最適化Forms重設按鈕](/help/adaptive-forms/components/reset-button.md)
       + [自適應表單檢閱](/help/adaptive-forms/components/review.md)
+      + [最適化Forms手寫簽名](/help/adaptive-forms/components/scribble-signature.md)
       + [最適化Forms提交按鈕](/help/adaptive-forms/components/submit-button.md)
       + [最適化Forms交換器](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [最適化Forms手機](/help/adaptive-forms/components/phone.md)
@@ -141,8 +143,8 @@ ht-degree: 38%
    + [範例主題和範本](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
-   + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hant)
-   + [WKND開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
+   + [成功路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [WKND開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自訂核心元件](/help/developing/customizing.md)
    + [元件指導方針](/help/developing/guidelines.md)
    + [AMP支援](/help/developing/amp.md)
