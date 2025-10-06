@@ -1,47 +1,47 @@
 ---
-title: 表單文字元件(v1)
+title: 表單文字元件 (v1)
 description: 核心元件表單文字元件可讓您輸入表單文字以供提交。
 index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 
-# 表單文字元件(v1) {#form-text-component-v}
+# 表單文字元件 (v1) {#form-text-component-v}
 
 核心元件表單文字元件可讓您輸入表單文字以供提交。
 
-## 使用情況 {#usage}
+## 用途 {#usage}
 
-表單文字元件允許提交不同型別的文字，並打算與[表單容器元件](form-container-v1.md)搭配使用。
+表單文字元件允許提交不同類型的文字，其設計用於與[表單容器元件](form-container-v1.md)搭配使用。
 
-文字驗證型別、標籤和說明訊息可由內容編輯者在[設定對話方塊](#configure-dialog)中定義。
+文字驗證類型、標籤和說明訊息可由內容編輯者在[設定對話框](#configure-dialog)中定義。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-本檔案說明表單文字元件v1，其最初隨附於AEM 6.3的核心元件1.0.0版引入。
+本文件說明表單文字元件 v1，最初由 AEM 6.3 搭配的核心元件 1.0.0 版導入。
 
-下表列出表單文字元件v1的相容性。
+下表列出表單文字元件 v1 的相容性。
 
-| AEM 版本 | 表單文字元件v1 |
+| AEM 版本 | 表單文字元件 v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
 
 >[!CAUTION]
 >
->本檔案說明表單文字元件v1。
+>本文件說明表單文字元件 v1。
 >
->如需目前版本的表單文字元件的詳細資訊，請參閱[表單文字元件](/help/components/forms/form-text.md)檔案。
+>如需表單文字元件目前版本的詳細資訊，請參閱[表單文字元件](/help/components/forms/form-text.md)文件。
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從 [We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html) 中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -89,17 +89,17 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
+>從核心元件匯出 JSON 需要核心元件 1.1.0 版。如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
 
-## 設定對話方塊 {#configure-dialog}
+## 設定對話框 {#configure-dialog}
 
-「設定」對話方塊可讓內容作者定義要輸入的文字型別，以及預設值和標籤。
+設定對話框可讓內容作者定義要輸入的文字類型，以及預設值和標籤。
 
 ### 主要 {#main}
 
 ![](/help/assets/chlimage_1-23.png)
 
-* **限制** — 要輸入且將接受驗證的文字型別
+* **限制** - 要輸入的文字類型，並據此進行驗證
 
    * **文字**
    * **文字區域**
@@ -109,19 +109,19 @@ ht-degree: 6%
    * **數字**
    * **密碼**
 
-* **文字行** — 要在文字區域中顯示的行數（僅當&#x200B;**條件約束**&#x200B;設定為&#x200B;**文字區域**&#x200B;時才會顯示）
+* **文字行** - 要在文字區域中顯示的行數 (僅當&#x200B;**限制**&#x200B;設定為&#x200B;**文字區域**&#x200B;時才會顯示)
 
-* **標籤** — 將為欄位顯示的標籤
-* **隱藏標籤以避免顯示** — 標籤僅需用於協助工具目的且不會提供欄位任何額外視覺資訊時需要
-* **元素名稱** — 與表單資料共同提交的欄位名稱
-* **值** — 預設值（已預先填入欄位中）
+* **標籤** - 欄位上所顯示的標籤
+* **隱藏標籤以避免顯示** - 標籤僅必須在協助工具用途時才需使用，不會提供欄位任何額外的可見資訊
+* **元素名稱** - 與表單資料共同提交的欄位名稱
+* **值** - 已預先填入欄位中的預設值
 
 ### 關於 {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **說明訊息** — 使用者可在欄位中輸入的內容提示
-* **將說明訊息顯示為預留位置** — 當表單輸入為空白且焦點不在其上時，在表單輸入中顯示說明訊息
+* **說明訊息** - 向使用者提示可輸入於欄位的內容
+* **將說明訊息顯示為預留位置** - 當表單輸入為空白且焦點不在其上時，在表單輸入中顯示說明訊息
 
 ### 限制 {#constraints}
 
@@ -130,19 +130,19 @@ ht-degree: 6%
 * **限制訊息**
 
    * 如果值沒有驗證選取的類型，提交表單時訊息會顯示為工具提示
-   * 未針對&#x200B;**文字**&#x200B;和&#x200B;**文字區域**&#x200B;限制型別顯示
+   * 未針對&#x200B;**文字**&#x200B;和&#x200B;**文字區域**&#x200B;限制類型顯示
 
-* **必要** — 如果選取，使用者必須在提交表單前填入值
-* **設為唯讀** — 如果選取，使用者無法修改欄位的值
+* **必要** - 如果選取，使用者必須在提交表單前填入值
+* **設為唯讀** - 如果選取，使用者無法修改欄位的值
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-表單文字元件沒有「設計」對話方塊。
+「表單文字」元件沒有設計對話框。
 
-## 技術細節 {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)上可找到有關表單文字元件的最新技術檔案。
+[在 GitHub 上可找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)有關表單文字元件的最新技術文件。
 
-您可以從GitHub下載整個核心元件專案。
+您可以從 GitHub 下載完整的核心元件專案。
 
-在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
+如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。

@@ -1,25 +1,25 @@
 ---
-title: AEM Adaptive Forms核心元件版本
-description: AEM核心元件會以發行版本發佈，發行版本可能包含相同核心元件的多個版本。 本檔案說明什麼是發行版本和版本，以及如何瞭解與核心元件和AEM的相容性。
+title: AEM 自適應表單核心元件版本
+description: AEM 核心元件會以發行版本的形式發佈，其中可能包含同一核心元件的多個版本。本文件說明什麼是發行版本和版本，以及如何理解與核心元件和 AEM 的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# 最適化Forms核心元件發行版本 {#core-components-versions}
+# 自適應表單核心元件發行版本 {#core-components-versions}
 
-識別在您的環境中啟用最新最適化Forms核心元件所需的Forms核心元件和WCM核心元件相依性的精確版本。 此外，請詳閱各版Adaptive Forms核心元件所啟用的元件和功能。
+識別在您的環境中啟用最新自適應表單核心元件所需的表單核心元件和 WCM 核心元件相依性的精確版本。此外，請熟悉每個自適應表單核心元件發行版本所啟用的元件和功能。
 
-## AEM Forms作為Cloud Service版本記錄 {#aem-as-cs-version-history}
+## AEM Forms as Cloud Service 版本歷史記錄 {#aem-as-cs-version-history}
 
-與AEM as a Cloud Service相容的核心元件版本可在[GitHub上取得，連同其版本的完整詳細資料](https://github.com/adobe/aem-core-forms-components/releases)。
+與 AEM as a Cloud Service 相容的核心元件發行版本可在 [GitHub 上取得，連同其發行版本的完整詳細資訊](https://github.com/adobe/aem-core-forms-components/releases)。
 
-若要檢視AEM as a Cloud Service的核心元件版本記錄，[請按一下這裡](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md)。
+若要檢視 AEM as a Cloud Service 的核心元件版本歷史記錄，[請按一下此處](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md)。
 
 
 <!--
@@ -115,11 +115,11 @@ ht-degree: 1%
 
 -->
 
-## AEM 6.5 Forms版本記錄 {#aem-as-form-version-history}
+## AEM 6.5 Forms 版本歷史記錄 {#aem-as-form-version-history}
 
-與AEM 6.5 Form內部部署和AMS相容的核心元件版本可在[GitHub上取得，連同其版本的完整詳細資料](https://github.com/adobe/aem-core-forms-components/releases)。
+與 AEM 6.5 Form 內部部署和 AMS 相容的核心元件發行版本可在 [GitHub 上取得，連同其發行版本的完整詳細資訊](https://github.com/adobe/aem-core-forms-components/releases)。
 
-若要檢視AEM 6.5 Form內部部署和AMS的核心元件版本記錄，[請按一下這裡](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md)。
+若要檢視 AEM 6.5 Form 內部部署和 AMS 的核心元件版本歷史記錄，[請按一下此處](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md)。
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

@@ -1,140 +1,140 @@
 ---
-title: 收合式選單元件
-description: 「核心元件摺疊式功能表」元件可讓您在頁面上建立以摺疊式功能表排列的面板集合。
+title: 摺疊面板元件
+description: 「核心元件摺疊面板」元件可讓您在頁面上建立以摺疊面板排列的面板集合。
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# 收合式選單元件{#accordion-component}
+# 摺疊面板元件{#accordion-component}
 
-「核心元件摺疊式功能表」元件可讓您在頁面上建立以摺疊式功能表排列的面板集合。
+「核心元件摺疊面板」元件可讓您在頁面上建立以摺疊面板排列的面板集合。
 
 {{traditional-aem}}
 
-## 使用情況 {#usage}
+## 用途 {#usage}
 
-核心元件摺疊式功能表元件允許建立元件集合（由面板組成），並在頁面上以摺疊式功能表排列，類似於[索引標籤元件](tabs.md)，但允許展開和摺疊面板。
+核心元件摺疊面板元件允許建立元件集合 (由面板組成)，並在頁面上以摺疊面板排列，類似於[索引標籤元件](tabs.md)，但允許展開和收合面板。
 
-* 摺疊式功能表的屬性可在[設定對話方塊](#configure-dialog)中定義。
-* 摺疊面板的順序可以在「設定」對話方塊以及[選取面板彈出視窗](#select-panel-popover)中定義。
-* 將摺疊式功能表元件新增至頁面時的預設值可以在[設計對話方塊](#design-dialog)中定義。
+* 該摺疊面板的屬性可在[設定對話框](#configure-dialog)中定義。
+* 摺疊面板的順序可以在設定對話框以及[選取面板彈出視窗](#select-panel-popover)中定義。
+* 將摺疊面板元件新增至頁面時，可在[設計對話框](#design-dialog)中定義預設值。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-摺疊式功能表元件的目前版本是v1，此版本隨2019年6月的核心元件發行版本2.5.0的發佈引入，說明見本文。
+摺疊面板元件的目前版本為 v1，此版本於 2019 年 6 月隨著核心元件 2.5.0 版發行導入，詳情請參閱本文件。
 
-下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明該元件的所有支援版本、與元件版本相容的 AEM 版本，以及舊版文件的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| v1 | 與<br>[版本2.17.4](/help/versions.md)和先前版本相容 | 相容 | 相容 | 相容 |
+| v1 | 與 <br>[2.17.4 版](/help/versions.md)及更早版本相容 | 相容 | 相容 | 相容 |
 
-如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
+如需核心元件版本和發行版本的進一步詳細資訊，請參閱[核心元件版本](/help/versions.md)文件。
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗摺疊式功能表元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_accordion_tw)。
+若要體驗「摺疊面板元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_accordion)」。
 
-## 技術細節 {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_accordion_v1_tw)上可找到有關摺疊式功能表元件的最新技術檔案。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_accordion_v1)有關摺疊面板元件的最新技術文件。
 
-在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
+如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
-## 面板的深層連結 {#deep-linking}
+## 深度連結至面板 {#deep-linking}
 
-摺疊式功能表、[輪播、](carousel.md)及[索引標籤元件](tabs.md)支援直接連結至元件中的面板。
+摺疊面板、[輪播、](carousel.md)和[索引標籤元件](tabs.md)支援直接連結至元件中的面板。
 
-若要這麼做：
+執行方法：
 
-1. 在頁面編輯器中使用&#x200B;**[以發佈的形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
-1. 檢查頁面內容並識別面板的ID。
-   * 例如`id="accordion-86196c94d3-item-ca319dbb0b"`
-1. ID會成為您可以使用雜湊(`#`)附加至URL的錨點。
-   * 例如`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+1. 在頁面編輯器中使用&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
+1. 檢查頁面內容並識別面板的 ID。
+   * 例如：`id="accordion-86196c94d3-item-ca319dbb0b"`
+1. ID 可以使用井字號 (`#`) 附加至 URL 成為錨點。
+   * 例如：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-導覽至將面板ID當作錨點的URL，瀏覽器會直接捲動至特定元件，並顯示指定的面板。 如果面板預設為不展開，則會自動展開。
+導覽至將面板 ID 作為錨點的 URL 時，瀏覽器會直接捲動至特定元件，並顯示指定的面板。如果面板預設為不展開，則將會自動展開。
 
 ## 摺疊面板和回應式設計 {#responsive-design}
 
-所有核心元件的設計都可充分回應，確保裝置間的順暢體驗。
+所有「核心元件」都設計為可充分回應，以確保裝置間的順暢體驗。
 
-有些進階元件（例如摺疊式功能表元件）在執行專案的內容中可能需要特別考量，以保持在所有條件下的回應能力。 如需詳細資訊，請參閱檔案[核心元件的回應式設計](/help/responsive.md)。
+某些進階元件 (如摺疊面板元件) 在實施專案的內容中可能需要特別考量，以保持在所有條件下的回應能力。如需詳細資訊，請參閱[核心元件的回應式設計](/help/responsive.md)文件。
 
-## 設定對話方塊 {#configure-dialog}
+## 設定對話框 {#configure-dialog}
 
-此設定對話方塊可讓內容作者定義摺疊式功能表專案、其面板，以及對於頁面的訪客它會如何表現和顯示。
+設定對話框可讓內容作者定義摺疊面板項目、其面板，以及其對頁面訪客的行為與顯示方式。
 
-### 專案標籤 {#items-tab}
+### 項目索引標籤 {#items-tab}
 
-摺疊式元件之編輯對話方塊的![專案索引標籤](/help/assets/accordion-edit-items.png)
+![摺疊面板元件編輯對話框的項目索引標籤](/help/assets/accordion-edit-items.png)
 
-使用&#x200B;**新增**&#x200B;按鈕開啟元件選擇器，選擇要新增為面板的元件。 新增專案後，專案會新增到清單中，包含以下欄：
+使用&#x200B;**新增**&#x200B;按鈕開啟元件選擇器，選擇要新增為面板的元件。新增後，就會在清單中新增一個項目，其中包含以下各欄：
 
-* **圖示** — 面板的元件型別圖示，可在清單中輕鬆識別。 將滑鼠移到上方以檢視完整的元件名稱作為工具提示。
-* **描述** — 用來做為面板文字的描述，預設為針對面板選取的元件名稱。
-* **刪除** — 點選或按一下以從摺疊式功能表元件刪除面板。
-* **重新排列** — 點選或按一下並拖曳以重新排列面板。
+* **圖示** - 面板元件類型的圖示，以便在清單中輕鬆識別。將滑鼠移至上方，即可看到包含完整元件名稱的工具提示。
+* **說明** - 說明作為面板文字使用，預設為所選取的面板元件名稱。
+* **刪除** - 點選或按一下，以從摺疊面板元件刪除該面板。
+* **重新排列** - 點選或按一下並拖曳，以重新排列面板的順序。
 
 >[!TIP]
 >
->如果減少頁面的檢視區以便讓編輯對話方塊變成全熒幕，將會隱藏&#x200B;**新增**&#x200B;按鈕。 您仍可透過[從元件瀏覽器拖曳並放置在頁面編輯器](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)中的摺疊式元件上，將元件新增至摺疊式元件。
+>若縮小頁面檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。元件仍可新增至摺疊面板元件，只需[從元件瀏覽器拖曳並放置到頁面編輯器的摺疊面板元件上](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
-### 屬性標籤 {#properties-tab}
+### 屬性索引標籤 {#properties-tab}
 
-摺疊式功能表元件![&#128279;](/help/assets/accordion-edit-properties.png)之編輯對話方塊的屬性標籤
+![摺疊面板元件編輯對話框的屬性索引標籤](/help/assets/accordion-edit-properties.png)
 
-* **單一專案展開** — 選取時，此選項會強制一次展開單一摺疊專案。 展開一個專案後，其他所有專案都會摺疊。
-* **展開的專案** — 此選項會定義載入頁面時預設展開的專案。
-   * 選取&#x200B;**單一專案展開**&#x200B;時，必須選取一個面板。 依預設，會選取第一個面板。
-   * 未選取&#x200B;**單一專案展開**&#x200B;時，此選項為多重選取且是選擇性的。
-* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
-   * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
-   * 若指定ID，作者應負責確認該ID為唯一ID。
-   * 變更ID會對CSS、JS和資料層追蹤造成影響。
+* **單一項目展開** - 選取後，此選項會強制一次展開單一摺疊面板項目。展開一個項目後，其他所有項目都會收合。
+* **展開的項目** - 此選項會定義載入頁面時預設展開的項目。
+   * 選取&#x200B;**單一項目展開** 時，必須選取一個面板。根據預設，會選取第一個面板。
+   * 未選取&#x200B;**單一項目展開**&#x200B;時，此選項為多重選取且是選擇性的。
+* **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+   * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
+   * 若已指定 ID，則作者應確保其為唯一識別碼。
+   * 變更該 ID 會對 CSS、JS 和「資料層」追蹤造成影響。
 
 ## 選取面板彈出視窗 {#select-panel-popover}
 
-內容作者可以使用元件工具列上的&#x200B;**選取面板**&#x200B;選項，變更到不同的面板進行編輯，以及輕鬆地重新排列摺疊中的面板。
+內容作者可使用元件工具列中的&#x200B;**選取面板**&#x200B;選項，切換至不同面板進行編輯，亦可輕鬆重新排列摺疊面板內的面板順序。
 
 ![選取面板圖示](/help/assets/select-panel-icon.png)
 
-在元件工具列中選取&#x200B;**選取面板**&#x200B;選項後，已設定的摺疊式功能表面板會顯示為下拉式清單。
+在元件工具列中選取&#x200B;**選取面板**&#x200B;選項後，已設定的摺疊面板會顯示為下拉式清單。
 
 ![選取面板彈出視窗](/help/assets/select-panel-popover.png)
 
-* 清單會依指派的面板排列方式排序，並反映在編號中。
-* 首先顯示面板的元件型別，然後是較細字型的面板說明。
-* 在下拉式清單中點選或按一下專案，會在編輯器中將檢視切換至該面板。
-* 您可以使用拖曳操作框就地重新排列面板。
+* 清單會根據指派給面板的排列方式排序，並反映在編號中。
+* 首先顯示面板元件類型，後面接著以較淺的字體顯示面板說明。
+* 在下拉式清單中點選或按一下項目，將編輯器中的視圖切換至該面板。
+* 您可以使用拖曳控點就地重新排列面板。
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-「設計」對話方塊可讓範本作者定義哪些選項可供使用摺疊式功能表元件的內容作者使用，以及在放置摺疊式功能表元件時的預設設定。
+透過設計對話框，範本作者可為使用摺疊面板元件的內容作者定義可用選項，以及在放置摺疊面板元件時所設定的預設值。
 
-### 屬性標籤 {#properties-tab-design}
+### 屬性索引標籤 {#properties-tab-design}
 
-![設計對話方塊屬性索引標籤](/help/assets/accordion-design-properties.png)
+![設計對話框屬性索引標籤](/help/assets/accordion-design-properties.png)
 
-* **允許的標題元素** — 此多選下拉式清單會定義允許由作者選取的收合式選單專案標題HTML元素。
-* **預設標題元素** — 此下拉式清單會定義預設摺疊式功能表專案標題HTML元素。
+* **允許的標題元素** - 此多選下拉式清單會定義允許由作者選取的摺疊面板項目標題 HTML 元素。
+* **預設標題元素** - 此下拉式清單會定義預設摺疊面板項目標題 HTML 元素。
 
-### 允許的元件標籤 {#allowed-components-tab}
+### 允許的元件索引標籤 {#allowed-components-tab}
 
-**允許的元件**&#x200B;索引標籤是用來定義哪些元件可由內容作者新增為摺疊式元件中的面板。
+**允許的元件**&#x200B;索引標籤用於定義可供內容作者作為項目新增至摺疊面板元件中面板的元件。
 
-當[在範本編輯器中定義配置容器的原則與屬性時，「允許的元件」索引標籤的功能與相同名稱的索引標籤相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant#editing-a-template-layout-template-author)
+[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)時，允許的元件索引標籤與同名索引標籤的功能相同。
 
 ### 樣式索引標籤 {#styles-tab}
 
-摺疊式功能表元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
+摺疊面板元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ## Adobe Client Data Layer {#data-layer}
 
-摺疊式功能表元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)
+「摺疊面板元件」支援 [Adobe Client Data Layer。](/help/developing/data-layer/overview.md)

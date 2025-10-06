@@ -1,51 +1,51 @@
 ---
-title: 頁面元件(v1)
-description: 「頁面元件」是可延伸的頁面元件，設計用於範本編輯器，並允許使用範本編輯器來組裝頁首/頁尾和結構元件。
+title: 頁面元件 (v1)
+description: 頁面元件是可擴充的頁面元件，旨在與範本編輯器搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# 頁面元件(v1) {#page-component-v}
+# 頁面元件 (v1) {#page-component-v}
 
-頁面元件是可擴充的頁面元件，設計用於[範本編輯器](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/templates.html)，並允許使用範本編輯器來組裝頁首/頁尾和結構元件。
+頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/templates.html)搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
 
-## 使用情況 {#usage}
+## 用途 {#usage}
 
-頁面元件構成了使用核心元件以及可編輯範本設計的所有頁面的基礎。 透過使用頁面元件，可以使用其他核心元件將頁首、頁尾和頁面結構定義為範本。
+頁面元件構成了使用核心元件以及可編輯範本設計的所有頁面的基礎。使用頁面元件時，可以使用其他核心元件將頁首、頁尾和頁面結構定義為範本。
 
-使用[設計對話方塊](#design-dialog)，可以為頁面定義自訂使用者端資料庫。 有別於可從元件直接存取編輯對話方塊的其他元件，由於元件是頁面本身，頁面元件的[編輯對話方塊](#edit-dialog)是頁面屬性視窗。
+使用[設計對話框](#design-dialog)，可以為頁面定義自訂用戶端程式庫。不同於可從元件直接存取編輯對話框的其他元件，由於元件是頁面本身，頁面元件的[編輯對話框](#edit-dialog)為頁面屬性視窗。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-本檔案說明頁面元件v1，其最初隨附於AEM 6.3的核心元件1.0.0版引入。
+本文件說明頁面元件 v1，最初由 AEM 6.3 搭配的核心元件 1.0.0 版導入。
 
-下表列出頁面元件v1的相容性。
+下表列出頁面元件 v1 的相容性。
 
-| AEM 版本 | 頁面元件v1 |
+| AEM 版本 | 頁面元件 v1 |
 |--- |--- |
 | 6.3 | 相容 |
 | 6.4 | 相容 |
 
 >[!CAUTION]
 >
->本檔案說明頁面元件v1。
+>本文件說明頁面元件 v1。
 >
->如需目前版本的頁面元件詳細資訊，請參閱[頁面元件](/help/components/page.md)檔案。
+>如需頁面元件目前版本的詳細資訊，請參閱[頁面元件](/help/components/page.md)文件。
 
 >[!NOTE]
 >
->頁面元件的v1不支援頁面重新導向。 請使用目前版本的[頁面元件](/help/components/page.md)以支援頁面重新導向。
+>頁面元件 v1 不支援頁面重新導向。如需頁面重新導向支援，請使用[頁面元件的目前版本](/help/components/page.md)。
 
 ## 範例元件輸出 {#sample-component-output}
 
-以下是從[We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html)中取得的範例。
+以下是從 [We.Retail](https://helpx.adobe.com/tw/experience-manager/6-4/sites/developing/using/we-retail.html) 中取得的範例。
 
 ### 螢幕擷圖 {#screenshot}
 
@@ -679,32 +679,32 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->從核心元件匯出JSON需要版本1.1.0的核心元件。 如需詳細資訊，請參閱核心元件v1[&#128279;](/help/versions.md)的相容性資訊。
+>從核心元件匯出 JSON 需要核心元件 1.1.0 版。如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
 
-## 編輯對話方塊 {#edit-dialog}
+## 編輯對話框 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話方塊中的設定可在[頁面屬性](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)視窗中找到。
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-因為元件代表整個頁面，所以可透過&#x200B;**頁面資訊 — >頁面設計**&#x200B;存取設計對話方塊。
+因為該元件代表整個頁面，所以可透過&#x200B;**頁面資訊 -> 頁面設計**&#x200B;存取設計對話框。
 
 ![](/help/assets/chlimage_1-94.png)
 
-使用「頁面設計」視窗，您可以定義應隨頁面載入的使用者端程式庫。
+使用「頁面設計」視窗，您可以定義應隨頁面載入的用戶端程式庫。
 
 * 若要新增欄位，請按一下或點選欄位下方的&#x200B;**新增**&#x200B;按鈕。
 * 若要移除欄位，請按一下或點選要移除欄位旁的垃圾桶圖示。
 * 若要重新排列載入順序，請按一下或點選並拖曳要移動欄位旁的控點。
 
-如需有關使用使用者端資料庫的詳細資訊，請參閱[使用使用者端資料庫](https://helpx.adobe.com/tw/experience-manager/6-3/sites/developing/using/clientlibs.html)。
+如需有關使用用戶端程式庫的進一步詳細資訊，請參閱[使用用戶端程式庫](https://helpx.adobe.com/tw/experience-manager/6-3/sites/developing/using/clientlibs.html)。
 
 ![](/help/assets/chlimage_1-95.png)
 
-## 技術細節 {#technical-details}
+## 技術詳細資訊 {#technical-details}
 
-在GitHub[&#128279;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)上可找到有關頁面元件的最新技術檔案。
+[在 GitHub 上可找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)有關頁面元件的最新技術文件。
 
-您可以從GitHub下載整個核心元件專案。
+您可以從 GitHub 下載完整的核心元件專案。
 
-在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
+如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。

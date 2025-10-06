@@ -1,31 +1,31 @@
 ---
-title: 列出元件
+title: 清單元件
 description: 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# 列出元件{#list-component}
+# 清單元件{#list-component}
 
 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
 
 {{traditional-aem}}
 
-## 使用情況 {#usage}
+## 用途 {#usage}
 
-例如，清單元件可用於建立子頁面的動態清單或任意定義專案的靜態清單。 範本作者可在[設計對話方塊](#design-dialog)中定義可用的清單型別和格式選項。 內容編輯者可以在[編輯對話方塊](#edit-dialog)中，從可用的清單型別以及如何格式化清單元素中選取。
+清單元件可用於建立下層頁面的動態清單或任意定義項目的靜態清單。範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
 
 ## 版本和相容性 {#version-and-compatibility}
 
-清單元件的目前版本是v4，此版本隨2023年2月的核心元件發行版本2.22.0的發佈引入，具體說明見本文。
+清單元件的目前版本為 v4，此版本於 2023 年 2 月隨著核心元件 2.22.0 版發行導入，詳情請參閱本文件。
 
-下表詳細說明元件的所有支援版本、與元件版本相容的AEM版本，以及舊版檔案的連結。
+下表詳細說明該元件的所有支援版本、與元件版本相容的 AEM 版本，以及舊版文件的連結。
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
@@ -34,115 +34,115 @@ ht-degree: 2%
 | [v2](/help/components/v2/list.md) | 相容 | 相容 | - | 相容 |
 | [v1](/help/components/v1/list-v1.md) | 相容 | 相容 | - | 相容 |
 
-如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本](/help/versions.md)。
+如需核心元件版本和發行版本的進一步詳細資訊，請參閱[核心元件版本](/help/versions.md)文件。
 
 ## 清單中的重新導向 {#redirects}
 
-當頁面具有重新導向目標時(無論它指向的是外部URL還是另一個AEM頁面)，則包含指向該點的連結的清單將直接指向重新導向目標的URL。
+當頁面具有重新導向目標時 (無論它指向的是外部 URL 還是另一個 AEM 頁面)，則包含其連結的清單會直接指向重新導向目標的 URL。
 
 ### 範例 {#redirect-example}
 
-* 建立重新導向至頁面B的頁面A。
-* 建立重新導向至`https://aemcomponents.dev`的頁面C
-* 在頁面D上，插入包含頁面A和C的清單元件
-* 接著產生的個別連結會直接指向頁面B和`https://aemcomponents.dev`
+* 建立重新導向至頁面 B 的頁面 A。
+* 建立重新導向至 `https://aemcomponents.dev` 的頁面 C
+* 在頁面 D 上，插入包含頁面 A 和 C 的清單元件
+* 接著產生的個別連結會直接指向頁面 B 和 `https://aemcomponents.dev`
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗清單元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫](https://adobe.com/go/aem_cmp_library_list_tw)。
+若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list)」。
 
-### 技術細節 {#technical-details}
+### 技術詳細資訊 {#technical-details}
 
-在GitHub[&#128279;](https://adobe.com/go/aem_cmp_tech_list_v3_tw)上可找到有關清單元件的最新技術檔案。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v3)有關清單元件的最新技術文件。
 
-在[核心元件開發人員檔案](/help/developing/overview.md)中可找到有關開發核心元件的進一步詳細資料。
+如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
-## 編輯對話方塊 {#edit-dialog}
+## 編輯對話框 {#edit-dialog}
 
-編輯對話方塊可讓內容作者設定清單和清單專案。
+編輯對話框可讓內容作者設定清單和清單項目。
 
-### 清單設定標籤 {#list-settings-tab}
+### 清單設定索引標籤 {#list-settings-tab}
 
-清單可透過不同方式建立。
+清單可透過不同方式建置。
 
-* [子頁面](#child-pages)
+* [下層頁面](#child-pages)
 * [固定清單](#fixed-list)
 * [搜尋](#search-options)
 * [標記](#tags)
 
-無論清單的建置方式為何，一律可以設定[排序和ID選項](#sort-options)。
+無論清單的建置方式為何，一律可以設定[排序和 ID 選項](#sort-options)。
 
-![清單元件的編輯對話方塊](/help/assets/list-edit.png)
+![清單元件的編輯對話框](/help/assets/list-edit.png)
 
-視內容作者選擇建立清單的方式而定，其他設定選項將會變更。
+根據內容作者選擇建置清單的方式而定，其他設定選項將會變更。
 
-#### 子頁面 {#child-pages}
+#### 下層頁面 {#child-pages}
 
-清單可由目前頁面或其他頁面的子頁面建置。
+清單可由目前頁面或其他頁面的下層頁面建置。
 
-![子頁面選項](/help/assets/list-edit-child-pages.png)
+![下層頁面選項](/help/assets/list-edit-child-pages.png)
 
-* **父頁面**
-   * 其子頁面應該產生清單的頁面
+* **上層頁面**
+   * 其下層頁面應該產生清單的頁面
    * 留空將使用目前頁面
 
-* **子項深度**
-應該使用階層中向下的層級數
+* **下層深度**
+要向下使用階層中的多少個層級
 
 #### 固定清單 {#fixed-list}
 
-清單可使用固定專案清單建立。
+清單可使用固定項目清單建立。
 
 ![固定清單選項](/help/assets/list-edit-fixed.png)
 
-點選或按一下&#x200B;**新增**&#x200B;按鈕，將新專案插入清單。
+點選或按一下&#x200B;**新增**&#x200B;按鈕，將新項目插入清單。
 
-* 在&#x200B;**連結**&#x200B;欄位中，輸入
-   * 完整URL
-   * 現有AEM內容的相對URL
-      * 您可以使用&#x200B;**選取範圍對話方塊**&#x200B;從AEM中選擇專案。
+* 在&#x200B;**連結**&#x200B;欄位中輸入以下任一：
+   * 完整 URL
+   * 現有 AEM 內容的相對 URL
+      * 您可以使用&#x200B;**選取對話框** 從 AEM 選擇項目。
 * 在&#x200B;**文字**&#x200B;欄位中，輸入清單中連結顯示的文字。
-* 如果連結應在新的瀏覽器分頁中開啟，請核取核取方塊
+* 如果連結應在新的瀏覽器索引標籤中開啟，請勾選核取方塊
 
-一旦為清單建立了多個專案，您就可以排列清單。
+一旦為清單建立了多個項目，您就可以排列清單。
 
-* 使用拖曳控點來重新排列清單中的專案。
-* 使用垃圾桶圖示可刪除清單中的專案。
+* 使用拖曳控點來重新排列清單中的項目。
+* 使用垃圾桶圖示可刪除清單中的項目。
 
 #### 搜尋 {#search-options}
 
-清單可使用搜尋AEM內容的結果來建立。
+清單可使用搜尋 AEM 內容的結果來建立。
 
 ![搜尋清單選項](/help/assets/list-edit-search.png)
 
 * **搜尋查詢**
-執行全文檢索搜尋以產生清單元素的字串
-* **搜尋**
+執行全文搜尋以產生清單元素的字串
+* **搜尋位置**
 應在何處執行搜尋
-   * 使用&#x200B;**選取範圍對話方塊**&#x200B;在AEM中選擇位置
+   * 使用&#x200B;**選取對話框**&#x200B;在 AEM 中選擇位置
    * 如果留空則使用目前頁面
 
 #### 標記 {#tags}
 
-清單可使用在特定位置下符合特定標籤的頁面來建立。
+清單可使用在特定位置下符合特定標記的頁面來建立。
 
-![標籤清單選項](/help/assets/list-edit-tags.png)
+![標記清單選項](/help/assets/list-edit-tags.png)
 
-* **父頁面**
-開始標籤比對的位置
-   * 使用&#x200B;**選取範圍對話方塊**&#x200B;在AEM中選擇位置
+* **上層頁面**
+應開始標記比對的位置
+   * 使用&#x200B;**選取對話框**&#x200B;在 AEM 中選擇位置
    * 如果留空則使用目前頁面
-* **標籤**
-應該比對哪些標籤
-   * 使用&#x200B;**瀏覽**&#x200B;對話方塊來選取標籤
+* **標記**
+應該比對哪些標記
+   * 使用&#x200B;**瀏覽**&#x200B;對話框來選取標記
 * **符合**
-定義用什麼相符型別來限定要包含在清單中的頁面
-   * **任何標籤**
-   * **所有標籤**
+定義哪種類型的符合條件可使頁面列入清單
+   * **任何標記**
+   * **所有標記**
 
 #### 排序選項 {#sort-options}
 
-無論您選擇如何建立清單，都可隨時定義特定的排序選項。
+無論您選擇如何建置清單，都可隨時定義特定的排序選項。
 
 ![排序選項](/help/assets/list-edit-sort-options.png)
 
@@ -151,76 +151,76 @@ ht-degree: 2%
    * **標題**
    * **上次修改日期**
 * **排序順序**
-專案應排序的順序
-   * **遞增**
+項目應排序的順序
+   * **升序**
    * **降序**
-* **最大專案**
-在清單中顯示的最大專案數。
-   * 留空將傳回所有專案。
-* **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
-   * 如果保留為空白，系統會自動為您產生唯一ID，並可透過檢查結果頁面找到該ID。
-   * 若指定ID，作者應負責確認該ID為唯一ID。
-   * 變更ID會對CSS、JS和資料層追蹤造成影響。
+* **最大項目**
+在清單中顯示的最大項目數。
+   * 留空將傳回所有項目。
+* **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
+   * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
+   * 若已指定 ID，則作者應確保其為唯一識別碼。
+   * 變更該 ID 會對 CSS、JS 和「資料層」追蹤造成影響。
 
-### 專案設定標籤 {#item-settings-tab}
+### 項目設定索引標籤 {#item-settings-tab}
 
-使用「專案設定」標籤，可以設定清單元素的格式設定。
+使用項目設定索引標籤，可設定清單元素的格式。
 
-![專案設定](/help/assets/list-edit-item-settings.png)
+![項目設定](/help/assets/list-edit-item-settings.png)
 
-* **連結專案** — 將專案連結至對應的頁面
-* **顯示描述** — 顯示連結專案的描述
-* **顯示日期** — 顯示連結專案的修改日期
-* **顯示為Teaser** — 選取時，專案會顯示為Teaser
+* **連結項目** - 連結項目至相應頁面
+* **顯示說明** - 顯示連結項目的說明
+* **顯示日期** - 顯示連結項目修改日期
+* **顯示為 Teaser** - 勾選後，項目會顯示為 Teaser
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
-清單元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
+清單元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取要套用至元件的樣式。 在「編輯」對話方塊中所做的選取與從元件工具列中選擇的選取具有相同的效果。
+使用下拉式清單，選取想要套用至元件的樣式。在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
 
-必須在[設計對話方塊](#design-dialog)中為此元件設定樣式，以便下拉式功能表可用。
+元件樣式必須在[設計對話框](#design-dialog)中設定，才能使用該下拉式清單。
 
-清單元件![&#128279;](/help/assets/list-edit-styles.png)之編輯對話方塊的樣式索引標籤
+![清單元件編輯對話框的樣式索引標籤](/help/assets/list-edit-styles.png)
 
-## 設計對話方塊 {#design-dialog}
+## 設計對話框 {#design-dialog}
 
-「設計」對話方塊可讓範本作者定義允許內容作者使用的清單型別以及可用的專案設定。
+透過設計對話框，範本作者可定義應允許內容作者使用的清單類型，以及可用的項目設定。
 
 ### 清單設定 {#list-settings}
 
-在&#x200B;**清單設定**&#x200B;索引標籤上，可以定義日期格式以及在元件中什麼型別的清單可供內容作者使用。
+在&#x200B;**清單設定**&#x200B;索引標籤上，可以定義日期格式以及在元件中什麼類型的清單可供內容作者使用。
 
-![清單元件的設計對話方塊清單設定](/help/assets/list-design-list-settings.png)
+![清單元件的設計對話框清單設定](/help/assets/list-design-list-settings.png)
 
 * **日期格式**
 用於顯示上次修改日期的格式
-* **停用子項**
-停用元件中的子項清單型別
+* **停用下層**
+停用元件中的下層清單類型
 * **停用靜態**
-停用元件中的靜態清單型別
+停用元件中的靜態清單類型
 * **停用搜尋**
-停用元件中的搜尋清單型別
-* **停用標籤**
-停用元件中的標籤清單型別
+停用元件中的搜尋清單類型
+* **停用標記**
+停用元件中的標記清單類型
 
 ### 項目設定 {#item-settings}
 
-在&#x200B;**專案設定**&#x200B;索引標籤上，可以定義在元件中可供內容作者使用的個別清單元素的格式選項。
+在&#x200B;**項目設定**&#x200B;索引標籤上，可以定義在元件中可供內容作者使用的個別清單元素的格式選項。
 
-![清單元件的設計對話方塊專案設定](/help/assets/list-design-item-settings.png)
+![清單元件的設計對話框項目設定](/help/assets/list-design-item-settings.png)
 
-* **連結專案**
-在[編輯對話方塊](#edit-dialog)中啟用連結專案選項
+* **連結項目**
+在[編輯對話框](#edit-dialog)中啟用連結項目選項
 * **顯示說明**
-在[編輯對話方塊](#edit-dialog)中啟用[顯示說明]選項
+在[編輯對話框](#edit-dialog)中啟用顯示說明選項
 * **顯示日期**
-在[編輯對話方塊](#edit-dialog)中啟用[顯示日期]選項
+在[編輯對話框](#edit-dialog)中啟用顯示日期選項
 
 ### 樣式索引標籤 {#styles-tab}
 
-影像元件支援AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
+影像元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ## Adobe Client Data Layer {#data-layer}
 
-清單元件支援[Adobe使用者端資料層。](/help/developing/data-layer/overview.md)
+「清單元件」支援 [Adobe Client Data Layer。](/help/developing/data-layer/overview.md)
