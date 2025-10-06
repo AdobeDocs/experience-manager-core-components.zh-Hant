@@ -14,11 +14,11 @@ ht-degree: 100%
 
 # 電子郵件內容片段元件 {#email-content-fragment-component}
 
-「電子郵件內容片段」元件允許在您的內容中顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+「電子郵件內容片段」元件允許在您的內容中顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 ## 用途 {#usage}
 
-「電子郵件內容片段元件」允許在您的電子郵件內容中包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。內容片段為多管道結構化內容，可以集中編寫並輕鬆重複使用。
+「電子郵件內容片段元件」允許在您的電子郵件內容中包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。內容片段為多管道結構化內容，可以集中編寫並輕鬆重複使用。
 
 * 可在[設定對話框](#configure-dialog)中選取片段及其屬性。
 * 可在[設計對話框](#design-dialog)中定義處理特定影像和格線的資源類型。
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ![電子郵件的內容片段編輯器](/help/email/assets/email-content-fragment-editor.png)
 
-如需編輯和製作內容片段的進一步詳細資訊，請參閱[製作片段內容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=zh-Hant)文件。
+如需編輯和製作內容片段的進一步詳細資訊，請參閱[製作片段內容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)文件。
 
 ## 設計對話框 {#design-dialog}
 

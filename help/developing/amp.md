@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### 啟用頁面 AMP {#enabling-amp}
 
-若要啟用頁面 AMP，必須在[頁面原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant#editing-a-template-page-policy-template-author-developer)中選取 **AMP 模式**。
+若要啟用頁面 AMP，必須在[頁面原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)中選取 **AMP 模式**。
 
 ![AMP 頁面原則選項](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 * **與 AMP 同步** - 頁面會以 AMP 及 HTML 形式傳遞。
 * **僅限 AMP** - 僅以 AMP 傳遞頁面。
 
-個別頁面的[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)也可以覆寫頁面的 AMP 設定。
+個別頁面的[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)也可以覆寫頁面的 AMP 設定。
 
 ![AMP 頁面屬性](/help/assets/amp-page-properties.png)
 

@@ -32,17 +32,17 @@ AEM 專案原型是一種 Maven 範本，其以最佳實務為基礎建立簡化
 
 * **最佳實務：**&#x200B;使用 Adobe 的所有最新推薦實務來啟動您的網站。
 * **低程式碼：**&#x200B;編輯您的範本、建立內容、部署您的 CSS，您的網站就可以上線了。
-* **雲端就緒：**&#x200B;如有需要，請使用 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant) 在幾天內即可上線，並簡化擴充性和維護作業。
-* **Dispatcher：**&#x200B;僅有具備可確保速度和安全性的[Dispatcher 設定](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hant)，專案才算完整。
-* **多網站：**&#x200B;如果需要，原型會產生[多語言和多區域設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html?lang=zh-Hant)的內容結構。
+* **雲端就緒：**&#x200B;如有需要，請使用 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 在幾天內即可上線，並簡化擴充性和維護作業。
+* **Dispatcher：**&#x200B;僅有具備可確保速度和安全性的[Dispatcher 設定](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html)，專案才算完整。
+* **多網站：**&#x200B;如果需要，原型會產生[多語言和多區域設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html)的內容結構。
 * **核心元件：**&#x200B;使用我們通用的[標準化元件集](/help/introduction.md)，作者幾乎能建立任何版面。
-* **可編輯的範本：**&#x200B;組合出幾乎任何[無需程式碼的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=zh-Hant)，並定義作者可編輯的內容。
-* **回應式版面：**&#x200B;在範本或個別頁面上，為定義的中斷點[定義元素如何重排](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html?lang=zh-Hant) 。
-* **頁首與頁尾：**&#x200B;使用[元件的本地化功能](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html?lang=zh-Hant)，無需程式碼即可完成組裝和本地化。
-* **樣式系統：**&#x200B;允許作者為元件[套用不同的樣式](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html?lang=zh-Hant)，可避免建置自訂元件。
+* **可編輯的範本：**&#x200B;組合出幾乎任何[無需程式碼的範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，並定義作者可編輯的內容。
+* **回應式版面：**&#x200B;在範本或個別頁面上，為定義的中斷點[定義元素如何重排](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html) 。
+* **頁首與頁尾：**&#x200B;使用[元件的本地化功能](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)，無需程式碼即可完成組裝和本地化。
+* **樣式系統：**&#x200B;允許作者為元件[套用不同的樣式](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)，可避免建置自訂元件。
 * **前端建置：**&#x200B;前端開發人員可以使用 Webpack、TypeScript 和 SASS [模擬 AEM 頁面和建置用戶端程式庫](front-end.md)。
-* **WebApp 就緒：**&#x200B;針對使用 React 或 Angular 的網站，請使用 [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html?lang=zh-Hant) 保留[應用程式的情境式製作](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hant)。
-* **已啟用 Commerce：**&#x200B;適用於希望使用 [Commerce 核心元件](https://github.com/adobe/aem-core-cif-components)將 [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=zh-Hant) 與商業解決方案 (例如 [Magento](https://magento.com/)) 整合的專案。
+* **WebApp 就緒：**&#x200B;針對使用 React 或 Angular 的網站，請使用 [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) 保留[應用程式的情境式製作](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。
+* **已啟用 Commerce：**&#x200B;適用於希望使用 [Commerce 核心元件](https://github.com/adobe/aem-core-cif-components)將 [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) 與商業解決方案 (例如 [Magento](https://magento.com/)) 整合的專案。
 * **範例程式碼：**&#x200B;請檢視 HelloWorld 元件，以及範例模型、servlet、篩選器和排程器。
 * **開放原始碼：**&#x200B;如果發現錯誤，請[協助我們](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)改進！
 
@@ -52,5 +52,5 @@ AEM 專案原型是一種 Maven 範本，其以最佳實務為基礎建立簡化
 * **[使用原型](using.md)** - 概述在專案中使用原型的方法及其產生的模組
 * **[使用 AEM 專案原型的前端開發](front-end.md)** - 原型的前端模組使用方法
 * **下列教學課程是以原型為基礎：**
-   * **[WKND 網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)** - 了解如何啟動全新的網站。
-   * **[WKND 單頁應用程式](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hant)** - 了解如何建置 React 或 Angular Webapp (可在 AEM 中完整編寫)。
+   * **[WKND 網站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** - 了解如何啟動全新的網站。
+   * **[WKND 單頁應用程式](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** - 了解如何建置 React 或 Angular Webapp (可在 AEM 中完整編寫)。

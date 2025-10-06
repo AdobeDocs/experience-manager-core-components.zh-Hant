@@ -26,7 +26,7 @@ ht-degree: 100%
 
 社交分享元件會將 Facebook 和 Pinterest 分享連結新增至頁面。通常包含在頁首或頁尾。
 
-與其他元件不同，社交分享元件的設定是由範本作者透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)完成，以及由內容作者透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)完成。
+與其他元件不同，社交分享元件的設定是由範本作者透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)完成，以及由內容作者透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_sharing_v1_tw)有關分享元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_sharing_v1)有關分享元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -55,8 +55,8 @@ ht-degree: 100%
    * 若已指定 ID，則作者應確保其為唯一識別碼。
    * 變更該 ID 會對 CSS、JS 和「資料層」追蹤造成影響。
 
-由於分享需要特殊的頁首，因此任何分享都必須在頁面層級啟用。因此，對於內容作者，可透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)的分享索引標籤，使用分享元件的其他編輯選項。
+由於分享需要特殊的頁首，因此任何分享都必須在頁面層級啟用。因此，對於內容作者，可透過[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)的分享索引標籤，使用分享元件的其他編輯選項。
 
 ## 設計對話框 {#design-dialog}
 
-由於分享需要特殊的頁首，因此任何分享都必須在頁面層級啟用。因此，對於範本作者，可透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)使用分享元件的設計選項。
+由於分享需要特殊的頁首，因此任何分享都必須在頁面層級啟用。因此，對於範本作者，可透過[初始頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)使用分享元件的設計選項。

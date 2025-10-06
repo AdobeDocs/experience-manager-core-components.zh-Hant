@@ -41,11 +41,11 @@ ht-degree: 100%
 
 電子郵件體驗片段元件可適應本地化的網站結構，並根據內容的本地化呈現適當的體驗片段。為此，體驗片段必須符合以下條件。
 
-* 電子郵件體驗片段元件已新增至[頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=zh-Hant)。
+* 電子郵件體驗片段元件已新增至[頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)。
 * 該範本用於建立新內容頁面，此頁面是 `/content/<site>` 以下的本地化結構的一部分。
 * 在內容頁面上參考的體驗片段屬於 `/content/experience-fragments` 以下的本地化體驗結構的一部分，遵循與 `/content/<site>` 以下的網站相同的模式，包括使用相同的元件名稱。
 
-在這種情況下，與目前頁面具有相同本地化 ([語言、Blueprint 或即時副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=zh-Hant)) 的片段將當作範本的一部分呈現。
+在這種情況下，與目前頁面具有相同本地化 ([語言、Blueprint 或即時副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html)) 的片段將當作範本的一部分呈現。
 
 此行為僅限新增至範本的電子郵件體驗片段元件。新增到個別內容頁面的體驗片段元件將轉譯在元件中設定的精確體驗片段轉譯。
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 ## 技術詳細資訊 {#technical-details}
 
-閱讀最新的[體驗片段元件的相關技術文件](https://www.adobe.com/go/aem_cmp_xf_v1_tw)。
+閱讀最新的[體驗片段元件的相關技術文件](https://www.adobe.com/go/aem_cmp_xf_v1)。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 

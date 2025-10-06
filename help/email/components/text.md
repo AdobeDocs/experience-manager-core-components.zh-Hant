@@ -43,13 +43,13 @@ ht-degree: 100%
 
 ## 電子郵件文字元件和 RTF 文字編輯器 {#the-text-component-and-the-rich-text-editor}
 
-電子郵件文字元件採用 AEM RTF 文字編輯器 (RTE)。RTE 為內容作者提供編輯其文字內容的廣泛功能。RTE 的設定有彈性，並提供多個選項。如需有關如何設定 RTE 的詳細資訊，請參閱[設定 RTF 文字編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=zh-Hant)和[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)文章。
+電子郵件文字元件採用 AEM RTF 文字編輯器 (RTE)。RTE 為內容作者提供編輯其文字內容的廣泛功能。RTE 的設定有彈性，並提供多個選項。如需有關如何設定 RTE 的詳細資訊，請參閱[設定 RTF 文字編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
 
 本文件的其餘部分示範使用現成 RTE 設定的電子郵件文字元件的標準設定。
 
 >[!NOTE]
 >
->只有 [RTE 的 UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)所啟用的選項在電子郵件文字元件中可用。
+>只有 [RTE 的 UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)所啟用的選項在電子郵件文字元件中可用。
 
 ## 編輯對話框 {#edit-dialog}
 
@@ -281,7 +281,7 @@ ht-degree: 100%
 
 用於檢查文字內容的拼字。可能的拼字錯誤會以紅色虛線加底線標示。
 
-如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)文件。
+如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文件。
 
 #### 特殊字元 {#special-characters}
 

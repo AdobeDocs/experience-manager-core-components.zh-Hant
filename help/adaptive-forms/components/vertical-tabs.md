@@ -109,7 +109,7 @@ ht-degree: 100%
 - **最小重複次數**：建立垂直索引標籤元件可重複的最小次數。值為零表示垂直索引標籤元件不會重複；預設值為零。
 - **最大重複次數**：設定垂直索引標籤元件可重複的最大次數。預設情況下，此值為無限制。
 
-若要有效管理垂直索引標籤內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理垂直索引標籤內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 項目索引標籤 {#items-tab}
 

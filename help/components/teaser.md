@@ -40,11 +40,11 @@ Teaser 元件 (截至 [2.23.2 版](/help/versions.md)) 支援遠端資產。[設
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「Teaser 元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪[元件庫](https://adobe.com/go/aem_cmp_library_teaser_tw)。
+若要體驗「Teaser 元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪[元件庫](https://adobe.com/go/aem_cmp_library_teaser)。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_teaser_v1_tw)有關「Teaser 元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_teaser_v1)有關「Teaser 元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -82,13 +82,13 @@ Teaser 標題、說明和影像可以從所連結的頁面繼承，也可以從�
 ![Teaser 元件的編輯對話框影像索引標籤](/help/assets/teaser-edit-image.png)
 
 * **從頁面繼承精選影像** - 使用連結頁面的頁面屬性中定義的影像，如果沒有找到，則會使用當前的頁面。
-* **影像資產** - 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+* **影像資產** - 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**「清除」**，取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**挑選**，開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)來選取影像。
+   * 點選或按一下&#x200B;**挑選**，開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)來選取影像。
       * 若啟用[遠端資產支援](#remote-assets)，您就可從多個選項中挑選資產：
          * **本機**，從本機 AEM 資產庫中選取。
          * **遠端**，從 AEM 執行個體之外的「Dynamic Media」資料庫中選取。
-   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
+   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 * **協助工具替代文字** - 此欄位可讓您為視障使用者定義影像的說明。
    * **從頁面繼承替代文字** - 此選項會使用 DAM 中 `dc:description` 後設資料所連結資產值的替代說明，若未連結任何資產，則會使用目前頁面的替代說明。
 * **不提供替代文字** - 此選項會標記該影像被螢幕助讀程式等輔助技術忽略，適用於影像僅用於裝飾或不向頁面傳達額外資訊的情況。

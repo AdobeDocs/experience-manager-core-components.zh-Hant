@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 內容片段元件{#content-fragment-component}
 
-「核心元件內容片段」元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+「核心元件內容片段」元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -23,11 +23,11 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-「核心元件內容片段元件」允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+「核心元件內容片段元件」允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 * 可在[設定對話框](#configure-dialog)中選取片段及其屬性。
 * 可在[設計對話框](#design-dialog)中定義處理特定影像和格線的資源類型。
-* 編輯選項將在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=zh-Hant)中開啟已選取的片段。
+* 編輯選項將在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中開啟已選取的片段。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_cf_v1_tw)有關內容片段元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_cf_v1)有關內容片段元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

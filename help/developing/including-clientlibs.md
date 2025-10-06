@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 加入用戶端程式庫 {#including}
 
-根據您的使用案例，有多種不同的方式可加入[用戶端程式庫](/help/developing/archetype/front-end.md#clientlibs)。以下每個範例中均包含樣本 [HTL 片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant)。
+根據您的使用案例，有多種不同的方式可加入[用戶端程式庫](/help/developing/archetype/front-end.md#clientlibs)。以下每個範例中均包含樣本 [HTL 片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)。
 
 ### 建議的預設使用方式 {#recommended-default-usage}
 

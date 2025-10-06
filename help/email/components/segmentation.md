@@ -57,14 +57,14 @@ ht-degree: 100%
    * **預設** - 定義未符合其他條件時，會顯示的預設區段
    * **自訂** - 允許作者定義條件
       * 條件根據 Adobe Campaign 個人化變數而定
-      * [請參閱此處，以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
-      * [請參閱此處，以了解 Adobe Campaign Classic 個人化資源。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hant)
+      * [請參閱此處，以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [請參閱此處，以了解 Adobe Campaign Classic 個人化資源。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * **刪除** - 點選或按一下以從「電子郵件細分元件」中刪除該區段。
 * **重新排列** - 點選或按一下並拖曳以重新排列區段。
 
 >[!TIP]
 >
->若縮小內容檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。元件仍可新增至「電子郵件細分元件」，只需[從元件瀏覽器拖曳並放置到內容編輯器中的「電子郵件細分元件」上。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#inserting-a-component)
+>若縮小內容檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。元件仍可新增至「電子郵件細分元件」，只需[從元件瀏覽器拖曳並放置到內容編輯器中的「電子郵件細分元件」上。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
 
 ### 屬性索引標籤 {#properties-tab}
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 **允許的元件**&#x200B;索引標籤用於定義哪些元件可供內容作者作為區段新增至電子郵件細分元件。
 
-[在「範本編輯器」中定義「版面容器」的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)時，**允許的元件**&#x200B;索引標籤與同名索引標籤的功能相同。
+[在「範本編輯器」中定義「版面容器」的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)時，**允許的元件**&#x200B;索引標籤與同名索引標籤的功能相同。
 
 ### 樣式索引標籤 {#styles-tab}
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 * **區段條件名稱** - 條件的說明
 * **區段條件** - 必須符合的實際條件，根據 Adobe Campaign 個人化變數而定
-   * [請參閱此處，以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
-   * [請參閱此處，以了解 Adobe Campaign Classic 個人化資源。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=zh-Hant
+   * [請參閱此處，以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [請參閱此處，以了解 Adobe Campaign Classic 個人化資源。]&#x200B;(https://experienceleague.adobe.com/docs/
 * **移除** - 點選或按一下以移除該條件
 * **重新排列** - 點選或按一下並拖曳，以重新排列條件的順序

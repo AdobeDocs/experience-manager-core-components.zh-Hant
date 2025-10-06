@@ -27,7 +27,7 @@ ht-degree: 100%
 >
 >支援巢狀索引標籤元件 (索引標籤內的索引標籤)。
 >
->可以使用[內容樹狀結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant#content-tree)尋找/選取簡單 (非巢狀) 索引標籤元件，但不適用於巢狀索引標籤。
+>可以使用[內容樹狀結構](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)尋找/選取簡單 (非巢狀) 索引標籤元件，但不適用於巢狀索引標籤。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「索引標籤元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪[元件庫](https://adobe.com/go/aem_cmp_library_tabs_tw)。
+若要體驗「索引標籤元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪[元件庫](https://adobe.com/go/aem_cmp_library_tabs)。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tabs_v1_tw)有關「索引標籤元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tabs_v1)有關「索引標籤元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 執行方法：
 
-1. 在頁面編輯器中使用&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
+1. 在頁面編輯器中使用&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
 1. 檢查頁面內容並識別面板的 ID。
    * 例如：`id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID 可以使用井字號 (`#`) 附加至 URL 成為錨點。
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->若縮小頁面檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。元件仍可新增至索引標籤元件，只需[從元件瀏覽器拖曳並放置到頁面編輯器的索引標籤元件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#inserting-a-component)。
+>若縮小頁面檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。元件仍可新增至索引標籤元件，只需[從元件瀏覽器拖曳並放置到頁面編輯器的索引標籤元件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)。
 
 ### 屬性索引標籤 {#properties-tab}
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->作者無法在&#x200B;**編輯**&#x200B;模式中選取索引標籤。使用&#x200B;**[預覽](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#preview-mode)**&#x200B;模式或&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，可像已發佈內容的讀者那樣與索引標籤互動。
+>作者無法在&#x200B;**編輯**&#x200B;模式中選取索引標籤。使用&#x200B;**[預覽](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，可像已發佈內容的讀者那樣與索引標籤互動。
 
 ## 設計對話框 {#design-dialog}
 
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 **允許的元件**&#x200B;索引標籤用於定義可供內容作者作為項目新增至索引標籤元件的元件。
 
-[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)時，允許的元件索引標籤與同名索引標籤的功能相同。
+[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)時，允許的元件索引標籤與同名索引標籤的功能相同。
 
 ### 樣式索引標籤 {#styles-tab}
 

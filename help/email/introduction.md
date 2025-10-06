@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## 功能 {#features}
 
-* 核心電子郵件元件以[核心元件](/help/introduction.md)為基礎，因此也支援[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)和[樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hant)。
+* 核心電子郵件元件以[核心元件](/help/introduction.md)為基礎，因此也支援[可編輯的範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)和[樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)。
 * 具備[十個電子郵件最佳化的立即可用元件](#components)可供編寫電子郵件內容。
 * 歸功於大多數對話框欄位中插入了[Adobe Campaign 變數](campaign-variables.md)，核心電子郵件元件可提供進階個人化。
 * 彈性的[分段元件](/help/email/components/segmentation.md)允許對您的內容進行進階分段。

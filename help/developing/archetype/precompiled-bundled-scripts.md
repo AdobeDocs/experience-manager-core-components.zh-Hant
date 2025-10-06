@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 預先編譯的套件指令碼 {#precompiled-bundled-scripts}
 
-AEM as a Cloud Service 支援將 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hant#code-packages-%2F-osgi-bundles) 元件指令碼部署為預先編譯的套件指令碼。如此一來，開發人員就能在建置階段預先編譯指令碼，並將這些指令碼封裝為 OSGi 套件組合。
+AEM as a Cloud Service 支援將 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 元件指令碼部署為預先編譯的套件指令碼。如此一來，開發人員就能在建置階段預先編譯指令碼，並將這些指令碼封裝為 OSGi 套件組合。
 
 ## 透過 OSGi 套件組合部署預先編譯的指令碼的優點 {#advantages}
 
@@ -35,10 +35,10 @@ AEM as a Cloud Service 支援將 [`ui.apps`](https://experienceleague.adobe.com/
 
 OSGi 架構提供強大的方式來定義[要求和功能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)，以表示不同元件之間的合約。這些會透過後設資料進行說明，並在執行階段強制執行。套裝指令碼使用此機制來表示其繼承關係 (`sling:resourceSuperType`) 以及委派 (包括轉譯過程中的其他資源)。
 
-[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 專案中的 `bnd` 外掛程式可用來擷取與 [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hant#code-packages-%2F-osgi-bundles) 內容套件所提供之指令碼相對應的要求和功能
+[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 專案中的 `bnd` 外掛程式可用來擷取與 [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 內容套件所提供之指令碼相對應的要求和功能
 
 ## AEM 專案原型支援 {#support}
 
-從版本 31 開始，[ AEM 專案原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=zh-Hant)可用於正確設定 AEM as a Cloud Service 專案，以使用預先編譯的套件指令碼。
+從版本 31 開始，[ AEM 專案原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html)可用於正確設定 AEM as a Cloud Service 專案，以使用預先編譯的套件指令碼。
 
 此外，AEM 專案原型會設定 [AEM as a Cloud Service SDK 建置分析器 Maven 外掛程式](/help/developing/archetype/build-analyzer-maven-plugin.md)，以驗證 Java 套件層級以及指令碼層級的相依性。

@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v2_tw)有關嵌入元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v2)有關嵌入元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 不過，規則其實更為複雜，因為嵌入元件會遵循 AEM 的全域 HTML AntiSamy 清理框架篩選規則集，此規範可以在 `/libs/cq/xssprotection/config.xml` 中找到。如有需要，開發人員可採用專案專用的設定進行覆蓋。
 
-有關其他安全性資訊，請參閱[適用於AEM as a Cloud Service 安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hant)及[適用於內部部署安裝的 AEM 開發人員文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hant)。
+有關其他安全性資訊，請參閱[適用於AEM as a Cloud Service 安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)及[適用於內部部署安裝的 AEM 開發人員文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)。
 
 >[!NOTE]
 >
