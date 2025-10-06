@@ -18,7 +18,7 @@ ht-degree: 97%
 + [核心元件簡介](/help/introduction.md)
 + [回應式設計](/help/responsive.md)
 + [成功的路徑](/help/developing/success.md)
-+ [元件庫](https://adobe.com/go/aem_cmp_library)
++ [元件庫](https://adobe.com/go/aem_cmp_library_tw)
 + [版本](/help/versions.md)
 + 開始使用 {#get-started}
    + [使用核心元件編寫](/help/get-started/authoring.md)
@@ -143,8 +143,8 @@ ht-degree: 97%
    + [範例主題和範本](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
-   + [成功的路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [成功的路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hant)
+   + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
    + [自訂核心元件](/help/developing/customizing.md)
    + [元件指引](/help/developing/guidelines.md)
    + [AMP 支援](/help/developing/amp.md)
