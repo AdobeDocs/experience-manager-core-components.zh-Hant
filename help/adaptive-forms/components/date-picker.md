@@ -41,7 +41,7 @@ ht-degree: 0%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
