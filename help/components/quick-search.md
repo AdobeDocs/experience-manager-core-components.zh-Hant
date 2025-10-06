@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >若要保護「搜尋元件」或任何以 AEM 為基礎的應用程式免受 DOS 攻擊，應在較高層級實施，例如透過在 Dispatcher 上使用 `mod_security` 。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v2)有關「快速搜尋元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v2_tw)有關「快速搜尋元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

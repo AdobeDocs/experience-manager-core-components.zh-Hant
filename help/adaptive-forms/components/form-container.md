@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 表單容器 {#form-container-adaptive-forms-core-component}
 
-<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** --> 功能，這是一項預先發佈功能。此項預先發佈功能可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)存取。</span>
+<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** --> 功能，這是一項預先發佈功能。此項預先發佈功能可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant#new-features)存取。</span>
 
 表單可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與度和使用者滿意度。Adobe Experience Manager (AEM) Sites 中的自適應表單容器可讓網站擁有者輕鬆將表單新增至其頁面。這有助於促進網站訪客與網站擁有者或組織之間的溝通，透過提供簡化的方式，讓訪客提供意見回饋、提出查詢並完成其他動作
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
 
 ## 技術詳細資訊 {#technical-details}
 
@@ -98,7 +98,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 使用者可以為自適應表單提交設定不同的動作。
 
-- **重新導向 URL/路徑** - 此選項可讓使用者為每個表單設定頁面，表單使用者在提交自適應表單後會重新導向至該頁面。按一下這裡以取得有關[如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)的詳細資訊。
+- **重新導向 URL/路徑** - 此選項可讓使用者為每個表單設定頁面，表單使用者在提交自適應表單後會重新導向至該頁面。按一下這裡以取得有關[如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=zh-Hant)的詳細資訊。
 
 ![提交索引標籤](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
@@ -106,7 +106,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![顯示訊息索引標籤](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-- **提交動作** - 當使用者按一下「自適應表單」上的「提交按鈕」時，就會觸發「提交動作」。使用者可從下拉式清單中選取現有支援的「提交動作」。了解如何[在「提交」索引標籤中設定「提交動作」](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)。
+- **提交動作** - 當使用者按一下「自適應表單」上的「提交按鈕」時，就會觸發「提交動作」。使用者可從下拉式清單中選取現有支援的「提交動作」。了解如何[在「提交」索引標籤中設定「提交動作」](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=zh-Hant#supporting-custom-functions-in-validation-expressions-br)。
 
 ## 設計對話框 {#design-dialog}
 

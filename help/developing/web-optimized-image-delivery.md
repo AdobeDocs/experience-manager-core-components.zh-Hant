@@ -96,4 +96,4 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 * 在 HTML 中，啟用網頁最佳化影像時，標記不會變更，只有影像元素上的 `src` 屬性值會變更。
 * 每當新的影像服務無法使用或無法處理所需的影像時，產生的 URL 將[遞補為最適化影像 Servlet。](#fallback)
 
-不過，Dispatcher 規則可能會封鎖網頁最佳化影像傳遞服務。影像傳遞服務的 URL 以 `/adobe` 開頭，並依照[此處所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects)檢查 Dispatcher 記錄檔以找出拒絕的請求，應該有助於疑難排解將影像傳遞至瀏覽器時遇到的所有失敗。
+不過，Dispatcher 規則可能會封鎖網頁最佳化影像傳遞服務。影像傳遞服務的 URL 以 `/adobe` 開頭，並依照[此處所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=zh-Hant#filter-rejects)檢查 Dispatcher 記錄檔以找出拒絕的請求，應該有助於疑難排解將影像傳遞至瀏覽器時遇到的所有失敗。
