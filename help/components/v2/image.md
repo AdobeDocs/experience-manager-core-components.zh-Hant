@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
 source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2048'
+ht-degree: 100%
 
 ---
 
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image_tw)」。
+若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v2_tw)有關影像元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v2)有關影像元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 ![影像元件設定對話框的資產索引標籤](/help/assets/image-configure-asset.png)
 
 * **影像資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**「清除」**，取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
+   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### 後設資料索引標籤 {#metadata-tab}
 
@@ -223,9 +223,9 @@ ht-degree: 0%
   ![影像元件的設計對話框功能索引標籤](/help/assets/image-design-features-orientation.png)
 
 * **旋轉**
-使用此選項可允許內容作者使用&#x200B;**向右旋轉**&#x200B;選項。
+使用此選項可允許內容作者使用**向右旋轉**&#x200B;選項。
 * **翻轉**
-使用此選項可允許內容作者使用&#x200B;**水平翻轉**&#x200B;和&#x200B;**垂直翻轉**&#x200B;選項。
+使用此選項可允許內容作者使用**水平翻轉**&#x200B;和&#x200B;**垂直翻轉**&#x200B;選項。
 
   >[!CAUTION]
   >
