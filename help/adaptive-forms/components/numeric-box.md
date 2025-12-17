@@ -3,10 +3,10 @@ title: 自適應表單核心元件 - 數值輸入
 description: 使用或自訂自適應表單數值輸入核心元件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2282'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技術詳細資訊 {#technical-details}
 
@@ -176,15 +176,31 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 格式索引標籤 {#formats-tab}
 
-格式索引標籤可讓您指定預設和自訂日期格式。
+格式索引標籤可讓您指定預設和自訂日期格式。 此外，您也可以使用&#x200B;**新增**&#x200B;按鈕來新增自訂數字格式。
 
 ![格式索引標籤](/help/adaptive-forms/assets/emailinput_formattab.png)
+
+#### 在元件的範本原則中新增格式
+
+若要顯示元件的可用格式，您必須將其新增至元件的範本原則。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477976?quality=12&learn=on)
+
+若要將格式新增至範本原則：
+
+1. 在範本編輯器中開啟與調適型表單相關的對應範本。
+2. 在&#x200B;**允許的元件**&#x200B;區段中，選取&#x200B;**[!UICONTROL Number Input]**元件。
+   ![日期選擇器範本原則](/help/adaptive-forms/assets/number-input-policy.png)
+3. 按一下「**[!UICONTROL 新增]**」圖示，為Number Input元件建立新原則。
+4. 輸入原則的名稱，並在&#x200B;**格式**標籤下選取所有必要的格式。
+   ![建立原則](/help/adaptive-forms/assets/date-picker-format-policy.png)
+5. 按一下&#x200B;**[!UICONTROL 完成]**。
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
