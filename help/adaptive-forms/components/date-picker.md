@@ -41,7 +41,7 @@ ht-degree: 95%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
@@ -191,10 +191,10 @@ To experience the Accordion Component as well as see examples of its configurati
 若要將格式新增至範本原則：
 
 1. 在範本編輯器中開啟與調適型表單相關的對應範本。
-2. 在&#x200B;**允許的元件**&#x200B;區段中，選取&#x200B;**[!UICONTROL 日期選擇器]**元件。
+2. 在&#x200B;**允許的元件**&#x200B;區段中，選取&#x200B;**[!UICONTROL 日期選擇器]**&#x200B;元件。
    ![日期選擇器範本原則](/help/adaptive-forms/assets/date-picker-policy.png)
 3. 按一下「**[!UICONTROL 新增]**」圖示，為日期選擇器元件建立新原則。
-4. 輸入原則的名稱，並在&#x200B;**格式**標籤下選取所有必要的格式。
+4. 輸入原則的名稱，並在&#x200B;**格式**&#x200B;標籤下選取所有必要的格式。
    ![建立原則](/help/adaptive-forms/assets/number-input-format-policy.png)
 5. 按一下&#x200B;**[!UICONTROL 完成]**。
 
