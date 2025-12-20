@@ -123,7 +123,7 @@ ht-degree: 100%
 | [下載](https://adobe.com/go/aem_cmp_tech_download_v1_tw) | 將可下載的資產新增至頁面 | `-` |
 | [體驗片段](https://adobe.com/go/aem_cmp_tech_xf_v1_tw) | 新增體驗片段至頁面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [嵌入](https://adobe.com/go/aem_cmp_tech_embed_v1_tw) | 在頁面中嵌入外部資源 | - |
-| [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以視覺化方式呈現達成目標的進度 | - |
+| [進度列](https://adobe.com/go/aem_cmp_tech_progress_v1_tw) | 以視覺化方式呈現達成目標的進度 | - |
 | [PDF 檢視器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_tw) | 在頁面上顯示 PDF 文件 | - |
 
 ## 核心元件的升級 {#upgrade-of-core-components}
