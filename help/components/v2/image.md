@@ -4,10 +4,10 @@ description: 核心元件影像元件是具備就地編輯功能的最適化影�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2050'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 影像元件 (截至 [2.13.0 版](/help/versions.md)) 支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-hant#dynamicmedia) 資產。[啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。此外，同樣支援影像修飾元、影像預設集和智慧裁切。
 
-使用「核心元件」建立的網頁體驗可包含豐富、Sensei 支援、穩定、高效能、跨平台的「Dynamic Media 影像」功能。
+使用核心元件建立的網頁體驗現在具備豐富、支援Adobe AI、強大、高效能、跨平台的Dynamic Media影像功能。
 
 ## SVG 支援 {#svg-support}
 
@@ -62,11 +62,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image_tw)」。
+若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v2_tw)有關影像元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v2)有關影像元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -81,9 +81,9 @@ ht-degree: 100%
 ![影像元件設定對話框的資產索引標籤](/help/assets/image-configure-asset.png)
 
 * **影像資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**「清除」**，取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
+   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### 後設資料索引標籤 {#metadata-tab}
 

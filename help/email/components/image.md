@@ -4,10 +4,10 @@ description: 「電子郵件影像元件」是具備就地編輯功能的最適�
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 98%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 100%
 
 ## Dynamic Media 支援 {#dynamic-media}
 
-「電子郵件影像元件」支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant#dynamicmedia) 資產。[啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。此外，同樣支援影像修飾元、影像預設集和智慧裁切。
+「電子郵件影像元件」支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 資產。[啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。此外，同樣支援影像修飾元、影像預設集和智慧裁切。
 
-使用「電子郵件核心元件」建立的電子郵件體驗可包含豐富、Sensei 支援、穩定、高效能、跨平台的「Dynamic Media」影像功能。
+使用電子郵件核心元件建置的電子郵件體驗可以包含豐富、支援Adobe AI、強大、高效能、跨平台的Dynamic Media影像功能。
 
 ## SVG 支援 {#svg-support}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_image_v1_tw)有關「電子郵件影像元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_image_v1)有關「電子郵件影像元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
@@ -86,9 +86,9 @@ ht-degree: 100%
    * **從頁面繼承替代文字** - 此選項會使用 DAM 中 `dc:description` 後設資料所連結資產值的替代說明，若未連結任何資產，則會使用目前頁面的替代說明。
 
 * **影像資產**
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以從本機檔案系統上傳。
    * 點選或按一下&#x200B;**「清除」**，取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
+   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 * **不提供替代文字** - 此選項會標記該影像被螢幕助讀程式等輔助技術忽略，適用於影像僅用於裝飾或不向頁面傳達額外資訊的情況。
 
@@ -99,8 +99,8 @@ ht-degree: 100%
 ![影像元件設定對話框的後設資料索引標籤](/help/email/assets/email-image-configure-metadata.png)
 
 * **預設集類型** - 定義可用影像預設集的類型，可以是&#x200B;**影像預設集**&#x200B;或&#x200B;**智慧裁切**，而且僅在 [Dynamic Media 功能](#dynamic-meida)啟用時可用。
-   * **影像預設集** - 當選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集類型**&#x200B;時，下拉式&#x200B;**影像預設集**&#x200B;可供使用，並允許從可用的「Dynamic Media」預設集中選取。這只有在為選取的資產定義了預設集時才能使用。
-   * **智型裁切** - 當選取&#x200B;**智型裁切**&#x200B;的&#x200B;**預設集類型**&#x200B;時，**轉譯**&#x200B;下拉式清單可供使用，並允許從所選資產的可用轉譯中選取。這只有在為選取的資產定義了轉譯時才能使用。
+   * **影像預設集** - 當選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集類型**&#x200B;時，**影像預設集**&#x200B;下拉式清單可供使用，並允許從可用的「Dynamic Media」預設集中選取。這只有在為選取的資產定義了預設集時才能使用。
+   * **智型裁切** - 當選取&#x200B;**智慧裁切**&#x200B;的&#x200B;**預設集類型**&#x200B;時，**轉譯**&#x200B;下拉式清單可供使用，並允許從所選資產的可用轉譯中選取。這只有在為選取的資產定義了轉譯時才能使用。
    * **影像修飾元** - 此處定義其他「Dynamic Media」影像命令，並以`&`分隔，無論選取哪個&#x200B;**預設集類型**&#x200B;均適用。
 * **註解** - 影像的其他相關資訊，預設會顯示於影像下方。
    * **從 DAM 取得註解** - 勾選後，影像的註解文字會以 DAM 中 `dc:title` 後設資料的值填入。僅適用於從 DAM 中選取資產時。
