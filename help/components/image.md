@@ -59,7 +59,7 @@ ht-degree: 99%
 
 ## Dynamic Media 支援 {#dynamic-media}
 
-影像元件 (截至 [2.13.0 版](/help/versions.md)) 支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 資產。[啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。此外，同樣支援影像修飾元、影像預設集和智慧裁切。
+影像元件 (截至 [2.13.0 版](/help/versions.md)) 支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant) 資產。[啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。此外，同樣支援影像修飾元、影像預設集和智慧裁切。
 
 使用核心元件建立的網頁體驗可包含豐富、支援Adobe AI、強大、高效能且跨平台的Dynamic Media影像功能。
 
@@ -81,11 +81,11 @@ ht-degree: 99%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image)」。
+若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image_tw)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v3)有關影像元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v3_tw)有關影像元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -159,13 +159,13 @@ ht-degree: 99%
 
 * **影像資產** - 若已選取&#x200B;**從頁面繼承精選影像**，則會自動填入。取消選取可透過設定以下選項來手動定義影像。
 
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以便您從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以便您從本機檔案系統上傳。
    * 點選或按一下&#x200B;**「清除」**，取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**挑選**，開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)以便您選取影像。
+   * 點選或按一下&#x200B;**挑選**，開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)以便您選取影像。
       * 若已啟用[「遠端資產支援」](#remote-assets) ，您可從多個選項中挑選資產：
          * **本機**，從本機 AEM 資產庫中選取。
          * **遠端**，從 AEM 執行個體之外的「Dynamic Media」資料庫中選取。
-   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html)。
+   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
 
 * **協助工具替代文字** - 此欄位可讓您為視障使用者定義影像的說明。
 
