@@ -4,10 +4,10 @@ description: 搭配使用 Adobe Client Data Layer 與核心元件
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 96%
 
 ---
 
@@ -119,6 +119,10 @@ id: {                   // component ID
     parentId            // parent component ID
 }
 ```
+
+>[!NOTE]
+>
+>此結構描述是用作多個核心元件的基礎模式的一般元件專案結構描述。 這並不保證每個列出的元件都會填入每個專案的所有這些欄位。
 
 下列[事件](#events)與元件/容器項目結構描述相關：
 
@@ -309,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教學課程
 
-想要更詳細地探索「資料層」和「核心元件」嗎？[請參閱此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hant)。
+想要更詳細地探索「資料層」和「核心元件」嗎？[請參閱此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

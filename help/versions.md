@@ -3,16 +3,16 @@ title: 核心元件版本
 description: 核心元件會以發行版本的形式發佈，其中可能包含同一核心元件的多個版本。本文件說明什麼是發行版本和版本，以及如何理解與核心元件和 AEM 的相容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: ht
-source-wordcount: '3087'
-ht-degree: 100%
+source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+workflow-type: tm+mt
+source-wordcount: '3110'
+ht-degree: 99%
 
 ---
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件與 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant) 和[內部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hant) 安裝相容。
+核心元件與 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[內部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安裝相容。
 
 ## 發行版本歷史記錄與相容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 
 | 發行版本 | 說明 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 發行日期 |
 |---|---|---|---|---|---|---|---|
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | 此版本修正了與PDF檢視器相關的非本地化字串。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8、11 | 2025 年 23 月 10 日 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 此版本處理數個資產和 Dynamic Media 的問題、釐清 LTS 支援的細節，並解決數個錯誤修正。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8、11 | 2025 年 9 月 4 日 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | 此發行版本新增支援在網站核心元件中製作資產的預覽版本，並解決數個錯誤修正。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8、11 | 2025 年 4 月 21 日 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 此版本解決數個錯誤修正。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8、11 | 2025 年 3 月 17 日 |
@@ -187,4 +188,4 @@ ht-degree: 100%
 
 Adobe 的開發重點已轉向核心元件，並將持續新增新功能。
 
-[幾乎所有的基礎元件均已在 AEM 6.5 中棄用](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=zh-Hant)，未來僅考慮修正基礎元件的重大錯誤。
+[幾乎所有的基礎元件均已在 AEM 6.5 中棄用](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)，未來僅考慮修正基礎元件的重大錯誤。
