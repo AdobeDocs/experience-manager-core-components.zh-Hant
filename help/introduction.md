@@ -21,12 +21,12 @@ ht-degree: 99%
 
 ## 資源 {#resources}
 
-* **[元件庫：](https://www.adobe.com/go/aem_cmp_library)**&#x200B;檢視元件的各種設定範例集合。
+* **[元件庫：](https://www.adobe.com/go/aem_cmp_library_tw)**&#x200B;檢視元件的各種設定範例集合。
 * **元件文件 (本文件)：**&#x200B;適用於開發人員和作者，提供各元件的詳細資訊。
 * **[核心元件 GitHub 存放庫：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;用於各元件和專案下載的開發人員詳細資訊。
 * 開始使用：
    * **[成功使用核心元件：](/help/developing/success.md)**&#x200B;在任何將使用核心元件的專案開始之前要考慮的指導方針。
-   * **[WKND 教學課程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;有關建置新網站的兩天教學課程。
+   * **[WKND 教學課程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)**&#x200B;有關建置新網站的兩天教學課程。
    * **[Summit 教學課程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有關建置新網站的兩小時教學課程 (出自美國 Summit 2019 的實驗室)。
    * **[Gems 網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;核心元件的導覽 (於 2018 年 12 月錄製)。
 
@@ -35,17 +35,17 @@ ht-degree: 99%
 |  |  |
 |---|---|
 | 生產就緒 | 核心元件是 30 種經過充分測試、廣泛使用且效能出色的強大 WCM 元件。 |
-| 雲端就緒 | 無論是在 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 上、在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 還是內部部署，這些元件都能運作。 |
+| 雲端就緒 | 無論是在 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant) 上、在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 還是內部部署，這些元件都能運作。 |
 | 多功能 | 這些元件代表作者可用來組裝幾乎任何版面的一般概念。 |
-| 可設定 | 範本層級[內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) 定義頁面作者可以使用或無法使用的功能。 |
+| 可設定 | 範本層級[內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hant#content-policies) 定義頁面作者可以使用或無法使用的功能。 |
 | [回應式](responsive.md) | 所有「核心元件」都設計為可充分回應，確保裝置間的順暢體驗 |
 | 可追蹤 | [Adobe Client Data Layer 整合](/help/developing/data-layer/overview.md)允許追蹤訪客體驗的各個層面。 |
 | 易於存取 | 元件符合 [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)，提供 ARIA 標籤，並支援鍵盤導覽 ([已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))。 |
 | SEO 友善 | HTML 可輸出語義，並提供 [schema.org](https://schema.org) 結構化資料標記。 |
-| WebApp 就緒 | [簡化的 JSON 輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允許用戶端轉譯，仍可進行[情境式編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
+| WebApp 就緒 | [簡化的 JSON 輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=zh-Hant)允許用戶端轉譯，仍可進行[情境式編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hant)。 |
 | AMP 支援 | 元件已內建 [AMP 標準支援](/help/developing/amp.md)，可加速您的行動體驗。 |
-| 設計套件 | [Adobe XD 的 UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)可讓設計人員建立透視效果，然後[根據需要設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
-| 可主題化 | 元件實施[樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，標記語言也遵循 [BEM CSS 慣例](https://getbem.com/)。 |
+| 設計套件 | [Adobe XD 的 UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=zh-Hant)可讓設計人員建立透視效果，然後[根據需要設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
+| 可主題化 | 元件實施[樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hant)，標記語言也遵循 [BEM CSS 慣例](https://getbem.com/)。 |
 | 可自訂 | 數個模式允許[輕鬆自訂](developing/customizing.md)，涵蓋從調整 HTML 到進階功能重複使用。 |
 | 版本設定 | [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可確保核心元件在改善可能影響您的內容時，不會破壞您的網站。 |
 | 可本地化 | 智慧型參考解決方案可讓特定元件自動尋找並[自動轉譯為對應的本地化內容](get-started/localization.md)。 |
@@ -100,7 +100,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->[開發團隊必須先依照作者的環境整合核心元件](get-started/using.md)，才能將其提供給您。整合後，可透過[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)使用及預先設定。
+>[開發團隊必須先依照作者的環境整合核心元件](get-started/using.md)，才能將其提供給您。整合後，可透過[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)使用及預先設定。
 
 >[!NOTE]
 >
@@ -116,9 +116,9 @@ ht-degree: 99%
 
 針對舊版核心元件的要求，請參閱[核心元件版本](versions.md)。
 
-核心元件需要使用[可編輯範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) ，而且不支援傳統 UI 或靜態範本。如有需要，請檢視 [AEM 現代化工具](https://opensource.adobe.com/aem-modernize-tools/)，使用這些現代化 AEM 功能更新您的專案。
+核心元件需要使用[可編輯範本](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=zh-Hant) ，而且不支援傳統 UI 或靜態範本。如有需要，請檢視 [AEM 現代化工具](https://opensource.adobe.com/aem-modernize-tools/)，使用這些現代化 AEM 功能更新您的專案。
 
-若要設定您的本機開發環境，請檢視 [AEM as a Cloud Service SDK 概觀](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)或[舊版 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) 的文件。
+若要設定您的本機開發環境，請檢視 [AEM as a Cloud Service SDK 概觀](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hant)或[舊版 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=zh-Hant) 的文件。
 
 >[!TIP]
 >
