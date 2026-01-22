@@ -3,9 +3,9 @@ title: 自適應表單核心元件 - 條款與條件
 description: 使用或自訂自適應表單條款與條件核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '3253'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '3233'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 對於 AEM 6.5 Forms，此元件是隨 AEM 6.5 Forms Service Pack 19 (6.5.19.0) 導入。若要啟用此元件，請確認已安裝表單核心元件和 WCM 核心元件的必要版本。如需自適應表單核心元件發行版本的詳細資訊，請參閱[自適應表單核心元件發行版本](/help/adaptive-forms/version.md)
+> 對於 AEM 6.5 Forms，此元件是隨 AEM 6.5 Forms Service Pack 19 (6.5.19.0) 導入。如需自適應表單核心元件發行版本的詳細資訊，請參閱[自適應表單核心元件發行版本](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 

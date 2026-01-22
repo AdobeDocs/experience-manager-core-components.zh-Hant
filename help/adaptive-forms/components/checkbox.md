@@ -3,9 +3,9 @@ title: 自適應表單核心元件 - 核取方塊
 description: 使用或自訂自適應表單核取方塊核心元件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1837'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1817'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 對於 AEM 6.5 Forms，此元件是隨 AEM 6.5 Forms Service Pack 19 (6.5.19.0) 導入。若要啟用此元件，請確認已安裝表單核心元件和 WCM 核心元件的必要版本。如需自適應表單核心元件發行版本的詳細資訊，請參閱[自適應表單核心元件發行版本](/help/adaptive-forms/version.md)
+> 對於 AEM 6.5 Forms，此元件是隨 AEM 6.5 Forms Service Pack 19 (6.5.19.0) 導入。如需自適應表單核心元件發行版本的詳細資訊，請參閱[自適應表單核心元件發行版本](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 

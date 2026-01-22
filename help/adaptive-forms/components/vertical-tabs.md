@@ -3,9 +3,9 @@ title: 自適應表單核心元件 - 垂直索引標籤
 description: 使用或自訂「自適應表單垂直索引標籤核心元件」。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2173'
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '2153'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 對於 AEM 6.5 Forms，此元件是隨 AEM 6.5 Forms Service Pack 19 (6.5.19.0) 導入。若要啟用此元件，請確認已安裝表單核心元件和 WCM 核心元件的必要版本。如需自適應表單核心元件發行版本的詳細資訊，請參閱[自適應表單核心元件發行版本](/help/adaptive-forms/version.md)
+> 對於 AEM 6.5 Forms，此元件是隨 AEM 6.5 Forms Service Pack 19 (6.5.19.0) 導入。如需自適應表單核心元件發行版本的詳細資訊，請參閱[自適應表單核心元件發行版本](/help/adaptive-forms/version.md)
 
 ![範例](/help/adaptive-forms/assets/horizontal-example.png)
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 - **最小重複次數**：建立垂直索引標籤元件可重複的最小次數。值為零表示垂直索引標籤元件不會重複；預設值為零。
 - **最大重複次數**：設定垂直索引標籤元件可重複的最大次數。預設情況下，此值為無限制。
 
-若要有效管理垂直索引標籤內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理垂直索引標籤內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 項目索引標籤 {#items-tab}
 
