@@ -45,7 +45,7 @@ ht-degree: 96%
 |---|---|
 | 元件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 相容 | 相容 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 相容 | 相容 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 

@@ -50,7 +50,7 @@ ht-degree: 91%
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
 | v2 | 與<br>[版本3.0.142](/help/adaptive-forms/version.md)和更新版本相容 | |
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
@@ -91,7 +91,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **顯示文字** - 此選項可讓您輸入要在自適應表單中顯示的內容。
    - **刪除** - 點選或按一下，以刪除選項按鈕的選項。
    - **重新排列** - 點選或按一下並拖曳，以重新排列選項的順序。
-您也可以使用**允許選項使用 RTF 文字**&#x200B;來格式化選項按鈕群組的選項。
+您也可以使用&#x200B;**允許選項使用 RTF 文字**&#x200B;來格式化選項按鈕群組的選項。
 
   ![支援選項使用 RTF 文字](/help/adaptive-forms/assets/richtext-for-options.png)
 
