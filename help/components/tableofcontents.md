@@ -3,10 +3,10 @@ title: 目錄元件
 description: 目錄元件會根據頁面內容中的標題建立目錄，讓讀者快速瀏覽頁面。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * Dispatcher 已完全快取該檔案，以便快速傳遞。
 * 它適用於頁面上的所有元件，而不僅限於核心元件。
 
-[編輯對話框](#edit-dialog)可讓內容作者定義要在目錄中使用的標題範圍。使用[設計對話框](#design-dialog)，範本作者可以在內容作者新增目錄元件至頁面時，設定標題的預設值，並根據類別名稱限制目錄中包含的標題。
+[編輯對話框](#edit-dialog)可讓內容作者定義要在目錄中使用的標題範圍。 使用[設計對話框](#design-dialog)，範本作者可以在內容作者新增目錄元件至頁面時，設定標題的預設值，並根據類別名稱限制目錄中包含的標題。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 >
 >在 AEM as a Cloud Service 上，您的管理員需要啟用元件的篩選器，才能呈現元件的內容。
 >
->如需詳細資訊，[請參閱該元件的 GitHub 文件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_tw)。
+>如需詳細資訊，[請參閱該元件的 GitHub 文件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_tw)有關目錄元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)有關目錄元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ![快速搜尋元件的設計對話框](/help/assets/tableofcontents-design.png)
 
-* **限制清單類型** - 此選項會定義元件將產生的清單類型。選取此選項會限制內容作者選擇其他清單類型的能力。
+* **限制清單類型** - 此選項會定義元件將產生的清單類型。 選取此選項會限制內容作者選擇其他清單類型的能力。
 * **限制開始層級** - 此選項定義了內容作者可以選擇用於定義目錄的最高標題層級。
 * **限制停止層級** - 此選項定義了內容作者可以選擇用於定義目錄的最低標題層級。
 * **包含類別名稱** - 如果設定此選項，目錄元件只會考慮具有指定類別名稱或包含在指定類別名稱的元素中的標題。
@@ -85,8 +85,4 @@ ht-degree: 100%
 
 ### 樣式索引標籤 {#styles-tab}
 
-目錄元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
-
-## Adobe Client Data Layer {#data-layer}
-
-「目錄元件」支援 [Adobe Client Data Layer。](/help/developing/data-layer/overview.md)
+目錄元件支援AEM [樣式系統。](/help/get-started/authoring.md#component-styling)。
