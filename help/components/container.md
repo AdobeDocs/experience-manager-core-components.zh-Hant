@@ -38,11 +38,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「容器元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_container)」。
+若要體驗「容器元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_container_tw)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_container_v1)有關容器元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_container_v1_tw)有關容器元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 * **版面** - 此選項定義容器元件的行為或版面行為。
    * **簡單** - 將容器定義為簡單的元件集合
-   * **回應式格線** - 將容器定義為 [AEM 回應式版面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **回應式格線** - 將容器定義為 [AEM 回應式版面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=zh-Hant)
 * **背景顏色** - 透過自由格式的 RGB 值或使用檢色器定義，[視設定而定](#background-tab)
 * **背景影像** - 定義容器的背景顏色，[視設定而定](#background-tab)
 * **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
@@ -70,11 +70,11 @@ ht-degree: 100%
 
 **允許的元件**&#x200B;索引標籤用於定義可供內容作者作為項目新增至容器元件的元件。
 
-[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)時，允許的元件索引標籤與同名索引標籤的功能相同。
+[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)時，允許的元件索引標籤與同名索引標籤的功能相同。
 
 ### 預設元件索引標籤 {#default-components-tab}
 
-「預設元件」索引標籤用於定義當特定資產類型放置於容器上時，哪些元件要新增到元件中，類似於[如何在頁面範本上定義預設元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+「預設元件」索引標籤用於定義當特定資產類型放置於容器上時，哪些元件要新增到元件中，類似於[如何在頁面範本上定義預設元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)。
 
 ### 回應式設定索引標籤 {#responsive-settings-tab}
 

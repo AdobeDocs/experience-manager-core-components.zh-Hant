@@ -39,11 +39,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「按鈕元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_button)」。
+若要體驗「按鈕元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_button_tw)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_button_v2)有關按鈕元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_button_v2_tw)有關按鈕元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

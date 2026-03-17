@@ -39,11 +39,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「摺疊面板元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_accordion)」。
+若要體驗「摺疊面板元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_accordion_tw)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_accordion_v1)有關摺疊面板元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_accordion_v1_tw)有關摺疊面板元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 執行方法：
 
-1. 在頁面編輯器中使用&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
+1. 在頁面編輯器中使用&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
 1. 檢查頁面內容並識別面板的 ID。
    * 例如：`id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID 可以使用井字號 (`#`) 附加至 URL 成為錨點。
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 **允許的元件**&#x200B;索引標籤用於定義可供內容作者作為項目新增至摺疊面板元件中面板的元件。
 
-[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)時，允許的元件索引標籤與同名索引標籤的功能相同。
+[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant#editing-a-template-layout-template-author)時，允許的元件索引標籤與同名索引標籤的功能相同。
 
 ### 樣式索引標籤 {#styles-tab}
 
