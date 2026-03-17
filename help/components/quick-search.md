@@ -1,11 +1,11 @@
 ---
 title: 快速搜尋元件
 description: 「快速搜尋元件」提供網站搜尋功能，並會顯示搜尋結果，讓訪客可搜尋該網站並篩選結果。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '625'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-「快速搜尋元件」可讓網站訪客搜尋內容、就地檢視結果，並可輕鬆瀏覽至相符的頁面。當使用者捲動搜尋結果時，則會動態擷取新的結果。
+「快速搜尋元件」可讓網站訪客搜尋內容、就地檢視結果，並可輕鬆瀏覽至相符的頁面。 當使用者捲動搜尋結果時，則會動態擷取新的結果。
 
-透過[編輯對話框](#edit-dialog)，內容作者可定義在內容樹狀結構中搜尋的開始位置。使用[設計對話框](#design-dialog)，範本作者可設定在內容樹狀結構中搜尋的開始位置預設值，以及最大結果集大小和最小搜尋字詞長度。
+透過[編輯對話框](#edit-dialog)，內容作者可定義在內容樹狀結構中搜尋的開始位置。 使用[設計對話框](#design-dialog)，範本作者可設定在內容樹狀結構中搜尋的開始位置預設值，以及最大結果集大小和最小搜尋字詞長度。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >若要保護「搜尋元件」或任何以 AEM 為基礎的應用程式免受 DOS 攻擊，應在較高層級實施，例如透過在 Dispatcher 上使用 `mod_security` 。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v2_tw)有關「快速搜尋元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v2)有關「快速搜尋元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ![快速搜尋元件的編輯對話框](/help/assets/quick-search-edit.png)
 
-**搜尋根目錄** - 搜尋開始位置的根頁面。「搜尋根目錄」可以是 Blueprint 主版頁面、語言主版頁面或一般頁面。
+**搜尋根目錄** - 搜尋開始位置的根頁面。 「搜尋根目錄」可以是 Blueprint 主版頁面、語言主版頁面或一般頁面。
 * **ID** - 此選項可讓您控制 HTML 和「[資料層](/help/developing/data-layer/overview.md)」中元件的唯一識別碼。
    * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
    * 若已指定 ID，則作者應確保其為唯一識別碼。

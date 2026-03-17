@@ -1,12 +1,12 @@
 ---
 title: 清單元件 (v2)
 description: 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1012'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-清單元件可用於建立下層頁面的動態清單或任意定義項目的靜態清單。範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
+清單元件可用於建立下層頁面的動態清單或任意定義項目的靜態清單。 範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。 內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list_tw)」。
+若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v2_tw)有關清單元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v2)有關清單元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

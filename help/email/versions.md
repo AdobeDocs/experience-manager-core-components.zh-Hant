@@ -1,13 +1,13 @@
 ---
 title: 核心電子郵件元件版本
 description: 核心電子郵件元件會以發行版本的形式發佈。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '444'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 發行版本歷史記錄與相容性 {#release-history-and-compatibility}
 
-電子郵件核心元件設計為具備彈性，並與所有支援的 AEM 版本相容。[在 GitHub 上可找到電子郵件核心元件版本歷史記錄的完整詳細資訊。](https://github.com/adobe/aem-core-email-components/releases)但是，下表提供「電子郵件核心元件」的版本概觀，及其與 AEM 發行版本和 Java 版本的相容性。
+電子郵件核心元件設計為具備彈性，並與所有支援的 AEM 版本相容。 您可以在GitHub上找到電子郵件核心元件[版本記錄的完整詳細資料。](https://github.com/adobe/aem-core-email-components/releases) 不過，下表提供電子郵件核心元件的版本概觀，及其與AEM版本和Java版本的相容性。
 
 | 發行版本 | 說明 | AEM 6.5 | AEM 6.5 LTS | 核心元件 | Java | 發行日期 |
 |---|---|---|---|---|---|---|

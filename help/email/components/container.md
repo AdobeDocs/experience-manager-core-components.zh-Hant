@@ -1,12 +1,12 @@
 ---
 title: 電子郵件容器元件
 description: 電子郵件容器元件可讓您為電子郵件內容中的多個其他元件建立容器。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '780'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_container_v1_tw)有關容器元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_container_v1)有關容器元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 電子郵件容器元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取想要套用至元件的樣式。在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
+使用下拉式清單，選取想要套用至元件的樣式。 在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
 
 元件樣式必須在[設計對話框](#design-dialog)中設定，才能使用該索引標籤。
 
@@ -78,11 +78,11 @@ ht-degree: 100%
 
 **允許的元件**&#x200B;索引標籤用於定義哪些元件可供內容作者作為項目新增至電子郵件容器元件。
 
-[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)時，**允許的元件**&#x200B;索引標籤與同名索引標籤的功能相同。
+[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)時，**允許的元件**&#x200B;索引標籤與同名索引標籤的功能相同。
 
 ### 預設元件索引標籤 {#default-components-tab}
 
-**預設元件**&#x200B;索引標籤用於定義當特定資產類型放置於容器上時，哪些元件要新增到元件中，類似於[如何在頁面範本上定義預設元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)。
+**預設元件**&#x200B;索引標籤用於定義當特定資產類型放置於容器上時，哪些元件要新增到元件中，類似於[如何在頁面範本上定義預設元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 ### 容器設定索引標籤 {#container-settings-tab}
 
@@ -97,7 +97,7 @@ ht-degree: 100%
    * **僅色票** - 選取此選項，僅允許內容作者從預先定義的色票中選取容器背景顏色。
       * 只有在選取&#x200B;**啟用背景顏色**&#x200B;時可用
 * **允許的色票** - 定義內容作者可從中選擇容器背景顏色的預先定義顏色
-   * 使用&#x200B;**新增**&#x200B;按鈕新增預先定義的色票。新增後，就會在清單中新增一個項目，其中包含以下各欄：
+   * 使用&#x200B;**新增**&#x200B;按鈕新增預先定義的色票。 新增後，就會在清單中新增一個項目，其中包含以下各欄：
    * **值** - 透過 RGB 值手動定義顏色
       * 點選或按一下檢色器，即可調整個別 RGB 值或定義十六進位值，更輕鬆地選取顏色。
    * **刪除** - 點選或按一下，以刪除色票。

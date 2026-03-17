@@ -1,12 +1,12 @@
 ---
 title: 階層連結元件 (v1)
 description: 核心元件階層連結元件是一種導覽元件，可根據頁面在內容階層中的位置建立連結的階層連結。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '530'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-階層連結元件會顯示目前頁面在網站階層中的位置，讓頁面訪客可以從其目前位置導覽頁面階層。這通常會整合到頁首或頁尾中。
+階層連結元件會顯示目前頁面在網站階層中的位置，讓頁面訪客可以從其目前位置導覽頁面階層。 這通常會整合到頁首或頁尾中。
 
-可用選項 (例如：預設導覽層級、以及顯示目前頁面或隱藏頁面的功能) 可由範本作者在[設計對話框](#design-dialog)中定義。內容編輯者就可以在[編輯對話框](#edit-dialog)中選擇是否應該顯示隱藏的頁面，以及元件的實際導覽層級。
+可用選項 (例如：預設導覽層級、以及顯示目前頁面或隱藏頁面的功能) 可由範本作者在[設計對話框](#design-dialog)中定義。 內容編輯者就可以在[編輯對話框](#edit-dialog)中選擇是否應該顯示隱藏的頁面，以及元件的實際導覽層級。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >本文件說明階層連結元件 v1。
->>如需階層連結元件目前版本的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)文件。
+>如需階層連結元件目前版本的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)文件。
 
 ## 範例元件輸出 {#sample-component-output}
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->從核心元件匯出 JSON 需要核心元件 1.1.0 版。如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
+>從核心元件匯出 JSON 需要核心元件 1.1.0 版。 如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
 
 ## 編輯對話框 {#edit-dialog}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1-34.png)
 
-* **開始導覽層級** - 階層連結元件在階層中開始向下導覽至目前頁面的起始位置。例如，在 We.Retail 中：
+* **開始導覽層級** - 階層連結元件在階層中開始向下導覽至目前頁面的起始位置。 例如，在 We.Retail 中：
 
    * 1 從 `/content/we-retail` 開始
    * 2 從 `/content/we-retail/<country>` 開始
@@ -110,11 +110,11 @@ ht-degree: 100%
 * **開始導覽層級** - 將階層連結元件新增至頁面時，此項目用於定義階層連結元件在階層中開始向下導覽至目前頁面的起始位置預設值。
 * **顯示隱藏** - 將階層連結元件新增至頁面時，定義&#x200B;**顯示隱藏**&#x200B;選項的預設值。
 
-   * 它不會為作者啟用或停用選項。它只會設定預設值。
+   * 它不會為作者啟用或停用選項。 它只會設定預設值。
 
 * **隱藏目前** - 將階層連結元件新增至頁面時，定義&#x200B;**隱藏目前**&#x200B;選項的預設值。
 
-   * 它不會為作者啟用或停用選項。它只會設定預設值。
+   * 它不會為作者啟用或停用選項。 它只會設定預設值。
 
 ## 技術詳細資訊 {#technical-details}
 

@@ -1,12 +1,12 @@
 ---
 title: 清單元件 (v3)
 description: 核心元件清單元件 (v3) 可讓您輕鬆建立動態和靜態清單。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1168'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1177'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-清單元件 (v3) 可用於建立下層頁面的動態清單或任意定義項目的靜態清單。範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
+清單元件 (v3) 可用於建立下層頁面的動態清單或任意定義項目的靜態清單。 範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。 內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list_tw)」。
+若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v3_tw)有關清單元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v3)有關清單元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 * [搜尋](#search-options)
 * [標記](#tags)
 
-無論清單的建置方式為何，一律可以設定[排序和 ID 選項](#sort-options)。
+無論清單的建置方式為何，都可隨時設定[排序和 ID 選項](#sort-options)。
 
 ![清單元件的編輯對話框](/help/assets/v3/list-edit.png)
 
@@ -133,7 +133,7 @@ ht-degree: 100%
 應該比對哪些標記
    * 使用&#x200B;**瀏覽**&#x200B;對話框來選取標記
 * **符合**
-定義用什麼相符類型來限定要包含在清單中的頁面
+定義哪種類型的符合條件可使頁面列入清單
    * **任何標記**
    * **所有標記**
 
@@ -174,7 +174,7 @@ ht-degree: 100%
 
 清單元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取想要套用至元件的樣式。在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
+使用下拉式清單，選取想要套用至元件的樣式。 在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
 
 元件樣式必須在[設計對話框](#design-dialog)中設定，才能使用該下拉式清單。
 

@@ -1,12 +1,12 @@
 ---
 title: 標題元件 (v2)
 description: 核心元件標題元件是區段標題元件，具備就地編輯的功能。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '521'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-標題元件用作內容的主標題或區段的標題。可用的標題層級可由範本作者在[設計對話框](#design-dialog)中定義。內容編輯者可在[編輯對話框](#edit-dialog)中選取可用的標題層級。為了增加便利性，也可以簡單地就地編輯標題文字。
+標題元件用作內容的主標題或區段的標題。 可用的標題層級可由範本作者在[設計對話框](#design-dialog)中定義。 內容編輯者可在[編輯對話框](#edit-dialog)中選取可用的標題層級。 為了增加便利性，也可以簡單地就地編輯標題文字。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -32,11 +32,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「標題元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_title_tw)」。
+若要體驗「標題元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_title)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_title_v2_tw)有關標題元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_title_v2)有關標題元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 * **標題** - 如果空白，則使用頁面標題
 * **類型/大小** - 定義標題的標題層級
-* **連結** - 定義標題將連結的內容。這可以是內容頁面的路徑、外部 URL 或頁面錨點。
+* **連結** - 定義標題將連結的內容。 這可以是內容頁面的路徑、外部 URL 或頁面錨點。
 * **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
    * 若已指定 ID，則作者應確保其為唯一識別碼。

@@ -1,11 +1,11 @@
 ---
 title: 清單元件
 description: 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1204'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1214'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-清單元件可用於建立下層頁面的動態清單或任意定義項目的靜態清單。範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
+清單元件可用於建立下層頁面的動態清單或任意定義項目的靜態清單。 範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。 內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v4 | - | 相容 | 相容 |
+| v4 | - | 相容 | 相容 | |
 | [v3](/help/components/v3/list.md) | - | 相容 | 相容 | 相容 |
 | [v2](/help/components/v2/list.md) | 相容 | 相容 | - | 相容 |
 | [v1](/help/components/v1/list-v1.md) | 相容 | 相容 | - | 相容 |
@@ -49,11 +49,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list_tw)」。
+若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v3_tw)有關清單元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v3)有關清單元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 * [搜尋](#search-options)
 * [標記](#tags)
 
-無論清單的建置方式為何，一律可以設定[排序和 ID 選項](#sort-options)。
+無論清單的建置方式為何，都可隨時設定[排序和 ID 選項](#sort-options)。
 
 ![清單元件的編輯對話框](/help/assets/list-edit.png)
 
@@ -177,7 +177,7 @@ ht-degree: 100%
 
 清單元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取想要套用至元件的樣式。在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
+使用下拉式清單，選取想要套用至元件的樣式。 在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
 
 元件樣式必須在[設計對話框](#design-dialog)中設定，才能使用該下拉式清單。
 

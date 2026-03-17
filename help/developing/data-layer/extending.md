@@ -2,11 +2,11 @@
 title: 擴充 Adobe Client Data Layer
 description: Adobe Client Data Layer 可以依據一些基本模式進行擴充
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '201'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 因此，您的自訂 Sling 模型可能具備 `getData` 方法，該方法會回傳可擴充 `ComponentData` 的物件，以回傳更多欄位。
 
-透過這樣做，將會新增 `data-cmp-data-layer` 屬性至元件的 HTML 元素中，以及將填入至資料層的資料 JSON。此時，您可以實施監聽此資料或相關事件的指令碼。
+透過這樣做，將會新增 `data-cmp-data-layer` 屬性至元件的 HTML 元素中，以及將填入至資料層的資料 JSON。 此時，您可以實施監聽此資料或相關事件的指令碼。
 
 >[!TIP]
 >

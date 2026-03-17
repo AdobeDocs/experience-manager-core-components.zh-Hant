@@ -1,12 +1,12 @@
 ---
 title: 表單容器元件
 description: 透過「核心元件表單容器元件」，可建立簡易的提交表單。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 表單容器元件支援簡易的 WCM 表單，並使用巢狀結構允許額外的表單元件，藉以建立易於使用的資料提交表單和功能。
 
-使用[設定對話框](#configure-dialog) ，內容編輯者可定義表單提交所觸發的動作、應處理提交的 URL，以及是否應觸發工作流程。範本作者可以使用[設計對話框](#design-dialog)定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)的設計對話框。
+使用[設定對話框](#configure-dialog) ，內容編輯者可定義表單提交所觸發的動作、應處理提交的 URL，以及是否應觸發工作流程。 範本作者可以使用[設計對話框](#design-dialog)定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的設計對話框。
 
 >[!NOTE]
 >
->核心元件表單容器元件僅支援使用核心元件表單元件 (按鈕、文字、隱藏等)。不支援在核心元件表單容器中使用[基礎元件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=zh-Hant)表單元件 (反之亦然)。
+>核心元件表單容器元件僅支援使用核心元件表單元件 (按鈕、文字、隱藏等)。 不支援在核心元件表單容器中使用[基礎元件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表單元件 (反之亦然)。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「表單容器元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_container_tw)」。
+若要體驗「表單容器元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_container)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_container_v2_tw)有關表單容器元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_container_v2)有關「表單容器元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 設定對話框可讓內容作者定義提交元件時所採取的動作。
 
-容器內的可用選項會因所選取的&#x200B;**動作類型**&#x200B;而變更。可用的動作類型包括：
+容器內的可用選項會因所選取的&#x200B;**動作類型**&#x200B;而變更。 可用的動作類型包括：
 
 * [張貼表單資料](#post-data)
 * [郵件](#mail)
@@ -69,7 +69,7 @@ ht-degree: 100%
 * **錯誤訊息** - 提交失敗時顯示的訊息
 
 >[!TIP]
->系統管理員可以調整其他逾時選項，以處理轉寄的表單資料。[如需詳細資訊，請參閱 GitHub 上的技術文件。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>系統管理員可以調整其他逾時選項，以處理轉送的表單資料。[如需詳細資訊，請參閱GitHub上的技術檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### 郵件 {#mail}
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 * **感謝頁面** - 完成表單提交後，系統會將使用者重新導向至指定頁面。
    * 使用「選取對話框」以在 AEM 中選取資源。
-   * 如果感謝頁面不在 AEM 中，請指定絕對 URL。非絕對 URL 將解釋為相對於 AEM。
+   * 如果感謝頁面不在 AEM 中，請指定絕對 URL。 非絕對 URL 將解釋為相對於 AEM。
    * 留空以在提交後重新顯示表單。
 * **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ## 設計對話框 {#design-dialog}
 
-設計對話框可讓範本作者為容器定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)的設計對話框。
+透過設計對話框，範本作者可為容器定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的設計對話框。
 
 ### 樣式索引標籤 {#styles-tab}
 

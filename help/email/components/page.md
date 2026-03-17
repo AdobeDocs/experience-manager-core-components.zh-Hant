@@ -1,12 +1,12 @@
 ---
 title: 電子郵件頁面元件
 description: 電子郵件頁面元件
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '780'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 # 電子郵件頁面元件 {#email-page-component}
 
-電子郵件頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件，專為建立 Adobe Campaign 內容打造。
+電子郵件頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件，專為建立 Adobe Campaign 內容打造。
 
 ## 用途 {#usage}
 
-電子郵件頁面元件構成了使用電子郵件核心元件以及可編輯範本設計的所有頁面的基礎。運用電子郵件頁面元件時，可以使用其他電子郵件核心元件將頁首、頁尾和頁面結構定義為範本。
+電子郵件頁面元件構成了使用電子郵件核心元件以及可編輯範本設計的所有頁面的基礎。 運用電子郵件頁面元件時，可以使用其他電子郵件核心元件將頁首、頁尾和頁面結構定義為範本。
 
 * 使用[設計對話框，](#design-dialog)可以為頁面定義自訂用戶端程式庫。
 * 不同於可從元件直接存取編輯對話框的其他元件，由於電子郵件頁面元件是頁面本身，電子郵件頁面元件的[編輯對話框](#edit-dialog)為頁面屬性視窗。
@@ -37,13 +37,13 @@ ht-degree: 100%
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_page_v1_tw)有關頁面元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_page_v1)有關頁面元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
 ## 編輯對話框 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中找到。
 
 ### Cloud Services 索引標籤 {#cloud-services}
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ## 設計對話框 {#design-dialog}
 
-因為元件代表整個頁面，所以在編輯頁面範本時，設計對話框是透過&#x200B;**頁面資訊 -> 頁面原則** 來存取。
+因為元件代表整個頁面，所以在編輯頁面範本時，設計對話框是透過&#x200B;**頁面資訊 -> 頁面原則**&#x200B;來存取。
 
 ![頁面原則](/help/assets/page-policy.png)
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 ![電子郵件頁面元件設計對話框](/help/email/assets/email-page-design.png)
 
-* **用戶端程式庫** - 這會定義要載入的用戶端程式庫類別。JavaScript 會新增至正文結尾，而 CSS 會新增至頁面標題。
+* **用戶端程式庫** - 這會定義要載入的用戶端程式庫類別。 JavaScript 會新增至正文結尾，而 CSS 會新增至頁面標題。
 * **用戶端程式庫 JavaScript 頁面標題** - 這會定義要在頁面標題中載入的 JavaScript 用戶端程式庫類別。
    * 在此處定義且出現在&#x200B;**用戶端程式庫**&#x200B;欄位中的類別，將在頁面標題而非正文結尾載入 JavaScript。
    * 除非類別也出現在&#x200B;**用戶端程式庫**&#x200B;欄位中，否則不會載入 CSS。

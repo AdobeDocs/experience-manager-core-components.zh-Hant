@@ -1,11 +1,11 @@
 ---
 title: 自適應表單核心元件 - 電子郵件輸入
 description: 使用或自訂自適應表單電子郵件輸入核心元件。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2111'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2135'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 電子郵件元件 {#Email-input-adaptive-forms-core-component}
 
-自適應表單電子郵件輸入核心元件用來收集使用者的電子郵件地址。電子郵件輸入欄位可讓瀏覽器驗證輸入的資料是否為有效的電子郵件地址格式。通常以文字方塊表示，並且具備僅接受有效電子郵件地址的模式驗證。可使用其他屬性 (例如「必要」、「預留位置」和「模式」) 來進一步自訂電子郵件輸入欄位，以設定輸入資料的驗證。
+自適應表單電子郵件輸入核心元件用來收集使用者的電子郵件地址。 電子郵件輸入欄位可讓瀏覽器驗證輸入的資料是否為有效的電子郵件地址格式。 通常以文字方塊表示，並且具備僅接受有效電子郵件地址的模式驗證。 可使用其他屬性 (例如「必要」、「預留位置」和「模式」) 來進一步自訂電子郵件輸入欄位，以設定輸入資料的驗證。
 
 {{traditional-aem}}
 
@@ -21,9 +21,11 @@ ht-degree: 100%
 
 ![範例](/help/adaptive-forms/assets/emailid-example.png)
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 在自適應表單中加入電子郵件輸入元件有多項好處，包括：
 
@@ -39,7 +41,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 版本和相容性 {#version-and-compatibility}
 
-自適應表單電子郵件核心元件於 2023 年 2 月發行，屬於 Cloud Service 核心元件 2.0.4 和 AEM 6.5.16.0 Forms 或更新版本的核心元件 1.1.12 的一部分。下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
+自適應表單電子郵件核心元件於 2023 年 2 月發行，屬於 Cloud Service 核心元件 2.0.4 和 AEM 6.5.16.0 Forms 或更新版本的核心元件 1.1.12 的一部分。 下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
@@ -47,17 +49,19 @@ To experience the Accordion Component as well as see examples of its configurati
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術詳細資訊 {#technical-details}
 
-[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput) 的技術文件中可找到自適應表單電子郵件輸入核心元件的最新資訊。如需開發核心元件的更多資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
+[GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput) 的技術文件中可找到自適應表單電子郵件輸入核心元件的最新資訊。 如需開發核心元件的更多資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
 ## 設定對話框 {#configure-dialog}
 
-透過設定對話框，您可以輕鬆自訂訪客的電子郵件輸入體驗。同樣能夠輕鬆定義電子郵件輸入選項，以提供順暢無礙的使用者體驗。
+透過設定對話框，您可以輕鬆自訂訪客的電子郵件輸入體驗。 同樣能夠輕鬆定義電子郵件輸入選項，以提供順暢無礙的使用者體驗。
 
 ### 基本索引標籤 {#basic-tab}
 
@@ -65,65 +69,65 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **名稱** - 此名稱可唯一識別規則編輯器中的元件。名稱字串中不允許特殊字元和空格。
 
-- **標題** - 您可以使用其標題輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。若未新增標題，則會顯示該元件的名稱而非標題文字。
-- **允許標題使用 RTF 文字** - 此功能可讓使用者格式化純文字標題，整合粗體、斜體、底線文字、各種字型、字體大小、顏色等功能，以及可增強視覺呈現和自訂的其他選項。提供更大的靈活性和創意控制，讓標題在文件、網站或應用程式中脫穎而出。\
-  選取&#x200B;**允許標題使用 RTF 文字**&#x200B;核取方塊後，即可看到格式選項，以設定元件標題的樣式。若要存取所有可用的格式選項，您可以按一下 ![全螢幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 索引標籤。
+- **標題** - 您可以使用其標題輕鬆識別表單中的元件，預設情況下，標題會顯示在元件上方。 若未新增標題，則會顯示該元件的名稱而非標題文字。
+- **允許標題使用 RTF 文字** - 此功能可讓使用者格式化純文字標題，整合粗體、斜體、底線文字、各種字型、字體大小、顏色等功能，以及可增強視覺呈現和自訂的其他選項。 提供更大的靈活性和創意控制，讓標題在文件、網站或應用程式中脫穎而出。\
+  選取&#x200B;**允許標題使用 RTF 文字**&#x200B;核取方塊後，即可看到格式選項，以設定元件標題的樣式。 若要存取所有可用的格式選項，您可以按一下 ![全螢幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 索引標籤。
 
   ![RTF 文字支援](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隱藏標題** - 選取該選項，以隱藏元件標題。
 
-- **預留位置文字** - 表單元件中的預留位置文字是指在輸入欄位中顯示的簡短標籤或提示，用於提示使用者在該欄位中預期輸入的資訊類型。當使用者開始在該欄位中輸入時，預留位置文字會消失，如果欄位留空，則會重新出現。這為使用者提供視覺提示，但不會作為該欄位的永久標籤或值。
-- **繫結參考** - 繫結參考是指儲存在外部資料來源，並在表單中使用的資料元素的參考。繫結參考可讓您將資料動態繫結至表單欄位，讓表單可以顯示資料來源的最新資料。例如，繫結參考可用於根據輸入至表單的客戶 ID，在表單中顯示客戶的姓名和地址。繫結參考也可用於使用已輸入至表單中的資料更新資料來源。透過此方式，AEM Forms 可讓您建立與外部資料來源互動的表單，提供順暢無礙的使用者體驗，以收集和管理資料。
-- **標示為未繫結的表單元素**：選取該選項，以設定未連結至任何結構描述的表單欄位。此選項可讓您儲存資料，且無需更新資料來源。還可讓您以自訂方式處理資料，不同於標準資料庫整合。
-- **隱藏元件** - 選取該選項，以隱藏表單中的元件。元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。這在您需要儲存使用者不需看到或直接變更的資訊時十分有用。
-- **停用元件** - 選取該選項以停用元件。一般使用者無法啟動或編輯已停用的元件。使用者可以看到該欄位的值，但無法修改。元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。
-- **唯讀** - 選取該選項，使元件無法編輯。使用者可以看到該欄位的值，但無法修改。元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。
+- **預留位置文字** - 表單元件中的預留位置文字是指在輸入欄位中顯示的簡短標籤或提示，用於提示使用者在該欄位中預期輸入的資訊類型。 當使用者開始在該欄位中輸入時，預留位置文字會消失，如果欄位留空，則會重新出現。 這為使用者提供視覺提示，但不會作為該欄位的永久標籤或值。
+- **繫結參考** - 繫結參考是指儲存在外部資料來源，並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可以顯示資料來源的最新資料。 例如，繫結參考可用於根據輸入至表單的客戶 ID，在表單中顯示客戶的姓名和地址。 繫結參考也可用於使用已輸入至表單中的資料更新資料來源。 透過此方式，AEM Forms 可讓您建立與外部資料來源互動的表單，提供順暢無礙的使用者體驗，以收集和管理資料。
+- **標示為未繫結的表單元素**：選取該選項，以設定未連結至任何結構描述的表單欄位。 此選項可讓您儲存資料，且無需更新資料來源。 還可讓您以自訂方式處理資料，不同於標準資料庫整合。
+- **隱藏元件** - 選取該選項，以隱藏表單中的元件。 元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。 這在您需要儲存使用者不需看到或直接變更的資訊時十分有用。
+- **停用元件** - 選取該選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到該欄位的值，但無法修改。 元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。
+- **唯讀** - 選取該選項，使元件無法編輯。 使用者可以看到該欄位的值，但無法修改。 元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。
 
-- **預設值** - 此選項可讓您在表單欄位中新增預設值。如果選取&#x200B;**已停用的元件** 或 **唯讀元件** 螢幕上會顯示預設值。如果使用者在表單欄位中未輸入值，此值會在表單提交時提交
+- **預設值** - 此選項可讓您在表單欄位中新增預設值。 如果選取&#x200B;**已停用的元件**&#x200B;或&#x200B;**唯讀元件**，則畫面會顯示預設值。 如果使用者在表單欄位中未輸入值，此值會在表單提交時提交
 - **自動填入屬性**：此選項可讓使用者輸入值，該值會根據儲存的資訊自動填入表單欄位中。
 
 ### 驗證索引標籤 {#validation-tab}
 
 ![驗證索引標籤](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **必要** - 若要在自適應表單中顯示該元件，請選取此選項。選取選項後，您必須先輸入值，才能繼續提交表單。選取此選項時，您無法在&#x200B;**基本**&#x200B;索引標籤中選取&#x200B;**隱藏元件**&#x200B;或&#x200B;**停用元件** 。
+- **必要** - 若要在自適應表單中顯示該元件，請選取此選項。 選取選項後，您必須先輸入值，才能繼續提交表單。選取此選項時，您無法在&#x200B;**基本**&#x200B;索引標籤中選取&#x200B;**隱藏元件**&#x200B;或&#x200B;**停用元件** 。
 
 - **錯誤訊息** - 此選項可讓您輸入訊息，在已勾選&#x200B;**必要**&#x200B;核取方塊且表單欄位留空時顯示。
 
 - **指令碼驗證訊息** - 此選項可讓您輸入訊息，以在指令碼驗證失敗時顯示。
 
-- **字元數上限** - 此選項可讓您指定欄位中允許的字元數上限。如果您輸入的字元數大於&#x200B;**字元數上限**&#x200B;中指定的值，畫面會顯示錯誤訊息。**字元數上限錯誤訊息**&#x200B;對話框可讓您新增自訂錯誤訊息。
+- **字元數上限** - 此選項可讓您指定欄位中允許的字元數上限。 如果您輸入的字元數大於&#x200B;**字元數上限**&#x200B;中指定的值，畫面會顯示錯誤訊息。 **字元數上限錯誤訊息**&#x200B;對話框可讓您新增自訂錯誤訊息。
 
 - **字元數上限錯誤訊息** - 如果您輸入的字元數超過&#x200B;**字元數上限**&#x200B;選項中指定的值，則&#x200B;**字元數上限錯誤訊息**&#x200B;對話框可讓您新增自訂錯誤訊息。
 
-- **字元數下限** - 此選項可讓您指定欄位中允許的字元數下限。如果您輸入的字元數少於&#x200B;**字元數下限**&#x200B;中指定的值，畫面會顯示錯誤訊息。**字元數下限錯誤訊息**&#x200B;對話框可讓您新增自訂錯誤訊息。
+- **字元數下限** - 此選項可讓您指定欄位中允許的字元數下限。 如果您輸入的字元數少於&#x200B;**字元數下限**&#x200B;中指定的值，畫面會顯示錯誤訊息。 **字元數下限錯誤訊息**&#x200B;對話框可讓您新增自訂錯誤訊息。
 
 - **字元數下限錯誤訊息** - 如果您輸入的字元數少於&#x200B;**字元數下限**&#x200B;選項中指定的值，則&#x200B;**字元數下限錯誤訊息**&#x200B;對話框可讓您新增自訂錯誤訊息。
 <br>
 
-**驗證模式**&#x200B;選項可讓您輸入模式來驗證輸入的電子郵件識別碼。如果電子郵件 ID 無法以在&#x200B;**模式**&#x200B;選項中輸入的值驗證，畫面上會顯示錯誤訊息。
+**驗證模式**&#x200B;選項可讓您輸入模式來驗證輸入的電子郵件識別碼。 如果電子郵件 ID 無法以在&#x200B;**模式**&#x200B;選項中輸入的值驗證，畫面上會顯示錯誤訊息。
 
-- **模式** - 此選項可讓您為電子郵件輸入允許的驗證模式。也允許規則運算式。
+- **模式** - 此選項可讓您為電子郵件輸入允許的驗證模式。 也允許規則運算式。
 - **錯誤訊息** - 此選項可讓您輸入訊息，當電子郵件 ID 無法以在&#x200B;**模式**&#x200B;選項中輸入的值驗證時，該訊息將顯示於畫面上
 
 ### 說明內容索引標籤 {#help-content-tab}
 
 ![說明內容索引標籤](/help/adaptive-forms/assets/email_helptab.png)
 
-- **簡短說明** - 簡短說明指的是簡短文字說明，提供特定表單欄位用途的其他資訊或說明。這有助於使用者了解應在該欄位中輸入的資料類型，並可提供指引或範例，以協助確保輸入的資訊有效並符合所需條件。預設情況下，簡短說明會保持隱藏。啟用&#x200B;**永遠顯示簡短說明**&#x200B;選項，使其顯示於元件下方。
+- **簡短說明** - 簡短說明指的是簡短文字說明，提供特定表單欄位用途的其他資訊或說明。 這有助於使用者了解應在該欄位中輸入的資料類型，並可提供指引或範例，以協助確保輸入的資訊有效並符合所需條件。 預設情況下，簡短說明會保持隱藏。 啟用&#x200B;**永遠顯示簡短說明**&#x200B;選項，使其顯示於元件下方。
 
 - **永遠顯示簡短說明** - 啟用該選項，使簡短說明顯示於元件下方。
 
-- **說明文字** - 說明文字指的是為使用者提供的其他資訊或指引，協助其正確填寫表單欄位。當使用者按一下放置於元件旁的說明圖示 (i) 時，就會出現此選項。說明文字提供的資訊比表單欄位的標籤或預留位置文字更加詳細，旨在協助使用者了解該欄位的要求或限制。還能夠提供建議或範例，使表單填寫更輕鬆、更準確。
+- **說明文字** - 說明文字指的是為使用者提供的其他資訊或指引，協助其正確填寫表單欄位。 當使用者按一下放置於元件旁的說明圖示 (i) 時，就會出現此選項。 說明文字提供的資訊比表單欄位的標籤或預留位置文字更加詳細，旨在協助使用者了解該欄位的要求或限制。 還能夠提供建議或範例，使表單填寫更輕鬆、更準確。
 
 ### 協助工具索引標籤 {#accessibility-tab}
 
 ![協助工具索引標籤](/help/adaptive-forms/assets/email_accessibilitytab.png)
 
-- **螢幕助讀程式文字** - 螢幕助讀程式文字指的是專門供視障人士所使用的輔助技術 (如螢幕助讀程式) 朗讀的額外文字。此文字提供表單欄位用途的音訊說明，並可包含有關欄位標題、說明、名稱和任何相關訊息 (自訂文字) 的資訊。螢幕助讀程式文字協助確保表單可供所有使用者存取，包括視障人士，使他們能夠充分理解表單欄位及其要求。
+- **螢幕助讀程式文字** - 螢幕助讀程式文字指的是專門供視障人士所使用的輔助技術 (如螢幕助讀程式) 朗讀的額外文字。 此文字提供表單欄位用途的音訊說明，並可包含有關欄位標題、說明、名稱和任何相關訊息 (自訂文字) 的資訊。 螢幕助讀程式文字協助確保表單可供所有使用者存取，包括視障人士，使他們能夠充分理解表單欄位及其要求。
 
-   - **自訂文字**：選取此選項，以使用 ARIA 協助工具標籤的自訂文字。選取此選項會顯示自訂文字對話框。您可以在自訂文字對話框中新增相關資訊。
+   - **自訂文字**：選取此選項，以使用 ARIA 協助工具標籤的自訂文字。 選取此選項會顯示自訂文字對話框。 您可以在自訂文字對話框中新增相關資訊。
    - **說明**：選取此選項，以使用 ARIA 協助工具標籤的說明。
    - **標題**：選取此選項，以使用 ARIA 協助工具標籤的標題。
    - **名稱**：選取此選項，以使用 ARIA 協助工具標籤的名稱。
@@ -135,21 +139,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 樣式索引標籤 {#styles-tab}
 
-此索引標籤可用於定義和管理元件的 CSS 樣式。自適應表單電子郵件輸入核心元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
+此索引標籤可用於定義和管理元件的 CSS 樣式。 自適應表單電子郵件輸入核心元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
 ![樣式索引標籤](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 - **預設 CSS 類別**：您可以為自適應表單電子郵件輸入核心元件提供預設 CSS 類別。
 
-- **允許的樣式**：您可以透過提供名稱以及代表該樣式的 CSS 類別，以定義樣式。例如，您可以建立名為「粗體文字」的樣式，並提供 CSS 類別「font-weight: bold」。您可以在自適應表單編輯器中，使用或套用這些樣式至自適應表單。若要套用樣式，請在自適應表單編輯器中選取您要套用樣式的元件，導覽至屬性對話框，然後從&#x200B;**樣式**&#x200B;下拉式清單中選取所需的樣式。如果需要更新或修改樣式，只需返回至設計對話框，更新樣式索引標籤中的樣式，然後儲存變更即可。
+- **允許的樣式**：您可以透過提供名稱以及代表該樣式的 CSS 類別，以定義樣式。 例如，您可以建立名為「粗體文字」的樣式，並提供 CSS 類別「font-weight: bold」。 您可以在自適應表單編輯器中，使用或套用這些樣式至自適應表單。 若要套用樣式，請在自適應表單編輯器中選取您要套用樣式的元件，導覽至屬性對話框，然後從&#x200B;**樣式**&#x200B;下拉式清單中選取所需的樣式。 如果需要更新或修改樣式，只需返回至設計對話框，更新樣式索引標籤中的樣式，然後儲存變更即可。
 
 ### 自訂屬性
 
 ![自訂屬性對話框](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
-自訂屬性可讓您使用表單範本，將自訂屬性 (鍵值對) 與自適應表單核心元件建立關聯。自訂屬性會反映在元件的無周邊轉譯屬性區段中。可讓您建立根據自訂屬性值調整的動態表單行為。例如，開發人員可以為行動裝置、桌上型電腦或網頁平台設計各種無周邊表單元件的轉譯，大幅提升各種裝置的使用者體驗。
+自訂屬性可讓您使用表單範本，將自訂屬性 (鍵值對) 與自適應表單核心元件建立關聯。 自訂屬性會反映在元件的無周邊轉譯屬性區段中。 可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動裝置、桌上型電腦或網頁平台設計各種無周邊表單元件的轉譯，大幅提升各種裝置的使用者體驗。
 
-- **群組名稱**：您可以提供名稱，以識別自訂屬性群組。還可以新增、刪除或重新排列多個自訂屬性群組。新增自訂屬性群組後，您可以看到下列選項：
+- **群組名稱**：您可以提供名稱，以識別自訂屬性群組。 還可以新增、刪除或重新排列多個自訂屬性群組。 新增自訂屬性群組後，您可以看到下列選項：
 
    - **鍵值對**：按一下每個自訂屬性群組的&#x200B;**新增**&#x200B;按鈕，即可新增多個自訂屬性名稱和自訂屬性值。
 
@@ -167,7 +171,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

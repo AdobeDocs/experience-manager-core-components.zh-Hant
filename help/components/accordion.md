@@ -1,11 +1,11 @@
 ---
 title: 摺疊面板元件
 description: 「核心元件摺疊面板」元件可讓您在頁面上建立以摺疊面板排列的面板集合。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1102'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「摺疊面板元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_accordion_tw)」。
+若要體驗「摺疊面板元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_accordion)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_accordion_v1_tw)有關摺疊面板元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_accordion_v1)有關摺疊面板元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -53,19 +53,19 @@ ht-degree: 100%
 
 執行方法：
 
-1. 在頁面編輯器中使用&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
+1. 在頁面編輯器中使用&#x200B;**[以發佈頁面形式檢視](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;選項，檢視含有元件的頁面。
 1. 檢查頁面內容並識別面板的 ID。
    * 例如：`id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID 可以使用井字號 (`#`) 附加至 URL 成為錨點。
    * 例如：`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-導覽至將面板 ID 作為錨點的 URL 時，瀏覽器會直接捲動至特定元件，並顯示指定的面板。如果面板預設為不展開，則將會自動展開。
+導覽至將面板 ID 作為錨點的 URL 時，瀏覽器會直接捲動至特定元件，並顯示指定的面板。 如果面板預設為不展開，則將會自動展開。
 
 ## 摺疊面板和回應式設計 {#responsive-design}
 
 所有「核心元件」都設計為可充分回應，以確保裝置間的順暢體驗。
 
-某些進階元件 (如摺疊面板元件) 在實施專案的內容中可能需要特別考量，以保持在所有條件下的回應能力。如需詳細資訊，請參閱[核心元件的回應式設計](/help/responsive.md)文件。
+某些進階元件 (如摺疊面板元件) 在實施專案的內容中可能需要特別考量，以保持在所有條件下的回應能力。 如需詳細資訊，請參閱[核心元件的回應式設計](/help/responsive.md)文件。
 
 ## 設定對話框 {#configure-dialog}
 
@@ -75,24 +75,24 @@ ht-degree: 100%
 
 ![摺疊面板元件編輯對話框的項目索引標籤](/help/assets/accordion-edit-items.png)
 
-使用&#x200B;**新增**&#x200B;按鈕開啟元件選擇器，選擇要新增為面板的元件。新增後，就會在清單中新增一個項目，其中包含以下各欄：
+使用&#x200B;**新增**&#x200B;按鈕開啟元件選擇器，選擇要新增為面板的元件。 新增後，就會在清單中新增一個項目，其中包含以下各欄：
 
-* **圖示** - 面板元件類型的圖示，以便在清單中輕鬆識別。將滑鼠移至上方，即可看到包含完整元件名稱的工具提示。
+* **圖示** - 面板元件類型的圖示，以便在清單中輕鬆識別。 將滑鼠移至上方，即可看到包含完整元件名稱的工具提示。
 * **說明** - 說明作為面板文字使用，預設為所選取的面板元件名稱。
 * **刪除** - 點選或按一下，以從摺疊面板元件刪除該面板。
 * **重新排列** - 點選或按一下並拖曳，以重新排列面板的順序。
 
 >[!TIP]
 >
->若縮小頁面檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。元件仍可新增至摺疊面板元件，只需[從元件瀏覽器拖曳並放置到頁面編輯器的摺疊面板元件上](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
+>若縮小頁面檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可新增至摺疊面板元件，只需[從元件瀏覽器拖曳並放置到頁面編輯器的摺疊面板元件上](https://helpx.adobe.com/tw/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ### 屬性索引標籤 {#properties-tab}
 
 ![摺疊面板元件編輯對話框的屬性索引標籤](/help/assets/accordion-edit-properties.png)
 
-* **單一項目展開** - 選取後，此選項會強制一次展開單一摺疊面板項目。展開一個項目後，其他所有項目都會收合。
+* **單一項目展開** - 選取後，此選項會強制一次展開單一摺疊面板項目。 展開一個項目後，其他所有項目都會收合。
 * **展開的項目** - 此選項會定義載入頁面時預設展開的項目。
-   * 選取&#x200B;**單一項目展開** 時，必須選取一個面板。根據預設，會選取第一個面板。
+   * 選取&#x200B;**單一項目展開** 時，必須選取一個面板。 根據預設，會選取第一個面板。
    * 未選取&#x200B;**單一項目展開**&#x200B;時，此選項為多重選取且是選擇性的。
 * **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 **允許的元件**&#x200B;索引標籤用於定義可供內容作者作為項目新增至摺疊面板元件中面板的元件。
 
-[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant#editing-a-template-layout-template-author)時，允許的元件索引標籤與同名索引標籤的功能相同。
+[在範本編輯器中定義版面容器的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)時，允許的元件索引標籤與同名索引標籤的功能相同。
 
 ### 樣式索引標籤 {#styles-tab}
 

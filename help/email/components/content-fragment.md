@@ -1,12 +1,12 @@
 ---
 title: 電子郵件內容片段元件
 description: 透過「電子郵件內容片段」元件，您可在內容中顯示內容片段。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '607'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '645'
 ht-degree: 100%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 # 電子郵件內容片段元件 {#email-content-fragment-component}
 
-「電子郵件內容片段」元件允許在您的內容中顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+「電子郵件內容片段」元件允許在您的內容中顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 ## 用途 {#usage}
 
-「電子郵件內容片段元件」允許在您的電子郵件內容中包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。內容片段為多管道結構化內容，可以集中編寫並輕鬆重複使用。
+「電子郵件內容片段元件」允許在您的電子郵件內容中包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。 內容片段為多管道結構化內容，可以集中編寫並輕鬆重複使用。
 
 * 可在[設定對話框](#configure-dialog)中選取片段及其屬性。
 * 可在[設計對話框](#design-dialog)中定義處理特定影像和格線的資源類型。
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_cf_v1_tw)有關「電子郵件內容片段元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_cf_v1)有關「電子郵件內容片段元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
@@ -81,11 +81,11 @@ ht-degree: 100%
 
 ![電子郵件內容片段元件的工具列](/help/email/assets/email-content-fragment-edit-toolbar.png)
 
-點選或按一下&#x200B;**編輯**&#x200B;按鈕，會開啟內容片段編輯器。內容片段編輯器已擴充為包含&#x200B;**選取 Adobe Campaign 變數**&#x200B;的按鈕，用於將 Adobe Campaign 變數插入至內容片段。
+點選或按一下&#x200B;**編輯**&#x200B;按鈕，會開啟內容片段編輯器。 內容片段編輯器已擴充為包含&#x200B;**選取 Adobe Campaign 變數**&#x200B;的按鈕，用於將 Adobe Campaign 變數插入至內容片段。
 
 ![電子郵件的內容片段編輯器](/help/email/assets/email-content-fragment-editor.png)
 
-如需編輯和製作內容片段的進一步詳細資訊，請參閱[製作片段內容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=zh-Hant)文件。
+如需編輯和製作內容片段的進一步詳細資訊，請參閱[製作片段內容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)文件。
 
 ## 設計對話框 {#design-dialog}
 
@@ -102,4 +102,4 @@ ht-degree: 100%
 
 ### 樣式索引標籤 {#styles-tab}
 
-「電子郵件體驗片段元件」支援 AEM [樣式系統。](/help/get-started/authoring.md#component-styling)
+電子郵件體驗片段元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。

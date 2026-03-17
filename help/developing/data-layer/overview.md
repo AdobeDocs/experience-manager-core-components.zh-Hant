@@ -2,12 +2,12 @@
 title: 搭配使用 Adobe Client Data Layer 與核心元件
 description: 搭配使用 Adobe Client Data Layer 與核心元件
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 「Adobe Client Data Layer」不受平台限制，但已完全整合至「核心元件」，以與 AEM 搭配使用。
 
-和「核心元件」一樣，「Adobe Client Data Layer」的程式碼可在 GitHub 與其開發人員文件中取得。本文件概述「核心元件」與「資料層」的互動方式，但完整技術詳細資訊將遞延至 GitHub 文件。
+和「核心元件」一樣，「Adobe Client Data Layer」的程式碼可在 GitHub 與其開發人員文件中取得。 本文件概述「核心元件」與「資料層」的互動方式，但完整技術詳細資訊將遞延至 GitHub 文件。
 
 >[!TIP]
 >
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 ## 安裝和啟用 {#installation-activation}
 
-截至「核心元件」2.9.0 版，「資料層」會作為「AEM 用戶端程式庫」隨「核心元件」發佈，無需安裝。[AEM 專案原型 v. 24+](/help/developing/archetype/overview.md) 產生的所有專案預設為包含已啟動的「資料層」。
+截至「核心元件」2.9.0 版，「資料層」會作為「AEM 用戶端程式庫」隨「核心元件」發佈，無需安裝。 [AEM專案原型v產生的所有專案。 24+](/help/developing/archetype/overview.md)預設包含已啟動的資料層。
 
 若要手動啟動「資料層」，您必須為其建立[內容感知設定](/help/developing/context-aware-configs.md)：
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 1. 將 `sling:configRef` 屬性新增至網站的 `jcr:content` 節點，位置在 `/content` (例如 `/content/<mySite>/jcr:content`) 下，並將其設定為上一步驟中的 `/conf/<mySite>` 。
 
-1. 啟用後，您可以在編輯器外載入網站的頁面，例如使用編輯器中的&#x200B;**以發佈頁面形式檢視**&#x200B;選項，以驗證啟動。檢查頁面來源，`<body>` 標記應包含屬性 `data-cmp-data-layer-enabled`
+1. 啟用後，您可以在編輯器外載入網站的頁面，例如使用編輯器中的&#x200B;**以發佈頁面形式檢視**&#x200B;選項，以驗證啟動。 檢查頁面來源，`<body>` 標記應包含屬性 `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -61,7 +61,7 @@ ht-degree: 96%
        </script>
    ```
 
-1. 您也可以開啟瀏覽器的開發人員工具，然後在主控台中，`adobeDataLayer` JavaScript 物件應該可供使用。輸入下列命令以取得目前頁面的「資料層」狀態：
+1. 您也可以開啟瀏覽器的開發人員工具，然後在主控台中，`adobeDataLayer` JavaScript 物件應該可供使用。 輸入下列命令以取得目前頁面的「資料層」狀態：
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -152,7 +152,7 @@ id: {
 }
 ```
 
-頁面載入時會觸發 `cmp:show` 事件。此事件從緊接在開頭 `<body>` 標記下方的內嵌 JavaScript 中傳送，使其成為「資料層」事件佇列中最早的事件。
+頁面載入時會觸發 `cmp:show` 事件。 此事件從緊接在開頭 `<body>` 標記下方的內嵌 JavaScript 中傳送，使其成為「資料層」事件佇列中最早的事件。
 
 ### 容器結構描述 {#container}
 
@@ -258,12 +258,12 @@ id: {
 
 ## 核心元件事件 {#events}
 
-「核心元件」會透過「資料層」觸發許多事件。與「資料層」互動的最佳做法是[註冊事件接聽程式](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) ，*然後*&#x200B;根據事件類型和/或觸發事件的元件採取動作。這將避免與非同步指令碼的潛在競爭條件。
+「核心元件」會透過「資料層」觸發許多事件。 與「資料層」互動的最佳做法是[註冊事件接聽程式](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) ，*然後*&#x200B;根據事件類型和/或觸發事件的元件採取動作。 這將避免與非同步指令碼的潛在競爭條件。
 
 以下為「AEM 核心元件」所提供的現成事件：
 
 * **`cmp:click`** - 按一下可點擊的元素 (具有 `data-cmp-clickable` 屬性的元素) 會導致資料層觸發 `cmp:click` 事件。
-* **`cmp:show`** 和 **`cmp:hide`** - 操作摺疊面板 (展開/收合)、輪播 (下一個/上一個按鈕) 和索引標籤 (索引標籤選取) 元件會導致資料層分別觸發 `cmp:show` 和 `cmp:hide` 事件。`cmp:show` 事件也會在頁面載入時傳送，且預期會成為第一個事件。
+* **`cmp:show`** 和 **`cmp:hide`** - 操作摺疊面板 (展開/收合)、輪播 (下一個/上一個按鈕) 和索引標籤 (索引標籤選取) 元件會導致資料層分別觸發 `cmp:show` 和 `cmp:hide` 事件。 `cmp:show` 事件也會在頁面載入時傳送，且預期會成為第一個事件。
 * **`cmp:loaded`** - 使用頁面上的「核心元件」填入「資料層」之後，「資料層」就會觸發 `cmp:loaded` 事件。
 
 ### 元件觸發的事件 {#events-components}
@@ -292,7 +292,7 @@ eventInfo: {
 }
 ```
 
-其中 `<component-path>` 是「資料層」中觸發事件的元件的 JSON 路徑。值相當重要 (可透過 `event.eventInfo.path` 取得)，因為它可以用作 `adobeDataLayer.getState(<component-path>)` 的參數，它會擷取觸發事件的元件當前狀態，允許自訂程式碼存取其他資料並將其新增到「資料層」。
+其中 `<component-path>` 是「資料層」中觸發事件的元件的 JSON 路徑。  值相當重要 (可透過 `event.eventInfo.path` 取得)，因為它可以用作 `adobeDataLayer.getState(<component-path>)` 的參數，它會擷取觸發事件的元件當前狀態，允許自訂程式碼存取其他資料並將其新增到「資料層」。
 
 例如：
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教學課程
 
-想要更詳細地探索「資料層」和「核心元件」嗎？[請參閱此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hant)。
+想要更詳細地探索資料層和核心元件嗎？[檢視此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

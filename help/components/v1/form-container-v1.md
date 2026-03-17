@@ -1,12 +1,12 @@
 ---
 title: 表單容器元件 (v1)
 description: 透過「核心元件表單容器元件」，可建立簡易的提交表單。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '609'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 「表單容器元件」支援簡易的 WCM 表單，並使用巢狀結構允許額外的表單元件，藉以建立易於使用的資料提交表單和功能。
 
-使用[設定對話框](#settings-dialog)，內容編輯者可定義表單提交所觸發的動作類型、提交內容的儲存位置，以及是否應觸發工作流程。範本作者可以使用[設計對話框](#design-dialog)定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/templates.html)的設計對話框。
+使用[設定對話框](#settings-dialog)，內容編輯者可定義表單提交所觸發的動作類型、提交內容的儲存位置，以及是否應觸發工作流程。 範本作者可以使用[設計對話框](#design-dialog)定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/templates.html)的設計對話框。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1.png)
 
-容器內的可用選項會因所選取的&#x200B;**動作類型**&#x200B;而變更。可用的動作類型包括：
+容器內的可用選項會因所選取的&#x200B;**動作類型**&#x200B;而變更。 可用的動作類型包括：
 
 * [郵件](#mail)
 * [存放區內容](#store-content)
@@ -63,11 +63,11 @@ ht-degree: 100%
 * **主旨** - 提交表單時，將傳送的電子郵件主旨
 * **寄件者** - 提交表單時，將傳送的電子郵件的寄件者電子郵件地址
 * **收件者** - 提交表單時，將接收電子郵件的收件者地址
-   * 點選或按一下&#x200B;**新增**&#x200B;按鈕，以新增其他地址
-   * 點選或按一下&#x200B;**刪除**&#x200B;按鈕，以移除電子郵件地址
+   * 點選或按一下「**新增**」按鈕，以新增其他地址
+   * 點選或按一下「**刪除**」按鈕，以移除電子郵件地址
 * **副本** - 提交表單時，將接收所傳送之電子郵件副本的收件者地址
-   * 點選或按一下&#x200B;**新增**&#x200B;按鈕，以新增其他地址
-   * 點選或按一下&#x200B;**刪除**&#x200B;按鈕，以移除電子郵件地址
+   * 點選或按一下「**新增**」按鈕，以新增其他地址
+   * 點選或按一下「**刪除**」按鈕，以移除電子郵件地址
 
 ### 存放區內容 {#store-content}
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 完成提交表單後，系統會將使用者重新導向至指定頁面。
 
 * 使用「選取對話框」以在 AEM 中選取資源。
-* 如果感謝頁面不在 AEM 中，請指定絕對 URL。非絕對 URL 將解釋為相對於 AEM。
+* 如果感謝頁面不在 AEM 中，請指定絕對 URL。 非絕對 URL 將解釋為相對於 AEM。
 * 留空以在提交後重新顯示表單。
 
 ## 設計對話框 {#design-dialog}

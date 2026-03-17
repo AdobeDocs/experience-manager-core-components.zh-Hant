@@ -1,12 +1,12 @@
 ---
 title: 標題元件 (v1)
 description: 核心元件標題元件是區段標題元件，具備就地編輯的功能。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '320'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 標題元件用作內容的主標題或區段的標題。
 
-可用的標題層級可由範本作者在[設計對話框](#design-dialog)中定義。內容編輯者可在[編輯對話框](#edit-dialog)中選取可用的標題層級。為了增加便利性，也可以簡單地就地編輯標題文字。
+可用的標題層級可由範本作者在[設計對話框](#design-dialog)中定義。 內容編輯者可在[編輯對話框](#edit-dialog)中選取可用的標題層級。 為了增加便利性，也可以簡單地就地編輯標題文字。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->從核心元件匯出 JSON 需要核心元件 1.1.0 版。如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
+>從核心元件匯出 JSON 需要核心元件 1.1.0 版。 如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
 
 ## 編輯對話框 {#edit-dialog}
 

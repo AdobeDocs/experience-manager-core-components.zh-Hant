@@ -1,12 +1,12 @@
 ---
 title: 用戶端程式庫和核心元件
 description: 核心元件隨附許多用戶端程式庫，也可支援加入您自訂的資料庫。
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 加入用戶端程式庫 {#including}
 
-根據您的使用案例，有多種不同的方式可加入[用戶端程式庫](/help/developing/archetype/front-end.md#clientlibs)。以下每個範例中均包含樣本 [HTL 片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hant)。
+根據您的使用案例，有多種不同的方式可加入[用戶端程式庫](/help/developing/archetype/front-end.md#clientlibs)。 以下每個範例中均包含樣本 [HTL 片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)。
 
 ### 建議的預設使用方式 {#recommended-default-usage}
 
@@ -149,4 +149,4 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     ...
 ```
 
-[如需詳細資訊，請參閱頁面元件的技術文件。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
+[如需詳細資訊，請參閱頁面元件的技術檔案。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)

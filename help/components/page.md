@@ -1,27 +1,27 @@
 ---
 title: 頁面元件
 description: 頁面元件是可擴充的頁面元件，旨在與範本編輯器搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '695'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
 
 # 頁面元件{#page-component}
 
-頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
+頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
 
 {{traditional-aem}}
 
 ## 用途 {#usage}
 
-頁面元件構成了使用核心元件以及可編輯範本設計的所有頁面的基礎。使用頁面元件時，可以使用其他核心元件將頁首、頁尾和頁面結構定義為範本。
+頁面元件構成了使用核心元件以及可編輯範本設計的所有頁面的基礎。 使用頁面元件時，可以使用其他核心元件將頁首、頁尾和頁面結構定義為範本。
 
-使用[設計對話框](#design-dialog)，可以為頁面定義自訂用戶端程式庫。不同於可從元件直接存取編輯對話框的其他元件，由於頁面元件是頁面本身，頁面元件的[編輯對話框](#edit-dialog)為頁面屬性視窗。
+使用[設計對話框](#design-dialog)，可以為頁面定義自訂用戶端程式庫。 不同於可從元件直接存取編輯對話框的其他元件，由於頁面元件是頁面本身，頁面元件的[編輯對話框](#edit-dialog)為頁面屬性視窗。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -39,17 +39,17 @@ ht-degree: 100%
 
 ## 漸進式網頁應用程式支援 {#pwa-support}
 
-核心元件 2.15.0 版新增支援 AEM as a Cloud Service 的內建[漸進式網頁應用程式 (PWA) 功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)透過網站層級的簡單設定，將您的 AEM 體驗轉換為 PWA！
+核心元件2.15.0版推出支援AEM as a Cloud Service的內建[漸進式網頁應用程式(PWA)功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) 只要在網站層級進行簡單的設定，就能將您的AEM體驗轉換為PWA！
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_page_v3_tw)有關頁面元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_page_v3)有關頁面元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
 ## 編輯對話框 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中找到。
 
 ## 設計對話框 {#design-dialog}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 使用「頁面設計」視窗，您可以定義要載入的用戶端程式庫，以及頁面的網頁資源資料庫。
 
-* **用戶端程式庫** - 這會定義要載入的用戶端程式庫類別。JavaScript 會新增至正文結尾，而 CSS 會新增至頁面標題。
+* **用戶端程式庫** - 這會定義要載入的用戶端程式庫類別。 JavaScript 會新增至正文結尾，而 CSS 會新增至頁面標題。
 * **用戶端程式庫 JavaScript 頁面標題** - 這會定義要在頁面標題中載入的 JavaScript 用戶端程式庫類別。
    * 在此處定義且出現在&#x200B;**用戶端程式庫**&#x200B;欄位中的類別，將在頁面標題而非正文結尾載入 JavaScript。
    * 除非類別也出現在&#x200B;**用戶端程式庫**&#x200B;欄位中，否則不會載入 CSS。

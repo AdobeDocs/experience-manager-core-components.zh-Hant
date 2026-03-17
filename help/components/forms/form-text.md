@@ -1,11 +1,11 @@
 ---
 title: 表單文字元件
 description: 核心元件表單文字元件可讓您輸入表單文字以供提交。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '578'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-表單文字元件允許提交不同類型的文字，其設計用於與[表單容器元件](form-container.md)搭配使用。文字驗證類型、標籤和說明訊息可由內容編輯者在[設定對話框](#configure-dialog)中定義。
+表單文字元件允許提交不同類型的文字，其設計用於與[表單容器元件](form-container.md)搭配使用。 文字驗證類型、標籤和說明訊息可由內容編輯者在[設定對話框](#configure-dialog)中定義。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -33,11 +33,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「表單文字元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_text_tw)」。
+若要體驗「表單文字元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_text)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_text_v2_tw)有關表單文字元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_text_v2)有關表單文字元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

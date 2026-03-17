@@ -1,12 +1,12 @@
 ---
 title: 頁面元件 (v1)
 description: 頁面元件是可擴充的頁面元件，旨在與範本編輯器搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '454'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '513'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-頁面元件構成了使用核心元件以及可編輯範本設計的所有頁面的基礎。使用頁面元件時，可以使用其他核心元件將頁首、頁尾和頁面結構定義為範本。
+頁面元件構成了使用核心元件以及可編輯範本設計的所有頁面的基礎。 使用頁面元件時，可以使用其他核心元件將頁首、頁尾和頁面結構定義為範本。
 
-使用[設計對話框](#design-dialog)，可以為頁面定義自訂用戶端程式庫。不同於可從元件直接存取編輯對話框的其他元件，由於元件是頁面本身，頁面元件的[編輯對話框](#edit-dialog)為頁面屬性視窗。
+使用[設計對話框](#design-dialog)，可以為頁面定義自訂用戶端程式庫。 不同於可從元件直接存取編輯對話框的其他元件，由於元件是頁面本身，頁面元件的[編輯對話框](#edit-dialog)為頁面屬性視窗。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->頁面元件 v1 不支援頁面重新導向。如需頁面重新導向支援，請使用[頁面元件的目前版本](/help/components/page.md)。
+>頁面元件 v1 不支援頁面重新導向。 如需頁面重新導向支援，請使用[頁面元件的目前版本](/help/components/page.md)。
 
 ## 範例元件輸出 {#sample-component-output}
 
@@ -679,7 +679,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->從核心元件匯出 JSON 需要核心元件 1.1.0 版。如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
+>從核心元件匯出 JSON 需要核心元件 1.1.0 版。 如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
 
 ## 編輯對話框 {#edit-dialog}
 

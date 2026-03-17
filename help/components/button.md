@@ -1,11 +1,11 @@
 ---
 title: 按鈕元件
 description: 核心元件按鈕元件允許建立和顯示按鈕。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '533'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
 
 ---
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「按鈕元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_button_tw)」。
+若要體驗「按鈕元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_button)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_button_v2_tw)有關按鈕元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_button_v2)有關按鈕元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 * **文字** - 按鈕上顯示的文字
 * **連結** - 連結至 AEM 中的內容頁面、外部資源或錨點
-   * 使用&#x200B;**選取對話框**&#x200B;在 AEM 中選擇路徑。
+   * 使用&#x200B;**選取對話框** 在 AEM 中選擇路徑。
 * **在新索引標籤中開啟連結** - 勾選後，該連結將在新的瀏覽器索引標籤中開啟。
 * **圖示** - 在按鈕中顯示圖示的識別碼
 * **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 按鈕元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取想要套用至元件的樣式。在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
+使用下拉式清單，選取想要套用至元件的樣式。 在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
 
 元件樣式必須在[設計對話框](#design-dialog)中設定，才能使用該下拉式清單。
 

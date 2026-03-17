@@ -1,12 +1,12 @@
 ---
 title: 表單按鈕元件 (v1)
 description: 核心元件表單隱藏元件允許在表單中包含隱藏欄位。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '323'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->從核心元件匯出 JSON 需要核心元件 1.1.0 版。如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
+>從核心元件匯出 JSON 需要核心元件 1.1.0 版。 如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
 
 ## 設定對話框 {#configure-dialog}
 

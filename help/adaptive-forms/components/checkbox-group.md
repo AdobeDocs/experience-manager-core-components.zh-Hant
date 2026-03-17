@@ -1,9 +1,9 @@
 ---
 title: 自適應表單核心元件 - 核取方塊群組
 description: 使用或自訂自適應表單核取方塊群組核心元件。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2315'
 ht-degree: 91%
@@ -54,7 +54,7 @@ ht-degree: 91%
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
 | v2 | 與<br>[版本3.0.142](/help/adaptive-forms/version.md)和更新版本相容 | |
-| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
@@ -62,9 +62,11 @@ ht-degree: 91%
 >
 > v1版的Checkbox群組核心元件支援WCAG 2.1，其著重於遵循最佳實務來存取內容，以利使用及閱讀。 v2版本支援WCAG 2.2，透過對相關欄位進行邏輯和語意分組，強調清晰、可預測且清楚無誤的協助工具，使其成為包容性表單設計的關鍵要求，讓此版本更上一層樓。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技術詳細資訊 {#technical-details}
 

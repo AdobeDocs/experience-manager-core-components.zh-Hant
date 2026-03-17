@@ -1,12 +1,12 @@
 ---
 title: 影像元件
 description: 核心元件影像元件是最適化影像元件。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 99%
+source-wordcount: '2163'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 內容作者可以使用[編輯對話框](#edit-dialog)來編輯影像資產，例如套用裁切或旋轉影像。
 
-範本作者可以使用[設計對話框](#design-dialog)定義影像寬度與其他設定。內容編輯者可以使用[設定對話框](#configure-dialog)上傳或選取資產。
+範本作者可以使用[設計對話框](#design-dialog)定義影像寬度與其他設定。 內容編輯者可以使用[設定對話框](#configure-dialog)上傳或選取資產。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -41,31 +41,31 @@ ht-degree: 99%
 
 ## 回應式功能 {#responsive-features}
 
-「影像元件」提供可立即可用的強大回應式功能。在頁面範本層級，[設計對話框](#design-dialog)可用於定義影像資產的預設寬度。「影像元件」會自動載入正確的寬度，以根據瀏覽器視窗的大小來顯示。視窗調整大小時，「影像元件」會即時動態載入正確的影像大小。元件開發人員無需擔心自訂媒體查詢的定義方式，因為「影像元件」已針對內容載入進行最佳化。
+「影像元件」提供可立即可用的強大回應式功能。 在頁面範本層級，[設計對話框](#design-dialog)可用於定義影像資產的預設寬度。 「影像元件」會自動載入正確的寬度，以根據瀏覽器視窗的大小來顯示。 視窗調整大小時，「影像元件」會即時動態載入正確的影像大小。 元件開發人員無需擔心自訂媒體查詢的定義方式，因為「影像元件」已針對內容載入進行最佳化。
 
 此外，「影像元件」支援延遲載入，將實際影像資產的載入延遲到顯示在瀏覽器中為止，藉此提高頁面的回應能力。
 
 >[!TIP]
 >
->預設情況下，「影像元件」由「最適化影像 Servlet」提供支援。請參閱[最適化影像 Servlet](/help/developing/adaptive-image-servlet.md)，了解其運作方式的詳細資訊。
+>預設情況下，「影像元件」由「最適化影像 Servlet」提供支援。 請參閱[最適化影像 Servlet](/help/developing/adaptive-image-servlet.md)，了解其運作方式的詳細資訊。
 
 ### 與 v2 的差異 {#v2-differences}
 
-與影像元件版本 2 不同，版本 3 使用瀏覽器原生回應。這表示它會為瀏覽器提供一組不同寬度影像的來源，而瀏覽器會挑選最佳來源。
+與影像元件版本 2 不同，版本 3 使用瀏覽器原生回應。 這表示它會為瀏覽器提供一組不同寬度影像的來源，而瀏覽器會挑選最佳來源。
 
-大多數情況下，瀏覽器偏好在本機縮小較大的寬度以符合較小的檢視區，而非從伺服器擷取較小的寬度影像。這是預期會出現的情況，以及為什麼不應該將影像元件用於藝術方向 (不同的檢視區會有不同的影像/裁切)。
+大多數情況下，瀏覽器偏好在本機縮小較大的寬度以符合較小的檢視區，而非從伺服器擷取較小的寬度影像。 這是預期會出現的情況，以及為什麼不應該將影像元件用於藝術方向 (不同的檢視區會有不同的影像/裁切)。
 
 如需詳細資訊，[請參閱影像元件的技術文件](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings)。
 
 ## Dynamic Media 支援 {#dynamic-media}
 
-影像元件 (截至 [2.13.0 版](/help/versions.md)) 支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant) 資產。[啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。此外，同樣支援影像修飾元、影像預設集和智慧裁切。
+影像元件（截至[版本2.13.0](/help/versions.md)）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html)資產。[啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，以新增動態媒體影像資產，就像新增任何其他影像一樣。 此外，同樣支援影像修飾元、影像預設集和智慧裁切。
 
-使用核心元件建立的網頁體驗可包含豐富、支援Adobe AI、強大、高效能且跨平台的Dynamic Media影像功能。
+使用核心元件建立的網頁體驗可包含豐富、支援Adobe AI、健全、高效能、跨平台的Dynamic Media影像功能。
 
 ## 遠端資產支援 {#remote-assets}
 
-影像元件 (截至 [2.23.2 版](/help/versions.md)) 支援遠端資產。[設定後，](/help/developing/remote-assets.md)您就可以從影像元件的遠端服務選取資產。
+影像元件（截至[版本2.23.2](/help/versions.md)）支援遠端資產。[設定之後，](/help/developing/remote-assets.md)您可以從遠端服務為您的影像元件選取資產。
 
 ## SVG 支援 {#svg-support}
 
@@ -77,15 +77,15 @@ ht-degree: 99%
 
 ### 安全性 {#security}
 
-基於安全考量，「影像編輯器」絕對不會直接呼叫原始 SVG。而是透過 `<img src="path-to-component">` 呼叫。這可防止瀏覽器執行內嵌於 SVG 檔案中的任何指令碼。
+基於安全考量，「影像編輯器」絕對不會直接呼叫原始 SVG。 而是透過 `<img src="path-to-component">` 呼叫。 這可防止瀏覽器執行內嵌於 SVG 檔案中的任何指令碼。
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image_tw)」。
+若要體驗「影像元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_image)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v3_tw)有關影像元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_image_v3)有關影像元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -109,7 +109,7 @@ ht-degree: 99%
 
   選取此選項會開啟預先定義裁切比例的下拉式清單。
 
-   * 選擇選項&#x200B;**移除裁切** 以顯示原始資產。
+   * 選擇&#x200B;**移除裁切**&#x200B;選項以顯示原始資產。
 
   選取裁切選項後，請使用藍色控點來調整影像上的裁切大小。
 
@@ -135,13 +135,13 @@ ht-degree: 99%
 
   ![縮放滑桿控制](/help/assets/image-zoom-slider.png)
 
-就地編輯器也可用於修改影像。由於空間限制，僅基本選項內嵌。如需完整的編輯選項，請使用全螢幕模式。
+就地編輯器也可用於修改影像。 由於空間限制，僅基本選項內嵌。 如需完整的編輯選項，請使用全螢幕模式。
 
 ![影像就地編輯選項](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
->GIF 影像不支援影像編輯操作。在編輯模式下對 GIF 所做的任何此類變更都不會持續存在。
+>GIF 影像不支援影像編輯操作。 在編輯模式下對 GIF 所做的任何此類變更都不會持續存在。
 
 ### Dynamic Media 資產編輯 {#dynamic-media-assets}
 
@@ -157,15 +157,15 @@ ht-degree: 99%
 
 * **從頁面繼承精選影像** - 此選項使用[連結頁面的精選影像](page.md)，若未連結至該影像，則會使用目前頁面的精選影像。
 
-* **影像資產** - 若已選取&#x200B;**從頁面繼承精選影像**，則會自動填入。取消選取可透過設定以下選項來手動定義影像。
+* **影像資產** - 若已選取&#x200B;**從頁面繼承精選影像**，則會自動填入。 取消選取可透過設定以下選項來手動定義影像。
 
-   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以便您從本機檔案系統上傳。
+   * 從[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)拖曳資產，或點選&#x200B;**瀏覽**&#x200B;選項，以便您從本機檔案系統上傳。
    * 點選或按一下&#x200B;**「清除」**，取消選取目前選取的影像。
-   * 點選或按一下&#x200B;**挑選**，開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hant)以便您選取影像。
+   * 點選或按一下&#x200B;**挑選**，開啟[資產瀏覽器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)以便您選取影像。
       * 若已啟用[「遠端資產支援」](#remote-assets) ，您可從多個選項中挑選資產：
          * **本機**，從本機 AEM 資產庫中選取。
          * **遠端**，從 AEM 執行個體之外的「Dynamic Media」資料庫中選取。
-   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hant)。
+   * 點選或按一下&#x200B;**編輯**，以在 Asset Editor 中[管理資產的轉譯](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html)。
 
 * **協助工具替代文字** - 此欄位可讓您為視障使用者定義影像的說明。
 
@@ -178,15 +178,15 @@ ht-degree: 99%
 ![影像元件設定對話框的後設資料索引標籤](/help/assets/image-configure-metadata.png)
 
 * **預設集類型** - 定義可用影像預設集的類型，可以是&#x200B;**影像預設集**&#x200B;或&#x200B;**智慧裁切**，而且僅在 [Dynamic Media 功能](#dynamic-meida)啟用時可用。
-   * **影像預設集** - 當選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集類型**&#x200B;時，**影像預設集**&#x200B;下拉式清單可供使用，並允許從可用的「Dynamic Media」預設集中選取。這只有在為選取的資產定義了預設集時才能使用。
-   * **智型裁切** - 當選取&#x200B;**智慧裁切**&#x200B;的&#x200B;**預設集類型**&#x200B;時，**轉譯**&#x200B;下拉式清單可供使用，並允許從所選資產的可用轉譯中選取。這只有在為選取的資產定義了轉譯時才能使用。
+   * **影像預設集** - 當選取&#x200B;**影像預設集**&#x200B;的&#x200B;**預設集類型**&#x200B;時，**影像預設集**&#x200B;下拉式清單可供使用，並允許從可用的「Dynamic Media」預設集中選取。 這只有在為選取的資產定義了預設集時才能使用。
+   * **智型裁切** - 當選取&#x200B;**智慧裁切**&#x200B;的&#x200B;**預設集類型**&#x200B;時，**轉譯**&#x200B;下拉式清單可供使用，並允許從所選資產的可用轉譯中選取。 這只有在為選取的資產定義了轉譯時才能使用。
    * **影像修飾元** - 此處定義其他「Dynamic Media」影像命令，並以`&`分隔，無論選取哪個&#x200B;**預設集類型**&#x200B;均適用。
 * **註解** - 影像的其他相關資訊，預設會顯示於影像下方。
    * **從 DAM 取得註解** - 勾選後，影像的註解文字會以 DAM 中 `dc:title` 後設資料的值填入。
    * **以快顯視窗顯示註解** - 勾選後，註解不會顯示在影像下方，但如在某些瀏覽器中將游標停留在影像上，註解會以快顯視窗顯示。
 * **連結** - 將影像連結至其他資源。
    * 使用選取對話框可連結至其他 AEM 資源。
-   * 如果未連結至 AEM 資源，請輸入絕對 URL。非絕對 URL 將解釋為相對於 AEM。
+   * 如果未連結至 AEM 資源，請輸入絕對 URL。 非絕對 URL 將解釋為相對於 AEM。
    * **在新索引標籤中開啟連結** - 此選項會在新的瀏覽器視窗中開啟連結。
 * **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
@@ -195,7 +195,7 @@ ht-degree: 99%
 
 >[!TIP]
 >
->**智慧裁切**&#x200B;和&#x200B;**影像預設集**&#x200B;是互斥選項。如果作者必須使用影像預設集以及智慧裁切轉譯，則作者必須使用 **影像修飾元**&#x200B;來手動新增預設集。
+>**智慧裁切**&#x200B;和&#x200B;**影像預設集**&#x200B;是互斥選項。 如果作者必須使用影像預設集以及智慧裁切轉譯，則作者必須使用 **影像修飾元**&#x200B;來手動新增預設集。
 
 ### 樣式索引標籤 {#styles-tab-edit}
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 影像元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取想要套用至元件的樣式。在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
+使用下拉式清單，選取想要套用至元件的樣式。 在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
 
 元件樣式必須在[設計對話框](#design-dialog)中設定，才能使用該下拉式選單。
 
@@ -228,7 +228,7 @@ ht-degree: 99%
    * 如果該值大於影像的實際寬度，則該值無效。
    * 此值對 SVG 影像沒有影響。
 
-您可以定義影像的寬度 (以像素為單位) 清單，元件會根據瀏覽器大小自動載入最適當的寬度。這是「影像元件」[回應式功能](#responsive-features)的重要部分。
+您可以定義影像的寬度 (以像素為單位) 清單，元件會根據瀏覽器大小自動載入最適當的寬度。 這是「影像元件」[回應式功能](#responsive-features)的重要部分。
 
 * **寬度** - 定義影像的寬度 (以像素為單位) 清單，元件會根據瀏覽器大小自動載入最適當的寬度。
    * 點選或按一下&#x200B;**新增**&#x200B;按鈕以新增其他大小。

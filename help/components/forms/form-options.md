@@ -1,11 +1,11 @@
 ---
 title: 表單選項元件
 description: 核心元件表單選項元件可讓您從各種格式的預先定義選項中選取。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '546'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「表單選項元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_options_tw)」。
+若要體驗「表單選項元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_options)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_options_v2_tw)有關「表單選項元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_options_v2)有關「表單選項元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -57,8 +57,8 @@ ht-degree: 100%
 * **標題** - 將顯示為選項標籤的標題
 * **名稱** - 與表單資料一起提交的欄位名稱
 * **來源** - 定義選項的位置
-   * **本機** - 已在元件內定義
-      * 點選或按一下&#x200B;**新增**&#x200B;按鈕以新增值，點選或按一下&#x200B;**刪除**&#x200B;按鈕以移除值
+   * **本機** - - 定義於元件內部
+      * 點選或按一下&#x200B;**新增**&#x200B;按鈕以新增值，點選或按一下&#x200B;**刪除**&#x200B;以移除值
          * **值** - 提交表單時，選取選項時所儲存的值
          * **文字** - 顯示於表單上的選項標籤
          * **作用中** - 載入表單時，該選項會標示為已選取

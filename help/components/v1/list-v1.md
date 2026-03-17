@@ -1,12 +1,12 @@
 ---
 title: 清單元件 (v1)
 description: 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '836'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 清單元件可用於建立下層頁面的動態清單或任意定義項目的靜態清單。
 
-範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
+範本作者可在[設計對話框](#design-dialog)中定義可用的清單類型和格式選項。 內容編輯者可以在[編輯對話框](#edit-dialog)中，從可用的清單類型以及如何格式化清單元素中選取。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->從核心元件匯出 JSON 需要核心元件 1.1.0 版。如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
+>從核心元件匯出 JSON 需要核心元件 1.1.0 版。 如需詳細資訊，請參閱[核心元件 v1 的相容性資訊](/help/versions.md)。
 
 ## 編輯對話框 {#edit-dialog}
 

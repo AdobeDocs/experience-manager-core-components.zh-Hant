@@ -1,12 +1,12 @@
 ---
 title: AEM 自適應表單核心元件版本
-description: AEM 核心元件會以發行版本的形式發佈，其中可能包含同一核心元件的多個版本。本文件說明什麼是發行版本和版本，以及如何理解與核心元件和 AEM 的相容性。
-role: Architect, Developer, Admin, User
+description: AEM 核心元件會以發行版本的形式發佈，其中可能包含同一核心元件的多個版本。 本文件說明什麼是發行版本和版本，以及如何理解與核心元件和 AEM 的相容性。
+role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 92%
+source-wordcount: '213'
+ht-degree: 93%
 
 ---
 

@@ -1,23 +1,23 @@
 ---
 title: AEM 自適應表單中的 hCaptcha
-description: 使用 hCaptcha&reg; 服務輕鬆提升表單安全性。裡面有詳細的逐步指南！
+description: 使用hCaptcha&reg；服務輕鬆增強表單安全性。 裡面有詳細的逐步指南！
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '583'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 92%
 
 ---
 
 
 # hCaptcha 元件{#hCaptcha-component-adaptive-forms-core-component}
 
-<span class="preview"> 此功能隸屬於早期採用者計劃。您可以使用官方電子郵件 ID 寫信至 aem-forms-ea@adobe.com，以加入早期採用者計劃並要求存取該功能。</span>
+<span class="preview"> 此功能隸屬於早期採用者計劃。 您可以使用官方電子郵件 ID 寫信至 aem-forms-ea@adobe.com，以加入早期採用者計劃並要求存取該功能。</span>
 
-hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化濫用的侵擾。它會利用核取方塊小工具來提出質詢，並評估使用者的回應，以判斷與表單互動的是真人還是機器人。它可防止使用者在測試失敗時繼續操作，並透過防止機器人發佈垃圾郵件或惡意活動來確保線上交易的安全。
+hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化濫用的侵擾。 它會利用核取方塊小工具來提出質詢，並評估使用者的回應，以判斷與表單互動的是真人還是機器人。 它可防止使用者在測試失敗時繼續操作，並透過防止機器人發佈垃圾郵件或惡意活動來確保線上交易的安全。
 
 ![hCaptcha®](/help/adaptive-forms/assets/hCaptcha-challenge.png)
 
@@ -39,20 +39,20 @@ hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化
 
 ## 技術詳細資訊 {#technical-details}
 
-[GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md) 上的技術文件中可取得 hCaptcha 元件的最新相關資訊。如需開發核心元件的更多資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
+[GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md) 上的技術文件中可取得 hCaptcha 元件的最新相關資訊。 如需開發核心元件的更多資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
-您可以使用[設定對話框](#configure-dialog)指定 hCaptcha 元件的屬性。設定對話框是核心元件的一部分，其建置可讓表單的製作更容易，並提供高效率建立複雜表單的方法。
+您可以使用[設定對話框](#configure-dialog)指定 hCaptcha 元件的屬性。 設定對話框是核心元件的一部分，其建置可讓表單的製作更容易，並提供高效率建立複雜表單的方法。
 
 ## 版本和相容性 {#version-and-compatibility}
 
 
-自適應表單 hCaptcha 核心元件於 2024 年 5 月作為[核心元件 3.0.20 版](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491)的一部分發行。下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
+自適應表單 hCaptcha 核心元件於 2024 年 5 月作為[核心元件 3.0.20 版](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491)的一部分發行。 下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
 
 |  |  |
 |---|---|
 | 元件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 相容 | 相容 |
+| v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容\|相容\|相容 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
@@ -65,7 +65,7 @@ hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化
 - **[!UICONTROL 名稱]：**&#x200B;指定 hCaptcha 元件名稱，在表單和規則編輯器中，您可以使用其唯一名稱輕鬆識別表單元件。
 - **[!UICONTROL 標題]：**&#x200B;指定 hCaptcha 元件的標題。
 - **[!UICONTROL 設定]：**&#x200B;選取已設定用於 hCaptcha® 的雲端設定。
-- **驗證碼大小：**&#x200B;您可以選取 hCaptcha® 質詢對話框的顯示大小。使用&#x200B;**[!UICONTROL 精簡]**&#x200B;選項可顯示小尺寸，使用&#x200B;**[!UICONTROL 正常]**&#x200B;選項可顯示相對大尺寸的 hCaptcha® 質詢對話框。<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
+- **驗證碼大小：**&#x200B;您可以選取 hCaptcha® 質詢對話框的顯示大小。 使用&#x200B;**[!UICONTROL 精簡]**&#x200B;選項可顯示小尺寸，使用&#x200B;**[!UICONTROL 正常]**&#x200B;選項可顯示相對大尺寸的 hCaptcha® 質詢對話框。<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
 
   ![hCaptcha 基本索引標籤](/help/adaptive-forms/assets/hcaptcha-basic.png)
 
@@ -80,13 +80,13 @@ hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化
 
 **深入瞭解**&#x200B;其他&#x200B;**驗證碼元件**&#x200B;及其服務，例如：
 
-- [於核心元件的自適應表單中使用 hCaptcha](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [在最適化表單中使用核心元件的驗證碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [於基礎元件的自適應表單中使用 hCaptcha](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [在Foundation元件適用性表單中使用Captcha](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [於基礎元件的自適應表單中使用 Turnstile 驗證碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [在基礎元件的最適化表單中使用Turnstile驗證碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [於基礎元件的自適應表單中使用 Google reCAPTCHA](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [在基礎元件的最適化表單中使用Google reCAPTCHA](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## 相關文章 {#related-articles}
 
