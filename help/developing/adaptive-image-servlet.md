@@ -54,6 +54,6 @@ ht-degree: 89%
 
 ## 使用 Last-Modified 頁首 {#last-modified}
 
-「最適化影像 Servlet」支援透過 `Last-Modified` 頁首的條件式要求，但[必須在 Dispatcher 中啟用 ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-hant#caching-http-response-headers) `Last-Modified` 頁首的快取。
+「最適化影像 Servlet」支援透過 `Last-Modified` 頁首的條件式要求，但[必須在 Dispatcher 中啟用 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-hant#caching-http-response-headers) `Last-Modified` 頁首的快取。
 
 [AEM 專案原型的](/help/developing/archetype/overview.md)範例 Dispatcher 設定已包含此設定。

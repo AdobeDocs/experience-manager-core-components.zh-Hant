@@ -39,6 +39,6 @@ OSGi 架構提供強大的方式來定義[要求和功能](https://docs.osgi.org
 
 ## AEM 專案原型支援 {#support}
 
-從版本 31 開始，[ AEM 專案原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html)可用於正確設定 AEM as a Cloud Service 專案，以使用預先編譯的套件指令碼。
+從版本 31 開始，[&#x200B; AEM 專案原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html)可用於正確設定 AEM as a Cloud Service 專案，以使用預先編譯的套件指令碼。
 
 此外，AEM 專案原型會設定 [AEM as a Cloud Service SDK 建置分析器 Maven 外掛程式](/help/developing/archetype/build-analyzer-maven-plugin.md)，以驗證 Java 套件層級以及指令碼層級的相依性。
