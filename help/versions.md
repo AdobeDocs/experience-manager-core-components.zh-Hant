@@ -3,7 +3,7 @@ title: 核心元件版本
 description: 核心元件會以發行版本的形式發佈，其中可能包含同一核心元件的多個版本。 本文件說明什麼是發行版本和版本，以及如何理解與核心元件和 AEM 的相容性。
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
