@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 針對傳統 AEM 專案，使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 98%
       + [自適應表單水平索引標籤](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自適應表單影像](/help/adaptive-forms/components/image.md)
       + [自適應表單數值方塊](/help/adaptive-forms/components/numeric-box.md)
-      + [自適應表單密碼方塊](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[最適化Forms密碼方塊](/help/adaptive-forms/components/password-box.md)
       + [自適應表單面板](/help/adaptive-forms/components/panel.md)
       + [自適應表單驗證碼](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [自適應表單選項按鈕](/help/adaptive-forms/components/radio-button.md)
       + [自適應表單重設按鈕](/help/adaptive-forms/components/reset-button.md)
-      + [自適應表單檢閱](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[最適化表單稽核](/help/adaptive-forms/components/review.md)
       + [自適應表單手寫簽名](/help/adaptive-forms/components/scribble-signature.md)
       + [自適應表單提交按鈕](/help/adaptive-forms/components/submit-button.md)
       + [自適應表單切換](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -141,7 +141,7 @@ ht-degree: 98%
       + [頁尾](/help/adaptive-forms/components/footer.md)
    + [自訂自適應表單核心元件](/help/developing/customize-adaptive-forms-core-components.md)
    + [範例主題和範本](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-   + [啟用文字輸入驗證模式](/help/adaptive-forms/enable-validation-patterns.md)
+   + {hide-from-toc}[啟用文字輸入驗證模式](/help/adaptive-forms/enable-validation-patterns.md)
 + 開發 {#developing}
    + [開發核心元件](/help/developing/overview.md)
    + [成功的路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hant)

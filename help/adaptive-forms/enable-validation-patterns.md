@@ -2,14 +2,13 @@
 title: 在Adobe Experience Manager Adaptive Forms中啟用和使用文字輸入驗證模式
 description: 瞭解如何設定範本原則，以公開電話號碼、社會安全號碼及郵遞區號等驗證模式，然後在最適化Forms中使用。
 hide: true
-hidefromtoc: true
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+exl-id: e4500666-1346-4558-861d-da9541dcef51
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
 
 ---
-
 
 # 在Adobe Experience Manager Adaptive Forms中啟用和使用文字輸入驗證模式
 

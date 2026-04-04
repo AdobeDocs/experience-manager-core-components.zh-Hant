@@ -3,9 +3,8 @@ title: 自適應表單核心元件 - 檢閱元件
 description: 使用或自訂自適應表單檢閱核心元件。
 role: Developer, Admin, User
 hide: true
-hidefromtoc: true
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%

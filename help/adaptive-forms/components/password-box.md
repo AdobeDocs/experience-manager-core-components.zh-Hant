@@ -3,9 +3,8 @@ title: 自適應表單核心元件 - 密碼方塊
 description: 使用或自訂自適應表單密碼方塊核心元件。
 role: Developer, Admin, User
 hide: true
-hidefromtoc: true
 exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '1958'
 ht-degree: 100%
