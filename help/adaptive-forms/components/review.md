@@ -4,7 +4,7 @@ description: 使用或自訂自適應表單檢閱核心元件。
 role: Developer, Admin, User
 hide: true
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
-source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
+source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%
