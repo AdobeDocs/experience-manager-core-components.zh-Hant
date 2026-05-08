@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 94%
 
 電子郵件體驗片段元件可適應本地化的網站結構，並根據內容的本地化呈現適當的體驗片段。 為此，體驗片段必須符合以下條件。
 
-* 電子郵件體驗片段元件已新增至[頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=zh-Hant)。
+* 電子郵件體驗片段元件已新增至[頁面範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)。
 * 該範本用於建立新內容頁面，此頁面是 `/content/<site>` 以下的本地化結構的一部分。
 * 在內容頁面上參考的體驗片段屬於 `/content/experience-fragments` 以下的本地化體驗結構的一部分，遵循與 `/content/<site>` 以下的網站相同的模式，包括使用相同的元件名稱。
 
-在這種情況下，與目前頁面具有相同本地化 ([語言、Blueprint 或即時副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=zh-Hant)) 的片段將當作範本的一部分呈現。
+在這種情況下，與目前頁面具有相同本地化 ([語言、Blueprint 或即時副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html)) 的片段將當作範本的一部分呈現。
 
 此行為僅限新增至範本的電子郵件體驗片段元件。 新增到個別內容頁面的體驗片段元件將轉譯在元件中設定的精確體驗片段轉譯。
 
@@ -108,7 +108,7 @@ ht-degree: 94%
 
 ## 技術詳細資訊 {#technical-details}
 
-閱讀最新的[體驗片段元件的相關技術文件](https://www.adobe.com/go/aem_cmp_xf_v1_tw)。
+閱讀最新的[體驗片段元件的相關技術文件](https://www.adobe.com/go/aem_cmp_xf_v1)。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
@@ -120,7 +120,7 @@ ht-degree: 94%
 
 使用&#x200B;**開啟選取對話框**&#x200B;按鈕開啟元件選擇器，選擇要新增至內容頁面的體驗片段元件變化版本。
 
-如果您將電子郵件體驗片段元件新增至範本，只要體驗片段已本地化，該元件就會自動本地化，因此根據您明確選取的元件，頁面上呈現的內容可能會有所不同。[如需詳細資訊，請參閱以上範例](#example)。
+如果您將電子郵件體驗片段元件新增至範本，只要體驗片段完成本地化，該元件便會自動進行本地化，因此在頁面呈現的內容可能與您明確選取的元件有所差異。 如需詳細資訊，[請參閱以上範例](#example)。
 
 您也可以定義 **ID**。 此選項允許控制 HTML 中元件的唯一識別碼。
 

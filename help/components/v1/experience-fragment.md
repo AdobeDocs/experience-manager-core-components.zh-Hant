@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 94%
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_xf_v1_tw)有關體驗片段元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_xf_v1)有關體驗片段元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -120,7 +120,7 @@ ht-degree: 94%
 
 使用&#x200B;**開啟選取對話框**&#x200B;按鈕開啟元件選擇器，選擇要新增至內容頁面的體驗片段元件變化版本。
 
-如果您將體驗片段元件新增至範本，請注意，體驗片段一旦本地化，就會自動本地化，因此根據您明確選取的元件，頁面上呈現的內容可能會有所不同。[如需詳細資訊，請參閱以上範例](#example)。
+如果您將體驗片段元件新增至範本，請注意，只要體驗片段完成本地化，該元件便會自動進行本地化，因此在頁面呈現的內容可能與您明確選取的元件有所差異。 如需詳細資訊，[請參閱以上範例](#example)。
 
 您也可以定義 **ID**。 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
 

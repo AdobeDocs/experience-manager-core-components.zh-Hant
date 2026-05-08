@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ AEM 專案原型包括可選用的 Webpack 型專用前端建置機制。 因此
 
 ## 確定標記 {#determining-markup}
 
-無論您決定為專案實施哪個前端開發工作流程，後端開發人員和前端開發人員都必須先就標記達成共識。 通常AEM會定義核心元件所提供的標籤。[不過，如有需要，可以自訂此專案。](/help/developing/customizing.md#customizing-the-markup)
+無論您決定為專案實施哪個前端開發工作流程，後端開發人員和前端開發人員都必須先就標記達成共識。 通常 AEM 會定義核心元件所提供的標記。 [不過，如有需要，亦可自訂。](/help/developing/customizing.md#customizing-the-markup)
 
 ## 可能的前端開發工作流程 {#possible-workflows}
 
@@ -56,7 +56,7 @@ AEM 專案原型包括可選用的 Webpack 型專用前端建置機制。 因此
 
 >[!TIP]
 >
->您也可以利用[元件庫](https://adobe.com/go/aem_cmp_library_tw)來擷取每個元件的標記輸出範例，以便在元件層級而非頁面層級上運作。
+>您也可以利用[元件庫](https://adobe.com/go/aem_cmp_library)來擷取每個元件的標記輸出範例，以便在元件層級而非頁面層級上運作。
 
 ### 使用 Storybook {#using-storybook}
 
@@ -68,7 +68,7 @@ AEM 專案原型包括可選用的 Webpack 型專用前端建置機制。 因此
 
 ## Clientlib 概觀 {#clientlibs}
 
-前端模組可使用[AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)。執行NPM建置指令碼時，會建置應用程式，且`aem-clientlib-generator`套件會擷取產生的建置輸出，並將其轉換為此類clientlib。
+使用 [AEM clientlib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) 即可取得前端模組。執行 NPM 建置指令碼時，會建置應用程式，且 `aem-clientlib-generator` 套件會擷取產生的建置輸出，並將其轉換為此類 clientlib。
 
 Clientlib 將由下列檔案和目錄組成：
 
@@ -80,4 +80,4 @@ Clientlib 將由下列檔案和目錄組成：
 
 >[!TIP]
 >
->在 [AEM 開發文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)中進一步了解 AEM 如何處理 clientlib，並了解如何將其納入[核心元件文件](/help/developing/including-clientlibs.md)。
+>在 [AEM 開發文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)中進一步了解 AEM 如何處理 clientlib，並了解如何將其納入[核心元件文件](/help/developing/including-clientlibs.md)。

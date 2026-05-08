@@ -4,9 +4,9 @@ description: 使用或自訂自適應表單精靈核心元件。
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,20 +50,20 @@ ht-degree: 98%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms精靈配置核心元件於2023年2月發行，是核心元件2.0.4的一部分。 下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
+自適應表單精靈版面核心元件於 2023 年 2 月作為核心元件 2.0.4 的一部分發行。下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
 
 |  |  |
 |---|---|
 | 元件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 與<br>[版本2.0.4](/help/adaptive-forms/version.md)和更新版本相容\|相容\|相容 |
+| v1 | 與 <br>[2.0.4 版](/help/adaptive-forms/version.md)及更高版本相容\|相容\|相容 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技術詳細資訊 {#technical-details}
@@ -131,7 +131,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最小重複次數**：建立精靈面板可重複的最小次數。 值為零表示精靈面板不會重複；預設值為零。
 - **最大重複次數**：設定精靈面板可重複的最大次數。 預設情況下，此值為無限制。
 
-若要有效管理精靈內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理精靈內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 項目索引標籤 {#items-tab}
 

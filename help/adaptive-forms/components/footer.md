@@ -4,9 +4,9 @@ description: 使用或自訂自適應表單頁尾核心元件。
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,14 +41,14 @@ ht-degree: 94%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技術詳細資訊 {#technical-details}
@@ -65,9 +65,9 @@ To experience the Accordion Component as well as see examples of its configurati
 - **編輯對話框**
 編輯對話框提供標準 RTF 文字格式化工具，可讓使用者建立頁尾文字。
 
-- **粗體** — 此選項會將粗體格式套用至選取的文字或粗體   格式化在游標後輸入的文字。`Ctrl+B` 是鍵盤快速鍵。
+- **粗體** - 此選項會將粗體格式套用至選取的文字，或將游標後方輸入的文字設定為粗體格式。 `Ctrl+B` 是鍵盤快速鍵。
 
-- **斜體** — 此選項會將斜體格式套用至選取的文字或   將游標後輸入的文字變為斜體。`Ctrl+I` 是鍵盤快速鍵。
+- **斜體** - 此選項會將斜體格式套用至選取的文字，或將游標後方輸入的文字設定為斜體。 `Ctrl+I` 是鍵盤快速鍵。
 
 ![項目符號選項](/help/adaptive-forms/assets/footer_bullet.png)
 
@@ -114,7 +114,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

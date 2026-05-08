@@ -4,9 +4,9 @@ description: 使用或自訂自適應表單核取方塊群組核心元件。
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '2315'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '2316'
+ht-degree: 100%
 
 ---
 
@@ -53,19 +53,19 @@ ht-degree: 91%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v2 | 與<br>[版本3.0.142](/help/adaptive-forms/version.md)和更新版本相容 | |
-| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v2 | 與 <br>[3.0.142 版](/help/adaptive-forms/version.md)及更新版本相容 | |
+| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
 >[!NOTE]
 >
-> v1版的Checkbox群組核心元件支援WCAG 2.1，其著重於遵循最佳實務來存取內容，以利使用及閱讀。 v2版本支援WCAG 2.2，透過對相關欄位進行邏輯和語意分組，強調清晰、可預測且清楚無誤的協助工具，使其成為包容性表單設計的關鍵要求，讓此版本更上一層樓。
+> v1 版本的核取方塊群組核心元件支援 WCAG 2.1；WCAG 2.1 聚焦在遵循可用性和可讀性的最佳做法，使內容能夠無障礙供人存取。v2 版本支援 WCAG 2.2；它透過對相關欄位進行邏輯和語意分組來進一步強調清晰、可預測且明確的可存取性，使其成為包容性表單設計的關鍵要求。
 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技術詳細資訊 {#technical-details}
@@ -180,13 +180,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **重新排列**：點選或按一下並拖曳，以重新排列自訂屬性名稱和自訂屬性值的順序。
 
-## 核取方塊群組(v2)的欄位集和圖例支援
+## 核取方塊群組 (v2) 支援欄位集和圖例
 
-<span class="preview">此功能可透過搶先存取計畫使用。 若要要求存取權，請從您的正式地址傳送電子郵件至[aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
+<span class="preview">您可以透過搶先體驗方案使用此功能。若要請求存取權限，請從您的官方地址寄送電子郵件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
 
-最適化Forms核心元件使用語意`<fieldset>`和`<legend>` HTML元素來改善核取方塊群組的協助工具。 這些元素可讓熒幕助讀程式精確解譯表單結構，並傳達群組標籤與其選項之間的關係。
+自適應表單核心元件使用語意 `<fieldset>` 和 `<legend>` HTML 元素來改善核取方塊群組的可存取性。這些元素可讓螢幕助讀程式準確解讀表單結構，並傳達群組標籤與其選項之間的關係。
 
-在`<fieldset>`元素中轉譯核取方塊群組(v2)元件，並將群組標籤包裝在`<legend>`中作為其第一個子項。 此結構可確保熒幕朗讀程式在朗讀個別核取方塊選項之前先朗讀群組標籤，讓使用輔助技術的使用者更容易瞭解每個選項的情境和用途。
+核取方塊群組 (v2) 元件會在 `<fieldset>` 元素中轉譯，且群組標籤會包含在 `<legend>` 中，作為其第一個下層。此結構可確保螢幕助讀程式在朗讀個別核取方塊選項之前先宣布群組標籤，讓使用輔助技術的使用者更容易了解每個選項的內容脈絡和用途。
 
 ![核取方塊欄位集](/help/adaptive-forms/assets/checkbox-fieldset.png)
 

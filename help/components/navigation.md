@@ -4,9 +4,9 @@ description: 導覽元件可讓使用者輕鬆導覽全域化網站結構。
 role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1556'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 導覽元件會列出頁面的樹狀結構，讓網站的使用者可以輕鬆導覽網站結構。
 
-導覽元件可以自動偵測您網站的全域化網站結構，並[自動調整為當地語系化的頁面。](#localized-site-structure) 此外，它可以使用[陰影重新導向頁面](#shadow-structure)支援任何任意網站結構，以代表您的主要內容結構以外的其他結構。
+導覽元件可以自動偵測您網站的全域化網站結構，並[自動調整至本地化的頁面](#localized-site-structure)。此外，它可以使用[影子重新導向頁面](#shadow-structure)支援任意網站結構，以代表您主要內容結構以外的其他結構。
 
 透過[編輯對話框](#edit-dialog)，內容作者可定義導覽根頁面以及導覽深度。 透過[設計對話框](#design-dialog)，範本作者可定義導覽根目錄和深度的預設值。
 
@@ -117,11 +117,11 @@ ht-degree: 97%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「導覽元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_navigation_tw)」。
+若要體驗「導覽元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_navigation)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_navigation_v2_tw)有關導覽元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_navigation_v2)有關導覽元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

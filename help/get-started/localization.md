@@ -4,7 +4,7 @@ description: 核心元件的本地化功能
 role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: f3a3cfcadf76058eb0c927424fe41f03a55a58c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 同樣地，導覽元件通常必須跨所有頁面顯示。 不過，同樣必須反映本地化頁面的內容。
 
-透過[導覽核心元件](/help/components/navigation.md)和[體驗片段核心元件](/help/components/experience-fragment.md)的本地化功能，以及 [AEM 的可編輯範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)，這項任務就可輕鬆完成。 此範例可進一步擴充，以使用[語言導覽元件](/help/components/language-navigation.md)。
+透過[導覽核心元件](/help/components/navigation.md)和[體驗片段核心元件](/help/components/experience-fragment.md)的本地化功能，以及 [AEM 的可編輯範本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，這項任務就可輕鬆完成。 此範例可進一步擴充，以使用[語言導覽元件](/help/components/language-navigation.md)。
 
 ## 內容結構 {#content-structure}
 

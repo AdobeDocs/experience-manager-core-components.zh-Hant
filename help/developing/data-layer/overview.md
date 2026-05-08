@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ## 安裝和啟用 {#installation-activation}
 
-截至「核心元件」2.9.0 版，「資料層」會作為「AEM 用戶端程式庫」隨「核心元件」發佈，無需安裝。 [AEM專案原型v產生的所有專案。 24+](/help/developing/archetype/overview.md)預設包含已啟動的資料層。
+截至「核心元件」2.9.0 版，「資料層」會作為「AEM 用戶端程式庫」隨「核心元件」發佈，無需安裝。 由 [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md) 產生的所有專案預設會包括已啟動的「資料層」。
 
 若要手動啟動「資料層」，您必須為其建立[內容感知設定](/help/developing/context-aware-configs.md)：
 
@@ -122,7 +122,7 @@ id: {                   // component ID
 
 >[!NOTE]
 >
->此結構描述是用作多個核心元件的基礎模式的一般元件專案結構描述。 這並不保證每個列出的元件都會填入每個專案的所有這些欄位。
+>此結構描述是一般元件項目結構描述，作為多個核心元件的基礎模式。這並不保證每個列出的元件都會填入每個項目的所有這些欄位。
 
 下列[事件](#events)與元件/容器項目結構描述相關：
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教學課程
 
-想要更詳細地探索資料層和核心元件嗎？[檢視此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hant)。
+想要更詳細地探索「資料層」和「核心元件」嗎？ [請參閱此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

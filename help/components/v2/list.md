@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
 ht-degree: 100%
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list_tw)」。
+若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v2_tw)有關清單元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v2)有關清單元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -81,7 +81,7 @@ ht-degree: 100%
    * 留空將使用目前頁面
 
 * **下層深度**
-要向下使用階層中的多少個層級
+應向下使用階層中的多少個層級
 
 #### 固定清單 {#fixed-list}
 
@@ -115,12 +115,12 @@ ht-degree: 100%
 ![標記清單選項](/help/assets/v2/list-edit-tags.png)
 
 * **上層頁面**
-應開始標記比對的位置
+標記比對應該開始的位置
    * 使用&#x200B;**選取對話框**&#x200B;在 AEM 中選擇位置
    * 如果留空則使用目前頁面
 * **標記**
-應該比對哪些標記
-   * 使用&#x200B;**瀏覽**&#x200B;對話框來選取標記
+應比對哪些標記
+   * 使用「**瀏覽**」對話框可選取標記
 * **符合**
 定義哪種類型的符合條件可使頁面列入清單
    * **任何標記**
@@ -140,8 +140,8 @@ ht-degree: 100%
 項目應排序的順序
    * **升序**
    * **降序**
-* **最大項目**
-在清單中顯示的最大項目數。
+* **項目數量上限**
+清單中顯示的項目數量上限。
    * 留空將傳回所有項目。
 * **ID** - 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
    * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
@@ -155,11 +155,11 @@ ht-degree: 100%
 ![項目設定](/help/assets/v2/list-edit-item-settings.png)
 
 * **連結項目**
-連結項目至相應頁面
+連結項目至對應頁面
 * **顯示說明**
-顯示連結項目的說明
+顯示連結項目說明
 * **顯示日期**
-顯示連結項目修改日期
+顯示連結項目的修改日期
 
 ## 設計對話框 {#design-dialog}
 
@@ -189,11 +189,11 @@ ht-degree: 100%
 ![清單元件的設計對話框項目設定](/help/assets/v2/list-design-item-settings.png)
 
 * **連結項目**
-在[編輯對話框](#edit-dialog)中啟用連結項目選項
+在[編輯對話框](#edit-dialog)中啟用「連結項目」選項
 * **顯示說明**
-在[編輯對話框](#edit-dialog)中啟用顯示說明選項
+在[編輯對話框](#edit-dialog)中啟用「顯示說明」選項
 * **顯示日期**
-在[編輯對話框](#edit-dialog)中啟用顯示日期選項
+在[編輯對話框](#edit-dialog)中啟用「顯示日期」選項
 
 ### 樣式索引標籤 {#styles-tab}
 

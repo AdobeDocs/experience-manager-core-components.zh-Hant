@@ -4,9 +4,9 @@ description: 使用或自訂自適應表單切換核心元件。
 role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1948'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 98%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-最適化Forms交換器核心元件已隨核心元件2.0.64發行。 下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
+自適應表單切換核心元件作為核心元件 2.0.64 的一部分發行。下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
 
 |  |  |
 |---|---|
 | 元件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 與<br>[版本2.0.64](/help/adaptive-forms/version.md)和更新版本相容\|相容\|相容 |
+| v1 | 與 <br>[2.0.64 版](/help/adaptive-forms/version.md)及更高版本相容\|相容\|相容 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
