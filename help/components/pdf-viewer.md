@@ -4,7 +4,7 @@ description: PDF 檢視器元件允許顯示 PDF 文件。
 role: Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
 ht-degree: 100%
 

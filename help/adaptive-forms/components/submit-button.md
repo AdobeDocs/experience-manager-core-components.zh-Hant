@@ -4,7 +4,7 @@ description: 使用或自訂自適應表單提交按鈕核心元件。
 role: Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1530'
 ht-degree: 100%
 

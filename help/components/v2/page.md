@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 ## 漸進式網頁應用程式支援 {#pwa-support}
 
-核心元件2.15.0版推出支援AEM as a Cloud Service的內建[漸進式網頁應用程式(PWA)功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant) 只要在網站層級進行簡單的設定，就能將您的AEM體驗轉換為PWA！
+核心元件 2.15.0 版導入支援 AEM as a Cloud Service 的內建[漸進式網頁應用程式 (PWA) 功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)。透過網站層級的簡單設定，將您的 AEM 體驗轉換為 PWA！
 
 ### 技術詳細資訊 {#technical-details}
 

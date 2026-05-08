@@ -4,7 +4,7 @@ description: 使用或自訂自適應表單影像核心元件。
 role: Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1076'
 ht-degree: 100%
 

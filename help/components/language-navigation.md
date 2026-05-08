@@ -4,7 +4,7 @@ description: 語言導覽元件提供網站的語言和國家/地區導覽，讓
 role: Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '959'
 ht-degree: 100%
 

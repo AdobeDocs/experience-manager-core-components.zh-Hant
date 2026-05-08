@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,8 +57,8 @@ ht-degree: 96%
    * **預設** - 定義未符合其他條件時，會顯示的預設區段
    * **自訂** - 允許作者定義條件
       * 條件根據 Adobe Campaign 個人化變數而定
-      * [如需Adobe Campaign Standard個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
-      * [如需Adobe Campaign Classic個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hant)
+      * [請參閱此處以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
+      * [請參閱此處以了解 Adobe Campaign Classic 個人化資源。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hant)
 * **刪除** - 點選或按一下以從「電子郵件細分元件」中刪除該區段。
 * **重新排列** - 點選或按一下並拖曳以重新排列區段。
 
@@ -135,7 +135,7 @@ ht-degree: 96%
 
 * **區段條件名稱** - 條件的說明
 * **區段條件** - 必須符合的實際條件，根據 Adobe Campaign 個人化變數而定
-   * [如需Adobe Campaign Standard個人化資源，請參閱此處。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
-   * [如需Adobe Campaign Classic個人化資源，請參閱此處。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=zh-Hant)
+   * [請參閱此處以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
+   * [請參閱此處以了解 Adobe Campaign Classic 個人化資源。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=zh-Hant
 * **移除** - 點選或按一下以移除該條件
 * **重新排列** - 點選或按一下並拖曳，以重新排列條件的順序

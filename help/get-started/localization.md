@@ -4,7 +4,7 @@ description: 核心元件的本地化功能
 role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: f3a3cfcadf76058eb0c927424fe41f03a55a58c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
 ht-degree: 100%
 

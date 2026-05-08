@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -227,11 +227,11 @@ ht-degree: 100%
 ![](/help/assets/chlimage_1-44.png)
 
 * **連結項目**
-連結項目至相應頁面
+連結項目至對應頁面
 * **顯示說明**
-顯示連結項目的說明
+顯示連結項目說明
 * **顯示日期**
-顯示連結項目修改日期
+顯示連結項目的修改日期
 
 ## 設計對話框 {#design-dialog}
 

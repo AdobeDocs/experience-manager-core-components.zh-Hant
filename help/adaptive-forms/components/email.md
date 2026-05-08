@@ -4,8 +4,8 @@ description: 使用或自訂自適應表單電子郵件輸入核心元件。
 role: Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '2135'
+workflow-type: ht
+source-wordcount: '2137'
 ht-degree: 100%
 
 ---
@@ -91,7 +91,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![驗證索引標籤](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **必要** - 若要在自適應表單中顯示該元件，請選取此選項。 選取選項後，您必須先輸入值，才能繼續提交表單。選取此選項時，您無法在&#x200B;**基本**&#x200B;索引標籤中選取&#x200B;**隱藏元件**&#x200B;或&#x200B;**停用元件** 。
+- **必要** - 若要在自適應表單中顯示該元件，請選取此選項。 選取選項後，您必須輸入值才能繼續提交表單。選取此選項後，您無法在&#x200B;**基本**&#x200B;索引標籤中選取&#x200B;**隱藏元件**&#x200B;或&#x200B;**停用元件**。
 
 - **錯誤訊息** - 此選項可讓您輸入訊息，在已勾選&#x200B;**必要**&#x200B;核取方塊且表單欄位留空時顯示。
 

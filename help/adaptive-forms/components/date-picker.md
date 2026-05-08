@@ -4,9 +4,9 @@ description: 使用或自訂自適應表單日期挑選器核心元件。
 role: Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
@@ -180,23 +180,23 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### 格式索引標籤 {#formats-tab}
 
-格式索引標籤可讓您指定預設和自訂日期格式。 此外，您也可以使用&#x200B;**新增**&#x200B;按鈕來新增自訂日期格式。
+格式索引標籤可讓您指定預設和自訂日期格式。 此外，您還可以使用「**新增**」按鈕新增自訂日期格式。
 
 ![格式索引標籤](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
 #### 在元件的範本原則中新增格式
 
-若要顯示元件的可用格式，您必須將其新增至元件的範本原則。
+若要顯示元件的可用格式，您必須將格式新增至元件的範本原則。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
 
 若要將格式新增至範本原則：
 
-1. 在範本編輯器中開啟與調適型表單相關的對應範本。
-2. 在&#x200B;**允許的元件**&#x200B;區段中，選取&#x200B;**[!UICONTROL 日期選擇器]**&#x200B;元件。
-   ![日期選擇器範本原則](/help/adaptive-forms/assets/date-picker-policy.png)
-3. 按一下「**[!UICONTROL 新增]**」圖示，為日期選擇器元件建立新原則。
-4. 輸入原則的名稱，並在&#x200B;**格式**&#x200B;標籤下選取所有必要的格式。
+1. 在範本編輯器中開啟與自適應表單或 Sites 相關聯的對應範本。
+2. 在「**允許的元件**」區段中，選取「**[!UICONTROL 日期挑選器]**」元件。
+   ![日期挑選器範本原則](/help/adaptive-forms/assets/date-picker-policy.png)
+3. 按一下「**[!UICONTROL 新增]**」圖示，為日期挑選器元件建立新原則。
+4. 輸入原則的名稱，並在「**格式**」索引標籤下選取所有所需的格式。
    ![建立原則](/help/adaptive-forms/assets/number-input-format-policy.png)
 5. 按一下&#x200B;**[!UICONTROL 完成]**。
 

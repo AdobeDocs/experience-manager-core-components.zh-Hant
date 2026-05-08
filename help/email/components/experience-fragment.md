@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 94%
 
 使用&#x200B;**開啟選取對話框**&#x200B;按鈕開啟元件選擇器，選擇要新增至內容頁面的體驗片段元件變化版本。
 
-如果您將電子郵件體驗片段元件新增至範本，只要體驗片段已本地化，該元件就會自動本地化，因此根據您明確選取的元件，頁面上呈現的內容可能會有所不同。[如需詳細資訊，請參閱以上範例](#example)。
+如果您將電子郵件體驗片段元件新增至範本，只要體驗片段完成本地化，該元件便會自動進行本地化，因此在頁面呈現的內容可能與您明確選取的元件有所差異。 如需詳細資訊，[請參閱以上範例](#example)。
 
 您也可以定義 **ID**。 此選項允許控制 HTML 中元件的唯一識別碼。
 

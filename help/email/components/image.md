@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 96%
 
 ## Dynamic Media 支援 {#dynamic-media}
 
-電子郵件影像元件支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant#dynamicmedia)資產。[啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，以新增動態媒體影像資產，就像新增任何其他影像一樣。 此外，同樣支援影像修飾元、影像預設集和智慧裁切。
+「電子郵件影像元件」支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant#dynamicmedia) 資產。 [啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。 此外，同樣支援影像修飾元、影像預設集和智慧裁切。
 
-使用電子郵件核心元件建置的電子郵件體驗可包含豐富、支援Adobe AI、穩定、高效能、跨平台的Dynamic Media影像功能。
+使用電子郵件核心元件建立的電子郵件體驗，可採用豐富、Adobe AI 驅動、穩定、高效能、跨平台的 Dynamic Media 影像功能。
 
 ## SVG 支援 {#svg-support}
 

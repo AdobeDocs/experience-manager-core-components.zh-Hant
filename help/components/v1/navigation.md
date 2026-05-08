@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1435'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 導覽元件會列出頁面的樹狀結構，讓網站的使用者可以輕鬆導覽網站結構。
 
-導覽元件可以自動偵測您網站的全域化網站結構，並[自動調整為當地語系化的頁面。](#localized-site-structure) 此外，它可以使用[陰影重新導向頁面](#shadow-structure)支援任何任意網站結構，以代表您的主要內容結構以外的其他結構。
+導覽元件可以自動偵測您網站的全域化網站結構，並[自動調整至本地化的頁面](#localized-site-structure)。此外，它可以使用[影子重新導向頁面](#shadow-structure)支援任意網站結構，以代表您主要內容結構以外的其他結構。
 
 透過[編輯對話框](#edit-dialog)，內容作者可定義導覽根頁面以及導覽深度。 透過[設計對話框](#design-dialog)，範本作者可定義導覽根目錄和深度的預設值。
 

@@ -4,7 +4,7 @@ description: 「核心元件內容片段」元件允許顯示內容片段。
 role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
 ht-degree: 100%
 

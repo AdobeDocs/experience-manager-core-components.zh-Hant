@@ -4,7 +4,7 @@ description: 將自適應表單新增至網頁。
 role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1637'
 ht-degree: 100%
 

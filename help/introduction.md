@@ -4,9 +4,9 @@ description: 取得核心元件問題的解決方案，並允許其他人在 AEM
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1076'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

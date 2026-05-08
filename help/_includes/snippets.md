@@ -1,7 +1,7 @@
 ---
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: ht
-source-wordcount: '254'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -34,25 +34,25 @@ ht-degree: 100%
 
 ## 另請參閱 {#see-also}
 
-- [建立 AEM 自適應表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
+- [建立 AEM 最適化表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hant)
 - [新增 AEM 自適應表單至 AEM Sites 頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=zh-Hant)
 - [將主題套用到 AEM 自適應表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=zh-Hant)
 - [將元件新增至 AEM 自適應表單](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
 - [在 AEM 自適應表單中使用 reCAPTCHA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=zh-Hant)
 - [產生 AEM 自適應表單的 PDF 版本 (DoR)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html?lang=zh-Hant)
 - [翻譯 AEM 自適應表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html?lang=zh-Hant)
-- [為自適應表單啟用 Adobe Analytics 以追蹤表單使用情況](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=zh-Hant)
-- [將自適應表單連接至 Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#create-sharepoint-configuration)
-- [將自適應表單連接至 Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#microsoft-power-automate)
-- [將自適應表單連接至 Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#submit-to-onedrive)
-- [將自適應表單連接至 Microsoft® Azure Blob 儲存體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#submit-to-azure-blob-storage)
-- [將自適應表單連接至 Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=zh-Hant)
+- [啟用 Adobe Analytics，以便自適應表單追蹤表單使用情況](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=zh-Hant)
+- [將自適應表單連結到 Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#create-sharepoint-configuration)
+- [將自適應表單連結到 Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#microsoft-power-automate)
+- [將自適應表單連結到 Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#submit-to-onedrive)
+- [將自適應表單連結至 Microsoft Azure Blob 儲存體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#submit-to-azure-blob-storage)
+- [將自適應表單連結到 Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=zh-Hant)
 - [在 AEM 自適應表單中使用 Adobe Sign](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=zh-Hant)
 - [為自適應表單新增地區設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=zh-Hant)
 - [將自適應表單資料傳送到資料庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=zh-Hant)
 - [將自適應表單資料傳送到 REST 端點](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#submit-to-rest-endpoint)
 - [將自適應表單資料傳送到 AEM 工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hant#invoke-an-aem-workflow)
-- [使用表單入口列出 AEM 網站上的 AEM 自適應表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=zh-Hant)
+- [使用 Forms 入口網站，在 AEM 網站上列出 AEM 自適應表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=zh-Hant)
 
 ## 類似項目 {#more-like-this}
 
@@ -94,4 +94,4 @@ ht-degree: 100%
 >
 >**您是否考慮過適用於 AEM 的 Edge Delivery Services？**
 >
->現有的專案可以繼續使用本文件中所述的方法。然而，針對新專案，Adobe 建議採用 [Edge Delivery Services。](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/edge-delivery/overview)
+>現有的專案可以繼續使用本文件中所述的方法。 然而，針對新專案，Adobe 建議採用 [Edge Delivery Services。](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/edge-delivery/overview)

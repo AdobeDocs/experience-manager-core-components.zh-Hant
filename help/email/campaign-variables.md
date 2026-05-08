@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -28,6 +28,7 @@ ht-degree: 100%
 
 ![Adobe Campaign 按鈕](/help/email/assets/campaign-button.png)
 ![選取 Adobe Campaign 變數圖示](/help/email/assets/select-adobe-campaign-variable-icon.png)
+
 
 按一下這兩個圖示會開啟&#x200B;**選取 Adobe Campaign 變數**&#x200B;對話框。
 

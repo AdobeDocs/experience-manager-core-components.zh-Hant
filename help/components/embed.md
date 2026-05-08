@@ -4,7 +4,7 @@ description: 嵌入元件可讓外部內容嵌入至 AEM 內容頁面。
 role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
 ht-degree: 100%
 

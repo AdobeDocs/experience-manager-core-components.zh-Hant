@@ -4,7 +4,7 @@ description: 核心元件遵循與基礎元件截然不同的實施模式。
 role: Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1296'
 ht-degree: 100%
 

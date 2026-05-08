@@ -4,16 +4,16 @@ description: AEM 核心元件會以發行版本的形式發佈，其中可能包
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # 自適應表單核心元件發行版本 {#core-components-versions}
 
-識別Forms核心元件和WCM核心元件相依性的精確版本。 此外，請熟悉每個自適應表單核心元件發行版本所啟用的元件和功能。
+識別 Forms 核心元件和 WCM 核心元件相依性的精確版本。此外，請熟悉每個自適應表單核心元件發行版本所啟用的元件和功能。
 
 ## AEM Forms as Cloud Service 版本歷史記錄 {#aem-as-cs-version-history}
 

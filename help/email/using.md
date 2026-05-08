@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 ## 安裝電子郵件核心元件 {#installation}
 
-電子郵件核心元件可搭配AEM 6.5使用。 如需詳細資訊，請參閱電子郵件核心元件簡介檔案[&#128279;](introduction.md#requirements)的需求區段。
+電子郵件核心元件可搭配 AEM 6.5 使用。請參閱[「電子郵件核心元件簡介」文件的「要求」章節](introduction.md#requirements)以了解更多資訊。
 
 ### 安裝核心元件 {#core-components}
 

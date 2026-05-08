@@ -4,7 +4,7 @@ description: 使用或自訂自適應表單標題核心元件。
 role: Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
 ht-degree: 100%
 

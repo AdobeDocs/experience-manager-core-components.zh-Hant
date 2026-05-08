@@ -4,9 +4,9 @@ description: 核心元件影像元件是最適化影像元件。
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ ht-degree: 95%
 
 ## Dynamic Media 支援 {#dynamic-media}
 
-影像元件（截至[版本2.13.0](/help/versions.md)）支援[動態媒體](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant)資產。[啟用時，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，以新增動態媒體影像資產，就像新增任何其他影像一樣。 此外，同樣支援影像修飾元、影像預設集和智慧裁切。
+影像元件 (截至 [2.13.0 版](/help/versions.md)) 支援 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hant) 資產。 [啟用後，](#design-dialog)這些功能可讓您使用簡單的拖放功能，或透過資產瀏覽器，像處理任何其他影像一樣新增「Dynamic Media」影像資產。 此外，同樣支援影像修飾元、影像預設集和智慧裁切。
 
-使用核心元件建立的網頁體驗可包含豐富、支援Adobe AI、健全、高效能、跨平台的Dynamic Media影像功能。
+使用核心元件建置的網頁體驗，可包含豐富、Adobe AI 驅動、穩定、高效能、跨平台的 Dynamic Media 影像功能。
 
 ## 遠端資產支援 {#remote-assets}
 
-影像元件（截至[版本2.23.2](/help/versions.md)）支援遠端資產。[設定之後，](/help/developing/remote-assets.md)您可以從遠端服務為您的影像元件選取資產。
+影像元件 (截至 [2.23.2 版](/help/versions.md)) 支援遠端資產。 [設定後，](/help/developing/remote-assets.md)您就可以從影像元件的遠端服務選取資產。
 
 ## SVG 支援 {#svg-support}
 

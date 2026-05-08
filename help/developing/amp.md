@@ -4,9 +4,9 @@ description: 核心元件支援 AMP - 加速行動頁面
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 ## 核心元件中的 AMP {#amp-in-core-components}
 
-核心元件中的AMP支援[完全可設定。](#enabling-amp) AMP版本的頁面可單獨提供、與標準HTML版本一起提供，或根本不提供。
+核心元件中的 AMP 支援[可完全設定。](#enabling-amp)AMP 版本的頁面可單獨提供、與標準 HTML 版本一起提供，或完全不提供。
 
 核心元件使用 `amp` 作為 Sling 選擇器來轉譯 AMP 頁面。 例如，`example.html` 會轉譯一般頁面，`example.amp.html` 則是 AMP 版本。
 

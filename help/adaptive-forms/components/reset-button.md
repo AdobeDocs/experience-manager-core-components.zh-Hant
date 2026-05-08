@@ -4,7 +4,7 @@ description: 使用或自訂自適應表單重設按鈕核心元件。
 role: Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
 ht-degree: 100%
 

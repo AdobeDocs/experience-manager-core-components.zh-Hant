@@ -4,7 +4,7 @@ description: 核心元件下載元件允許在頁面上建立下載選項。
 role: Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
 ht-degree: 100%
 

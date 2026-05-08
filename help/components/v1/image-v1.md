@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
@@ -217,9 +217,9 @@ ht-degree: 100%
 
   ![](/help/assets/chlimage_1-20.png)
 
-   * **旋轉** - 使用此選項可允許內容作者使用&#x200B;**向右旋轉**&#x200B;選項。
+   * **旋轉** - 使用此選項可讓內容作者使用「**向右旋轉**」選項。
    * **翻轉**
-使用此選項可允許內容作者使用**水平翻轉**&#x200B;和&#x200B;**垂直翻轉**&#x200B;選項。
+使用此選項可讓內容作者使用「**水平翻轉**」和「**垂直翻轉**」選項。
 
   >[!CAUTION]
   >

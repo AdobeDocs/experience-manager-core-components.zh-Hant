@@ -4,7 +4,7 @@ description: 使用或自訂自適應表單文字核心元件。
 role: Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
 ht-degree: 100%
 

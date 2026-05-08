@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 * **WKND 教學課程** - 如需有關在 AEM 上進行開發的精彩說明，包括如何善用原型，請參閱 [AEM Sites 快速入門 - WKND 教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)中的實際範例，以逐步引導您使用原型實施簡單的專案。
 * **WKND 事件教學課程** - 如果您對 AEM 上的單一頁面應用程式 (SPA) 開發特別感興趣，請務必檢視專屬的 [WKND 事件教學課程。](https://helpx.adobe.com/tw/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
-* **自行開始！**  — 您可以輕鬆下載GitHub[&#128279;](https://github.com/adobe/aem-project-archetype)上可用的目前專案原型，並自行建立您的第一個專案。
+* **自行開始！**- 您可以輕鬆下載 [GitHub 上提供的目前專案原型](https://github.com/adobe/aem-project-archetype)，並自行建立您的第一個專案。
 
 ## 如何使用原型 {#how-to-use-the-archetype}
 
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### 模組結構 {#module-structure}
 
-上層 POM 的 `<modules>` 區段定義專案將建置的模組。 依預設，專案會建置[先前定義的標準模組。](#what-you-get) 隨著專案發展，永遠可以新增更多模組。
+上層 POM 的 `<modules>` 區段定義專案將建置的模組。 預設情況下，專案會建置[先前定義的標準模組](#what-you-get)。隨著專案發展，可以隨時新增更多模組。
 
 ### 相依性 {#dependencies}
 
@@ -87,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-其中一個關鍵相依性是[AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hant) 這將包括所有AEM API，而AEM版本只有一個相依專案。
+主要相依性之一是 [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hant)。這樣一來，只要對該版本的 AEM 使用單一相依項目，就會包含所有 AEM API。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### 核心元件 {#core-components}
 
-當然，原型會利用[核心元件。](/help/introduction.md) 因此，若要在所有部署中運用核心元件，最佳實務是將它們納入Maven專案。
+當然，原型會運用[核心元件](/help/introduction.md)。因此，若要在所有部署中善用核心元件，最佳做法是將其納入 Maven 專案。
 
 core.wcm.components.examples 是一組範例頁面，說明核心元件的範例。 最佳做法是，在部署專案以供生產使用時，您應移除此相依性和下層套件包含。
 
