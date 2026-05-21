@@ -3,13 +3,17 @@ title: 嵌入元件
 description: 嵌入元件可讓外部內容嵌入至 AEM 內容頁面。
 role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1421'
+TQID: https://experienceleague.adobe.com/CbY4mDdS51yLd8qgtm4kloT76qZoReqdcmlylQLjZRM
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1421
 ht-degree: 100%
 
 ---
-
 
 # 嵌入元件 {#embed-component}
 
@@ -39,11 +43,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「嵌入元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_embed_tw)」。
+若要體驗「嵌入元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_embed)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v2_tw)有關嵌入元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v2)有關嵌入元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -118,7 +122,7 @@ ht-degree: 100%
 
 不過，規則其實更為複雜，因為嵌入元件會遵循 AEM 的全域 HTML AntiSamy 清理框架篩選規則集，此規範可以在 `/libs/cq/xssprotection/config.xml` 中找到。 如有需要，開發人員可採用專案專用的設定進行覆蓋。
 
-有關其他安全性資訊，請參閱[適用於AEM as a Cloud Service 安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hant)及[適用於內部部署安裝的 AEM 開發人員文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hant)。
+有關其他安全性資訊，請參閱[適用於AEM as a Cloud Service 安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)及[適用於內部部署安裝的 AEM 開發人員文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)。
 
 >[!NOTE]
 >

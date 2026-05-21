@@ -3,17 +3,19 @@ title: 內容片段元件
 description: 「核心元件內容片段」元件允許顯示內容片段。
 role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '693'
+TQID: https://experienceleague.adobe.com/0DtXdVGWrkNjQrgW9Vye-g21IlySz4fjYpZLQ5twQrM
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 693
 ht-degree: 100%
 
 ---
 
-
 # 內容片段元件{#content-fragment-component}
 
-「核心元件內容片段」元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+「核心元件內容片段」元件允許顯示[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -23,11 +25,11 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-「核心元件內容片段元件」允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hant)。
+「核心元件內容片段元件」允許在頁面上包含[內容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 * 可在[設定對話框](#configure-dialog)中選取片段及其屬性。
 * 可在[設計對話框](#design-dialog)中定義處理特定影像和格線的資源類型。
-* 編輯選項將在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=zh-Hant)中開啟已選取的片段。
+* 編輯選項將在[內容片段編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中開啟已選取的片段。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -59,7 +61,7 @@ ht-degree: 100%
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_cf_v1_tw)有關內容片段元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_cf_v1)有關內容片段元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

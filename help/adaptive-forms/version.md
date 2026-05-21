@@ -3,17 +3,20 @@ title: AEM 自適應表單核心元件版本
 description: AEM 核心元件會以發行版本的形式發佈，其中可能包含同一核心元件的多個版本。 本文件說明什麼是發行版本和版本，以及如何理解與核心元件和 AEM 的相容性。
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '213'
+TQID: https://experienceleague.adobe.com/kR6oSgXN8ITcTqmGZyqyhfcpj8IU8l2ueKo6mt37Pic
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 213
 ht-degree: 100%
 
 ---
 
-
 # 自適應表單核心元件發行版本 {#core-components-versions}
 
-識別 Forms 核心元件和 WCM 核心元件相依性的精確版本。此外，請熟悉每個自適應表單核心元件發行版本所啟用的元件和功能。
+識別 Forms 核心元件和 WCM 核心元件相依性的精確版本。 此外，請熟悉每個自適應表單核心元件發行版本所啟用的元件和功能。
 
 ## AEM Forms as Cloud Service 版本歷史記錄 {#aem-as-cs-version-history}
 

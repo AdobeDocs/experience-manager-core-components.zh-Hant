@@ -3,13 +3,17 @@ title: 自適應表單核心元件 - 選項按鈕
 description: 使用或自訂自適應表單選項按鈕核心元件。
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2349'
+TQID: https://experienceleague.adobe.com/kvlbGpsO7ibocEO09hDHvpUDjxcSlJaAfmfFuff4mD4
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2349
 ht-degree: 100%
 
 ---
-
 
 # 選項按鈕元件 {#radio-button-adaptive-forms-core-component}
 
@@ -57,12 +61,12 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> v1 版本的核取方塊群組核心元件支援 WCAG 2.1；WCAG 2.1 聚焦在遵循可用性和可讀性的最佳做法，使內容能夠無障礙供人存取。v2 版本支援 WCAG 2.2；它透過對相關欄位進行邏輯和語意分組來進一步強調清晰、可預測且明確的可存取性，使其成為包容性表單設計的關鍵要求。
+> v1 版本的核取方塊群組核心元件支援 WCAG 2.1；WCAG 2.1 聚焦在遵循可用性和可讀性的最佳做法，使內容能夠無障礙供人存取。 v2 版本支援 WCAG 2.2；它透過對相關欄位進行邏輯和語意分組來進一步強調清晰、可預測且明確的可存取性，使其成為包容性表單設計的關鍵要求。
 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技術詳細資訊 {#technical-details}
@@ -177,11 +181,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 選項按鈕 (v2) 支援欄位集和圖例
 
-<span class="preview">您可以透過搶先體驗方案使用此功能。若要請求存取權限，請從您的官方地址寄送電子郵件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
+<span class="preview">您可以透過搶先體驗方案使用此功能。 若要請求存取權限，請從您的官方地址寄送電子郵件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
 
-自適應表單核心元件使用語意 `<fieldset>` 和 `<legend>` HTML 元素來改善選項按鈕群組的可存取性。這些元素可讓螢幕助讀程式準確解讀表單結構，並傳達群組標籤與其選項之間的關係。
+自適應表單核心元件使用語意 `<fieldset>` 和 `<legend>` HTML 元素來改善選項按鈕群組的可存取性。 這些元素可讓螢幕助讀程式準確解讀表單結構，並傳達群組標籤與其選項之間的關係。
 
-選項按鈕 (v2) 元件會在 `<fieldset>` 元素中轉譯，且群組標籤會包含在 `<legend>` 中，作為其第一個下層。多餘或無效的 ARIA 屬性已移除，且個別標籤正確地與其各自的輸入建立關聯。這樣可確保螢幕助讀程式清楚朗讀每個選項按鈕標籤，以及其群組內容。
+選項按鈕 (v2) 元件會在 `<fieldset>` 元素中轉譯，且群組標籤會包含在 `<legend>` 中，作為其第一個下層。 多餘或無效的 ARIA 屬性已移除，且個別標籤正確地與其各自的輸入建立關聯。 這樣可確保螢幕助讀程式清楚朗讀每個選項按鈕標籤，以及其群組內容。
 
 ![選項按鈕](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 

@@ -3,13 +3,17 @@ title: 自適應表單核心元件 - 精靈
 description: 使用或自訂自適應表單精靈核心元件。
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2246'
+TQID: https://experienceleague.adobe.com/F48Og-1CMLNxu-Ajxuh8V-frKVTdvIpVhR2FAaYqalA
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2246
 ht-degree: 100%
 
 ---
-
 
 # 精靈元件{#wizard-adaptive-forms-core-component}
 
@@ -50,7 +54,7 @@ ht-degree: 100%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-自適應表單精靈版面核心元件於 2023 年 2 月作為核心元件 2.0.4 的一部分發行。下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
+自適應表單精靈版面核心元件於 2023 年 2 月作為核心元件 2.0.4 的一部分發行。 下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
 
 |  |  |
 |---|---|
@@ -63,7 +67,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技術詳細資訊 {#technical-details}
@@ -131,7 +135,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最小重複次數**：建立精靈面板可重複的最小次數。 值為零表示精靈面板不會重複；預設值為零。
 - **最大重複次數**：設定精靈面板可重複的最大次數。 預設情況下，此值為無限制。
 
-若要有效管理精靈內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理精靈內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 項目索引標籤 {#items-tab}
 

@@ -3,13 +3,16 @@ title: 目錄元件
 description: 目錄元件會根據頁面內容中的標題建立目錄，讓讀者快速瀏覽頁面。
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '753'
+TQID: https://experienceleague.adobe.com/zFTfdF-y3R8wvpGwKexpiRscC45wpFD9PI48S-8iXG8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 753
 ht-degree: 100%
 
 ---
-
 
 # 目錄元件 {#table-of-contents-component}
 
@@ -43,11 +46,11 @@ ht-degree: 100%
 >
 >在 AEM as a Cloud Service 上，您的管理員需要啟用元件的篩選器，才能呈現元件的內容。
 >
->如需詳細資訊，[請參閱該元件的 GitHub 文件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_tw)。
+>如需詳細資訊，[請參閱該元件的 GitHub 文件](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_tw)有關目錄元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1)有關目錄元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

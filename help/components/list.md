@@ -3,13 +3,16 @@ title: 清單元件
 description: 核心元件清單元件可讓您輕鬆建立動態和靜態清單。
 role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '1214'
+TQID: https://experienceleague.adobe.com/z9-D-lqYzfD0Ne6m1sX-d4HV8i1Rs2I4Hpc-9oU4-1Q
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1214
 ht-degree: 100%
 
 ---
-
 
 # 清單元件{#list-component}
 
@@ -49,11 +52,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list_tw)」。
+若要體驗「清單元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_list)」。
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v3_tw)有關清單元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_list_v3)有關清單元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -136,7 +139,7 @@ ht-degree: 100%
 應比對哪些標記
    * 使用「**瀏覽**」對話框可選取標記
 * **符合**
-定義哪種類型的相符項目可使頁面列入清單
+定義哪種類型的符合條件可使頁面列入清單
    * **任何標記**
    * **所有標記**
 

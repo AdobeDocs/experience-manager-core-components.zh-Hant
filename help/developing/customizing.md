@@ -3,9 +3,14 @@ title: 自訂核心元件
 description: 核心元件實施多種模式，從簡單的樣式到進階功能重複使用，都可以輕鬆自訂。
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1146'
+TQID: https://experienceleague.adobe.com/7yF-HbenJw79uzNTMkUuJstaW2-usvusa-EveTJXhNk
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1146
 ht-degree: 100%
 
 ---
@@ -129,7 +134,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每個核心元件都利用 AEM [樣式系統功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=zh-Hant) ，此功能可讓範本作者定義可由頁面作者套用至元件的其他 CSS 類別名稱。 這允許為每個範本定義一個允許的元件樣式清單，以及其中一個樣式是否應預設套用至該類型的所有元件。
+此外，每個核心元件都利用 AEM [樣式系統功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) ，此功能可讓範本作者定義可由頁面作者套用至元件的其他 CSS 類別名稱。 這允許為每個範本定義一個允許的元件樣式清單，以及其中一個樣式是否應預設套用至該類型的所有元件。
 
 ## 升級自訂的相容性 {#upgrade-compatibility-of-customizations}
 
@@ -139,7 +144,7 @@ public class PageHeadline implements Title {
 * 將核心元件升級至新的次要版本
 * 將核心元件升級至主要版本
 
-一般而言，將 AEM 升級至新版本不會影響核心元件或已完成的自訂，前提是元件的版本也支援正在移轉至的新 AEM 版本，且自訂功能未使用[已棄用或已移除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hant)的 API。
+一般而言，將 AEM 升級至新版本不會影響核心元件或已完成的自訂，前提是元件的版本也支援正在移轉至的新 AEM 版本，且自訂功能未使用[已棄用或已移除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的 API。
 
 只要使用本頁所述的自訂模式，在不切換至新版主要版本的情況下升級核心元件，通常不會影響自訂功能。
 
@@ -159,7 +164,7 @@ public class PageHeadline implements Title {
 
 1. **留意已棄用和已移除的功能。**
 
-   隨著每個 AEM 新版本的升級，請密切留意[已棄用和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hant)頁面，確保所有使用的 API 仍是常用的。
+   隨著每個 AEM 新版本的升級，請密切留意[已棄用和已移除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)頁面，確保所有使用的 API 仍是常用的。
 
 另請參閱[核心元件支援](overview.md#core-component-support) 章節。
 

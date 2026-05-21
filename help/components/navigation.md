@@ -3,13 +3,17 @@ title: 導覽元件
 description: 導覽元件可讓使用者輕鬆導覽全域化網站結構。
 role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1556'
+TQID: https://experienceleague.adobe.com/0CxyKuxFONujgaFmhzEc7S9VmwLEcI754U1M7XqHR7Q
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1556
 ht-degree: 100%
 
 ---
-
 
 # 導覽元件{#navigation-component}
 
@@ -21,7 +25,7 @@ ht-degree: 100%
 
 導覽元件會列出頁面的樹狀結構，讓網站的使用者可以輕鬆導覽網站結構。
 
-導覽元件可以自動偵測您網站的全域化網站結構，並[自動調整至本地化的頁面](#localized-site-structure)。此外，它可以使用[影子重新導向頁面](#shadow-structure)支援任意網站結構，以代表您主要內容結構以外的其他結構。
+導覽元件可以自動偵測您網站的全域化網站結構，並[自動調整至本地化的頁面](#localized-site-structure)。 此外，它可以使用[影子重新導向頁面](#shadow-structure)支援任意網站結構，以代表您主要內容結構以外的其他結構。
 
 透過[編輯對話框](#edit-dialog)，內容作者可定義導覽根頁面以及導覽深度。 透過[設計對話框](#design-dialog)，範本作者可定義導覽根目錄和深度的預設值。
 
@@ -117,11 +121,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「導覽元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_navigation_tw)」。
+若要體驗「導覽元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_navigation)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_navigation_v2_tw)有關導覽元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_navigation_v2)有關導覽元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 

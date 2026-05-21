@@ -4,13 +4,18 @@ description: 電子郵件細分元件
 role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1156'
+TQID: https://experienceleague.adobe.com/JlOOouhbsCBeyZQ9dAMyWwbTucpcLrqEgC1VjDVsV54
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1156
 ht-degree: 100%
 
 ---
-
 
 # 電子郵件細分元件 {#email-segmentation-component}
 
@@ -37,7 +42,7 @@ ht-degree: 100%
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_tw)有關電子郵件 Teaser 元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)有關電子郵件 Teaser 元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
@@ -57,14 +62,14 @@ ht-degree: 100%
    * **預設** - 定義未符合其他條件時，會顯示的預設區段
    * **自訂** - 允許作者定義條件
       * 條件根據 Adobe Campaign 個人化變數而定
-      * [請參閱此處以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
-      * [請參閱此處以了解 Adobe Campaign Classic 個人化資源。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hant)
+      * [請參閱此處以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [請參閱此處以了解 Adobe Campaign Classic 個人化資源。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * **刪除** - 點選或按一下以從「電子郵件細分元件」中刪除該區段。
 * **重新排列** - 點選或按一下並拖曳以重新排列區段。
 
 >[!TIP]
 >
->若縮小內容檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可新增至「電子郵件細分元件」，只需[從元件瀏覽器拖曳並放置到內容編輯器中的「電子郵件細分元件」上。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant#inserting-a-component)
+>若縮小內容檢視區，使編輯對話框進入全螢幕模式，則會隱藏&#x200B;**新增**&#x200B;按鈕。 元件仍可新增至「電子郵件細分元件」，只需[從元件瀏覽器拖曳並放置到內容編輯器中的「電子郵件細分元件」上。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
 
 ### 屬性索引標籤 {#properties-tab}
 
@@ -119,7 +124,7 @@ ht-degree: 100%
 
 **允許的元件**&#x200B;索引標籤用於定義哪些元件可供內容作者作為區段新增至電子郵件細分元件。
 
-[在「範本編輯器」中定義「版面容器」的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)時，**允許的元件**&#x200B;索引標籤與同名索引標籤的功能相同。
+[在「範本編輯器」中定義「版面容器」的原則與屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)時，**允許的元件**&#x200B;索引標籤與同名索引標籤的功能相同。
 
 ### 樣式索引標籤 {#styles-tab}
 
@@ -135,7 +140,7 @@ ht-degree: 100%
 
 * **區段條件名稱** - 條件的說明
 * **區段條件** - 必須符合的實際條件，根據 Adobe Campaign 個人化變數而定
-   * [請參閱此處以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hant&)
-   * [請參閱此處以了解 Adobe Campaign Classic 個人化資源。]&#x200B;(https://experienceleague.adobe.com/docs/?lang=zh-Hant
+   * [請參閱此處以了解 Adobe Campaign Standard 個人化資源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [請參閱此處以了解 Adobe Campaign Classic 個人化資源。]&#x200B;(https://experienceleague.adobe.com/docs/
 * **移除** - 點選或按一下以移除該條件
 * **重新排列** - 點選或按一下並拖曳，以重新排列條件的順序

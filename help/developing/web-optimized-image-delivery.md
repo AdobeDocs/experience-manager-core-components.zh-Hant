@@ -3,9 +3,14 @@ title: 網頁最佳化影像傳遞
 description: 了解核心元件如何運用 AEM as a Cloud Service 的網頁最佳化影像傳遞功能，更有效率地傳遞影像。
 role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1130'
+TQID: https://experienceleague.adobe.com/fJgZlABQW0no-vH0tOjLy20ykqPhjopcvY7ei-iqi9M
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: c124fa01-25c5-42ec-adf6-21d1c114058bid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1130
 ht-degree: 100%
 
 ---
@@ -16,13 +21,13 @@ ht-degree: 100%
 
 ## 概觀 {#overview}
 
-AEM as a Cloud Service 的網頁最佳化影像傳遞功能會以 [WebP 格式](https://developers.google.com/speed/webp)從 DAM 傳遞影像資產。WebP 平均可將影像的下載大小縮減約 25%，進而加快頁面載入速度。
+AEM as a Cloud Service 的網頁最佳化影像傳遞功能會以 [WebP 格式](https://developers.google.com/speed/webp)從 DAM 傳遞影像資產。 WebP 平均可將影像的下載大小縮減約 25%，進而加快頁面載入速度。
 
 在核心元件中啟用網頁最佳化影像傳遞很簡單，而且由於所有常見瀏覽器都支援 WebP，因此一般使用者並不會感受到變化。 他們會注意到的唯一差異是內容載入速度更快！
 
 ## 啟用核心元件的網頁最佳化影像傳遞 {#activating}
 
-若要啟用網頁最佳化影像傳遞，請編輯頁面範本，然後在[影像元件](/help/components/image.md#design-dialog)的設計對話框內啟動「**啟用網頁最佳化影像**」選項即可。此選項適用於影像元件的 v1、v2 和 v3。
+若要啟用網頁最佳化影像傳遞，請編輯頁面範本，然後在[影像元件](/help/components/image.md#design-dialog)的設計對話框內啟動「**啟用網頁最佳化影像**」選項即可。 此選項適用於影像元件的 v1、v2 和 v3。
 
 如果您不熟悉設計對話框和 AEM 頁面範本，[請檢視此文件。](/help/get-started/authoring.md#pre-configuring-core-components)
 
@@ -71,7 +76,7 @@ AEM as a Cloud Service 的網頁最佳化影像傳遞功能會以 [WebP 格式](
 
 ### 我的影像 URL 仍以 .JPG 或 .PNG 結尾，而非 .WEBP，而且沒有 SRCSET 屬性或 PICTURE 元素。 這真的使用了最佳化的網頁格式嗎？ {#content-negotiation}
 
-為了傳遞 WebP 格式，網頁最佳化的影像傳遞服務會執行[伺服器驅動的內容交涉](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation)。這有助於根據用戶端廣告功能選擇影像的最佳輸出格式，讓影像傳遞服務能夠忽略副檔名。
+為了傳遞 WebP 格式，網頁最佳化的影像傳遞服務會執行[伺服器驅動的內容交涉](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation)。 這有助於根據用戶端廣告功能選擇影像的最佳輸出格式，讓影像傳遞服務能夠忽略副檔名。
 
 運用內容交涉的優點在於，即使瀏覽器未宣告支援 WebP 格式，仍可取得 JPG 或 PNG 檔案格式，而不需要變更頁面標記。 這樣可為現有網站提供最佳相容性，並確保以最順暢的方式過渡到網頁最佳化影像傳遞。
 
@@ -96,4 +101,4 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 * 在 HTML 中，啟用網頁最佳化影像時，標記不會變更，只有影像元素上的 `src` 屬性值會變更。
 * 每當新的影像服務無法使用或無法處理所需的影像時，產生的 URL 將[遞補為最適化影像 Servlet。](#fallback)
 
-不過，Dispatcher 規則可能會封鎖網頁最佳化影像傳遞服務。 影像傳遞服務的 URL 以 `/adobe` 開頭，並依照[此處所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=zh-Hant#filter-rejects)檢查 Dispatcher 記錄檔以找出拒絕的請求，應該有助於疑難排解將影像傳遞至瀏覽器時遇到的所有失敗。
+不過，Dispatcher 規則可能會封鎖網頁最佳化影像傳遞服務。 影像傳遞服務的 URL 以 `/adobe` 開頭，並依照[此處所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects)檢查 Dispatcher 記錄檔以找出拒絕的請求，應該有助於疑難排解將影像傳遞至瀏覽器時遇到的所有失敗。

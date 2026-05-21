@@ -4,13 +4,17 @@ description: 搭配使用 Adobe Client Data Layer 與核心元件
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1024'
+TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: c124fa01-25c5-42ec-adf6-21d1c114058bid: d429a63e-ade4-4117-b04e-9b996d1c94efid: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+subfeature_v2: id: a0ab86ed-7176-40e5-bccb-a2cc1295200cid: a94e5c13-4138-47ec-b9c8-e804e17aaca2id: ca9acb56-1fd9-4553-930f-d71ab7d4045did: cd14456d-a492-4b5c-8a82-1fbd4460dbd2id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1024
 ht-degree: 100%
 
 ---
-
 
 # 搭配使用 Adobe Client Data Layer 與核心元件 {#data-layer-core-components}
 
@@ -122,7 +126,7 @@ id: {                   // component ID
 
 >[!NOTE]
 >
->此結構描述是一般元件項目結構描述，作為多個核心元件的基礎模式。這並不保證每個列出的元件都會填入每個項目的所有這些欄位。
+>此結構描述是一般元件項目結構描述，作為多個核心元件的基礎模式。 這並不保證每個列出的元件都會填入每個項目的所有這些欄位。
 
 下列[事件](#events)與元件/容器項目結構描述相關：
 
@@ -313,7 +317,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教學課程
 
-想要更詳細地探索「資料層」和「核心元件」嗎？ [請參閱此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hant)。
+想要更詳細地探索「資料層」和「核心元件」嗎？ [請參閱此實作教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

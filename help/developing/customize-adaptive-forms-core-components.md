@@ -3,9 +3,13 @@ title: 自訂自適應表單核心元件
 description: 進一步了解擴充或建立自適應表單核心元件，以實施根據組織需求量身打造的功能。
 role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '754'
+TQID: https://experienceleague.adobe.com/e5ltB0VJzoWANVEOMDlmp8v9P6Bg3lS-lgcZPegCzgA
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 754
 ht-degree: 100%
 
 ---
@@ -23,8 +27,8 @@ ht-degree: 100%
 * 了解[核心元件的架構](customizing.md#customizing-the-markup-customizing-the-markup)，並詳閱[Adobe Experience Manager 核心元件官方文件](customizing.md)。 這些詳盡的資源將在整個自訂流程中為您提供指引。
 * 設定您的開發環境，以確保在修改核心元件時能順利進行工作流程。 設定開發環境時，請使用以最新 AEM 原型專案為基礎的 AEM 原型專案。 根據您的環境，您可以：
 
-   * [設定 Forms as a Cloud Service 的本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=zh-Hant)。
-   * [設定 AEM 6.5 Forms 的本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=zh-Hant)
+   * [設定 Forms as a Cloud Service 的本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html)。
+   * [設定 AEM 6.5 Forms 的本機開發環境](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)
 
 ## 自訂自適應表單核心元件
 
@@ -54,7 +58,7 @@ ht-degree: 100%
 
 1. **在本機開發環境中部署及測試元件**
 
-   在您的本機開發環境中使用 [Maven 建置和部署元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=zh-Hant#building-and-installing)。 部署元件後，建立自適應表單以測試自訂元件。
+   在您的本機開發環境中使用 [Maven 建置和部署元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html#building-and-installing)。 部署元件後，建立自適應表單以測試自訂元件。
 
 1. **在您的生產環境中部署自訂元件**
 

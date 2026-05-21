@@ -3,17 +3,21 @@ title: 自適應表單核心元件 - 表單容器
 description: 將自適應表單新增至網頁。
 role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '1637'
+TQID: https://experienceleague.adobe.com/kMG6SKHisAUmKhOh9AFLI8NG6w0vH7tP4XimBKAMo-I
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1637
 ht-degree: 100%
 
 ---
 
-
 # 表單容器 {#form-container-adaptive-forms-core-component}
 
-<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** --> 功能，這是一項預先發佈功能。 此項預先發佈功能可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant#new-features)存取。</span>
+<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** --> 功能，這是一項預先發佈功能。 此項預先發佈功能可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)存取。</span>
 
 表單可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與度和使用者滿意度。 Adobe Experience Manager (AEM) Sites 中的自適應表單容器可讓網站擁有者輕鬆將表單新增至其頁面。 這有助於促進網站訪客與網站擁有者或組織之間的溝通，透過提供簡化的方式，讓訪客提供意見回饋、提出查詢並完成其他動作
 
@@ -52,7 +56,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技術詳細資訊 {#technical-details}
@@ -102,7 +106,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 使用者可以為自適應表單提交設定不同的動作。
 
-- **重新導向 URL/路徑** - 此選項可讓使用者為每個表單設定頁面，表單使用者在提交自適應表單後會重新導向至該頁面。 按一下這裡以取得有關[如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=zh-Hant)的詳細資訊。
+- **重新導向 URL/路徑** - 此選項可讓使用者為每個表單設定頁面，表單使用者在提交自適應表單後會重新導向至該頁面。 按一下這裡以取得有關[如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)的詳細資訊。
 
 ![提交索引標籤](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
@@ -110,7 +114,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![顯示訊息索引標籤](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-- **提交動作** - 當使用者按一下「自適應表單」上的「提交按鈕」時，就會觸發「提交動作」。 使用者可從下拉式清單中選取現有支援的「提交動作」。 了解如何[在「提交」索引標籤中設定「提交動作」](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=zh-Hant#supporting-custom-functions-in-validation-expressions-br)。
+- **提交動作** - 當使用者按一下「自適應表單」上的「提交按鈕」時，就會觸發「提交動作」。 使用者可從下拉式清單中選取現有支援的「提交動作」。 了解如何[在「提交」索引標籤中設定「提交動作」](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)。
 
 ## 設計對話框 {#design-dialog}
 

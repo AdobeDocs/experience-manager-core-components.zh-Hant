@@ -3,13 +3,17 @@ title: 自適應表單核心元件 - 水平索引標籤
 description: 使用或自訂「自適應表單水平索引標籤核心元件」。
 role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2213'
+TQID: https://experienceleague.adobe.com/E8NSb3GcPauGGJgcsEaxr-rbG2HVy96fCelp17EZ9n4
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2213
 ht-degree: 100%
 
 ---
-
 
 # 水平索引標籤元件 (頂端索引標籤) 元件{#horizontal-tabs-adaptive-forms-core-component}
 
@@ -35,7 +39,7 @@ ht-degree: 100%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-自適應表單水平索引標籤核心元件於 2023 年 2 月作為核心元件 2.0.4 的一部分發行。下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
+自適應表單水平索引標籤核心元件於 2023 年 2 月作為核心元件 2.0.4 的一部分發行。 下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
 
 |  |  |
 |---|---|
@@ -114,7 +118,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **設定頂端索引標籤可重複**：切換功能，可讓使用者啟用或停用重複功能。
 - **最小重複次數**：建立水平索引標籤元件可重複的最小次數。 值為零表示水平索引標籤元件不會重複；預設值為零。
 - **最大重複次數**：設定水平索引標籤元件可重複的最大次數。 預設情況下，此值為無限制。
-若要有效管理水平索引標籤內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hant)文章中提供的步驟操作。
+若要有效管理水平索引標籤內的可重複區段，請依照[建立具有可重複區段的表單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章中提供的步驟操作。
 
 ### 項目索引標籤 {#items-tab}
 

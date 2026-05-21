@@ -3,9 +3,13 @@ title: 表單容器元件
 description: 透過「核心元件表單容器元件」，可建立簡易的提交表單。
 role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '970'
+TQID: https://experienceleague.adobe.com/Aeq0NzFiG4-5-0fjG-y460JHEGpHzLI3gVvpYVkFukg
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 970
 ht-degree: 100%
 
 ---
@@ -18,11 +22,11 @@ ht-degree: 100%
 
 表單容器元件支援簡易的 WCM 表單，並使用巢狀結構允許額外的表單元件，藉以建立易於使用的資料提交表單和功能。
 
-使用[設定對話框](#configure-dialog) ，內容編輯者可定義表單提交所觸發的動作、應處理提交的 URL，以及是否應觸發工作流程。 範本作者可以使用[設計對話框](#design-dialog)定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)的設計對話框。
+使用[設定對話框](#configure-dialog) ，內容編輯者可定義表單提交所觸發的動作、應處理提交的 URL，以及是否應觸發工作流程。 範本作者可以使用[設計對話框](#design-dialog)定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的設計對話框。
 
 >[!NOTE]
 >
->核心元件表單容器元件僅支援使用核心元件表單元件 (按鈕、文字、隱藏等)。 不支援在核心元件表單容器中使用[基礎元件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=zh-Hant)表單元件 (反之亦然)。
+>核心元件表單容器元件僅支援使用核心元件表單元件 (按鈕、文字、隱藏等)。 不支援在核心元件表單容器中使用[基礎元件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表單元件 (反之亦然)。
 
 ## 版本和相容性 {#version-and-compatibility}
 
@@ -39,11 +43,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「表單容器元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_container_tw)」。
+若要體驗「表單容器元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_form_container)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_container_v2_tw)有關「表單容器元件」的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_form_container_v2)有關「表單容器元件」的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -119,7 +123,7 @@ ht-degree: 100%
 
 ## 設計對話框 {#design-dialog}
 
-透過設計對話框，範本作者可為容器定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)的設計對話框。
+透過設計對話框，範本作者可為容器定義允許的元件及其對應，類似於[範本編輯器中標準版面容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的設計對話框。
 
 ### 樣式索引標籤 {#styles-tab}
 

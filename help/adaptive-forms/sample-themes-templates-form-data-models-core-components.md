@@ -6,16 +6,22 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '1384'
+TQID: https://experienceleague.adobe.com/-owXvBrV5lqvCCVLrd5i6hl8X1n7-x6mlWyqnj7IrFw
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d49d6117-dd89-469c-a774-cc96b7eee433
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1384
 ht-degree: 100%
 
 ---
 
 # 範例主題、範本和表單資料模型 {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] 核心元件提供現成的範例主題、範本和表單資料模型，以便快速建立多樣化的自適應表單。 這也有助於表單作者了解[自適應表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=zh-Hant)的可擴充性、適應性和回應能力，以便迅速建立簡易的表單，輕鬆打造複雜表單，同時可無縫連接至資料庫。
+[!DNL AEM Forms] 核心元件提供現成的範例主題、範本和表單資料模型，以便快速建立多樣化的自適應表單。 這也有助於表單作者了解[自適應表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)的可擴充性、適應性和回應能力，以便迅速建立簡易的表單，輕鬆打造複雜表單，同時可無縫連接至資料庫。
 
 參考內容套件中包含的範例主題、範本和表單資料模型包括：
 
@@ -43,11 +49,11 @@ ht-degree: 100%
 **如何取得這些主題？**
 您可以使用以下針對 **AEM as a Cloud Service** 環境提供的步驟來取得這些主題：
 
-<!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=zh-Hant) -->
+<!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) -->
 1. [將 AEM Archetype 47 專案或更新版本部署至您的環境](https://github.com/adobe/aem-project-archetype)
 
 
-部署 AEM Archetype 時，您只能在表單中使用 OOTB 主題。若要根據您的需求自訂主題，請[使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=zh-Hant)部署主題。
+部署 AEM Archetype 時，您只能在表單中使用 OOTB 主題。若要根據您的需求自訂主題，請[使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)部署主題。
 
 >[!NOTE]
 >
@@ -57,11 +63,11 @@ ht-degree: 100%
 
 1. **AEM 6.5**
 
-    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=zh-Hant)
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
     1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
-    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=zh-Hant) to deploy the themes.
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
 
 -->
 
@@ -74,17 +80,17 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
-1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=zh-Hant) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=zh-Hant) to deploy these themes.
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
     
-1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=zh-Hant) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=zh-Hant) to deploy these themes.
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
 
-[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=zh-Hant). 
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
 
-[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=zh-Hant).
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
 
 -->
 
-**立即可用**[自適應表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=zh-Hant)主題為：
+**立即可用**[自適應表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)主題為：
 
 ![OOTB 主題](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
@@ -96,7 +102,7 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### WKND {#WKND}
 
-WKND 主題包含生動、富有想象力且吸引人的設計，以展現您表單的時尚外觀。 此主題是以 [WKND 網站](https://wknd.site/us/en.html)的外觀和樣式為基礎，該網站是以 [Adobe Experience Manager 核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=zh-Hant)為基礎的旅遊和冒險網站組建。
+WKND 主題包含生動、富有想象力且吸引人的設計，以展現您表單的時尚外觀。 此主題是以 [WKND 網站](https://wknd.site/us/en.html)的外觀和樣式為基礎，該網站是以 [Adobe Experience Manager 核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)為基礎的旅遊和冒險網站組建。
 
 ![WKND 主題](/help/adaptive-forms/assets/Safety-Inspection-Form-Theme.png)
 
@@ -139,7 +145,7 @@ FSI 主題強調讓您的表單具有乾淨、實用的外觀。 套用 FSI 主�
 -->
 
 
-**立即可用**[自適應表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=zh-Hant)範本為：
+**立即可用**[自適應表單核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)範本為：
 
 ![參考範本](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
@@ -147,7 +153,7 @@ FSI 主題強調讓您的表單具有乾淨、實用的外觀。 套用 FSI 主�
 
 ### Basic {#Basic}
 
-A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=zh-Hant). It provides a wizard layout for section-by-section presentation of data.
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -231,7 +237,7 @@ A basic template helps you quickly create an enrollment experience form. You can
 
 ## 參考表單資料模型 {#reference-models}
 
-建立以[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=zh-Hant)為基礎的自適應表單後，您可以將表單與資料庫 Microsoft® Dynamics 365 和 Salesforce 伺服器連接，以啟用業務工作流程。 例如：
+建立以[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)為基礎的自適應表單後，您可以將表單與資料庫 Microsoft® Dynamics 365 和 Salesforce 伺服器連接，以啟用業務工作流程。 例如：
 
 * 於自適應表單提交時在 Microsoft® Dynamics 365 和 Salesforce 中寫入資料。
 * 透過表單資料模型中定義的自訂實體在 Microsoft®Dynamics 365 和 Salesforce 中寫入資料，反之亦然。
@@ -243,4 +249,4 @@ A basic template helps you quickly create an enrollment experience form. You can
 * Microsoft® Dynamics 365
 * Salesforce
 
-如需使用這些模型的詳細資訊，請參閱[設定 Microsoft® Dynamics 365 和 Salesforce 雲端服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html?lang=zh-Hant#configure-dynamics-cloud-service)
+如需使用這些模型的詳細資訊，請參閱[設定 Microsoft® Dynamics 365 和 Salesforce 雲端服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html#configure-dynamics-cloud-service)
