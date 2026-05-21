@@ -3,9 +3,27 @@ title: 核心元件版本
 description: 核心元件會以發行版本的形式發佈，其中可能包含同一核心元件的多個版本。 本文件說明什麼是發行版本和版本，以及如何理解與核心元件和 AEM 的相容性。
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
-workflow-type: ht
-source-wordcount: '3887'
+TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2:
+  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 3887
 ht-degree: 100%
 
 ---
@@ -68,7 +86,7 @@ ht-degree: 100%
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 此修補程式發行版本修正先前版本中與舊版不相容的變更。 | 6.4.8.4+ | 6.5.6.0+ | - | 持續 | 8、11 | 2021 年 8 月 2 日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此修補程式發行版本新增支援網頁網站地圖，並包含各種協助工具改良。 | 6.4.8.4+ | 6.5.6.0+ | - | 持續 | 8、11 | 2021 年 7 月 29 日 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此修補程式發行版本包含[資料層](/help/developing/data-layer/overview.md)無法搭配 AEMaaCS 使用的一個修正。 | 6.4.8.4+ | 6.5.6.0+ | - | 持續 | 8、11 | 2021 年 7 月 8 日 |
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此版本包含許多支援連結處理常式功能的新元件版本技術預覽，以及[頁面元件](/help/components/page.md)的精選影像功能技術預覽。也包含數個錯誤修正。 | 6.4.8.4+ | 6.5.6.0+ | - | 持續 | 8、11 | 2021 年 6 月 16 日 |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此版本包含許多支援連結處理常式功能的新元件版本技術預覽，以及[頁面元件](/help/components/page.md)的精選影像功能技術預覽。 也包含數個錯誤修正。 | 6.4.8.4+ | 6.5.6.0+ | - | 持續 | 8、11 | 2021 年 6 月 16 日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此修補程式發行版本修正了新連結處理常式的一個問題。 | 6.4.8.1+ | 6.5.5.0+ | - | 持續 | 8、11 | 2021 年 5 月 19 日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此修補程式發行版本主要修正新連結處理常式的一個問題，並新增增強功能以支援 [PWA](/help/components/page.md#pwa-support) 的多頁應用程式。 | 6.4.8.1+ | 6.5.5.0+ | - | 持續 | 8、11 | 2021 年 5 月 15 日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此發行版本著重於改善協助工具，以及為現有元件導入新的連結處理常式。 | 6.4.8.1+ | 6.5.5.0+ | - | 持續 | 8、11 | 2021 年 4 月 22 日 |
@@ -159,7 +177,7 @@ ht-degree: 100%
 
 ### 發行版本 {#releases}
 
-核心元件是透過&#x200B;**發行版本**&#x200B;提供，且[代表 GitHu 上實際發佈的成品。](https://github.com/adobe/aem-core-wcm-components/releases)發行版本以 `X.Y.Z` 格式的十進位數字表示，並將所有核心元件整合為可交付成果套件。
+核心元件是透過&#x200B;**發行版本**&#x200B;提供，且[代表 GitHu 上實際發佈的成品。](https://github.com/adobe/aem-core-wcm-components/releases) 發行版本以 `X.Y.Z` 格式的十進位數字表示，並將所有核心元件整合為可交付成果套件。
 
 * **主要發行版本**&#x200B;會導入全新的元件、對現有元件版本的改良，以及標準錯誤修正。 這會由發行版本編號中 `X` 部分的遞增來表示。
 * **次要發行版本**&#x200B;會導入新的元件、現有元件版本的新功能，以及錯誤修正。 這會由發行版本編號中 `Y` 部分的遞增來表示。

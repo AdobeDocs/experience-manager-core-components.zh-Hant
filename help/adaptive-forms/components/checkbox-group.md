@@ -3,13 +3,24 @@ title: 自適應表單核心元件 - 核取方塊群組
 description: 使用或自訂自適應表單核取方塊群組核心元件。
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2316'
+TQID: https://experienceleague.adobe.com/6TicW4M5RGGd5b6dQZnIthLpXKhTwM1r9Fli8s3EqWo
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2316
 ht-degree: 100%
 
 ---
-
 
 # 核取方塊群組元件 {#button-component-adaptive-forms-core-component}
 
@@ -60,7 +71,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> v1 版本的核取方塊群組核心元件支援 WCAG 2.1；WCAG 2.1 聚焦在遵循可用性和可讀性的最佳做法，使內容能夠無障礙供人存取。v2 版本支援 WCAG 2.2；它透過對相關欄位進行邏輯和語意分組來進一步強調清晰、可預測且明確的可存取性，使其成為包容性表單設計的關鍵要求。
+> v1 版本的核取方塊群組核心元件支援 WCAG 2.1；WCAG 2.1 聚焦在遵循可用性和可讀性的最佳做法，使內容能夠無障礙供人存取。 v2 版本支援 WCAG 2.2；它透過對相關欄位進行邏輯和語意分組來進一步強調清晰、可預測且明確的可存取性，使其成為包容性表單設計的關鍵要求。
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -182,11 +193,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 核取方塊群組 (v2) 支援欄位集和圖例
 
-<span class="preview">您可以透過搶先體驗方案使用此功能。若要請求存取權限，請從您的官方地址寄送電子郵件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
+<span class="preview">您可以透過搶先體驗方案使用此功能。 若要請求存取權限，請從您的官方地址寄送電子郵件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
 
-自適應表單核心元件使用語意 `<fieldset>` 和 `<legend>` HTML 元素來改善核取方塊群組的可存取性。這些元素可讓螢幕助讀程式準確解讀表單結構，並傳達群組標籤與其選項之間的關係。
+自適應表單核心元件使用語意 `<fieldset>` 和 `<legend>` HTML 元素來改善核取方塊群組的可存取性。 這些元素可讓螢幕助讀程式準確解讀表單結構，並傳達群組標籤與其選項之間的關係。
 
-核取方塊群組 (v2) 元件會在 `<fieldset>` 元素中轉譯，且群組標籤會包含在 `<legend>` 中，作為其第一個下層。此結構可確保螢幕助讀程式在朗讀個別核取方塊選項之前先宣布群組標籤，讓使用輔助技術的使用者更容易了解每個選項的內容脈絡和用途。
+核取方塊群組 (v2) 元件會在 `<fieldset>` 元素中轉譯，且群組標籤會包含在 `<legend>` 中，作為其第一個下層。 此結構可確保螢幕助讀程式在朗讀個別核取方塊選項之前先宣布群組標籤，讓使用輔助技術的使用者更容易了解每個選項的內容脈絡和用途。
 
 ![核取方塊欄位集](/help/adaptive-forms/assets/checkbox-fieldset.png)
 

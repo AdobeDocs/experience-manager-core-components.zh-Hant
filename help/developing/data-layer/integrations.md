@@ -4,9 +4,23 @@ description: 了解 Adobe Client Data Layer 如何與您的自訂元件整合，
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '424'
+TQID: https://experienceleague.adobe.com/xncfOtz1FNyeH6CjQjg7cSeIonIg2mkBIPUgZvMI7Ww
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+subfeature_v2:
+  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 424
 ht-degree: 100%
 
 ---
@@ -22,7 +36,7 @@ Adobe Client Data Layer 可與您的自訂元件整合，並與 Adobe Analytics 
 若要自動將自訂元件新增至資料層：
 
 1. 定義需要追蹤之自訂元件模型的屬性。
-1. 將 `data-cmp-data-layer` 屬性新增至自訂元件 HTL。例如`data-cmp-data-layer="${mycomponent.data.json}"`。
+1. 將 `data-cmp-data-layer` 屬性新增至自訂元件 HTL。例如 `data-cmp-data-layer="${mycomponent.data.json}"`。
 
 若要在每次點按自訂元件的特定元素時，讓資料層自動觸發 `cmp:click` 事件，請將 `data-cmp-clickable` 屬性新增至要在自訂元件 HTL 中追蹤的元素。
 

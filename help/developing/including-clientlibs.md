@@ -3,13 +3,24 @@ title: 用戶端程式庫和核心元件
 description: 核心元件隨附許多用戶端程式庫，也可支援加入您自訂的資料庫。
 role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '557'
+TQID: https://experienceleague.adobe.com/7W848EjjUe-9AKUTVidWd2TXdAVEZ5xSWvnuD9XEuM8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 557
 ht-degree: 100%
 
 ---
-
 
 # 用戶端程式庫和核心元件 {#client-libraries}
 

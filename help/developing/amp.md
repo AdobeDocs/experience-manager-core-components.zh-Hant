@@ -3,9 +3,20 @@ title: 核心元件 AMP 支援
 description: 核心元件支援 AMP - 加速行動頁面
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '578'
+TQID: https://experienceleague.adobe.com/5v1tXLzHNRvAxy6-aJipN-ZYzsPJ1xFNc1hKmz73wic
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 578
 ht-degree: 100%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 100%
 
 ## 核心元件中的 AMP {#amp-in-core-components}
 
-核心元件中的 AMP 支援[可完全設定。](#enabling-amp)AMP 版本的頁面可單獨提供、與標準 HTML 版本一起提供，或完全不提供。
+核心元件中的 AMP 支援[可完全設定。](#enabling-amp) AMP 版本的頁面可單獨提供、與標準 HTML 版本一起提供，或完全不提供。
 
 核心元件使用 `amp` 作為 Sling 選擇器來轉譯 AMP 頁面。 例如，`example.html` 會轉譯一般頁面，`example.amp.html` 則是 AMP 版本。
 

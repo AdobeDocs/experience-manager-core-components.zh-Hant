@@ -3,13 +3,22 @@ title: PDF 檢視器元件
 description: PDF 檢視器元件允許顯示 PDF 文件。
 role: Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '716'
+TQID: https://experienceleague.adobe.com/dCn7o5IjD1PIHN1M6K1btrnLkXk5bKPr8w3DutA1Vbk
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 716
 ht-degree: 100%
 
 ---
-
 
 # PDF 檢視器元件 {#pdf-viewer-component}
 

@@ -3,13 +3,24 @@ title: 自適應表單摺疊面板
 description: 使用摺疊面板來整理和簡化冗長或複雜的表單，方法是將其分成更小、更易於管理的區段。
 role: Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2303'
+TQID: https://experienceleague.adobe.com/pJ9MxPmN7WpaF3N-jvQsK1jlzNtL9GxSu6AwNA3iP-o
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2303
 ht-degree: 100%
 
 ---
-
 
 # 摺疊面板元件 {#accordion-component-adaptive-forms-core-component}
 
@@ -44,7 +55,7 @@ ht-degree: 100%
 ## 版本和相容性 {#version-and-compatibility}
 
 
-自適應表單摺疊面板核心元件於 2023 年 2 月作為核心元件 2.0.4 的一部分發行。下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
+自適應表單摺疊面板核心元件於 2023 年 2 月作為核心元件 2.0.4 的一部分發行。 下表顯示所有支援版本、AEM 相容性以及對應文件的連結：
 
 |  |  |
 |---|---|
@@ -229,7 +240,7 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 ### 自訂屬性
 
 ![摺疊面板自訂屬性索引標籤](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
-自訂屬性可讓您使用表單範本，將自訂屬性 (鍵值配對) 與自適應表單核心元件建立關聯。自訂屬性會反映在元件的無周邊轉譯屬性區段中。 可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動裝置、桌上型電腦或網頁平台設計各種無周邊表單元件的轉譯，大幅提升各種裝置的使用者體驗。
+自訂屬性可讓您使用表單範本，將自訂屬性 (鍵值配對) 與自適應表單核心元件建立關聯。 自訂屬性會反映在元件的無周邊轉譯屬性區段中。 可讓您建立根據自訂屬性值調整的動態表單行為。 例如，開發人員可以為行動裝置、桌上型電腦或網頁平台設計各種無周邊表單元件的轉譯，大幅提升各種裝置的使用者體驗。
 
 - **群組名稱**：您可以提供名稱，以識別自訂屬性群組。 還可以新增、刪除或重新排列多個自訂屬性群組。 新增自訂屬性群組後，您可以看到下列選項：
 

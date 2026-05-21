@@ -4,13 +4,25 @@ description: 使用 Campaign 變數做為預留位置，以撰寫個人化電子
 role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '296'
+TQID: https://experienceleague.adobe.com/MB6K-S4DZbsD3puXls8w4rWi6posFFLxJRewKORMkxA
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 296
 ht-degree: 100%
 
 ---
-
 
 # Campaign 變數 {#campaign-variables}
 
@@ -28,7 +40,6 @@ ht-degree: 100%
 
 ![Adobe Campaign 按鈕](/help/email/assets/campaign-button.png)
 ![選取 Adobe Campaign 變數圖示](/help/email/assets/select-adobe-campaign-variable-icon.png)
-
 
 按一下這兩個圖示會開啟&#x200B;**選取 Adobe Campaign 變數**&#x200B;對話框。
 

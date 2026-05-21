@@ -3,9 +3,17 @@ title: 最適化影像 Servlet
 description: 了解「核心元件」如何使用「最適化影像 Servlet」傳遞影像，以及如何最佳化其使用。
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '487'
+TQID: https://experienceleague.adobe.com/zfjxGeTjON5PKCAp63gcBb76rDEmIPewkGcLFvsNb0c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 487
 ht-degree: 100%
 
 ---
@@ -39,7 +47,7 @@ ht-degree: 100%
 
 1. 「最適化影像 Servlet」檢閱影像資產的所有可用轉譯。
 1. 它只會選取與原始參考資產具有相同 MIME/類型的資產。
-   * 例如如果原始資產為 PNG，則只會考慮 PNG 轉譯。
+   * E.g. 如果原始資產為 PNG，則只會考慮 PNG 轉譯。
 1. 在這些轉譯中，會考量尺寸，並將尺寸與應顯示影像的容器大小進行比較。
 1. 如果轉譯大於或等於容器大小，則會將其新增至候選轉譯清單。
 1. 如果轉譯小於容器大小，則會忽略該轉譯。

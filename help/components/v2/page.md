@@ -4,13 +4,26 @@ description: 頁面元件是可擴充的頁面元件，旨在與範本編輯器�
 role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '662'
+TQID: https://experienceleague.adobe.com/p1V-3XLpA6H-rC-zWIYFqbPkd6HW7bBLWFXaj8aeNAs
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2:
+  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 662
 ht-degree: 100%
 
 ---
-
 
 # 頁面元件 (v2) {#page-component}
 
@@ -34,7 +47,7 @@ ht-degree: 100%
 
 ## 漸進式網頁應用程式支援 {#pwa-support}
 
-核心元件 2.15.0 版導入支援 AEM as a Cloud Service 的內建[漸進式網頁應用程式 (PWA) 功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)。透過網站層級的簡單設定，將您的 AEM 體驗轉換為 PWA！
+核心元件 2.15.0 版導入支援 AEM as a Cloud Service 的內建[漸進式網頁應用程式 (PWA) 功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)。 透過網站層級的簡單設定，將您的 AEM 體驗轉換為 PWA！
 
 ### 技術詳細資訊 {#technical-details}
 

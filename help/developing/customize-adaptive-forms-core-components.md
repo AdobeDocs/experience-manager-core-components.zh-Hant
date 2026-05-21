@@ -3,9 +3,18 @@ title: 自訂自適應表單核心元件
 description: 進一步了解擴充或建立自適應表單核心元件，以實施根據組織需求量身打造的功能。
 role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '754'
+TQID: https://experienceleague.adobe.com/e5ltB0VJzoWANVEOMDlmp8v9P6Bg3lS-lgcZPegCzgA
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 754
 ht-degree: 100%
 
 ---

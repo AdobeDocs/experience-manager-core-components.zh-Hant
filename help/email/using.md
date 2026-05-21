@@ -4,13 +4,28 @@ description: 了解電子郵件核心元件的基本安裝、設定和使用。
 role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '683'
+TQID: https://experienceleague.adobe.com/wNHEXDBErMNRfSs-N6vAhQl9jnzMJJnGTPBUFEMZHY8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2:
+  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+  - id: de0934a4-5275-4727-b871-497a72ae8500
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 683
 ht-degree: 100%
 
 ---
-
 
 # 使用電子郵件核心元件 {#using}
 
@@ -18,7 +33,7 @@ ht-degree: 100%
 
 ## 安裝電子郵件核心元件 {#installation}
 
-電子郵件核心元件可搭配 AEM 6.5 使用。請參閱[「電子郵件核心元件簡介」文件的「要求」章節](introduction.md#requirements)以了解更多資訊。
+電子郵件核心元件可搭配 AEM 6.5 使用。 請參閱[「電子郵件核心元件簡介」文件的「要求」章節](introduction.md#requirements)以了解更多資訊。
 
 ### 安裝核心元件 {#core-components}
 

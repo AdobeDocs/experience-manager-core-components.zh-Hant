@@ -4,13 +4,20 @@ description: 文字元件是 RTF 文字編輯和撰寫元件，具備就地編�
 index: false
 role: Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1674'
+TQID: https://experienceleague.adobe.com/G8-uawiF6T0blpeL1f96ckxGJ4fDOzCfZpt-4Ah8Jgw
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1674
 ht-degree: 100%
 
 ---
-
 
 # 文字元件 (v1) {#text-component-v}
 

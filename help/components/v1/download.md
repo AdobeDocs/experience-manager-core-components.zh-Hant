@@ -4,13 +4,22 @@ description: 核心元件下載元件允許在頁面上建立下載選項。
 role: Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '649'
+TQID: https://experienceleague.adobe.com/EDL2XqBU88nsV8p8K9AkTS5uuWDbGRc3VUtBV8eIh6E
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 649
 ht-degree: 100%
 
 ---
-
 
 # 下載元件 (v1) {#download-component}
 
