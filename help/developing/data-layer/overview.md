@@ -5,10 +5,23 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: c124fa01-25c5-42ec-adf6-21d1c114058bid: d429a63e-ade4-4117-b04e-9b996d1c94efid: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
-subfeature_v2: id: a0ab86ed-7176-40e5-bccb-a2cc1295200cid: a94e5c13-4138-47ec-b9c8-e804e17aaca2id: ca9acb56-1fd9-4553-930f-d71ab7d4045did: cd14456d-a492-4b5c-8a82-1fbd4460dbd2id: f88183b7-5ea5-436c-ac46-96b53f0281ea
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+subfeature_v2:
+  - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
+  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+  - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+  - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1024
