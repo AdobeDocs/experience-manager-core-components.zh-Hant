@@ -114,14 +114,14 @@ AEM Forms 的目前版本有下列核心元件、[基礎元件](https://experien
 | 頁首 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 水平索引標籤 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 對於基礎元件，您可以在面板元件屬性中設定[頂端索引標籤 (水平索引標籤) 版面](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)。 |
 | 影像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
-| 「下一個」按鈕 | ✔️ | ✔️ | | 請使用[精靈元件](/help/adaptive-forms/components/wizard.md)中的下一個和上一個按鈕，以便在多個面板之間移動。 |
+| 下一個按鈕 | ✔️ | ✔️ | | 請使用[精靈元件](/help/adaptive-forms/components/wizard.md)中的下一個和上一個按鈕，以便在多個面板之間移動。 |
 | 數值方塊 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | 數值步進器 | ✔️ | | | |
 | 面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 電話/手機 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| 「上一個」按鈕 | ✔️ | ✔️ | | 請使用[精靈元件](/help/adaptive-forms/components/wizard.md)中的下一個和上一個按鈕，以便在多個面板之間移動。 |
+| 上一個按鈕 | ✔️ | ✔️ | | 請使用[精靈元件](/help/adaptive-forms/components/wizard.md)中的下一個和上一個按鈕，以便在多個面板之間移動。 |
 | 選項按鈕群組 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
-| 「重設」按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| 重設按鈕 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 檢閱 |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | 手寫簽名 | ✔️ | | | |
 | 分隔符號 | ✔️ | | | 請使用 WCM [分隔符號](/help/components/separator.md)元件 |

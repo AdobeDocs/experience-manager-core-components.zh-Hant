@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 100%
+source-wordcount: 1529
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 <!--
@@ -85,9 +85,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **角色**：角色為 HTML 屬性，用於向輔助技術 (例如螢幕助讀程式) 指定 HTML 元素用途。 角色屬性可用來提供元素的其他內容脈絡和語義上的涵義，讓螢幕助讀程式更容易向使用者解譯和播報內容。 例如，在 AEM Forms 中，表單欄位的標籤可能會具有「標籤」角色，其輸入欄位則可能會具有「文字方塊」的角色。 這可協助螢幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確播報。
 
-- **用戶端程式庫類別** - 使用者可以根據每個自適應表單設定自訂 JavaScript 資料庫。 建議僅保留程式庫內可重複使用的函數，這些函數與 jquery 和 underscore.js 第三方程式庫有相依性。
-有時候，如果有**複雜的驗證規則**，則確切的驗證指令碼會駐留在自訂函數中，且使用者會從欄位驗證運算式中呼叫這些自訂函數。 若要在執行伺服器端驗證時公開和提供此自訂函數程式庫，表單使用者可以在「自適應表單容器」屬性的&#x200B;**[!UICONTROL 基礎]**索引標籤下方，設定 AEM 用戶端程式庫的名稱。
-使用者可以根據自適應表單來設定自訂 JavaScript 程式庫。 程式庫中只會保留可重複使用的函數，這些函數與 jquery 和 underscore.js 第三方程式庫有相依性。
+- **使用者端資料庫類別** — 使用者可以根據每個最適化表單設定自訂JavaScript資料庫。建議僅將可重複使用的函式保留在程式庫中，這些函式需依賴jquery和underscore.js協力廠商程式庫。
+有時，如果有&#x200B;**個複雜的驗證規則**，則確切的驗證指令碼會位於自訂函式中，且使用者會從欄位驗證運算式呼叫這些自訂函式。若要在執行伺服器端驗證時讓此自訂函式館為已知且可用，表單使用者可在Adaptive Form容器屬性的「**[!UICONTROL 基本]**」標籤下設定AEM使用者端資料庫的名稱。
+使用者可以根據每個最適化表單設定customJavaScript程式庫。在程式庫中，僅保留可重複使用的函式，這些函式依賴於jquery和underscore.js第三方程式庫。
 
 <!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
