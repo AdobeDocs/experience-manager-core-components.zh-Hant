@@ -19,8 +19,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 3266
-ht-degree: 100%
+source-wordcount: 3244
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[ 2.0.62 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.28 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.62 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.28 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
@@ -196,8 +196,8 @@ ht-degree: 100%
 
 - **隱藏標題** - 選取該選項，以隱藏元件標題。
 
-- **連結** - 指定用來取代同意文字的連結和對應顯示文字。 您可以按一下&#x200B;**新增**按鈕，以新增多個連結。
-新增新的選項後，可以執行以下動作：
+- **連結** — 指定用來取代同意文字的連結和對應顯示文字。您可以按一下&#x200B;**新增**&#x200B;按鈕，以新增多個連結。
+新增選項後，可以執行下列動作：
    - **連結** - 此選項可讓您在選取選項時，輸入要重新導向的 URL。
    - **顯示文字** - 此選項可讓您輸入要在自適應表單中顯示的內容。
    - **刪除** - 點選或按一下，以刪除選項按鈕的選項。

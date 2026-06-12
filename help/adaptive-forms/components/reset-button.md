@@ -18,8 +18,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1569
-ht-degree: 100%
+source-wordcount: 1527
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 
@@ -85,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **標示為未繫結的表單元素**：選取該選項，以設定未連結至任何結構描述的表單欄位。 此選項可讓您儲存資料，且無需更新資料來源。 還可讓您以自訂方式處理資料，不同於標準資料庫整合。
 
 - **隱藏元件** - 選取該選項，以隱藏表單中的元件。 元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。 這在您需要儲存使用者不需看到或直接變更的資訊時十分有用。
-- **停用元件** - 選取該選項以停用元件。 一般使用者無法啟動或編輯已停用的元件。 使用者可以看到該欄位的值，但無法修改。 元件仍可供其他用途存取，例如將其用於規則編輯器中的計算。
+- **停用元件** — 選取選項以停用元件。一般使用者無法啟動或編輯已停用的元件。使用者可以看到欄位的值，但無法修改它。元件仍可於其他用途存取，例如將其用於規則編輯器中的計算。
   <!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
 ### 說明內容索引標籤 {#help-content}
