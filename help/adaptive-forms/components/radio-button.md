@@ -4,10 +4,17 @@ description: 使用或自訂自適應表單選項按鈕核心元件。
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 TQID: https://experienceleague.adobe.com/kvlbGpsO7ibocEO09hDHvpUDjxcSlJaAfmfFuff4mD4
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 2334
@@ -54,7 +61,7 @@ ht-degree: 99%
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
 | v2 | 與 <br>[3.0.142 版](/help/adaptive-forms/version.md)及更新版本相容 | |
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
@@ -97,7 +104,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **顯示文字** - 此選項可讓您輸入要在自適應表單中顯示的內容。
    - **刪除** - 點選或按一下，以刪除選項按鈕的選項。
    - **重新排列** — 點選或按一下並拖曳以重新排列選項。
-您也可以使用**允許選項使用RTF格式**&#x200B;來格式化選項群組選項。
+您也可以使用&#x200B;**允許選項使用RTF格式**&#x200B;來格式化選項群組選項。
 
   ![支援選項使用 RTF 文字](/help/adaptive-forms/assets/richtext-for-options.png)
 
