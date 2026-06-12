@@ -5,19 +5,13 @@ role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
 TQID: https://experienceleague.adobe.com/yAFlfJ-7wH6cWELT5fJWq5bFbmVSwPMKsGGlLP3HQfk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2346
-ht-degree: 100%
+source-wordcount: 2287
+ht-degree: 99%
 
 ---
 
@@ -46,19 +40,19 @@ ht-degree: 100%
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_text_v1_tw)有關電子郵件文字元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_text_v1)有關電子郵件文字元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
 ## 電子郵件文字元件和 RTF 文字編輯器 {#the-text-component-and-the-rich-text-editor}
 
-電子郵件文字元件採用 AEM RTF 文字編輯器 (RTE)。 RTE 為內容作者提供編輯其文字內容的廣泛功能。 RTE 的設定有彈性，並提供多個選項。 如需有關如何設定 RTE 的詳細資訊，請參閱[設定 RTF 文字編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=zh-Hant)和[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)文章。
+電子郵件文字元件採用 AEM RTF 文字編輯器 (RTE)。 RTE 為內容作者提供編輯其文字內容的廣泛功能。 RTE 的設定有彈性，並提供多個選項。 如需有關如何設定 RTE 的詳細資訊，請參閱[設定 RTF 文字編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文章。
 
 本文件的其餘部分示範使用現成 RTE 設定的電子郵件文字元件的標準設定。
 
 >[!NOTE]
 >
->只有 [RTE 的 UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)所啟用的選項在電子郵件文字元件中可用。
+>只有 [RTE 的 UI 設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)所啟用的選項在電子郵件文字元件中可用。
 
 ## 編輯對話框 {#edit-dialog}
 
@@ -164,9 +158,9 @@ ht-degree: 100%
 
 ![尋找範例](/help/assets/text-find-example.png)
 
-輸入您要搜尋的文字，然後點選或按一下&#x200B;**尋找**開始搜尋。 點選或按一下 x 以取消。
-如果您想要根據大小寫進行完全比對，請先選取選項**符合大小寫**，再開始搜尋。
-如果找到相符項目，則會醒目提示該項目，且搜尋對話框會變暗。 在變暗的對話框中，再次點選或按一下**尋找**&#x200B;按鈕以搜尋下一個出現位置。
+輸入您要搜尋的文字，然後點選或按一下[尋找] **開始搜尋。點選或按一下x以取消。
+如果您想要根據大小寫進行完全比對，請先選取選項**&#x200B;符合大小寫&#x200B;**，再開始搜尋。
+如果找到相符專案，則會反白該專案，且搜尋對話方塊會變暗。在灰色的對話方塊中，再次點選或按一下**&#x200B;尋找&#x200B;**按鈕以搜尋下一個專案。**
 
 ![已找到的尋找範例](/help/assets/text-find-example-found.png)
 
@@ -290,7 +284,7 @@ ht-degree: 100%
 
 用於檢查文字內容的拼字。 可能的拼字錯誤會以紅色虛線加底線標示。
 
-如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hant)文件。
+如需拼字檢查與自訂拼字檢查字典的詳細資訊，請參閱[設定 RTF 文字編輯器外掛程式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文件。
 
 #### 特殊字元 {#special-characters}
 
