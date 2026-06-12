@@ -4,21 +4,14 @@ description: 使用或自訂自適應表單核取方塊群組核心元件。
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 TQID: https://experienceleague.adobe.com/6TicW4M5RGGd5b6dQZnIthLpXKhTwM1r9Fli8s3EqWo
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2316
-ht-degree: 100%
+source-wordcount: 2284
+ht-degree: 99%
 
 ---
 
@@ -76,7 +69,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_tw). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技術詳細資訊 {#technical-details}
@@ -114,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
   ![支援選項使用 RTF 文字](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  選取&#x200B;**允許選項使用 RTF 文字**&#x200B;的核取方塊後，即可看到格式選項，以設定元件選項的樣式。 若要存取所有可用的格式選項，您可以按一下 `Fullscreen` ![全螢幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png) 索引標籤。
+  選取&#x200B;**允許RTF格式選項**&#x200B;的核取方塊後，元件選項的樣式就會顯示出來。若要存取所有可用的格式選項，您可以按一下`Fullscreen` ![全熒幕圖示](/help/adaptive-forms/assets/fullscreen-icon.png)標籤。
   ![支援選項使用 RTF 文字](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **繫結參考** - 繫結參考是指儲存在外部資料來源，並在表單中使用的資料元素的參考。 繫結參考可讓您將資料動態繫結至表單欄位，讓表單可以顯示資料來源的最新資料。 例如，繫結參考可用於根據輸入至表單的客戶 ID，在表單中顯示客戶的姓名和地址。 繫結參考也可用於使用已輸入至表單中的資料更新資料來源。 透過此方式，AEM Forms 可讓您建立與外部資料來源互動的表單，提供順暢無礙的使用者體驗，以收集和管理資料。
