@@ -6,7 +6,7 @@ feature: Core Components
 user-guide-description: 針對傳統 AEM 專案，使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 

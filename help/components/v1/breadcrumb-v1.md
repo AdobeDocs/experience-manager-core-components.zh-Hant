@@ -14,8 +14,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 100%
+source-wordcount: 544
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->本文件說明階層連結元件 v1。
->如需階層連結元件目前版本的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)文件。
+>本檔案說明階層連結元件v1。
+>如需目前版本的階層連結元件的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)檔案。
 
 ## 範例元件輸出 {#sample-component-output}
 
