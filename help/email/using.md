@@ -5,21 +5,11 @@ role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
 TQID: https://experienceleague.adobe.com/wNHEXDBErMNRfSs-N6vAhQl9jnzMJJnGTPBUFEMZHY8
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
-  - id: de0934a4-5275-4727-b871-497a72ae8500
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a642c50e-80eb-4fc1-a5d2-f3762d1f841did: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4id: de0934a4-5275-4727-b871-497a72ae8500
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 683
@@ -56,8 +46,8 @@ ht-degree: 100%
 您必須設定 AEM-Adobe Campaign 整合，兩個解決方案才能通訊。
 
 * 設定您的 Adobe Campaign 整合
-   * Adobe Campaign Classic：[與 Adobe Campaign Classic 整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=zh-Hant)
-   * Adobe Campaign Standard：[與 Adobe Campaign Standard 整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hant)
+   * Adobe Campaign Classic：[與 Adobe Campaign Classic 整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
+   * Adobe Campaign Standard：[與 Adobe Campaign Standard 整合](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
 * [將 Adobe Campaign 整合設定連結至](/help/email/components/page.md#cloud-services-tab)您將使用電子郵件核心元件的內容頁面
 
 ### 為電子郵件元件新增 AEM 資源類型篩選器 {#aem-resource-filter}
@@ -86,13 +76,13 @@ ht-degree: 100%
 | 步驟 | 描述 | 解決方案 |
 |---|---|---|
 | 1 | 作者會建立自由格式的階層式結構，將資料夾和電子郵件內容當做頁面。 | AEM |
-| 2 | 使用[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)，作者可設定電子郵件頁首及/或頁尾，該項設定將在此頁面範本產生的所有電子郵件頁面之間共用。 | AEM |
-| 3 | 作者使用[頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=zh-Hant)，透過文字編輯器建立電子郵件內容，他們可以在其中選取 Adobe Campaign 變數，並使用分段元件，在收件者符合特定條件時有條件地顯示資訊。 | AEM |
-| 4 | 電子郵件內容完成時，會[執行工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=zh-Hant) ，以核准內容並傳送至 Campaign。 | AEM |
+| 2 | 使用[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，作者可設定電子郵件頁首及/或頁尾，該項設定將在此頁面範本產生的所有電子郵件頁面之間共用。 | AEM |
+| 3 | 作者使用[頁面編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html)，透過文字編輯器建立電子郵件內容，他們可以在其中選取 Adobe Campaign 變數，並使用分段元件，在收件者符合特定條件時有條件地顯示資訊。 | AEM |
+| 4 | 電子郵件內容完成時，會[執行工作流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html) ，以核准內容並傳送至 Campaign。 | AEM |
 | 5 | 會建立傳遞，定義收件者清單。 | Campaign |
 | 6 | 在 AEM 中建立的內容會選取為傳遞的內容。 | Campaign |
 | 7 | 內容會傳送給收件者，以收件者的個人化資訊取代 Adobe Campaign 變數。 | Campaign |
 
 如需在 AEM 中建立電子郵件內容以及在 Adobe Campaign 中傳遞的範例，請參閱下列資源。
 
-* AEM 6.5：[使用 Adobe Campaign Classic 和 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hant)
+* AEM 6.5：[使用 Adobe Campaign Classic 和 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)

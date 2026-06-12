@@ -5,17 +5,12 @@ index: false
 role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
 TQID: https://experienceleague.adobe.com/jNan3Y0X9leaZJO8jGVOyf-s9g-IHYUupELAUWuogZ0
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 100%
+source-wordcount: 544
+ht-degree: 98%
 
 ---
 
@@ -42,8 +37,8 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->本文件說明階層連結元件 v1。
->如需階層連結元件目前版本的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)文件。
+>本檔案說明階層連結元件v1。
+>如需目前版本的階層連結元件的詳細資訊，請參閱[階層連結元件](/help/components/breadcrumb.md)檔案。
 
 ## 範例元件輸出 {#sample-component-output}
 

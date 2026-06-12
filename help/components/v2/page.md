@@ -5,19 +5,11 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 TQID: https://experienceleague.adobe.com/p1V-3XLpA6H-rC-zWIYFqbPkd6HW7bBLWFXaj8aeNAs
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 662
@@ -27,7 +19,7 @@ ht-degree: 100%
 
 # 頁面元件 (v2) {#page-component}
 
-頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant)搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
+頁面元件是可擴充的頁面元件，旨在與[範本編輯器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)搭配使用，並允許使用範本編輯器來組合頁首/頁尾和結構元件。
 
 ## 用途 {#usage}
 
@@ -47,17 +39,17 @@ ht-degree: 100%
 
 ## 漸進式網頁應用程式支援 {#pwa-support}
 
-核心元件 2.15.0 版導入支援 AEM as a Cloud Service 的內建[漸進式網頁應用程式 (PWA) 功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)。 透過網站層級的簡單設定，將您的 AEM 體驗轉換為 PWA！
+核心元件 2.15.0 版導入支援 AEM as a Cloud Service 的內建[漸進式網頁應用程式 (PWA) 功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)。 透過網站層級的簡單設定，將您的 AEM 體驗轉換為 PWA！
 
 ### 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_page_v2_tw)有關頁面元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_page_v2)有關頁面元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
 ## 編輯對話框 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)視窗中找到。
 
 ## 設計對話框 {#design-dialog}
 
