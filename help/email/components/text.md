@@ -5,9 +5,15 @@ role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
 TQID: https://experienceleague.adobe.com/yAFlfJ-7wH6cWELT5fJWq5bFbmVSwPMKsGGlLP3HQfk
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 2287
@@ -159,8 +165,8 @@ ht-degree: 99%
 ![尋找範例](/help/assets/text-find-example.png)
 
 輸入您要搜尋的文字，然後點選或按一下[尋找] **開始搜尋。點選或按一下x以取消。
-如果您想要根據大小寫進行完全比對，請先選取選項**&#x200B;符合大小寫&#x200B;**，再開始搜尋。
-如果找到相符專案，則會反白該專案，且搜尋對話方塊會變暗。在灰色的對話方塊中，再次點選或按一下**&#x200B;尋找&#x200B;**按鈕以搜尋下一個專案。**
+如果您想要根據大小寫進行完全比對，請先選取選項&#x200B;**&#x200B;符合大小寫&#x200B;**，再開始搜尋。
+如果找到相符專案，則會反白該專案，且搜尋對話方塊會變暗。在灰色的對話方塊中，再次點選或按一下&#x200B;**&#x200B;尋找&#x200B;**&#x200B;按鈕以搜尋下一個專案。**
 
 ![已找到的尋找範例](/help/assets/text-find-example-found.png)
 

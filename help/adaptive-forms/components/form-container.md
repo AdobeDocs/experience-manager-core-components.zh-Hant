@@ -4,10 +4,18 @@ description: 將自適應表單新增至網頁。
 role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 TQID: https://experienceleague.adobe.com/kMG6SKHisAUmKhOh9AFLI8NG6w0vH7tP4XimBKAMo-I
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1529
@@ -50,7 +58,7 @@ ht-degree: 99%
 
 | 元件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更新版本 |
 |---|---|---|
-| v1 | 與<br>[ 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[ 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
+| v1 | 與<br>[&#x200B; 2.0.4 版](/help/adaptive-forms/version.md)及更新版本相容 | 與<br>[&#x200B; 1.1.12 版](/help/adaptive-forms/version.md)及更新版本相容，但低於 2.0.0 版。 |
 
 如需「核心元件」版本和發行版本的詳細資訊，請參閱[核心元件版本](/help/adaptive-forms/version.md)文件。
 <!--
@@ -78,7 +86,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **角色**：角色為 HTML 屬性，用於向輔助技術 (例如螢幕助讀程式) 指定 HTML 元素用途。 角色屬性可用來提供元素的其他內容脈絡和語義上的涵義，讓螢幕助讀程式更容易向使用者解譯和播報內容。 例如，在 AEM Forms 中，表單欄位的標籤可能會具有「標籤」角色，其輸入欄位則可能會具有「文字方塊」的角色。 這可協助螢幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確播報。
 
 - **使用者端資料庫類別** — 使用者可以根據每個最適化表單設定自訂JavaScript資料庫。建議僅將可重複使用的函式保留在程式庫中，這些函式需依賴jquery和underscore.js協力廠商程式庫。
-有時，如果有**個複雜的驗證規則**，則確切的驗證指令碼會位於自訂函式中，且使用者會從欄位驗證運算式呼叫這些自訂函式。若要在執行伺服器端驗證時讓此自訂函式館為已知且可用，表單使用者可在Adaptive Form容器屬性的「**[!UICONTROL 基本]**」標籤下設定AEM使用者端資料庫的名稱。
+有時，如果有&#x200B;**個複雜的驗證規則**，則確切的驗證指令碼會位於自訂函式中，且使用者會從欄位驗證運算式呼叫這些自訂函式。若要在執行伺服器端驗證時讓此自訂函式館為已知且可用，表單使用者可在Adaptive Form容器屬性的「**[!UICONTROL 基本]**」標籤下設定AEM使用者端資料庫的名稱。
 使用者可以根據每個最適化表單設定customJavaScript程式庫。在程式庫中，僅保留可重複使用的函式，這些函式依賴於jquery和underscore.js第三方程式庫。
 
 <!--
