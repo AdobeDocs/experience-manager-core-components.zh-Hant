@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
 workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
@@ -126,7 +126,7 @@ public class PageHeadline implements Title {
 
 將需要修改的 HTL 檔案從核心元件複製到 [Proxy 元件](guidelines.md#proxy-component-pattern)中，即可輕鬆完成這項操作。
 
-再次以核心階層連結元件為例，若要自訂其標記輸出，必須將 `breadcrumb.html` 檔案複製到具有指向核心階層連結元件的 `sling:resourceSuperTypes` 的網站專用元件中。
+再次以核心階層連結元件為例，若要自訂其標記輸出，必須將 `breadcrumb.html` 檔案複製到具有指向核心階層連結元件的 `sling:resourceSuperType` 的網站專用元件中。
 
 ### 設定元件樣式 {#styling-the-components}
 
