@@ -1,5 +1,5 @@
 ---
-source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
+source-git-commit: 78c755d553fdb424fee36bcb2a2c52627c51eaad
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 4%
@@ -20,3 +20,4 @@ ht-degree: 4%
 ## 核心元件存放庫
 
 [Adobe Experience Manager核心元件](https://github.com/adobe/aem-core-wcm-components)本身會作為專案保留在單獨的存放庫中。 如果您需要有關元件的技術/開發人員檔案、希望協助撰寫元件本身，或需要就核心元件的功能或特性提出問題，請參閱該專案。
+
