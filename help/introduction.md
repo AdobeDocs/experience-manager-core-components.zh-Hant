@@ -56,7 +56,7 @@ ht-degree: 98%
 | 可追蹤 | [Adobe Client Data Layer 整合](/help/developing/data-layer/overview.md)允許追蹤訪客體驗的各個層面。 |
 | 易於存取 | 元件符合 [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)，提供 ARIA 標籤，並支援鍵盤導覽 ([已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))。 |
 | SEO 友善 | HTML 可輸出語義，並提供 [schema.org](https://schema.org) 結構化資料標記。 |
-| WebApp 就緒 | [簡化的 JSON 輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允許用戶端轉譯，仍可進行[情境式編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hant)。 |
+| WebApp 就緒 | [簡化的 JSON 輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=zh-Hant)允許用戶端轉譯，仍可進行[情境式編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hant)。 |
 | AMP 支援 | 元件已內建 [AMP 標準支援](/help/developing/amp.md)，可加速您的行動體驗。 |
 | 設計套件 | [Adobe XD 的 UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)可讓設計人員建立透視效果，然後[根據需要設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
 | 可主題化 | 元件實施[樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hant)，標記語言也遵循 [BEM CSS 慣例](https://getbem.com/)。 |
