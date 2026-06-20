@@ -30,7 +30,7 @@ ht-degree: 98%
 
 # 核心元件版本 {#core-components-versions}
 
-核心元件與 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[內部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hant) 安裝相容。
+核心元件與 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant) 和[內部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hant) 安裝相容。
 
 ## 發行版本歷史記錄與相容性 {#release-history-and-compatibility}
 
