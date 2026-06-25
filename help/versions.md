@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
+source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
 workflow-type: tm+mt
-source-wordcount: 3937
+source-wordcount: 3972
 ht-degree: 98%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 98%
 
 | 發行版本 | 說明 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 發行日期 |
 |---|---|---|---|---|---|---|---|
+| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 此版本解決某些資訊無法正確儲存的問題。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年6月22日 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 此發行版本引進了頁面元件的JSON-LD資料支援，以及數個其他元件的效能改善，此外還有許多錯誤修正。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年5月19日 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 此版本修正了路徑驗證問題。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026 年 1 月 30 日 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | 此版本修正了標題元件原則對話框中的迴歸。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2025 年 12 月 5 日 |

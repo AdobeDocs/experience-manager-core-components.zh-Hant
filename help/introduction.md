@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
+source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
 workflow-type: tm+mt
 source-wordcount: 1076
 ht-degree: 98%
@@ -58,7 +58,7 @@ ht-degree: 98%
 | SEO 友善 | HTML 可輸出語義，並提供 [schema.org](https://schema.org) 結構化資料標記。 |
 | WebApp 就緒 | [簡化的 JSON 輸出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=zh-Hant)允許用戶端轉譯，仍可進行[情境式編輯](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hant)。 |
 | AMP 支援 | 元件已內建 [AMP 標準支援](/help/developing/amp.md)，可加速您的行動體驗。 |
-| 設計套件 | [Adobe XD 的 UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)可讓設計人員建立透視效果，然後[根據需要設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
+| 設計套件 | [Adobe XD 的 UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=zh-Hant)可讓設計人員建立透視效果，然後[根據需要設定樣式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
 | 可主題化 | 元件實施[樣式系統](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hant)，標記語言也遵循 [BEM CSS 慣例](https://getbem.com/)。 |
 | 可自訂 | 數個模式允許[輕鬆自訂](developing/customizing.md)，涵蓋從調整 HTML 到進階功能重複使用。 |
 | 版本設定 | [版本設定原則](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可確保核心元件在改善可能影響您的內容時，不會破壞您的網站。 |
@@ -126,7 +126,7 @@ ht-degree: 98%
 
 | 核心元件發行版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
-| [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 持續 | 6.5 LTS 正式發佈版 | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 持續 | 6.5 LTS 正式發佈版 | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 針對舊版核心元件的要求，請參閱[核心元件版本](versions.md)。
 
