@@ -4,22 +4,17 @@ description: 核心元件支援 AMP - 加速行動頁面
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 TQID: https://experienceleague.adobe.com/5v1tXLzHNRvAxy6-aJipN-ZYzsPJ1xFNc1hKmz73wic
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 59ca85e0f0b99ba46bb2b85f383f1fefd2b1c5fd
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 100%
+source-wordcount: 680
+ht-degree: 76%
 
 ---
+
 
 # 核心元件 AMP 支援 {#amp-support}
 
@@ -43,16 +38,18 @@ ht-degree: 100%
 
 雖然 AMP 支援提供極大的彈性，但只要幾個簡單的步驟，就能快速開始使用：
 
-1. 安裝 AMP 支援擴充功能 (如有需要)。
-   * 若為 AEM as a Cloud Service 專案，擴充功能會自動與核心元件一併提供，無需安裝。
-   * 對於內部部署和 AMS 專案，安裝核心元件時必須明確安裝擴充功能。
-1. 安裝 AMP 擴充功能後，元件作者必須將元件超類型指向擴充功能中的超類型。
+1. [安裝核心元件](/help/get-started/using.md#download-and-install)
+   * AEM as a Cloud Service專案預設會提供核心元件，您無需額外安裝。
+   * 對於內部部署和AMS專案，您可以[從GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下載核心元件的最新內容套件，並將其安裝在您的AEM環境中。
+   * 如果您的內部部署或AMS專案使用2.14.0之前的核心元件，您也必須在GitHub上安裝可作為此版本一部分的AMP擴充功能。
+1. 將您的元件`resourceSuperType`指向`core/wcm/extensions/amp/components/page/v1/page`。
+   * 如果您將[AEM專案原型](/help/developing/archetype/using.md)作為建議的最佳實務用於專案，並選擇[啟用AMP支援的選項，](https://github.com/adobe/aem-project-archetype/tree/develop)這會自動為您完成。
 1. 在範本層級或個別頁面上[啟用 AMP 支援](#enabling-amp)。
 1. 根據需要[部署內嵌 CSS](#css-requirements)。
 
 ### 啟用頁面 AMP {#enabling-amp}
 
-若要啟用頁面 AMP，必須在[頁面原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hant#editing-a-template-page-policy-template-author-developer)中選取 **AMP 模式**。
+若要啟用頁面 AMP，必須在[頁面原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)中選取 **AMP 模式**。
 
 ![AMP 頁面原則選項](/help/assets/amp-policy.png)
 
@@ -60,7 +57,7 @@ ht-degree: 100%
 * **與 AMP 同步** - 頁面會以 AMP 及 HTML 形式傳遞。
 * **僅限 AMP** - 僅以 AMP 傳遞頁面。
 
-個別頁面的[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)也可以覆寫頁面的 AMP 設定。
+個別頁面的[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)也可以覆寫頁面的 AMP 設定。
 
 ![AMP 頁面屬性](/help/assets/amp-page-properties.png)
 
@@ -68,6 +65,8 @@ ht-degree: 100%
 * **無 AMP** - 僅以標準 HTML 傳遞頁面。
 * **與 AMP 同步** - 頁面會以 AMP 及 HTML 形式傳遞。
 * **僅限 AMP** - 僅以 AMP 傳遞頁面。
+
+只有當`resourceSuperType`已正確設定為支援AMP時，這些選項才會顯示在UI中。 預設WKND範例內容未設定`resourceSuperType`，因此UI中看不到AMP的選項。
 
 ### CSS 要求 {#css-requirements}
 
