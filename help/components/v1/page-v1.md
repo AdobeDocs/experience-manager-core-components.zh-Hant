@@ -5,23 +5,15 @@ index: false
 role: Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 TQID: https://experienceleague.adobe.com/3vhSBWyt0Fn6rqGRdPNW0j-o9rN64h4RKMVoZuaLwww
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 100%
+source-wordcount: 606
+ht-degree: 85%
 
 ---
 
@@ -696,7 +688,14 @@ ht-degree: 100%
 
 ## 編輯對話框 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://helpx.adobe.com/tw/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)視窗中找到。
+
+### 結構化資料支援 {#structured-data}
+
+[核心元件2.31.0](/help/versions.md)版將[schema.org](https://schema.org)型別的頁面層級結構化資料(JSON-LD)支援引入所有版本的頁面元件。  AEM會在頁面標頭中轉譯這些區塊。
+
+[AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap)的2026.6.0版新增了作者使用「頁面屬性」視窗將一或多個JSON-LD區塊新增到&#x200B;**進階**&#x200B;索引標籤的&#x200B;**SEO**&#x200B;區段中的頁面的功能。
+
 
 ## 設計對話框 {#design-dialog}
 
