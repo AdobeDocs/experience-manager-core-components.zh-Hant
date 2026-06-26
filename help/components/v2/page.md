@@ -18,10 +18,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 662
-ht-degree: 100%
+source-wordcount: 753
+ht-degree: 90%
 
 ---
 
@@ -58,6 +58,12 @@ ht-degree: 100%
 ## 編輯對話框 {#edit-dialog}
 
 由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hant)視窗中找到。
+
+### 結構化資料支援 {#structured-data}
+
+[核心元件2.31.0](/help/versions.md)版將[schema.org](https://schema.org)型別的頁面層級結構化資料(JSON-LD)支援引入所有版本的頁面元件。  AEM會在頁面標頭中轉譯這些區塊。
+
+[AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap)的2026.6.0版新增了作者使用「頁面屬性」視窗將一或多個JSON-LD區塊新增到&#x200B;**進階**&#x200B;索引標籤的&#x200B;**SEO**&#x200B;區段中的頁面的功能。
 
 ## 設計對話框 {#design-dialog}
 
