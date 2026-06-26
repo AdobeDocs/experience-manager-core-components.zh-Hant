@@ -696,7 +696,7 @@ ht-degree: 85%
 
 ## 編輯對話框 {#edit-dialog}
 
-由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)視窗中找到。
+由於元件代表整個頁面，通常在編輯對話框中的設定可在[頁面屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)視窗中找到。
 
 ### 結構化資料支援 {#structured-data}
 
