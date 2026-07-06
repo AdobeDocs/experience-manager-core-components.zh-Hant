@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
 workflow-type: tm+mt
-source-wordcount: 1529
-ht-degree: 99%
+source-wordcount: 2555
+ht-degree: 64%
 
 ---
 
 # 表單容器 {#form-container-adaptive-forms-core-component}
 
-<span class="preview">本文討論&#x200B;**草稿** <!--and **Hamburger Menu Support** --> 功能，這是一項預先發佈功能。 此項預先發佈功能可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant#new-features)存取。</span>
+<span class="preview">本文討論&#x200B;**草稿**&#x200B;和&#x200B;**漢堡功能表支援**&#x200B;功能，這些是發行前功能。 此項預先發佈功能可透過我們的[預先發佈管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant#new-features)存取。</span>
 
 表單可提供寶貴資訊，讓網站訪客與網站互動，進而提高參與度和使用者滿意度。 Adobe Experience Manager (AEM) Sites 中的自適應表單容器可讓網站擁有者輕鬆將表單新增至其頁面。 這有助於促進網站訪客與網站擁有者或組織之間的溝通，透過提供簡化的方式，讓訪客提供意見回饋、提出查詢並完成其他動作
 
@@ -85,26 +85,25 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **角色**：角色為 HTML 屬性，用於向輔助技術 (例如螢幕助讀程式) 指定 HTML 元素用途。 角色屬性可用來提供元素的其他內容脈絡和語義上的涵義，讓螢幕助讀程式更容易向使用者解譯和播報內容。 例如，在 AEM Forms 中，表單欄位的標籤可能會具有「標籤」角色，其輸入欄位則可能會具有「文字方塊」的角色。 這可協助螢幕助讀程式瞭解標籤和輸入欄位之間的關係，並向使用者正確播報。
 
-- **使用者端資料庫類別** — 使用者可以根據每個最適化表單設定自訂JavaScript資料庫。建議僅將可重複使用的函式保留在程式庫中，這些函式需依賴jquery和underscore.js協力廠商程式庫。
-有時，如果有&#x200B;**個複雜的驗證規則**，則確切的驗證指令碼會位於自訂函式中，且使用者會從欄位驗證運算式呼叫這些自訂函式。若要在執行伺服器端驗證時讓此自訂函式館為已知且可用，表單使用者可在Adaptive Form容器屬性的「**[!UICONTROL 基本]**」標籤下設定AEM使用者端資料庫的名稱。
-使用者可以根據每個最適化表單設定customJavaScript程式庫。在程式庫中，僅保留可重複使用的函式，這些函式依賴於jquery和underscore.js第三方程式庫。
+- **用戶端程式庫類別** - 使用者可以根據每個自適應表單設定自訂 JavaScript 資料庫。 建議僅保留程式庫內可重複使用的函數，這些函數與 jquery 和 underscore.js 第三方程式庫有相依性。有時候，如果有&#x200B;**複雜的驗證規則**，則確切的驗證指令碼會駐留在自訂函數中，且使用者會從欄位驗證運算式中呼叫這些自訂函數。 若要在執行伺服器端驗證時公開和提供此自訂函數程式庫，表單使用者可以在「自適應表單容器」屬性的&#x200B;**[!UICONTROL 基礎]**&#x200B;索引標籤下方，設定 AEM 用戶端程式庫的名稱。使用者可以根據自適應表單來設定自訂 JavaScript 程式庫。 程式庫中只會保留可重複使用的函數，這些函數與 jquery 和 underscore.js 第三方程式庫有相依性。
 
-<!--
-- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
--->
+- **啟用行動檢視的漢堡功能表** — 選取核取方塊，將漢堡功能表整合到您的行動檢視表單中。 此選單以垂直棧疊的三條水平線表示，可為小型裝置（尤其是行動裝置）上的面板提供清晰整潔的顯示。 如需漢堡選單的詳細資訊，請參閱[進一步瞭解漢堡選單](#learn-more-about-the-hamburger-menu)區段。
 
 
 ### 資料模型索引標籤 {#data-model-tab}
 
-![提交索引標籤](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+![資料模型標籤](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
 您可以使用「表單資料模型」將表單連接至「資料來源」，以根據使用者動作傳送及接收資料。 您也可以將表單連接至 JSON 結構描述，以預先定義的格式接收提交的資料。 根據要求，將您的表單連接至 JSON 結構描述或「表單」資料模型：
-- 建立 JSON 結構描述並上傳至您的環境
-- 建立「表單資料模型」
+- **無** — 不要將表單與資料模型建立關聯。
+- **結構描述** — 將表單連線至上傳至您環境的JSON結構描述。
+- **表單資料模型** — 將表單連線至表單資料模型，以便與外部資料來源整合。
+- **Connector** — 將表單連線到以聯結器為基礎的資料來源。
+- **表單範本** — 將表單與表單範本建立關聯。
 
-### 草稿
+### 草稿標籤 {#drafts-tab}
 
-![提交索引標籤](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+![草稿標籤](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **自動儲存草稿**：選取&#x200B;**自動儲存草稿**&#x200B;核取方塊，以啟用將表單儲存為草稿。
 - **儲存偏好設定**：設定&#x200B;**儲存偏好設定**&#x200B;為&#x200B;**定期儲存草稿**，以在特定時間間隔後自動儲存表單。
@@ -113,6 +112,8 @@ To experience the Accordion Component as well as see examples of its configurati
 ### 提交索引標籤 {#submission-tab}
 
 使用者可以為自適應表單提交設定不同的動作。
+
+- **在送出時** — 選擇&#x200B;**重新導向至URL**，在送出後傳送表單使用者至設定的頁面，或選擇&#x200B;**顯示訊息**，在表單上顯示確認訊息。
 
 - **重新導向 URL/路徑** - 此選項可讓使用者為每個表單設定頁面，表單使用者在提交自適應表單後會重新導向至該頁面。 按一下這裡以取得有關[如何設定重新導向頁面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=zh-Hant)的詳細資訊。
 
@@ -123,6 +124,21 @@ To experience the Accordion Component as well as see examples of its configurati
 ![顯示訊息索引標籤](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **提交動作** - 當使用者按一下「自適應表單」上的「提交按鈕」時，就會觸發「提交動作」。 使用者可從下拉式清單中選取現有支援的「提交動作」。 了解如何[在「提交」索引標籤中設定「提交動作」](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=zh-Hant#supporting-custom-functions-in-validation-expressions-br)。
+
+- **動作設定** — 設定對應以將欄位值傳遞為感謝頁面要求引數。
+
+- **啟用POST要求** — 選取此選項可使用HTTP POST要求提交表單資料。
+
+### 記錄檔案索引標籤 {#document-of-record-tab}
+
+![記錄檔案索引標籤](/help/adaptive-forms/assets/formcontainer_dortab.png)
+
+[記錄檔案(DoR)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)是透過表單提交的資料的正式可列印表示法。 使用&#x200B;**記錄檔案**&#x200B;索引標籤來設定使用者提交表單時如何產生DoR：
+
+- **無** — 不要為表單產生記錄檔案。
+- **將表單範本關聯為記錄檔案範本** — 使用現有的表單範本做為DoR範本。
+- **產生記錄檔案** — 根據提交的表單資料自動產生記錄檔案。
+- **從記錄檔案排除檔案附件** — 選取此選項，從產生的DoR中忽略檔案附件。
 
 ## 設計對話框 {#design-dialog}
 
@@ -170,44 +186,44 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **重新排列**：點選或按一下並拖曳，以重新排列自訂屬性名稱和自訂屬性值的順序。
 
+## 進一步瞭解漢堡選單 {#learn-more-about-the-hamburger-menu}
+
+漢堡選單（通常稱為行動選單或導覽抽屜）是行動使用者介面中常見的設計元素。 它有三條垂直棧疊的水平線，看起來像一個漢堡。 此設計可隱藏次要導覽選項，有效節省熒幕空間，直到需要這些選項時為止，尤其是在行動裝置等較小裝置上。 AEM表單可在漢堡選單中有效率地組織，讓使用者能夠存取表單中的各種面板，而不會使主介面不知所措。
+
+考慮一種情況，金融機構提供線上貸款申請表單，要求使用者跨多個面板提供詳細資訊，例如個人詳細資訊、財務資訊、貸款偏好設定和支援檔案。 表單包含多個面板和選項，可能會讓介面變得雜亂，尤其是在行動裝置上。 使用者需要一種有條理的方式來瀏覽這些面板，而不會感到不知所措。 實作漢堡功能表可提升行動裝置上的使用者體驗。
+
+### 漢堡選單元件
+
+![漢堡選單](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+
+**A。漢堡選單**：漢堡選單具有導覽面板，當按一下或點選漢堡圖示時，導覽面板會滑出或下降。 功能表會顯示面板標題，選取面板會將焦點移至該面板。 它讓使用者在不同的面板之間輕鬆導覽。
+
+![漢堡選單](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+
+**B。階層連結**：階層連結指出使用者在表單中的目前位置。 它們提供階層式追蹤功能，可顯示使用者的導覽路徑，並協助使用者瞭解其在表單中的位置。
+
+**C。使用中面板**：使用中面板參考到目前顯示的部分或部份表單。 當使用者從漢堡選單中選取選項時，對應的面板會變成使用中面板，顯示該區段的相關欄位和資訊。
+
+### 使用漢堡選單時要考量的點
+
+- 漢堡選單只會顯示面板的名稱。 以下不同案例說明面板名稱如何根據面板的組態屬性出現在漢堡選單的導覽窗格中：
+
+   - 如果您將面板的屬性設定為隱藏，則面板的名稱不會出現在漢堡選單的導覽窗格中。 例如，如果您將`Financial Information`面板的內容設定為`hidden`，面板名稱就不會出現在漢堡選單的導覽窗格中。
+
+     ![隱藏面板](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+
+   - 如果您將面板的屬性設定為`disabled`，其名稱會出現在漢堡選單的導覽窗格中，但您無法選取或編輯它。 例如，如果您將`Financial Information`面板的內容設定為`disabled`，面板名稱會出現在導覽窗格中，但無法選取或編輯它。
+
+     ![已停用的面板](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
+
+   - 如果您隱藏面板的標題，它就不會出現在漢堡選單的導覽窗格中。 畫面改為顯示空白字元，但您可按一下該空白字元以導覽至面板的欄位。 例如，如果您隱藏`Financial Information`面板的標題，空白區會出現在漢堡功能表導覽窗格中的位置。 您可以按一下空白來導覽至面板的欄位。
+
+     ![隱藏的標題面板](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
+
+- 依預設，階層連結元件中的導覽窗格支援最多三個層級的導覽。 不過，使用自訂元件時，您可以設定導覽階層以容納所需的層級。
+- 使用漢堡選單時，使用者可以使用箭頭在面板之間導覽。 不過，一旦選取面板，選單就會自動關閉，且焦點會移至所選面板內的欄位。
+
 <!--
-## Learn more about the hamburger menu
-
-A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
-
-Consider a scenario, where a financial institution offers an online loan application form that requires users to provide detailed information across several panels, such as personal details, financial information, loan preferences, and supporting documents. The form includes multiple panels and options that can clutter the interface, especially on mobile devices. Users need an organized way to navigate through these panels without feeling overwhelmed. The hamburger menu is implemented to enhance the user experience on mobile devices.
-
-### Components of hamburger menu
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
-
-**A. Hamburger menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. The menu displays the panel headings, and selecting a panel shifts the focus to that panel. It allows users to easily navigate between different panels.
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
-
-**B. Breadcrumb**: Breadcrumbs indicate the user's current location within the form. They offer a hierarchical trail that shows the user's navigation path and helps them understand their position in the form.
-
-**C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
-
-### Points to consider while working with the hamburger menu
-
-- The hamburger menu displays only the names of the panels. Here are different scenarios illustrating how the panel name appears in the navigation pane of the hamburger menu based on the configuration properties of the panel:  
-  
-  - If you set the properties of the panel to hidden, the panel's name does not appear in the navigation pane of the hamburger menu. For example, if you configure the properties of the `Financial Information` panel as `hidden`, the panel name does not appear in the navigation pane of the hamburger menu.
-    
-    ![Hidden panel](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
-
-  - If you set the properties of the panel to `disabled`, its name appears in the navigation pane of the hamburger menu, but you cannot select or edit it. For example, if you configure the properties of the `Financial Information` panel as `disabled`, the panel name appears in the navigation pane, but it cannot be selected or edited. 
-     
-    ![Disabled panel](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
-
-  - If you hide the  title of the panel, it does not appear in the navigation pane of the hamburger menu. A blank space shows up instead, but you can navigate to the fields of the panel by clicking on that space. For example, if you hide the title of the `Financial Information` panel, the blank space appears in its place in the navigation pane of the hamburger menu. You can navigate to the fields of the panel by clicking on the blank space.
-    
-    ![Hidden title panel](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
-
-- By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
-- When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
-
 ### Advantages to use hamburger menu
 
 - **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
@@ -231,7 +247,7 @@ To enable hamburger menu for form, perform the following steps:
 1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
 1. Click **[!UICONTROL Done]**.
 
-![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 -->
 
 ## 相關文章 {#related-articles}
