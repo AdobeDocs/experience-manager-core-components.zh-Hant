@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: 1077
 ht-degree: 98%
 
 ---
@@ -39,10 +39,10 @@ ht-degree: 98%
 * **元件文件 (本文件)：**&#x200B;適用於開發人員和作者，提供各元件的詳細資訊。
 * **[核心元件 GitHub 存放庫：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;用於各元件和專案下載的開發人員詳細資訊。
 * 開始使用：
-   * **[成功使用核心元件：](/help/developing/success.md)**&#x200B;在任何將使用核心元件的專案開始之前要考慮的指導方針。
-   * **[WKND 教學課程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)**&#x200B;有關建置新網站的兩天教學課程。
-   * **[Summit 教學課程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有關建置新網站的兩小時教學課程 (出自美國 Summit 2019 的實驗室)。
-   * **[Gems 網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;核心元件的導覽 (於 2018 年 12 月錄製)。
+  * **[成功使用核心元件：](/help/developing/success.md)**&#x200B;在任何將使用核心元件的專案開始之前要考慮的指導方針。
+  * **[WKND 教學課程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)**&#x200B;有關建置新網站的兩天教學課程。
+  * **[Summit 教學課程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有關建置新網站的兩小時教學課程 (出自美國 Summit 2019 的實驗室)。
+  * **[Gems 網路研討會：](https://helpx.adobe.com/tw/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;核心元件的導覽 (於 2018 年 12 月錄製)。
 
 ## 功能 {#features}
 
@@ -126,7 +126,7 @@ ht-degree: 98%
 
 | 核心元件發行版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
-| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 持續 | 6.5 LTS 正式發佈版 | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 持續 | 6.5 LTS 正式發佈版 | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 針對舊版核心元件的要求，請參閱[核心元件版本](versions.md)。
 
