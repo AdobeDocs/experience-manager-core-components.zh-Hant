@@ -4,10 +4,19 @@ description: 了解核心元件如何運用 AEM as a Cloud Service 的網頁最�
 role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 TQID: https://experienceleague.adobe.com/fJgZlABQW0no-vH0tOjLy20ykqPhjopcvY7ei-iqi9M
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: c124fa01-25c5-42ec-adf6-21d1c114058bid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
-subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+subfeature_v2:
+  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1130
