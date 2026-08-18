@@ -4,11 +4,23 @@ description: 核心元件會以發行版本的形式發佈，其中可能包含�
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: d429a63e-ade4-4117-b04e-9b996d1c94efid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2: id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2:
+  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
 workflow-type: tm+mt
 source-wordcount: 4192
@@ -97,20 +109,20 @@ ht-degree: 96%
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此發行版本以修正為主，並包含小幅增強功能。 | 6.4.4.0+ | 6.5.0.0+ | - | 持續 | 8、11 | 2019 年 12 月 5 日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此發行版本導入新的[嵌入元件。](/help/components/embed.md) | 6.4.4.0+ | 6.5.0.0+ | - | 持續 | 8、11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此發行版本導入了新的[體驗片段元件。](/help/components/experience-fragment.md) | 6.4.4.0+ | 6.5.0.0+ | - | 持續 | 8、11 | 2019 年 9 月 6 日 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此發行版本導入了新的[摺疊面板、](/help/components/accordion.md)[按鈕、](/help/components/button.md)[容器](/help/components/container.md)和[下載元件。](/help/components/download.md) | 6.4.2.0+ | 6.5.0.0+ | - | 持續 | 8、11 | 2019 年 6 月 25 日 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此發行版本導入了新的[摺疊面板、](/help/components/accordion.md) [按鈕、](/help/components/button.md) [容器](/help/components/container.md)和[下載元件。](/help/components/download.md) | 6.4.2.0+ | 6.5.0.0+ | - | 持續 | 8、11 | 2019 年 6 月 25 日 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此發行版本導入了[內容片段清單元件。](/help/components/content-fragment-list.md) | 6.4.2.0+ | 6.5.0.0+ | - | 持續 | 8、11 | 2019 年 5 月 7 日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此發行版本著重於[元件庫](https://aemcomponents.dev)的細部調整，但同時也包含[分隔符號元件](/help/components/separator.md)的一些功能增強。 | 6.4.2.0+ | 6.5.0.0+ | - | 持續 | 8 | 2019 年 3 月 14 日 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此發行版本著重於[元件庫](https://aemcomponents.dev)，以及導入新的 [分隔符號元件](/help/components/separator.md)，但同時也包含一些針對[影像元件](/help/components/image.md)的功能增強。 | 6.4.2.0+ | - | - | - | 8 | 2019 年 2 月 11 日 |
 | [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此發行版本主要針對錯誤修正，但同時也包含一些[輪播元件](/help/components/carousel.md)的功能增強。 | 6.4.2.0+ | - | - | - | 8 | 2018 年 11 月 27 日 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 此發行版本導入了[索引標籤元件](/help/components/tabs.md)和[輪播元件](/help/components/carousel.md)，以及對[影像元件、](/help/components/image.md)[頁面元件](/help/components/page.md)和[標題元件](/help/components/title.md)的改良和增強型追蹤。 | 6.4.2.0+ | -- |  | - | 8 | 2018 年 10 月 16 日 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 此發行版本導入了[索引標籤元件](/help/components/tabs.md)和[輪播元件](/help/components/carousel.md)，以及對[影像元件、](/help/components/image.md) [頁面元件](/help/components/page.md)和[標題元件](/help/components/title.md)的改良和增強型追蹤。 | 6.4.2.0+ | -- |  | - | 8 | 2018 年 10 月 16 日 |
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 此發行版本導入了 [Teaser 元件](/help/components/teaser.md)，並改善[影像元件](/help/components/image.md)和許多錯誤修正。 | 6.4.2.0+ | -- |  | - | 8 | 2018 年 7 月 13 日 |
 | [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 這是錯誤修正版本。 | 6.4.0.0+ | -- |  | - | 8 | 2018 年 6 月 12 日 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 此發行版本新增了底層改善、錯誤修正和小型改善，包括支援[影像元件](/help/components/image.md)中的影像翻轉。 | 6.4.0.0+ | - | - | - | 8 | 2018 年 4 月 11 日 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 此發行版本以底層改善和錯誤修正為主，以及對[影像元件、](/help/components/image.md)[頁面元件](/help/components/page.md)和[內容片段組件](/help/components/content-fragment-component.md)的一些小幅度改善。 | 6.4.0.0+ | - | - | 8 | 2018 年 3 月 7 日 | |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 此發行版本導入了[導覽元件、](/help/components/navigation.md)[語言導覽元件](/help/components/language-navigation.md)和[快速搜尋元件](/help/components/quick-search.md)，並為所有元件實施[樣式系統](/help/get-started/authoring.md#component-styling)。 | 6.4.0.0+ | - | - | - | 8 | 2018 年 1 月 16 日 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 此發行版本以底層改善和錯誤修正為主，以及對[影像元件、](/help/components/image.md) [頁面元件](/help/components/page.md)和[內容片段組件](/help/components/content-fragment-component.md)的一些小幅度改善。 | 6.4.0.0+ | - | - | 8 | 2018 年 3 月 7 日 | |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 此發行版本導入了[導覽元件、](/help/components/navigation.md) [語言導覽元件](/help/components/language-navigation.md)和[快速搜尋元件](/help/components/quick-search.md)，並為所有元件實施[樣式系統](/help/get-started/authoring.md#component-styling)。 | 6.4.0.0+ | - | - | - | 8 | 2018 年 1 月 16 日 |
 | [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 此發行版本在所有元件上實施 JSON 匯出，並導入[內容片段元件。](/help/components/content-fragment-component.md) | 6.4.0.0+ | -- |  | - | 8 | 2017 年 10 月 10 日 |
 | [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 此發行版本新增[影像元件](/help/components/image.md)的數個修正。 | 6.4.0.0+ | - | - | 8 | 2017 年 8 月 4 日 | |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 此發行版本新增[頁面元件、](/help/components/page.md)[影像元件](/help/components/image.md)的修正，以及各種全域修正和改良。 | 6.4.0.0+ | -- |  | - | 8 | 2017 年 4 月 26 日 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 此發行版本新增[頁面元件、](/help/components/page.md) [影像元件](/help/components/image.md)的修正，以及各種全域修正和改良。 | 6.4.0.0+ | -- |  | - | 8 | 2017 年 4 月 26 日 |
 | [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 此發行版本新增[影像元件](/help/components/image.md)中動畫 GIF 影像的修正。 | 6.4.0.0+ | - | - | - | 7 | 2017 年 3 月 22 日 |
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心元件的初始發行版本。 | 6.4.0.0+ | - | - | - | 7 | 2017 年 3 月 20 日 |
 
