@@ -4,21 +4,14 @@ description: 快速搜尋元件提供對網站的搜尋功能並顯示搜尋結�
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,21 +36,27 @@ ht-degree: 46%
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | 相容 | 相容 | 相容 |
+| v3 | - | 相容* | 相容* | 相容 |
 | [v2](/help/components/v2/quick-search.md) | - | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/quick-search.md) | 與 <br>[2.17.4 版](/help/versions.md)及更早版本相容 | 相容 | - | 相容 |
 
-如需核心元件版本和發行版本的進一步詳細資訊，請參閱[核心元件版本](/help/versions.md)文件。
+*語意搜尋切換僅適用於AEM as a Cloud Service。
 
-### 技術詳細資訊 {#technical-details}
+如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本。](/help/versions.md)
+
+## 範例元件輸出 {#sample-component-output}
+
+若要體驗快速搜尋元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫。](https://adobe.com/go/aem_cmp_library_search)
+
+## 技術詳細資訊 {#technical-details}
 
 >[!NOTE]
 >
 >若要保護「搜尋元件」或任何以 AEM 為基礎的應用程式免受 DOS 攻擊，應在較高層級實施，例如透過在 Dispatcher 上使用 `mod_security` 。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v2_tw)有關「快速搜尋元件」的最新技術文件。
+在GitHub上可找到有關快速搜尋元件[的最新技術檔案。](https://adobe.com/go/aem_cmp_tech_search_v3)
 
-如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
+如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
 ## 編輯對話框 {#edit-dialog}
 
@@ -80,7 +79,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->語意搜尋切換只有在環境已設定AEM Content AI時，才會傳回AI支援的結果。 在未設定Content AI的AEM 6.5和AEM 6.5 LTS環境中，使用設計對話方塊[&#128279;](#design-dialog)隱藏切換，以免訪客使用無法運作的搜尋模式。
+>語意搜尋切換只有在環境已設定AEM Content AI時，才會傳回AI支援的結果。 在未設定Content AI的AEM 6.5和AEM 6.5 LTS環境中，使用設計對話方塊](#design-dialog)隱藏切換[，以免訪客使用無法運作的搜尋模式。
 
 ## 設計對話框 {#design-dialog}
 
