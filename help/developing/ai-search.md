@@ -26,8 +26,8 @@ ht-degree: 2%
 
 ## 先決條件 {#prerequisites}
 
-* 至少已建立一個[內容Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)，狀態為&#x200B;**可用**。
-* **AEM Content AI Client** OSGi設定(`ContentAIClientImpl`)已同時設定在作者和發佈上，具有有效的API認證和&#x200B;**預設內容Source**&#x200B;值。 請參閱檔案[設定Adobe Developer Console專案](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project)以瞭解如何取得認證。
+* 至少已建立一個[內容Source](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)，狀態為&#x200B;**可用**。
+* **AEM Content AI Client** OSGi設定(`ContentAIClientImpl`)已同時設定在作者和發佈上，具有有效的API認證和&#x200B;**預設內容Source**&#x200B;值。 請參閱檔案[設定Adobe Developer Console專案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/setup-adc-project)以瞭解如何取得認證。
 
 ## 建立Proxy元件 {#proxy-component}
 
@@ -54,10 +54,10 @@ ht-degree: 2%
 
 * 標準搜尋查詢的擷取層與「內容Source」的索引相同，會從設定的來源傳回相符的頁面、片段或資產。
 * 啟用AI產生的摘要時，元件會額外呼叫AEM Content AI產生的端點，將回應納入相同的索引內容中，並在摘要旁邊顯示來源，讓訪客可以驗證。
-* 由於這兩項功能都是從相同的受管內容Source中讀取，因此結果和摘要會與目前編制索引的內容保持一致。 重新執行贏取（請參閱[控制您的內容來源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)）會重新整理兩者。
+* 由於這兩項功能都是從相同的受管內容Source中讀取，因此結果和摘要會與目前編制索引的內容保持一致。 重新執行贏取（請參閱[控制您的內容來源](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)）會重新整理兩者。
 
 ## 後續步驟 {#next-steps}
 
-* [控制您的內容來源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) — 建立並管理此元件搜尋的內容Source。
-* [設定Adobe Developer Console專案](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) — 取得OSGi Content AI使用者端組態所使用的認證。
+* [控制您的內容來源](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources) — 建立並管理此元件搜尋的內容Source。
+* [設定Adobe Developer Console專案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/setup-adc-project) — 取得OSGi Content AI使用者端組態所使用的認證。
 * [Content AI API參考](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) — 瞭解此元件呼叫的基本搜尋和產生式摘要端點。

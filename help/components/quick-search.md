@@ -53,7 +53,7 @@ ht-degree: 41%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗快速搜尋元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫。](https://adobe.com/go/aem_cmp_library_search)
+若要體驗快速搜尋元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫。](https://adobe.com/go/aem_cmp_library_search_tw)
 
 ## 技術詳細資訊 {#technical-details}
 

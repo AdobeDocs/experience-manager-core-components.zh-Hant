@@ -29,7 +29,7 @@ ht-degree: 15%
 
 ## 用途 {#usage}
 
-內容AI 搜尋元件可讓訪客直接從頁面搜尋[內容Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)，並可選擇檢視由人工智慧產生的產生結果摘要。 它將標準全文/語意搜尋方塊與可切換的&#x200B;**顯示AI產生的摘要**&#x200B;面板相結合，該面板由AEM Content AI提供技術支援。
+內容AI 搜尋元件可讓訪客直接從頁面搜尋[內容Source](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)，並可選擇檢視由人工智慧產生的產生結果摘要。 它將標準全文/語意搜尋方塊與可切換的&#x200B;**顯示AI產生的摘要**&#x200B;面板相結合，該面板由AEM Content AI提供技術支援。
 
 [編輯對話方塊](#edit-dialog)可讓內容作者定義搜尋的內容範圍、搜尋行為和產生式設定。 沒有設計對話方塊，因為範本層級沒有可用的設定。
 
@@ -78,7 +78,7 @@ ht-degree: 15%
   * **自訂** — 在AEM自己的擷取管道外部註冊的來源
 * **內容來源** — 這會定義此元件搜尋的內容Source。
   * 可用專案符合已存在且&#x200B;**可用**&#x200B;的內容來源，也符合&#x200B;**內容Source型別**&#x200B;中設定的型別
-  * 如需詳細資訊，請參閱檔案[設定和管理您的Content AI來源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)。
+  * 如需詳細資訊，請參閱檔案[設定和管理您的Content AI來源](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)。
 
 ### 搜尋行為標籤 {#search-behavior}
 
