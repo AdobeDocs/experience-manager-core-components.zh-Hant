@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
+source-git-commit: 1f35bcdd9670db47a906bb53b3cb3d76dbf4bb38
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: 1080
 ht-degree: 98%
 
 ---
@@ -77,6 +77,7 @@ ht-degree: 98%
 * [語言導覽](components/language-navigation.md)
 * [階層連結](components/breadcrumb.md)
 * [快速搜尋](components/quick-search.md)
+* [內容AI 搜尋](components/ai-search.md)
 * [目錄](components/tableofcontents.md)
 
 ### 頁面製作元件 {#page-authoring-components}

@@ -5,10 +5,10 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 針對傳統 AEM 專案，使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: ccc4eebac29251d3527f34240cb2005b9029cf82
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 99%
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 99%
   + [PDF 檢視器](/help/components/pdf-viewer.md)
   + [進度列](/help/components/progress-bar.md)
   + [快速搜尋](/help/components/quick-search.md)
+  + [內容AI 搜尋](/help/components/ai-search.md)
   + [分隔符號](/help/components/separator.md)
   + [社交媒體分享](/help/components/sharing.md)
   + [目錄](/help/components/tableofcontents.md)
@@ -156,6 +157,7 @@ ht-degree: 99%
   + [最適化影像 Servlet](/help/developing/adaptive-image-servlet.md)
   + [網頁最佳化影像傳遞](/help/developing/web-optimized-image-delivery.md)
   + [遠端資產支援](/help/developing/remote-assets.md)
+  + [設定內容AI 搜尋](/help/developing/ai-search.md)
   + Adobe Client Data Layer {#data-layer}
     + [資料層概觀](/help/developing/data-layer/overview.md)
     + [與資料層整合](/help/developing/data-layer/integrations.md)

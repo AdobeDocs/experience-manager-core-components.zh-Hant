@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: 4192
-ht-degree: 96%
+source-wordcount: 4244
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 96%
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 此版本解決錯誤修正。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年7月15日 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | 此版本解決舊版搜尋clientlibs中的錯誤。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年7月15日 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | 此發行版本推出[內容AI 搜尋元件，](/help/components/ai-search.md)新版本的[快速搜尋元件](/help/components/quick-search.md)，搭配選購的AI 搜尋切換功能，並解決本地化等錯誤。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年7月14日 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | 此發行版本推出新版本的[快速搜尋元件](/help/components/quick-search.md)，並搭配選購的AI 搜尋切換功能，以及解決本地化錯誤等。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年7月14日 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 此版本解決某些資訊無法正確儲存的問題。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年6月22日 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 此發行版本引進了頁面元件的JSON-LD資料支援，以及數個其他元件的效能改善，此外還有許多錯誤修正。 | - | 6.5.21.0+ | 6.5 LTS 正式發佈版 | 持續 | 8, 11, 17, 21 | 2026年5月19日 |

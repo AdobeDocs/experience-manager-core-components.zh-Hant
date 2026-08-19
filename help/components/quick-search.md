@@ -15,10 +15,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,21 +43,27 @@ ht-degree: 46%
 
 | 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | 相容 | 相容 | 相容 |
+| v3 | - | 相容* | 相容* | 相容 |
 | [v2](/help/components/v2/quick-search.md) | - | 相容 | 相容 | 相容 |
 | [v1](/help/components/v1/quick-search.md) | 與 <br>[2.17.4 版](/help/versions.md)及更早版本相容 | 相容 | - | 相容 |
 
-如需核心元件版本和發行版本的進一步詳細資訊，請參閱[核心元件版本](/help/versions.md)文件。
+*語意搜尋切換僅適用於AEM as a Cloud Service。
 
-### 技術詳細資訊 {#technical-details}
+如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本。](/help/versions.md)
+
+## 範例元件輸出 {#sample-component-output}
+
+若要體驗快速搜尋元件並檢視其設定選項範例以及HTML和JSON輸出，請造訪[元件資料庫。](https://adobe.com/go/aem_cmp_library_search_tw)
+
+## 技術詳細資訊 {#technical-details}
 
 >[!NOTE]
 >
 >若要保護「搜尋元件」或任何以 AEM 為基礎的應用程式免受 DOS 攻擊，應在較高層級實施，例如透過在 Dispatcher 上使用 `mod_security` 。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v2_tw)有關「快速搜尋元件」的最新技術文件。
+在GitHub上可找到有關快速搜尋元件[的最新技術檔案。](https://adobe.com/go/aem_cmp_tech_search_v3)
 
-如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
+如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
 ## 編輯對話框 {#edit-dialog}
 
