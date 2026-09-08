@@ -1,6 +1,6 @@
 ---
 title: 核心元件簡介
-description: 取得核心元件問題的解決方案，並允許其他人在 AEM 中製作元素。
+description: 取得核心元件問題的解決方案，並讓其他人能在 AEM 中編寫元素。
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 TQID: https://experienceleague.adobe.com/TDVZQa4ww1rGJIoAeFyMRPREuUSWPcAUI0mwBHYASTI
@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 1f35bcdd9670db47a906bb53b3cb3d76dbf4bb38
+source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
 workflow-type: tm+mt
 source-wordcount: 1080
 ht-degree: 98%
@@ -52,7 +52,7 @@ ht-degree: 98%
 | 雲端就緒 | 無論是在 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant) 上、在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 還是內部部署，這些元件都能運作。 |
 | 多功能 | 這些元件代表作者可用來組裝幾乎任何版面的一般概念。 |
 | 可設定 | 範本層級[內容原則](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hant#content-policies) 定義頁面作者可以使用或無法使用的功能。 |
-| [回應式](responsive.md) | 所有「核心元件」都設計為可充分回應，確保裝置間的順暢體驗 |
+| [回應式](responsive.md) | 所有「核心元件」都設計為完全回應式，確保跨裝置的順暢體驗 |
 | 可追蹤 | [Adobe Client Data Layer 整合](/help/developing/data-layer/overview.md)允許追蹤訪客體驗的各個層面。 |
 | 易於存取 | 元件符合 [WCAG 2.1 標準](https://www.w3.org/TR/WCAG21/)，提供 ARIA 標籤，並支援鍵盤導覽 ([已知問題](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))。 |
 | SEO 友善 | HTML 可輸出語義，並提供 [schema.org](https://schema.org) 結構化資料標記。 |
@@ -68,7 +68,7 @@ ht-degree: 98%
 
 ## WCM 元件 {#the-wcm-components}
 
-目前版本的核心元件具備下列元件。
+目前版本的核心元件包含下列元件。
 
 ### 範本元件 {#template-components}
 
@@ -127,7 +127,7 @@ ht-degree: 98%
 
 | 核心元件發行版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
-| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 持續 | 6.5 LTS 正式發佈版 | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | 持續 | 6.5 LTS 正式發佈版 | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 針對舊版核心元件的要求，請參閱[核心元件版本](versions.md)。
 
