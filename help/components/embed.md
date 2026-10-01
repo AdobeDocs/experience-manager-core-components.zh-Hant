@@ -6,22 +6,27 @@ exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 TQID: https://experienceleague.adobe.com/CbY4mDdS51yLd8qgtm4kloT76qZoReqdcmlylQLjZRM
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
 workflow-type: tm+mt
-source-wordcount: 1421
+source-wordcount: '1421'
 ht-degree: 100%
-
 ---
-
 # 嵌入元件 {#embed-component}
 
 核心元件嵌入元件允許將外部內容嵌入至 AEM 內容頁面。
@@ -50,11 +55,11 @@ ht-degree: 100%
 
 ## 範例元件輸出 {#sample-component-output}
 
-若要體驗「嵌入元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_embed_tw)」。
+若要體驗「嵌入元件」，並檢視其設定選項及 HTML 和 JSON 輸出的範例，請造訪「[元件庫](https://adobe.com/go/aem_cmp_library_embed)」。
 
 ## 技術詳細資訊 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v2_tw)有關嵌入元件的最新技術文件。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v2)有關嵌入元件的最新技術文件。
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件](/help/developing/overview.md)。
 
@@ -73,8 +78,8 @@ ht-degree: 100%
 針對各嵌入式項目的類型，您可以定義其 **ID**。 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
 
 * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
-* 若已指定 ID，則作者應確保其為唯一識別碼。
-* 變更該 ID 會對 CSS、JS 和「資料層」追蹤造成影響。
+* 若已指定 ID，則作者應負責確保其為不重複。
+* 變更該 ID 會對 CSS、JS 和資料層追蹤造成影響。
 
 #### URL {#url}
 
@@ -91,7 +96,7 @@ ht-degree: 100%
 
 #### 嵌入式項目 {#embeddable}
 
-嵌入式項目允許嵌入資源的更多自訂，這些自訂可以參數化並包含其他資訊。 作者能從預先設定的受信任嵌入式項目中進行選取，此元件也隨附立即可用的 YouTube 嵌入式項目。
+嵌入式項目可讓您對嵌入的資源進行更多自訂，且該資源可參數化並包含其他資訊。 作者能從預先設定的受信任嵌入式項目中進行選取，此元件也隨附立即可用的 YouTube 嵌入式項目。
 
 **嵌入式項目**&#x200B;欄位定義您要使用的處理器類型。 在使用 YouTube 嵌入式項目的情況下，您可以定義：
 
@@ -127,9 +132,9 @@ ht-degree: 100%
 
 一般來說，所有指令碼和 `style` 元素以及所有 `on*` 和 `style` 屬性都將從輸出中移除。
 
-不過，規則其實更為複雜，因為嵌入元件會遵循 AEM 的全域 HTML AntiSamy 清理框架篩選規則集，此規範可以在 `/libs/cq/xssprotection/config.xml` 中找到。 如有需要，開發人員可採用專案專用的設定進行覆蓋。
+不過，規則其實更為複雜，因為嵌入元件會遵循 AEM 的全域 HTML AntiSamy 清理框架篩選規則集，此規範可以在 `/libs/cq/xssprotection/config.xml` 中找到。 如有需要，開發人員可使用專案專用的設定來覆蓋此設定。
 
-有關其他安全性資訊，請參閱[適用於AEM as a Cloud Service 安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hant)及[適用於內部部署安裝的 AEM 開發人員文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hant)。
+有關其他安全性資訊，請參閱[適用於AEM as a Cloud Service 安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)及[適用於內部部署安裝的 AEM 開發人員文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)。
 
 >[!NOTE]
 >
@@ -141,7 +146,7 @@ ht-degree: 100%
 
 嵌入元件支援 AEM [樣式系統](/help/get-started/authoring.md#component-styling)。
 
-使用下拉式清單，選取想要套用至元件的樣式。 在編輯對話框中所做的選取，與從元件工具列中選擇具有相同效果。
+使用下拉式清單，選取想要套用至元件的樣式。 在編輯對話框中所做的選取，與從元件工具列中所做的選擇具有相同效果。
 
 元件樣式必須在[設計對話框](#design-dialog)中設定，才能使用該下拉式清單。
 
@@ -163,12 +168,12 @@ ht-degree: 100%
 ![嵌入元件設計對話框的 YouTube 索引標籤](/help/assets/embed-design-youtube.png)
 
 * **允許設定靜音行為** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用靜音**&#x200B;選項
-   * **靜音的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用靜音**&#x200B;選項
+  * **靜音的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用靜音**&#x200B;選項
 * **允許設定自動播放行為** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用自動播放**&#x200B;選項
-   * **自動播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用自動播放**&#x200B;選項
+  * **自動播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用自動播放**&#x200B;選項
 * **允許設定循環播放行為** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用循環播放**&#x200B;選項
-   * **循環播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用循環播放**&#x200B;選項
+  * **循環播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用循環播放**&#x200B;選項
 * **允許設定內嵌播放 (iOS)** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用內嵌播放 (iOS)** 選項
-   * **內嵌播放 (iOS) 的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用內嵌播放 (iOS)** 選項
+  * **內嵌播放 (iOS) 的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用內嵌播放 (iOS)** 選項
 * **允許設定內嵌影片** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**不受限制的相關影片**&#x200B;選項
-   * **不受限制的相關影片的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**不受限制的相關影片**&#x200B;選項
+  * **不受限制的相關影片的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**不受限制的相關影片**&#x200B;選項
