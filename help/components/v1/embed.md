@@ -7,22 +7,27 @@ index: false
 TQID: https://experienceleague.adobe.com/YHV-xySiw1BjEKsfT-ALcfEHNDhOtREXJroHUf3p6m4
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 100%
-
 ---
-
 # 嵌入元件 (v1) {#embed-component}
 
 核心元件嵌入元件允許將外部內容嵌入至 AEM 內容頁面。
@@ -65,8 +70,8 @@ ht-degree: 100%
 針對各嵌入式項目的類型，您可以定義其 **ID**。 此選項可讓您控制 HTML 和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
 
 * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
-* 若已指定 ID，則作者應確保其為唯一識別碼。
-* 變更該 ID 會對 CSS、JS 和「資料層」追蹤造成影響。
+* 若已指定 ID，則作者應負責確保其為不重複。
+* 變更該 ID 會對 CSS、JS 和資料層追蹤造成影響。
 
 ### URL {#url}
 
@@ -83,7 +88,7 @@ ht-degree: 100%
 
 ### 嵌入式項目 {#embeddable}
 
-嵌入式項目允許嵌入資源的更多自訂，這些自訂可以參數化並包含其他資訊。 作者能從預先設定的受信任嵌入式項目中進行選取，此元件也隨附立即可用的 YouTube 嵌入式項目。
+嵌入式項目可讓您對嵌入的資源進行更多自訂，且該資源可參數化並包含其他資訊。 作者能從預先設定的受信任嵌入式項目中進行選取，此元件也隨附立即可用的 YouTube 嵌入式項目。
 
 **嵌入式項目**&#x200B;欄位定義您要使用的處理器類型。 在使用 YouTube 嵌入式項目的情況下，您可以定義：
 
@@ -116,11 +121,11 @@ ht-degree: 100%
 
 #### 安全性 {#security}
 
-基於安全考量，作者可以輸入的 HTML 標記會進行篩選，以免受跨網站指令碼攻擊，例如允許作者取得管理許可權限。
+基於安全考量，作者可以輸入的 HTML 標記會經過篩選，以避免跨網站指令碼攻擊；例如，這類攻擊可能讓作者取得管理員權限。
 
 *一般來說，*&#x200B;所有指令碼和 `style` 元素以及所有 `on*` 和 `style` 屬性都將從輸出中移除。
 
-不過，規則其實更為複雜，因為嵌入元件會遵循 AEM 的全域 HTML AntiSamy 清理框架篩選規則集，此規範可以在 `/libs/cq/xssprotection/config.xml` 中找到。 如有需要，開發人員可採用專案專用的設定進行覆蓋。
+不過，規則其實更為複雜，因為嵌入元件會遵循 AEM 的全域 HTML AntiSamy 清理框架篩選規則集，此規範可以在 `/libs/cq/xssprotection/config.xml` 中找到。 如有需要，開發人員可使用專案專用的設定來覆蓋此設定。
 
 有關其他安全性資訊，請參閱[適用於AEM as a Cloud Service 安裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hant)及[適用於內部部署安裝的 AEM 開發人員文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hant)。
 
@@ -145,12 +150,12 @@ ht-degree: 100%
 ![嵌入元件設計對話框的 YouTube 索引標籤](/help/assets/embed-design-youtube.png)
 
 * **允許設定靜音行為** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用靜音**&#x200B;選項
-   * **靜音的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用靜音**&#x200B;選項
+  * **靜音的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用靜音**&#x200B;選項
 * **允許設定自動播放行為** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用自動播放**&#x200B;選項
-   * **自動播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用自動播放**&#x200B;選項
+  * **自動播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用自動播放**&#x200B;選項
 * **允許設定循環播放行為** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用循環播放**&#x200B;選項
-   * **循環播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用循環播放**&#x200B;選項
+  * **循環播放的預設值** - 當選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用循環播放**&#x200B;選項
 * **允許設定內嵌播放 (iOS)** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**啟用內嵌播放 (iOS)** 選項
-   * **內嵌播放 (iOS) 的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用內嵌播放 (iOS)** 選項
+  * **內嵌播放 (iOS) 的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**啟用內嵌播放 (iOS)** 選項
 * **允許設定內嵌影片** - 允許內容作者在選取 YouTube 嵌入類型時，在元件中設定&#x200B;**不受限制的相關影片**&#x200B;選項
-   * **不受限制的相關影片的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**不受限制的相關影片**&#x200B;選項
+  * **不受限制的相關影片的預設值** - 在選取 YouTube 嵌入類型時，自動設定&#x200B;**不受限制的相關影片**&#x200B;選項
