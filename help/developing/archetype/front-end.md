@@ -1,26 +1,38 @@
 ---
 title: 使用 AEM 專案原型進行前端開發
-description: 進一步了解 AEM 專案原型的可選用 Webpack 型專用前端建置機制。
+description: 進一步了解 AEM 專案原型中以 Webpack 為基礎的可選前端專用的建置機制。
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-TQID: https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4
+TQID: 'https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '710'
 ht-degree: 100%
-
 ---
-
 # 使用 AEM 專案原型進行前端開發 {#front-end}
 
-AEM 專案原型包括可選用的 Webpack 型專用前端建置機制。 因此，ui.frontend 模組成為專案所有前端資源 (包括 JavaScript 和 CSS 檔案) 的中央位置。 若要充分利用這項實用且靈活的功能，請務必了解前端開發如何融入 AEM 專案。
+AEM 專案原型包括以 Webpack 為基礎的可選前端專用的建置機制。 因此，ui.frontend 模組成為專案所有前端資源 (包括 JavaScript 和 CSS 檔案) 的中央位置。 若要充分利用這項實用且靈活的功能，請務必了解前端開發如何融入 AEM 專案。
 
 本文件著重於前端建置模組的一般使用模式及其對您的作用。 如需詳細的建置選項和技術指示，請參閱原型的 GitHub 存放庫中的文件。
 
@@ -47,7 +59,7 @@ AEM 專案原型包括可選用的 Webpack 型專用前端建置機制。 因此
 
 ## 可能的前端開發工作流程 {#possible-workflows}
 
-前端建置模組是實用且非常靈活的工具，但並未提供其用途的詳細說明。 以下是&#x200B;*可能*&#x200B;使用方法的兩個範例，但您的個別專案需求可能會指示其他使用模型。
+前端建置模組是實用且非常靈活的工具，但不會對其使用方式施加任何特定限制。 以下是&#x200B;*可能*&#x200B;使用方法的兩個範例，但您的個別專案需求可能會指示其他使用模型。
 
 ### 使用 Webpack 靜態開發伺服器 {#using-webpack}
 
@@ -62,7 +74,7 @@ AEM 專案原型包括可選用的 Webpack 型專用前端建置機制。 因此
 
 >[!TIP]
 >
->您也可以利用[元件庫](https://adobe.com/go/aem_cmp_library_tw)來擷取每個元件的標記輸出範例，以便在元件層級而非頁面層級上運作。
+>您也可以利用[元件庫](https://adobe.com/go/aem_cmp_library)來擷取每個元件的標記輸出範例，以便在元件層級而非頁面層級上運作。
 
 ### 使用 Storybook {#using-storybook}
 
@@ -74,7 +86,7 @@ AEM 專案原型包括可選用的 Webpack 型專用前端建置機制。 因此
 
 ## Clientlib 概觀 {#clientlibs}
 
-使用 [AEM clientlib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant) 即可取得前端模組。執行 NPM 建置指令碼時，會建置應用程式，且 `aem-clientlib-generator` 套件會擷取產生的建置輸出，並將其轉換為此類 clientlib。
+使用 [AEM clientlib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) 即可取得前端模組。執行 NPM 建置指令碼時，會建置應用程式，且 `aem-clientlib-generator` 套件會擷取產生的建置輸出，並將其轉換為此類 clientlib。
 
 Clientlib 將由下列檔案和目錄組成：
 
@@ -86,4 +98,4 @@ Clientlib 將由下列檔案和目錄組成：
 
 >[!TIP]
 >
->在 [AEM 開發文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hant)中進一步了解 AEM 如何處理 clientlib，並了解如何將其納入[核心元件文件](/help/developing/including-clientlibs.md)。
+>在 [AEM 開發文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)中進一步了解 AEM 如何處理 clientlib，並了解如何將其納入[核心元件文件](/help/developing/including-clientlibs.md)。

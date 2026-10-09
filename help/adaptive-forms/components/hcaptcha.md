@@ -5,30 +5,40 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-TQID: https://experienceleague.adobe.com/I1e4JXUCeP-y06cPdR2ycrhK1o1bgkkAkO1voVm-2Ic
+TQID: 'https://experienceleague.adobe.com/I1e4JXUCeP-y06cPdR2ycrhK1o1bgkkAkO1voVm-2Ic'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '730'
 ht-degree: 100%
-
 ---
-
 # hCaptcha 元件{#hCaptcha-component-adaptive-forms-core-component}
 
 <span class="preview"> 此功能隸屬於早期採用者計劃。 您可以使用官方電子郵件 ID 寫信至 aem-forms-ea@adobe.com，以加入早期採用者計劃並要求存取該功能。</span>
 
-hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化濫用的侵擾。 它會利用核取方塊小工具來提出質詢，並評估使用者的回應，以判斷與表單互動的是真人還是機器人。 它可防止使用者在測試失敗時繼續操作，並透過防止機器人發佈垃圾郵件或惡意活動來確保線上交易的安全。
+hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化濫用的侵擾。 它會利用核取方塊小工具提出挑戰，並評估使用者的回應，以判斷與表單互動的是真人還是機器人。 它可防止使用者在測試失敗時繼續操作，並透過防止機器人發佈垃圾郵件或惡意活動來確保線上交易的安全。
 
 ![hCaptcha®](/help/adaptive-forms/assets/hCaptcha-challenge.png)
 
@@ -69,7 +79,7 @@ hCaptcha® 服務可保護您的表單免受機器人、垃圾郵件和自動化
 
 ## 設定對話框 {#configure-dialog}
 
-透過 hCaptcha 元件的設定對話框，其中具備可自訂多種屬性的基本索引標籤和驗證索引標籤，可讓您輕鬆自訂屬性。
+您可以透過 hCaptcha 元件的設定對話框輕鬆自訂其屬性；該對話框包含「基本」索引標籤和「驗證」索引標籤，可用來自訂各種屬性。
 
 ### 基本索引標籤 {#basic-tab}
 

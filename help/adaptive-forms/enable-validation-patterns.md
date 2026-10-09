@@ -3,13 +3,16 @@ title: 在 Adobe Experience Manager 自適應表單中啟用和使用文字輸�
 description: 了解如何設定範本原則以公開電話號碼、社會安全號碼及郵遞區號等驗證模式，然後在自適應表單中使用。
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # 在 Adobe Experience Manager 自適應表單中啟用和使用文字輸入驗證模式
 
 ## 概觀
@@ -113,13 +116,13 @@ ht-degree: 100%
 ## 疑難排解
 
 - **問題：**&#x200B;驗證模式未出現在表單元件中。
-   - **解決方案：**&#x200B;請確定範本原則已正確儲存，且您在建立表單時使用正確的範本。
+  - **解決方案：**&#x200B;請確定範本原則已正確儲存，且您在建立表單時使用正確的範本。
 
 - **問題：**&#x200B;無法存取範本編輯器。
-   - **解決方案：**&#x200B;請驗證您擁有編輯範本的必要權限 (`template-authors` 群組的會員資格)。
+  - **解決方案：**&#x200B;請驗證您擁有編輯範本的必要權限 (`template-authors` 群組的會員資格)。
 
 - **問題：**&#x200B;文字輸入元件未正確驗證輸入。
-   - **解決方案：**&#x200B;在元件的「驗證」索引標籤中重新檢查驗證模式設定，並確定選取了正確的模式。
+  - **解決方案：**&#x200B;在元件的「驗證」索引標籤中重新檢查驗證模式設定，並確定選取了正確的模式。
 
 ## 後續步驟
 
