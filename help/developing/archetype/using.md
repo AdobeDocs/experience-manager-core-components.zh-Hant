@@ -4,27 +4,39 @@ description: 了解如何使用 AEM 專案原型，依最佳作法建立簡化�
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-TQID: https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY
+TQID: 'https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1326
+source-wordcount: '1326'
 ht-degree: 100%
-
 ---
-
 # 使用 AEM 專案原型 {#using-the-archetype}
 
 本文件詳細說明如何使用 AEM 專案原型，依最佳作法建立簡化的 Adobe Experience Manager 專案，作為您專屬 AEM 專案的開端。
 
-它著重於一般使用模式，以及原型對您的作用。 如需詳細的建置選項和技術指示，請參閱原型的 GitHub 存放庫中的文件。
+它著重於一般使用模式，以及原型可為您提供的功能。 如需詳細的建置選項和技術指示，請參閱原型的 GitHub 存放庫中的文件。
 
 >[!TIP]
 >
@@ -32,7 +44,7 @@ ht-degree: 100%
 
 ## 快速入門 {#getting-started}
 
-專案原型可讓您在 AEM上輕鬆開始開發。 您可以透過多種方式採取處理原型的第一個步驟。
+專案原型可讓您在 AEM上輕鬆開始開發。 您可以透過多種方式開始使用原型。
 
 * **WKND 教學課程** - 如需有關在 AEM 上進行開發的精彩說明，包括如何善用原型，請參閱 [AEM Sites 快速入門 - WKND 教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)中的實際範例，以逐步引導您使用原型實施簡單的專案。
 * **WKND 事件教學課程** - 如果您對 AEM 上的單一頁面應用程式 (SPA) 開發特別感興趣，請務必檢視專屬的 [WKND 事件教學課程。](https://helpx.adobe.com/tw/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
@@ -77,7 +89,7 @@ Maven 中代表的原型模組會部署至 AEM，做為代表應用程式、內�
 
 上層 POM 的 `<properties>` 區段定義了在 AEM 執行個體上部署專案所必需的幾個全域屬性，例如使用者名稱/密碼、主機名稱/連接埠等。
 
-這些屬性設定為部署至本機 AEM 執行個體，這是開發人員最常進行的建置。 請注意，有一些屬性要部署至作者實例以及發佈執行個體。 這也是認證設定為使用 AEM 執行個體進行驗證的地方。 已使用預設 `admin:admin` 認證。
+這些屬性設定為部署至本機 AEM 執行個體，這是開發人員最常進行的建置。 請注意，有一些屬性要部署至作者實例以及發佈執行個體。 這也是設定認證以便向 AEM 執行個體驗證的地方。 已使用預設 `admin:admin` 認證。
 
 設定這些屬性以便在部署至更高層級的環境時，可以覆寫它們。 如此一來，POM 檔案就不需要變更，但可透過命令列參數覆寫 `aem.host` 和 `sling.password` 等變數：
 

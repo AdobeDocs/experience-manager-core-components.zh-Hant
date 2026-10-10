@@ -4,38 +4,53 @@ description: 搭配使用 Adobe Client Data Layer 與核心元件
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+TQID: 'https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
+    internal-label: Edge Delivery Services
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
   - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
   - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1024'
 ht-degree: 100%
-
 ---
-
 # 搭配使用 Adobe Client Data Layer 與核心元件 {#data-layer-core-components}
 
 「Adobe Client Data Layer」的目標是提供標準化方法，公開和存取任何指令碼的任何資料類型，以減少檢測網站所需的工作量。
 
 「Adobe Client Data Layer」不受平台限制，但已完全整合至「核心元件」，以與 AEM 搭配使用。
 
-和「核心元件」一樣，「Adobe Client Data Layer」的程式碼可在 GitHub 與其開發人員文件中取得。 本文件概述「核心元件」與「資料層」的互動方式，但完整技術詳細資訊將遞延至 GitHub 文件。
+和「核心元件」一樣，「Adobe Client Data Layer」的程式碼可在 GitHub 與其開發人員文件中取得。 本文件概述「核心元件」與「資料層」的互動方式，但完整的技術詳細資訊請參閱 GitHub 文件。
 
 >[!TIP]
 >
@@ -112,7 +127,7 @@ ht-degree: 100%
 
 ### 元件/容器項目結構描述 {#item}
 
-元件/容器項目結構描述用於以下元件中：
+元件/容器項目結構描述用於以下元件：
 
 * [階層連結](/help/components/breadcrumb.md)
 * [按鈕](/help/components/button.md)

@@ -4,24 +4,37 @@ description: 了解如何透過 OSGi 套件組合將元件指令碼部署至 Ado
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
-TQID: https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0
+TQID: 'https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Metadata
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: '416'
 ht-degree: 100%
-
 ---
-
 # 預先編譯的套件指令碼 {#precompiled-bundled-scripts}
 
 AEM as a Cloud Service 支援將 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hant#code-packages-%2F-osgi-bundles) 元件指令碼部署為預先編譯的套件指令碼。 如此一來，開發人員就能在建置階段預先編譯指令碼，並將這些指令碼封裝為 OSGi 套件組合。
