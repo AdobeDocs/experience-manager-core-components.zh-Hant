@@ -4,22 +4,27 @@ description: 內容AI 搜尋元件可為您的網站訪客提供可產生的AI�
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 15%
-
 ---
-
 
 # 內容AI 搜尋元件 {#content-ai-search-component}
 
@@ -29,7 +34,7 @@ ht-degree: 15%
 
 ## 用途 {#usage}
 
-內容AI 搜尋元件可讓訪客直接從頁面搜尋[內容Source](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)，並可選擇檢視由人工智慧產生的產生結果摘要。 它將標準全文/語意搜尋方塊與可切換的&#x200B;**顯示AI產生的摘要**&#x200B;面板相結合，該面板由AEM Content AI提供技術支援。
+內容AI 搜尋元件可讓訪客直接從頁面搜尋[內容Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)，並可選擇檢視由人工智慧產生的產生結果摘要。 它將標準全文/語意搜尋方塊與可切換的&#x200B;**顯示AI產生的摘要**&#x200B;面板相結合，該面板由AEM Content AI提供技術支援。
 
 [編輯對話方塊](#edit-dialog)可讓內容作者定義搜尋的內容範圍、搜尋行為和產生式設定。 沒有設計對話方塊，因為範本層級沒有可用的設定。
 
@@ -39,13 +44,16 @@ ht-degree: 15%
 
 ## 版本和相容性 {#version-and-compatibility}
 
-內容AI 搜尋元件的目前版本是v1，此版本隨2026年7月的核心元件發行版本2.32.0的發佈引入，說明見本文。
+內容AI 搜尋元件的目前版本是v2，此版本隨2026年10月的核心元件發行版本2.33.0的發佈引入，具體說明見本文。
 
 下表詳細說明該元件的所有支援版本、與元件版本相容的 AEM 版本，以及舊版文件的連結。
 
-| 元件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | 進行中 |
+| 元件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0及以上* | 6.5 GA* | 相容 |
+| [v1](/help/components/v1/ai-search.md) | - | - | 相容 |
+
+*AEM 6.5和6.5 LTS對內容AI 搜尋元件的支援僅限Adobe Managed Services (AMS)。
 
 如需核心元件版本的詳細資訊，請參閱檔案[核心元件版本。](/help/versions.md)
 
@@ -55,7 +63,7 @@ ht-degree: 15%
 
 ## 技術詳細資訊 {#technical-details}
 
-在GitHub上可找到有關內容AI 搜尋元件[的最新技術檔案。](https://adobe.com/go/aem_cmp_tech_ai_search_v1_tw)
+在GitHub上可找到有關內容AI 搜尋元件[的最新技術檔案。](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
@@ -68,8 +76,8 @@ ht-degree: 15%
 ![編輯對話方塊的內容範圍標籤](/help/assets/content-ai-search-edit-content-scope.png)
 
 * **ID** — 此選項可讓您控制HTML和[資料層](/help/developing/data-layer/overview.md)中元件的唯一識別碼。
-  * 如果留空，則會自動產生唯一識別碼，您可以透過檢查得出的頁面找到該 ID。
-  * 若已指定 ID，則作者應確保其為唯一識別碼。
+  * 如果留空，則會自動為您產生唯一識別碼，您可以透過檢查產生的頁面找到該 ID。
+  * 若已指定 ID，則作者應負責確保其為不重複。
   * 變更該 ID 會對 CSS、JS 和「資料層」追蹤造成影響。
 * **內容Source型別** — 此欄位定義內容來源的型別。 選取型別會使用相符的來源填入&#x200B;**內容Source**&#x200B;下拉式清單。
   * **ACQUISITION** — 用於透過抓取/贏取管道索引的公開、匿名存取來源的預設值
@@ -78,7 +86,7 @@ ht-degree: 15%
   * **自訂** — 在AEM自己的擷取管道外部註冊的來源
 * **內容來源** — 這會定義此元件搜尋的內容Source。
   * 可用專案符合已存在且&#x200B;**可用**&#x200B;的內容來源，也符合&#x200B;**內容Source型別**&#x200B;中設定的型別
-  * 如需詳細資訊，請參閱檔案[設定和管理您的Content AI來源](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)。
+  * 如需詳細資訊，請參閱檔案[設定和管理您的Content AI來源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)。
 
 ### 搜尋行為標籤 {#search-behavior}
 

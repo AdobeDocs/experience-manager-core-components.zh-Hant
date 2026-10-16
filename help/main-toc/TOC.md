@@ -5,20 +5,18 @@ breadcrumb-title: 核心元件指南
 feature: Core Components
 user-guide-description: 針對傳統 AEM 專案，使用可擴充的核心元件，讓作者輕鬆建立內容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
-
+source-wordcount: '445'
+ht-degree: 96%
 ---
-
 
 # AEM 核心元件說明 {#using}
 
 + [核心元件簡介](/help/introduction.md)
 + [回應式設計](/help/responsive.md)
 + [成功的路徑](/help/developing/success.md)
-+ [元件庫](https://adobe.com/go/aem_cmp_library_tw)
++ [元件庫](https://adobe.com/go/aem_cmp_library)
 + [版本](/help/versions.md)
 + 開始使用 {#get-started}
   + [使用核心元件編寫](/help/get-started/authoring.md)
@@ -71,12 +69,13 @@ ht-degree: 97%
     + [頁面 (v1)](/help/components/v1/page-v1.md)
     + [Teaser (v1)](/help/components/v1/teaser.md)
     + [快速搜尋 (v1)](/help/components/v1/quick-search.md)
+    + [內容AI 搜尋](/help/components/v1/ai-search.md)
     + [文字 (v1)](/help/components/v1/text-v1.md)
     + [標題 (v1)](/help/components/v1/title-v1.md)
     + v1 表單元件 {#v1-forms}
       + [表單按鈕 (v1)](/help/components/v1/form-button-v1.md)
       + [表單容器 (v1)](/help/components/v1/form-container-v1.md)
-      + [已隱藏的表單 (v1)](/help/components/v1/form-hidden-v1.md)
+      + [隱藏表單 (v1)](/help/components/v1/form-hidden-v1.md)
       + [表單選項 (v1)](/help/components/v1/form-options-v1.md)
       + [表單文字 (v1)](/help/components/v1/form-text-v1.md)
   + v2 元件 {#v2-components}
@@ -131,7 +130,7 @@ ht-degree: 97%
     + [自適應表單選項按鈕](/help/adaptive-forms/components/radio-button.md)
     + [自適應表單重設按鈕](/help/adaptive-forms/components/reset-button.md)
     + {hide-from-toc}[自適應表單檢閱](/help/adaptive-forms/components/review.md)
-    + [自適應表單手寫簽名](/help/adaptive-forms/components/scribble-signature.md)
+    + [自適應表單塗寫簽名](/help/adaptive-forms/components/scribble-signature.md)
     + [自適應表單提交按鈕](/help/adaptive-forms/components/submit-button.md)
     + [自適應表單切換](/help/adaptive-forms/components/adaptive-form-switch.md)
     + [自適應表單電話](/help/adaptive-forms/components/phone.md)
@@ -147,8 +146,8 @@ ht-degree: 97%
   + {hide-from-toc}[啟用文字輸入驗證模式](/help/adaptive-forms/enable-validation-patterns.md)
 + 開發 {#developing}
   + [開發核心元件](/help/developing/overview.md)
-  + [成功的路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hant)
-  + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hant)
+  + [成功的路徑](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+  + [WKND 開發人員教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [自訂核心元件](/help/developing/customizing.md)
   + [元件指引](/help/developing/guidelines.md)
   + [AMP 支援](/help/developing/amp.md)
