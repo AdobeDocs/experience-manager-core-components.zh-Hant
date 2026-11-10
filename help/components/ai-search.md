@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '801'
 ht-degree: 15%
 ---
 
@@ -102,13 +102,13 @@ ht-degree: 15%
 
 ### 產生式搜尋標籤 {#generative-search}
 
-![編輯對話方塊的[產生式搜尋]索引標籤](/help/assets/content-ai-search-edit-generative-search.png)
+![編輯對話方塊的[產生式搜尋]索引標籤](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **向訪客顯示產生式摘要切換** — 取消勾選時，訪客無法變更是否顯示AI摘要。
+* **向訪客顯示AI模式索引標籤** — 取消勾選時，不會顯示索引標籤列，且永遠不會呼叫產生式搜尋API。
+  * 訪客只會看到純搜尋結果檢視。
   * 預設值為啟用。
-* **依預設顯示產生摘要** — 此選項會控制AI產生之摘要的訪客對向切換的預設狀態。
+* **當AI回應失敗時顯示重試按鈕** - AI模式索引標籤一律會在失敗時顯示錯誤訊息；此選項只有在重試按鈕旁邊顯示時才會控制。
   * 預設值為啟用。
-* **GenSearch錯誤遞補** — 定義搜尋應該如何行為或錯誤。
-  * **只顯示結果（隱藏錯誤）** — 如果發生錯誤，則只顯示傳回的結果，不顯示錯誤和不重試按鈕。 這是預設值。
-  * **顯示錯誤並重試** — 如果出現錯誤，請使用重試按鈕顯示錯誤。
-  * **僅顯示錯誤訊息** — 如果有錯誤，則僅顯示錯誤訊息，不顯示任何結果。
+* **免責宣告文字** — 此文字顯示在AI模式標籤上的產生式摘要下方。
+  * 留空（預設）以使用預設免責宣告。
+
