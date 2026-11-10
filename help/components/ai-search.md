@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '801'
 ht-degree: 15%
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 15%
 
 ## 用途 {#usage}
 
-內容AI 搜尋元件可讓訪客直接從頁面搜尋[內容Source](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)，並可選擇檢視由人工智慧產生的產生結果摘要。 它將標準全文/語意搜尋方塊與可切換的&#x200B;**顯示AI產生的摘要**&#x200B;面板相結合，該面板由AEM Content AI提供技術支援。
+內容AI 搜尋元件可讓訪客直接從頁面搜尋[內容Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)，並可選擇檢視由人工智慧產生的產生結果摘要。 它將標準全文/語意搜尋方塊與可切換的&#x200B;**顯示AI產生的摘要**&#x200B;面板相結合，該面板由AEM Content AI提供技術支援。
 
 [編輯對話方塊](#edit-dialog)可讓內容作者定義搜尋的內容範圍、搜尋行為和產生式設定。 沒有設計對話方塊，因為範本層級沒有可用的設定。
 
@@ -63,7 +63,7 @@ ht-degree: 15%
 
 ## 技術詳細資訊 {#technical-details}
 
-在GitHub上可找到有關內容AI 搜尋元件[的最新技術檔案。](https://adobe.com/go/aem_cmp_tech_ai_search_v2_tw)
+在GitHub上可找到有關內容AI 搜尋元件[的最新技術檔案。](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 如需開發「核心元件」的進一步詳細資訊，請參閱[核心元件開發人員文件。](/help/developing/overview.md)
 
@@ -86,7 +86,7 @@ ht-degree: 15%
   * **自訂** — 在AEM自己的擷取管道外部註冊的來源
 * **內容來源** — 這會定義此元件搜尋的內容Source。
   * 可用專案符合已存在且&#x200B;**可用**&#x200B;的內容來源，也符合&#x200B;**內容Source型別**&#x200B;中設定的型別
-  * 如需詳細資訊，請參閱檔案[設定和管理您的Content AI來源](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-content-ai/using/contentsources)。
+  * 如需詳細資訊，請參閱檔案[設定和管理您的Content AI來源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)。
 
 ### 搜尋行為標籤 {#search-behavior}
 
@@ -102,13 +102,13 @@ ht-degree: 15%
 
 ### 產生式搜尋標籤 {#generative-search}
 
-![編輯對話方塊的[產生式搜尋]索引標籤](/help/assets/content-ai-search-edit-generative-search.png)
+![編輯對話方塊的[產生式搜尋]索引標籤](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **向訪客顯示產生式摘要切換** — 取消勾選時，訪客無法變更是否顯示AI摘要。
+* **向訪客顯示AI模式索引標籤** — 取消勾選時，不會顯示索引標籤列，且永遠不會呼叫產生式搜尋API。
+  * 訪客只會看到純搜尋結果檢視。
   * 預設值為啟用。
-* **依預設顯示產生摘要** — 此選項會控制AI產生之摘要的訪客對向切換的預設狀態。
+* **當AI回應失敗時顯示重試按鈕** - AI模式索引標籤一律會在失敗時顯示錯誤訊息；此選項只有在重試按鈕旁邊顯示時才會控制。
   * 預設值為啟用。
-* **GenSearch錯誤遞補** — 定義搜尋應該如何行為或錯誤。
-  * **只顯示結果（隱藏錯誤）** — 如果發生錯誤，則只顯示傳回的結果，不顯示錯誤和不重試按鈕。 這是預設值。
-  * **顯示錯誤並重試** — 如果出現錯誤，請使用重試按鈕顯示錯誤。
-  * **僅顯示錯誤訊息** — 如果有錯誤，則僅顯示錯誤訊息，不顯示任何結果。
+* **免責宣告文字** — 此文字顯示在AI模式標籤上的產生式摘要下方。
+  * 留空（預設）以使用預設免責宣告。
+
